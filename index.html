@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Jason D’s Vision — France</title>
-  <!-- preview-build: 2026-09-23T22:15 Europe/Paris fr-161-176 -->
+  <!-- preview-build: 2026-09-23T22:30 Europe/Paris fr-161-176 two-format cards -->
   <style>
     :root {
       --bg: #0f1115;
@@ -76,13 +76,31 @@
       background: var(--card); border: 1px solid var(--line); border-radius: 14px;
       overflow: hidden; display: flex; flex-direction: column;
     }
+    .preview { position: relative; }
+    .fmt-tabs {
+      position: absolute; top: 1.05rem; left: 1.05rem; display: flex; gap: 6px; z-index: 2;
+    }
+    .fmt-tab {
+      background: rgba(15, 17, 21, 0.82); color: var(--text); border: 1px solid var(--line);
+      border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; line-height: 1.2; cursor: pointer;
+    }
+    .fmt-tab:hover { border-color: var(--muted); }
+    .fmt-tab.is-active {
+      background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700;
+    }
+    .view-affordance {
+      position: absolute; top: 1.05rem; right: 1.05rem; z-index: 2;
+      padding: 5px 10px; border: 1px solid rgba(255, 255, 255, 0.35); border-radius: 999px;
+      background: rgba(15, 17, 21, 0.72); color: var(--text); font-size: 11px; pointer-events: none;
+    }
     .thumb {
       display: block; padding: 0.65rem 0.65rem 0; background: #12151c; line-height: 0;
     }
     .thumb img {
       width: 100%; height: auto; display: block; border-radius: 8px; background: #000;
-      aspect-ratio: 16 / 9; object-fit: cover;
+      aspect-ratio: 16 / 9; object-fit: contain;
     }
+    .thumb.tall img { aspect-ratio: 4 / 5; }
     .card-body { padding: 1rem 1rem 1.15rem; display: flex; flex-direction: column; gap: 0.35rem; flex: 1; }
     .entry-id { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
     .status-row { display: flex; flex-wrap: wrap; gap: 0.45rem; align-items: center; }
@@ -2632,6 +2650,17 @@
       opt.value = r; opt.textContent = r; region.appendChild(opt);
     }
 
+    function esc(value) {
+      return String(value ?? "").replace(/[&<>"']/g, (ch) => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      }[ch]));
+    }
+    function fileName(url) {
+      const path = String(url).split("?")[0];
+      const slash = path.lastIndexOf("/");
+      return slash >= 0 ? path.slice(slash + 1) : path;
+    }
+
     function render() {
       const query = q.value.trim().toLowerCase();
       const reg = region.value;
@@ -2647,26 +2676,59 @@
       for (const s of filtered) {
         const card = document.createElement('article');
         card.className = 'card';
+        const file16 = s.file_16x9;
+        const file45 = s.file_4x5;
         card.innerHTML = `
-          <a class="thumb" href="${s.file_16x9}" target="_blank" rel="noopener">
-            <img src="${s.file_16x9}" alt="${s.alt_text}" loading="lazy" />
-          </a>
+          <div class="preview">
+            <div class="fmt-tabs" role="group" aria-label="Image size">
+              <button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>
+              <button type="button" class="fmt-tab" data-format="4x5" aria-pressed="false">4:5</button>
+            </div>
+            <a class="thumb" href="${esc(file16)}" target="_blank" rel="noopener">
+              <img src="${esc(file16)}" alt="${esc(s.alt_text)}" loading="lazy" data-src-16="${esc(file16)}" data-src-45="${esc(file45)}" />
+              <span class="view-affordance">View image</span>
+            </a>
+          </div>
           <div class="card-body">
             <div class="status-row">
-              <div class="entry-id">${s.entry_id}</div>
-              <span class="status ${(s.approval_status || 'Candidate').toLowerCase()}">${s.approval_status || 'Candidate'}</span>
+              <div class="entry-id">${esc(s.entry_id)}</div>
+              <span class="status ${esc((s.approval_status || 'Candidate').toLowerCase())}">${esc(s.approval_status || 'Candidate')}</span>
             </div>
-            <h3 class="caption">${s.caption}</h3>
-            <p class="scenario">Scenario: ${s.scenario_label}</p>
-            <p class="composition">${s.composition}</p>
-            ${s.description ? `<p class="detail">${s.description}</p>` : ""}
+            <h3 class="caption">${esc(s.caption)}</h3>
+            <p class="scenario">Scenario: ${esc(s.scenario_label)}</p>
+            <p class="composition">${esc(s.composition)}</p>
+            ${s.description ? `<p class="detail">${esc(s.description)}</p>` : ""}
             <div class="actions">
               <a class="badge" href="#license">Free · no credit needed</a>
+              <a class="download" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>
+              <a class="download" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>
             </div>
           </div>`;
         grid.appendChild(card);
       }
     }
+    grid.addEventListener('click', (event) => {
+      const tab = event.target.closest('.fmt-tab');
+      if (!tab) return;
+      event.preventDefault();
+      const card = tab.closest('.card');
+      if (!card) return;
+      const fmt = tab.dataset.format;
+      card.querySelectorAll('.fmt-tab').forEach((item) => {
+        const on = item === tab;
+        item.classList.toggle('is-active', on);
+        item.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+      const link = card.querySelector('a.thumb');
+      const img = link && link.querySelector('img');
+      if (!img || !link) return;
+      const next = fmt === '4x5' ? img.getAttribute('data-src-45') : img.getAttribute('data-src-16');
+      if (next) {
+        img.src = next;
+        link.href = next;
+      }
+      link.classList.toggle('tall', fmt === '4x5');
+    });
     q.addEventListener('input', render);
     region.addEventListener('change', render);
     clearBtn.addEventListener('click', () => { q.value = ''; region.value = ''; render(); });
