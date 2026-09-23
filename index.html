@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jason D’s Vision — France (preview)</title>
-  <!-- preview-build: 2026-09-23T08:55ET fr-001-004 -->
+  <title>Jason D’s Vision — France</title>
+  <!-- preview-build: 2026-09-23T08:58ET title+status nits -->
   <style>
     :root {
       --bg: #0f1115;
@@ -89,6 +89,13 @@
     .previews .p45 img { aspect-ratio: 4 / 5; object-fit: cover; }
     .card-body { padding: 1rem 1rem 1.15rem; display: flex; flex-direction: column; gap: 0.35rem; flex: 1; }
     .entry-id { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
+    .status-row { display: flex; flex-wrap: wrap; gap: 0.45rem; align-items: center; }
+    .status {
+      display: inline-block; font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase;
+      border-radius: 999px; padding: 0.2rem 0.55rem; border: 1px solid var(--line); color: var(--muted);
+    }
+    .status.candidate { color: var(--muted); border-color: var(--line); }
+    .status.approved { color: var(--accent); border-color: var(--accent); }
     .caption { font-size: 1.05rem; font-weight: 600; margin: 0; }
     .scenario, .composition { font-size: 0.85rem; color: var(--muted); margin: 0; }
     .actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.85rem; align-items: center; }
@@ -158,6 +165,7 @@
         composition: "Iron lattice tower from Champ de Mars with lawn leading lines · AI-generated artistic interpretation",
         alt_text: "AI-generated artistic interpretation of the Eiffel Tower in Paris under clear afternoon light",
         file_16x9: "assets/fr-01-001-16x9.png?v=batch001",
+        approval_status: "Candidate",
         file_4x5: "assets/fr-01-001-4x5.png?v=batch001"
       },
       {
@@ -170,6 +178,7 @@
         composition: "Glass pyramid centered in Cour Napoléon with palace wings framing · AI-generated artistic interpretation",
         alt_text: "AI-generated artistic interpretation of the Louvre Pyramid in Paris under clear afternoon light",
         file_16x9: "assets/fr-01-002-16x9.png?v=batch001",
+        approval_status: "Candidate",
         file_4x5: "assets/fr-01-002-4x5.png?v=batch001"
       },
       {
@@ -182,6 +191,7 @@
         composition: "Gothic west façade from the parvis with twin towers and restored spire · AI-generated artistic interpretation",
         alt_text: "AI-generated artistic interpretation of Notre-Dame Cathedral in Paris under clear afternoon light",
         file_16x9: "assets/fr-01-003-16x9.png?v=batch001",
+        approval_status: "Candidate",
         file_4x5: "assets/fr-01-003-4x5.png?v=batch001"
       },
       {
@@ -194,6 +204,7 @@
         composition: "Triumphal arch centered on the Champs-Élysées avenue axis · AI-generated artistic interpretation",
         alt_text: "AI-generated artistic interpretation of the Arc de Triomphe in Paris under clear afternoon light",
         file_16x9: "assets/fr-01-004-16x9.png?v=batch001",
+        approval_status: "Candidate",
         file_4x5: "assets/fr-01-004-4x5.png?v=batch001"
       }
     ];
@@ -232,7 +243,10 @@
             <figure class="p45"><img src="${s.file_4x5}" alt="${s.alt_text} (4:5)" loading="lazy" /></figure>
           </div>
           <div class="card-body">
-            <div class="entry-id">${s.entry_id}</div>
+            <div class="status-row">
+              <div class="entry-id">${s.entry_id}</div>
+              <span class="status ${(s.approval_status || 'Candidate').toLowerCase()}">${s.approval_status || 'Candidate'}</span>
+            </div>
             <h3 class="caption">${s.caption}</h3>
             <p class="scenario">Scenario: ${s.scenario_label}</p>
             <p class="composition">${s.composition}</p>
