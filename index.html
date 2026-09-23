@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Jason D’s Vision — France</title>
-  <!-- preview-build: 2026-09-23T09:35ET fr-021-024 denser-idf -->
+  <!-- preview-build: 2026-09-23T10:50ET germany-parity-single-16x9 -->
   <style>
     :root {
       --bg: #0f1115;
@@ -76,17 +76,13 @@
       background: var(--card); border: 1px solid var(--line); border-radius: 14px;
       overflow: hidden; display: flex; flex-direction: column;
     }
-    .previews {
-      display: grid; grid-template-columns: 1.6fr 1fr; gap: 0.45rem; padding: 0.65rem 0.65rem 0;
-      background: #12151c;
+    .thumb {
+      display: block; padding: 0.65rem 0.65rem 0; background: #12151c; line-height: 0;
     }
-    .previews figure { margin: 0; }
-    .previews img {
+    .thumb img {
       width: 100%; height: auto; display: block; border-radius: 8px; background: #000;
-      aspect-ratio: auto; object-fit: cover;
+      aspect-ratio: 16 / 9; object-fit: cover;
     }
-    .previews .p16 img { aspect-ratio: 16 / 9; object-fit: cover; }
-    .previews .p45 img { aspect-ratio: 4 / 5; object-fit: cover; }
     .card-body { padding: 1rem 1rem 1.15rem; display: flex; flex-direction: column; gap: 0.35rem; flex: 1; }
     .entry-id { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
     .status-row { display: flex; flex-wrap: wrap; gap: 0.45rem; align-items: center; }
@@ -1292,10 +1288,9 @@
         const card = document.createElement('article');
         card.className = 'card';
         card.innerHTML = `
-          <div class="previews">
-            <figure class="p16"><img src="${s.file_16x9}" alt="${s.alt_text} (16:9)" loading="lazy" /></figure>
-            <figure class="p45"><img src="${s.file_4x5}" alt="${s.alt_text} (4:5)" loading="lazy" /></figure>
-          </div>
+          <a class="thumb" href="${s.file_16x9}" target="_blank" rel="noopener">
+            <img src="${s.file_16x9}" alt="${s.alt_text}" loading="lazy" />
+          </a>
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">${s.entry_id}</div>
@@ -1305,8 +1300,6 @@
             <p class="scenario">Scenario: ${s.scenario_label}</p>
             <p class="composition">${s.composition}</p>
             <div class="actions">
-              <a class="download" href="${s.file_16x9}" download>Download 16:9</a>
-              <a class="download" href="${s.file_4x5}" download>Download 4:5</a>
               <a class="badge" href="#license">Free · no credit needed</a>
             </div>
           </div>`;
