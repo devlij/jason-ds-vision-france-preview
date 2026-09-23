@@ -6,10 +6,9 @@ The live catalogue this build continues is [Jason D’s Vision — France](https
 
 ## What this build adds
 
-- **FR-01-001 through FR-01-124** stay in sequence, with no gaps. Their 16:9 card images still load from the live France gallery. Both master sizes remain linked in the scene data.
-- **FR-01-009 Valensole** is a ground-level replacement. The aerial version was rejected. The new masters show harvested lavender stubble rows, the Plateau de Valensole behind them, and the 18:05 late-September scenario. Status stays Candidate.
-- **FR-01-125 to FR-01-128** are Candidate scenes: Palais des Ducs in Dijon, Château d’Angers, the Belfry of Arras, and Les Saintes harbor at Terre-de-Haut.
-- **FR-01-129 to FR-01-144** are the next Candidate scenes. They start with overseas and thin regions: Pointe des Châteaux, Rocher du Diamant, Piton de la Fournaise (no lava; vigilance bulletin), Île du Diable from Île Royale, Plage de Moya, and Gustavia in a thunderstorm, then Normandy American Cemetery, Yvoire, Mer de Glace, Cheverny, Saint-Jean-de-Luz, the Saline Royale, Cap Blanc-Nez, Porte Saint-Michel, the Calanques de Piana, and Metz Cathedral with dark windows after the published 19:00 close. Each has a 1920×1080 master and an 864×1080 master in `assets/`. Status stays Candidate.
+- **FR-01-001 through FR-01-144** stay in sequence, with no gaps. Their earlier card images still load from the live France gallery where this repo does not replace the file. Both master sizes remain linked in the scene data.
+- **FR-01-145 to FR-01-160** are the next Candidate scenes. They open four collectivities that had no scene yet: Fort Louis at Marigot, Île aux Marins, Mount Otemanu from Matira, and Baie de Kanuméra. They add a second scene each for Martinique, La Réunion, Guyane, Mayotte, and Saint-Barthélemy, then raise the thinnest metropolitan regions and Corsica: Fontenay, Nonza, Laon Cathedral, Le Mans Cathedral, the Mulberry harbour at Arromanches, the Lion of Belfort, and Erbalunga. Each has a 1920×1080 master and an 864×1080 master in `assets/`. Status stays Candidate.
+- Pointe du Hoc was not used. The American Battle Monuments Commission says that site is in restoration until mid-2027.
 - Region filter: `Brittany` is folded into `Bretagne`, and the two apostrophe spellings of Provence-Alpes-Côte d’Azur are one option.
 - Each card has one 16:9 thumbnail that opens the full 16:9 file in a new tab, plus a short descriptive paragraph under the composition line. There is no 4:5 preview, download button, size toggle, or lightbox.
 
