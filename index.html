@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jason D’s Vision — France (preview)</title>
+  <!-- preview-build: 2026-09-23T08:55ET fr-001-004 -->
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card: #1a1e26;
+      --text: #f2f4f8;
+      --muted: #a8b0bf;
+      --accent: #e8c47c;
+      --line: #2a3140;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    a { color: var(--accent); }
+    header, main, footer, .promise, #license {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1.25rem 1.25rem;
+    }
+    .pointer {
+      font-size: 0.95rem;
+      color: var(--muted);
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 1rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 650;
+      margin: 1.25rem 0 0.35rem;
+      letter-spacing: 0.01em;
+    }
+    .country-switch {
+      margin: 0.15rem 0 0.85rem;
+      font-size: 0.95rem;
+      color: var(--muted);
+      letter-spacing: 0.01em;
+    }
+    .country-switch a { color: var(--accent); text-decoration: none; }
+    .country-switch a:hover { text-decoration: underline; }
+    .country-switch [aria-current="page"] { color: var(--text); font-weight: 600; }
+    .country-switch .sep { margin: 0 0.45rem; color: var(--line); }
+    .sub { color: var(--muted); margin: 0 0 1.5rem; }
+    .promise h2, #license h2 { font-size: 1.2rem; margin-top: 2rem; }
+    .promise p, #license p { color: var(--muted); max-width: 70ch; }
+    .toolbar {
+      display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; margin: 1.5rem 0 1rem;
+    }
+    .toolbar input, .toolbar select {
+      background: var(--card); color: var(--text); border: 1px solid var(--line);
+      border-radius: 8px; padding: 0.55rem 0.75rem; font: inherit;
+    }
+    .toolbar input { flex: 1 1 220px; min-width: 180px; }
+    .toolbar button {
+      background: transparent; color: var(--muted); border: 1px solid var(--line);
+      border-radius: 8px; padding: 0.55rem 0.9rem; cursor: pointer; font: inherit;
+    }
+    .toolbar button:hover { color: var(--text); border-color: var(--muted); }
+    #result-count { color: var(--muted); font-size: 0.9rem; }
+    #no-results { display: none; color: var(--muted); padding: 2rem 0; text-align: center; }
+    .grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.25rem; margin-bottom: 2rem;
+    }
+    .card {
+      background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+      overflow: hidden; display: flex; flex-direction: column;
+    }
+    .previews {
+      display: grid; grid-template-columns: 1.6fr 1fr; gap: 0.45rem; padding: 0.65rem 0.65rem 0;
+      background: #12151c;
+    }
+    .previews figure { margin: 0; }
+    .previews img {
+      width: 100%; height: auto; display: block; border-radius: 8px; background: #000;
+      aspect-ratio: auto; object-fit: cover;
+    }
+    .previews .p16 img { aspect-ratio: 16 / 9; object-fit: cover; }
+    .previews .p45 img { aspect-ratio: 4 / 5; object-fit: cover; }
+    .card-body { padding: 1rem 1rem 1.15rem; display: flex; flex-direction: column; gap: 0.35rem; flex: 1; }
+    .entry-id { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
+    .caption { font-size: 1.05rem; font-weight: 600; margin: 0; }
+    .scenario, .composition { font-size: 0.85rem; color: var(--muted); margin: 0; }
+    .actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.85rem; align-items: center; }
+    .actions a.download {
+      display: inline-block; text-decoration: none; background: #243049; color: var(--text);
+      border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
+    }
+    .actions a.download:hover { border-color: var(--accent); }
+    .badge {
+      display: inline-block; font-size: 0.75rem; color: var(--bg); background: var(--accent);
+      border-radius: 999px; padding: 0.25rem 0.6rem; text-decoration: none; font-weight: 600;
+    }
+    footer {
+      border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; padding-bottom: 2.5rem;
+    }
+    footer .sig { color: var(--text); font-weight: 600; }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="pointer">Every image is free to use — no credit required. See <a href="#license">license</a> below.</p>
+    <h1>Jason D’s Vision — France</h1>
+    <nav class="country-switch" aria-label="Country galleries">
+      <span aria-current="page">France</span><span class="sep" aria-hidden="true">|</span><a href="https://muse.ai/s/jason-d-s-vision-gallery-bv6lxwcfmixal">Germany</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-italy-preview/">Italy</a>
+    </nav>
+    <p class="sub">Preview gallery · Country → Region → City · Merge-ready for the canonical library</p>
+  </header>
+
+  <section class="promise">
+    <h2>Our promise to creators</h2>
+    <p>Beautiful, realistic imagery should never stand between a creator and their work. Everything in this gallery is free to use — for any purpose, forever, with no credit required. We make these images so the people doing the work always have something stunning to build on.</p>
+    <p><a href="#license">Read the full license</a></p>
+  </section>
+
+  <main>
+    <div class="toolbar" role="search">
+      <input id="q" type="search" placeholder="Search by city, site, or region" aria-label="Search by city, site, or region" />
+      <select id="region" aria-label="Filter by region">
+        <option value="">All regions</option>
+      </select>
+      <button type="button" id="clear">Clear</button>
+      <span id="result-count"></span>
+    </div>
+    <div id="no-results">No scenes match that search.</div>
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <section id="license">
+    <h2>License</h2>
+    <p>Every image in Jason D’s Vision is free to use for any purpose — personal or commercial. No credit is required. If you’d like to credit, “Jason D’s Vision” is appreciated, but it’s entirely your choice.</p>
+    <p>Jason D’s Vision waives its own rights in these images. This doesn’t waive anyone else’s rights: if an image happens to include a trademark, logo, or other third-party material, those rights still belong to their owners. All images are AI-generated artistic interpretations, not photographs, and use of an image doesn’t imply endorsement by Jason D’s Vision.</p>
+  </section>
+
+  <footer>
+    <p>AI-generated artistic interpretations · <span class="sig">Jason D’s Vision</span></p>
+  </footer>
+
+  <script>
+    const SCENES = [
+      {
+        entry_id: "FR-01-001",
+        country: "France",
+        region: "Île-de-France",
+        city: "Paris",
+        caption: "Eiffel Tower, Paris",
+        scenario_label: "23 September 2026 · 14:50 Europe/Paris",
+        composition: "Iron lattice tower from Champ de Mars with lawn leading lines · AI-generated artistic interpretation",
+        alt_text: "AI-generated artistic interpretation of the Eiffel Tower in Paris under clear afternoon light",
+        file_16x9: "assets/fr-01-001-16x9.png?v=batch001",
+        file_4x5: "assets/fr-01-001-4x5.png?v=batch001"
+      },
+      {
+        entry_id: "FR-01-002",
+        country: "France",
+        region: "Île-de-France",
+        city: "Paris",
+        caption: "Louvre Pyramid, Paris",
+        scenario_label: "23 September 2026 · 14:51 Europe/Paris",
+        composition: "Glass pyramid centered in Cour Napoléon with palace wings framing · AI-generated artistic interpretation",
+        alt_text: "AI-generated artistic interpretation of the Louvre Pyramid in Paris under clear afternoon light",
+        file_16x9: "assets/fr-01-002-16x9.png?v=batch001",
+        file_4x5: "assets/fr-01-002-4x5.png?v=batch001"
+      },
+      {
+        entry_id: "FR-01-003",
+        country: "France",
+        region: "Île-de-France",
+        city: "Paris",
+        caption: "Notre-Dame Cathedral, Paris",
+        scenario_label: "23 September 2026 · 14:52 Europe/Paris",
+        composition: "Gothic west façade from the parvis with twin towers and restored spire · AI-generated artistic interpretation",
+        alt_text: "AI-generated artistic interpretation of Notre-Dame Cathedral in Paris under clear afternoon light",
+        file_16x9: "assets/fr-01-003-16x9.png?v=batch001",
+        file_4x5: "assets/fr-01-003-4x5.png?v=batch001"
+      },
+      {
+        entry_id: "FR-01-004",
+        country: "France",
+        region: "Île-de-France",
+        city: "Paris",
+        caption: "Arc de Triomphe, Paris",
+        scenario_label: "23 September 2026 · 14:53 Europe/Paris",
+        composition: "Triumphal arch centered on the Champs-Élysées avenue axis · AI-generated artistic interpretation",
+        alt_text: "AI-generated artistic interpretation of the Arc de Triomphe in Paris under clear afternoon light",
+        file_16x9: "assets/fr-01-004-16x9.png?v=batch001",
+        file_4x5: "assets/fr-01-004-4x5.png?v=batch001"
+      }
+    ];
+
+    const grid = document.getElementById('grid');
+    const q = document.getElementById('q');
+    const region = document.getElementById('region');
+    const clearBtn = document.getElementById('clear');
+    const countEl = document.getElementById('result-count');
+    const noResults = document.getElementById('no-results');
+
+    const regions = [...new Set(SCENES.map(s => s.region))].sort();
+    for (const r of regions) {
+      const opt = document.createElement('option');
+      opt.value = r; opt.textContent = r; region.appendChild(opt);
+    }
+
+    function render() {
+      const query = q.value.trim().toLowerCase();
+      const reg = region.value;
+      const filtered = SCENES.filter(s => {
+        if (reg && s.region !== reg) return false;
+        if (!query) return true;
+        const hay = (s.city + ' ' + s.caption + ' ' + s.region + ' ' + s.entry_id).toLowerCase();
+        return hay.includes(query);
+      });
+      grid.innerHTML = '';
+      noResults.style.display = filtered.length ? 'none' : 'block';
+      countEl.textContent = filtered.length + ' scene' + (filtered.length === 1 ? '' : 's');
+      for (const s of filtered) {
+        const card = document.createElement('article');
+        card.className = 'card';
+        card.innerHTML = `
+          <div class="previews">
+            <figure class="p16"><img src="${s.file_16x9}" alt="${s.alt_text} (16:9)" loading="lazy" /></figure>
+            <figure class="p45"><img src="${s.file_4x5}" alt="${s.alt_text} (4:5)" loading="lazy" /></figure>
+          </div>
+          <div class="card-body">
+            <div class="entry-id">${s.entry_id}</div>
+            <h3 class="caption">${s.caption}</h3>
+            <p class="scenario">Scenario: ${s.scenario_label}</p>
+            <p class="composition">${s.composition}</p>
+            <div class="actions">
+              <a class="download" href="${s.file_16x9}" download>Download 16:9</a>
+              <a class="download" href="${s.file_4x5}" download>Download 4:5</a>
+              <a class="badge" href="#license">Free · no credit needed</a>
+            </div>
+          </div>`;
+        grid.appendChild(card);
+      }
+    }
+    q.addEventListener('input', render);
+    region.addEventListener('change', render);
+    clearBtn.addEventListener('click', () => { q.value = ''; region.value = ''; render(); });
+    render();
+  </script>
+</body>
+</html>
