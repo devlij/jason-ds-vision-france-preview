@@ -153,7 +153,7 @@
 .lb.open{display:flex}.lb figure{margin:0;max-width:94vw}.lb img{max-width:94vw;max-height:80vh;display:block;border-radius:6px}
 .lb figcaption{display:flex;justify-content:space-between;gap:16px;color:#eef1f8;font-size:14px;padding:10px 2px 0}
 .lb-count{color:#9fa9c2;white-space:nowrap}
-.lb-close,.lb-prev,.lb-next{position:absolute;background:rgba(13,19,34,.85);color:#eef1f8;border:1px solid #2a3a5c;border-radius:999px;width:46px;height:46px;font-size:20px;cursor:pointer;line-height:1}
+.lb-close,.lb-prev,.lb-next{position:absolute;background:rgba(13,19,34,.85);color:#eef1f8;border:1px solid #2a3a5c;border-radius:999px;width:46px;height:46px;font-size:20px;cursor:pointer;line-height:1}.lb-right{display:inline-flex;align-items:center;gap:10px}.lb-play{background:rgba(13,19,34,.85);color:#eef1f8;border:1px solid #2a3a5c;border-radius:999px;width:40px;height:40px;min-width:40px;font-size:16px;cursor:pointer;line-height:1}.lb-play.playing{border-color:#d4a017;color:#ffd75e;box-shadow:0 0 12px rgba(212,160,23,.45)}
 .lb-close{top:14px;right:14px}.lb-prev{left:12px;top:50%;transform:translateY(-50%)}.lb-next{right:12px;top:50%;transform:translateY(-50%)}
 @media(max-width:640px){.lb-prev{left:4px}.lb-next{right:4px}}
 </style>
@@ -5435,11 +5435,17 @@
   overlay.className='lb';overlay.setAttribute('aria-hidden','true');
   overlay.innerHTML='<button class="lb-close" aria-label="Close">&times;</button>'
     +'<button class="lb-prev" aria-label="Previous image">&#8592;</button>'
-    +'<figure><img alt=""><figcaption><span class="lb-cap"></span><span class="lb-count"></span></figcaption></figure>'
+    +'<figure><img alt=""><figcaption><span class="lb-cap"></span><span class="lb-right"><span class="lb-count"></span><button class="lb-play" aria-label="Play slideshow">&#9654;</button></span></figcaption></figure>'
     +'<button class="lb-next" aria-label="Next image">&#8594;</button>';
   document.body.appendChild(overlay);
   var img=overlay.querySelector('img'),cap=overlay.querySelector('.lb-cap'),count=overlay.querySelector('.lb-count');
+  var playBtn=overlay.querySelector('.lb-play');
   var items=[],idx=0;
+  var playing=false,timer=null,SLIDE_MS=6000;
+  function renderPlay(){playBtn.innerHTML=playing?'&#10074;&#10074;':'&#9654;';playBtn.setAttribute('aria-label',playing?'Pause slideshow':'Play slideshow');playBtn.classList.toggle('playing',playing);}
+  function stopSlide(){playing=false;if(timer){clearInterval(timer);timer=null;}renderPlay();}
+  function startSlide(){playing=true;if(timer)clearInterval(timer);timer=setInterval(function(){show(idx+1);},SLIDE_MS);renderPlay();}
+  function toggleSlide(){if(!overlay.classList.contains('open'))return;if(playing)stopSlide();else startSlide();}
   function visibleCards(){return Array.prototype.filter.call(document.querySelectorAll('.card'),function(c){return c.style.display!=='none';});}
   function show(i){
     items=visibleCards().map(function(c){
@@ -5450,19 +5456,23 @@
     idx=(i+items.length)%items.length;
     img.src=items[idx].src;img.alt=items[idx].cap;cap.textContent=items[idx].cap;
     count.textContent=(idx+1)+' / '+items.length;
+    if(playing){if(timer)clearInterval(timer);timer=setInterval(function(){show(idx+1);},SLIDE_MS);}
     overlay.classList.add('open');overlay.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';
   }
-  function hide(){overlay.classList.remove('open');overlay.setAttribute('aria-hidden','true');document.body.style.overflow='';}
+  function hide(){stopSlide();overlay.classList.remove('open');overlay.setAttribute('aria-hidden','true');document.body.style.overflow='';}
+  renderPlay();
   document.addEventListener('click',function(e){
     var a=e.target.closest?e.target.closest('a.thumb'):null;
     if(a){e.preventDefault();var cards=visibleCards();show(cards.indexOf(a.closest('.card')));return;}
     if(e.target===overlay||(e.target.closest&&e.target.closest('.lb-close')))hide();
+    else if(e.target.closest&&e.target.closest('.lb-play'))toggleSlide();
     else if(e.target.closest&&e.target.closest('.lb-prev'))show(idx-1);
     else if(e.target.closest&&e.target.closest('.lb-next'))show(idx+1);
   });
   document.addEventListener('keydown',function(e){
     if(!overlay.classList.contains('open'))return;
     if(e.key==='Escape')hide();
+    else if(e.key===' '){e.preventDefault();toggleSlide();}
     else if(e.key==='ArrowLeft')show(idx-1);
     else if(e.key==='ArrowRight')show(idx+1);
   });
