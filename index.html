@@ -121,6 +121,7 @@
     }
     .status.candidate { color: var(--muted); border-color: var(--line); }
     .status.approved { color: var(--accent); border-color: var(--accent); }
+    .qc-count { font-size: 0.85rem; color: var(--muted); margin: 0.3rem 0 0; }
     .caption { font-size: 1.05rem; font-weight: 600; margin: 0; }
     .scenario, .composition, .detail { font-size: 0.85rem; color: var(--muted); margin: 0; }
     .detail { margin-top: 0.35rem; max-width: 68ch; }
@@ -187,6 +188,7 @@
   <header>
     <p class="pointer">Every image is free to use — no credit required. See <a href="#license">license</a> below.</p>
     <h1><span class="flag" aria-hidden="true"></span>Jason D’s Vision — France</h1>
+    <p class="qc-count" id="qc-count"></p>
     <nav class="country-switch" aria-label="Country galleries">
       <span aria-current="page"><span class="flag-chip flag-fr" aria-hidden="true"></span>France</span><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-germany/"><span class="flag-chip flag-de" aria-hidden="true"></span>Germany</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-italy-preview/"><span class="flag-chip flag-it" aria-hidden="true"></span>Italy</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-spain-preview/"><span class="flag-chip flag-es" aria-hidden="true"></span>Spain</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-greece-preview/"><span class="flag-chip flag-gr" aria-hidden="true"></span>Greece</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-switzerland-preview/"><span class="flag-chip flag-ch" aria-hidden="true"></span>Switzerland</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-norway-preview/"><span class="flag-chip flag-no" aria-hidden="true"></span>Norway</a></nav>
     <p class="sub">Preview gallery · Country → Region → City · Merge-ready for the canonical library</p>
@@ -5371,6 +5373,9 @@
       grid.innerHTML = '';
       noResults.style.display = filtered.length ? 'none' : 'block';
       countEl.textContent = filtered.length + ' scene' + (filtered.length === 1 ? '' : 's');
+      const approvedN = SCENES.filter(function (x) { return x.approval_status === "Approved"; }).length;
+      const qcCountEl = document.getElementById("qc-count");
+      if (qcCountEl) { qcCountEl.textContent = approvedN + " of " + SCENES.length + " independently approved \u00b7 " + (SCENES.length - approvedN) + " awaiting QC"; }
       for (const s of filtered) {
         const card = document.createElement('article');
         card.className = 'card';
