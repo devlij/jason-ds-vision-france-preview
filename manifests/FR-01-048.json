@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is granite Intra-Muros ramparts above the Atlantic. The place named on the card is Saint-Malo ramparts, Saint-Malo, in Bretagne. Model data from Open-Meteo, retrieved 2026-09-25T14:38:59+02:00 (2026-09-25T12:38:59Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 2%, 18.8°C, wind 22.9 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Saint-Malo ramparts under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-048-16x9.png?v=batch045",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-048-4x5.png?v=batch045",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -17,5 +17,10 @@
   "weather_retrieval_local": "2026-09-25T14:38:59+02:00",
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:59+02:00 (2026-09-25T12:38:59Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 2%, 18.8°C, wind 22.9 km/h, precipitation 0.0 mm."
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:59+02:00 (2026-09-25T12:38:59Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 2%, 18.8°C, wind 22.9 km/h, precipitation 0.0 mm.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: granite Intra-Muros ramparts running along a rocky Atlantic shore with the walled old town and church spires behind, plausible tourist viewpoint, clean framing. Gate2: 1920x1080+864x1080 confirmed; on-image caption 'Saint-Malo ramparts, Saint-Malo', scenario 'Scenario: 23 September 2026 · 15:35 Europe/Paris', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact 'Jason D's Vision' signature legible on bottom gradient; Open-Meteo retrieval 2026-09-25T14:38:59+02:00 unique to this scene (no shared timestamp), scenario minute inside model-valid hour 2026-09-23T15:00 Europe/Paris, clear daylight is_day=1 consistent with the frame. Gate3: text-prompt-only lineage recorded in approvals/FR-01-048.md, no photographic inputs reported. Gate4: no identifiable people or focal logos visible; documented only, not certified. Gate5: no open blockers.",
+  "approved_at": "2026-09-25T14:32:33.137178+00:00",
+  "sha256_16x9": "6798e68f06398e8d6c501f9e523075d1c4d51f46fa93a30305953f670a113d02",
+  "sha256_4x5": "4f7da72bc4c486df358505da733e151ac93439830e224d60989c4d1dcc3b7b09"
 }
