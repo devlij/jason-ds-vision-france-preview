@@ -20,6 +20,11 @@
       "at": "2026-09-25T18:52:00.428105+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-25T19:38:05.478224+00:00",
+      "by": "Cosmo QC",
+      "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Sacre-Coeur white domes, grand staircase, equestrian statues, rose window, from below the steps; clean framing, no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Sacre-Coeur, Paris', scenario '23 September 2026 · 14:58 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-005.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: distant unidentifiable figures on steps. Gate 5: not ready."
     }
   ]
 }
