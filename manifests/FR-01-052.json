@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is genoese citadel on the headland above the Gulf of Ajaccio. The place named on the card is Citadel of Ajaccio, Ajaccio, in Corsica. Model data from Open-Meteo, retrieved 2026-09-25T14:41:16+02:00 (2026-09-25T12:41:16Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.2°C, wind 23.6 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of the Citadel of Ajaccio under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-052-16x9.png?v=batch049",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-052-4x5.png?v=batch049",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -17,5 +17,10 @@
   "weather_retrieval_local": "2026-09-25T14:41:16+02:00",
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:41:16+02:00 (2026-09-25T12:41:16Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.2°C, wind 23.6 km/h, precipitation 0.0 mm."
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:41:16+02:00 (2026-09-25T12:41:16Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.2°C, wind 23.6 km/h, precipitation 0.0 mm.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: Genoese stone citadel terraced on a rocky headland above the Gulf of Ajaccio with the town waterfront and Corsican hills behind, plausible tourist viewpoint, clean framing. Gate2: 1920x1080+864x1080 confirmed; on-image caption 'Citadel of Ajaccio, Ajaccio', scenario 'Scenario: 23 September 2026 · 15:37 Europe/Paris', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature on bottom gradient; Open-Meteo retrieval 2026-09-25T14:41:16+02:00 unique to this scene, scenario minute inside model-valid hour 2026-09-23T15:00 Europe/Paris, clear daylight consistent. Gate3: text-prompt-only lineage per approvals/FR-01-052.md, no photographic inputs reported. Gate4: no identifiable people or focal logos visible; documented only. Gate5: no open blockers.",
+  "approved_at": "2026-09-25T14:33:21.070581+00:00",
+  "sha256_16x9": "2dc09dff1f364c04ab37eaf95e907f321e32b35cff5ab2bb056fad062516db37",
+  "sha256_4x5": "50bc4136eb59990944e9b62ec8bd64dda496fb36708f4184b1de558796bdcb4a"
 }
