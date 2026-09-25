@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-003",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Paris",
+  "caption": "Notre-Dame Cathedral, Paris",
+  "scenario_label": "23 September 2026 · 14:52 Europe/Paris",
+  "composition": "Gothic west façade from the parvis with twin towers and restored spire · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is gothic west façade from the parvis with twin towers and restored spire. The place named on the card is Notre-Dame Cathedral, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 14:52 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Notre-Dame Cathedral in Paris under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-003-16x9.png?v=batch001",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-003-4x5.png?v=batch001",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Notre-Dame western facade from the parvis: twin bell towers, the great rose window, three sculpted portals, the flying-buttress gallery and the rebuilt spire rising behind the roof ridge — consistent with the restored post-fire silhouette. Gate 1: recognizably Notre-Dame, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: sweep verified exact 1920x1080 / 864x1080; on-image caption 'Notre-Dame Cathedral, Paris', scenario '23 September 2026 · 14:52 Europe/Paris', disclosure, and exact curly-apostrophe 'Jason D's Vision' signature all legible on the bottom gradient; no approvals/FR-01-003.md exists so no weather-retrieval timestamp to cross-check — scenario stands as model data, no staleness evidence. Gate 3: no photographic inputs reported (no build-agent notes file on record). Gate 4: no identifiable people, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T04:32:09.085372+00:00"
+}
