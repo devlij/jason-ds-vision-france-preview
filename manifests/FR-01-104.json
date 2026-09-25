@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-104",
+  "country": "France",
+  "region": "Bretagne",
+  "city": "Île de Batz",
+  "caption": "Île de Batz harbor, Île de Batz",
+  "scenario_label": "23 September 2026 · 18:17 Europe/Paris",
+  "composition": "Brittany island harbor and village quay · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is brittany island harbor and village quay. The place named on the card is Île de Batz harbor, Île de Batz, in Bretagne. Light and weather follow the modelled scenario 23 September 2026 · 18:17 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Île de Batz harbor under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-104-16x9.png?v=batch101",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-104-4x5.png?v=batch101",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:39:20.629973+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 PASS: Île de Batz — aerial view of the island village, harbor coves, sandy beaches and rocky islets in a glittering sea; plausible island viewpoint, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080); on-image caption 'Île de Batz harbor, Île de Batz', scenario '23 September 2026 · 18:17 Europe/Paris', disclosure and curly-apostrophe signature exact — BUT HELD: weather retrieval cross-check impossible. approvals/FR-01-104.md verified 404 (notes gap 078–124), no PNG metadata, no manifest; per-scene retrieval unverifiable, Gate 2 open. Gate 3 undocumented. Gate 4: no people/logos visible — documented only."
+    }
+  ]
+}
