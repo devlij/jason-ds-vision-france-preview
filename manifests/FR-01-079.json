@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-079",
+  "country": "France",
+  "region": "Bourgogne-Franche-Comté",
+  "city": "Besançon",
+  "caption": "Citadel of Besançon, Besançon",
+  "scenario_label": "23 September 2026 · 16:35 Europe/Paris",
+  "composition": "Vauban citadel on the rocky loop of the Doubs · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is vauban citadel on the rocky loop of the Doubs. The place named on the card is Citadel of Besançon, Besançon, in Bourgogne-Franche-Comté. Light and weather follow the modelled scenario 23 September 2026 · 16:35 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of the Citadel of Besançon under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-079-16x9.png?v=batch077",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-079-4x5.png?v=batch077",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: aerial of the Citadel of Besançon on Mont Saint-Étienne inside the Doubs oxbow — Vauban walls wrapping the hilltop, the river looping the promontory; the site's defining geography is unmistakable. Gate 2: sweep verified 1920x1080 + 864x1080; caption 'Citadel of Besançon, Besançon', scenario '23 September 2026 · 16:35 Europe/Paris', disclosure on-image bottom-left, curly-apostrophe signature bottom-right verified at 2x zoom. No agent weather note (notes start at FR-01-125); sequential batch scenario time, no reuse pattern. Gate 3: no provenance claims on file; nothing indicates photographic inputs. Gate 4: no identifiable people or logos — documented only. Gate 5: clear.",
+  "approved_at": "2026-09-25T11:33:22.681608+00:00"
+}
