@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-070",
+  "country": "France",
+  "region": "Occitanie",
+  "city": "Collioure",
+  "caption": "Collioure harbor, Collioure",
+  "scenario_label": "23 September 2026 · 15:49 Europe/Paris",
+  "composition": "Château Royal and seaside bell tower above a harbor of fishing boats · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is château Royal and seaside bell tower above a harbor of fishing boats. The place named on the card is Collioure harbor, Collioure, in Occitanie. Light and weather follow the modelled scenario 23 September 2026 · 15:49 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Collioure harbor under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-070-16x9.png?v=batch069",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-070-4x5.png?v=batch069",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: Collioure harbor — Château Royal on the rocky point, Notre-Dame-des-Anges bell tower, pastel waterfront houses, colorful fishing boats across the bay with the Albères mountains behind — the signature Collioure viewpoint. Clean framing, no artifacts. Gate2: exact 1920x1080/864x1080; caption 'Collioure harbor, Collioure', scenario '23 September 2026 · 15:49 Europe/Paris', AI disclosure on scrim; 'Jason D's Vision' bottom-right. No approvals note (404); sequential 15:49 scenario, no stale-weather evidence. Gate3: no photographic inputs evidenced. Gate4: no recognizable individuals, logos, or private property; small generic boats only — documented only.",
+  "approved_at": "2026-09-25T10:32:55.843766+00:00"
+}
