@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-001",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Paris",
+  "caption": "Eiffel Tower, Paris",
+  "scenario_label": "23 September 2026 · 14:50 Europe/Paris",
+  "composition": "Iron lattice tower from Champ de Mars with lawn leading lines · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is iron lattice tower from Champ de Mars with lawn leading lines. The place named on the card is Eiffel Tower, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 14:50 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of the Eiffel Tower in Paris under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-001-16x9.png?v=batch001",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-001-4x5.png?v=batch001",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Eiffel Tower from the Champ de Mars lawns: the iron lattice tower rendered complete and well-proportioned, manicured hedges and lawn alleys leading toward the Seine, distant Haussmann rooftops under bright midday blue. Gate 1: recognizable tower, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: sweep verified exact 1920x1080 / 864x1080; on-image caption 'Eiffel Tower, Paris', scenario '23 September 2026 · 14:50 Europe/Paris', and 'AI-generated artistic interpretation · Not a photograph.' disclosure all legible on the bottom gradient, with the exact 'Jason D's Vision' curly-apostrophe signature bottom-right; no approvals/FR-01-001.md exists so no weather-retrieval timestamp was available to cross-check — scenario stands as model data, no staleness evidence. Gate 3: no photographic inputs reported (no build-agent notes file on record). Gate 4: only distant unidentifiable strollers under the tower; no logos or private property. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T04:31:18.164194+00:00"
+}
