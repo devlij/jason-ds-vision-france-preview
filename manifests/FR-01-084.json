@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-084",
+  "country": "France",
+  "region": "Bretagne",
+  "city": "Le Palais",
+  "caption": "Belle-Île cliffs, Le Palais",
+  "scenario_label": "23 September 2026 · 16:51 Europe/Paris",
+  "composition": "Dramatic Côte Sauvage sea cliffs on Belle-Île-en-Mer · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is dramatic Côte Sauvage sea cliffs on Belle-Île-en-Mer. The place named on the card is Belle-Île cliffs, Le Palais, in Bretagne. Light and weather follow the modelled scenario 23 September 2026 · 16:51 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Belle-Île Côte Sauvage cliffs under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-084-16x9.png?v=batch081",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-084-4x5.png?v=batch081",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Côte Sauvage-style Atlantic coastline — sheer grey headlands, sea stacks, turquoise surf — from a cliff-top viewpoint; plausible Belle-Île west coast, no artifacts. Gate 2: 1920x1080 and 864x1080 masters mechanically verified by the sweep; on-image caption ‘Belle-Île cliffs, Le Palais’, scenario ‘23 September 2026 · 16:51 Europe/Paris’, and ‘AI-generated artistic interpretation · Not a photograph.’ disclosure legible on the bottom gradient scrim, matching the gallery index; exact ‘Jason D’s Vision’ signature bottom-right. Gate 3: no approvals/FR-01-084.md exists in the repo (the workstream wrote notes only sporadically), so no photographic inputs are reported anywhere. Gate 4: no people, no logos, no recognizable private property visible — documented only, no chain certified. Gate 5: all gates pass.",
+  "approved_at": "2026-09-25T12:37:25.347926+00:00"
+}
