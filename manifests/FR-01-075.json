@@ -16,6 +16,11 @@
       "at": "2026-09-25T11:33:59.315215+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 FAIL: Château d'Azay-le-Rideau is famously a luminous white Renaissance château mirrored in the Indre; this build renders it as a dark grey, ruin-like castle silhouette half-hidden behind trees — wrong color character and wrong architectural register for the site. A glaring misconfiguration of the captioned location."
+    },
+    {
+      "at": "2026-09-25T12:36:13.393482+00:00",
+      "by": "Cosmo QC",
+      "note": "Re-examined in the 08:27 EDT run: concur with the 11:33 UTC Gate 1 FAIL - renders as a dark grey ruin-like castle half-hidden behind trees; wrong color character and architectural register for the famously luminous white Azay-le-Rideau mirrored in the Indre. Left Candidate."
     }
   ]
 }
