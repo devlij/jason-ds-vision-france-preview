@@ -16,6 +16,11 @@
       "at": "2026-09-25T11:33:51.675117+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 FAIL: the Millau Viaduct is rendered as a faint, washed-out ghost — pylons and cable stays barely resolve, the deck reads as a dark muddy smear, and the foreground road is incoherent blur. A viewer could not identify this as the Millau Viaduct; heavy defocus across the whole frame. Not recognizable from any plausible viewpoint."
+    },
+    {
+      "at": "2026-09-25T12:36:10.294950+00:00",
+      "by": "Cosmo QC",
+      "note": "Re-examined in the 08:27 EDT run: concur with the 11:33 UTC Gate 1 FAIL - the viaduct renders as a washed-out ghost, pylons and stays barely resolve, the deck is a muddy smear, heavy defocus across the frame; not identifiable as the Millau Viaduct. Left Candidate."
     }
   ]
 }
