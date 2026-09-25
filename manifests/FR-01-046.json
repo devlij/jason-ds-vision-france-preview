@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-046",
+  "country": "France",
+  "region": "Occitanie",
+  "city": "Pont-du-Gard",
+  "caption": "Pont du Gard, Vers-Pont-du-Gard",
+  "scenario_label": "23 September 2026 · 15:33 Europe/Paris",
+  "composition": "Three-tier Roman aqueduct spanning the Gardon · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is three-tier Roman aqueduct spanning the Gardon. The place named on the card is Pont du Gard, Vers-Pont-du-Gard, in Occitanie. Light and weather follow the modelled scenario 23 September 2026 · 15:33 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Pont du Gard near Vers-Pont-du-Gard under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-046-16x9.png?v=batch045",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-046-4x5.png?v=batch045",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 (visual/location): the three tiers of Roman limestone arches spanning the Gardon river is recognizably the Pont du Gard from a plausible riverbank viewpoint; clean framing, no artifacts. Gate 2 (technical): both masters mechanically verified at exact 1920x1080 and 864x1080; exact “Jason D’s Vision” signature bottom-right; exact caption “Pont du Gard, Vers-Pont-du-Gard”, scenario “23 September 2026 · 15:33 Europe/Paris”, and “AI-generated artistic interpretation · Not a photograph.” disclosure bottom-left on a legible gradient scrim. Gate 3 (originality): approvals/FR-01-046.md does not exist (404) — no generation inputs documented, no photographic inputs reported anywhere. Gate 4 (commercial/IP): no visible people, no logos, no recognizable private property — documented only. Gate 5: no open blockers. Scenario is a modelled label, never a verified capture.",
+  "approved_at": "2026-09-25T08:33:30.879401+00:00"
+}
