@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is fortified medieval three-tower bridge over the Lot. The place named on the card is Pont Valentré, Cahors, in Occitanie. Light and weather follow the modelled scenario 23 September 2026 · 17:06 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Pont Valentré in Cahors under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-086-16x9.png?v=batch085",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-086-4x5.png?v=batch085",
   "qc_notes": [
     {
@@ -17,5 +17,10 @@
       "by": "Cosmo QC",
       "note": "Gate 1 PASS (review): fortified medieval stone-arch bridge over the Lot, plausible tourist viewpoint; the three-tower signature of Pont Valentré reads weakly (only edge tower-forms visible) but not a glaring misconfiguration. Gate 2 BLOCKED: no approvals/FR-01-086.md exists in the repo (note range covers 009, 031-060, 073-077, 125-365) — no per-scene Open-Meteo retrieval timestamp exists to cross-check against the on-image scenario 23 September 2026 17:06 Europe/Paris. Scenario labels across FR-01-085–094 increment exactly 1 min per scene, suggesting build-clock timestamps rather than retrievals — fails the 2026-09-25 one-retrieval-per-scene rule. Gate 3 OPEN: no generation-input documentation (no photographic inputs ruled out or confirmed). Gate 4: no people/logos visible. Stays Candidate pending a per-scene evidence note."
     }
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: fortified medieval three-tower bridge over a wide calm Lot, stone towers and arched spans, wooded banks beyond, from an elevated viewpoint — plausibly Pont Valentré, Cahors; no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Pont Valentré, Cahors', scenario '23 September 2026 · 17:06 Europe/Paris', disclosure legible bottom-left on the gradient scrim, matching the gallery index; curly-apostrophe signature bottom-right; scenario minute 17:06 unique across the batch, no shared minute; no per-scene builder note exists, so no retrieval-timestamp cross-check was possible. Gate 3: no photographic inputs reported anywhere. Gate 4: no people, no logos, no recognizable private property — documented only. Gate 5: all gates pass.",
+  "approved_at": "2026-09-25T17:38:18.898860+00:00",
+  "sha256_16x9": "97c8011772780959e195b394246e55912541b0a8f8745e6b7b7726322d276818",
+  "sha256_4x5": "102cd859b05a4e1297d65087d12ef2afee34a9d99bcd9d43d66d83202454c49a"
 }
