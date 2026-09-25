@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-089",
+  "country": "France",
+  "region": "Centre-Val de Loire",
+  "city": "Chinon",
+  "caption": "Château de Chinon, Chinon",
+  "scenario_label": "23 September 2026 · 17:12 Europe/Paris",
+  "composition": "Medieval fortress on ridge above the Vienne · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is medieval fortress on ridge above the Vienne. The place named on the card is Château de Chinon, Chinon, in Centre-Val de Loire. Light and weather follow the modelled scenario 23 September 2026 · 17:12 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Château de Chinon under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-089-16x9.png?v=batch089",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-089-4x5.png?v=batch089",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T15:34:01.366469+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 PASS (review): hilltop stone fortress with round towers and conical roofs in golden afternoon light — recognizably Château de Chinon from a plausible low viewpoint. Gate 2 BLOCKED: no approvals/FR-01-089.md exists in the repo (note range covers 009, 031-060, 073-077, 125-365) — no per-scene Open-Meteo retrieval timestamp exists to cross-check against the on-image scenario 23 September 2026 17:12 Europe/Paris; 1-minute-per-scene scenario increments across FR-01-085–094 suggest build-clock timestamps. Gate 3 OPEN: no generation-input documentation. Gate 4: no people/logos visible. Stays Candidate pending a per-scene evidence note."
+    }
+  ]
+}
