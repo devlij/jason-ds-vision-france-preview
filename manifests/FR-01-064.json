@@ -9,9 +9,17 @@
   "description": "The recorded tourist view is half-timbered houses along the Ill canals. The place named on the card is Petite France, Strasbourg, in Grand Est. Light and weather follow the modelled scenario 23 September 2026 · 15:46 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Petite France in Strasbourg under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-064-16x9.png?v=batch061",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-064-4x5.png?v=batch061",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate1: Petite France's half-timbered houses with flower boxes along the Ill river, sluice bridge left, reflections — the classic Strasbourg riverside viewpoint. Clean framing, no artifacts. Gate2: exact 1920x1080/864x1080; caption 'Petite France, Strasbourg', scenario '23 September 2026 · 15:46 Europe/Paris', AI disclosure on gradient scrim; 'Jason D's Vision' bottom-right. No approvals note (404); sequential 15:46 scenario, no stale-weather evidence. Gate3: no photographic inputs evidenced. Gate4: no recognizable individuals, logos, or private property; generic old-town fronts only — documented only.",
-  "approved_at": "2026-09-25T10:32:13.356790+00:00"
+  "approved_at": "2026-09-25T10:32:13.356790+00:00",
+  "reverted_at": "2026-09-25T18:53:44.329753+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:53:44.329753+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
