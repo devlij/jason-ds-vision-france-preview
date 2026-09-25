@@ -16,6 +16,11 @@
       "at": "2026-09-25T11:34:14.049662+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 FAIL: the Sarlat old-town street render is severely out of focus across the entire frame — stone facades, windows, doorways and cobblestones all smeared into unreadable blur. Not a clean, artifact-free image; no amount of location review can pass a frame this defocused."
+    },
+    {
+      "at": "2026-09-25T12:36:28.059262+00:00",
+      "by": "Cosmo QC",
+      "note": "Re-examined in the 08:27 EDT run: concur with the 11:34 UTC Gate 1 FAIL - severe whole-frame defocus; stone facades, windows, doorways and cobblestones smeared into unreadable blur. Not a clean artifact-free image. Left Candidate."
     }
   ]
 }
