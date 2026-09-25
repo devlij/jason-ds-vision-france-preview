@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-058",
+  "country": "France",
+  "region": "Corsica",
+  "city": "Bonifacio",
+  "caption": "Bonifacio cliffs, Bonifacio",
+  "scenario_label": "23 September 2026 · 15:42 Europe/Paris",
+  "composition": "Citadel town perched on white limestone sea cliffs · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is citadel town perched on white limestone sea cliffs. The place named on the card is Bonifacio cliffs, Bonifacio, in Corsica. Light and weather follow the modelled scenario 23 September 2026 · 15:42 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Bonifacio cliffs under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-058-16x9.png?v=batch057",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-058-4x5.png?v=batch057",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Bonifacio's old town clustered on the white stratified limestone cliffs above turquoise Mediterranean water, citadel walls on the clifftop — recognizably the Bonifacio cliffs from the sea-side viewpoint, clean framing, no artifacts. Gate 2: exact 1920×1080 + 864×1080 (sweep verified); exact 'Jason D's Vision' signature bottom-right; caption 'Bonifacio cliffs, Bonifacio', scenario '23 September 2026 · 15:42 Europe/Paris', disclosure 'AI-generated artistic interpretation · Not a photograph.' on the bottom gradient, legible and unobtrusive; no approvals/FR-01-058.md note exists for weather cross-check, sequential build minutes show no ES-01-style stale-reuse pattern. Gate 3: no photographic inputs reported; text-prompt generation per France kit. Gate 4: no recognizable people or logos; clifftop town from a public viewpoint — documented only, not certified. Gate 5: all gates pass, publish-ready.",
+  "approved_at": "2026-09-25T09:33:24.135945+00:00"
+}
