@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-011",
+  "country": "France",
+  "region": "Occitanie",
+  "city": "Carcassonne",
+  "caption": "Carcassonne citadel, Carcassonne",
+  "scenario_label": "23 September 2026 · 15:07 Europe/Paris",
+  "composition": "Double medieval walls and conical towers of the Cité above the Aude · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is double medieval walls and conical towers of the Cité above the Aude. The place named on the card is Carcassonne citadel, Carcassonne, in Occitanie. Light and weather follow the modelled scenario 23 September 2026 · 15:07 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Carcassonne citadel under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-011-16x9.png?v=batch009",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-011-4x5.png?v=batch009",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1 visual pass: the Cité's double ramparts with conical-topped towers rise above the Aude exactly as a tourist sees Carcassonne, clean wide framing, no artifacts. G2 technical pass: 16:9 master verified 1920x1080 and 4:5 at 864x1080; on-image caption 'Carcassonne citadel, Carcassonne', scenario '23 September 2026 · 15:07 Europe/Paris', and 'AI-generated artistic interpretation · Not a photograph.' disclosure all present and legible bottom-left on the scrim; 'Jason D's Vision' signature with curly apostrophe bottom-right; scenario label matches the repo SCENES block and sits in the sequential 15:07–15:23 daylight run with no weather-metadata reuse evidence (no approvals note exists for this entry; no stale retrieval times to reconcile). G3 originality: no photographic inputs reported anywhere for this scene. G4 commercial/IP: no visible people, logos, or recognizable private property — public historic monument, documented only. G5 publication ready.",
+  "approved_at": "2026-09-25T05:31:18.972138+00:00"
+}
