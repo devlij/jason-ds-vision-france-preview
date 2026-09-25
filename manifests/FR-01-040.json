@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is romanesque pink-brick basilica with five-tier octagonal bell tower. The place named on the card is Basilique Saint-Sernin, Toulouse, in Occitanie. Model data from Open-Meteo, retrieved 2026-09-25T14:38:45+02:00 (2026-09-25T12:38:45Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 29.4°C, wind 4.2 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Basilique Saint-Sernin in Toulouse under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-040-16x9.png?v=batch037",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-040-4x5.png?v=batch037",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -17,5 +17,10 @@
   "weather_retrieval_local": "2026-09-25T14:38:45+02:00",
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:45+02:00 (2026-09-25T12:38:45Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 29.4°C, wind 4.2 km/h, precipitation 0.0 mm."
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:45+02:00 (2026-09-25T12:38:45Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 29.4°C, wind 4.2 km/h, precipitation 0.0 mm.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1 pass: Romanesque pink-brick Basilique Saint-Sernin with its five-tier octagonal bell tower and conical spire, radiating chevet chapels — a plausible tourist view of the landmark Toulouse church. Gate2 pass: 1920x1080/864x1080 verified, exact 'Jason D's Vision' signature bottom-right, caption 'Basilique Saint-Sernin, Toulouse' and scenario '23 September 2026 · 15:28 Europe/Paris' plus AI-disclosure legible on the bottom-left scrim; scenario minute inside model-valid hour 2026-09-23T15:00 Europe/Paris, approvals/FR-01-040.md records a scene-specific Open-Meteo retrieval at 2026-09-25T14:38:45+02:00 (unique to this scene, location-specific values). Gate3 pass: text-prompt-only generation documented, no photographic inputs. Gate4 noted: no distinct people, logos, or private property — public landmark, documented only. Gate5: no open blockers — publish-ready.",
+  "approved_at": "2026-09-25T13:35:26.659599+00:00",
+  "sha256_16x9": "5f8852622b5db97f784daba5efae770f5261b1e4a58c734463ca1bfe40ea3bf9",
+  "sha256_4x5": "317dab0f6a355942b8b515b584783c526cd1aa94a1e552167e13442abe666c65"
 }
