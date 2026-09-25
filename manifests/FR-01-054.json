@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-054",
+  "country": "France",
+  "region": "Occitanie",
+  "city": "Rocamadour",
+  "caption": "Rocamadour, Rocamadour",
+  "scenario_label": "23 September 2026 · 15:37 Europe/Paris",
+  "composition": "Pilgrimage village stacked on a sheer limestone cliff · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is pilgrimage village stacked on a sheer limestone cliff. The place named on the card is Rocamadour, Rocamadour, in Occitanie. Light and weather follow the modelled scenario 23 September 2026 · 15:37 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Rocamadour under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-054-16x9.png?v=batch053",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-054-4x5.png?v=batch053",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: village terraced up the cliff face beneath the sanctuary church with its tall spire, houses stacked along the rock with woods above — recognizably Rocamadour from the across-the-valley tourist viewpoint, clean framing, no artifacts. Gate 2: exact 1920×1080 + 864×1080 (sweep verified); exact 'Jason D's Vision' signature bottom-right; caption 'Rocamadour, Rocamadour', scenario '23 September 2026 · 15:37 Europe/Paris', disclosure 'AI-generated artistic interpretation · Not a photograph.' on the bottom gradient, legible and unobtrusive; no approvals/FR-01-054.md note exists for weather cross-check, sequential build minutes show no ES-01-style stale-reuse pattern. Gate 3: no photographic inputs reported; text-prompt generation per France kit. Gate 4: no recognizable people or logos; cliffside religious site depicted from a public viewpoint — documented only, not certified. Gate 5: all gates pass, publish-ready.",
+  "approved_at": "2026-09-25T09:32:34.813525+00:00"
+}
