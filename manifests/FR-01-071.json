@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-071",
+  "country": "France",
+  "region": "Bourgogne-Franche-Comté",
+  "city": "Vézelay",
+  "caption": "Vézelay Abbey, Vézelay",
+  "scenario_label": "23 September 2026 · 15:50 Europe/Paris",
+  "composition": "Hilltop Romanesque basilica crowning a stone village · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is hilltop Romanesque basilica crowning a stone village. The place named on the card is Vézelay Abbey, Vézelay, in Bourgogne-Franche-Comté. Light and weather follow the modelled scenario 23 September 2026 · 15:50 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Vézelay Abbey under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-071-16x9.png?v=batch069",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-071-4x5.png?v=batch069",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the twin-spired Romanesque abbey crowns the Vézelay hill village from a classic east-side viewpoint, Burgundy rooftops below, rolling Yonne hills behind — instantly recognizable. Gate 2: sweep verified 1920x1080 + 864x1080 PNGs; on-image caption 'Vézelay Abbey, Vézelay', scenario '23 September 2026 · 15:50 Europe/Paris', and 'AI-generated artistic interpretation · Not a photograph.' disclosure legible bottom-left on the gradient scrim; curly-apostrophe Jason D's Vision signature verified bottom-right at 2x zoom. No agent weather note exists for this scene (notes start at FR-01-125, same as all pre-125 scenes); scenario time is sequential with the rest of this build batch with no reuse pattern visible. Gate 3: no provenance claims on file; no photographic lineage evident. Gate 4: no identifiable people, no logos, generic village rooftops — documented only, commercial call is Jason's. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T11:32:46.541930+00:00"
+}
