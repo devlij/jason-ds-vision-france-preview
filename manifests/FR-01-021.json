@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-021",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Paris",
+  "caption": "Opéra Garnier, Paris",
+  "scenario_label": "23 September 2026 · 15:30 Europe/Paris",
+  "composition": "Second Empire Opéra Garnier façade with copper dome on Place de l'Opéra · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is second Empire Opéra Garnier façade with copper dome on Place de l'Opéra. The place named on the card is Opéra Garnier, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:30 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Opéra Garnier under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-021-16x9.png?v=batch021",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-021-4x5.png?v=batch021",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Opéra Garnier from the Place de l'Opéra plaza: the arcaded loggia with paired Corinthian columns, the green copper dome crowned by the gilded lyre group, rows of gilded busts and sculpted attic figures read clearly as the Garnier palace; a few small pedestrians on the steps give scale. Gate 1 passes on the recognizable facade and clean daylight framing with no artifacts. Gate 2: on-image caption 'Opéra Garnier, Paris', scenario '23 September 2026 · 15:30 Europe/Paris', and the 'AI-generated artistic interpretation · Not a photograph.' disclosure all legible bottom-left on the scrim; 'Jason D's Vision' signature bottom-right with curly apostrophe; sweep verified 1920×1080 and 864×1080 exact. approvals/FR-01-021.md was absent from the repo at audit time, so no weather-retrieval timestamp could be cross-checked; the scenario minute is unique to this scene, showing no reuse pattern. Gate 3: no photographic inputs indicated; text-prompt build per the France kit. Gate 4: only small anonymous pedestrians on the steps, no logos; documented only. Gate 5: ready for publication.",
+  "approved_at": "2026-09-25T06:33:22.043588+00:00"
+}
