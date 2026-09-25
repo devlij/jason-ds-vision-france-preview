@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-083",
+  "country": "France",
+  "region": "Centre-Val de Loire",
+  "city": "Blois",
+  "caption": "Château de Blois, Blois",
+  "scenario_label": "23 September 2026 · 16:50 Europe/Paris",
+  "composition": "Multi-wing royal château courtyard (Gothic/Renaissance/Classical façades) · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is multi-wing royal château courtyard (Gothic/Renaissance/Classical façades). The place named on the card is Château de Blois, Blois, in Centre-Val de Loire. Light and weather follow the modelled scenario 23 September 2026 · 16:50 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Château de Blois courtyard under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-083-16x9.png?v=batch081",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-083-4x5.png?v=batch081",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the arcaded inner courtyard with the ornate central spiral-staircase tower rising above the loggias — the François I wing courtyard view, a plausible tourist viewpoint, clean framing. Gate 2: 1920x1080 and 864x1080 masters mechanically verified by the sweep; on-image caption ‘Château de Blois, Blois’, scenario ‘23 September 2026 · 16:50 Europe/Paris’, and ‘AI-generated artistic interpretation · Not a photograph.’ disclosure legible on the bottom gradient scrim, matching the gallery index; exact ‘Jason D’s Vision’ signature bottom-right. Gate 3: no approvals/FR-01-083.md exists in the repo (the workstream wrote notes only sporadically), so no photographic inputs are reported anywhere. Gate 4: no people, no logos; historic monument, no recognizable private property — documented only, no chain certified. Gate 5: all gates pass.",
+  "approved_at": "2026-09-25T12:37:21.175182+00:00"
+}
