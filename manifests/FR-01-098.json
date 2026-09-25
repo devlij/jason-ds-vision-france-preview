@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-098",
+  "country": "France",
+  "region": "Bretagne",
+  "city": "Fougères",
+  "caption": "Château de Fougères, Fougères",
+  "scenario_label": "23 September 2026 · 17:57 Europe/Paris",
+  "composition": "Massive concentric medieval fortress with granite towers · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is massive concentric medieval fortress with granite towers. The place named on the card is Château de Fougères, Fougères, in Bretagne. Light and weather follow the modelled scenario 23 September 2026 · 17:57 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Château de Fougères under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-098-16x9.png?v=batch097",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-098-4x5.png?v=batch097",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:38:55.010339+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 PASS: Château de Fougères — medieval fortress of round towers with conical slate roofs reflected in still water, green parkland foreground, blue sky; recognizable fortress composition, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080); on-image caption 'Château de Fougères, Fougères', scenario '23 September 2026 · 17:57 Europe/Paris', disclosure and curly-apostrophe signature exact — BUT HELD: weather retrieval cross-check impossible. approvals/FR-01-098.md verified 404 (notes gap 078–124), no PNG metadata, no manifest; per-scene retrieval unverifiable, Gate 2 open. Gate 3 undocumented. Gate 4: no people/logos visible — documented only."
+    }
+  ]
+}
