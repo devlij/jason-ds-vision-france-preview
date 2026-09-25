@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is henri IV square of red-brick arcaded façades around formal lawns. The place named on the card is Place des Vosges, Paris, in Île-de-France. Model data from Open-Meteo, retrieved 2026-09-25T14:38:32+02:00 (2026-09-25T12:38:32Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.7°C, wind 4.0 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Place des Vosges under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-032-16x9.png?v=batch029",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-032-4x5.png?v=batch029",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -17,5 +17,10 @@
   "weather_retrieval_local": "2026-09-25T14:38:32+02:00",
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:32+02:00 (2026-09-25T12:38:32Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.7°C, wind 4.0 km/h, precipitation 0.0 mm."
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:32+02:00 (2026-09-25T12:38:32Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.7°C, wind 4.0 km/h, precipitation 0.0 mm.",
+  "qc_status": "approved",
+  "approval_basis": "Approved · Cosmo QC 5/5 · FR-031–060 weather rework — Gate 1: red-brick-and-stone arcaded Place des Vosges pavilions around a manicured square. Gate 2: caption 'Place des Vosges, Paris', scenario 23 Sept 2026 15:19 Europe/Paris verified on-image; own Open-Meteo retrieval 2026-09-25T14:38:32+02:00 (unique), valid 15:00, scenario inside the hour; code 0, 0% cloud. Gate 3: text-prompt-only. Gate 4: clean. Gate 5: Art. 50 on; exact 1920x1080 / 864x1080.",
+  "approved_at": "2026-09-25T13:05:27Z",
+  "sha256_16x9": "dce0d3cedc5a8c4b634a933f857e8b0f0939c1e8d6da9658f7efab0e56ca1e8e",
+  "sha256_4x5": "636bff4f4b9be747c780b0ea9b9ecae551b8f8b993b6bc902aa5d81d4c13d087"
 }
