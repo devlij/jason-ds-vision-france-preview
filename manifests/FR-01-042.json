@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-042",
+  "country": "France",
+  "region": "Bourgogne-Franche-Comté",
+  "city": "Beaune",
+  "caption": "Hospices de Beaune, Beaune",
+  "scenario_label": "23 September 2026 · 15:30 Europe/Paris",
+  "composition": "Burgundian Hôtel-Dieu courtyard with polychrome glazed-tile roofs · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is burgundian Hôtel-Dieu courtyard with polychrome glazed-tile roofs. The place named on the card is Hospices de Beaune, Beaune, in Bourgogne-Franche-Comté. Light and weather follow the modelled scenario 23 September 2026 · 15:30 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Hospices de Beaune in Beaune under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-042-16x9.png?v=batch041",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-042-4x5.png?v=batch041",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 (visual/location): the glazed diamond-pattern Burgundian roofs, timber courtyard gallery arcades and central stone well are instantly recognizable as the Hospices de Beaune courtyard from a plausible tourist viewpoint; clean framing, no artifacts. Gate 2 (technical): both masters mechanically verified at exact 1920x1080 and 864x1080; exact “Jason D’s Vision” signature bottom-right; exact caption “Hospices de Beaune, Beaune”, scenario “23 September 2026 · 15:30 Europe/Paris”, and “AI-generated artistic interpretation · Not a photograph.” disclosure bottom-left on a legible gradient scrim. Gate 3 (originality): approvals/FR-01-042.md does not exist (404) — no generation inputs documented, no photographic inputs reported anywhere. Gate 4 (commercial/IP): two or three distant figures under the right-hand arcade; no logos, no recognizable private property — documented only. Gate 5: no open blockers. Scenario is a modelled label, never a verified capture.",
+  "approved_at": "2026-09-25T08:32:43.662208+00:00"
+}
