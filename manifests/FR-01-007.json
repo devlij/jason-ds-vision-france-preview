@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-007",
+  "country": "France",
+  "region": "Normandy",
+  "city": "Le Mont-Saint-Michel",
+  "caption": "Mont Saint-Michel, Le Mont-Saint-Michel",
+  "scenario_label": "23 September 2026 · 15:00 Europe/Paris",
+  "composition": "Abbey-crowned tidal island rising from the bay with causeway approach · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is abbey-crowned tidal island rising from the bay with causeway approach. The place named on the card is Mont Saint-Michel, Le Mont-Saint-Michel, in Normandy. Light and weather follow the modelled scenario 23 September 2026 · 15:00 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Mont Saint-Michel under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-007-16x9.png?v=batch005",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-007-4x5.png?v=batch005",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Mont Saint-Michel abbey-island from the tidal flats: the Gothic abbey with its spire and gilded Archangel Michael, the clustered village below the ramparts, the causeway bridge crossing the sand, flat sea-mist horizon. Gate 1: recognizably Mont Saint-Michel, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: sweep verified exact 1920x1080 / 864x1080; on-image caption 'Mont Saint-Michel, Le Mont-Saint-Michel', scenario '23 September 2026 · 15:00 Europe/Paris', disclosure, and exact curly-apostrophe 'Jason D's Vision' signature all legible on the bottom gradient; no approvals/FR-01-007.md exists so no weather-retrieval timestamp to cross-check — scenario stands as model data, no staleness evidence. Gate 3: no photographic inputs reported (no build-agent notes file on record). Gate 4: tiny distant figures near the ramparts, unidentifiable; no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T04:32:24.596452+00:00"
+}
