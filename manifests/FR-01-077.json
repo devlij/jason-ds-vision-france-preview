@@ -4,13 +4,13 @@
   "region": "Nouvelle-Aquitaine",
   "city": "Sarlat-la-Canéda",
   "caption": "Sarlat old town, Sarlat-la-Canéda",
-  "scenario_label": "23 September 2026 · 16:33 Europe/Paris",
+  "scenario_label": "25 September 2026 · 14:33 Europe/Paris",
   "composition": "Honey-stone medieval streets and steep slate roofs · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is honey-stone medieval streets and steep slate roofs. The place named on the card is Sarlat old town, Sarlat-la-Canéda, in Nouvelle-Aquitaine. Light and weather follow the modelled scenario 23 September 2026 · 16:33 Europe/Paris, not a verified on-site observation.",
-  "alt_text": "AI-generated artistic interpretation of Sarlat-la-Canéda old town under clear afternoon light",
-  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-077-16x9.png?v=batch077",
+  "description": "The recorded tourist view is honey-stone medieval streets and steep slate roofs. The place named on the card is Sarlat old town, Sarlat-la-Canéda, in Nouvelle-Aquitaine. Light and weather follow the modelled scenario 25 September 2026 · 14:33 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Sarlat-la-Canéda old town under a clear hot afternoon sky",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-077-16x9.png?v=gate1-20260925",
   "approval_status": "Candidate",
-  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-077-4x5.png?v=batch077",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-077-4x5.png?v=gate1-20260925",
   "qc_notes": [
     {
       "at": "2026-09-25T11:34:14.049662+00:00",
