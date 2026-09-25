@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is fortress-like southern Gothic brick Sainte-Cécile above the square. The place named on the card is Albi Cathedral, Albi, in Occitanie. Model data from Open-Meteo, retrieved 2026-09-25T14:38:54+02:00 (2026-09-25T12:38:54Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.8°C, wind 7.6 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Albi Cathedral in Albi under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-045-16x9.png?v=batch045",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-045-4x5.png?v=batch045",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -18,9 +18,17 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:54+02:00 (2026-09-25T12:38:54Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.8°C, wind 7.6 km/h, precipitation 0.0 mm.",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate1 pass: fortress-like brick Sainte-Cécile above the square — massive crenellated nave walls, clustered buttresses, open-work brick bell tower, matching the evidence card's southern-Gothic anchors. Gate2 pass: 1920x1080/864x1080 verified, exact 'Jason D's Vision' signature bottom-right, caption 'Albi Cathedral, Albi' and scenario '23 September 2026 · 15:32 Europe/Paris' plus AI-disclosure legible on the bottom-left scrim; scenario minute inside model-valid hour 2026-09-23T15:00 Europe/Paris, approvals/FR-01-045.md records a scene-specific Open-Meteo retrieval at 2026-09-25T14:38:54+02:00 (unique to this scene, location-specific values). A few fair-weather clouds against model cloud 0% — reviewed as modelled-scenario nuance, not a gate failure. Gate3 pass: text-prompt-only generation documented, no photographic inputs. Gate4 noted: no distinct people, logos, or private property — public landmark, documented only. Gate5: no open blockers — publish-ready.",
   "approved_at": "2026-09-25T13:36:34.026150+00:00",
   "sha256_16x9": "d222e13e92ab9fa0443a821cd8d27ee4555c8a44a39587613e333ac4d1feaeb0",
-  "sha256_4x5": "ba88702778e1bbd0945e0f65be4f22d0c241413c97a6bcc37e9a840adcca2591"
+  "sha256_4x5": "ba88702778e1bbd0945e0f65be4f22d0c241413c97a6bcc37e9a840adcca2591",
+  "reverted_at": "2026-09-25T18:53:09.922914+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:53:09.922914+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
