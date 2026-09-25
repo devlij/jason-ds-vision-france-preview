@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-067",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "city": "Menton",
+  "caption": "Menton old town, Menton",
+  "scenario_label": "23 September 2026 · 15:47 Europe/Paris",
+  "composition": "Pastel old-town façades above the Riviera harbor · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is pastel old-town façades above the Riviera harbor. The place named on the card is Menton old town, Menton, in Provence-Alpes-Côte d'Azur. Light and weather follow the modelled scenario 23 September 2026 · 15:47 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Menton old town under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-067-16x9.png?v=batch065",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-067-4x5.png?v=batch065",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: Menton old town cascading down the hill — ochre/pink terraced houses, cypress, church bell tower rising above, breakwater in the Mediterranean — the signature Riviera viewpoint. Clean framing, no artifacts. Gate2: exact 1920x1080/864x1080; caption 'Menton old town, Menton', scenario '23 September 2026 · 15:47 Europe/Paris', AI disclosure on scrim; 'Jason D's Vision' bottom-right. No approvals note (404); sequential scenario, no stale-weather evidence. Gate3: no photographic inputs evidenced. Gate4: no recognizable individuals, logos, or private property; generic town fabric — documented only.",
+  "approved_at": "2026-09-25T10:32:44.066948+00:00"
+}
