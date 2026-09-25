@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-072",
+  "country": "France",
+  "region": "Pays de la Loire",
+  "city": "Saumur",
+  "caption": "Château de Saumur, Saumur",
+  "scenario_label": "23 September 2026 · 15:51 Europe/Paris",
+  "composition": "Four-tower white fortress-château on a cliff above the Loire · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is four-tower white fortress-château on a cliff above the Loire. The place named on the card is Château de Saumur, Saumur, in Pays de la Loire. Light and weather follow the modelled scenario 23 September 2026 · 15:51 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Château de Saumur under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-072-16x9.png?v=batch069",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-072-4x5.png?v=batch069",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: white tufa château with conical slate towers on its rocky promontory above the Loire, Saumur town rooftops behind — the canonical riverside viewpoint of Château de Saumur, clean framing, no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; caption 'Château de Saumur, Saumur', scenario '23 September 2026 · 15:51 Europe/Paris', disclosure on-image bottom-left, curly-apostrophe signature bottom-right verified at 2x zoom. No agent weather note for this scene (notes start at FR-01-125); sequential scenario time in this build batch, no reuse pattern. Gate 3: no provenance claims on file; nothing indicates photographic inputs. Gate 4: no identifiable people or logos — documented only. Gate 5: clear.",
+  "approved_at": "2026-09-25T11:32:58.226634+00:00"
+}
