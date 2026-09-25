@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-066",
+  "country": "France",
+  "region": "Hauts-de-France",
+  "city": "Chantilly",
+  "caption": "Château de Chantilly, Chantilly",
+  "scenario_label": "23 September 2026 · 15:46 Europe/Paris",
+  "composition": "Renaissance Revival château reflected in formal waters · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is renaissance Revival château reflected in formal waters. The place named on the card is Château de Chantilly, Chantilly, in Hauts-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:46 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Château de Chantilly under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-066-16x9.png?v=batch065",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-066-4x5.png?v=batch065",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: Château de Chantilly's Renaissance façade — slate roofs, domes, pinnacles, cylindrical towers — mirrored in the lake with autumn trees, the signature across-the-water viewpoint. Clean framing, no artifacts. Gate2: exact 1920x1080/864x1080; caption 'Château de Chantilly, Chantilly', scenario '23 September 2026 · 15:46 Europe/Paris', AI disclosure on scrim; 'Jason D's Vision' bottom-right. No approvals note (404); sequential scenario, no stale-weather evidence. Gate3: no photographic inputs evidenced. Gate4: no people, logos, or private property — documented only.",
+  "approved_at": "2026-09-25T10:32:21.414388+00:00"
+}
