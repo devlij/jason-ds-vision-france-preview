@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-015",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "city": "La Palud-sur-Verdon",
+  "caption": "Gorges du Verdon, La Palud-sur-Verdon",
+  "scenario_label": "23 September 2026 · 15:14 Europe/Paris",
+  "composition": "Turquoise Verdon river deep in white limestone canyon from rim overlook · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is turquoise Verdon river deep in white limestone canyon from rim overlook. The place named on the card is Gorges du Verdon, La Palud-sur-Verdon, in Provence-Alpes-Côte d'Azur. Light and weather follow the modelled scenario 23 September 2026 · 15:14 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Gorges du Verdon under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-015-16x9.png?v=batch013",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-015-4x5.png?v=batch013",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1 visual pass: the deep limestone canyon opens with the turquoise Verdon river threading through the gorge floor, sheer carved cliffs on both sides — unmistakably the Gorges du Verdon from a rim overlook, clean framing, no artifacts. G2 technical pass: masters verified 1920x1080 / 864x1080; on-image caption 'Gorges du Verdon, La Palud-sur-Verdon', scenario '23 September 2026 · 15:14 Europe/Paris', and the AI disclosure all legible bottom-left on the scrim; 'Jason D's Vision' signature with curly apostrophe bottom-right; label matches the repo SCENES block and the sequential daylight batch with no weather-metadata reuse evidence (no approvals note exists for this entry). G3 originality: no photographic inputs reported. G4 commercial/IP: no visible people, logos, or private property — public natural landmark, documented only. G5 publication ready.",
+  "approved_at": "2026-09-25T05:32:21.220507+00:00"
+}
