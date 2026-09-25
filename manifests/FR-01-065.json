@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-065",
+  "country": "France",
+  "region": "Normandy",
+  "city": "Giverny",
+  "caption": "Monet's garden, Giverny",
+  "scenario_label": "23 September 2026 · 15:45 Europe/Paris",
+  "composition": "Japanese bridge over the water-lily pond · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is japanese bridge over the water-lily pond. The place named on the card is Monet's garden, Giverny, in Normandy. Light and weather follow the modelled scenario 23 September 2026 · 15:45 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Monet's garden in Giverny under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-065-16x9.png?v=batch065",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-065-4x5.png?v=batch065",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: Monet's water garden — green arched Japanese footbridge reflected in the lily pond under weeping willows, lush flower banks — the signature Giverny viewpoint. Clean framing, no artifacts. Gate2: exact 1920x1080/864x1080; caption 'Monet's garden, Giverny', scenario '23 September 2026 · 15:45 Europe/Paris', AI disclosure on scrim; 'Jason D's Vision' bottom-right. No approvals note (404); scenario coherent with repo SCENES, no reused-weather evidence. Gate3: no photographic inputs evidenced. Gate4: no people, logos, or private property — documented only.",
+  "approved_at": "2026-09-25T10:32:17.628145+00:00"
+}
