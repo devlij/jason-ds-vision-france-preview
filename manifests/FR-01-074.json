@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-074",
+  "country": "France",
+  "region": "Occitanie",
+  "city": "Millau",
+  "caption": "Viaduc de Millau, Millau",
+  "scenario_label": "23 September 2026 · 16:23 Europe/Paris",
+  "composition": "Cable-stayed multi-span bridge spanning the Tarn gorge · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is cable-stayed multi-span bridge spanning the Tarn gorge. The place named on the card is Viaduc de Millau, Millau, in Occitanie. Light and weather follow the modelled scenario 23 September 2026 · 16:23 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Viaduc de Millau under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-074-16x9.png?v=batch073",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-074-4x5.png?v=batch073",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T11:33:51.675117+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 FAIL: the Millau Viaduct is rendered as a faint, washed-out ghost — pylons and cable stays barely resolve, the deck reads as a dark muddy smear, and the foreground road is incoherent blur. A viewer could not identify this as the Millau Viaduct; heavy defocus across the whole frame. Not recognizable from any plausible viewpoint."
+    }
+  ]
+}
