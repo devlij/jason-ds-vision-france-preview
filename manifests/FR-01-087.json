@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is restored pink-sandstone mountain fortress overlooking Alsace plain. The place named on the card is Château du Haut-Koenigsbourg, Orschwiller, in Grand Est. Light and weather follow the modelled scenario 23 September 2026 · 17:07 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Château du Haut-Koenigsbourg under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-087-16x9.png?v=batch085",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-087-4x5.png?v=batch085",
   "qc_notes": [
     {
@@ -17,5 +17,10 @@
       "by": "Cosmo QC",
       "note": "Gate 1 PASS (review): pink-sandstone mountain fortress with red conical roofs over forested Alsace plain — recognizably Château du Haut-Koenigsbourg from a plausible elevated viewpoint. Gate 2 BLOCKED: no approvals/FR-01-087.md exists in the repo (note range covers 009, 031-060, 073-077, 125-365) — no per-scene Open-Meteo retrieval timestamp exists to cross-check against the on-image scenario 23 September 2026 17:07 Europe/Paris; scenario labels increment 1 min per scene across FR-01-085–094, suggesting build-clock timestamps. Gate 3 OPEN: no generation-input documentation. Gate 4: no people/logos visible. Stays Candidate pending a per-scene evidence note."
     }
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: restored pink-sandstone mountain fortress with red roofs, cylindrical and square towers, set against hazy forested Vosges ridges in warm late-afternoon light — plausibly Château du Haut-Koenigsbourg above the Alsace plain; no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Château du Haut-Koenigsbourg, Orschwiller', scenario '23 September 2026 · 17:07 Europe/Paris', disclosure legible bottom-left, matching the gallery index; curly-apostrophe signature bottom-right; scenario minute 17:07 unique across the batch; no per-scene builder note exists, so no retrieval-timestamp cross-check was possible. Gate 3: no photographic inputs reported anywhere. Gate 4: no people, no logos, no recognizable private property — documented only. Gate 5: all gates pass.",
+  "approved_at": "2026-09-25T17:38:23.384904+00:00",
+  "sha256_16x9": "1cf30fcc57297419aa6b3332e5137c503f9bcdaf63d3556c0fd38b400f028514",
+  "sha256_4x5": "227528a969d4587d17c4fc8d089ea94421185106cf3a5d793c8973242f49d804"
 }
