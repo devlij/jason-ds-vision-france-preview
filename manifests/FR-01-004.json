@@ -9,9 +9,17 @@
   "description": "The recorded tourist view is triumphal arch centered on the Champs-Élysées avenue axis. The place named on the card is Arc de Triomphe, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 14:53 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of the Arc de Triomphe in Paris under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-004-16x9.png?v=batch001",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-004-4x5.png?v=batch001",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Arc de Triomphe at the end of a tree-lined avenue: the sculpted arch with its attic frieze and the Marseillaise relief groups, seen down the straight ceremonial axis with trimmed plane trees both sides and a few cars at the base. Gate 1: recognizably the Arc, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: sweep verified exact 1920x1080 / 864x1080; on-image caption 'Arc de Triomphe, Paris', scenario '23 September 2026 · 14:53 Europe/Paris', disclosure, and exact curly-apostrophe 'Jason D's Vision' signature all legible on the bottom gradient; no approvals/FR-01-004.md exists so no weather-retrieval timestamp to cross-check — scenario stands as model data, no staleness evidence. Gate 3: no photographic inputs reported (no build-agent notes file on record). Gate 4: no identifiable people, no readable plates or logos. Gate 5: no open blockers.",
-  "approved_at": "2026-09-25T04:32:12.920298+00:00"
+  "approved_at": "2026-09-25T04:32:12.920298+00:00",
+  "reverted_at": "2026-09-25T18:51:58.683309+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:51:58.683309+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
