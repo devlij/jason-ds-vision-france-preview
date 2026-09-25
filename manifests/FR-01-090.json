@@ -9,18 +9,24 @@
   "description": "The recorded tourist view is ville Close granite walls and harbor. The place named on the card is Concarneau Ville Close, Concarneau, in Bretagne. Light and weather follow the modelled scenario 23 September 2026 · 17:13 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Concarneau Ville Close under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-090-16x9.png?v=batch089",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-090-4x5.png?v=batch089",
   "qc_notes": [
     {
       "at": "2026-09-25T15:34:04.000508+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 PASS (review): walled island town of white houses with blue roofs behind a marina quay — recognizably Concarneau Ville Close from a plausible elevated viewpoint. Gate 2 BLOCKED: no approvals/FR-01-090.md exists in the repo (note range covers 009, 031-060, 073-077, 125-365) — no per-scene Open-Meteo retrieval timestamp exists to cross-check against the on-image scenario 23 September 2026 17:13 Europe/Paris; 1-minute-per-scene scenario increments suggest build-clock timestamps. Gate 3 OPEN: no generation-input documentation. Gate 4: no people/logos visible (unmarked boats only). Stays Candidate pending a per-scene evidence note."
+    },
+    {
+      "at": "2026-09-25T18:54:29.722275+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate 1: walled island town of white houses and dark slate roofs, ringed by quay walls with small boats moored in the harbor, sea beyond — plausibly Concarneau Ville Close from an aerial viewpoint; no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Concarneau Ville Close, Concarneau', scenario '23 September 2026 · 17:13 Europe/Paris', disclosure legible bottom-left, matching the gallery index; curly-apostrophe signature bottom-right; scenario minute 17:13 unique across the batch; no per-scene builder note exists, so no retrieval-timestamp cross-check was possible. Gate 3: no photographic inputs reported anywhere. Gate 4: small boats visible, no identifiable people, no logos — documented only. Gate 5: all gates pass.",
   "approved_at": "2026-09-25T17:39:12.021114+00:00",
   "sha256_16x9": "9c4f7c816e912e7410eca4b4ce893836f8fd949af5ffaa3af25510fdedc571e0",
-  "sha256_4x5": "881a1093f1c24d6a2efe00fd56071876ad310cea6e1cb4d815b3c40e4673539b"
+  "sha256_4x5": "881a1093f1c24d6a2efe00fd56071876ad310cea6e1cb4d815b3c40e4673539b",
+  "reverted_at": "2026-09-25T18:54:29.722275+00:00"
 }
