@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-023",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Paris",
+  "caption": "Panthéon, Paris",
+  "scenario_label": "23 September 2026 · 15:32 Europe/Paris",
+  "composition": "Neoclassical portico and dome on Place du Panthéon · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is neoclassical portico and dome on Place du Panthéon. The place named on the card is Panthéon, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:32 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of the Panthéon under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-023-16x9.png?v=batch021",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-023-4x5.png?v=batch021",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "The Panthéon from the Place du Panthéon: Corinthian portico with sculpted pediment, the colonnaded drum and high dome with lantern and cross, flanked by Haussmann-era buildings — the Latin Quarter landmark is immediately recognizable. Gate 1 passes on the distinctive portico-and-dome silhouette and clean framing. Gate 2: caption 'Panthéon, Paris', scenario '23 September 2026 · 15:32 Europe/Paris', and AI disclosure legible bottom-left on the scrim; curly-apostrophe 'Jason D's Vision' signature bottom-right; sweep-verified exact 1920×1080/864×1080. approvals/FR-01-023.md absent from the repo, so no weather-retrieval timestamp to cross-check; unique scenario minute per scene, no reuse. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: small anonymous figures on the portico steps only, no logos; documented. Gate 5: ready.",
+  "approved_at": "2026-09-25T06:33:30.414637+00:00"
+}
