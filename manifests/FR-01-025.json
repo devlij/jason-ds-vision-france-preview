@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-025",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Fontainebleau",
+  "caption": "Château de Fontainebleau, Fontainebleau",
+  "scenario_label": "23 September 2026 · 15:11 Europe/Paris",
+  "composition": "Cour d'Honneur horseshoe staircase (Escalier du Fer-à-Cheval) of the Renaissance palace · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is cour d'Honneur horseshoe staircase (Escalier du Fer-à-Cheval) of the Renaissance palace. The place named on the card is Château de Fontainebleau, Fontainebleau, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:11 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Château de Fontainebleau under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-025-16x9.png?v=batch025",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-025-4x5.png?v=batch025",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Château de Fontainebleau's Cour du Cheval Blanc: the iconic horseshoe double staircase sweeping up to the main block, limestone facades with tall slate mansard roofs and brick chimneys, and the arcaded side wings. Gate 1 passes on the unmistakable horseshoe stair and courtyard geometry; clean daylight framing, no artifacts. Gate 2: caption 'Château de Fontainebleau, Fontainebleau', scenario '23 September 2026 · 15:11 Europe/Paris', AI disclosure bottom-left; curly-apostrophe 'Jason D's Vision' signature bottom-right; sweep verified exact 1920×1080/864×1080. approvals/FR-01-025.md absent from the repo, so no weather-retrieval timestamp to cross-check; unique scenario minute, no reuse pattern. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: scattered anonymous visitors in the courtyard, no logos; documented. Gate 5: ready.",
+  "approved_at": "2026-09-25T06:33:38.433264+00:00"
+}
