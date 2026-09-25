@@ -16,6 +16,11 @@
       "at": "2026-09-25T11:34:06.960101+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 FAIL: the defining feature of the Théâtre antique d'Orange is its monumental stage wall (the great Roman scaenae frons façade); this build shows a generic columned temple portico interior with no monumental wall and no cavea seating — the captioned site's signature element is absent. Glaring misconfiguration."
+    },
+    {
+      "at": "2026-09-25T12:36:26.259056+00:00",
+      "by": "Cosmo QC",
+      "note": "Re-examined in the 08:27 EDT run: concur with the 11:34 UTC Gate 1 FAIL - generic columned temple portico interior with no monumental scaenae frons wall and no cavea seating; the captioned site's signature element is absent. Glaring misconfiguration. Left Candidate."
     }
   ]
 }
