@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-037",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "city": "Avignon",
+  "caption": "Palais des Papes, Avignon",
+  "scenario_label": "23 September 2026 · 15:25 Europe/Paris",
+  "composition": "Massive papal Gothic fortress-palace above Place du Palais · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is massive papal Gothic fortress-palace above Place du Palais. The place named on the card is Palais des Papes, Avignon, in Provence-Alpes-Côte d'Azur. Light and weather follow the modelled scenario 23 September 2026 · 15:25 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Palais des Papes in Avignon under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-037-16x9.png?v=batch037",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-037-4x5.png?v=batch037",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1 PASS: Palais des Papes' massive crenellated Gothic palace mass with towers seen across Place du Palais, arcaded ground floor and small visitors in the square — plausible tourist viewpoint, no artifacts. G2 PASS: exact dims, exact Jason D's Vision signature bottom-right, caption 'Palais des Papes, Avignon', scenario '23 September 2026 · 15:25 Europe/Paris', disclosure bottom-left; minute unique (skips 15:24, still sequential, no reuse), no approvals file, no stale-reuse evidence. G3: text-prompt build, no photographic inputs indicated. G4: small anonymous figures in the square only — documented only.",
+  "approved_at": "2026-09-25T07:31:44.451514+00:00"
+}
