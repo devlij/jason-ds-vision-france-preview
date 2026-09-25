@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-102",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "city": "Èze",
+  "caption": "Èze perched village, Èze",
+  "scenario_label": "23 September 2026 · 18:15 Europe/Paris",
+  "composition": "Cliff-perched medieval eagle’s-nest village above the Mediterranean · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is cliff-perched medieval eagle’s-nest village above the Mediterranean. The place named on the card is Èze perched village, Èze, in Provence-Alpes-Côte d'Azur. Light and weather follow the modelled scenario 23 September 2026 · 18:15 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Èze perched village under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-102-16x9.png?v=batch101",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-102-4x5.png?v=batch101",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:39:12.492713+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 PASS: Èze — perched village with its stone tower crowning a craggy, tree-covered headland above the Mediterranean; plausible Riviera viewpoint, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080); on-image caption 'Èze perched village, Èze', scenario '23 September 2026 · 18:15 Europe/Paris', disclosure and curly-apostrophe signature exact — BUT HELD: weather retrieval cross-check impossible. approvals/FR-01-102.md verified 404 (notes gap 078–124), no PNG metadata, no manifest; per-scene retrieval unverifiable, Gate 2 open. Gate 3 undocumented. Gate 4: no people/logos visible — documented only."
+    }
+  ]
+}
