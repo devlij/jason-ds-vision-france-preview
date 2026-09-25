@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is roman amphitheatre with medieval square towers on the rim. The place named on the card is Arles Amphitheatre, Arles, in Provence-Alpes-Côte d'Azur. Model data from Open-Meteo, retrieved 2026-09-25T14:41:22+02:00 (2026-09-25T12:41:22Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 1%, 29.3°C, wind 15.1 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Arles Amphitheatre under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-055-16x9.png?v=batch053",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-055-4x5.png?v=batch053",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -18,9 +18,17 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:41:22+02:00 (2026-09-25T12:41:22Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 1%, 29.3°C, wind 15.1 km/h, precipitation 0.0 mm.",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate1: Roman amphitheatre with its distinctive three medieval square towers rising from the rim, set amid the red-tiled roofs of Arles, aerial-style tourist viewpoint, clean framing. Gate2: 1920x1080+864x1080 confirmed; on-image caption 'Arles Amphitheatre, Arles', scenario 'Scenario: 23 September 2026 · 15:38 Europe/Paris', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature on bottom gradient; Open-Meteo retrieval 2026-09-25T14:41:22+02:00 unique to this scene, scenario minute inside model-valid hour 2026-09-23T15:00 Europe/Paris, clear daylight consistent. Gate3: text-prompt-only lineage per approvals/FR-01-055.md, no photographic inputs reported. Gate4: no identifiable people or focal logos visible; documented only. Gate5: no open blockers.",
   "approved_at": "2026-09-25T14:34:09.495777+00:00",
   "sha256_16x9": "f34ce486c8349e8bd79440d7a58bf751c5705e82ad99c080775b15dd233e54fc",
-  "sha256_4x5": "e5112fa15fbaafdd6654ac403762c30d27d6d0afee7b172c49f4f72a9bc715f0"
+  "sha256_4x5": "e5112fa15fbaafdd6654ac403762c30d27d6d0afee7b172c49f4f72a9bc715f0",
+  "reverted_at": "2026-09-25T18:53:28.429981+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:53:28.429981+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
