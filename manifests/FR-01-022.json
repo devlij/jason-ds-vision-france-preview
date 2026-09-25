@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-022",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Paris",
+  "caption": "Pont Alexandre III, Paris",
+  "scenario_label": "23 September 2026 · 15:31 Europe/Paris",
+  "composition": "Single-arch Beaux-Arts bridge with gilded pegasus pylons over the Seine · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is single-arch Beaux-Arts bridge with gilded pegasus pylons over the Seine. The place named on the card is Pont Alexandre III, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:31 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Pont Alexandre III under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-022-16x9.png?v=batch021",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-022-4x5.png?v=batch021",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Pont Alexandre III spanning the Seine: the four gilt-bronze Pegasus statues on stone pylons, the ornate multi-lamp posts along the balustrade, the white single arch, with the Invalides golden dome and the Grand Palais glass dome visible beyond — unmistakably the bridge from a classic riverbank viewpoint. Gate 1 passes on recognizability and clean framing. Gate 2: on-image caption 'Pont Alexandre III, Paris', scenario '23 September 2026 · 15:31 Europe/Paris', AI disclosure bottom-left; 'Jason D's Vision' signature bottom-right with curly apostrophe; exact 1920×1080/864×1080 masters verified by the sweep. approvals/FR-01-022.md absent from the repo, so the weather-retrieval cross-check had no source; the scenario minute is unique to this scene. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: small distant pedestrians on the deck only, no logos; documented. Gate 5: ready.",
+  "approved_at": "2026-09-25T06:33:26.348939+00:00"
+}
