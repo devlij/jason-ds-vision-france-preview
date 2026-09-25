@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is royal château on a cliff terrace above the Loire. The place named on the card is Château d'Amboise, Amboise, in Centre-Val de Loire. Model data from Open-Meteo, retrieved 2026-09-25T14:41:32+02:00 (2026-09-25T12:41:32Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.1°C, wind 7.2 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Château d'Amboise under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-060-16x9.png?v=gate2wx",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-060-4x5.png?v=gate2wx",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -18,9 +18,17 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T16:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:41:32+02:00 (2026-09-25T12:41:32Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.1°C, wind 7.2 km/h, precipitation 0.0 mm.",
-  "qc_status": "approved",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Approved · Cosmo QC 5/5 · FR-031–060 weather rework — Gate 1: Chateau d'Amboise on its rocky promontory above the Loire, town below. Gate 2: caption \"Chateau d'Amboise, Amboise\", scenario 23 Sept 2026 16:44 Europe/Paris, signature and disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T14:41:32+02:00 (unique), valid 16:00, scenario inside the hour; code 0, 0% cloud. Gate 3: text-prompt-only; scrim rebaked for the new hour. Gate 4: clean. Gate 5: Art. 50 on; exact 1920x1080 / 864x1080.",
   "approved_at": "2026-09-25T13:05:27Z",
   "sha256_16x9": "c23707ada88f9f24372eca98d03d631e8877f9cdb1dd08619cc6a09d68c69f74",
-  "sha256_4x5": "dc4daa6cfe8f1df7e5d6e9d45ab3597541597ea0db6c6f74a213ae4e1f38fab2"
+  "sha256_4x5": "dc4daa6cfe8f1df7e5d6e9d45ab3597541597ea0db6c6f74a213ae4e1f38fab2",
+  "reverted_at": "2026-09-25T18:53:37.338864+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:53:37.338864+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
