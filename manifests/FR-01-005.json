@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-005",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Paris",
+  "caption": "Sacré-Cœur, Paris",
+  "scenario_label": "23 September 2026 · 14:58 Europe/Paris",
+  "composition": "White Romano-Byzantine basilica on Montmartre terrace steps · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is white Romano-Byzantine basilica on Montmartre terrace steps. The place named on the card is Sacré-Cœur, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 14:58 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Sacré-Cœur in Paris under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-005-16x9.png?v=batch005",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-005-4x5.png?v=batch005",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Sacré-Coeur basilica from the grand staircase: the white travertine domes with the central dome lantern, triple-arched portico, bronze equestrian statues flanking the entrance terrace, tourists scattered on the broad steps. Gate 1: recognizably Sacré-Coeur, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: sweep verified exact 1920x1080 / 864x1080; on-image caption 'Sacré-Cœur, Paris', scenario '23 September 2026 · 14:58 Europe/Paris', disclosure, and exact curly-apostrophe 'Jason D's Vision' signature all legible on the bottom gradient; no approvals/FR-01-005.md exists so no weather-retrieval timestamp to cross-check — scenario stands as model data, no staleness evidence. Gate 3: no photographic inputs reported (no build-agent notes file on record). Gate 4: small distant figures on the steps, unidentifiable; no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T04:32:17.242077+00:00"
+}
