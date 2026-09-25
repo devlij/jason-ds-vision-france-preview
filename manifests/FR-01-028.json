@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-028",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Paris",
+  "caption": "Jardin du Luxembourg, Paris",
+  "scenario_label": "23 September 2026 · 15:14 Europe/Paris",
+  "composition": "Luxembourg Palace across the octagonal basin and formal parterres with green chairs · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is luxembourg Palace across the octagonal basin and formal parterres with green chairs. The place named on the card is Jardin du Luxembourg, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:14 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Jardin du Luxembourg under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-028-16x9.png?v=batch025",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-028-4x5.png?v=batch025",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Jardin du Luxembourg from the garden side: the palace facade beyond the great central basin, the clipped hedges and lawns, rows of the garden's signature green metal chairs, and mature trees framing the view — the classic postcard composition. Gate 1 passes on the basin-palace-chairs ensemble; calm daylight, no artifacts. Gate 2: caption 'Jardin du Luxembourg, Paris', scenario '23 September 2026 · 15:14 Europe/Paris', AI disclosure bottom-left; 'Jason D's Vision' signature bottom-right with curly apostrophe; exact 1920×1080/864×1080 masters verified by the sweep. approvals/FR-01-028.md absent from the repo, so no weather-retrieval timestamp to cross-check; unique scenario minute per scene. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: no identifiable people, no logos; documented. Gate 5: ready.",
+  "approved_at": "2026-09-25T06:33:50.319880+00:00"
+}
