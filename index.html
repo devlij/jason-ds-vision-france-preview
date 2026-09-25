@@ -5448,6 +5448,7 @@
   var img=overlay.querySelector('img'),cap=overlay.querySelector('.lb-cap'),count=overlay.querySelector('.lb-count');
   var playBtn=overlay.querySelector('.lb-play');
   var items=[],idx=0;
+  var lbFormat='16x9';/* lightbox-session format: seeded from the opening card's active tab; persists across prev/next + slideshow, never reset to 16:9 */
   var playing=false,timer=null,SLIDE_MS=6000;
   function renderPlay(){playBtn.innerHTML=playing?'&#10074;&#10074;':'&#9654;';playBtn.setAttribute('aria-label',playing?'Pause slideshow':'Play slideshow');playBtn.classList.toggle('playing',playing);}
   function stopSlide(){playing=false;if(timer){clearInterval(timer);timer=null;}renderPlay();}
@@ -5456,8 +5457,11 @@
   function visibleCards(){return Array.prototype.filter.call(document.querySelectorAll('.card'),function(c){return c.style.display!=='none';});}
   function show(i){
     items=visibleCards().map(function(c){
-      var a=c.querySelector('a.thumb');var t=c.querySelector('.caption');
-      return{src:a?a.href:'',cap:t?t.textContent:''};
+      var im=c.querySelector('a.thumb img');var t=c.querySelector('.caption');
+      var src='';
+      if(im){src=lbFormat==='4x5'?im.getAttribute('data-src-45'):im.getAttribute('data-src-16');}
+      if(!src){var a=c.querySelector('a.thumb');src=a?a.href:'';}
+      return{src:src,cap:t?t.textContent:''};
     }).filter(function(x){return x.src;});
     if(!items.length)return;
     idx=(i+items.length)%items.length;
@@ -5470,7 +5474,7 @@
   renderPlay();
   document.addEventListener('click',function(e){
     var a=e.target.closest?e.target.closest('a.thumb'):null;
-    if(a){e.preventDefault();var cards=visibleCards();show(cards.indexOf(a.closest('.card')));return;}
+    if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active');lbFormat=(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';show(cards.indexOf(card));return;}
     if(e.target===overlay||(e.target.closest&&e.target.closest('.lb-close')))hide();
     else if(e.target.closest&&e.target.closest('.lb-play'))toggleSlide();
     else if(e.target.closest&&e.target.closest('.lb-prev'))show(idx-1);
