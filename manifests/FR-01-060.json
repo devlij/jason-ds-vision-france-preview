@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-060",
+  "country": "France",
+  "region": "Centre-Val de Loire",
+  "city": "Amboise",
+  "caption": "Château d'Amboise, Amboise",
+  "scenario_label": "23 September 2026 · 15:44 Europe/Paris",
+  "composition": "Royal château on a cliff terrace above the Loire · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is royal château on a cliff terrace above the Loire. The place named on the card is Château d'Amboise, Amboise, in Centre-Val de Loire. Light and weather follow the modelled scenario 23 September 2026 · 15:44 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Château d'Amboise under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-060-16x9.png?v=batch057",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-060-4x5.png?v=batch057",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Renaissance château with turreted towers and Gothic chapel atop the limestone bluff, the Loire bending below and the old town roofs in the foreground — recognizably the Château d'Amboise from the riverside viewpoint, clean framing, no artifacts. Gate 2: exact 1920×1080 + 864×1080 (sweep verified); exact 'Jason D's Vision' signature bottom-right; caption 'Château d'Amboise, Amboise', scenario '23 September 2026 · 15:44 Europe/Paris', disclosure 'AI-generated artistic interpretation · Not a photograph.' on the bottom gradient, legible and unobtrusive; no approvals/FR-01-060.md note exists for weather cross-check, sequential build minutes show no ES-01-style stale-reuse pattern. Gate 3: no photographic inputs reported; text-prompt generation per France kit. Gate 4: public château, no recognizable people or logos — documented only, not certified. Gate 5: all gates pass, publish-ready.",
+  "approved_at": "2026-09-25T09:33:48.870143+00:00"
+}
