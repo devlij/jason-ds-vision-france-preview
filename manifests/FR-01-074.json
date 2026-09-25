@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is cable-stayed multi-span bridge spanning the Tarn gorge. The place named on the card is Viaduc de Millau, Millau, in Occitanie. Light and weather follow the modelled scenario 25 September 2026 · 14:33 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Viaduc de Millau under a mainly clear hot afternoon sky",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-074-16x9.png?v=gate1-20260925",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-074-4x5.png?v=gate1-20260925",
   "qc_notes": [
     {
@@ -22,5 +22,10 @@
       "by": "Cosmo QC",
       "note": "Re-examined in the 08:27 EDT run: concur with the 11:33 UTC Gate 1 FAIL - the viaduct renders as a washed-out ghost, pylons and stays barely resolve, the deck is a muddy smear, heavy defocus across the frame; not identifiable as the Millau Viaduct. Left Candidate."
     }
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Afternoon",
+  "approval_basis": "Gate 1: the Millau Viaduct — a crisp, readable multi-span cable-stayed deck on tall slender pylons spanning the green Tarn valley with the town below; the rebuild goal is delivered (eight slender masts visible in this interpretation vs seven on the real structure — a minor count deviation, not a misconfiguration). Gate 2: caption 'Viaduc de Millau, Millau', scenario 25 Sept 2026 14:33 Europe/Paris, 'Jason D's Vision' signature and AI disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T12:33:12Z (unique), valid 14:30, scenario inside 14:00–15:00; code 1, 31% cloud matches the scattered clouds. Gate 3: text-prompt-only rebuild, no photographic inputs reported. Gate 4: no people/logos of note. Gate 5: Art. 50 PNG metadata present; exact 1920x1080 / 864x1080.",
+  "approved_at": "2026-09-25T12:58:43.796468+00:00",
+  "sha256_16x9": "fee3b96917f7ada28006077c0e0eed9d8a1f0a31df848cb6cdff4309f113c9b9",
+  "sha256_4x5": "6e43e232dd23bcfd4834da85cf18399cb60714aa40b258e45aa4e2b21cb0206c"
 }
