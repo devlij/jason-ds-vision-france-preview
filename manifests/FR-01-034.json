@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-034",
+  "country": "France",
+  "region": "Nouvelle-Aquitaine",
+  "city": "Bordeaux",
+  "caption": "Place de la Bourse, Bordeaux",
+  "scenario_label": "23 September 2026 · 15:21 Europe/Paris",
+  "composition": "18th-century Place de la Bourse reflected in the Miroir d'eau · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is 18th-century Place de la Bourse reflected in the Miroir d'eau. The place named on the card is Place de la Bourse, Bordeaux, in Nouvelle-Aquitaine. Light and weather follow the modelled scenario 23 September 2026 · 15:21 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Place de la Bourse in Bordeaux under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-034-16x9.png?v=batch033",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-034-4x5.png?v=batch033",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1 PASS: Place de la Bourse's curved neoclassical facade mirrored in the Miroir d'eau, trees and strollers along the quay — the signature Bordeaux viewpoint, no misconfiguration or artifacts. G2 PASS: exact dims, exact Jason D's Vision signature bottom-right, caption 'Place de la Bourse, Bordeaux', scenario '23 September 2026 · 15:21 Europe/Paris', disclosure bottom-left; minute unique/sequential, no approvals file, no stale-reuse evidence. G3: text-prompt build, no photographic inputs indicated. G4: small anonymous quay pedestrians only — documented only.",
+  "approved_at": "2026-09-25T07:31:16.026655+00:00"
+}
