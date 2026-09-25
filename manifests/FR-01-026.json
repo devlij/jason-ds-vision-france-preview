@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-026",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Vincennes",
+  "caption": "Château de Vincennes, Vincennes",
+  "scenario_label": "23 September 2026 · 15:12 Europe/Paris",
+  "composition": "Massive medieval keep with corner turrets, moat, and Sainte-Chapelle flèche · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is massive medieval keep with corner turrets, moat, and Sainte-Chapelle flèche. The place named on the card is Château de Vincennes, Vincennes, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:12 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Château de Vincennes under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-026-16x9.png?v=batch025",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-026-4x5.png?v=batch025",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Château de Vincennes: the massive limestone donjon keep with its corner turrets rising over the crenellated enceinte walls and moat, the Sainte-Chapelle's tall spire visible to the right behind the walls, mature trees and the avenue path framing the moat. Gate 1 passes on the donjon-enceinte-chapel ensemble from this moat-side viewpoint; clean framing, no artifacts. Gate 2: caption 'Château de Vincennes, Vincennes', scenario '23 September 2026 · 15:12 Europe/Paris', AI disclosure bottom-left; 'Jason D's Vision' signature bottom-right with curly apostrophe; exact 1920×1080/864×1080 masters verified. approvals/FR-01-026.md absent from the repo, so no weather-retrieval timestamp to cross-check; scenario minute unique to this scene. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: tiny distant figures on the path only, no logos; documented. Gate 5: ready.",
+  "approved_at": "2026-09-25T06:33:42.323200+00:00"
+}
