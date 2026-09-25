@@ -9,9 +9,17 @@
   "description": "The recorded tourist view is luxembourg Palace across the octagonal basin and formal parterres with green chairs. The place named on the card is Jardin du Luxembourg, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:14 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Jardin du Luxembourg under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-028-16x9.png?v=batch025",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-028-4x5.png?v=batch025",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Jardin du Luxembourg from the garden side: the palace facade beyond the great central basin, the clipped hedges and lawns, rows of the garden's signature green metal chairs, and mature trees framing the view — the classic postcard composition. Gate 1 passes on the basin-palace-chairs ensemble; calm daylight, no artifacts. Gate 2: caption 'Jardin du Luxembourg, Paris', scenario '23 September 2026 · 15:14 Europe/Paris', AI disclosure bottom-left; 'Jason D's Vision' signature bottom-right with curly apostrophe; exact 1920×1080/864×1080 masters verified by the sweep. approvals/FR-01-028.md absent from the repo, so no weather-retrieval timestamp to cross-check; unique scenario minute per scene. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: no identifiable people, no logos; documented. Gate 5: ready.",
-  "approved_at": "2026-09-25T06:33:50.319880+00:00"
+  "approved_at": "2026-09-25T06:33:50.319880+00:00",
+  "reverted_at": "2026-09-25T18:52:38.567894+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:52:38.567894+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
