@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-033",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "city": "Lyon",
+  "caption": "Basilique Notre-Dame de Fourvière, Lyon",
+  "scenario_label": "23 September 2026 · 15:20 Europe/Paris",
+  "composition": "White Fourvière basilica with four corner towers on the hill above Lyon · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is white Fourvière basilica with four corner towers on the hill above Lyon. The place named on the card is Basilique Notre-Dame de Fourvière, Lyon, in Auvergne-Rhône-Alpes. Light and weather follow the modelled scenario 23 September 2026 · 15:20 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Basilique Notre-Dame de Fourvière in Lyon under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-033-16x9.png?v=batch033",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-033-4x5.png?v=batch033",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1 PASS: Fourviere's neo-Gothic basilica with four towers and central spire seen from the hilltop forecourt, Lyon's red rooftops and the Saone valley spreading below; plausible viewpoint, clean. G2 PASS: exact 1920x1080/864x1080, exact Jason D's Vision signature bottom-right, caption 'Basilique Notre-Dame de Fourviere, Lyon', scenario '23 September 2026 · 15:20 Europe/Paris', disclosure bottom-left legible; minute unique/sequential, no approvals file, no stale-reuse evidence. G3: text-prompt build per France kit, no photo inputs indicated. G4: tiny distant figures on forecourt only — documented only.",
+  "approved_at": "2026-09-25T07:31:12.446157+00:00"
+}
