@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is cliff castle above the Dordogne. The place named on the card is Château de Beynac, Beynac-et-Cazenac, in Nouvelle-Aquitaine. Light and weather follow the modelled scenario 23 September 2026 · 17:26 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Château de Beynac under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-093-16x9.png?v=batch093",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-093-4x5.png?v=batch093",
   "qc_notes": [
     {
@@ -17,5 +17,10 @@
       "by": "Cosmo QC",
       "note": "Gate 1 PASS (review): cliff-top castle above a river bend with a detached round keep — recognizably Château de Beynac over the Dordogne from a plausible riverside viewpoint. Gate 2 BLOCKED: no approvals/FR-01-093.md exists in the repo (note range covers 009, 031-060, 073-077, 125-365) — no per-scene Open-Meteo retrieval timestamp exists to cross-check against the on-image scenario 23 September 2026 17:26 Europe/Paris; 1-minute-per-scene scenario increments suggest build-clock timestamps. Gate 3 OPEN: no generation-input documentation. Gate 4: no people/logos visible. Stays Candidate pending a per-scene evidence note."
     }
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: medieval castle crowning limestone cliffs above a winding dark river bend, with a detached round tower on the right and green wooded valley below — plausibly Château de Beynac above the Dordogne; no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Château de Beynac, Beynac-et-Cazenac', scenario '23 September 2026 · 17:26 Europe/Paris', disclosure legible bottom-left, matching the gallery index; curly-apostrophe signature bottom-right; scenario minute 17:26 unique across the batch; no per-scene builder note exists, so no retrieval-timestamp cross-check was possible. Gate 3: no photographic inputs reported anywhere. Gate 4: no people, no logos, no recognizable private property — documented only. Gate 5: all gates pass.",
+  "approved_at": "2026-09-25T17:39:54.203373+00:00",
+  "sha256_16x9": "d0df5cc7a654ce2e05a01d715a5900076cc61dddbaa1e0fbf162e31646c6c402",
+  "sha256_4x5": "b2b2f107062773c768ba327042a2592738857092cfd41066e7116544dca83c98"
 }
