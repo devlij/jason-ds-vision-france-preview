@@ -9,9 +9,17 @@
   "description": "The recorded tourist view is renaissance château on park axis with reflecting pool and chimney forest. The place named on the card is Château de Chambord, Chambord, in Centre-Val de Loire. Light and weather follow the modelled scenario 23 September 2026 · 15:08 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Château de Chambord under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-012-16x9.png?v=batch009",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-012-4x5.png?v=batch009",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "G1 visual pass: the Renaissance château's facade sits on its park axis with the rectangular reflecting pool in front and the forest of rooftop chimneys above, instantly recognizable Chambord from the classic tourist viewpoint, no artifacts. G2 technical pass: masters verified 1920x1080 / 864x1080; on-image caption 'Château de Chambord, Chambord', scenario '23 September 2026 · 15:08 Europe/Paris', and the AI disclosure all legible bottom-left on the scrim; 'Jason D's Vision' signature with curly apostrophe bottom-right; label matches the repo SCENES block and the sequential daylight batch with no weather-metadata reuse evidence (no approvals note exists for this entry). G3 originality: no photographic inputs reported. G4 commercial/IP: no visible people, logos, or private property — public historic monument, documented only. G5 publication ready.",
-  "approved_at": "2026-09-25T05:31:47.215746+00:00"
+  "approved_at": "2026-09-25T05:31:47.215746+00:00",
+  "reverted_at": "2026-09-25T18:52:10.526011+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:52:10.526011+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
