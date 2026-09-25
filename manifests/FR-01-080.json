@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-080",
+  "country": "France",
+  "region": "Corsica",
+  "city": "Calvi",
+  "caption": "Citadel of Calvi, Calvi",
+  "scenario_label": "23 September 2026 · 16:36 Europe/Paris",
+  "composition": "Genoese citadel on a rocky peninsula above the bay · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is genoese citadel on a rocky peninsula above the bay. The place named on the card is Citadel of Calvi, Calvi, in Corsica. Light and weather follow the modelled scenario 23 September 2026 · 16:36 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of the Citadel of Calvi under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-080-16x9.png?v=batch077",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-080-4x5.png?v=batch077",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the Genoese Citadel of Calvi on its rocky headland above the Bay of Calvi — ramparts and old town wrapping the promontory, turquoise cove and mountains behind; recognizable from the classic sea-side viewpoint, coherent composition. Gate 2: sweep verified 1920x1080 + 864x1080; caption 'Citadel of Calvi, Calvi', scenario '23 September 2026 · 16:36 Europe/Paris', disclosure on-image bottom-left, curly-apostrophe signature bottom-right verified at 2x zoom. No agent weather note (notes start at FR-01-125); sequential batch scenario time, no reuse pattern. Gate 3: no provenance claims on file; nothing indicates photographic inputs. Gate 4: no identifiable people or logos — documented only. Gate 5: clear.",
+  "approved_at": "2026-09-25T11:33:33.259671+00:00"
+}
