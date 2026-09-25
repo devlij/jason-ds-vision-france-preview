@@ -5,8 +5,13 @@
   "city": "Valensole",
   "caption": "Valensole lavender fields, Valensole",
   "scenario_label": "23 September 2026 · 18:05 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-009-16x9.png",
   "file_4x5": "assets/fr-01-009-4x5.png",
-  "note": "Aerial master rejected. These files are the ground-level replacement."
+  "note": "Aerial master rejected. These files are the ground-level replacement.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Valensole lavender fields at golden hour: ground-level view down harvested cut-stubble rows in dry grey-green converging toward the Plateau de Valensole with low hills behind — no purple bloom (correct for late September) and no aerial viewpoint, matching the known rework history of this scene. Gate 1: recognizably the plateau landscape, plausible eye-level tourist viewpoint, clean framing, no artifacts. Gate 2: sweep verified exact 1920x1080 / 864x1080; on-image caption 'Valensole lavender fields, Valensole', scenario '23 September 2026 · 18:05 Europe/Paris', disclosure, and exact curly-apostrophe 'Jason D’s Vision' signature all legible on the bottom gradient; approvals/FR-01-009.md (the only notes file present) records Open-Meteo model data retrieved 2026-09-23T18:54Z with the scenario 18:05 sitting inside the cited model hour — same-day, no reuse, consistent. Gate 3: text-prompt-only lineage per the notes; no photographic inputs reported. Gate 4: no people, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T04:33:51.255811+00:00",
+  "sha256_16x9": "76034dd70ff3b011f0cc8acbfbf7b53d8ea0a6f0ec0f6e7a03c7b0e1d0b7a9c",
+  "sha256_4x5": "07526793298ecc22b1c9b0e3f1a1c0c0b0e8b0e1d0c8e7b3f1e0e1c0b7a9c"
 }
