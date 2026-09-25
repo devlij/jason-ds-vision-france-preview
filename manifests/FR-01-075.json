@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is small Renaissance château reflected in the Indre moat/river. The place named on the card is Château d'Azay-le-Rideau, Azay-le-Rideau, in Centre-Val de Loire. Light and weather follow the modelled scenario 25 September 2026 · 14:33 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of the pale-stone Château d'Azay-le-Rideau reflected in the Indre under a clear afternoon sky",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-075-16x9.png?v=gate1-20260925",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-075-4x5.png?v=gate1-20260925",
   "qc_notes": [
     {
@@ -22,5 +22,10 @@
       "by": "Cosmo QC",
       "note": "Re-examined in the 08:27 EDT run: concur with the 11:33 UTC Gate 1 FAIL - renders as a dark grey ruin-like castle half-hidden behind trees; wrong color character and architectural register for the famously luminous white Azay-le-Rideau mirrored in the Indre. Left Candidate."
     }
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Afternoon",
+  "approval_basis": "Gate 1: the pale tuffeau Château d'Azay-le-Rideau on the Indre with its mirror reflection — exactly the rebuild goal, a clean break from the rejected dark-ruin version; crisp stonework, slate roofs, parkland framing. Gate 2: caption 'Château d'Azay-le-Rideau, Azay-le-Rideau', scenario 25 Sept 2026 14:33 Europe/Paris, 'Jason D's Vision' signature and AI disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T12:33:16Z (unique), valid 14:30, scenario inside 14:00–15:00; code 0, 0% cloud matches the clear sky. Gate 3: text-prompt-only rebuild, no photographic inputs reported. Gate 4: no people/logos of note. Gate 5: Art. 50 PNG metadata present; exact 1920x1080 / 864x1080.",
+  "approved_at": "2026-09-25T12:58:53.279493+00:00",
+  "sha256_16x9": "1ce4db5b6db0b2104cd8368d5dbf6ce8b0b6ddebb240e5c1a626212198758cbe",
+  "sha256_4x5": "769dc12846c5fba5801c24066d091eb60a5bcba2cdd7f7d51817375e15c9a58d"
 }
