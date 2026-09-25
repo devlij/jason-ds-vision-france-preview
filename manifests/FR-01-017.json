@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-017",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Paris",
+  "caption": "Sainte-Chapelle, Paris",
+  "scenario_label": "23 September 2026 · 15:20 Europe/Paris",
+  "composition": "Rayonnant Gothic chapel with openwork flèche in the Palais de Justice courtyard · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is rayonnant Gothic chapel with openwork flèche in the Palais de Justice courtyard. The place named on the card is Sainte-Chapelle, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:20 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Sainte-Chapelle under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-017-16x9.png?v=batch017",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-017-4x5.png?v=batch017",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1 visual pass: the Rayonnant Gothic chapel with its walls of tall stained-glass windows, pinnacled buttresses, and lacy spire rising between the Palais de Justice blocks — recognizably Sainte-Chapelle from the courtyard, clean framing, no artifacts. G2 technical pass: masters verified 1920x1080 / 864x1080; on-image caption 'Sainte-Chapelle, Paris', scenario '23 September 2026 · 15:20 Europe/Paris', and the AI disclosure all legible bottom-left on the scrim; 'Jason D's Vision' signature with curly apostrophe bottom-right; label matches the repo SCENES block and the sequential daylight batch with no weather-metadata reuse evidence (no approvals note exists for this entry). G3 originality: no photographic inputs reported. G4 commercial/IP: no visible people, logos, or private property — public historic monument, documented only. G5 publication ready.",
+  "approved_at": "2026-09-25T05:32:28.447080+00:00"
+}
