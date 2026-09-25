@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-068",
+  "country": "France",
+  "region": "Grand Est",
+  "city": "Eguisheim",
+  "caption": "Eguisheim, Eguisheim",
+  "scenario_label": "23 September 2026 · 15:48 Europe/Paris",
+  "composition": "Flowered half-timbered street in a concentric Alsace wine village · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is flowered half-timbered street in a concentric Alsace wine village. The place named on the card is Eguisheim, Eguisheim, in Grand Est. Light and weather follow the modelled scenario 23 September 2026 · 15:48 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Eguisheim under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-068-16x9.png?v=batch065",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-068-4x5.png?v=batch065",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: Eguisheim's circular cobbled street lined with flower-bedecked half-timbered houses, vine-covered walls — the classic Alsace village viewpoint. Clean framing, no artifacts. Gate2: exact 1920x1080/864x1080; caption 'Eguisheim, Eguisheim', scenario '23 September 2026 · 15:48 Europe/Paris', AI disclosure on scrim; 'Jason D's Vision' bottom-right. No approvals note (404); sequential scenario, no stale-weather evidence. Gate3: no photographic inputs evidenced. Gate4: no people, logos, or recognizable private property — documented only.",
+  "approved_at": "2026-09-25T10:32:47.689283+00:00"
+}
