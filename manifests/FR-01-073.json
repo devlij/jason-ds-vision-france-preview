@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-073",
+  "country": "France",
+  "region": "Grand Est",
+  "city": "Nancy",
+  "caption": "Place Stanislas, Nancy",
+  "scenario_label": "23 September 2026 · 16:22 Europe/Paris",
+  "composition": "Ornate 18th-century royal square with gilded gates and Hôtel de Ville · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is ornate 18th-century royal square with gilded gates and Hôtel de Ville. The place named on the card is Place Stanislas, Nancy, in Grand Est. Light and weather follow the modelled scenario 23 September 2026 · 16:22 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Place Stanislas in Nancy under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-073-16x9.png?v=batch073",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-073-4x5.png?v=batch073",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T11:33:43.942012+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 FAIL: the Arc Héré at Place Stanislas is the correct feature, but the generation has visible artifacts on the central subject — the rooftop sculptural groups are melted unrecognizable blobs and the dark recessed panels between the column pairs are smeared black masses; overall the frame renders muddy and dim. Not clean, artifact-free work."
+    }
+  ]
+}
