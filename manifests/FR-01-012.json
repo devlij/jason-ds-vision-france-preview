@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-012",
+  "country": "France",
+  "region": "Centre-Val de Loire",
+  "city": "Chambord",
+  "caption": "Château de Chambord, Chambord",
+  "scenario_label": "23 September 2026 · 15:08 Europe/Paris",
+  "composition": "Renaissance château on park axis with reflecting pool and chimney forest · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is renaissance château on park axis with reflecting pool and chimney forest. The place named on the card is Château de Chambord, Chambord, in Centre-Val de Loire. Light and weather follow the modelled scenario 23 September 2026 · 15:08 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Château de Chambord under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-012-16x9.png?v=batch009",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-012-4x5.png?v=batch009",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1 visual pass: the Renaissance château's facade sits on its park axis with the rectangular reflecting pool in front and the forest of rooftop chimneys above, instantly recognizable Chambord from the classic tourist viewpoint, no artifacts. G2 technical pass: masters verified 1920x1080 / 864x1080; on-image caption 'Château de Chambord, Chambord', scenario '23 September 2026 · 15:08 Europe/Paris', and the AI disclosure all legible bottom-left on the scrim; 'Jason D's Vision' signature with curly apostrophe bottom-right; label matches the repo SCENES block and the sequential daylight batch with no weather-metadata reuse evidence (no approvals note exists for this entry). G3 originality: no photographic inputs reported. G4 commercial/IP: no visible people, logos, or private property — public historic monument, documented only. G5 publication ready.",
+  "approved_at": "2026-09-25T05:31:47.215746+00:00"
+}
