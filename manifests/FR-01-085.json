@@ -16,6 +16,11 @@
       "at": "2026-09-25T12:36:30.895794+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 FAIL (08:27 EDT run): the render shows a steep snow-capped stratovolcano cone; Puy de Dome is a rounded 1,465 m trachyte lava dome with low slopes, a summit plateau, telecom antenna and observatory - and carries no snow in late September. Wrong volcanic form plus impossible September snow = glaring geographic misconfiguration. Left Candidate."
+    },
+    {
+      "at": "2026-09-25T15:33:04.660221+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 FAIL (location misconfiguration): master shows a snow-capped conical Fuji-like volcano; the real Puy de Dôme is a rounded forested lava dome with a summit observatory, no snow cap. Gate 2 BLOCKED: no approvals/FR-01-085.md exists (repo note range covers 009, 031-060, 073-077, 125-365), so no per-scene Open-Meteo retrieval timestamp exists to cross-check against the on-image scenario 23 September 2026 17:05 Europe/Paris — fails the 2026-09-25 one-retrieval-per-scene rule. Gate 3 OPEN: no generation-input documentation at all (no photographic inputs ruled out or confirmed). Gates 4: no people/logos visible. Stays Candidate; needs rebuild of the mountain form and a per-scene evidence note."
     }
   ]
 }
