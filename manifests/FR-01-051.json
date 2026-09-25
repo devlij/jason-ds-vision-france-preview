@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is renaissance gallery of arches spanning the Cher river. The place named on the card is Château de Chenonceau, Chenonceaux, in Centre-Val de Loire. Model data from Open-Meteo, retrieved 2026-09-25T14:41:14+02:00 (2026-09-25T12:41:14Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.8°C, wind 5.9 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Château de Chenonceau under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-051-16x9.png?v=gate2wx",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-051-4x5.png?v=gate2wx",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -17,5 +17,10 @@
   "weather_retrieval_local": "2026-09-25T14:41:14+02:00",
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T16:00 Europe/Paris",
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:41:14+02:00 (2026-09-25T12:41:14Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.8°C, wind 5.9 km/h, precipitation 0.0 mm."
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:41:14+02:00 (2026-09-25T12:41:14Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.8°C, wind 5.9 km/h, precipitation 0.0 mm.",
+  "qc_status": "approved",
+  "approval_basis": "Approved · Cosmo QC 5/5 · FR-031–060 weather rework — Gate 1: Chateau de Chenonceau, gallery bridge spanning the Cher with arches and reflection. Gate 2: caption 'Chateau de Chenonceau, Chenonceaux', scenario 23 Sept 2026 16:36 Europe/Paris, signature and disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T14:41:14+02:00 (unique), valid 16:00, scenario inside the hour; code 0, 0% cloud. Gate 3: text-prompt-only; scrim rebaked for the new hour. Gate 4: clean. Gate 5: Art. 50 on; exact 1920x1080 / 864x1080.",
+  "approved_at": "2026-09-25T13:05:27Z",
+  "sha256_16x9": "b76e476ccc971524daef9e35168c4775b3d82942deba5667e8399d75e9444e6a",
+  "sha256_4x5": "820c2c069769261b8b92d9831e87998b67e1039acc46a558d4b20ca56b6cfd05"
 }
