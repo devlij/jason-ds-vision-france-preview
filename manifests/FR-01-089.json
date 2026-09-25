@@ -9,18 +9,24 @@
   "description": "The recorded tourist view is medieval fortress on ridge above the Vienne. The place named on the card is Château de Chinon, Chinon, in Centre-Val de Loire. Light and weather follow the modelled scenario 23 September 2026 · 17:12 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Château de Chinon under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-089-16x9.png?v=batch089",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-089-4x5.png?v=batch089",
   "qc_notes": [
     {
       "at": "2026-09-25T15:34:01.366469+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 PASS (review): hilltop stone fortress with round towers and conical roofs in golden afternoon light — recognizably Château de Chinon from a plausible low viewpoint. Gate 2 BLOCKED: no approvals/FR-01-089.md exists in the repo (note range covers 009, 031-060, 073-077, 125-365) — no per-scene Open-Meteo retrieval timestamp exists to cross-check against the on-image scenario 23 September 2026 17:12 Europe/Paris; 1-minute-per-scene scenario increments across FR-01-085–094 suggest build-clock timestamps. Gate 3 OPEN: no generation-input documentation. Gate 4: no people/logos visible. Stays Candidate pending a per-scene evidence note."
+    },
+    {
+      "at": "2026-09-25T18:54:27.871159+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate 1: hilltop fortress of round towers and pointed slate roofs crowning a rocky spur above a green valley, in warm daylight — plausibly Château de Chinon; clean framing, no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Château de Chinon, Chinon', scenario '23 September 2026 · 17:12 Europe/Paris', disclosure legible bottom-left, matching the gallery index; curly-apostrophe signature bottom-right; scenario minute 17:12 unique across the batch; no per-scene builder note exists, so no retrieval-timestamp cross-check was possible. Gate 3: no photographic inputs reported anywhere. Gate 4: no people, no logos, no recognizable private property — documented only. Gate 5: all gates pass.",
   "approved_at": "2026-09-25T17:39:07.299793+00:00",
   "sha256_16x9": "7326472b4df65bcd37d9f48f73fd687539984756e47bfda77d1c7ec6ca6f0ce6",
-  "sha256_4x5": "202db0dff2642a2b62b130bdaee058da0be9ea5fb7e897f99788287190beb34d"
+  "sha256_4x5": "202db0dff2642a2b62b130bdaee058da0be9ea5fb7e897f99788287190beb34d",
+  "reverted_at": "2026-09-25T18:54:27.871159+00:00"
 }
