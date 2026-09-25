@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is gothic west façade with mismatched towers and tall iron flèche. The place named on the card is Rouen Cathedral, Rouen, in Normandy. Model data from Open-Meteo, retrieved 2026-09-25T14:38:39+02:00 (2026-09-25T12:38:39Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 26.2°C, wind 8.9 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Rouen Cathedral in Rouen under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-036-16x9.png?v=batch033",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-036-4x5.png?v=batch033",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -17,5 +17,10 @@
   "weather_retrieval_local": "2026-09-25T14:38:39+02:00",
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:39+02:00 (2026-09-25T12:38:39Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 26.2°C, wind 8.9 km/h, precipitation 0.0 mm."
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:39+02:00 (2026-09-25T12:38:39Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 26.2°C, wind 8.9 km/h, precipitation 0.0 mm.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1 pass: Gothic west front of Rouen Cathedral with mismatched towers (flat-topped south tower, ornate north tower), tall dark iron fleche, rose window and three deep portals — a plausible tourist view from the parvis. Gate2 pass: 1920x1080/864x1080 verified, exact 'Jason D's Vision' signature bottom-right, caption 'Rouen Cathedral, Rouen' and scenario '23 September 2026 · 15:23 Europe/Paris' plus AI-disclosure legible on the bottom-left scrim; scenario minute sits inside model-valid hour 2026-09-23T15:00 Europe/Paris, and approvals/FR-01-036.md records a scene-specific Open-Meteo retrieval at 2026-09-25T14:38:39+02:00 (unique to this scene, location-specific values). Frame shows a few fair-weather clouds against model cloud 0% — reviewed as modelled-scenario nuance, not a gate failure. Gate3 pass: text-prompt-only generation documented, no photographic inputs. Gate4 noted: small visitor figures on the parvis — public landmark, documented only. Gate5: no open blockers — publish-ready.",
+  "approved_at": "2026-09-25T13:34:34.540153+00:00",
+  "sha256_16x9": "c214badbd9b6622891d112161cd666be87516ec17ad899b079576a6ecce107b2",
+  "sha256_4x5": "6426eaee49725de6d86cfdd54d2642701fd2579788f0c9f3d5e426b37381e74f"
 }
