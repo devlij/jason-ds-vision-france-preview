@@ -9,18 +9,24 @@
   "description": "The recorded tourist view is deep limestone canyon with Tarn river and village. The place named on the card is Gorges du Tarn, Sainte-Enimie, in Occitanie. Light and weather follow the modelled scenario 23 September 2026 · 17:14 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Gorges du Tarn at Sainte-Enimie under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-091-16x9.png?v=batch089",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-091-4x5.png?v=batch089",
   "qc_notes": [
     {
       "at": "2026-09-25T15:34:06.598600+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 PASS (review): village under towering limestone cliffs with a stone arch bridge over the Tarn — recognizably Sainte-Enimie in the Gorges du Tarn from a plausible riverside viewpoint. Gate 2 BLOCKED: no approvals/FR-01-091.md exists in the repo (note range covers 009, 031-060, 073-077, 125-365) — no per-scene Open-Meteo retrieval timestamp exists to cross-check against the on-image scenario 23 September 2026 17:14 Europe/Paris; 1-minute-per-scene scenario increments suggest build-clock timestamps. Gate 3 OPEN: no generation-input documentation. Gate 4: no people/logos visible. Stays Candidate pending a per-scene evidence note."
+    },
+    {
+      "at": "2026-09-25T18:54:31.411947+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate 1: gorge village of limestone houses along a dark river with a small arched bridge, steep wooded cliffs rising behind — plausibly Sainte-Enimie in the Gorges du Tarn; no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Gorges du Tarn, Sainte-Enimie', scenario '23 September 2026 · 17:14 Europe/Paris', disclosure legible bottom-left, matching the gallery index; curly-apostrophe signature bottom-right; scenario minute 17:14 unique across the batch; no per-scene builder note exists, so no retrieval-timestamp cross-check was possible. Gate 3: no photographic inputs reported anywhere. Gate 4: no people, no logos, no recognizable private property — documented only. Gate 5: all gates pass.",
   "approved_at": "2026-09-25T17:39:16.652934+00:00",
   "sha256_16x9": "556e4a925b6c02b538d3fd7a549bcafec47a19acb0124c309a0e8b855cbde4bc",
-  "sha256_4x5": "6736314f4b5bf70534d1b05a9772121a77ee5f1a8a7bb3e5d7307a67e427c697"
+  "sha256_4x5": "6736314f4b5bf70534d1b05a9772121a77ee5f1a8a7bb3e5d7307a67e427c697",
+  "reverted_at": "2026-09-25T18:54:31.411947+00:00"
 }
