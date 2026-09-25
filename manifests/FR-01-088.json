@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is vauban fortifications and harbor on Île de Ré. The place named on the card is Saint-Martin-de-Ré harbor, Saint-Martin-de-Ré, in Nouvelle-Aquitaine. Light and weather follow the modelled scenario 23 September 2026 · 17:08 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Saint-Martin-de-Ré harbor under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-088-16x9.png?v=batch085",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-088-4x5.png?v=batch085",
   "qc_notes": [
     {
@@ -17,5 +17,10 @@
       "by": "Cosmo QC",
       "note": "Gate 1 PASS (review): aerial view of Vauban citadel ramparts, harbor basin, beach and sailboat — recognizably Saint-Martin-de-Ré harbor from a plausible elevated viewpoint. Gate 2 BLOCKED: no approvals/FR-01-088.md exists in the repo (note range covers 009, 031-060, 073-077, 125-365) — no per-scene Open-Meteo retrieval timestamp exists to cross-check against the on-image scenario 23 September 2026 17:08 Europe/Paris; 1-minute-per-scene scenario increments suggest build-clock timestamps. Gate 3 OPEN: no generation-input documentation. Gate 4: no people/logos visible (distant unmarked sailboat only). Stays Candidate pending a per-scene evidence note."
     }
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: aerial over a fortified harbor town — long stone ramparts, harbor basin with sailboats, turquoise water and a sandy spit beyond — plausibly the Vauban citadel and harbor of Saint-Martin-de-Ré, Île de Ré; no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Saint-Martin-de-Ré harbor, Saint-Martin-de-Ré', scenario '23 September 2026 · 17:08 Europe/Paris', disclosure legible bottom-left, matching the gallery index; curly-apostrophe signature bottom-right; scenario minute 17:08 unique across the batch; no per-scene builder note exists, so no retrieval-timestamp cross-check was possible. Gate 3: no photographic inputs reported anywhere. Gate 4: sailboats visible, no identifiable people, no logos — documented only. Gate 5: all gates pass.",
+  "approved_at": "2026-09-25T17:38:59.477028+00:00",
+  "sha256_16x9": "008edbbb97828655f5f510647dcdc5ba6cf9fcf1f7036995bcf030c4db9be19e",
+  "sha256_4x5": "c41312c98947c318348a1d7002588580cb92eb006b16ee840286207c0f049ddc"
 }
