@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-078",
+  "country": "France",
+  "region": "Nouvelle-Aquitaine",
+  "city": "La Rochelle",
+  "caption": "Old Port of La Rochelle, La Rochelle",
+  "scenario_label": "23 September 2026 · 16:34 Europe/Paris",
+  "composition": "Twin medieval harbor towers framing the Old Port entrance · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is twin medieval harbor towers framing the Old Port entrance. The place named on the card is Old Port of La Rochelle, La Rochelle, in Nouvelle-Aquitaine. Light and weather follow the modelled scenario 23 September 2026 · 16:34 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of the Old Port of La Rochelle under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-078-16x9.png?v=batch077",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-078-4x5.png?v=batch077",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: aerial of La Rochelle's Vieux Port — the Tour Saint-Nicolas on its round base guarding the harbor mouth, yachts in the channel, ramparts and slate rooftops of the old town behind; the defining landmark reads clearly from a plausible overhead viewpoint. Gate 2: sweep verified 1920x1080 + 864x1080; caption 'Old Port of La Rochelle, La Rochelle', scenario '23 September 2026 · 16:34 Europe/Paris', disclosure on-image bottom-left, curly-apostrophe signature bottom-right verified at 2x zoom. No agent weather note (notes start at FR-01-125); sequential batch scenario time, no reuse pattern. Gate 3: no provenance claims on file; nothing indicates photographic inputs. Gate 4: generic yachts, no identifiable people or logos — documented only. Gate 5: clear.",
+  "approved_at": "2026-09-25T11:33:11.413314+00:00"
+}
