@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is roman theatre with intact scaenae frons stage wall. The place named on the card is Théâtre antique d'Orange, Orange, in Provence-Alpes-Côte d'Azur. Light and weather follow the modelled scenario 25 September 2026 · 14:33 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of the Théâtre antique d'Orange and its stage wall under a partly cloudy afternoon sky",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-076-16x9.png?v=gate1-20260925",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-076-4x5.png?v=gate1-20260925",
   "qc_notes": [
     {
@@ -22,5 +22,10 @@
       "by": "Cosmo QC",
       "note": "Re-examined in the 08:27 EDT run: concur with the 11:34 UTC Gate 1 FAIL - generic columned temple portico interior with no monumental scaenae frons wall and no cavea seating; the captioned site's signature element is absent. Glaring misconfiguration. Left Candidate."
     }
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Afternoon",
+  "approval_basis": "Gate 1: the Théâtre antique d'Orange — tiered cavea curving in the foreground facing the intact stage wall with the central niche holding its statue; exactly the rebuild goal. Gate 2: caption 'Théâtre antique d'Orange, Orange', scenario 25 Sept 2026 14:33 Europe/Paris, 'Jason D's Vision' signature and AI disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T12:33:19Z (unique), valid 14:30, scenario inside 14:00–15:00; code 1, 41% cloud, frame follows the cloud cover with scattered clouds. Gate 3: text-prompt-only rebuild, no photographic inputs reported. Gate 4: no people/logos of note. Gate 5: Art. 50 PNG metadata present; exact 1920x1080 / 864x1080.",
+  "approved_at": "2026-09-25T12:59:08.225002+00:00",
+  "sha256_16x9": "6b04ea1f255dc8cb6d93dd17df3112b2851d95d46eeba149811c2f4a97cce6c7",
+  "sha256_4x5": "d0d21517f9f994a1eae5b683c4ba27a39afb2a1db878d460ce370fd4d6fd94bc"
 }
