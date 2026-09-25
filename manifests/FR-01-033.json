@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is white Fourvière basilica with four corner towers on the hill above Lyon. The place named on the card is Basilique Notre-Dame de Fourvière, Lyon, in Auvergne-Rhône-Alpes. Model data from Open-Meteo, retrieved 2026-09-25T14:38:33+02:00 (2026-09-25T12:38:33Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 26.2°C, wind 4.0 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Basilique Notre-Dame de Fourvière in Lyon under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-033-16x9.png?v=batch033",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-033-4x5.png?v=batch033",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -17,5 +17,10 @@
   "weather_retrieval_local": "2026-09-25T14:38:33+02:00",
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:33+02:00 (2026-09-25T12:38:33Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 26.2°C, wind 4.0 km/h, precipitation 0.0 mm."
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:33+02:00 (2026-09-25T12:38:33Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 26.2°C, wind 4.0 km/h, precipitation 0.0 mm.",
+  "qc_status": "approved",
+  "approval_basis": "Approved · Cosmo QC 5/5 · FR-031–060 weather rework — Gate 1: neo-Gothic Basilique Notre-Dame de Fourviere with four towers on the hill above Lyon. Gate 2: caption 'Basilique Notre-Dame de Fourviere, Lyon', scenario 23 Sept 2026 15:20 Europe/Paris verified on-image; own Open-Meteo retrieval 2026-09-25T14:38:33+02:00 (unique), valid 15:00, scenario inside the hour; code 0, 0% cloud. Gate 3: text-prompt-only. Gate 4: clean. Gate 5: Art. 50 on; exact 1920x1080 / 864x1080.",
+  "approved_at": "2026-09-25T13:05:27Z",
+  "sha256_16x9": "8ae27fd53196923201930d97390f760e74fa1ee13bcd9470db9b7d5d04624de7",
+  "sha256_4x5": "bccbf8871c19ca03f7ac2dfca7b1e570c1f8f7b043ed1c7ed8e67127309bc3ba"
 }
