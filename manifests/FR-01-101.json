@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-101",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "city": "Antibes",
+  "caption": "Antibes old town and Fort Carré, Antibes",
+  "scenario_label": "23 September 2026 · 18:14 Europe/Paris",
+  "composition": "Fort Carré and Riviera old-town ramparts overlooking the Mediterranean · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is fort Carré and Riviera old-town ramparts overlooking the Mediterranean. The place named on the card is Antibes old town and Fort Carré, Antibes, in Provence-Alpes-Côte d'Azur. Light and weather follow the modelled scenario 23 September 2026 · 18:14 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Antibes old town and Fort Carré under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-101-16x9.png?v=batch101",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-101-4x5.png?v=batch101",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:39:08.341897+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 PASS: Antibes — Fort Carré's square stone ramparts on a headland above turquoise sea, old-town roofs behind, a yacht anchored in the bay; plausible coastal viewpoint, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080); on-image caption 'Antibes old town and Fort Carré, Antibes', scenario '23 September 2026 · 18:14 Europe/Paris', disclosure and curly-apostrophe signature exact — BUT HELD: weather retrieval cross-check impossible. approvals/FR-01-101.md verified 404 (notes gap 078–124), no PNG metadata, no manifest; per-scene retrieval unverifiable, Gate 2 open. Gate 3 undocumented. Gate 4: no people/logos visible (distant yacht, no branding) — documented only."
+    }
+  ]
+}
