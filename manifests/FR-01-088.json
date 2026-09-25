@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-088",
+  "country": "France",
+  "region": "Nouvelle-Aquitaine",
+  "city": "Saint-Martin-de-Ré",
+  "caption": "Saint-Martin-de-Ré harbor, Saint-Martin-de-Ré",
+  "scenario_label": "23 September 2026 · 17:08 Europe/Paris",
+  "composition": "Vauban fortifications and harbor on Île de Ré · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is vauban fortifications and harbor on Île de Ré. The place named on the card is Saint-Martin-de-Ré harbor, Saint-Martin-de-Ré, in Nouvelle-Aquitaine. Light and weather follow the modelled scenario 23 September 2026 · 17:08 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Saint-Martin-de-Ré harbor under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-088-16x9.png?v=batch085",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-088-4x5.png?v=batch085",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T15:33:37.023905+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 PASS (review): aerial view of Vauban citadel ramparts, harbor basin, beach and sailboat — recognizably Saint-Martin-de-Ré harbor from a plausible elevated viewpoint. Gate 2 BLOCKED: no approvals/FR-01-088.md exists in the repo (note range covers 009, 031-060, 073-077, 125-365) — no per-scene Open-Meteo retrieval timestamp exists to cross-check against the on-image scenario 23 September 2026 17:08 Europe/Paris; 1-minute-per-scene scenario increments suggest build-clock timestamps. Gate 3 OPEN: no generation-input documentation. Gate 4: no people/logos visible (distant unmarked sailboat only). Stays Candidate pending a per-scene evidence note."
+    }
+  ]
+}
