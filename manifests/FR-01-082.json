@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-082",
+  "country": "France",
+  "region": "Occitanie",
+  "city": "Aigues-Mortes",
+  "caption": "Aigues-Mortes ramparts, Aigues-Mortes",
+  "scenario_label": "23 September 2026 · 16:49 Europe/Paris",
+  "composition": "Medieval walled salt town with rectangular ramparts and corner towers · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is medieval walled salt town with rectangular ramparts and corner towers. The place named on the card is Aigues-Mortes ramparts, Aigues-Mortes, in Occitanie. Light and weather follow the modelled scenario 23 September 2026 · 16:49 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Aigues-Mortes ramparts under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-082-16x9.png?v=batch081",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-082-4x5.png?v=batch081",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the medieval rampart walls curving across flat Camargue marshland with salt-flat channels and a distant sea horizon, from an elevated rampart-top viewpoint — recognizable Aigues-Mortes setting, clean and artifact-free. Gate 2: 1920x1080 and 864x1080 masters mechanically verified by the sweep; on-image caption ‘Aigues-Mortes ramparts, Aigues-Mortes’, scenario ‘23 September 2026 · 16:49 Europe/Paris’, and ‘AI-generated artistic interpretation · Not a photograph.’ disclosure legible on the bottom gradient scrim, matching the gallery index; exact ‘Jason D’s Vision’ signature bottom-right. Gate 3: no approvals/FR-01-082.md exists in the repo (the workstream wrote notes only sporadically), so no photographic inputs are reported anywhere. Gate 4: no people, no logos, no recognizable private property visible — documented only, no chain certified. Gate 5: all gates pass.",
+  "approved_at": "2026-09-25T12:37:16.669139+00:00"
+}
