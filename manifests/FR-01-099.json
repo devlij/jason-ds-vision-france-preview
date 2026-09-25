@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-099",
+  "country": "France",
+  "region": "Occitanie",
+  "city": "Saint-Cirq-Lapopie",
+  "caption": "Saint-Cirq-Lapopie cliff village, Saint-Cirq-Lapopie",
+  "scenario_label": "23 September 2026 · 17:58 Europe/Paris",
+  "composition": "Medieval cliff village above Lot river meander · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is medieval cliff village above Lot river meander. The place named on the card is Saint-Cirq-Lapopie cliff village, Saint-Cirq-Lapopie, in Occitanie. Light and weather follow the modelled scenario 23 September 2026 · 17:58 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Saint-Cirq-Lapopie cliff village under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-099-16x9.png?v=batch097",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-099-4x5.png?v=batch097",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:38:59.447841+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 PASS: Saint-Cirq-Lapopie — village perched on a cliff above a river bend, stone houses along the crag, lush green Lot valley, blue sky; plausible aerial tourist viewpoint, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080); on-image caption 'Saint-Cirq-Lapopie cliff village, Saint-Cirq-Lapopie', scenario '23 September 2026 · 17:58 Europe/Paris', disclosure and curly-apostrophe signature exact — BUT HELD: weather retrieval cross-check impossible. approvals/FR-01-099.md verified 404 (notes gap 078–124), no PNG metadata, no manifest; per-scene retrieval unverifiable, Gate 2 open. Gate 3 undocumented. Gate 4: no people/logos visible — documented only."
+    }
+  ]
+}
