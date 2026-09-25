@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-077",
+  "country": "France",
+  "region": "Nouvelle-Aquitaine",
+  "city": "Sarlat-la-Canéda",
+  "caption": "Sarlat old town, Sarlat-la-Canéda",
+  "scenario_label": "23 September 2026 · 16:33 Europe/Paris",
+  "composition": "Honey-stone medieval streets and steep slate roofs · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is honey-stone medieval streets and steep slate roofs. The place named on the card is Sarlat old town, Sarlat-la-Canéda, in Nouvelle-Aquitaine. Light and weather follow the modelled scenario 23 September 2026 · 16:33 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Sarlat-la-Canéda old town under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-077-16x9.png?v=batch077",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-077-4x5.png?v=batch077",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T11:34:14.049662+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 FAIL: the Sarlat old-town street render is severely out of focus across the entire frame — stone facades, windows, doorways and cobblestones all smeared into unreadable blur. Not a clean, artifact-free image; no amount of location review can pass a frame this defocused."
+    }
+  ]
+}
