@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-008",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "city": "Nice",
+  "caption": "Promenade des Anglais, Nice",
+  "scenario_label": "23 September 2026 · 15:01 Europe/Paris",
+  "composition": "Palm-lined promenade with blue chairs along the Bay of Angels · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is palm-lined promenade with blue chairs along the Bay of Angels. The place named on the card is Promenade des Anglais, Nice, in Provence-Alpes-Côte d'Azur. Light and weather follow the modelled scenario 23 September 2026 · 15:01 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of the Promenade des Anglais in Nice under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-008-16x9.png?v=batch005",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-008-4x5.png?v=batch005",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Promenade des Anglais: the palm-lined promenade with its signature blue chairs, the pebbled shore curving along the Baie des Anges, turquoise shallows and the hill-framed bay stretching east. Gate 1: recognizably Nice's Promenade, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: sweep verified exact 1920x1080 / 864x1080; on-image caption 'Promenade des Anglais, Nice', scenario '23 September 2026 · 15:01 Europe/Paris', disclosure, and exact curly-apostrophe 'Jason D's Vision' signature all legible on the bottom gradient; no approvals/FR-01-008.md exists so no weather-retrieval timestamp to cross-check — scenario stands as model data, no staleness evidence. Gate 3: no photographic inputs reported (no build-agent notes file on record). Gate 4: small distant walkers only, unidentifiable; no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T04:32:50.993416+00:00"
+}
