@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-036",
+  "country": "France",
+  "region": "Normandy",
+  "city": "Rouen",
+  "caption": "Rouen Cathedral, Rouen",
+  "scenario_label": "23 September 2026 · 15:23 Europe/Paris",
+  "composition": "Gothic west façade with mismatched towers and tall iron flèche · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is gothic west façade with mismatched towers and tall iron flèche. The place named on the card is Rouen Cathedral, Rouen, in Normandy. Light and weather follow the modelled scenario 23 September 2026 · 15:23 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Rouen Cathedral in Rouen under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-036-16x9.png?v=batch033",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-036-4x5.png?v=batch033",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1 PASS: Rouen Cathedral's flamboyant Gothic west front — twin towers (Tour de Beurre left, Tour Saint-Romain right), crossing spire, rose window and sculpted portals; clean framing, no artifacts. G2 PASS: exact 1920x1080/864x1080, exact Jason D's Vision signature bottom-right, caption 'Rouen Cathedral, Rouen', scenario '23 September 2026 · 15:23 Europe/Paris', disclosure bottom-left on scrim; minute unique/sequential, no approvals file, no stale-reuse evidence. G3: text-prompt build per France kit, no photo inputs indicated. G4: few small pedestrians at portals — documented only.",
+  "approved_at": "2026-09-25T07:31:40.638991+00:00"
+}
