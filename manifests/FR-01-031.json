@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-031",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Provins",
+  "caption": "Provins medieval town, Provins",
+  "scenario_label": "23 September 2026 · 15:18 Europe/Paris",
+  "composition": "Tour César keep crowning the Ville Haute above ramparts · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is tour César keep crowning the Ville Haute above ramparts. The place named on the card is Provins medieval town, Provins, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:18 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Provins medieval town under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-031-16x9.png?v=batch029",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-031-4x5.png?v=batch029",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1 PASS: Tour Cesar's stone donjon with four slate-spired turrets rises over Provins' half-timbered houses and town ramparts from a plausible tourist viewpoint; clean framing, no artifacts. G2 PASS: 1920x1080 + 864x1080 exact, exact Jason D's Vision signature bottom-right, exact caption 'Provins medieval town, Provins', scenario '23 September 2026 · 15:18 Europe/Paris' and AI disclosure bottom-left on scrim; scenario minute unique, no approvals file exists for this entry, sequential with neighbors so no stale-reuse evidence. G3: no photographic inputs indicated, text-prompt build per France kit. G4: no identifiable people, logos, or private property visible — documented only.",
+  "approved_at": "2026-09-25T07:30:48.909141+00:00"
+}
