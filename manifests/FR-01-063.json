@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-063",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "city": "Cassis",
+  "caption": "Calanques de Cassis, Cassis",
+  "scenario_label": "23 September 2026 · 15:45 Europe/Paris",
+  "composition": "White limestone calanque inlet over turquoise Mediterranean water · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is white limestone calanque inlet over turquoise Mediterranean water. The place named on the card is Calanques de Cassis, Cassis, in Provence-Alpes-Côte d'Azur. Light and weather follow the modelled scenario 23 September 2026 · 15:45 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of the Calanques de Cassis under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-063-16x9.png?v=batch061",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-063-4x5.png?v=batch061",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: Calanque inlet — white limestone cliffs with maquis scrub enclosing turquoise water, classic Cassis/Marseille calanques coastline from a clifftop viewpoint. Clean framing, no artifacts. Gate2: exact 1920x1080/864x1080; caption 'Calanques de Cassis, Cassis', scenario '23 September 2026 · 15:45 Europe/Paris', AI disclosure on scrim; 'Jason D's Vision' bottom-right. No approvals note (404); timestamps sequential with batch, no stale-weather evidence. Gate3: no photographic inputs evidenced. Gate4: no people, logos, or private property — documented only.",
+  "approved_at": "2026-09-25T10:31:53.009464+00:00"
+}
