@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is tall narrow slate and timber houses packed along the old harbor. The place named on the card is Vieux Bassin, Honfleur, in Normandy. Model data from Open-Meteo, retrieved 2026-09-25T14:41:24+02:00 (2026-09-25T12:41:24Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 20.2°C, wind 18.5 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Honfleur Vieux Bassin under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-056-16x9.png?v=batch053",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-056-4x5.png?v=batch053",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -18,9 +18,17 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:41:24+02:00 (2026-09-25T12:41:24Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 20.2°C, wind 18.5 km/h, precipitation 0.0 mm.",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate1: tall narrow timber-framed and stone houses packed along the quay of the old harbor with fishing boats moored in front, unmistakably the Vieux Bassin of Honfleur, clean framing with reflections. Gate2: 1920x1080+864x1080 confirmed; on-image caption 'Vieux Bassin, Honfleur', scenario 'Scenario: 23 September 2026 · 15:39 Europe/Paris', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature on bottom gradient; Open-Meteo retrieval 2026-09-25T14:41:24+02:00 unique to this scene, scenario minute inside model-valid hour 2026-09-23T15:00 Europe/Paris, clear daylight consistent. Gate3: text-prompt-only lineage per approvals/FR-01-056.md, no photographic inputs reported. Gate4: no identifiable people or focal logos visible; documented only. Gate5: no open blockers.",
   "approved_at": "2026-09-25T14:34:24.112559+00:00",
   "sha256_16x9": "5667660fbe8d5cf3d57582f63e9495088dfabba1e479ac9896c91e20c017a9a9",
-  "sha256_4x5": "9e59710ed515f556dcd69888de3db96f4f4e2ce44a9834b5bcae648f424fdd16"
+  "sha256_4x5": "9e59710ed515f556dcd69888de3db96f4f4e2ce44a9834b5bcae648f424fdd16",
+  "reverted_at": "2026-09-25T18:53:30.185321+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:53:30.185321+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
