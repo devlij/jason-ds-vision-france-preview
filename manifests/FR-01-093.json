@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-093",
+  "country": "France",
+  "region": "Nouvelle-Aquitaine",
+  "city": "Beynac-et-Cazenac",
+  "caption": "Château de Beynac, Beynac-et-Cazenac",
+  "scenario_label": "23 September 2026 · 17:26 Europe/Paris",
+  "composition": "Cliff castle above the Dordogne · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is cliff castle above the Dordogne. The place named on the card is Château de Beynac, Beynac-et-Cazenac, in Nouvelle-Aquitaine. Light and weather follow the modelled scenario 23 September 2026 · 17:26 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Château de Beynac under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-093-16x9.png?v=batch093",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-093-4x5.png?v=batch093",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T15:34:33.039105+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 PASS (review): cliff-top castle above a river bend with a detached round keep — recognizably Château de Beynac over the Dordogne from a plausible riverside viewpoint. Gate 2 BLOCKED: no approvals/FR-01-093.md exists in the repo (note range covers 009, 031-060, 073-077, 125-365) — no per-scene Open-Meteo retrieval timestamp exists to cross-check against the on-image scenario 23 September 2026 17:26 Europe/Paris; 1-minute-per-scene scenario increments suggest build-clock timestamps. Gate 3 OPEN: no generation-input documentation. Gate 4: no people/logos visible. Stays Candidate pending a per-scene evidence note."
+    }
+  ]
+}
