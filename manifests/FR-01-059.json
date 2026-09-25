@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is norman-Gothic twin west towers and central lantern tower. The place named on the card is Bayeux Cathedral, Bayeux, in Normandy. Model data from Open-Meteo, retrieved 2026-09-25T14:41:30+02:00 (2026-09-25T12:41:30Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 23.1°C, wind 16.9 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Bayeux Cathedral under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-059-16x9.png?v=batch057",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-059-4x5.png?v=batch057",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -18,9 +18,17 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:41:30+02:00 (2026-09-25T12:41:30Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 23.1°C, wind 16.9 km/h, precipitation 0.0 mm.",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate1: Norman-Gothic cathedral with twin west spires and the central lantern tower rising above surrounding town houses, recognizable Bayeux Cathedral, clean framing. Gate2: 1920x1080+864x1080 confirmed; on-image caption 'Bayeux Cathedral, Bayeux', scenario 'Scenario: 23 September 2026 · 15:43 Europe/Paris', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature on bottom gradient; Open-Meteo retrieval 2026-09-25T14:41:30+02:00 unique to this scene, scenario minute inside model-valid hour 2026-09-23T15:00 Europe/Paris, clear daylight consistent. Gate3: text-prompt-only lineage per approvals/FR-01-059.md, no photographic inputs reported. Gate4: no identifiable people or focal logos visible; documented only. Gate5: no open blockers.",
   "approved_at": "2026-09-25T14:35:09.431565+00:00",
   "sha256_16x9": "6d60d0b415f2d39149c6523cfd32473e05cc55036f4d99e11d4c92f6405e1de2",
-  "sha256_4x5": "2e1419393db7a2b99b0315362b88e90a8386d900bf24ddefbfa406ebccd129a4"
+  "sha256_4x5": "2e1419393db7a2b99b0315362b88e90a8386d900bf24ddefbfa406ebccd129a4",
+  "reverted_at": "2026-09-25T18:53:35.778009+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:53:35.778009+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
