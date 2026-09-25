@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-047",
+  "country": "France",
+  "region": "Occitanie",
+  "city": "Nimes",
+  "caption": "Arena of Nîmes, Nîmes",
+  "scenario_label": "23 September 2026 · 15:34 Europe/Paris",
+  "composition": "Preserved Roman amphitheatre oval with stacked arcades · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is preserved Roman amphitheatre oval with stacked arcades. The place named on the card is Arena of Nîmes, Nîmes, in Occitanie. Light and weather follow the modelled scenario 23 September 2026 · 15:34 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of the Arena of Nîmes under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-047-16x9.png?v=batch045",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-047-4x5.png?v=batch045",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 (visual/location): the elliptical two-level arcaded Roman arena with its partially broken upper attic is recognizably the Arena of Nîmes from a plausible street viewpoint; clean framing, no artifacts. Gate 2 (technical): both masters mechanically verified at exact 1920x1080 and 864x1080; exact “Jason D’s Vision” signature bottom-right; exact caption “Arena of Nîmes, Nîmes”, scenario “23 September 2026 · 15:34 Europe/Paris”, and “AI-generated artistic interpretation · Not a photograph.” disclosure bottom-left on a legible gradient scrim. Gate 3 (originality): approvals/FR-01-047.md does not exist (404) — no generation inputs documented, no photographic inputs reported anywhere. Gate 4 (commercial/IP): no visible people, no logos, no recognizable private property — documented only. Gate 5: no open blockers. Scenario is a modelled label, never a verified capture.",
+  "approved_at": "2026-09-25T08:33:36.085118+00:00"
+}
