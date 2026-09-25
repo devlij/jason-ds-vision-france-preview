@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-069",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "city": "Gordes",
+  "caption": "Abbaye de Sénanque, Gordes",
+  "scenario_label": "23 September 2026 · 15:48 Europe/Paris",
+  "composition": "Cistercian abbey in a lavender valley · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is cistercian abbey in a lavender valley. The place named on the card is Abbaye de Sénanque, Gordes, in Provence-Alpes-Côte d'Azur. Light and weather follow the modelled scenario 23 September 2026 · 15:48 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Abbaye de Sénanque near Gordes under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-069-16x9.png?v=batch069",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-069-4x5.png?v=batch069",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: Abbaye de Sénanque — Romanesque stone abbey with bell tower nestled in the hills, lavender rows sweeping the foreground — the famous Gordes viewpoint. Clean framing, no artifacts. Gate2: exact 1920x1080/864x1080; caption 'Abbaye de Sénanque, Gordes', scenario '23 September 2026 · 15:48 Europe/Paris', AI disclosure on scrim; 'Jason D's Vision' bottom-right. No approvals note (404); scenario coherent with repo SCENES, no stale-weather evidence. Gate3: no photographic inputs evidenced. Gate4: no people, logos, or private property — documented only.",
+  "approved_at": "2026-09-25T10:32:51.529655+00:00"
+}
