@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-085",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "city": "Orcines",
+  "caption": "Puy de Dôme, Orcines",
+  "scenario_label": "23 September 2026 · 17:05 Europe/Paris",
+  "composition": "Volcanic dome summit with panoramic Chaîne des Puys view · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is volcanic dome summit with panoramic Chaîne des Puys view. The place named on the card is Puy de Dôme, Orcines, in Auvergne-Rhône-Alpes. Light and weather follow the modelled scenario 23 September 2026 · 17:05 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Puy de Dôme summit under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-085-16x9.png?v=batch085",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-085-4x5.png?v=batch085",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:36:30.895794+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 FAIL (08:27 EDT run): the render shows a steep snow-capped stratovolcano cone; Puy de Dome is a rounded 1,465 m trachyte lava dome with low slopes, a summit plateau, telecom antenna and observatory - and carries no snow in late September. Wrong volcanic form plus impossible September snow = glaring geographic misconfiguration. Left Candidate."
+    }
+  ]
+}
