@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-020",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Paris",
+  "caption": "Hôtel des Invalides, Paris",
+  "scenario_label": "23 September 2026 · 15:23 Europe/Paris",
+  "composition": "Gilded Dôme des Invalides centered on the esplanade axis · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is gilded Dôme des Invalides centered on the esplanade axis. The place named on the card is Hôtel des Invalides, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:23 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Hôtel des Invalides under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-020-16x9.png?v=batch017",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-020-4x5.png?v=batch017",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1 visual pass: the golden Dôme des Invalides rises over the classical east facade and the great lawn esplanade, viewed from the lawn axis — unmistakably the Hôtel des Invalides, clean framing, no artifacts. G2 technical pass: masters verified 1920x1080 / 864x1080; on-image caption 'Hôtel des Invalides, Paris', scenario '23 September 2026 · 15:23 Europe/Paris', and the AI disclosure all legible bottom-left on the scrim; 'Jason D's Vision' signature with curly apostrophe bottom-right; label matches the repo SCENES block and the sequential daylight batch with no weather-metadata reuse evidence (no approvals note exists for this entry). G3 originality: no photographic inputs reported. G4 commercial/IP: tiny generic figures on the lawn, no recognizable individuals, no logos, no private property — public historic monument, documented only. G5 publication ready.",
+  "approved_at": "2026-09-25T05:33:00.719590+00:00"
+}
