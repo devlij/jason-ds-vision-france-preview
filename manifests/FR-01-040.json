@@ -6,12 +6,16 @@
   "caption": "Basilique Saint-Sernin, Toulouse",
   "scenario_label": "23 September 2026 · 15:28 Europe/Paris",
   "composition": "Romanesque pink-brick basilica with five-tier octagonal bell tower · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is romanesque pink-brick basilica with five-tier octagonal bell tower. The place named on the card is Basilique Saint-Sernin, Toulouse, in Occitanie. Light and weather follow the modelled scenario 23 September 2026 · 15:28 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is romanesque pink-brick basilica with five-tier octagonal bell tower. The place named on the card is Basilique Saint-Sernin, Toulouse, in Occitanie. Model data from Open-Meteo, retrieved 2026-09-25T14:38:45+02:00 (2026-09-25T12:38:45Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 29.4°C, wind 4.2 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Basilique Saint-Sernin in Toulouse under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-040-16x9.png?v=batch037",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-040-4x5.png?v=batch037",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "G1 PASS: Saint-Sernin's Romanesque brick basilica with the octagonal spired bell tower and chevet's radiating chapels — recognizable Toulouse pilgrimage church, plausible viewpoint, no artifacts. G2 PASS: exact 1920x1080/864x1080, exact Jason D's Vision signature bottom-right, caption 'Basilique Saint-Sernin, Toulouse', scenario '23 September 2026 · 15:28 Europe/Paris', disclosure bottom-left; minute unique/sequential, no approvals file, no stale-reuse evidence. G3: text-prompt build, no photographic inputs indicated. G4: small anonymous figures near the doors — documented only.",
-  "approved_at": "2026-09-25T07:32:13.487232+00:00"
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-25T12:38:45Z",
+  "weather_retrieval_local": "2026-09-25T14:38:45+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:45+02:00 (2026-09-25T12:38:45Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 29.4°C, wind 4.2 km/h, precipitation 0.0 mm."
 }

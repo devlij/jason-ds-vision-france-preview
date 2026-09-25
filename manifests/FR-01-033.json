@@ -6,12 +6,16 @@
   "caption": "Basilique Notre-Dame de Fourvière, Lyon",
   "scenario_label": "23 September 2026 · 15:20 Europe/Paris",
   "composition": "White Fourvière basilica with four corner towers on the hill above Lyon · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is white Fourvière basilica with four corner towers on the hill above Lyon. The place named on the card is Basilique Notre-Dame de Fourvière, Lyon, in Auvergne-Rhône-Alpes. Light and weather follow the modelled scenario 23 September 2026 · 15:20 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is white Fourvière basilica with four corner towers on the hill above Lyon. The place named on the card is Basilique Notre-Dame de Fourvière, Lyon, in Auvergne-Rhône-Alpes. Model data from Open-Meteo, retrieved 2026-09-25T14:38:33+02:00 (2026-09-25T12:38:33Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 26.2°C, wind 4.0 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Basilique Notre-Dame de Fourvière in Lyon under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-033-16x9.png?v=batch033",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-033-4x5.png?v=batch033",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "G1 PASS: Fourviere's neo-Gothic basilica with four towers and central spire seen from the hilltop forecourt, Lyon's red rooftops and the Saone valley spreading below; plausible viewpoint, clean. G2 PASS: exact 1920x1080/864x1080, exact Jason D's Vision signature bottom-right, caption 'Basilique Notre-Dame de Fourviere, Lyon', scenario '23 September 2026 · 15:20 Europe/Paris', disclosure bottom-left legible; minute unique/sequential, no approvals file, no stale-reuse evidence. G3: text-prompt build per France kit, no photo inputs indicated. G4: tiny distant figures on forecourt only — documented only.",
-  "approved_at": "2026-09-25T07:31:12.446157+00:00"
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-25T12:38:33Z",
+  "weather_retrieval_local": "2026-09-25T14:38:33+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:33+02:00 (2026-09-25T12:38:33Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 26.2°C, wind 4.0 km/h, precipitation 0.0 mm."
 }

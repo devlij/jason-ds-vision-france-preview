@@ -6,12 +6,16 @@
   "caption": "Chartres Cathedral, Chartres",
   "scenario_label": "23 September 2026 · 15:27 Europe/Paris",
   "composition": "High Gothic west front with mismatched plain and Flamboyant spires · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is high Gothic west front with mismatched plain and Flamboyant spires. The place named on the card is Chartres Cathedral, Chartres, in Centre-Val de Loire. Light and weather follow the modelled scenario 23 September 2026 · 15:27 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is high Gothic west front with mismatched plain and Flamboyant spires. The place named on the card is Chartres Cathedral, Chartres, in Centre-Val de Loire. Model data from Open-Meteo, retrieved 2026-09-25T14:38:44+02:00 (2026-09-25T12:38:44Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.7°C, wind 3.2 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Chartres Cathedral in Chartres under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-039-16x9.png?v=batch037",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-039-4x5.png?v=batch037",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "G1 PASS: Chartres Cathedral with its signature mismatched spires — plain Romanesque left, flamboyant right — rose window and sculpted west portals; plausible frontal viewpoint, no artifacts. G2 PASS: exact dims, exact Jason D's Vision signature bottom-right, caption 'Chartres Cathedral, Chartres', scenario '23 September 2026 · 15:27 Europe/Paris', disclosure bottom-left; minute unique/sequential, no approvals file, no stale-reuse evidence. G3: text-prompt build per France kit, no photo inputs indicated. G4: no identifiable people, logos, or private property — documented only.",
-  "approved_at": "2026-09-25T07:32:07.830887+00:00"
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-25T12:38:44Z",
+  "weather_retrieval_local": "2026-09-25T14:38:44+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:44+02:00 (2026-09-25T12:38:44Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.7°C, wind 3.2 km/h, precipitation 0.0 mm."
 }

@@ -6,12 +6,16 @@
   "caption": "Notre-Dame de la Garde, Marseille",
   "scenario_label": "23 September 2026 · 15:22 Europe/Paris",
   "composition": "Romano-Byzantine basilica and gilded Madonna on the limestone hill · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is romano-Byzantine basilica and gilded Madonna on the limestone hill. The place named on the card is Notre-Dame de la Garde, Marseille, in Provence-Alpes-Côte d'Azur. Light and weather follow the modelled scenario 23 September 2026 · 15:22 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is romano-Byzantine basilica and gilded Madonna on the limestone hill. The place named on the card is Notre-Dame de la Garde, Marseille, in Provence-Alpes-Côte d'Azur. Model data from Open-Meteo, retrieved 2026-09-25T14:38:37+02:00 (2026-09-25T12:38:37Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.3°C, wind 20.1 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Notre-Dame de la Garde in Marseille under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-035-16x9.png?v=batch033",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-035-4x5.png?v=batch033",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "G1 PASS: Notre-Dame de la Garde's neo-Byzantine striped-stone basilica with dome and bell tower topped by the gilded Virgin statue, on its limestone hill with Marseille and the Vieux Port below — recognizable landmark, plausible elevated viewpoint. G2 PASS: exact dims, exact Jason D's Vision signature bottom-right, caption 'Notre-Dame de la Garde, Marseille', scenario '23 September 2026 · 15:22 Europe/Paris', disclosure bottom-left; minute unique/sequential, no approvals file, no stale-reuse evidence. G3: text-prompt build, no photographic inputs indicated. G4: no identifiable people or logos — documented only.",
-  "approved_at": "2026-09-25T07:31:36.206760+00:00"
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-25T12:38:37Z",
+  "weather_retrieval_local": "2026-09-25T14:38:37+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:37+02:00 (2026-09-25T12:38:37Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.3°C, wind 20.1 km/h, precipitation 0.0 mm."
 }

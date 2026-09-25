@@ -6,12 +6,16 @@
   "caption": "Place de la Bourse, Bordeaux",
   "scenario_label": "23 September 2026 · 15:21 Europe/Paris",
   "composition": "18th-century Place de la Bourse reflected in the Miroir d'eau · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is 18th-century Place de la Bourse reflected in the Miroir d'eau. The place named on the card is Place de la Bourse, Bordeaux, in Nouvelle-Aquitaine. Light and weather follow the modelled scenario 23 September 2026 · 15:21 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is 18th-century Place de la Bourse reflected in the Miroir d'eau. The place named on the card is Place de la Bourse, Bordeaux, in Nouvelle-Aquitaine. Model data from Open-Meteo, retrieved 2026-09-25T14:38:35+02:00 (2026-09-25T12:38:35Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 30.2°C, wind 4.0 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Place de la Bourse in Bordeaux under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-034-16x9.png?v=batch033",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-034-4x5.png?v=batch033",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "G1 PASS: Place de la Bourse's curved neoclassical facade mirrored in the Miroir d'eau, trees and strollers along the quay — the signature Bordeaux viewpoint, no misconfiguration or artifacts. G2 PASS: exact dims, exact Jason D's Vision signature bottom-right, caption 'Place de la Bourse, Bordeaux', scenario '23 September 2026 · 15:21 Europe/Paris', disclosure bottom-left; minute unique/sequential, no approvals file, no stale-reuse evidence. G3: text-prompt build, no photographic inputs indicated. G4: small anonymous quay pedestrians only — documented only.",
-  "approved_at": "2026-09-25T07:31:16.026655+00:00"
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-25T12:38:35Z",
+  "weather_retrieval_local": "2026-09-25T14:38:35+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:35+02:00 (2026-09-25T12:38:35Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 30.2°C, wind 4.0 km/h, precipitation 0.0 mm."
 }

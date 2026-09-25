@@ -6,12 +6,16 @@
   "caption": "Bayeux Cathedral, Bayeux",
   "scenario_label": "23 September 2026 · 15:43 Europe/Paris",
   "composition": "Norman-Gothic twin west towers and central lantern tower · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is norman-Gothic twin west towers and central lantern tower. The place named on the card is Bayeux Cathedral, Bayeux, in Normandy. Light and weather follow the modelled scenario 23 September 2026 · 15:43 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is norman-Gothic twin west towers and central lantern tower. The place named on the card is Bayeux Cathedral, Bayeux, in Normandy. Model data from Open-Meteo, retrieved 2026-09-25T14:41:30+02:00 (2026-09-25T12:41:30Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 23.1°C, wind 16.9 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Bayeux Cathedral under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-059-16x9.png?v=batch057",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-059-4x5.png?v=batch057",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Gate 1: Norman Gothic cathedral with twin western spires, central dome with lantern, rose window, flying buttresses and Norman town houses at its feet — recognizably Bayeux Cathedral from the southwest plaza viewpoint, clean framing, no artifacts. Gate 2: exact 1920×1080 + 864×1080 (sweep verified); exact 'Jason D's Vision' signature bottom-right; caption 'Bayeux Cathedral, Bayeux', scenario '23 September 2026 · 15:43 Europe/Paris', disclosure 'AI-generated artistic interpretation · Not a photograph.' on the bottom gradient, legible and unobtrusive; no approvals/FR-01-059.md note exists for weather cross-check, sequential build minutes show no ES-01-style stale-reuse pattern. Gate 3: no photographic inputs reported; text-prompt generation per France kit. Gate 4: public cathedral, no recognizable people or logos — documented only, not certified. Gate 5: all gates pass, publish-ready.",
-  "approved_at": "2026-09-25T09:33:36.624741+00:00"
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-25T12:41:30Z",
+  "weather_retrieval_local": "2026-09-25T14:41:30+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:41:30+02:00 (2026-09-25T12:41:30Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 23.1°C, wind 16.9 km/h, precipitation 0.0 mm."
 }

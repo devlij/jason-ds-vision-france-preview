@@ -6,12 +6,16 @@
   "caption": "Amiens Cathedral, Amiens",
   "scenario_label": "23 September 2026 · 15:29 Europe/Paris",
   "composition": "Vast High Gothic west façade with gallery of kings and flat-topped twin towers · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is vast High Gothic west façade with gallery of kings and flat-topped twin towers. The place named on the card is Amiens Cathedral, Amiens, in Hauts-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:29 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is vast High Gothic west façade with gallery of kings and flat-topped twin towers. The place named on the card is Amiens Cathedral, Amiens, in Hauts-de-France. Model data from Open-Meteo, retrieved 2026-09-25T14:38:47+02:00 (2026-09-25T12:38:47Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.6°C, wind 9.8 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Amiens Cathedral in Amiens under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-041-16x9.png?v=batch041",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-041-4x5.png?v=batch041",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Gate 1 (visual/location): twin-towered Gothic west front with rose window and three sculpted portals is recognizably Amiens Cathedral viewed from the parvis; clean framing, no artifacts, plausible afternoon light. Gate 2 (technical): both masters mechanically verified at exact 1920x1080 and 864x1080; exact “Jason D’s Vision” signature bottom-right; exact caption “Amiens Cathedral, Amiens”, scenario “23 September 2026 · 15:29 Europe/Paris”, and “AI-generated artistic interpretation · Not a photograph.” disclosure bottom-left on a legible gradient scrim. Gate 3 (originality): approvals/FR-01-041.md does not exist (404), so no generation inputs are documented and no photographic inputs are reported anywhere. Gate 4 (commercial/IP): a handful of small silhouetted visitors on the parvis; no logos, no recognizable private property — documented only, no chain certified clean. Gate 5: no open blockers. Scenario is a modelled label, never a verified capture.",
-  "approved_at": "2026-09-25T08:32:23.104963+00:00"
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-25T12:38:47Z",
+  "weather_retrieval_local": "2026-09-25T14:38:47+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:47+02:00 (2026-09-25T12:38:47Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.6°C, wind 9.8 km/h, precipitation 0.0 mm."
 }

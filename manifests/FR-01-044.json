@@ -6,12 +6,16 @@
   "caption": "Vieille Bourse, Lille",
   "scenario_label": "23 September 2026 · 15:32 Europe/Paris",
   "composition": "Flemish-Baroque Old Stock Exchange on Place du Général-de-Gaulle · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is flemish-Baroque Old Stock Exchange on Place du Général-de-Gaulle. The place named on the card is Vieille Bourse, Lille, in Hauts-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:32 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is flemish-Baroque Old Stock Exchange on Place du Général-de-Gaulle. The place named on the card is Vieille Bourse, Lille, in Hauts-de-France. Model data from Open-Meteo, retrieved 2026-09-25T14:38:52+02:00 (2026-09-25T12:38:52Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 24.0°C, wind 12.1 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Vieille Bourse in Lille under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-044-16x9.png?v=batch041",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-044-4x5.png?v=batch041",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Gate 1 (visual/location): the ornate Flemish gabled houses with arcade row facing the crowded square is recognizably the Vieille Bourse, Lille, from a plausible tourist viewpoint across Place du Général-de-Gaulle; clean framing, no artifacts. Gate 2 (technical): both masters mechanically verified at exact 1920x1080 and 864x1080; exact “Jason D’s Vision” signature bottom-right; exact caption “Vieille Bourse, Lille”, scenario “23 September 2026 · 15:32 Europe/Paris”, and “AI-generated artistic interpretation · Not a photograph.” disclosure bottom-left on a legible gradient scrim. Gate 3 (originality): approvals/FR-01-044.md does not exist (404) — no generation inputs documented, no photographic inputs reported anywhere. Gate 4 (commercial/IP): many small incidental pedestrians in the square, none identifiable; no logos, no recognizable private property — documented only. Gate 5: no open blockers. Scenario is a modelled label, never a verified capture.",
-  "approved_at": "2026-09-25T08:33:07.741119+00:00"
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-25T12:38:52Z",
+  "weather_retrieval_local": "2026-09-25T14:38:52+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:52+02:00 (2026-09-25T12:38:52Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 24.0°C, wind 12.1 km/h, precipitation 0.0 mm."
 }
