@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-057",
+  "country": "France",
+  "region": "Occitanie",
+  "city": "Gavarnie",
+  "caption": "Cirque de Gavarnie, Gavarnie",
+  "scenario_label": "23 September 2026 · 15:41 Europe/Paris",
+  "composition": "Pyrenean limestone amphitheatre with Grande Cascade · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is pyrenean limestone amphitheatre with Grande Cascade. The place named on the card is Cirque de Gavarnie, Gavarnie, in Occitanie. Light and weather follow the modelled scenario 23 September 2026 · 15:41 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Cirque de Gavarnie under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-057-16x9.png?v=batch057",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-057-4x5.png?v=batch057",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the Cirque de Gavarnie ampitheatre wall with the Grande Cascade waterfall dropping down the stratified limestone center, scree slopes and fir stands at the base — recognizably the cirque from the valley-floor approach, clean framing, no artifacts. Gate 2: exact 1920×1080 + 864×1080 (sweep verified); exact 'Jason D's Vision' signature bottom-right; caption 'Cirque de Gavarnie, Gavarnie', scenario '23 September 2026 · 15:41 Europe/Paris', disclosure 'AI-generated artistic interpretation · Not a photograph.' on the bottom gradient, legible and unobtrusive; no approvals/FR-01-057.md note exists for weather cross-check, sequential build minutes show no ES-01-style stale-reuse pattern. Gate 3: no photographic inputs reported; text-prompt generation per France kit. Gate 4: national-park scenery, no people, logos, or private property — documented only, not certified. Gate 5: all gates pass, publish-ready.",
+  "approved_at": "2026-09-25T09:33:12.125774+00:00"
+}
