@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is 18th-century Place de la Bourse reflected in the Miroir d'eau. The place named on the card is Place de la Bourse, Bordeaux, in Nouvelle-Aquitaine. Model data from Open-Meteo, retrieved 2026-09-25T14:38:35+02:00 (2026-09-25T12:38:35Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 30.2°C, wind 4.0 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Place de la Bourse in Bordeaux under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-034-16x9.png?v=batch033",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-034-4x5.png?v=batch033",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -18,9 +18,17 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:35+02:00 (2026-09-25T12:38:35Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 30.2°C, wind 4.0 km/h, precipitation 0.0 mm.",
-  "qc_status": "approved",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Approved · Cosmo QC 5/5 · FR-031–060 weather rework — Gate 1: curved neoclassical Place de la Bourse reflected in the Miroir d'eau. Gate 2: caption 'Place de la Bourse, Bordeaux', scenario 23 Sept 2026 15:21 Europe/Paris verified on-image; own Open-Meteo retrieval 2026-09-25T14:38:35+02:00 (unique), valid 15:00, scenario inside the hour; code 0, 0% cloud. Gate 3: text-prompt-only. Gate 4: clean. Gate 5: Art. 50 on; exact 1920x1080 / 864x1080.",
   "approved_at": "2026-09-25T13:05:27Z",
   "sha256_16x9": "14fab388de7771967228af64bb23e95c7376b9ee629b80866b59606f7bcae83f",
-  "sha256_4x5": "4e8090da5c49af1aae97c1df0fb45ebf6f4df186b8f368a80db63e31f8bcd894"
+  "sha256_4x5": "4e8090da5c49af1aae97c1df0fb45ebf6f4df186b8f368a80db63e31f8bcd894",
+  "reverted_at": "2026-09-25T18:52:50.147257+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:52:50.147257+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
