@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is flemish-Baroque Old Stock Exchange on Place du Général-de-Gaulle. The place named on the card is Vieille Bourse, Lille, in Hauts-de-France. Model data from Open-Meteo, retrieved 2026-09-25T14:38:52+02:00 (2026-09-25T12:38:52Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 24.0°C, wind 12.1 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Vieille Bourse in Lille under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-044-16x9.png?v=batch041",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-044-4x5.png?v=batch041",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -17,5 +17,10 @@
   "weather_retrieval_local": "2026-09-25T14:38:52+02:00",
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:52+02:00 (2026-09-25T12:38:52Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 24.0°C, wind 12.1 km/h, precipitation 0.0 mm."
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:52+02:00 (2026-09-25T12:38:52Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 24.0°C, wind 12.1 km/h, precipitation 0.0 mm.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1 pass: Vieille Bourse on Place du Général-de-Gaulle — Flemish-Baroque facade with ornate scrollwork gables, red brick and stone, arcaded ground level, pedestrians in the square — a plausible tourist view of the landmark Lille building. Gate2 pass: 1920x1080/864x1080 verified, exact 'Jason D's Vision' signature bottom-right, caption 'Vieille Bourse, Lille' and scenario '23 September 2026 · 15:32 Europe/Paris' plus AI-disclosure legible on the bottom-left scrim; scenario minute inside model-valid hour 2026-09-23T15:00 Europe/Paris, approvals/FR-01-044.md records a scene-specific Open-Meteo retrieval at 2026-09-25T14:38:52+02:00 (unique to this scene, location-specific values). Gate3 pass: text-prompt-only generation documented, no photographic inputs. Gate4 noted: multiple pedestrians in the square — public square, documented only. Gate5: no open blockers — publish-ready.",
+  "approved_at": "2026-09-25T13:36:16.413042+00:00",
+  "sha256_16x9": "9a1558b2671cf147e057712efb17d7cc7013987697d70ecc5de0629ea93afa4d",
+  "sha256_4x5": "44900ab5e1fb10f82a13f681379aa3a38cfe45ff667809daacac76bae03fb301"
 }
