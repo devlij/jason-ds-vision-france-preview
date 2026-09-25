@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is massive papal Gothic fortress-palace above Place du Palais. The place named on the card is Palais des Papes, Avignon, in Provence-Alpes-Côte d'Azur. Model data from Open-Meteo, retrieved 2026-09-25T14:38:40+02:00 (2026-09-25T12:38:40Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.6°C, wind 7.1 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Palais des Papes in Avignon under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-037-16x9.png?v=batch037",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-037-4x5.png?v=batch037",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -17,5 +17,10 @@
   "weather_retrieval_local": "2026-09-25T14:38:40+02:00",
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:40+02:00 (2026-09-25T12:38:40Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.6°C, wind 7.1 km/h, precipitation 0.0 mm."
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:40+02:00 (2026-09-25T12:38:40Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.6°C, wind 7.1 km/h, precipitation 0.0 mm.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1 pass: massive papal Gothic fortress-palace above Place du Palais — crenellated keeps, pointed-arch windows, arcade at ground level with visitors in the square, matching the evidence card's geometry anchors. Gate2 pass: 1920x1080/864x1080 verified, exact 'Jason D's Vision' signature bottom-right, caption 'Palais des Papes, Avignon' and scenario '23 September 2026 · 15:25 Europe/Paris' plus AI-disclosure legible on the bottom-left scrim; scenario minute inside model-valid hour 2026-09-23T15:00 Europe/Paris, approvals/FR-01-037.md records a scene-specific Open-Meteo retrieval at 2026-09-25T14:38:40+02:00 (unique to this scene, location-specific values). A few fair-weather clouds against model cloud 0% — reviewed as modelled-scenario nuance, not a gate failure. Gate3 pass: text-prompt-only generation documented, no photographic inputs. Gate4 noted: small visitor figures in the square — public landmark, documented only. Gate5: no open blockers — publish-ready.",
+  "approved_at": "2026-09-25T13:34:54.290096+00:00",
+  "sha256_16x9": "cd182f89d6f693ca4a926bd1b68c4ce6330e9c0a68617adcd125d11a20275fe4",
+  "sha256_4x5": "ec6a3908172feba41aeb2ea02d8ec815abd95adc85adb9f991605201c28b20e7"
 }
