@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-004",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Paris",
+  "caption": "Arc de Triomphe, Paris",
+  "scenario_label": "23 September 2026 · 14:53 Europe/Paris",
+  "composition": "Triumphal arch centered on the Champs-Élysées avenue axis · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is triumphal arch centered on the Champs-Élysées avenue axis. The place named on the card is Arc de Triomphe, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 14:53 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of the Arc de Triomphe in Paris under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-004-16x9.png?v=batch001",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-004-4x5.png?v=batch001",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Arc de Triomphe at the end of a tree-lined avenue: the sculpted arch with its attic frieze and the Marseillaise relief groups, seen down the straight ceremonial axis with trimmed plane trees both sides and a few cars at the base. Gate 1: recognizably the Arc, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: sweep verified exact 1920x1080 / 864x1080; on-image caption 'Arc de Triomphe, Paris', scenario '23 September 2026 · 14:53 Europe/Paris', disclosure, and exact curly-apostrophe 'Jason D's Vision' signature all legible on the bottom gradient; no approvals/FR-01-004.md exists so no weather-retrieval timestamp to cross-check — scenario stands as model data, no staleness evidence. Gate 3: no photographic inputs reported (no build-agent notes file on record). Gate 4: no identifiable people, no readable plates or logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T04:32:12.920298+00:00"
+}
