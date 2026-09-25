@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-092",
+  "country": "France",
+  "region": "Corsica",
+  "city": "Corte",
+  "caption": "Citadel of Corte, Corte",
+  "scenario_label": "23 September 2026 · 17:15 Europe/Paris",
+  "composition": "Hilltop citadel above Restonica/Tavignano valleys · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is hilltop citadel above Restonica/Tavignano valleys. The place named on the card is Citadel of Corte, Corte, in Corsica. Light and weather follow the modelled scenario 23 September 2026 · 17:15 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Citadel of Corte under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-092-16x9.png?v=batch089",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-092-4x5.png?v=batch089",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T15:34:30.068158+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 PASS (review): hilltop citadel with stone walls and terracotta roofs above a Corsican valley — recognizably the Citadel of Corte from a plausible elevated viewpoint. Gate 2 BLOCKED: no approvals/FR-01-092.md exists in the repo (note range covers 009, 031-060, 073-077, 125-365) — no per-scene Open-Meteo retrieval timestamp exists to cross-check against the on-image scenario 23 September 2026 17:15 Europe/Paris; 1-minute-per-scene scenario increments across FR-01-085–094 suggest build-clock timestamps. Gate 3 OPEN: no generation-input documentation. Gate 4: no people/logos visible. Stays Candidate pending a per-scene evidence note."
+    }
+  ]
+}
