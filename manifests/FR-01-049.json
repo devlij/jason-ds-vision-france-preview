@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is lauch canal lined with half-timbered Alsatian houses. The place named on the card is Petite Venise, Colmar, in Grand Est. Model data from Open-Meteo, retrieved 2026-09-25T14:39:01+02:00 (2026-09-25T12:39:01Z), valid 2026-09-23T13:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 19.8°C, wind 3.8 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Petite Venise in Colmar under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-049-16x9.png?v=gate2wx",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-049-4x5.png?v=gate2wx",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -17,5 +17,10 @@
   "weather_retrieval_local": "2026-09-25T14:39:01+02:00",
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T13:00 Europe/Paris",
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:39:01+02:00 (2026-09-25T12:39:01Z), valid 2026-09-23T13:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 19.8°C, wind 3.8 km/h, precipitation 0.0 mm."
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:39:01+02:00 (2026-09-25T12:39:01Z), valid 2026-09-23T13:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 19.8°C, wind 3.8 km/h, precipitation 0.0 mm.",
+  "qc_status": "approved",
+  "approval_basis": "Approved · Cosmo QC 5/5 · FR-031–060 weather rework — Gate 1: Petite Venise, Colmar — half-timbered houses with flower boxes along the canal. Gate 2: caption 'Petite Venise, Colmar', scenario 23 Sept 2026 13:34 Europe/Paris, signature and disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T14:39:01+02:00 (unique), valid 13:00, scenario inside the hour; code 0, 0% cloud. Gate 3: text-prompt-only; scrim rebaked for the new hour. Gate 4: clean. Gate 5: Art. 50 on; exact 1920x1080 / 864x1080.",
+  "approved_at": "2026-09-25T13:05:27Z",
+  "sha256_16x9": "922fd2c67da7fb41c9a0fa3a85cd5cf7a70f240631888961a2e883b527d0a81b",
+  "sha256_4x5": "16df6b1c08267c5ab590c6549d1024fb420f88e421ea75ded5b22c34cdb1e96d"
 }
