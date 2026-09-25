@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-086",
+  "country": "France",
+  "region": "Occitanie",
+  "city": "Cahors",
+  "caption": "Pont Valentré, Cahors",
+  "scenario_label": "23 September 2026 · 17:06 Europe/Paris",
+  "composition": "Fortified medieval three-tower bridge over the Lot · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is fortified medieval three-tower bridge over the Lot. The place named on the card is Pont Valentré, Cahors, in Occitanie. Light and weather follow the modelled scenario 23 September 2026 · 17:06 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Pont Valentré in Cahors under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-086-16x9.png?v=batch085",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-086-4x5.png?v=batch085",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T15:33:31.361025+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 PASS (review): fortified medieval stone-arch bridge over the Lot, plausible tourist viewpoint; the three-tower signature of Pont Valentré reads weakly (only edge tower-forms visible) but not a glaring misconfiguration. Gate 2 BLOCKED: no approvals/FR-01-086.md exists in the repo (note range covers 009, 031-060, 073-077, 125-365) — no per-scene Open-Meteo retrieval timestamp exists to cross-check against the on-image scenario 23 September 2026 17:06 Europe/Paris. Scenario labels across FR-01-085–094 increment exactly 1 min per scene, suggesting build-clock timestamps rather than retrievals — fails the 2026-09-25 one-retrieval-per-scene rule. Gate 3 OPEN: no generation-input documentation (no photographic inputs ruled out or confirmed). Gate 4: no people/logos visible. Stays Candidate pending a per-scene evidence note."
+    }
+  ]
+}
