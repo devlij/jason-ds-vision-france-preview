@@ -16,6 +16,11 @@
       "at": "2026-09-25T11:33:43.942012+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 FAIL: the Arc Héré at Place Stanislas is the correct feature, but the generation has visible artifacts on the central subject — the rooftop sculptural groups are melted unrecognizable blobs and the dark recessed panels between the column pairs are smeared black masses; overall the frame renders muddy and dim. Not clean, artifact-free work."
+    },
+    {
+      "at": "2026-09-25T12:36:07.614098+00:00",
+      "by": "Cosmo QC",
+      "note": "Re-examined in the 08:27 EDT run: concur with the 11:33 UTC Gate 1 FAIL - rooftop sculptural groups are melted blobs, dark panels between the column pairs are smeared black masses, frame muddy and dim. Left Candidate. A mistaken index.html approval flip caused by this run's approve attempt was reverted via the GitHub API (commit 1d871070); manifest remains Candidate."
     }
   ]
 }
