@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is romano-Byzantine basilica and gilded Madonna on the limestone hill. The place named on the card is Notre-Dame de la Garde, Marseille, in Provence-Alpes-Côte d'Azur. Model data from Open-Meteo, retrieved 2026-09-25T14:38:37+02:00 (2026-09-25T12:38:37Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.3°C, wind 20.1 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Notre-Dame de la Garde in Marseille under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-035-16x9.png?v=batch033",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-035-4x5.png?v=batch033",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -18,9 +18,17 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:37+02:00 (2026-09-25T12:38:37Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.3°C, wind 20.1 km/h, precipitation 0.0 mm.",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate1 pass: hilltop Romano-Byzantine basilica with gilded Madonna atop the tall striped-stone belfry, Marseille city and harbor spread below — a plausible tourist vantage matching the evidence card. Gate2 pass: 1920x1080/864x1080 verified by sweep, exact 'Jason D's Vision' signature bottom-right, caption 'Notre-Dame de la Garde, Marseille' and scenario '23 September 2026 · 15:22 Europe/Paris' plus AI-disclosure legible on the bottom-left scrim; scenario minute sits inside the model-valid hour 2026-09-23T15:00 Europe/Paris, and approvals/FR-01-035.md records a scene-specific Open-Meteo retrieval at 2026-09-25T14:38:37+02:00 (no timestamp shared with any other scene, values location-specific). Gate3 pass: notes document text-prompt-only generation, no photographic inputs. Gate4 noted: small visitor figures on the terrace — public landmark, documented only, commercial call is Jason's. Gate5: no open blockers — publish-ready.",
   "approved_at": "2026-09-25T13:34:14.721693+00:00",
   "sha256_16x9": "79f679377069fcd4e163f819852a4944813be0607c6091f6bb03749a5ee174e8",
-  "sha256_4x5": "12a1e232924534c316727184e1c3f09128275cfd12cc24c6a795cecc9bcdf585"
+  "sha256_4x5": "12a1e232924534c316727184e1c3f09128275cfd12cc24c6a795cecc9bcdf585",
+  "reverted_at": "2026-09-25T18:52:51.848851+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:52:51.848851+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
