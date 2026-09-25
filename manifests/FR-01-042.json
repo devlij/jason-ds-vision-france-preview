@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is burgundian Hôtel-Dieu courtyard with polychrome glazed-tile roofs. The place named on the card is Hospices de Beaune, Beaune, in Bourgogne-Franche-Comté. Model data from Open-Meteo, retrieved 2026-09-25T14:38:49+02:00 (2026-09-25T12:38:49Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 26.0°C, wind 6.6 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Hospices de Beaune in Beaune under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-042-16x9.png?v=gate2wx",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-042-4x5.png?v=gate2wx",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -17,5 +17,10 @@
   "weather_retrieval_local": "2026-09-25T14:38:49+02:00",
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T16:00 Europe/Paris",
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:49+02:00 (2026-09-25T12:38:49Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 26.0°C, wind 6.6 km/h, precipitation 0.0 mm."
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:49+02:00 (2026-09-25T12:38:49Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 26.0°C, wind 6.6 km/h, precipitation 0.0 mm.",
+  "qc_status": "approved",
+  "approval_basis": "Approved · Cosmo QC 5/5 · FR-031–060 weather rework — Gate 1: Hospices de Beaune, glazed-tile patterned roofs, courtyard timber gallery. Gate 2: caption 'Hospices de Beaune, Beaune', scenario 23 Sept 2026 16:30 Europe/Paris, signature and disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T14:38:49+02:00 (unique), valid 16:00, scenario inside the hour; code 0, 0% cloud. Gate 3: text-prompt-only; scrim rebaked for the new hour. Gate 4: clean. Gate 5: Art. 50 on; exact 1920x1080 / 864x1080.",
+  "approved_at": "2026-09-25T13:05:27Z",
+  "sha256_16x9": "33c58512a18a93f921db0569addb3cadcfa66ca4df12e63904634ab4512e6a49",
+  "sha256_4x5": "f01c727ac756369ef56bda488e1c6d0161916d4d0cb61e5125370be9aaa06311"
 }
