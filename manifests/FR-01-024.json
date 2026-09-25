@@ -9,9 +9,17 @@
   "description": "The recorded tourist view is medieval riverside towers and Tour de l'Horloge along the Seine. The place named on the card is Conciergerie, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:33 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of the Conciergerie under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-024-16x9.png?v=batch021",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-024-4x5.png?v=batch021",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "The Conciergerie from across the Seine: the twin round towers with conical roofs, the long Gothic riverside facade, and the Tour de l'Horloge with its blue-and-gold clock face above the quay, with the Seine in the foreground — the medieval palace reads clearly from this classic rive-droite viewpoint. Gate 1 passes on the towers, clock tower and quay geometry with no artifacts. Gate 2: caption 'Conciergerie, Paris', scenario '23 September 2026 · 15:33 Europe/Paris', AI disclosure bottom-left; 'Jason D's Vision' signature bottom-right with curly apostrophe; exact 1920×1080/864×1080 masters confirmed by the sweep. approvals/FR-01-024.md absent from the repo, so no recorded weather-retrieval time to cross-check; scenario minute unique to this scene. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: tiny pedestrians along the quay only, no logos; documented. Gate 5: ready.",
-  "approved_at": "2026-09-25T06:33:34.439222+00:00"
+  "approved_at": "2026-09-25T06:33:34.439222+00:00",
+  "reverted_at": "2026-09-25T18:52:31.588428+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:52:31.588428+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
