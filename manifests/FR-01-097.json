@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-097",
+  "country": "France",
+  "region": "Bretagne",
+  "city": "Dinan",
+  "caption": "Dinan medieval town, Dinan",
+  "scenario_label": "23 September 2026 · 17:56 Europe/Paris",
+  "composition": "Half-timbered streets and medieval Brittany fabric · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is half-timbered streets and medieval Brittany fabric. The place named on the card is Dinan medieval town, Dinan, in Bretagne. Light and weather follow the modelled scenario 23 September 2026 · 17:56 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Dinan medieval town under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-097-16x9.png?v=batch097",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-097-4x5.png?v=batch097",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:38:50.964511+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 PASS: Dinan medieval street — tall granite half-timbered houses, steep slate roofs, cobbled lane curving between them under a bright blue sky; clean framing, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080); on-image caption 'Dinan medieval town, Dinan', scenario '23 September 2026 · 17:56 Europe/Paris', disclosure and curly-apostrophe signature exact — BUT HELD: weather retrieval cross-check impossible. approvals/FR-01-097.md verified 404 (notes gap 078–124), no PNG metadata, no manifest; per-scene retrieval unverifiable, Gate 2 open. Gate 3 undocumented. Gate 4: no people/logos visible — documented only."
+    }
+  ]
+}
