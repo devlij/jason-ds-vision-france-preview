@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-061",
+  "country": "France",
+  "region": "Centre-Val de Loire",
+  "city": "Villandry",
+  "caption": "Château de Villandry, Villandry",
+  "scenario_label": "23 September 2026 · 15:43 Europe/Paris",
+  "composition": "Renaissance geometric ornamental gardens with the château · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is renaissance geometric ornamental gardens with the château. The place named on the card is Château de Villandry, Villandry, in Centre-Val de Loire. Light and weather follow the modelled scenario 23 September 2026 · 15:43 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Château de Villandry under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-061-16x9.png?v=batch061",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-061-4x5.png?v=batch061",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: Elevated view of Villandry's Renaissance château — slate mansard roof, dormers, pale stone façade — behind geometric knot gardens of clipped boxwood parterres with purple/white plantings, exactly the tourist viewpoint from the gardens. Gate2: 1920x1080/864x1080 exact; caption 'Château de Villandry, Villandry', scenario '23 September 2026 · 15:43 Europe/Paris', AI disclosure on gradient scrim; 'Jason D's Vision' signature bottom-right. No approvals/*.md note exists (404) — no weather-retrieval cross-check possible; no stale/reused weather evidence. Gate3: no photographic inputs evidenced. Gate4: no people, logos, or private property visible — documented only, not certified.",
+  "approved_at": "2026-09-25T10:31:44.721767+00:00"
+}
