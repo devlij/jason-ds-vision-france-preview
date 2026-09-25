@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is vast High Gothic west façade with gallery of kings and flat-topped twin towers. The place named on the card is Amiens Cathedral, Amiens, in Hauts-de-France. Model data from Open-Meteo, retrieved 2026-09-25T14:38:47+02:00 (2026-09-25T12:38:47Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.6°C, wind 9.8 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Amiens Cathedral in Amiens under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-041-16x9.png?v=batch041",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-041-4x5.png?v=batch041",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -18,9 +18,17 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:47+02:00 (2026-09-25T12:38:47Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.6°C, wind 9.8 km/h, precipitation 0.0 mm.",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate1 pass: vast High Gothic west front of Amiens Cathedral — gallery of kings, rose window, flat-topped twin towers with open belfries, three deep portals, visitors at the parvis edge. Gate2 pass: 1920x1080/864x1080 verified, exact 'Jason D's Vision' signature bottom-right, caption 'Amiens Cathedral, Amiens' and scenario '23 September 2026 · 15:29 Europe/Paris' plus AI-disclosure legible on the bottom-left scrim; scenario minute inside model-valid hour 2026-09-23T15:00 Europe/Paris, approvals/FR-01-041.md records a scene-specific Open-Meteo retrieval at 2026-09-25T14:38:47+02:00 (unique to this scene, location-specific values). Gate3 pass: text-prompt-only generation documented, no photographic inputs. Gate4 noted: small visitor figures on the parvis — public landmark, documented only. Gate5: no open blockers — publish-ready.",
   "approved_at": "2026-09-25T13:35:43.085050+00:00",
   "sha256_16x9": "61fa6d73a074d828a61953b5d8c903659e865a6a907be1d885eef5ff475999c0",
-  "sha256_4x5": "39df0166463b2283849ce74ef10ec3a6410cbd46d49f2bd1afd044a39e651660"
+  "sha256_4x5": "39df0166463b2283849ce74ef10ec3a6410cbd46d49f2bd1afd044a39e651660",
+  "reverted_at": "2026-09-25T18:53:03.008563+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:53:03.008563+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
