@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-049",
+  "country": "France",
+  "region": "Grand Est",
+  "city": "Colmar",
+  "caption": "Petite Venise, Colmar",
+  "scenario_label": "23 September 2026 · 15:34 Europe/Paris",
+  "composition": "Lauch canal lined with half-timbered Alsatian houses · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is lauch canal lined with half-timbered Alsatian houses. The place named on the card is Petite Venise, Colmar, in Grand Est. Light and weather follow the modelled scenario 23 September 2026 · 15:34 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Petite Venise in Colmar under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-049-16x9.png?v=batch049",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-049-4x5.png?v=batch049",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 (visual/location): the half-timbered Alsatian houses with flower boxes lining the calm canal is recognizably Petite Venise, Colmar, from a plausible waterfront viewpoint; clean framing, no artifacts. Gate 2 (technical): both masters mechanically verified at exact 1920x1080 and 864x1080; exact “Jason D’s Vision” signature bottom-right; exact caption “Petite Venise, Colmar”, scenario “23 September 2026 · 15:34 Europe/Paris”, and “AI-generated artistic interpretation · Not a photograph.” disclosure bottom-left on a legible gradient scrim. Gate 3 (originality): approvals/FR-01-049.md does not exist (404) — no generation inputs documented, no photographic inputs reported anywhere. Gate 4 (commercial/IP): no visible people, no logos, no recognizable private property — documented only. Gate 5: no open blockers. Scenario is a modelled label, never a verified capture.",
+  "approved_at": "2026-09-25T08:34:01.680474+00:00"
+}
