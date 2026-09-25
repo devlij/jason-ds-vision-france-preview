@@ -9,9 +9,17 @@
   "description": "The recorded tourist view is château Royal and seaside bell tower above a harbor of fishing boats. The place named on the card is Collioure harbor, Collioure, in Occitanie. Light and weather follow the modelled scenario 23 September 2026 · 15:49 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Collioure harbor under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-070-16x9.png?v=batch069",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-070-4x5.png?v=batch069",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate1: Collioure harbor — Château Royal on the rocky point, Notre-Dame-des-Anges bell tower, pastel waterfront houses, colorful fishing boats across the bay with the Albères mountains behind — the signature Collioure viewpoint. Clean framing, no artifacts. Gate2: exact 1920x1080/864x1080; caption 'Collioure harbor, Collioure', scenario '23 September 2026 · 15:49 Europe/Paris', AI disclosure on scrim; 'Jason D's Vision' bottom-right. No approvals note (404); sequential 15:49 scenario, no stale-weather evidence. Gate3: no photographic inputs evidenced. Gate4: no recognizable individuals, logos, or private property; small generic boats only — documented only.",
-  "approved_at": "2026-09-25T10:32:55.843766+00:00"
+  "approved_at": "2026-09-25T10:32:55.843766+00:00",
+  "reverted_at": "2026-09-25T18:53:54.734898+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:53:54.734898+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
