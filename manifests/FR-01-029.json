@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-029",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Maisons-Laffitte",
+  "caption": "Château de Maisons-Laffitte, Maisons-Laffitte",
+  "scenario_label": "23 September 2026 · 15:16 Europe/Paris",
+  "composition": "Classical François Mansart château on a formal garden axis · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is classical François Mansart château on a formal garden axis. The place named on the card is Château de Maisons-Laffitte, Maisons-Laffitte, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:16 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Château de Maisons-Laffitte under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-029-16x9.png?v=batch029",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-029-4x5.png?v=batch029",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Château de Maisons-Laffitte: the symmetrical French-classical palace facade with its central pedimented avant-corps, slate mansard roofs with brick chimneys, and the geometric parterre garden with boxwood scrolls in the foreground. Gate 1 passes on the palace's distinctive symmetrical composition; clean framing, no artifacts. Gate 2: caption 'Château de Maisons-Laffitte, Maisons-Laffitte', scenario '23 September 2026 · 15:16 Europe/Paris', AI disclosure bottom-left; curly-apostrophe 'Jason D's Vision' signature bottom-right; sweep verified exact 1920×1080/864×1080. approvals/FR-01-029.md absent from the repo, so no weather-retrieval timestamp to cross-check; scenario minute unique to this scene. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: tiny distant figures on the parterre paths, no logos; documented. Gate 5: ready.",
+  "approved_at": "2026-09-25T06:33:53.981777+00:00"
+}
