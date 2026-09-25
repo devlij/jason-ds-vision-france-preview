@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-024",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Paris",
+  "caption": "Conciergerie, Paris",
+  "scenario_label": "23 September 2026 · 15:33 Europe/Paris",
+  "composition": "Medieval riverside towers and Tour de l'Horloge along the Seine · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is medieval riverside towers and Tour de l'Horloge along the Seine. The place named on the card is Conciergerie, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:33 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of the Conciergerie under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-024-16x9.png?v=batch021",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-024-4x5.png?v=batch021",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "The Conciergerie from across the Seine: the twin round towers with conical roofs, the long Gothic riverside facade, and the Tour de l'Horloge with its blue-and-gold clock face above the quay, with the Seine in the foreground — the medieval palace reads clearly from this classic rive-droite viewpoint. Gate 1 passes on the towers, clock tower and quay geometry with no artifacts. Gate 2: caption 'Conciergerie, Paris', scenario '23 September 2026 · 15:33 Europe/Paris', AI disclosure bottom-left; 'Jason D's Vision' signature bottom-right with curly apostrophe; exact 1920×1080/864×1080 masters confirmed by the sweep. approvals/FR-01-024.md absent from the repo, so no recorded weather-retrieval time to cross-check; scenario minute unique to this scene. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: tiny pedestrians along the quay only, no logos; documented. Gate 5: ready.",
+  "approved_at": "2026-09-25T06:33:34.439222+00:00"
+}
