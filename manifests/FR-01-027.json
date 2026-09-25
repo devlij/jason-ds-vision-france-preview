@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-027",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Saint-Denis",
+  "caption": "Basilique Saint-Denis, Saint-Denis",
+  "scenario_label": "23 September 2026 · 15:13 Europe/Paris",
+  "composition": "Early Gothic west façade with three portals, rose window, and single north tower (asymmetric) · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is early Gothic west façade with three portals, rose window, and single north tower (asymmetric). The place named on the card is Basilique Saint-Denis, Saint-Denis, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:13 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Basilique Saint-Denis under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-027-16x9.png?v=batch025",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-027-4x5.png?v=batch025",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Basilique Saint-Denis from the parvis: the tall west tower with pyramidal spire, the large rose window over the three sculpted Gothic portals, and the arcaded gallery — the pioneering Gothic basilica reads clearly. Gate 1 passes on the rose-window-and-tower composition with clean daylight framing. Gate 2: caption 'Basilique Saint-Denis, Saint-Denis', scenario '23 September 2026 · 15:13 Europe/Paris', AI disclosure bottom-left; curly-apostrophe 'Jason D's Vision' signature bottom-right; sweep verified exact 1920×1080/864×1080. approvals/FR-01-027.md absent from the repo, so the weather-retrieval cross-check had no recorded time; scenario minute unique to this scene, no reuse. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: a few small anonymous figures at the portals, no logos; documented. Gate 5: ready.",
+  "approved_at": "2026-09-25T06:33:46.352647+00:00"
+}
