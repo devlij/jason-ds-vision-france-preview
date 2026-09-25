@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-010",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "city": "Chamonix",
+  "caption": "Aiguille du Midi, Chamonix",
+  "scenario_label": "23 September 2026 · 15:06 Europe/Paris",
+  "composition": "Alpine needle and summit station above Mont Blanc massif snowfields · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is alpine needle and summit station above Mont Blanc massif snowfields. The place named on the card is Aiguille du Midi, Chamonix, in Auvergne-Rhône-Alpes. Light and weather follow the modelled scenario 23 September 2026 · 15:06 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of the Aiguille du Midi above Chamonix under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-010-16x9.png?v=batch009",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-010-4x5.png?v=batch009",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Aiguille du Midi summit station: the needle-like granite peak crowned by the viewing-station terraces, snow-ridged Mont Blanc massif ridges rolling out in all directions under a high sun. Gate 1: recognizably the Aiguille du Midi, plausible high-alpine tourist viewpoint, clean framing, no artifacts. Gate 2: sweep verified exact 1920x1080 / 864x1080; on-image caption 'Aiguille du Midi, Chamonix', scenario '23 September 2026 · 15:06 Europe/Paris', disclosure, and exact curly-apostrophe 'Jason D's Vision' signature all legible on the bottom gradient; no approvals/FR-01-010.md exists so no weather-retrieval timestamp to cross-check — scenario stands as model data, no staleness evidence. Gate 3: no photographic inputs reported (no build-agent notes file on record). Gate 4: no identifiable people, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T04:32:57.815196+00:00"
+}
