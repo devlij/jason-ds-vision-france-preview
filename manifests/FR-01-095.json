@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-095",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "city": "Roussillon",
+  "caption": "Roussillon ochre village, Roussillon",
+  "scenario_label": "23 September 2026 · 17:28 Europe/Paris",
+  "composition": "Ochre cliffs and ochre-washed village · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is ochre cliffs and ochre-washed village. The place named on the card is Roussillon ochre village, Roussillon, in Provence-Alpes-Côte d'Azur. Light and weather follow the modelled scenario 23 September 2026 · 17:28 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Roussillon ochre village under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-095-16x9.png?v=batch093",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-095-4x5.png?v=batch093",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:38:42.087755+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 PASS: red ochre cliffs of the Colorado Provençal rising above the ochre-washed village of Roussillon, blue sky, clean framing, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080) and on-image text exact: caption 'Roussillon ochre village, Roussillon', scenario '23 September 2026 · 17:28 Europe/Paris', 'AI-generated artistic interpretation · Not a photograph.' disclosure, 'Jason D's Vision' curly-apostrophe signature bottom-right — BUT HELD: weather retrieval cross-check impossible. No build-agent note exists (approvals/FR-01-095.md verified 404 via API; repo notes have a gap covering 078–124), no PNG metadata, no manifest. Under the hardened per-scene Open-Meteo retrieval law the retrieval timestamp cannot be verified, so Gate 2 stays open. Gate 3 undocumented (no note: generation lineage unconfirmed). Gate 4: no visible people, logos, or private-property concerns at review zoom — documented only."
+    }
+  ]
+}
