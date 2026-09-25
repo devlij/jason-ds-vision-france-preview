@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is pyrenean limestone amphitheatre with Grande Cascade. The place named on the card is Cirque de Gavarnie, Gavarnie, in Occitanie. Model data from Open-Meteo, retrieved 2026-09-25T14:41:26+02:00 (2026-09-25T12:41:26Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 21.4°C, wind 7.9 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Cirque de Gavarnie under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-057-16x9.png?v=batch057",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-057-4x5.png?v=batch057",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -17,5 +17,10 @@
   "weather_retrieval_local": "2026-09-25T14:41:26+02:00",
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
-  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:41:26+02:00 (2026-09-25T12:41:26Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 21.4°C, wind 7.9 km/h, precipitation 0.0 mm."
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:41:26+02:00 (2026-09-25T12:41:26Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 21.4°C, wind 7.9 km/h, precipitation 0.0 mm.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: Pyrenean limestone cirque wall with the tall Grande Cascade waterfall at its head and forested slopes below, recognizable Cirque de Gavarnie, clean framing. Gate2: 1920x1080+864x1080 confirmed; on-image caption 'Cirque de Gavarnie, Gavarnie', scenario 'Scenario: 23 September 2026 · 15:41 Europe/Paris', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature on bottom gradient; Open-Meteo retrieval 2026-09-25T14:41:26+02:00 unique to this scene, scenario minute inside model-valid hour 2026-09-23T15:00 Europe/Paris, clear daylight consistent. Gate3: text-prompt-only lineage per approvals/FR-01-057.md, no photographic inputs reported. Gate4: no identifiable people or focal logos visible; documented only. Gate5: no open blockers.",
+  "approved_at": "2026-09-25T14:34:39.957992+00:00",
+  "sha256_16x9": "60040420af5e5694bba1f7f41a1a5945c318333aa623f4e18df52dba360f03d3",
+  "sha256_4x5": "6db088031c0624631ae45ab00b017209e01143a4b446edaf4a348ce108d89a82"
 }
