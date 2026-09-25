@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-062",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "city": "Le-Puy-en-Velay",
+  "caption": "Rocher Saint-Michel, Le Puy-en-Velay",
+  "scenario_label": "23 September 2026 · 15:44 Europe/Paris",
+  "composition": "Volcanic needle rock topped by the Saint-Michel chapel · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is volcanic needle rock topped by the Saint-Michel chapel. The place named on the card is Rocher Saint-Michel, Le Puy-en-Velay, in Auvergne-Rhône-Alpes. Light and weather follow the modelled scenario 23 September 2026 · 15:44 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Rocher Saint-Michel in Le Puy-en-Velay under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-062-16x9.png?v=batch061",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-062-4x5.png?v=batch061",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: Saint-Michel d'Aiguilhe chapel crowning the volcanic needle over Le Puy-en-Velay's red-tiled old town, rolling hills behind — the signature viewpoint. Clean framing, no artifacts. Gate2: exact 1920x1080/864x1080; caption 'Rocher Saint-Michel, Le Puy-en-Velay', scenario '23 September 2026 · 15:44 Europe/Paris', AI disclosure, gradient scrim; 'Jason D's Vision' bottom-right. approvals note absent (404); scenario sequence coherent with repo SCENES, no reused-weather evidence. Gate3: no photographic inputs evidenced. Gate4: generic town rooftops, no recognizable individuals/logos/private property — documented only.",
+  "approved_at": "2026-09-25T10:31:49.060489+00:00"
+}
