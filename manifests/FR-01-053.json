@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-053",
+  "country": "France",
+  "region": "Normandy",
+  "city": "Etretat",
+  "caption": "Cliffs of Étretat, Étretat",
+  "scenario_label": "23 September 2026 · 15:36 Europe/Paris",
+  "composition": "White chalk Porte d'Aval arch and Aiguille needle on the Alabaster Coast · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is white chalk Porte d'Aval arch and Aiguille needle on the Alabaster Coast. The place named on the card is Cliffs of Étretat, Étretat, in Normandy. Light and weather follow the modelled scenario 23 September 2026 · 15:36 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of the Cliffs of Étretat under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-053-16x9.png?v=batch053",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-053-4x5.png?v=batch053",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Porte d'Aval chalk arch with the Aiguille needle stack behind, white stratified cliffs and Normandy coastline stretching west — unmistakably the Cliffs of Étretat from the classic cliff-top path viewpoint, clean framing, no artifacts. Gate 2: exact 1920×1080 + 864×1080 (sweep verified); exact 'Jason D's Vision' signature bottom-right; caption 'Cliffs of Étretat, Étretat', scenario '23 September 2026 · 15:36 Europe/Paris', disclosure 'AI-generated artistic interpretation · Not a photograph.' on the bottom gradient, legible and unobtrusive; no approvals/FR-01-053.md note exists for weather cross-check, sequential build minutes show no ES-01-style stale-reuse pattern. Gate 3: no photographic inputs reported; text-prompt generation per France kit. Gate 4: natural cliffs, no people, logos, or private property — documented only, not certified. Gate 5: all gates pass, publish-ready.",
+  "approved_at": "2026-09-25T09:32:22.142705+00:00"
+}
