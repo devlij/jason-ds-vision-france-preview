@@ -9,9 +9,17 @@
   "description": "The recorded tourist view is twin medieval harbor towers framing the Old Port entrance. The place named on the card is Old Port of La Rochelle, La Rochelle, in Nouvelle-Aquitaine. Light and weather follow the modelled scenario 23 September 2026 · 16:34 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of the Old Port of La Rochelle under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-078-16x9.png?v=batch077",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-078-4x5.png?v=batch077",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate 1: aerial of La Rochelle's Vieux Port — the Tour Saint-Nicolas on its round base guarding the harbor mouth, yachts in the channel, ramparts and slate rooftops of the old town behind; the defining landmark reads clearly from a plausible overhead viewpoint. Gate 2: sweep verified 1920x1080 + 864x1080; caption 'Old Port of La Rochelle, La Rochelle', scenario '23 September 2026 · 16:34 Europe/Paris', disclosure on-image bottom-left, curly-apostrophe signature bottom-right verified at 2x zoom. No agent weather note (notes start at FR-01-125); sequential batch scenario time, no reuse pattern. Gate 3: no provenance claims on file; nothing indicates photographic inputs. Gate 4: generic yachts, no identifiable people or logos — documented only. Gate 5: clear.",
-  "approved_at": "2026-09-25T11:33:11.413314+00:00"
+  "approved_at": "2026-09-25T11:33:11.413314+00:00",
+  "reverted_at": "2026-09-25T18:54:09.306700+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:54:09.306700+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
