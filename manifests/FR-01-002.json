@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-002",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Paris",
+  "caption": "Louvre Pyramid, Paris",
+  "scenario_label": "23 September 2026 · 14:51 Europe/Paris",
+  "composition": "Glass pyramid centered in Cour Napoléon with palace wings framing · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is glass pyramid centered in Cour Napoléon with palace wings framing. The place named on the card is Louvre Pyramid, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 14:51 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of the Louvre Pyramid in Paris under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-002-16x9.png?v=batch001",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-002-4x5.png?v=batch001",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Louvre glass pyramid centered in the Cour Napoleon: diamond-glazed pyramid with its smaller flankers, the two palace wings with mansard pavilions enclosing the courtyard, a still reflecting pool mirroring the pyramid in the foreground, visitors as small figures around the entrance. Gate 1: unmistakably the Louvre courtyard, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: sweep verified exact 1920x1080 / 864x1080; on-image caption 'Louvre Pyramid, Paris', scenario '23 September 2026 · 14:51 Europe/Paris', disclosure, and exact curly-apostrophe 'Jason D's Vision' signature all legible on the bottom gradient; no approvals/FR-01-002.md exists so no weather-retrieval timestamp to cross-check — scenario stands as model data, no staleness evidence. Gate 3: no photographic inputs reported (no build-agent notes file on record). Gate 4: distant unidentifiable visitors only; no logos or private property. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T04:32:05.488252+00:00"
+}
