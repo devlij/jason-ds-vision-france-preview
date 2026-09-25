@@ -1,0 +1,17 @@
+{
+  "entry_id": "FR-01-014",
+  "country": "France",
+  "region": "Nouvelle-Aquitaine",
+  "city": "La Teste-de-Buch",
+  "caption": "Dune du Pilat, La Teste-de-Buch",
+  "scenario_label": "23 September 2026 · 15:13 Europe/Paris",
+  "composition": "Steep Atlantic sand dune ridge with pine forest fringe · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is steep Atlantic sand dune ridge with pine forest fringe. The place named on the card is Dune du Pilat, La Teste-de-Buch, in Nouvelle-Aquitaine. Light and weather follow the modelled scenario 23 September 2026 · 15:13 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Dune du Pilat under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-014-16x9.png?v=batch013",
+  "approval_status": "Approved",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-014-4x5.png?v=batch013",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1 visual pass: the towering sand dune ridge sweeps between the Atlantic surf on the left and the maritime pine forest on the right — the unmistakable Dune du Pilat geography from a plausible tourist viewpoint, clean framing, no artifacts. G2 technical pass: masters verified 1920x1080 / 864x1080; on-image caption 'Dune du Pilat, La Teste-de-Buch', scenario '23 September 2026 · 15:13 Europe/Paris', and the AI disclosure all legible bottom-left on the scrim; 'Jason D's Vision' signature with curly apostrophe bottom-right; label matches the repo SCENES block and the sequential daylight batch with no weather-metadata reuse evidence (no approvals note exists for this entry). G3 originality: no photographic inputs reported. G4 commercial/IP: no visible people, logos, or private property — public natural landmark, documented only. G5 publication ready.",
+  "approved_at": "2026-09-25T05:31:56.327557+00:00"
+}
