@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is honey-stone medieval streets and steep slate roofs. The place named on the card is Sarlat old town, Sarlat-la-Canéda, in Nouvelle-Aquitaine. Light and weather follow the modelled scenario 25 September 2026 · 14:33 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Sarlat-la-Canéda old town under a clear hot afternoon sky",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-077-16x9.png?v=gate1-20260925",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-077-4x5.png?v=gate1-20260925",
   "qc_notes": [
     {
@@ -22,5 +22,10 @@
       "by": "Cosmo QC",
       "note": "Re-examined in the 08:27 EDT run: concur with the 11:34 UTC Gate 1 FAIL - severe whole-frame defocus; stone facades, windows, doorways and cobblestones smeared into unreadable blur. Not a clean artifact-free image. Left Candidate."
     }
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Afternoon",
+  "approval_basis": "Gate 1: Sarlat old town — a sharp honey-stone lane with lauze roofs and carved window frames, church tower closing the vista, cobbled street; exactly the rebuild goal. Gate 2: caption 'Sarlat old town, Sarlat-la-Canéda', scenario 25 Sept 2026 14:33 Europe/Paris, 'Jason D's Vision' signature and AI disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T12:33:22Z (unique), valid 14:30, scenario inside 14:00–15:00; code 0, 0% cloud matches the clear sky. Gate 3: text-prompt-only rebuild, no photographic inputs reported. Gate 4: two tiny distant figures, documented only. Gate 5: Art. 50 PNG metadata present; exact 1920x1080 / 864x1080.",
+  "approved_at": "2026-09-25T12:59:10.249597+00:00",
+  "sha256_16x9": "4cf8810a0abc0d7911138b18b907615ddae59eac8dddcfa74d0e3cf097bc1e8d",
+  "sha256_4x5": "ee7ffd4a7628719613ca7c4cb0ebde0da91da2a4ebf58ea97c505b8ac402156f"
 }
