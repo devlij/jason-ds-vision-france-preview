@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-096",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "city": "Porquerolles",
+  "caption": "Île de Porquerolles village harbor, Porquerolles",
+  "scenario_label": "23 September 2026 · 17:29 Europe/Paris",
+  "composition": "Island village harbor and quay · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is island village harbor and quay. The place named on the card is Île de Porquerolles village harbor, Porquerolles, in Provence-Alpes-Côte d'Azur. Light and weather follow the modelled scenario 23 September 2026 · 17:29 Europe/Paris, not a verified on-site observation.",
+  "alt_text": "AI-generated artistic interpretation of Île de Porquerolles village harbor under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-096-16x9.png?v=batch093",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-096-4x5.png?v=batch093",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T18:38:46.830388+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 PASS: Porquerolles village harbor — marina with moored sailboats, pastel waterfront buildings, green hills behind, blue sky; plausible tourist viewpoint, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080); on-image caption 'Île de Porquerolles village harbor, Porquerolles', scenario '23 September 2026 · 17:29 Europe/Paris', disclosure and curly-apostrophe 'Jason D's Vision' signature exact — BUT HELD: weather retrieval cross-check impossible. approvals/FR-01-096.md verified 404 (notes gap 078–124), no PNG metadata, no manifest; per-scene retrieval timestamp unverifiable under the hardened weather law, Gate 2 open. Gate 3 undocumented (lineage unconfirmed). Gate 4: no people/logos visible at review zoom — documented only."
+    }
+  ]
+}
