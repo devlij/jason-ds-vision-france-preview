@@ -7,5 +7,36 @@
   "scenario_label": "24 September 2026 · 01:45 Indian/Reunion",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-279-16x9.png",
-  "file_4x5": "assets/fr-01-279-4x5.png"
+  "file_4x5": "assets/fr-01-279-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-279",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-279-16x9.png (16:9) and assets/fr-01-279-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-279-16x9.png",
+        "sha256": "0425635496bdf0be6a3caebc405a003a9129ce69915de74c08627626ae94ecf9"
+      },
+      "4x5": {
+        "path": "assets/fr-01-279-4x5.png",
+        "sha256": "f5a6e4ad73d567c3d61c7e0b462475399f1f366faefe2f42c316da2569832a21"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-279-daylight-16x9.png",
+      "4x5": "assets/fr-01-279-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "edb04207ceb75257451a14b499403d0e86fd041c48a42ddb9ff855abcdd7538d",
+      "4x5": "ff7a525f10db2d07a4e05ea9de7e9ecde0fefd843f7826110adf8b17b187c38d"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Le Souffleur, Saint-Leu",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

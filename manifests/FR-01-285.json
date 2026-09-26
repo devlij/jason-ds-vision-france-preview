@@ -7,5 +7,36 @@
   "scenario_label": "23 September 2026 · 23:45 Europe/Paris",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-285-16x9.png",
-  "file_4x5": "assets/fr-01-285-4x5.png"
+  "file_4x5": "assets/fr-01-285-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-285",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-285-16x9.png (16:9) and assets/fr-01-285-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-285-16x9.png",
+        "sha256": "0a7e43ed93426aa6d3b4c8c378f20344d53d4c5039d3e91c7ed7ceb49975c72c"
+      },
+      "4x5": {
+        "path": "assets/fr-01-285-4x5.png",
+        "sha256": "eb685f9ce94fb1b0c7dd7981e219a56149b9db8398bf1cfe80bf4d7018c4b307"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-285-daylight-16x9.png",
+      "4x5": "assets/fr-01-285-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "0232b07e5bac0fcc166fc411ca8df6f4d65b7d8fc2372f695c070032b4133150",
+      "4x5": "7368c0667ac23e147636962d6d01ad35ce0eedac7b736bfc7b7868f5507747c0"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Citadelle de Bitche, Bitche",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

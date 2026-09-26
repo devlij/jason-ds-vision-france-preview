@@ -7,5 +7,36 @@
   "scenario_label": "24 September 2026 · 01:00 Indian/Mayotte",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-297-16x9.png",
-  "file_4x5": "assets/fr-01-297-4x5.png"
+  "file_4x5": "assets/fr-01-297-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-297",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-297-16x9.png (16:9) and assets/fr-01-297-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-297-16x9.png",
+        "sha256": "183d153ac78c94d0bcb55142c8a196bff3c27f6525c1353b4b7625b21f19af2d"
+      },
+      "4x5": {
+        "path": "assets/fr-01-297-4x5.png",
+        "sha256": "e0836b914b69bebc0e985f29c9d2a82ea11f6989e73490c49994cb1765043679"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-297-daylight-16x9.png",
+      "4x5": "assets/fr-01-297-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "2a7d396d4ab6d6ac2e1ed52d5af6250f8c8e43d60bce74ffbf60e418bb7b76a9",
+      "4x5": "d1a6f4fef814bbab181aa9fb71ccc7a1ceed75530e23ae001aea3a7a88b34efd"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Plage de Sohoa, Chiconi",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
