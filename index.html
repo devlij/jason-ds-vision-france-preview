@@ -136,6 +136,13 @@
       border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
     }
     .actions a.download:hover { border-color: var(--accent); }
+    .actions button.narrate {
+      display: inline-block; background: #243049; color: var(--text);
+      border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
+      font: inherit; cursor: pointer;
+    }
+    .actions button.narrate:hover { border-color: var(--accent); }
+    .actions button.narrate.playing { border-color: var(--accent); color: var(--accent); }
     .badge {
       display: inline-block; font-size: 0.75rem; color: var(--bg); background: var(--accent);
       border-radius: 999px; padding: 0.25rem 0.6rem; text-decoration: none; font-weight: 600;
@@ -160,11 +167,13 @@
 .lb figcaption{display:flex;justify-content:center;text-align:center;color:#eef1f8;font-size:14px;padding:10px 2px 0;max-width:94vw}
 .lb-nav{display:flex;align-items:center;justify-content:center;gap:16px}
 .lb-count{color:#9fa9c2;white-space:nowrap;min-width:104px;text-align:center;font-variant-numeric:tabular-nums}
-.lb-close,.lb-prev,.lb-next,.lb-play{background:rgba(13,19,34,.85);color:#eef1f8;border:1px solid #2a3a5c;border-radius:999px;cursor:pointer;line-height:1}
+.lb-close,.lb-prev,.lb-next,.lb-play,.lb-narrate{background:rgba(13,19,34,.85);color:#eef1f8;border:1px solid #2a3a5c;border-radius:999px;cursor:pointer;line-height:1}
 .lb-close{position:absolute;top:14px;right:14px;width:46px;height:46px;font-size:20px}
 .lb-prev,.lb-next{width:46px;height:46px;min-width:46px;font-size:22px}
 .lb-play{width:44px;height:44px;min-width:44px;font-size:16px;margin-top:12px}
 .lb-play.playing{border-color:#d4a017;color:#ffd75e;box-shadow:0 0 12px rgba(212,160,23,.45)}
+.lb-narrate{width:44px;height:44px;min-width:44px;font-size:17px;margin-top:12px}
+.lb-narrate.playing{border-color:#d4a017;color:#ffd75e;box-shadow:0 0 12px rgba(212,160,23,.45)}
 
 .wotd{border-top:1px solid rgba(255,255,255,.12);border-bottom:1px solid rgba(255,255,255,.12);background:#141419;padding:10px 24px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;font-size:14px;line-height:1.5}
 .wotd .kicker{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8f8a7d;font-weight:600;white-space:nowrap}
@@ -2574,6 +2583,7 @@
       },
       {
         entry_id: "FR-01-009",
+        audio: "audio/fr-01-009-narration.mp3",
         country: "France",
         region: "Provence-Alpes-Côte d'Azur",
         city: "Valensole",
@@ -8125,7 +8135,7 @@
               <a class="download" data-dl="16x9" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>
               <a class="download" data-dl="4x5" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>
               ${file916 ? `<a class="download" data-dl="9x16" href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
-              
+              ${s.audio ? `<button type="button" class="narrate" data-audio="${esc(s.audio)}" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>` : ""}
             </div>
           </div>`;
         grid.appendChild(card);
@@ -8199,10 +8209,16 @@
   overlay.className='lb';overlay.setAttribute('aria-hidden','true');
   overlay.innerHTML='<button class="lb-close" aria-label="Close">&times;</button>'
     +'<div class="lb-nav"><button class="lb-prev" aria-label="Previous image">&#8249;</button><span class="lb-count"></span><button class="lb-next" aria-label="Next image">&#8250;</button></div>'
-    +'<figure><img alt=""><figcaption><span class="lb-cap"></span></figcaption><button class="lb-play" aria-label="Play slideshow">&#9654;</button></figure>';
+    +'<figure><img alt=""><figcaption><span class="lb-cap"></span></figcaption><button class="lb-play" aria-label="Play slideshow">&#9654;</button><button class="lb-narrate" aria-label="Listen to the scene description" style="display:none">&#128266;</button></figure>';
   document.body.appendChild(overlay);
   var img=overlay.querySelector('img'),cap=overlay.querySelector('.lb-cap'),count=overlay.querySelector('.lb-count');
   var playBtn=overlay.querySelector('.lb-play');
+  var lbNarr=overlay.querySelector('.lb-narrate');/* studio narration: singleton, never overlaid on an image */
+  var narrAudio=null,narrUrl=null;
+  function narrResetBtns(){Array.prototype.forEach.call(document.querySelectorAll('.narrate.playing,.lb-narrate.playing'),function(b){b.classList.remove('playing');if(b.classList.contains('narrate')){b.innerHTML='&#128266; Listen';}b.setAttribute('aria-pressed','false');});}
+  function narrStop(){if(narrAudio){narrAudio.pause();narrAudio=null;}narrUrl=null;narrResetBtns();}
+  function narrPlay(url,btn){narrStop();narrUrl=url;try{narrAudio=new Audio(url);narrAudio.onended=narrStop;narrAudio.onerror=narrStop;narrAudio.play();}catch(e){narrStop();return;}btn.classList.add('playing');btn.setAttribute('aria-pressed','true');if(btn.classList.contains('narrate')){btn.innerHTML='&#10074;&#10074; Pause';}}
+  function narrHandle(btn){var url=btn.getAttribute('data-audio');if(!url)return;if(narrUrl===url&&narrAudio&&!narrAudio.paused){narrStop();}else{narrPlay(url,btn);}}
   var items=[],idx=0;
   var lbFormat='16x9';/* lightbox-session format: seeded from the opening card's active tab; persists across prev/next + slideshow, never reset to 16:9 */
   var lbDay='night';/* lightbox-session day/night: seeded from the opening card's active day tab; persists across prev/next and slideshow navigation */
@@ -8219,18 +8235,22 @@
       if(im){var nk=lbFormat==='4x5'?'data-src-45':lbFormat==='9x16'?'data-src-916':'data-src-16',dk=lbFormat==='4x5'?'data-src-45-day':lbFormat==='9x16'?'data-src-916-day':'data-src-16-day';if(lbDay==='day'){daySrc=im.getAttribute(dk)||'';}src=daySrc||im.getAttribute(nk);}
       if(!src){var a=c.querySelector('a.thumb');src=a?a.href:'';}
       var capT=t?t.textContent:'';if(daySrc)capT=capT+' \u2014 \u2600 Daylight variant';
-      return{src:src,cap:capT};
+      var nbtn=c.querySelector('.narrate');
+      return{src:src,cap:capT,audio:nbtn?nbtn.getAttribute('data-audio'):''};
     }).filter(function(x){return x.src;});
     if(!items.length)return;
     idx=(i+items.length)%items.length;
     img.src=items[idx].src;img.alt=items[idx].cap;cap.textContent=items[idx].cap;
     count.textContent=(idx+1)+' / '+items.length;
+    narrStop();var curAu=items[idx].audio||'';if(curAu){lbNarr.setAttribute('data-audio',curAu);lbNarr.style.display='';}else{lbNarr.removeAttribute('data-audio');lbNarr.style.display='none';}
     if(playing){if(timer)clearInterval(timer);timer=setInterval(function(){show(idx+1);},SLIDE_MS);}
     overlay.classList.add('open');overlay.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';
   }
-  function hide(){stopSlide();overlay.classList.remove('open');overlay.setAttribute('aria-hidden','true');document.body.style.overflow='';}
+  function hide(){stopSlide();narrStop();overlay.classList.remove('open');overlay.setAttribute('aria-hidden','true');document.body.style.overflow='';}
   renderPlay();
   document.addEventListener('click',function(e){
+    var nb=e.target.closest?e.target.closest('.narrate,.lb-narrate'):null;
+    if(nb){e.preventDefault();narrHandle(nb);return;}
     var a=e.target.closest?e.target.closest('a.thumb'):null;
     if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active');lbFormat=(tab&&tab.getAttribute('data-format')==='9x16')?'9x16':(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';var dtab=card.querySelector('.day-tab.is-active');lbDay=(dtab&&dtab.getAttribute('data-daynight')==='day')?'day':'night';show(cards.indexOf(card));return;}
     if(e.target===overlay||(e.target.closest&&e.target.closest('.lb-close')))hide();
