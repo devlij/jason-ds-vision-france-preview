@@ -7,5 +7,36 @@
   "scenario_label": "24 September 2026 · 01:15 Indian/Mayotte",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-313-16x9.png",
-  "file_4x5": "assets/fr-01-313-4x5.png"
+  "file_4x5": "assets/fr-01-313-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-313",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-313-16x9.png (16:9) and assets/fr-01-313-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-313-16x9.png",
+        "sha256": "ec5f8bb795894ff5acfa4d7c145ef242a8f05de2ab21228a8f81eb8df018b9b8"
+      },
+      "4x5": {
+        "path": "assets/fr-01-313-4x5.png",
+        "sha256": "1ec2d0f9b5f4f4b3356a3e19db8d78a6b125938d54e6db7e2b77774f3ac69ee4"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-313-daylight-16x9.png",
+      "4x5": "assets/fr-01-313-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "776a12828a5f01b70c3544d8a92a886c25ac7ba4bd489742f5b7c1e84fd4ca6e",
+      "4x5": "505a6472e15ead79779c3b2d53228baecb69e16d6e21af6ff1c7b803d3cc6edd"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Vasière des Badamiers, Pamandzi",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

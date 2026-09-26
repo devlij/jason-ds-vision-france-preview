@@ -7,5 +7,36 @@
   "scenario_label": "24 September 2026 · 00:15 Europe/Paris",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-318-16x9.png",
-  "file_4x5": "assets/fr-01-318-4x5.png"
+  "file_4x5": "assets/fr-01-318-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-318",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-318-16x9.png (16:9) and assets/fr-01-318-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-318-16x9.png",
+        "sha256": "02ea9c23db1ed83a3bb25ba4e1975827d768576dbb8d373f2c811e257abc9c3f"
+      },
+      "4x5": {
+        "path": "assets/fr-01-318-4x5.png",
+        "sha256": "6dd209b90da4bec38b05fc8c1d682923eafef153e7d031c1f9b52c4762811384"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-318-daylight-16x9.png",
+      "4x5": "assets/fr-01-318-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "476d40695549dabbb185aec6f44d44f321a6953b25851febc3a2eda711150b8d",
+      "4x5": "2a67db7d323771d5cff19d1b51ebe13eca4b57e1581fcef0bb633e983c2b0774"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Château de La Rochefoucauld, La Rochefoucauld",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

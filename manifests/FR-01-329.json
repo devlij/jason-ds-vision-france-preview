@@ -7,5 +7,36 @@
   "scenario_label": "24 September 2026 · 01:30 Indian/Mayotte",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-329-16x9.png",
-  "file_4x5": "assets/fr-01-329-4x5.png"
+  "file_4x5": "assets/fr-01-329-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-329",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-329-16x9.png (16:9) and assets/fr-01-329-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-329-16x9.png",
+        "sha256": "acabc926d61f94f251a840ace168ca8f809677e0b3d9e32a708f4de47d3868d5"
+      },
+      "4x5": {
+        "path": "assets/fr-01-329-4x5.png",
+        "sha256": "20eec9367684e35081bd0ff07087105fabe7ed932f8d29229b92aabf366b027f"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-329-daylight-16x9.png",
+      "4x5": "assets/fr-01-329-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "3ebe0db1f3610a0662b8963c00762368baa7e0c4d9c98ae08bea332121912555",
+      "4x5": "b464b118b9c84c8533215564a21b5feae2db6aa2c6f833347c19e25942781825"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Baie de Bouéni, Bouéni",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

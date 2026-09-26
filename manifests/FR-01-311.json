@@ -7,5 +7,36 @@
   "scenario_label": "24 September 2026 · 02:15 Indian/Reunion",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-311-16x9.png",
-  "file_4x5": "assets/fr-01-311-4x5.png"
+  "file_4x5": "assets/fr-01-311-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-311",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-311-16x9.png (16:9) and assets/fr-01-311-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-311-16x9.png",
+        "sha256": "8f1af0d72e2702e65f4b09050d0ae05cf3038ef62998724593a5a5bd7ea31244"
+      },
+      "4x5": {
+        "path": "assets/fr-01-311-4x5.png",
+        "sha256": "1297c514b0f187cf80dcc878582676c19aff908cc0e9562293c0a7804da44b3a"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-311-daylight-16x9.png",
+      "4x5": "assets/fr-01-311-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "e8ec243c90b8cf3eeafd0f91bfaa802875a3038195c311f07c2e9dee2609ecad",
+      "4x5": "d89de1a469636b0cc0bb9f56a42952682c70c0f1c9d2ab2b48815446389b103d"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Anse des Cascades, Sainte-Rose",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
