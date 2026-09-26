@@ -7,5 +7,36 @@
   "scenario_label": "23 September 2026 · 23:00 Europe/Paris",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-222-16x9.png",
-  "file_4x5": "assets/fr-01-222-4x5.png"
+  "file_4x5": "assets/fr-01-222-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-222",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-222-16x9.png (16:9) and assets/fr-01-222-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-222-16x9.png",
+        "sha256": "4db387a32556fc0d2af7d9a8ba02062f70e6aa7831f623d65ed11da39aab2c48"
+      },
+      "4x5": {
+        "path": "assets/fr-01-222-4x5.png",
+        "sha256": "e0d83d494120bb41a91a9bd45ffc81b541789be614aba4a6d3323ecd14e18be9"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-222-daylight-16x9.png",
+      "4x5": "assets/fr-01-222-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "ce969b5b2e2dbacba966304b3d49ebadbad5dd09060e429d0796fa21d85bab03",
+      "4x5": "de6d20c70de9c9915457a3920e612dd652eaf883f29770c6f76fb7d2671149cf"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Beffroi de Bergues, Bergues",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
