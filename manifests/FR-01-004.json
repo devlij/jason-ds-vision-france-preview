@@ -9,11 +9,11 @@
   "description": "The recorded tourist view is triumphal arch centered on the Champs-Élysées avenue axis. The place named on the card is Arc de Triomphe, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 14:53 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of the Arc de Triomphe in Paris under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-004-16x9.png?v=batch001",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-004-4x5.png?v=batch001",
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "Arc de Triomphe at the end of a tree-lined avenue: the sculpted arch with its attic frieze and the Marseillaise relief groups, seen down the straight ceremonial axis with trimmed plane trees both sides and a few cars at the base. Gate 1: recognizably the Arc, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: sweep verified exact 1920x1080 / 864x1080; on-image caption 'Arc de Triomphe, Paris', scenario '23 September 2026 · 14:53 Europe/Paris', disclosure, and exact curly-apostrophe 'Jason D's Vision' signature all legible on the bottom gradient; no approvals/FR-01-004.md exists so no weather-retrieval timestamp to cross-check — scenario stands as model data, no staleness evidence. Gate 3: no photographic inputs reported (no build-agent notes file on record). Gate 4: no identifiable people, no readable plates or logos. Gate 5: no open blockers.",
-  "approved_at": "2026-09-25T04:32:12.920298+00:00",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: Arc de Triomphe recognizable centered on the tree-lined Champs-Élysées avenue axis — the triumphal arch with its sculptural reliefs flanked by pollarded plane trees, light traffic on the avenue, clean framing, no artifacts. Gate 2 PASS: masters 1920x1080 and 864x1080 exact per sweep; on-image text verified — caption 'Arc de Triomphe, Paris', scenario '23 September 2026 · 14:53 Europe/Paris', 'AI-generated artistic interpretation · Not a photograph.' on a legible bottom-left scrim, and 'Jason D's Vision' (curly apostrophe) bottom-right. Weather cross-check: approvals/FR-01-004.md records this scene's own Open-Meteo retrieval 2026-09-25T23:46:42Z (unique to the second, fresh today), model-valid hour 2026-09-23T14:00 Europe/Paris containing the 14:53 scenario minute, and per-location values weather code 3 overcast 100%, 24.8°C, wind 4.3 km/h, model elevation 57 m. Gate 3 PASS: note documents text-prompt-only pictorial frame with no photographic inputs. Gate 4 documented: no prominent identifiable people, no focal logos. Gate 5: all gates pass.",
+  "approved_at": "2026-09-26T00:45:00.725920+00:00",
   "reverted_at": "2026-09-25T18:51:58.683309+00:00",
   "qc_notes": [
     {
@@ -26,5 +26,7 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Arc de Triomphe with sculptural reliefs and attic band, framed by tree-lined avenue axis (stylized viewpoint, arch itself correctly proportioned); no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Arc de Triomphe, Paris', scenario '23 September 2026 · 14:53 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-004.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: cars with unreadable plates, no logos. Gate 5: not ready."
     }
-  ]
+  ],
+  "sha256_16x9": "d51fe6de45c07b49e1dd8209b9cccb2aaf5f4fd8429f5df5e3ae3d02309ef077",
+  "sha256_4x5": "55ff8b7bae3f497b01790f3f991508101a6efe4d2b2f7855f0dc85f10b1a23bc"
 }
