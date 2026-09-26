@@ -25,6 +25,11 @@
       "at": "2026-09-26T01:33:38.354415+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 hold: no verifiable per-scene weather evidence. approvals/FR-01-014.md does not exist in the repo and FR-01-014 is absent from BATCH-FR-weather-rework-fullsteam-2026-09-25.txt (248 scenes, no duplicates). Hardened weather law requires one fresh Open-Meteo retrieval per scene with its HTTP Date header recorded to the second and the scenario minute inside the model-valid hour. Rework needed before any approval."
+    },
+    {
+      "at": "2026-09-26T08:36:17.324931+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 hold — no verifiable per-scene weather evidence (Cosmo QC 2026-09-26). No builder note on record for this scene (approvals/FR-01-014.md absent from the repo — verified 404 via the GitHub API) and no entry in Grok's 2026-09-25 per-scene weather rework file, which skips FR-01-014. The scenario line '23 September 2026 · 15:13 Europe/Paris' cannot be tied to a recorded Open-Meteo retrieval timestamp, so per the standing weather law the scenario metadata is unverified and the scene stays Candidate pending a fresh per-scene retrieval. Visual review passed at review depth: sand crest sweeping diagonally, Atlantic left, pine forest right; crest slightly more conical than real. On-image text verified correct (caption, matching scenario line, AI disclosure, exact Jason D's Vision signature with curly apostrophe). Generation inputs undocumented in repo (no builder note); no photographic inputs reported anywhere. No logos or branding visible."
     }
   ]
 }
