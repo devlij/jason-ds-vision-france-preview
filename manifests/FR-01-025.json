@@ -20,6 +20,11 @@
       "at": "2026-09-25T18:52:33.365516+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-26T01:34:08.304225+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 hold: no verifiable per-scene weather evidence. approvals/FR-01-025.md does not exist in the repo and FR-01-025 is absent from BATCH-FR-weather-rework-fullsteam-2026-09-25.txt (248 scenes, no duplicates). Hardened weather law requires one fresh Open-Meteo retrieval per scene with its HTTP Date header recorded to the second and the scenario minute inside the model-valid hour. Rework needed before any approval."
     }
   ]
 }
