@@ -1,0 +1,349 @@
+BATCH FR daylight variants — batch 1
+Date: 2026-09-26
+Country: France
+Repo: devlij/jason-ds-vision-france-preview
+Base tip before this batch: c0c5a3c267107d21bdf63a63dbeef4a123d1f5b5
+Directive: 2026-09-25 Jason daylight-variants workstream, France batch 1 (first up-to-16 night scenes).
+Scope scanned: FR-01-001 through FR-01-365. Germany and other countries not touched. Weather fields not edited. Night images not regenerated.
+
+Scan rule: night interpretation (Open-Meteo is_day 0 and the approvals solar line begins with Night, including nautical twilight still labeled Night) AND both night masters present (1920x1080 and 864x1080) AND no existing *-daylight-* file AND not a daylight-only or dusk-only master.
+Do not assume FR-01-001–016 are night. They are afternoon Candidates. The only Approved scene in the gallery is FR-01-009, and that master is daylight.
+Approval mix: 344 Candidate, 1 Approved (FR-01-009, daylight). There is no Cosmo-Approved night scene to prefer. This gallery is Candidate night, so night Candidates were taken in ID order the same way Denmark daylight batches take the night scenes in ID order. Approval status of every selected ID is Candidate.
+
+Qualifying night scenes in ID order: 136 (135 whose solar line begins with Night, plus FR-01-217 whose solar line begins Midnight and is_day is 0).
+Selected (first 16): FR-01-125, FR-01-126, FR-01-127, FR-01-131, FR-01-133, FR-01-135, FR-01-136, FR-01-137, FR-01-138, FR-01-139, FR-01-140, FR-01-141, FR-01-142, FR-01-143, FR-01-144, FR-01-150.
+Each selected ID approval_status: Candidate.
+
+Built: 16 scenes × 2 masters = 32 variant masters.
+  fr-01-XXX-daylight-16x9.png (1920×1080)
+  fr-01-XXX-daylight-4x5.png (864×1080)
+Path layout: beside the night masters under assets/ (France's existing path layout).
+
+SKIP SUMMARY
+- FR-01-001 through FR-01-008, FR-01-010 through FR-01-104 SKIP — already daylight (afternoon or late-day Europe/Paris scenarios). Not night masters. No daylight variant invented from a daylight master.
+- FR-01-009 SKIP — the only Approved scene. qc_status Approved · Cosmo QC 5/5 · Daylight. Scenario 23 September 2026 · 18:05 Europe/Paris. Solar: the sun is still up at 18:05. Already-daylight-only. No night master.
+- FR-01-105 through FR-01-124 SKIP — no manifest and no masters in this repo (sequence gap). Nothing to derive.
+- FR-01-012 through FR-01-030, FR-01-061 through FR-01-072, and FR-01-078 through FR-01-104 also have no approvals note. Their scenario labels are afternoon Europe/Paris. Counted with the daylight skips above. Weather was not rewritten to fill those notes.
+- Daylight IDs sitting between the selected night scenes, skipped because they are not night: FR-01-128, FR-01-129, FR-01-130, FR-01-132, FR-01-134, FR-01-145, FR-01-146, FR-01-147, FR-01-148, FR-01-149, FR-01-151, FR-01-153. All is_day 1.
+- Dusk-only, excluded from the night pool (no separate night master): FR-01-290, FR-01-294, FR-01-296, FR-01-312, FR-01-353, FR-01-362. Solar lines say just after sunset, twilight, or about an hour after sunset. All six sit after FR-01-150, so they did not displace a selected ID.
+- Remaining qualifying night scenes DEFERRED past the 16-scene cap, next in ID order: FR-01-152, FR-01-154, FR-01-155, FR-01-156, FR-01-157, FR-01-158, FR-01-159, FR-01-160, then later night Candidates including FR-01-217 (solar begins Midnight, is_day 0). 120 night scenes left after this batch. No variants written for them.
+- Existing *-daylight-* files before this batch: 0.
+- Day count in the scan: 144 approval notes with is_day 1, plus 58 daytime scenes whose approval note is absent, plus FR-01-009 Approved daylight, plus 20 IDs with no manifest.
+
+Gallery: France cards do not carry a night/day toggle and do not already expect *-daylight-* paths. Gallery wiring deferred. index.html was not edited.
+
+On-image text, exact, on every variant: caption identical to the night master; signature Jason D’s Vision (curly apostrophe U+2019); disclosure AI-generated artistic interpretation · Not a photograph.; plus ☀ Daylight variant · derived from the night interpretation. No weather claim. No scenario timestamp.
+Metadata: EU AI Act Art. 50 five PNG chunks (Title iTXt, Description tEXt, Copyright iTXt, Software tEXt, Comment tEXt), Country = France, embedded after pixels were final. Title and Copyright use a straight apostrophe and an em dash. Night IDAT was not touched.
+Derivative disclosure: daylight re-interpretation of the same viewpoint and composition as the night master. Not a new scene. Not an independently modelled weather scenario.
+
+NIGHT-UNCHANGED CONFIRMATION
+Night masters: byte-unchanged. SHA-256 recorded before any variant write and again after. Pre and post are identical for every night file of the 16 selected scenes. No night image was regenerated. Daylight-only masters, including FR-01-009, were not rewritten either.
+
+========================================================================
+FR-01-125  Palais des Ducs, Dijon
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 21:00 Europe/Paris
+  scan: 21:00 Europe/Paris, 85 min after sunset, is_day 0, solar begins 'night'.
+  night 16x9  assets/fr-01-125-16x9.png
+    sha256 before  daa1d6321b78aec7ec2532bae98603fe6eb87ebd735b72a8ab3088201ba721a8
+    sha256 after   daa1d6321b78aec7ec2532bae98603fe6eb87ebd735b72a8ab3088201ba721a8
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-125-daylight-16x9.png
+    sha256         b6b774d4dae09690b412bb38edb2b98fadf0389b56949d9b4ef19172416f13b4
+  night 4x5  assets/fr-01-125-4x5.png
+    sha256 before  295bbad6b5738dd04e73219a060ce1f93d73478d14f928ab290f7e231d4a5ae9
+    sha256 after   295bbad6b5738dd04e73219a060ce1f93d73478d14f928ab290f7e231d4a5ae9
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-125-daylight-4x5.png
+    sha256         61cc24ca5a6c6f327e8db7e4dd041940154842c61f428a4426659c72346aa39f
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-126  Château d'Angers, Angers
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 21:00 Europe/Paris
+  scan: 21:00 Europe/Paris, 62 min after sunset (nautical twilight), is_day 0, solar begins 'night'. Included the same way Greece batch 1 included nautical twilight still labeled Night.
+  night 16x9  assets/fr-01-126-16x9.png
+    sha256 before  1f96207afb3374d262225fb6378f48bd0f7847e14ea3cd73844038d6461a9cd5
+    sha256 after   1f96207afb3374d262225fb6378f48bd0f7847e14ea3cd73844038d6461a9cd5
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-126-daylight-16x9.png
+    sha256         49d441e118028fb805cd0167c4f3256bb13361b06257c490042382b7f0af365b
+  night 4x5  assets/fr-01-126-4x5.png
+    sha256 before  9407e3218950381074177fba803a99b32fcb64156c6c6962d01ebcc02274aafe
+    sha256 after   9407e3218950381074177fba803a99b32fcb64156c6c6962d01ebcc02274aafe
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-126-daylight-4x5.png
+    sha256         14b607e62d8048daf65b7ef193e14a0b2e28896d40b2b2c72b738bd547a10b23
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-127  Belfry of Arras, Arras
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 21:00 Europe/Paris
+  scan: 21:00 Europe/Paris, 75 min after sunset, is_day 0, solar begins 'night'.
+  night 16x9  assets/fr-01-127-16x9.png
+    sha256 before  34f80c13abdaf504a59f14c79d0246b30fb8f27706785e696d369ad3da76983a
+    sha256 after   34f80c13abdaf504a59f14c79d0246b30fb8f27706785e696d369ad3da76983a
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-127-daylight-16x9.png
+    sha256         fa0f786621f4b4d4575055f9b41d54b9c69c5ef31463793310a47f4391ab6a30
+  night 4x5  assets/fr-01-127-4x5.png
+    sha256 before  d483365a9dad8695a4dd089975545552503c552b465a6b70e67a1b12c651ee17
+    sha256 after   d483365a9dad8695a4dd089975545552503c552b465a6b70e67a1b12c651ee17
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-127-daylight-4x5.png
+    sha256         27b7311fcd64d117812b315086d9ee7972e9dd4e2446052b99c0c29e8419d24a
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-131  Piton de la Fournaise, La Plaine-des-Cafres
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 23:30 Indian/Reunion
+  scan: 23:30 Indian/Reunion, is_day 0, solar begins 'night'. Overcast caldera; no lava in the night master or the variant.
+  night 16x9  assets/fr-01-131-16x9.png
+    sha256 before  96cdb66186edc2a8e70fd00e959ad18ac572f513eaf2e0fb237fe60ad7505d08
+    sha256 after   96cdb66186edc2a8e70fd00e959ad18ac572f513eaf2e0fb237fe60ad7505d08
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-131-daylight-16x9.png
+    sha256         6d52cc9adf2dba9a375cab58a96daff37ecacf1470725457d1ef65175365c67c
+  night 4x5  assets/fr-01-131-4x5.png
+    sha256 before  214ce5f53b70169440cff04855be1b0d6d52f3e44c40b4a4773ff0e924452f02
+    sha256 after   214ce5f53b70169440cff04855be1b0d6d52f3e44c40b4a4773ff0e924452f02
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-131-daylight-4x5.png
+    sha256         109c2abdfea8f58a830014e2c78ee3ff77181014fd6f6ce7464d449dc81ed97d
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-133  Plage de Moya, Pamandzi
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 22:30 Indian/Mayotte
+  scan: 22:30 Indian/Mayotte, is_day 0, solar begins 'night'.
+  night 16x9  assets/fr-01-133-16x9.png
+    sha256 before  a699226c8197c0fc5cb8ad19444590b0da78daf3b8d284776d79151b99fcec5f
+    sha256 after   a699226c8197c0fc5cb8ad19444590b0da78daf3b8d284776d79151b99fcec5f
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-133-daylight-16x9.png
+    sha256         7820fd82231e0eba705d870053ae44dc4d396e51ac74671202d51352e6295f7d
+  night 4x5  assets/fr-01-133-4x5.png
+    sha256 before  0a645ff13f873edbe09a41b37cee9b0515200b9abfc9586297f2da05b5e09738
+    sha256 after   0a645ff13f873edbe09a41b37cee9b0515200b9abfc9586297f2da05b5e09738
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-133-daylight-4x5.png
+    sha256         57257e42866dbd6bb7e056013d550be73e29d1164f5c41ad3730109f03bac20d
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-135  Normandy American Cemetery, Colleville-sur-Mer
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 21:30 Europe/Paris
+  scan: 21:30 Europe/Paris, 91 min after sunset, is_day 0, solar begins 'night'.
+  night 16x9  assets/fr-01-135-16x9.png
+    sha256 before  30aa13d08f58a479578a3bf919259be211c6874001db0e3c25ff6197347094e5
+    sha256 after   30aa13d08f58a479578a3bf919259be211c6874001db0e3c25ff6197347094e5
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-135-daylight-16x9.png
+    sha256         b1d01377852a46860d2214470d5c34247d9d97939b1c3722b28f96656b0ea62b
+  night 4x5  assets/fr-01-135-4x5.png
+    sha256 before  0814b23ca0e452e2b410e45663e88e82b48332ec91b0c3cd19a39000445b9d2f
+    sha256 after   0814b23ca0e452e2b410e45663e88e82b48332ec91b0c3cd19a39000445b9d2f
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-135-daylight-4x5.png
+    sha256         f8d73ac723a4f1e63589015ad4a014e0cfac8420b51d5b463b223e078e92222f
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-136  Yvoire medieval port, Yvoire
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 21:30 Europe/Paris
+  scan: 21:30 Europe/Paris, is_day 0, solar begins 'night'.
+  night 16x9  assets/fr-01-136-16x9.png
+    sha256 before  9fbdffdc285dc4a0e41031b7bbdbaf5c2a709f4d6af013cc7d4bca9a08d1ad70
+    sha256 after   9fbdffdc285dc4a0e41031b7bbdbaf5c2a709f4d6af013cc7d4bca9a08d1ad70
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-136-daylight-16x9.png
+    sha256         cb3b768a172c284abcbea90866b5a0dfe793b7d2b1fdf0cd811b161b89d7957c
+  night 4x5  assets/fr-01-136-4x5.png
+    sha256 before  5900a04f2717cbaaffaad74ea1e8541c95c57e0e48aab9f276b8e64b59db08ae
+    sha256 after   5900a04f2717cbaaffaad74ea1e8541c95c57e0e48aab9f276b8e64b59db08ae
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-136-daylight-4x5.png
+    sha256         a5a24fa8adbc717edbdaa789a78256a37727df11b49acb146bba5d1ae43ef5d8
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-137  Mer de Glace, Chamonix
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 21:30 Europe/Paris
+  scan: 21:30 Europe/Paris, is_day 0, solar begins 'night'. Narrow debris-covered ice kept; not redrawn as a valley-filling glacier.
+  night 16x9  assets/fr-01-137-16x9.png
+    sha256 before  520ce6cd96afab71ade521a080b52cf2af11126b61973a917bef5409a05144ec
+    sha256 after   520ce6cd96afab71ade521a080b52cf2af11126b61973a917bef5409a05144ec
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-137-daylight-16x9.png
+    sha256         f659f4442ee4b8e548f1c5826ef330f2c1bfde57835631ef63d1aeb7f3e5f645
+  night 4x5  assets/fr-01-137-4x5.png
+    sha256 before  22c015c9203a5f213f2ae71ade9ca20014d6bee8d694b6aa5a82cc20b0883dec
+    sha256 after   22c015c9203a5f213f2ae71ade9ca20014d6bee8d694b6aa5a82cc20b0883dec
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-137-daylight-4x5.png
+    sha256         e6869eebdcd4f34921f7311d09abf89ce59420e6fb91089755cd8d76da9cef7d
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-138  Château de Cheverny, Cheverny
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 21:30 Europe/Paris
+  scan: 21:30 Europe/Paris, is_day 0, solar begins 'night'.
+  night 16x9  assets/fr-01-138-16x9.png
+    sha256 before  71c1122d52349a3708042f37bd8a7bb42dd4bdf65644d6fb1586b39a75489eff
+    sha256 after   71c1122d52349a3708042f37bd8a7bb42dd4bdf65644d6fb1586b39a75489eff
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-138-daylight-16x9.png
+    sha256         dd5cdd4b93b87041c023a9e2217e22fd193e24a03004891a56c799c44446a7ab
+  night 4x5  assets/fr-01-138-4x5.png
+    sha256 before  382bbd6a64b6f8ae1833bc8f89dec009348bbb015808ef8412bca3548beb2214
+    sha256 after   382bbd6a64b6f8ae1833bc8f89dec009348bbb015808ef8412bca3548beb2214
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-138-daylight-4x5.png
+    sha256         fdfa9d5f33e0a7d8320f0bde2203d6607d90f9a3dde6805e7de31d0b9decdf70
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-139  Saint-Jean-de-Luz harbor, Saint-Jean-de-Luz
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 21:30 Europe/Paris
+  scan: 21:30 Europe/Paris, is_day 0, solar begins 'night'.
+  night 16x9  assets/fr-01-139-16x9.png
+    sha256 before  fdd24cef7210ebec48aaaa7c8a114355e23952f74fa07ecee69bfed973a0bdaf
+    sha256 after   fdd24cef7210ebec48aaaa7c8a114355e23952f74fa07ecee69bfed973a0bdaf
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-139-daylight-16x9.png
+    sha256         79788b68c5e456bc8eaf3238f98b47ec96842879e1df239e0e516fcacbc9fef6
+  night 4x5  assets/fr-01-139-4x5.png
+    sha256 before  5b8546cc8aa0e37c6c0b2efceae8babd5bebdbd12b91f41dbd4eba42d18b7411
+    sha256 after   5b8546cc8aa0e37c6c0b2efceae8babd5bebdbd12b91f41dbd4eba42d18b7411
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-139-daylight-4x5.png
+    sha256         458bdca54ff457b05e2ecd8c06229802ae712057b265aea95e61ecc080c9b124
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-140  Saline Royale, Arc-et-Senans
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 21:30 Europe/Paris
+  scan: 21:30 Europe/Paris, is_day 0, solar begins 'night'.
+  night 16x9  assets/fr-01-140-16x9.png
+    sha256 before  9410be7021e66e2c32e8ba51c390778f0c997444668461dc7a405ffd8acd0587
+    sha256 after   9410be7021e66e2c32e8ba51c390778f0c997444668461dc7a405ffd8acd0587
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-140-daylight-16x9.png
+    sha256         c21240c37c285591be1079052c859af5b2d3e6f6a4c2854b3f585635aa33941a
+  night 4x5  assets/fr-01-140-4x5.png
+    sha256 before  4cb396abe4def8d1ac22a71722fa7b23cf7e9f38c15d937f9d4a088212e7477f
+    sha256 after   4cb396abe4def8d1ac22a71722fa7b23cf7e9f38c15d937f9d4a088212e7477f
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-140-daylight-4x5.png
+    sha256         33190fe0568f67eaea2cd5016b6bf927420ffcc2600286b14b28d423fe47e14b
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-141  Cap Blanc-Nez, Escalles
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 21:30 Europe/Paris
+  scan: 21:30 Europe/Paris, is_day 0, solar begins 'night'. Mostly cloudy night sky kept as a mostly cloudy daylight sky.
+  night 16x9  assets/fr-01-141-16x9.png
+    sha256 before  5627b0e5803f2957422308e542bf8c3efb29f44d6c5c170f0c6ea558879c571b
+    sha256 after   5627b0e5803f2957422308e542bf8c3efb29f44d6c5c170f0c6ea558879c571b
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-141-daylight-16x9.png
+    sha256         d37edc92b1a996322ed8322c1693f89448754884b3118bd3a50d2c2482eb7be8
+  night 4x5  assets/fr-01-141-4x5.png
+    sha256 before  7f23a054baa3c2598fc9fc5f92da3eb946fb560282fa0ed941a6e63c3c21e23f
+    sha256 after   7f23a054baa3c2598fc9fc5f92da3eb946fb560282fa0ed941a6e63c3c21e23f
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-141-daylight-4x5.png
+    sha256         8abfea576948c4ee9d79af7d6327c32b801d3bdff0ab021fd7bee251f0c562a9
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-142  Porte Saint-Michel, Guérande
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 21:30 Europe/Paris
+  scan: 21:30 Europe/Paris, is_day 0, solar begins 'night'.
+  night 16x9  assets/fr-01-142-16x9.png
+    sha256 before  e939dec61cf72ce113ce05569b0927befc25e0816dcf729bf8c2f7518b40512f
+    sha256 after   e939dec61cf72ce113ce05569b0927befc25e0816dcf729bf8c2f7518b40512f
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-142-daylight-16x9.png
+    sha256         bd82c0f05acd7010525cb086c8a171661c2552e3d6daf01787bf0360ab322ed6
+  night 4x5  assets/fr-01-142-4x5.png
+    sha256 before  acd2fecefffc54e10f780cddd5ae5dd6986b7d9582f6e2a3ec2d4c543cdfaab8
+    sha256 after   acd2fecefffc54e10f780cddd5ae5dd6986b7d9582f6e2a3ec2d4c543cdfaab8
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-142-daylight-4x5.png
+    sha256         63dcdda15c4ee51f7f2246babdbccced4929c25dbcde42dc59a24f28717e7689
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-143  Calanques de Piana, Piana
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 21:30 Europe/Paris
+  scan: 21:30 Europe/Paris, is_day 0, solar begins 'night'.
+  night 16x9  assets/fr-01-143-16x9.png
+    sha256 before  71a3bfe73b81d4f7b083eb64ea50ecf2cbb69402468eb1ec37f8f17481d1b982
+    sha256 after   71a3bfe73b81d4f7b083eb64ea50ecf2cbb69402468eb1ec37f8f17481d1b982
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-143-daylight-16x9.png
+    sha256         824b3aa3738dea2a2a3a61967b1c538383d96c16308f16f4b0414eca35d2f394
+  night 4x5  assets/fr-01-143-4x5.png
+    sha256 before  c60ed8f3c467f3704601f309dbc81f84354414d581f346423db0ded18fcfffe8
+    sha256 after   c60ed8f3c467f3704601f309dbc81f84354414d581f346423db0ded18fcfffe8
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-143-daylight-4x5.png
+    sha256         1d84d805a0b18374b8a54b7a8273c8ffcacaa6273cdb1236320f4c81edec91ff
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-144  Metz Cathedral, Metz
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 21:30 Europe/Paris
+  scan: 21:30 Europe/Paris, is_day 0, solar begins 'night'. No illumination show added.
+  night 16x9  assets/fr-01-144-16x9.png
+    sha256 before  23190955882f61f0688068da7e9375fedddeb47b26e61a1c2a1bae10007fda45
+    sha256 after   23190955882f61f0688068da7e9375fedddeb47b26e61a1c2a1bae10007fda45
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-144-daylight-16x9.png
+    sha256         618e64d44a76a25ac92cf9d116cb3c58dbcf6a722ab3c18f3a18d9d37b36af0a
+  night 4x5  assets/fr-01-144-4x5.png
+    sha256 before  4d7e242427604119396fc5228c51b5d1e7db4bc40ed14760e039d022f96262d0
+    sha256 after   4d7e242427604119396fc5228c51b5d1e7db4bc40ed14760e039d022f96262d0
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-144-daylight-4x5.png
+    sha256         d9650d5ff9b903d337be4fe158e33e8ec74c0c4c782ec27459087bfa4b66ec60
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-150  Le Barachois, Saint-Denis
+  approval_status: Candidate
+  scenario_label (night, unchanged): 24 September 2026 · 00:00 Indian/Reunion
+  scan: 00:00 Indian/Reunion, is_day 0, solar begins 'Night'. Closed cloud ceiling kept as overcast daylight.
+  night 16x9  assets/fr-01-150-16x9.png
+    sha256 before  992ab7283899cfddead174788d0e728ce63b0c028812b58e83a2b765403684d0
+    sha256 after   992ab7283899cfddead174788d0e728ce63b0c028812b58e83a2b765403684d0
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-150-daylight-16x9.png
+    sha256         02332d95d8285ba147bb88730025398c1c37a1068c5f32dfc6f698d327ac07bb
+  night 4x5  assets/fr-01-150-4x5.png
+    sha256 before  aaad1d207d087e8d4578d169105fad279690803d7e41452ca46fe5d7d410441e
+    sha256 after   aaad1d207d087e8d4578d169105fad279690803d7e41452ca46fe5d7d410441e
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-150-daylight-4x5.png
+    sha256         c04dfb3828cd061215f4918588d4426cefdc46304214d1f6033b2839f03bf875
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+ALL SELECTED NIGHT MASTERS BYTE-UNCHANGED: YES
+Variant scenes: 16. Variant masters: 32.
+

@@ -7,5 +7,36 @@
   "scenario_label": "23 September 2026 · 23:30 Indian/Reunion",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-131-16x9.png",
-  "file_4x5": "assets/fr-01-131-4x5.png"
+  "file_4x5": "assets/fr-01-131-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-131",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-131-16x9.png (16:9) and assets/fr-01-131-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-131-16x9.png",
+        "sha256": "96cdb66186edc2a8e70fd00e959ad18ac572f513eaf2e0fb237fe60ad7505d08"
+      },
+      "4x5": {
+        "path": "assets/fr-01-131-4x5.png",
+        "sha256": "214ce5f53b70169440cff04855be1b0d6d52f3e44c40b4a4773ff0e924452f02"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-131-daylight-16x9.png",
+      "4x5": "assets/fr-01-131-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "6d52cc9adf2dba9a375cab58a96daff37ecacf1470725457d1ef65175365c67c",
+      "4x5": "109c2abdfea8f58a830014e2c78ee3ff77181014fd6f6ce7464d449dc81ed97d"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Piton de la Fournaise, La Plaine-des-Cafres",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

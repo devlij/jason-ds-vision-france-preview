@@ -7,5 +7,36 @@
   "scenario_label": "23 September 2026 · 21:30 Europe/Paris",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-137-16x9.png",
-  "file_4x5": "assets/fr-01-137-4x5.png"
+  "file_4x5": "assets/fr-01-137-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-137",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-137-16x9.png (16:9) and assets/fr-01-137-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-137-16x9.png",
+        "sha256": "520ce6cd96afab71ade521a080b52cf2af11126b61973a917bef5409a05144ec"
+      },
+      "4x5": {
+        "path": "assets/fr-01-137-4x5.png",
+        "sha256": "22c015c9203a5f213f2ae71ade9ca20014d6bee8d694b6aa5a82cc20b0883dec"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-137-daylight-16x9.png",
+      "4x5": "assets/fr-01-137-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "f659f4442ee4b8e548f1c5826ef330f2c1bfde57835631ef63d1aeb7f3e5f645",
+      "4x5": "e6869eebdcd4f34921f7311d09abf89ce59420e6fb91089755cd8d76da9cef7d"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Mer de Glace, Chamonix",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

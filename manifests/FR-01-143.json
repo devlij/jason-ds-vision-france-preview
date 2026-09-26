@@ -7,5 +7,36 @@
   "scenario_label": "23 September 2026 · 21:30 Europe/Paris",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-143-16x9.png",
-  "file_4x5": "assets/fr-01-143-4x5.png"
+  "file_4x5": "assets/fr-01-143-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-143",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-143-16x9.png (16:9) and assets/fr-01-143-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-143-16x9.png",
+        "sha256": "71a3bfe73b81d4f7b083eb64ea50ecf2cbb69402468eb1ec37f8f17481d1b982"
+      },
+      "4x5": {
+        "path": "assets/fr-01-143-4x5.png",
+        "sha256": "c60ed8f3c467f3704601f309dbc81f84354414d581f346423db0ded18fcfffe8"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-143-daylight-16x9.png",
+      "4x5": "assets/fr-01-143-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "824b3aa3738dea2a2a3a61967b1c538383d96c16308f16f4b0414eca35d2f394",
+      "4x5": "1d84d805a0b18374b8a54b7a8273c8ffcacaa6273cdb1236320f4c81edec91ff"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Calanques de Piana, Piana",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
