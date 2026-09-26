@@ -7,5 +7,36 @@
   "scenario_label": "23 September 2026 · 22:00 Europe/Paris",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-159-16x9.png",
-  "file_4x5": "assets/fr-01-159-4x5.png"
+  "file_4x5": "assets/fr-01-159-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-159",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-159-16x9.png (16:9) and assets/fr-01-159-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-159-16x9.png",
+        "sha256": "3e0ef76f71dc11e8f365e026fe56e22a0faedae440f480f271632b19a11cf73c"
+      },
+      "4x5": {
+        "path": "assets/fr-01-159-4x5.png",
+        "sha256": "4399bc42ca85a308b34801697f6ef211e69a2b14e5dd77f14e95fbf8358902a4"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-159-daylight-16x9.png",
+      "4x5": "assets/fr-01-159-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "f09db04b4c64974e5fb034d6780d489401f4dc8681647f1e837134be27795cd4",
+      "4x5": "c6a2fb6368c40b34fb2889acf87a42de36989cf0268ab05dfa1e7a5ed80ddbc1"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Lion de Belfort, Belfort",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

@@ -7,5 +7,36 @@
   "scenario_label": "23 September 2026 · 22:00 Europe/Paris",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-158-16x9.png",
-  "file_4x5": "assets/fr-01-158-4x5.png"
+  "file_4x5": "assets/fr-01-158-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-158",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-158-16x9.png (16:9) and assets/fr-01-158-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-158-16x9.png",
+        "sha256": "8357d56bcc7baa9995e73054dca700c7ebc6610d5dc629fba53238ef7f8b4a8d"
+      },
+      "4x5": {
+        "path": "assets/fr-01-158-4x5.png",
+        "sha256": "257d87b13dc72a02341bdd08598b8c04385a6de5a923ae910d84f43669138f36"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-158-daylight-16x9.png",
+      "4x5": "assets/fr-01-158-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "d5ace8f63cc8e747d54026a97c7280280d0a33f152654287c9c84e5b799cc1d3",
+      "4x5": "4b5d78f07d948d298c58e325dc84b6a4024c2bafdec29a7daf32afd050b4043e"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Mulberry harbour, Arromanches-les-Bains",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
