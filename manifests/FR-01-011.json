@@ -9,11 +9,11 @@
   "description": "The recorded tourist view is double medieval walls and conical towers of the Cité above the Aude. The place named on the card is Carcassonne citadel, Carcassonne, in Occitanie. Light and weather follow the modelled scenario 23 September 2026 · 15:07 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Carcassonne citadel under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-011-16x9.png?v=batch009",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-011-4x5.png?v=batch009",
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "G1 visual pass: the Cité's double ramparts with conical-topped towers rise above the Aude exactly as a tourist sees Carcassonne, clean wide framing, no artifacts. G2 technical pass: 16:9 master verified 1920x1080 and 4:5 at 864x1080; on-image caption 'Carcassonne citadel, Carcassonne', scenario '23 September 2026 · 15:07 Europe/Paris', and 'AI-generated artistic interpretation · Not a photograph.' disclosure all present and legible bottom-left on the scrim; 'Jason D's Vision' signature with curly apostrophe bottom-right; scenario label matches the repo SCENES block and sits in the sequential 15:07–15:23 daylight run with no weather-metadata reuse evidence (no approvals note exists for this entry; no stale retrieval times to reconcile). G3 originality: no photographic inputs reported anywhere for this scene. G4 commercial/IP: no visible people, logos, or recognizable private property — public historic monument, documented only. G5 publication ready.",
-  "approved_at": "2026-09-25T05:31:18.972138+00:00",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: Carcassonne citadel recognizable — the double medieval ramparts with conical slate towers crowning the hilltop, the Cité's church and towers above the walls, green slopes below, clean framing, no artifacts. Gate 2 PASS: masters 1920x1080 and 864x1080 exact per sweep; on-image text verified — caption 'Carcassonne citadel, Carcassonne', scenario '23 September 2026 · 15:07 Europe/Paris', 'AI-generated artistic interpretation · Not a photograph.' on a legible bottom-left scrim, and 'Jason D's Vision' (curly apostrophe) bottom-right. Weather cross-check: approvals/FR-01-011.md records this scene's own Open-Meteo retrieval 2026-09-25T23:46:49Z (unique to the second, fresh today), model-valid hour 2026-09-23T15:00 Europe/Paris containing the 15:07 scenario minute, and per-location values weather code 0 clear, cloud cover 0%, 28.9°C, wind 10.1 km/h, model elevation 122 m. Gate 3 PASS: note documents text-prompt-only pictorial frame with no photographic inputs. Gate 4 documented: no prominent identifiable people or focal logos. Gate 5: all gates pass.",
+  "approved_at": "2026-09-26T00:47:22.252241+00:00",
   "reverted_at": "2026-09-25T18:52:08.845155+00:00",
   "qc_notes": [
     {
@@ -26,5 +26,7 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Carcassonne citadel: double walls with conical-roofed towers, basilica towers rising above; clean framing, no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Carcassonne citadel, Carcassonne', scenario '23 September 2026 · 15:07 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-011.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: no people visible. Gate 5: not ready."
     }
-  ]
+  ],
+  "sha256_16x9": "d56bb7e246539e223e497185914b56f6985120393c2ebbc9a13ee12bcfad48b5",
+  "sha256_4x5": "6f2f95babf5620a1eff8f2ca023d651de71cff4115fe5da2c71a1dd25db50156"
 }
