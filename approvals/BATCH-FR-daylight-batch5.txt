@@ -1,0 +1,370 @@
+BATCH FR daylight variants — batch 5
+Date: 2026-09-26
+Country: France
+Repo: devlij/jason-ds-vision-france-preview
+Base tip before this batch: 494d98fc0a3e16a8e8f45d8c9dd38d6bf9a6bde7
+Prior batch-4 tip: 494d98fc0a3e16a8e8f45d8c9dd38d6bf9a6bde7
+Note: origin/main was still at 494d98fc0a3e16a8e8f45d8c9dd38d6bf9a6bde7 when this batch was written. No later Cosmo commit had to be rebased in. index.html was not edited by this batch. The daylight-toggle shell is unchanged. This batch does not set file_16x9_day or file_4x5_day.
+Directive: 2026-09-25 Jason daylight-variants workstream, France batch 5 (next 16 night Candidates after batch 4, starting at FR-01-247).
+Scope scanned: FR-01-247 onward, in ID order, using the same night rule as batch 4. Germany and other countries not touched. Weather fields not edited. Night images not regenerated. index.html not edited.
+
+Scan rule: night interpretation (Open-Meteo is_day 0 and the approvals solar line begins with Night, including nautical twilight still labeled Night, plus a solar line that begins with Midnight when is_day is 0) AND both night masters present (1920x1080 and 864x1080) AND no existing *-daylight-* file AND not a daylight-only or dusk-only master.
+Dusk-only, still excluded, and all sitting after this batch so they did not displace a selected ID: FR-01-290, FR-01-294, FR-01-296, FR-01-312, FR-01-353, FR-01-362.
+Also not night: solar lines that begin with Night but Open-Meteo is_day is 1. FR-01-262 is inside this walk and is skipped below. FR-01-278, FR-01-341, and FR-01-344 sit after this batch.
+Qualifying night scenes in the gallery after this batch is applied: 136 total under the rule above, of which 80 now have daylight variants (batches 1–4 and this batch) and 56 remain.
+Selected (next 16 in ID order from FR-01-247): FR-01-247, FR-01-249, FR-01-251, FR-01-252, FR-01-253, FR-01-254, FR-01-255, FR-01-256, FR-01-263, FR-01-265, FR-01-267, FR-01-268, FR-01-269, FR-01-270, FR-01-271, FR-01-272.
+Each selected ID approval_status: Candidate.
+
+Built: 16 scenes × 2 masters = 32 variant masters.
+  fr-01-XXX-daylight-16x9.png (1920×1080)
+  fr-01-XXX-daylight-4x5.png (864×1080)
+Path layout: beside the night masters under assets/ (France's existing path layout). This repo has no library/world/France tree; night masters and batches 1–4 live in assets/.
+
+SKIP SUMMARY
+- Walk from FR-01-247 until 16 qualifying night scenes were taken. Skips inside that walk:
+- FR-01-248 SKIP — not night. approval_status Candidate. is_day 1. Solar: Late afternoon, broken cloud and light drizzle, sun still up.
+- FR-01-250 SKIP — not night. approval_status Candidate. is_day 1. Solar: Late afternoon, but full cloud and rain, so the cove is dim.
+- FR-01-257 SKIP — not night. approval_status Candidate. is_day 1. Solar: Late afternoon, but dense drizzle and full cloud, so the beach is grey.
+- FR-01-258 SKIP — not night. approval_status Candidate. is_day 1. Solar: Just after sunset, clear twilight, strong wind. A calculated waxing gibbous (phase fraction about 0.41, illumination about 0.92), not an observed moon. No floodlights were added.
+- FR-01-259 SKIP — not night. approval_status Candidate. is_day 1. Solar: Late morning under a solid cloud deck, flat light.
+- FR-01-260 SKIP — not night. approval_status Candidate. is_day 1. Solar: Morning, sun up since 05:45, almost clear.
+- FR-01-261 SKIP — not night. approval_status Candidate. is_day 1. Solar: Late afternoon under heavy cloud, a rough coast, not a calm lagoon.
+- FR-01-262 SKIP — not night. approval_status Candidate. is_day 1. Solar begins with Night, but Open-Meteo is_day is 1. Solar: Night, just after sunset, nearly clear. A calculated waxing gibbous (phase fraction about 0.41, illumination about 0.92), not an observed moon. Moonlight on the sand. No beach floodlights were added.
+- FR-01-264 SKIP — not night. approval_status Candidate. is_day 1. Solar: Late afternoon, broken cloud, sun still up.
+- FR-01-266 SKIP — not night. approval_status Candidate. is_day 1. Solar: Late afternoon, but rain and near-full cloud, so the sea is grey and rough.
+- No missing masters and no existing *-daylight-* files inside FR-01-247 through FR-01-272 except the variants written by this batch.
+- Remaining qualifying night scenes DEFERRED past the 16-scene cap, next in ID order: FR-01-279. 56 night scenes left after this batch. No variants written for them.
+- Gallery: index.html was not edited. The toggle shell shows a day button only when a scene object has file_16x9_day. Those fields are not set by this batch, matching batches 1–4.
+
+On-image text, exact, on every variant: caption identical to the night master; signature Jason D’s Vision (curly apostrophe U+2019); disclosure AI-generated artistic interpretation · Not a photograph.; plus ☀ Daylight variant · derived from the night interpretation. No weather claim. No scenario timestamp.
+Metadata: EU AI Act Art. 50 five PNG chunks (Title iTXt, Description tEXt, Copyright iTXt, Software tEXt, Comment tEXt), Country = France, embedded after pixels were final. Title and Copyright use a straight apostrophe and an em dash. The Comment date is the spec string embedded 2026-09-24. Chunk bytes match the batch-4 masters. Night IDAT was not touched.
+Derivative disclosure: daylight re-interpretation of the same viewpoint and composition as the night master. Not a new scene. Not an independently modelled weather scenario.
+
+NIGHT-UNCHANGED CONFIRMATION
+Night masters: byte-unchanged. SHA-256 recorded before any variant write and again after. Pre and post are identical for every night file of the 16 selected scenes. No night image was regenerated. Daylight-only masters were not rewritten either. Every non-daylight asset PNG in the repo was hashed before and after; none changed (730 files).
+
+========================================================================
+FR-01-247  Lagon de l'Ermitage, Saint-Paul
+  approval_status: Candidate
+  scenario_label (night, unchanged): 24 September 2026 · 01:30 Indian/Reunion
+  scan: is_day 0. Solar: Night, fully clouded, moon hidden. No beach floodlights were added.
+  note: Overcast daylight on the lagoon, the sand, and the reef line. No beach floodlights.
+  night 16x9  assets/fr-01-247-16x9.png
+    sha256 before  4808c90e69c1626e879b0a75936c43a8b0d3ea5e874463a7dba1db00808c823a
+    sha256 after   4808c90e69c1626e879b0a75936c43a8b0d3ea5e874463a7dba1db00808c823a
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-247-daylight-16x9.png
+    sha256         4ef5332e588e5a4f579dbc99fee32c94dde4784eaa6336980659eee1e132cf61
+  night 4x5  assets/fr-01-247-4x5.png
+    sha256 before  b6f46f03839eac7340b4c92fccacff0e0701994d2213c6e422c3d288a80fa420
+    sha256 after   b6f46f03839eac7340b4c92fccacff0e0701994d2213c6e422c3d288a80fa420
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-247-daylight-4x5.png
+    sha256         e9c7e75ea82e6badafef1372d9448430e8bd34ec4e33da78d39688e4ca4bb9e4
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-249  Phare de Mtsamboro, Mtsamboro
+  approval_status: Candidate
+  scenario_label (night, unchanged): 24 September 2026 · 00:30 Indian/Mayotte
+  scan: is_day 0. Solar: Night, nearly clear. A calculated waxing gibbous (phase fraction about 0.41, illumination about 0.92), not an observed moon. Moonlight on the tower. Only the working lantern is lit. No floodlights were added.
+  note: Clear daylight on the white lighthouse and the coast. The lantern is not floodlit.
+  night 16x9  assets/fr-01-249-16x9.png
+    sha256 before  7f24e412fc9f1656cc9befca5b98e806b12dd6d32582bc5c8a42d0e770986cfe
+    sha256 after   7f24e412fc9f1656cc9befca5b98e806b12dd6d32582bc5c8a42d0e770986cfe
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-249-daylight-16x9.png
+    sha256         5e783d472464fc5d03392c5ca4a57a3b4b5a203dc12df73359cedcfc99e9a2b6
+  night 4x5  assets/fr-01-249-4x5.png
+    sha256 before  11b77d3e60e3b35a9767a8c4d6731c3fe72f08dc91f9ebc7ee9f0ef87c8aa428
+    sha256 after   11b77d3e60e3b35a9767a8c4d6731c3fe72f08dc91f9ebc7ee9f0ef87c8aa428
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-249-daylight-4x5.png
+    sha256         6364def1a7d30aa80d6e0f5649f5fd7ee3694bb30c110508ffc9f172351de0b4
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-251  Lac du Bourget, Aix-les-Bains
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 23:30 Europe/Paris
+  scan: is_day 0. Solar: Night, clear. A calculated waxing gibbous (phase fraction about 0.41, illumination about 0.92), not an observed moon. Moonlight on the lake. Ordinary promenade lamps only. No floodlight show was added.
+  note: Clear daylight on the lake from the promenade. Ordinary lamps are unlit. No light show.
+  night 16x9  assets/fr-01-251-16x9.png
+    sha256 before  73678c6f3cd89d40f7ec337470f3b7ff1f9a7d1bf28b69b046bc3480cebfed0b
+    sha256 after   73678c6f3cd89d40f7ec337470f3b7ff1f9a7d1bf28b69b046bc3480cebfed0b
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-251-daylight-16x9.png
+    sha256         9629109edf4035b2e325bee3694110ba21955f118871a53e20cc2c176622aaf5
+  night 4x5  assets/fr-01-251-4x5.png
+    sha256 before  637c4b9177686da420cab8b88bd75b944d372fc1087b8df7c1851c1a1e3811dd
+    sha256 after   637c4b9177686da420cab8b88bd75b944d372fc1087b8df7c1851c1a1e3811dd
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-251-daylight-4x5.png
+    sha256         f7887978acb0538ba24329bcce3cde5342b3cb3ed13f8aedc4ce677c0fad0840
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-252  Château de Joux, La Cluse-et-Mijoux
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 23:30 Europe/Paris
+  scan: is_day 0. Solar: Night, clear. A calculated waxing gibbous (phase fraction about 0.41, illumination about 0.92), not an observed moon. Moonlight on the ridge. No floodlights were confirmed, so none were added.
+  note: Clear daylight on the fortress above the valley road. No floodlights.
+  night 16x9  assets/fr-01-252-16x9.png
+    sha256 before  395b54021a62102b26904e1695578b50907f2e74caf26f36cf6363390537dcc4
+    sha256 after   395b54021a62102b26904e1695578b50907f2e74caf26f36cf6363390537dcc4
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-252-daylight-16x9.png
+    sha256         c94f0a5f4ec6e578ad2b6e64102f9740b2d8758cca8e63855cd052f1ae2895f6
+  night 4x5  assets/fr-01-252-4x5.png
+    sha256 before  2a2963b8a19c9b45e799760efeb030f42e5e5d55a517d3d0289b2bf895b7a0a5
+    sha256 after   2a2963b8a19c9b45e799760efeb030f42e5e5d55a517d3d0289b2bf895b7a0a5
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-252-daylight-4x5.png
+    sha256         2d33e780104c84feab7adbe6ac1b6995852a7a11ea02fefde5dcea93f2091b0b
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-253  Sartène, Sartène
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 23:30 Europe/Paris
+  scan: is_day 0. Solar: Night, fog, moon hidden. Ordinary street lamps only. No façade floodlights were added.
+  note: Daylight in the fog on the granite street. No façade floodlights.
+  night 16x9  assets/fr-01-253-16x9.png
+    sha256 before  87f23f5a473c3c943dcf8adbaef62ef2c4d07b4fe6335929ed21f55130473e18
+    sha256 after   87f23f5a473c3c943dcf8adbaef62ef2c4d07b4fe6335929ed21f55130473e18
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-253-daylight-16x9.png
+    sha256         c055d71af963e140161add493c350f366704c27a97b7c50374314920c84d11ca
+  night 4x5  assets/fr-01-253-4x5.png
+    sha256 before  d00c10d0abaa21f60a0249bda596396b319de1f466eb41ecb673dba3a6fd11f6
+    sha256 after   d00c10d0abaa21f60a0249bda596396b319de1f466eb41ecb673dba3a6fd11f6
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-253-daylight-4x5.png
+    sha256         45fe177a896c7c173385d0d5220917c611732aeb189bffb298cbb7cdf5b420a1
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-254  Château de Valençay, Valençay
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 23:30 Europe/Paris
+  scan: is_day 0. Solar: Night. A calculated waxing gibbous (phase fraction about 0.41, illumination about 0.92), not an observed moon. It shows through breaks in the cloud. No floodlights were confirmed, so none were added.
+  note: Partly cloudy daylight on the château, the domed pavilion, and the round corner towers. No floodlights.
+  night 16x9  assets/fr-01-254-16x9.png
+    sha256 before  27943305db6b5ebe491ceb8de22a138ccd109cf3be29ed1cfd703c63ffa4fdc3
+    sha256 after   27943305db6b5ebe491ceb8de22a138ccd109cf3be29ed1cfd703c63ffa4fdc3
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-254-daylight-16x9.png
+    sha256         f5ef76b3c48459b1f858218b19dd50cbe5819364af6a633905cfe0f6a93397bc
+  night 4x5  assets/fr-01-254-4x5.png
+    sha256 before  4aeab055c8b2dee90e82b4ce078310413fce864f4a068b1c3b5c50d79360bbb0
+    sha256 after   4aeab055c8b2dee90e82b4ce078310413fce864f4a068b1c3b5c50d79360bbb0
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-254-daylight-4x5.png
+    sha256         2015620d17b015a78ad4086ad43b60ddede08a6179ad42c6904e0eccddf46a31
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-255  Cathédrale de Troyes, Troyes
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 23:30 Europe/Paris
+  scan: is_day 0. Solar: Night, nearly clear. A calculated waxing gibbous (phase fraction about 0.41, illumination about 0.92), not an observed moon. Moonlight on the stone. No floodlights were confirmed, so none were added.
+  note: Clear daylight on the west front. The tall finished tower stays on the left and the shorter unfinished side stays on the right. No façade uplighting.
+  night 16x9  assets/fr-01-255-16x9.png
+    sha256 before  bacb366772c5b4c373a3d9941d0de94349f5b31e6d9ef388575755e05a797ba4
+    sha256 after   bacb366772c5b4c373a3d9941d0de94349f5b31e6d9ef388575755e05a797ba4
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-255-daylight-16x9.png
+    sha256         02a7f90ad7159500518ce2c4502933b037b087f58a9f257e0e6eb8b9de8d140e
+  night 4x5  assets/fr-01-255-4x5.png
+    sha256 before  66e2b21584b5e7024757a9eae071dfb33ee3db8e849095863a411d75c6da9ef9
+    sha256 after   66e2b21584b5e7024757a9eae071dfb33ee3db8e849095863a411d75c6da9ef9
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-255-daylight-4x5.png
+    sha256         aa187bfb4266a3f2c891d4fc481722f654b2172f4901bb10ed9342060197f66c
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-256  Château de Compiègne, Compiègne
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 23:30 Europe/Paris
+  scan: is_day 0. Solar: Night, partly cloudy. A calculated waxing gibbous (phase fraction about 0.41, illumination about 0.92), not an observed moon. It shows in a gap. No floodlights were confirmed, so none were added.
+  note: Partly cloudy daylight on the long palace front. No floodlights.
+  night 16x9  assets/fr-01-256-16x9.png
+    sha256 before  62c998b3939e13cc5ca7ec38e1f3b62d5ee79eae3424ca29003c9112c867180f
+    sha256 after   62c998b3939e13cc5ca7ec38e1f3b62d5ee79eae3424ca29003c9112c867180f
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-256-daylight-16x9.png
+    sha256         8aeaee90d419f7c7a973fdae061e0494b6124ec6121c9c19bb584201be344bfe
+  night 4x5  assets/fr-01-256-4x5.png
+    sha256 before  ae1c84be23eadab4f397578ad5a445af4b0bd1f860ef349a827cac0fcbc843ba
+    sha256 after   ae1c84be23eadab4f397578ad5a445af4b0bd1f860ef349a827cac0fcbc843ba
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-256-daylight-4x5.png
+    sha256         ee820276b973310cb61e69148c93fdedc6a9213aeb46d5d38aafd5f4ebadeb02
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-263  Cascade de Grand Galet, Saint-Joseph
+  approval_status: Candidate
+  scenario_label (night, unchanged): 24 September 2026 · 01:45 Indian/Reunion
+  scan: is_day 0. Solar: Night, almost fully clouded, moon hidden. No path lamps were added.
+  note: Overcast daylight on the forest waterfall. No path lamps.
+  night 16x9  assets/fr-01-263-16x9.png
+    sha256 before  ae643da14e202063479dfaf0f8ac525f2b1e458180e426c81a0ffde4d3a1162a
+    sha256 after   ae643da14e202063479dfaf0f8ac525f2b1e458180e426c81a0ffde4d3a1162a
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-263-daylight-16x9.png
+    sha256         dfe4a4729fe54bb55e34be38401323a2bbbd7def8ea9a88813ac2d9367f467e3
+  night 4x5  assets/fr-01-263-4x5.png
+    sha256 before  2cac89936c9d6a61ca036848954716e52bc535af211986ef2e93143911fe6126
+    sha256 after   2cac89936c9d6a61ca036848954716e52bc535af211986ef2e93143911fe6126
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-263-daylight-4x5.png
+    sha256         8c292d03b938be96416c08200f161929bf0236219d583b6e081017b99f961604
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-265  Plage de Soulou, Tsingoni
+  approval_status: Candidate
+  scenario_label (night, unchanged): 24 September 2026 · 00:45 Indian/Mayotte
+  scan: is_day 0. Solar: Night, nearly clear. A calculated waxing gibbous (phase fraction about 0.41, illumination about 0.92), not an observed moon. Moonlight on the sand and the falls. No beach floodlights were added.
+  note: Clear daylight on the waterfall, the pale sand, and the lagoon. No beach floodlights.
+  night 16x9  assets/fr-01-265-16x9.png
+    sha256 before  4ebd97a39d703fb97b8e43848dd5355a6168f22e4340ca1c989ce3b2639b2e5a
+    sha256 after   4ebd97a39d703fb97b8e43848dd5355a6168f22e4340ca1c989ce3b2639b2e5a
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-265-daylight-16x9.png
+    sha256         bacdc92a5cd335ead779920c9fc83368bb6083c1f4a6eae1eb45fdb533470183
+  night 4x5  assets/fr-01-265-4x5.png
+    sha256 before  dea890c279740173ef29c434526f5af8e6fb8a66d7c60b4050e2e0094abb7a4a
+    sha256 after   dea890c279740173ef29c434526f5af8e6fb8a66d7c60b4050e2e0094abb7a4a
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-265-daylight-4x5.png
+    sha256         fb82f455e4cdac95662e46004da50e028be1a59378c63ccaf1b818da2f343695
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-267  Viaduc de Garabit, Ruynes-en-Margeride
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 23:45 Europe/Paris
+  scan: is_day 0. Solar: Night, clear. A calculated waxing gibbous (phase fraction about 0.41, illumination about 0.92), not an observed moon. Moonlight on the iron. No floodlights were confirmed, so none were added.
+  note: Clear daylight on the red iron arch over the gorge. No floodlights.
+  night 16x9  assets/fr-01-267-16x9.png
+    sha256 before  62fa06ba5f234c7579ef67c84996246e630a0481397dc551616ebc7783db78d3
+    sha256 after   62fa06ba5f234c7579ef67c84996246e630a0481397dc551616ebc7783db78d3
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-267-daylight-16x9.png
+    sha256         ecd2709d549a4ffe5b91423bc9c633c733b6e924846790b8e511b3a5d476ff55
+  night 4x5  assets/fr-01-267-4x5.png
+    sha256 before  3e19a09a62575d42d59604654bec70f176de1ad24e0d341593b8b28dfe72f693
+    sha256 after   3e19a09a62575d42d59604654bec70f176de1ad24e0d341593b8b28dfe72f693
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-267-daylight-4x5.png
+    sha256         3cd504449197ef5293826411f3e80bb1a4598b5510b7550b34e040f160dbbe04
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-268  Château de La Rochepot, La Rochepot
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 23:45 Europe/Paris
+  scan: is_day 0. Solar: Night. A calculated waxing gibbous (phase fraction about 0.41, illumination about 0.92), not an observed moon. It shows through breaks in the cloud. No floodlights were confirmed, so none were added.
+  note: Partly cloudy daylight on the round towers and the patterned tile roofs. No floodlights.
+  night 16x9  assets/fr-01-268-16x9.png
+    sha256 before  a917582aab49b6c6817f3a8d755854e5fc4e13738a7243933aef756f43afff96
+    sha256 after   a917582aab49b6c6817f3a8d755854e5fc4e13738a7243933aef756f43afff96
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-268-daylight-16x9.png
+    sha256         ba5c9287520a658158b2f76ea24cc9ef112d3fe0c48d8915b8ee77063acf3fa6
+  night 4x5  assets/fr-01-268-4x5.png
+    sha256 before  1ad0b6286b4462461df530c8c788e5e046b41bd5859e1c95fb21a7b67433de02
+    sha256 after   1ad0b6286b4462461df530c8c788e5e046b41bd5859e1c95fb21a7b67433de02
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-268-daylight-4x5.png
+    sha256         909a7128eafb86bbc4e2aaef92cbc97aa9e395c4ce6d62308e9a6300c0fd395a
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-269  Plage de Palombaggia, Porto-Vecchio
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 23:45 Europe/Paris
+  scan: is_day 0. Solar: Night, nearly clear. A calculated waxing gibbous (phase fraction about 0.41, illumination about 0.92), not an observed moon. Moonlight on the sand and the red rock. No beach floodlights were added.
+  note: Clear daylight on the red rocks, the umbrella pines, and the sand. No beach floodlights.
+  night 16x9  assets/fr-01-269-16x9.png
+    sha256 before  b10b853d1407492ea4c0952d30290805adf94863772067263ae5e94d0da3d68d
+    sha256 after   b10b853d1407492ea4c0952d30290805adf94863772067263ae5e94d0da3d68d
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-269-daylight-16x9.png
+    sha256         6f26188e4e3d6a2808608d506e2de64daee211b692a9d2424f6cbfde890de6a8
+  night 4x5  assets/fr-01-269-4x5.png
+    sha256 before  ce13ca894c72dde056258b7c4a53b0c27198e3895556c03b89c60f1a195b9c5a
+    sha256 after   ce13ca894c72dde056258b7c4a53b0c27198e3895556c03b89c60f1a195b9c5a
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-269-daylight-4x5.png
+    sha256         fc0a69e1281465c95200fddd12142e6ff3c746ea4813f83f4df75c6cd619868d
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-270  Phare de Gatteville, Gatteville-le-Phare
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 23:45 Europe/Paris
+  scan: is_day 0. Solar: Night, full cloud, moon hidden. Only the working lantern is lit.
+  note: Overcast daylight on the tall grey lighthouse. The shaft is not floodlit.
+  night 16x9  assets/fr-01-270-16x9.png
+    sha256 before  9303b7e9afa5427d4d4d1e8aeefc77869cb164ac3a879cf8f9bfe2b658e209e6
+    sha256 after   9303b7e9afa5427d4d4d1e8aeefc77869cb164ac3a879cf8f9bfe2b658e209e6
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-270-daylight-16x9.png
+    sha256         01e27c34d7a8a4575d910ac97dd1b5e7f5871db1eb3c4f7104607bac266bb075
+  night 4x5  assets/fr-01-270-4x5.png
+    sha256 before  4ddebb99de49fb29f3a405e96d7697de1722595f300a552d1ed25608c50e7955
+    sha256 after   4ddebb99de49fb29f3a405e96d7697de1722595f300a552d1ed25608c50e7955
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-270-daylight-4x5.png
+    sha256         74245df1695da4aa9ac46694e0b712c7437c7a8379eed103a53a9910b8a6bbfe
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-271  Château de Bonaguil, Saint-Front-sur-Lémance
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 23:45 Europe/Paris
+  scan: is_day 0. Solar: Night, nearly clear. A calculated waxing gibbous (phase fraction about 0.41, illumination about 0.92), not an observed moon. Moonlight on the keep. No floodlights were confirmed, so none were added.
+  note: Clear daylight on the ruined keep and the round towers. No floodlights.
+  night 16x9  assets/fr-01-271-16x9.png
+    sha256 before  838d2a135c92e076488c0eeb359364ac4f19005231ea24a9fe20c64507b23433
+    sha256 after   838d2a135c92e076488c0eeb359364ac4f19005231ea24a9fe20c64507b23433
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-271-daylight-16x9.png
+    sha256         d2f6f1439e55d77b0bc0c6ddc5a41665629733a91ca02b57f43a5f8e28058330
+  night 4x5  assets/fr-01-271-4x5.png
+    sha256 before  6bf814967d11b6a4829ac1aff9193f5282bfd5002e10c491acf4c3f794027e91
+    sha256 after   6bf814967d11b6a4829ac1aff9193f5282bfd5002e10c491acf4c3f794027e91
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-271-daylight-4x5.png
+    sha256         3ab713ffbac4edeb8040dd0f09630075caf9e661b19848b074e795a32951f115
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+FR-01-272  Abbaye de Maillezais, Maillezais
+  approval_status: Candidate
+  scenario_label (night, unchanged): 23 September 2026 · 23:45 Europe/Paris
+  scan: is_day 0. Solar: Night, clear. A calculated waxing gibbous (phase fraction about 0.41, illumination about 0.92), not an observed moon. Moonlight on the ruins. No floodlights were confirmed, so none were added.
+  note: Clear daylight on the Gothic ruins and the grass. No floodlights.
+  night 16x9  assets/fr-01-272-16x9.png
+    sha256 before  67b5752fdb50e45a0d92d67e4036387ac9a43392ec2200ab1798eaa097b1cc08
+    sha256 after   67b5752fdb50e45a0d92d67e4036387ac9a43392ec2200ab1798eaa097b1cc08
+    night master   IDENTICAL
+  variant 16x9  assets/fr-01-272-daylight-16x9.png
+    sha256         d19798fc4ee3a1a869c4e8505de07643a7046b059a09ab0a9d967840b37821e7
+  night 4x5  assets/fr-01-272-4x5.png
+    sha256 before  52cde626e8c8963bd66ee622e5722fa0529833a4f95c666ffa2fe0989a1d3848
+    sha256 after   52cde626e8c8963bd66ee622e5722fa0529833a4f95c666ffa2fe0989a1d3848
+    night master   IDENTICAL
+  variant 4x5  assets/fr-01-272-daylight-4x5.png
+    sha256         37b03c086515577a0718c757892d9a73c62f52108a9299feeb3105443442a8c1
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+ALL SELECTED NIGHT MASTERS BYTE-UNCHANGED: YES
+Variant scenes: 16. Variant masters: 32.
+Qualifying night scenes remaining after this batch: 56.
+Next remaining ID: FR-01-279.

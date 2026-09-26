@@ -7,5 +7,36 @@
   "scenario_label": "24 September 2026 · 00:30 Indian/Mayotte",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-249-16x9.png",
-  "file_4x5": "assets/fr-01-249-4x5.png"
+  "file_4x5": "assets/fr-01-249-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-249",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-249-16x9.png (16:9) and assets/fr-01-249-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-249-16x9.png",
+        "sha256": "7f24e412fc9f1656cc9befca5b98e806b12dd6d32582bc5c8a42d0e770986cfe"
+      },
+      "4x5": {
+        "path": "assets/fr-01-249-4x5.png",
+        "sha256": "11b77d3e60e3b35a9767a8c4d6731c3fe72f08dc91f9ebc7ee9f0ef87c8aa428"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-249-daylight-16x9.png",
+      "4x5": "assets/fr-01-249-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "5e783d472464fc5d03392c5ca4a57a3b4b5a203dc12df73359cedcfc99e9a2b6",
+      "4x5": "6364def1a7d30aa80d6e0f5649f5fd7ee3694bb30c110508ffc9f172351de0b4"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Phare de Mtsamboro, Mtsamboro",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
