@@ -88,9 +88,8 @@
       overflow: hidden; display: flex; flex-direction: column;
     }
     .preview { position: relative; }
-    .fmt-tabs {
-      position: absolute; top: 1.05rem; left: 1.05rem; display: flex; gap: 6px; z-index: 2;
-    }
+    .fmt-tabs { display: flex; gap: 6px; padding: 0.75rem 1.05rem 0; line-height: 1.4; }
+    .day-row { padding: 0.5rem 1.05rem 0; }
     .fmt-tab {
       background: rgba(15, 17, 21, 0.82); color: var(--text); border: 1px solid var(--line);
       border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; line-height: 1.2; cursor: pointer;
@@ -107,11 +106,6 @@
     .day-tab:hover { border-color: var(--accent); }
     .day-tab.is-active {
       background: #e8b23a; border-color: #e8b23a; color: #1a1405; font-weight: 700;
-    }
-    .view-affordance {
-      position: absolute; top: 1.05rem; right: 1.05rem; z-index: 2;
-      padding: 5px 10px; border: 1px solid rgba(255, 255, 255, 0.35); border-radius: 999px;
-      background: rgba(15, 17, 21, 0.72); color: var(--text); font-size: 11px; pointer-events: none;
     }
     .thumb {
       display: block; padding: 0.65rem 0.65rem 0; background: #12151c; line-height: 0;
@@ -5603,16 +5597,16 @@
         const file916 = s.file_9x16 ? s.file_9x16 : null;
         card.innerHTML = `
           <div class="preview">
-            <div class="fmt-tabs" role="group" aria-label="Image size">
+            <a class="thumb" href="${esc(file16)}" target="_blank" rel="noopener">
+              <img src="${esc(file16)}" alt="${esc(s.alt_text)}" loading="lazy" data-src-16="${esc(file16)}" data-src-45="${esc(file45)}"${s.file_16x9_day ? ` data-src-16-day="${esc(s.file_16x9_day)}" data-src-45-day="${esc(s.file_4x5_day)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${s.file_9x16_day ? ` data-src-916-day="${esc(s.file_9x16_day)}"` : ""} />
+            </a>
+          </div>
+          <div class="fmt-tabs" role="group" aria-label="Image size">
               <button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>
               <button type="button" class="fmt-tab" data-format="4x5" aria-pressed="false">4:5</button>
               ${file916 ? `<button type="button" class="fmt-tab" data-format="9x16" aria-pressed="false">9:16</button>` : ""}
             </div>
-            <a class="thumb" href="${esc(file16)}" target="_blank" rel="noopener">
-              <img src="${esc(file16)}" alt="${esc(s.alt_text)}" loading="lazy" data-src-16="${esc(file16)}" data-src-45="${esc(file45)}"${s.file_16x9_day ? ` data-src-16-day="${esc(s.file_16x9_day)}" data-src-45-day="${esc(s.file_4x5_day)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${s.file_9x16_day ? ` data-src-916-day="${esc(s.file_9x16_day)}"` : ""} />
-              <span class="view-affordance">View image</span>
-            </a>
-          </div>
+          ${s.file_16x9_day ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button></div>` : ""}
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">${esc(s.entry_id)}</div>
@@ -5627,7 +5621,7 @@
               <a class="download" data-dl="16x9" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>
               <a class="download" data-dl="4x5" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>
               ${file916 ? `<a class="download" data-dl="9x16" href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
-              ${s.file_16x9_day ? `<button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button>` : ""}
+              
             </div>
           </div>`;
         grid.appendChild(card);
