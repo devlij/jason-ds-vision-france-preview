@@ -9,11 +9,11 @@
   "description": "The recorded tourist view is abbey-crowned tidal island rising from the bay with causeway approach. The place named on the card is Mont Saint-Michel, Le Mont-Saint-Michel, in Normandy. Light and weather follow the modelled scenario 23 September 2026 · 15:00 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Mont Saint-Michel under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-007-16x9.png?v=batch005",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-007-4x5.png?v=batch005",
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "Mont Saint-Michel abbey-island from the tidal flats: the Gothic abbey with its spire and gilded Archangel Michael, the clustered village below the ramparts, the causeway bridge crossing the sand, flat sea-mist horizon. Gate 1: recognizably Mont Saint-Michel, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: sweep verified exact 1920x1080 / 864x1080; on-image caption 'Mont Saint-Michel, Le Mont-Saint-Michel', scenario '23 September 2026 · 15:00 Europe/Paris', disclosure, and exact curly-apostrophe 'Jason D's Vision' signature all legible on the bottom gradient; no approvals/FR-01-007.md exists so no weather-retrieval timestamp to cross-check — scenario stands as model data, no staleness evidence. Gate 3: no photographic inputs reported (no build-agent notes file on record). Gate 4: tiny distant figures near the ramparts, unidentifiable; no logos. Gate 5: no open blockers.",
-  "approved_at": "2026-09-25T04:32:24.596452+00:00",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: Mont Saint-Michel recognizable — the abbey-crowned tidal island with the gilded spire statue, ramparted village rising from the bay at low tide with the pedestrian causeway on the left, clean framing, no artifacts. Gate 2 PASS: masters 1920x1080 and 864x1080 exact per sweep; on-image text verified — caption 'Mont Saint-Michel, Le Mont-Saint-Michel', scenario '23 September 2026 · 15:00 Europe/Paris', 'AI-generated artistic interpretation · Not a photograph.' on a legible bottom-left scrim, and 'Jason D's Vision' (curly apostrophe) bottom-right. Weather cross-check: approvals/FR-01-007.md records this scene's own Open-Meteo retrieval 2026-09-25T23:46:45Z (unique to the second, fresh today), model-valid hour 2026-09-23T15:00 Europe/Paris containing the 15:00 scenario minute, and per-location values weather code 0 clear, cloud cover 0%, 18.6°C, strong wind 32.9 km/h, model elevation 31 m. Gate 3 PASS: note documents text-prompt-only pictorial frame with no photographic inputs. Gate 4 documented: no prominent identifiable people or focal logos. Gate 5: all gates pass.",
+  "approved_at": "2026-09-26T00:46:20.180120+00:00",
   "reverted_at": "2026-09-25T18:52:03.895401+00:00",
   "qc_notes": [
     {
@@ -26,5 +26,7 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Mont Saint-Michel abbey with spire atop tidal island, rampart walls, village below, low-tide flats; clean framing, no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Mont Saint-Michel, Le Mont-Saint-Michel', scenario '23 September 2026 · 15:00 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-007.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: no people visible. Gate 5: not ready."
     }
-  ]
+  ],
+  "sha256_16x9": "91169ecd48c53199b46287faf5880c884b53362f35bd7f623d5b35aa02525b56",
+  "sha256_4x5": "314d98db69b3f59b2a74aca20955b0cdee08c13e1bfe76700f5b18a9d1c03184"
 }
