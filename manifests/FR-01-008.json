@@ -9,11 +9,11 @@
   "description": "The recorded tourist view is palm-lined promenade with blue chairs along the Bay of Angels. The place named on the card is Promenade des Anglais, Nice, in Provence-Alpes-Côte d'Azur. Light and weather follow the modelled scenario 23 September 2026 · 15:01 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of the Promenade des Anglais in Nice under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-008-16x9.png?v=batch005",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-008-4x5.png?v=batch005",
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "Promenade des Anglais: the palm-lined promenade with its signature blue chairs, the pebbled shore curving along the Baie des Anges, turquoise shallows and the hill-framed bay stretching east. Gate 1: recognizably Nice's Promenade, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: sweep verified exact 1920x1080 / 864x1080; on-image caption 'Promenade des Anglais, Nice', scenario '23 September 2026 · 15:01 Europe/Paris', disclosure, and exact curly-apostrophe 'Jason D's Vision' signature all legible on the bottom gradient; no approvals/FR-01-008.md exists so no weather-retrieval timestamp to cross-check — scenario stands as model data, no staleness evidence. Gate 3: no photographic inputs reported (no build-agent notes file on record). Gate 4: small distant walkers only, unidentifiable; no logos. Gate 5: no open blockers.",
-  "approved_at": "2026-09-25T04:32:50.993416+00:00",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: Promenade des Anglais recognizable — the palm-lined promenade with the iconic blue chairs facing the pebble beach and the Bay of Angels curving toward the distant headlands, walkers and cyclists, clean framing, no artifacts. Gate 2 PASS: masters 1920x1080 and 864x1080 exact per sweep; on-image text verified — caption 'Promenade des Anglais, Nice', scenario '23 September 2026 · 15:01 Europe/Paris', 'AI-generated artistic interpretation · Not a photograph.' on a legible bottom-left scrim, and 'Jason D's Vision' (curly apostrophe) bottom-right. Weather cross-check: approvals/FR-01-008.md records this scene's own Open-Meteo retrieval 2026-09-25T23:46:47Z (unique to the second, fresh today), model-valid hour 2026-09-23T15:00 Europe/Paris containing the 15:01 scenario minute, and per-location values weather code 0 clear, cloud cover 0%, 26.0°C, wind 11.5 km/h, model elevation 19 m. Gate 3 PASS: note documents text-prompt-only pictorial frame with no photographic inputs. Gate 4 documented: only small distant promenade figures, no focal logos. Gate 5: all gates pass.",
+  "approved_at": "2026-09-26T00:46:40.991980+00:00",
   "reverted_at": "2026-09-25T18:52:05.463470+00:00",
   "qc_notes": [
     {
@@ -26,5 +26,7 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Promenade des Anglais: palm-lined promenade, blue chairs, pebble beach, Baie des Anges curve with hills; clean framing, no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Promenade des Anglais, Nice', scenario '23 September 2026 · 15:01 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-008.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: distant unidentifiable beachgoers/pedestrians. Gate 5: not ready."
     }
-  ]
+  ],
+  "sha256_16x9": "f8faf3079889473131bc08a54d513815e4296ecdedef881c953d04751ddca5f1",
+  "sha256_4x5": "f6ef4f79ecf16040ead3a347370be058f2bf7a998c9761308ea2ea1591e20df5"
 }
