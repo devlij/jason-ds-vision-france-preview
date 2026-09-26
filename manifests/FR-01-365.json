@@ -7,5 +7,36 @@
   "scenario_label": "24 September 2026 · 01:00 Europe/Paris",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-365-16x9.png",
-  "file_4x5": "assets/fr-01-365-4x5.png"
+  "file_4x5": "assets/fr-01-365-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-365",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-365-16x9.png (16:9) and assets/fr-01-365-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-365-16x9.png",
+        "sha256": "071086e0eece510ed8a2775b6d7442c615f82b1f17e52be0c3594ee5b74ef256"
+      },
+      "4x5": {
+        "path": "assets/fr-01-365-4x5.png",
+        "sha256": "ea681b5a053ae737687353ebdc9fec6b9d6fa53419efbe8ff3b31b6c26b54cac"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-365-daylight-16x9.png",
+      "4x5": "assets/fr-01-365-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "f2dd09b187b00caa2e0ac2d75ab461f4ccde46cbeb0353763e657063cd263f16",
+      "4x5": "e0315ce02d05367f7e393857a49b549a759fb5dda18ddefa1a2b6992f5a3df2a"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Château de Peyrepertuse, Duilhac-sous-Peyrepertuse",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

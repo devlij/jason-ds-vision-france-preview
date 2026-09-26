@@ -7,5 +7,36 @@
   "scenario_label": "23 September 2026 · 19:00 America/Guadeloupe",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-357-16x9.png",
-  "file_4x5": "assets/fr-01-357-4x5.png"
+  "file_4x5": "assets/fr-01-357-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-357",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-357-16x9.png (16:9) and assets/fr-01-357-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-357-16x9.png",
+        "sha256": "309651d98b4992c95ad6f7a259c24002593566cafff527a68dd3af8cf34c04cd"
+      },
+      "4x5": {
+        "path": "assets/fr-01-357-4x5.png",
+        "sha256": "b5296546e7969469993f27173655113230fc025404f4635c38bee2c381f4b3d1"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-357-daylight-16x9.png",
+      "4x5": "assets/fr-01-357-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "cbfc0597a87501e6b7617b77dd5ca3a77138ddb97172e26d93510971efb77a65",
+      "4x5": "a7519305af4fee035acde1df2c32b9c81f03f3dba61461da2b0d9334922555d2"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Îles de la Petite-Terre, La Désirade",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
