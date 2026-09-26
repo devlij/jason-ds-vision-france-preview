@@ -25,6 +25,11 @@
       "at": "2026-09-26T01:33:49.220857+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 hold: no verifiable per-scene weather evidence. approvals/FR-01-018.md does not exist in the repo and FR-01-018 is absent from BATCH-FR-weather-rework-fullsteam-2026-09-25.txt (248 scenes, no duplicates). Hardened weather law requires one fresh Open-Meteo retrieval per scene with its HTTP Date header recorded to the second and the scenario minute inside the model-valid hour. Rework needed before any approval."
+    },
+    {
+      "at": "2026-09-26T21:31:30.981909+00:00",
+      "by": "Cosmo QC",
+      "note": "Cosmo QC 2026-09-26 ~17:30 EDT — Gate 2 hold: no verifiable per-scene Open-Meteo retrieval timestamp exists for this scene. No approvals/FR-01-018.md note exists in the repo, and the scene is not covered by BATCH-FR-weather-rework-fullsteam-2026-09-25.txt. The on-image scenario line (23 September 2026 · 15:21 Europe/Paris) cannot be cross-checked against any recorded retrieval, so the weather gate cannot pass and approval is refused. Gate 1 visually plausible (Place de la Concorde — Luxor obelisk centered, both fountains, Hôtel de Crillon façade, Arc de Triomphe far right); exact 1920x1080 / 864x1080 masters; exact caption, signature, and AI disclosure legible. Gate 4: distant tourists in the square, no logos. Pending builder per-scene weather rework with a recorded retrieval timestamp."
     }
   ]
 }
