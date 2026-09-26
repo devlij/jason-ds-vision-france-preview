@@ -9,11 +9,11 @@
   "description": "The recorded tourist view is iron lattice tower from Champ de Mars with lawn leading lines. The place named on the card is Eiffel Tower, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 14:50 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of the Eiffel Tower in Paris under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-001-16x9.png?v=batch001",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-001-4x5.png?v=batch001",
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "Eiffel Tower from the Champ de Mars lawns: the iron lattice tower rendered complete and well-proportioned, manicured hedges and lawn alleys leading toward the Seine, distant Haussmann rooftops under bright midday blue. Gate 1: recognizable tower, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: sweep verified exact 1920x1080 / 864x1080; on-image caption 'Eiffel Tower, Paris', scenario '23 September 2026 · 14:50 Europe/Paris', and 'AI-generated artistic interpretation · Not a photograph.' disclosure all legible on the bottom gradient, with the exact 'Jason D's Vision' curly-apostrophe signature bottom-right; no approvals/FR-01-001.md exists so no weather-retrieval timestamp was available to cross-check — scenario stands as model data, no staleness evidence. Gate 3: no photographic inputs reported (no build-agent notes file on record). Gate 4: only distant unidentifiable strollers under the tower; no logos or private property. Gate 5: no open blockers.",
-  "approved_at": "2026-09-25T04:31:18.164194+00:00",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: Eiffel Tower recognizable from the Champ de Mars — iron lattice tower centered with the manicured lawn alleys leading toward the Seine, clean framing, no artifacts. Gate 2 PASS: masters 1920x1080 and 864x1080 exact per sweep; on-image text verified — caption 'Eiffel Tower, Paris', scenario '23 September 2026 · 14:50 Europe/Paris', 'AI-generated artistic interpretation · Not a photograph.' on a legible bottom-left scrim, and 'Jason D's Vision' (curly apostrophe) bottom-right. Weather cross-check: approvals/FR-01-001.md records this scene's own Open-Meteo retrieval 2026-09-25T23:46:38Z (unique to the second in the rework run, fresh today), model-valid hour 2026-09-23T14:00 Europe/Paris containing the 14:50 scenario minute, and per-location values weather code 3 overcast 100%, 24.9°C, wind 2.6 km/h. Gate 3 PASS: note documents text-prompt-only pictorial frame with no photographic inputs. Gate 4 documented: no prominent identifiable people or focal logos. Gate 5: all gates pass.",
+  "approved_at": "2026-09-26T00:43:43.500330+00:00",
   "reverted_at": "2026-09-25T18:51:53.444716+00:00",
   "qc_notes": [
     {
@@ -26,5 +26,7 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Eiffel Tower from Champ de Mars lawns, correct iron-lattice proportions, clean framing, no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Eiffel Tower, Paris', scenario '23 September 2026 · 14:50 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-001.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: no prominent people/logos. Gate 5: not ready."
     }
-  ]
+  ],
+  "sha256_16x9": "0d0396e35d42503a928231ca107b3c090372158eebc4fe60e90f831f147c9638",
+  "sha256_4x5": "4dee1d08d0db157df7e08fa841dcf7371c8fd947a1eb96e7bda035996e9bd95b"
 }
