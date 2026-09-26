@@ -152,7 +152,8 @@
 .flag-chip.flag-it{background:linear-gradient(to right,#009246 0 33.34%,#fff 0 66.67%,#CE2B37 0)}
 .flag-chip.flag-es{background:linear-gradient(to bottom,#AA151B 0 25%,#F1BF00 0 75%,#AA151B 0)}
 .flag-chip.flag-gr{background:repeating-linear-gradient(to bottom,#0D5EAF 0 3px,#fff 0 6px)}
-.flag-chip.flag-ch{background:linear-gradient(#fff,#fff) center/45% 22% no-repeat,linear-gradient(#fff,#fff) center/22% 65% no-repeat,#DA291C}.flag-chip.flag-dk,.flag-dk{background:linear-gradient(to bottom,transparent 38%,#fff 38%,#fff 62%,transparent 62%),linear-gradient(to right,transparent 28%,#fff 28%,#fff 44%,transparent 44%),#C8102E}.flag-no{background:linear-gradient(#00205B,#00205B) center/100% 20% no-repeat,linear-gradient(#00205B,#00205B) center/22% 100% no-repeat,linear-gradient(#fff,#fff) center/100% 38% no-repeat,linear-gradient(#fff,#fff) center/40% 100% no-repeat,#BA0C2F}
+.flag-chip.flag-ch{background:linear-gradient(#fff,#fff) center/45% 22% no-repeat,linear-gradient(#fff,#fff) center/22% 65% no-repeat,#DA291C}.flag-chip.flag-dk,.flag-dk
+.flag-chip.flag-nl{background:linear-gradient(to bottom,#AE1C28 0 33.34%,#fff 0 66.67%,#21468B 0)}{background:linear-gradient(to bottom,transparent 38%,#fff 38%,#fff 62%,transparent 62%),linear-gradient(to right,transparent 28%,#fff 28%,#fff 44%,transparent 44%),#C8102E}.flag-no{background:linear-gradient(#00205B,#00205B) center/100% 20% no-repeat,linear-gradient(#00205B,#00205B) center/22% 100% no-repeat,linear-gradient(#fff,#fff) center/100% 38% no-repeat,linear-gradient(#fff,#fff) center/40% 100% no-repeat,#BA0C2F}
 
 .lb{position:fixed;inset:0;z-index:60;display:none;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:rgba(8,10,16,.93)}
 .lb.open{display:flex}.lb figure{margin:0;max-width:94vw;display:flex;flex-direction:column;align-items:center}.lb img{max-width:94vw;max-height:66vh;display:block;border-radius:6px}
@@ -164,6 +165,16 @@
 .lb-prev,.lb-next{width:46px;height:46px;min-width:46px;font-size:22px}
 .lb-play{width:44px;height:44px;min-width:44px;font-size:16px;margin-top:12px}
 .lb-play.playing{border-color:#d4a017;color:#ffd75e;box-shadow:0 0 12px rgba(212,160,23,.45)}
+
+.wotd{border-top:1px solid #e6e1d5;border-bottom:1px solid #e6e1d5;background:#faf8f3;padding:10px 24px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;font-size:14px;line-height:1.5}
+.wotd .kicker{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8a8578;font-weight:600;white-space:nowrap}
+.wotd .word{font-weight:700;font-size:15px}
+.wotd .gloss{color:#55555c}
+.wotd .sep{color:#c9c3b4}
+.wotd .phrase{font-style:italic}
+.wotd .day{margin-left:auto;font-size:11px;color:#a09a89;white-space:nowrap}
+.wotd .translit{color:#8a8578;font-size:12.5px}
+@media (max-width:520px){.wotd .day{margin-left:0;width:100%}}
 </style>
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="Jason D's Vision"/>
@@ -193,9 +204,2230 @@
     <p class="pointer">Every image is free to use — no credit required. See <a href="#license">license</a> below.</p>
     <h1><span class="flag" aria-hidden="true"></span>Jason D’s Vision — France</h1>
     <p class="qc-count" id="qc-count"></p>
-    <nav class="country-switch" aria-label="Country galleries"><a href="https://germany.jdvision.org/"><span class="flag-chip flag-de" aria-hidden="true"></span>Germany</a><span class="sep" aria-hidden="true">|</span><a href="https://italy.jdvision.org/"><span class="flag-chip flag-it" aria-hidden="true"></span>Italy</a><span class="sep" aria-hidden="true">|</span><span aria-current="page"><span class="flag-chip flag-fr" aria-hidden="true"></span>France</span><span class="sep" aria-hidden="true">|</span><a href="https://greece.jdvision.org/"><span class="flag-chip flag-gr" aria-hidden="true"></span>Greece</a><span class="sep" aria-hidden="true">|</span><a href="https://spain.jdvision.org/"><span class="flag-chip flag-es" aria-hidden="true"></span>Spain</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-norway-preview/"><span class="flag-chip flag-no" aria-hidden="true"></span>Norway</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-denmark-preview/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-switzerland-preview/"><span class="flag-chip flag-ch" aria-hidden="true"></span>Switzerland</a></nav>
+    <nav class="country-switch" aria-label="Country galleries"><a href="https://germany.jdvision.org/"><span class="flag-chip flag-de" aria-hidden="true"></span>Germany</a><span class="sep" aria-hidden="true">|</span><a href="https://italy.jdvision.org/"><span class="flag-chip flag-it" aria-hidden="true"></span>Italy</a><span class="sep" aria-hidden="true">|</span><span aria-current="page"><span class="flag-chip flag-fr" aria-hidden="true"></span>France</span><span class="sep" aria-hidden="true">|</span><a href="https://greece.jdvision.org/"><span class="flag-chip flag-gr" aria-hidden="true"></span>Greece</a><span class="sep" aria-hidden="true">|</span><a href="https://spain.jdvision.org/"><span class="flag-chip flag-es" aria-hidden="true"></span>Spain</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-norway-preview/"><span class="flag-chip flag-no" aria-hidden="true"></span>Norway</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-denmark-preview/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-switzerland-preview/"><span class="flag-chip flag-ch" aria-hidden="true"></span>Switzerland</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-netherlands-preview/"><span class="flag-chip flag-nl" aria-hidden="true"></span>Netherlands</a></nav>
     <p class="sub">Preview gallery · Country → Region → City · Merge-ready for the canonical library</p>
   </header>
+<div class="wotd" id="wotd" lang="fr">
+  <span class="kicker">Mot du jour · Word of the day</span>
+  <span class="wotd-body" aria-live="polite"></span>
+  <span class="day" id="wotd-day"></span>
+</div>
+<script type="application/json" id="wotd-data">[
+  {
+    "phrase": "Notre voyage commence à Maputo, la capitale qui bouillonne d’activité et d’effervescence.",
+    "phrase_en": "Our journey begins in Maputo, the bustling, effervescent capital.",
+    "word": "le voyage",
+    "word_en": "journey"
+  },
+  {
+    "phrase": "Nous prenons le train.",
+    "phrase_en": "We are taking the train.",
+    "word": "le train",
+    "word_en": "train"
+  },
+  {
+    "phrase": "Nous montons dans l’avion, un Bombardier CS100.",
+    "phrase_en": "We are boarding the airplane, a Bombardier CS100.",
+    "word": "l’avion",
+    "word_en": "airplane"
+  },
+  {
+    "phrase": "A notre arrivée nous avons loué un bateau pour aller de Supetar à Bol.",
+    "phrase_en": "On our arrival we rented a boat to go from Supetar to Bol.",
+    "word": "le bateau",
+    "word_en": "boat"
+  },
+  {
+    "phrase": "L’entrée de cette immense gare n’est pas très spectaculaire: on a l’impression de rentrer dans une station de métro.",
+    "phrase_en": "The entrance to this huge station is not very spectacular: you feel like you are walking into a subway station.",
+    "word": "la gare",
+    "word_en": "train station"
+  },
+  {
+    "phrase": "Après avoir traversé Katmandou en voiture, nous arrivons à l’aéroport des vols intérieurs, bien plus petit que l’aéroport international mais partageant la même piste.",
+    "phrase_en": "After driving across Kathmandu, we reach the domestic-flights airport, much smaller than the international airport but sharing the same runway.",
+    "word": "l’aéroport",
+    "word_en": "airport"
+  },
+  {
+    "phrase": "Nous achetons nos billets avec nos dernières économies.",
+    "phrase_en": "We are buying our tickets with our last savings.",
+    "word": "le billet",
+    "word_en": "ticket"
+  },
+  {
+    "phrase": "Après avoir été enchantés par la Bolivie, c’est en Argentine que nous posons nos valises.",
+    "phrase_en": "After being enchanted by Bolivia, it is in Argentina that we set down our suitcases.",
+    "word": "la valise",
+    "word_en": "suitcase"
+  },
+  {
+    "phrase": "Mon passeport est tamponné fermement et me voilà en Serbie.",
+    "phrase_en": "My passport is firmly stamped and here I am in Serbia.",
+    "word": "le passeport",
+    "word_en": "passport"
+  },
+  {
+    "phrase": "Nous reprenons la route, empruntons une piste.",
+    "phrase_en": "We get back on the road, taking a track.",
+    "word": "la route",
+    "word_en": "road"
+  },
+  {
+    "phrase": "Après notre balade au Jardin Botanique de Bordeaux Bastide, Cathycat et moi avons dîné dans une pizzeria puis nous avons traversé le pont de pierre à pied pour prendre nos trams respectifs de l’autre côté de la Garonne.",
+    "phrase_en": "After our stroll around the Bordeaux Bastide botanical garden, Cathycat and I had dinner at a pizzeria, then we crossed the stone bridge on foot to catch our respective trams on the other side of the Garonne.",
+    "word": "le pont",
+    "word_en": "bridge"
+  },
+  {
+    "phrase": "Après des semaines de préparatifs c’est le jour du grand départ...",
+    "phrase_en": "After weeks of preparation, the day of the big departure has arrived...",
+    "word": "le départ",
+    "word_en": "departure"
+  },
+  {
+    "phrase": "À notre arrivée à l’aéroport de Munich, notre guide pour tout notre séjour au Tyrol, Barbara, et notre chauffeur Michel nous attendaient.",
+    "phrase_en": "On our arrival at Munich airport, our guide for our entire stay in Tyrol, Barbara, and our driver Michel were waiting for us.",
+    "word": "l’arrivée",
+    "word_en": "arrival"
+  },
+  {
+    "phrase": "Notre aventure commence au village de Calenzana endormi.",
+    "phrase_en": "Our adventure begins in the sleepy village of Calenzana.",
+    "word": "l’aventure",
+    "word_en": "adventure"
+  },
+  {
+    "phrase": "En résumé, je dirais que ce week-end prolongé à Turin fut une belle découverte et que la ville est très agréable.",
+    "phrase_en": "In short, I would say that this long weekend in Turin was a lovely discovery and that the city is very pleasant.",
+    "word": "la découverte",
+    "word_en": "discovery"
+  },
+  {
+    "phrase": "Nous repartons la tête pleine de souvenirs extraordinaires et le cœur gonflé d’émotion.",
+    "phrase_en": "We head back home with our heads full of extraordinary memories and our hearts swollen with emotion.",
+    "word": "le souvenir",
+    "word_en": "memory"
+  },
+  {
+    "note": "Sentence explicitly establishes a male guide (Richard, « il »).",
+    "phrase": "Notre guide s’appelle Richard, il nous emmène voir les cases royales.",
+    "phrase_en": "Our guide is called Richard; he is taking us to see the royal huts.",
+    "word": "le guide",
+    "word_en": "guide"
+  },
+  {
+    "phrase": "Une bonne boussole est le compagnon indispensable de tout bon randonneur.",
+    "phrase_en": "A good compass is the indispensable companion of every good hiker.",
+    "word": "la boussole",
+    "word_en": "compass"
+  },
+  {
+    "phrase": "Je cherche un plan de la ville avec les noms de rue.",
+    "phrase_en": "I'm looking for a city map with street names.",
+    "word": "le plan",
+    "word_en": "map (of a city)",
+    "note": "Replaces 'la carte' (map sense): 'la carte' also appears in batch 5 in the restaurant-menu sense; 'le plan' keeps the city-map meaning distinct. Phrase from Collins phrasebook via thefreedictionary."
+  },
+  {
+    "phrase": "Ici, le voyage se met doucement en marche, sac à dos ajusté sur les épaules.",
+    "phrase_en": "Here, the journey gently sets off, backpack adjusted on the shoulders.",
+    "word": "le sac à dos",
+    "word_en": "backpack"
+  },
+  {
+    "phrase": "Durant cette immobilisation, les autres passagers ont pu descendre sur le quai.",
+    "phrase_en": "During this stoppage, the other passengers were able to step down onto the platform.",
+    "word": "le quai",
+    "word_en": "platform"
+  },
+  {
+    "phrase": "Nous descendons et marchons le long de la petite rue qui nous amène au port.",
+    "phrase_en": "We walk down and along the little street that brings us to the harbor.",
+    "word": "le port",
+    "word_en": "harbor"
+  },
+  {
+    "phrase": "Alors aujourd’hui me voici en croisière sur le Nil.",
+    "phrase_en": "So today, here I am on a cruise on the Nile.",
+    "word": "la croisière",
+    "word_en": "cruise"
+  },
+  {
+    "phrase": "Notre vol est maintenu.",
+    "phrase_en": "Our flight is going ahead as scheduled.",
+    "word": "le vol",
+    "word_en": "flight"
+  },
+  {
+    "phrase": "Avant même de réserver le moindre billet, il faut choisir son itinéraire.",
+    "phrase_en": "Before even booking the slightest ticket, you have to choose your itinerary.",
+    "word": "l’itinéraire",
+    "word_en": "itinerary"
+  },
+  {
+    "phrase": "Pour notre retour, nous voyageons sur la Pakistan Airlines, nous faisons une escale à Islamabad.",
+    "phrase_en": "For our return, we are flying Pakistan Airlines, making a stopover in Islamabad.",
+    "word": "l’escale",
+    "word_en": "stopover"
+  },
+  {
+    "phrase": "Il est possible de louper la correspondance et il vous faudra attendre le train suivant.",
+    "phrase_en": "You can miss your connection, and then you will have to wait for the next train.",
+    "word": "la correspondance",
+    "word_en": "connection"
+  },
+  {
+    "phrase": "Cette première étape fera office de test.",
+    "phrase_en": "This first stage will serve as a test.",
+    "word": "l’étape",
+    "word_en": "stage"
+  },
+  {
+    "phrase": "La traversée en ferry est des plus sympathiques.",
+    "phrase_en": "The ferry crossing is most delightful.",
+    "word": "la traversée",
+    "word_en": "crossing"
+  },
+  {
+    "phrase": "Visa: aucun visa n’est nécessaire pour un séjour touristique de moins de 90 jours.",
+    "phrase_en": "Visa: no visa is required for a tourist stay of less than 90 days.",
+    "word": "le visa",
+    "word_en": "visa"
+  },
+  {
+    "phrase": "Au comptoir Air France, l’hôtesse me demande de mettre mon bagage cabine en soute.",
+    "phrase_en": "At the Air France counter, the hostess asks me to check my cabin luggage.",
+    "word": "le bagage",
+    "word_en": "luggage"
+  },
+  {
+    "phrase": "Tout premier voyage international, première fois qu’elle passe la douane, première fois qu’elle se frotte à l’aéroport autrement qu’en spectatrice…",
+    "phrase_en": "Her very first international trip, the first time she goes through customs, the first time she encounters the airport other than as a spectator…",
+    "word": "la douane",
+    "word_en": "customs"
+  },
+  {
+    "phrase": "Après 90 kilomètres de route, nous atteignons la frontière canadienne et nous voilà de retour en Colombie Britannique.",
+    "phrase_en": "After 90 kilometers of road, we reach the Canadian border and here we are back in British Columbia.",
+    "word": "la frontière",
+    "word_en": "border"
+  },
+  {
+    "phrase": "Nous retirons de la monnaie locale (francs pacifique) au distributeur et prenons un taxi pour nous rendre à l’adresse de la location RB&B.",
+    "phrase_en": "We withdraw local currency (Pacific francs) from the ATM and take a taxi to the address of the RB&B rental.",
+    "word": "le taxi",
+    "word_en": "taxi"
+  },
+  {
+    "phrase": "Nous prenons le car pour rallier Siem Reap au nord du Cambodge.",
+    "phrase_en": "We take the coach to reach Siem Reap in northern Cambodia.",
+    "word": "le car",
+    "word_en": "coach"
+  },
+  {
+    "phrase": "En métro, nous descendons à la station Gold Souq.",
+    "phrase_en": "By subway, we get off at the Gold Souq station.",
+    "word": "le métro",
+    "word_en": "subway"
+  },
+  {
+    "phrase": "Je rentre dans le wagon, trouve une place de libre et m’installe.",
+    "phrase_en": "I get into the railcar, find a free seat and settle in.",
+    "word": "le wagon",
+    "word_en": "railcar"
+  },
+  {
+    "phrase": "On savait juste que nous dormirions dans notre tente de toit! C’est tout.",
+    "phrase_en": "We just knew we would be sleeping in our roof tent! That’s all.",
+    "word": "la tente",
+    "word_en": "tent"
+  },
+  {
+    "note": "French-language page of the Smyril Line ferry company.",
+    "phrase": "Les passagers, munis de jumelles et d’objectifs zoom, pointaient du doigt avec enthousiasme tout ce que nous croisions.",
+    "phrase_en": "The passengers, armed with binoculars and zoom lenses, eagerly pointed at everything we passed.",
+    "word": "les jumelles",
+    "word_en": "binoculars"
+  },
+  {
+    "phrase": "La voile est levée ça y est, c’est assez intriguant de voir toute la mécanique à opérer pour lever la voile.",
+    "phrase_en": "The sail is up, it’s done — it is quite intriguing to watch all the machinery needed to raise the sail.",
+    "word": "la voile",
+    "word_en": "sail"
+  },
+  {
+    "phrase": "Prenez l’étiquette au guichet, à la borne ou à l’espace d’accueil de votre gare, elle ne se paie pas.",
+    "phrase_en": "Take the label at the ticket window, the machine or the reception area of your station — it is free of charge.",
+    "word": "le guichet",
+    "word_en": "ticket window"
+  },
+  {
+    "phrase": "Filez à la consigne de la gare, c’est la plus directe.",
+    "phrase_en": "Head to the station’s luggage locker; it is the most direct one.",
+    "word": "la consigne",
+    "word_en": "luggage locker"
+  },
+  {
+    "phrase": "Le passager conserve son siège sélectionné pour toute la durée de son séjour.",
+    "phrase_en": "The passenger keeps his selected seat for the entire duration of his stay.",
+    "word": "le passager",
+    "word_en": "passenger"
+  },
+  {
+    "phrase": "J’ai loué une cabine, pour plus de confort, ce qui accentue aussi l’impression de vivre une croisière.",
+    "phrase_en": "I rented a cabin, for more comfort, which also heightens the impression of being on a cruise.",
+    "word": "la cabine",
+    "word_en": "cabin"
+  },
+  {
+    "phrase": "Le capitaine et son équipage nous accueillent sur le quai pour nous souhaiter la bienvenue.",
+    "phrase_en": "The captain and his crew welcome us on the quay to wish us a pleasant stay.",
+    "word": "l’équipage",
+    "word_en": "crew"
+  },
+  {
+    "note": "Surrounding page contains unrelated grammar errors; sentence itself is clean.",
+    "phrase": "Nous avions chacun une couchette haute, tous les trois à la suite.",
+    "phrase_en": "We each had an upper bunk, all three in a row.",
+    "word": "la couchette",
+    "word_en": "bunk"
+  },
+  {
+    "phrase": "Nous prenons le ferry pour Chiloé.",
+    "phrase_en": "We are taking the ferry to Chiloé.",
+    "word": "le ferry",
+    "word_en": "ferry"
+  },
+  {
+    "phrase": "Nous sommes allés y randonner pendant trois jours, en compagnie de Lucas et Amandine, un couple ardéchois rencontré dans le bus.",
+    "phrase_en": "We went hiking there for three days, in the company of Lucas and Amandine, a couple from Ardèche met on the bus.",
+    "word": "randonner",
+    "word_en": "hike"
+  },
+  {
+    "phrase": "Nous partons visiter Funchal à pied et nous dirigeons vers la cathédrale Sé, la première cathédrale portugaise d’outre-mer (1508).",
+    "phrase_en": "We set off to visit Funchal on foot and head toward the Sé cathedral, the first Portuguese overseas cathedral (1508).",
+    "word": "visiter",
+    "word_en": "visit"
+  },
+  {
+    "phrase": "Nous embarquons sur un ferry pour relier Puerto Natales à Puerto Montt situé plus au nord, en traversant les fjords chiliens.",
+    "phrase_en": "We board a ferry to link Puerto Natales to Puerto Montt, further north, crossing the Chilean fjords.",
+    "word": "embarquer",
+    "word_en": "board"
+  },
+  {
+    "phrase": "Il m’était inimaginable de penser que je naviguerais un jour sur ce voilier, de surcroît comme chef de bord et à la voile seule.",
+    "phrase_en": "It was unimaginable to me to think that I would one day navigate on this sailboat, on top of it as skipper and under sail alone.",
+    "word": "naviguer",
+    "word_en": "navigate"
+  },
+  {
+    "phrase": "Il est possible de conduire à Shanghaï, après avoir passé un permis chinois un peu étrange mais accessible.",
+    "phrase_en": "It is possible to drive in Shanghai, after passing a somewhat strange but accessible Chinese driving test.",
+    "word": "conduire",
+    "word_en": "drive"
+  },
+  {
+    "phrase": "Nous campons au camping municipal d’Apt.",
+    "phrase_en": "We are camping at the municipal campsite of Apt.",
+    "word": "camper",
+    "word_en": "camp"
+  },
+  {
+    "phrase": "Avec la liberté que donne un véhicule privé, nous partons ensuite sillonner les routes, de Ghanerao au Taj Mahal, en passant par les cités mythiques de Jodhpur et Jaipur.",
+    "phrase_en": "With the freedom a private vehicle gives, we then set off to criss-cross the roads, from Ghanerao to the Taj Mahal, via the mythical cities of Jodhpur and Jaipur.",
+    "word": "sillonner",
+    "word_en": "criss-cross"
+  },
+  {
+    "phrase": "J’aurais dû photographier le compartiment, le couloir, prendre des détails...",
+    "phrase_en": "I should have photographed the compartment, the corridor, captured details...",
+    "word": "photographier",
+    "word_en": "photograph"
+  },
+  {
+    "note": "Kept after audit: no better replacement found; genuine travel-blog use.",
+    "phrase": "Le 31 août, nous avons participé à une visite de la ville et avons traversé le centre-ville de la Town Hall jusqu’à l’Opéra.",
+    "phrase_en": "On August 31st, we took a city tour and crossed the downtown area from Town Hall to the Opera.",
+    "word": "traverser",
+    "word_en": "cross"
+  },
+  {
+    "phrase": "Nous débarquons sur une très jolie île.",
+    "phrase_en": "We are disembarking on a very pretty island.",
+    "word": "débarquer",
+    "word_en": "disembark"
+  },
+  {
+    "phrase": "Paris, 7h00 du matin, la moto est chargée, nous sommes prêts à partir.",
+    "phrase_en": "Paris, 7:00 in the morning, the motorcycle is loaded, we are ready to leave.",
+    "word": "partir",
+    "word_en": "leave"
+  },
+  {
+    "phrase": "Nous arrivons à Kadiköy.",
+    "phrase_en": "We arrive in Kadiköy.",
+    "word": "arriver",
+    "word_en": "arrive"
+  },
+  {
+    "phrase": "Décidément les transports sont compliqués pour nous qui voyageons au jour le jour.",
+    "phrase_en": "Transport is truly complicated for those of us who travel day to day.",
+    "word": "voyager",
+    "word_en": "travel"
+  },
+  {
+    "phrase": "Nous avons marché au total 130km en 15 jours.",
+    "phrase_en": "We walked a total of 130 km in 15 days.",
+    "word": "marcher",
+    "word_en": "walk"
+  },
+  {
+    "phrase": "Aéroport de Bruxelles-Zaventem, l’avion décolle en direction de Tel-Aviv.",
+    "phrase_en": "Brussels-Zaventem Airport: the plane takes off toward Tel Aviv.",
+    "word": "décoller",
+    "word_en": "take off"
+  },
+  {
+    "phrase": "Notre avion atterrit enfin au Caire.",
+    "phrase_en": "Our plane finally lands in Cairo.",
+    "word": "atterrir",
+    "word_en": "land"
+  },
+  {
+    "phrase": "L’Egypte est une destination facile pour un Européen puisque proche et peu onéreuse mais jusqu’à l’année dernière je ne m’y étais pourtant jamais promenée, étant spontanément attirée par des destinations plus lointaines.",
+    "phrase_en": "Egypt is an easy destination for a European since it is close and cheap, but until last year I had never set foot there, being spontaneously drawn to more distant destinations.",
+    "word": "lointain",
+    "word_en": "distant"
+  },
+  {
+    "phrase": "Honfleur, avec son port pittoresque et ses maisons à pans de bois, est une véritable carte postale.",
+    "phrase_en": "Honfleur, with its picturesque harbor and half-timbered houses, is a true picture postcard.",
+    "word": "pittoresque",
+    "word_en": "picturesque"
+  },
+  {
+    "phrase": "Le navire est bondé.",
+    "phrase_en": "The ship is crowded.",
+    "word": "bondé",
+    "word_en": "crowded"
+  },
+  {
+    "phrase": "Nous sommes dans le quartier de l’église San Francisco, quartier très touristique mais plutôt sympathique.",
+    "phrase_en": "We are in the San Francisco church district, a very touristy but rather pleasant neighborhood.",
+    "word": "touristique",
+    "word_en": "touristy"
+  },
+  {
+    "phrase": "La bonne surprise, en revanche, est que j’ai réussi à trouver un Renfe direct entre Madrid et Nîmes.",
+    "phrase_en": "The good surprise, on the other hand, is that I managed to find a direct Renfe between Madrid and Nîmes.",
+    "word": "direct",
+    "word_en": "direct"
+  },
+  {
+    "phrase": "Le Bella Desgagné offre également plusieurs aires de détente confortables où s’occuper entre les escales.",
+    "phrase_en": "The Bella Desgagné also offers several comfortable relaxation areas to keep busy between stopovers.",
+    "word": "confortable",
+    "word_en": "comfortable"
+  },
+  {
+    "phrase": "Et aujourd’hui, l’alchimie, la recette d’une journée inoubliable, était au rendez-vous.",
+    "phrase_en": "And today, the magic, the recipe for an unforgettable day, was there.",
+    "word": "inoubliable",
+    "word_en": "unforgettable"
+  },
+  {
+    "phrase": "C’est un bon exemple des compromis qu’il faut parfois accepter lorsqu’on traverse l’Europe en train : le meilleur itinéraire n’est pas toujours le plus rapide, mais souvent celui qui offre le meilleur équilibre entre prix, confort et simplicité.",
+    "phrase_en": "It is a good example of the compromises one sometimes has to accept when crossing Europe by train: the best itinerary is not always the fastest, but often the one offering the best balance between price, comfort and simplicity.",
+    "word": "rapide",
+    "word_en": "fast"
+  },
+  {
+    "phrase": "Si Shibuya m’a paru très dépaysant hier, Akihabara l’est encore plus.",
+    "phrase_en": "If Shibuya struck me as very exotic yesterday, Akihabara is even more so.",
+    "word": "dépaysant",
+    "word_en": "exotic"
+  },
+  {
+    "phrase": "À bord des voitures panoramiques, le spectacle commence presque immédiatement.",
+    "phrase_en": "Aboard the panoramic cars, the show begins almost immediately.",
+    "word": "panoramique",
+    "word_en": "panoramic"
+  },
+  {
+    "phrase": "Que la lumière soit.",
+    "phrase_en": "Let there be light.",
+    "word": "la lumière",
+    "word_en": "light"
+  },
+  {
+    "phrase": "Le soleil brille.",
+    "phrase_en": "The sun is shining.",
+    "word": "le soleil",
+    "word_en": "sun"
+  },
+  {
+    "phrase": "La lune est pleine.",
+    "phrase_en": "The moon is full.",
+    "word": "la lune",
+    "word_en": "moon"
+  },
+  {
+    "phrase": "Déjà une étoile scintille sur velours.",
+    "phrase_en": "Already a star twinkles on velvet.",
+    "word": "l'étoile",
+    "word_en": "star"
+  },
+  {
+    "phrase": "Un nuage passe bas.",
+    "phrase_en": "A cloud passes low.",
+    "word": "le nuage",
+    "word_en": "cloud"
+  },
+  {
+    "phrase": "Après la pluie, le beau temps.",
+    "phrase_en": "After the rain comes good weather.",
+    "word": "la pluie",
+    "word_en": "rain"
+  },
+  {
+    "phrase": "Un arc-en-ciel apparaît, c'est vraiment magnifique !",
+    "phrase_en": "A rainbow appears, it is truly magnificent!",
+    "word": "l'arc-en-ciel",
+    "word_en": "rainbow"
+  },
+  {
+    "phrase": "Le tonnerre gronde.",
+    "phrase_en": "The thunder rumbles.",
+    "word": "le tonnerre",
+    "word_en": "thunder"
+  },
+  {
+    "phrase": "Un éclair déchire l'obscurité.",
+    "phrase_en": "A flash of lightning tears through the darkness.",
+    "word": "l'éclair",
+    "word_en": "flash of lightning"
+  },
+  {
+    "phrase": "La brume se dissipe lentement.",
+    "phrase_en": "The mist slowly dissipates.",
+    "word": "la brume",
+    "word_en": "mist"
+  },
+  {
+    "phrase": "Le brouillard est épais.",
+    "phrase_en": "The fog is thick.",
+    "word": "le brouillard",
+    "word_en": "fog"
+  },
+  {
+    "phrase": "La rosée n’est donc pas de l’eau qui tombe, mais qui se dépose au contact.",
+    "phrase_en": "Dew is therefore not water that falls, but water that settles on contact.",
+    "word": "la rosée",
+    "word_en": "dew"
+  },
+  {
+    "phrase": "Tout se couvre de givre.",
+    "phrase_en": "Everything becomes covered with hoarfrost.",
+    "word": "le givre",
+    "word_en": "hoarfrost"
+  },
+  {
+    "phrase": "La neige tombe.",
+    "phrase_en": "The snow is falling.",
+    "word": "la neige",
+    "word_en": "snow"
+  },
+  {
+    "phrase": "Le vent souffle fort.",
+    "phrase_en": "The wind blows hard.",
+    "word": "le vent",
+    "word_en": "wind"
+  },
+  {
+    "phrase": "La tempête approche.",
+    "phrase_en": "The storm is approaching.",
+    "word": "la tempête",
+    "word_en": "storm"
+  },
+  {
+    "phrase": "Le ciel est dégagé.",
+    "phrase_en": "The sky is clear.",
+    "word": "le ciel",
+    "word_en": "sky"
+  },
+  {
+    "phrase": "L'ombre s'allonge.",
+    "phrase_en": "The shadow lengthens.",
+    "word": "l'ombre",
+    "word_en": "shadow"
+  },
+  {
+    "phrase": "Un halo est un phénomène optique causé par des cristaux de glace dans l'atmosphère terrestre.",
+    "phrase_en": "A halo is an optical phenomenon caused by ice crystals in the Earth's atmosphere.",
+    "word": "le halo",
+    "word_en": "halo"
+  },
+  {
+    "phrase": "Le rayon laser permet la lecture des codes-barres.",
+    "phrase_en": "The laser beam is used to read barcodes.",
+    "word": "le rayon",
+    "word_en": "ray of light"
+  },
+  {
+    "phrase": "La foudre ne frappe jamais deux fois au même endroit.",
+    "phrase_en": "Lightning never strikes the same place twice.",
+    "word": "la foudre",
+    "word_en": "lightning"
+  },
+  {
+    "phrase": "Soudain, par surprise, une éclaircie survient!",
+    "phrase_en": "Suddenly, by surprise, a sunny spell occurs!",
+    "word": "l'éclaircie",
+    "word_en": "sunny spell"
+  },
+  {
+    "phrase": "Une averse est tombée.",
+    "phrase_en": "A downpour has fallen.",
+    "word": "l'averse",
+    "word_en": "downpour"
+  },
+  {
+    "phrase": "La grêle tombe.",
+    "phrase_en": "The hail is falling.",
+    "word": "la grêle",
+    "word_en": "hail"
+  },
+  {
+    "phrase": "L’orage s’apaise.",
+    "phrase_en": "The thunderstorm calms down.",
+    "word": "l'orage",
+    "word_en": "thunderstorm"
+  },
+  {
+    "phrase": "La tornade a provoqué une série de dégâts.",
+    "phrase_en": "The tornado caused a series of damages.",
+    "word": "la tornade",
+    "word_en": "tornado"
+  },
+  {
+    "phrase": "L'ouragan avance en vitesse pour tout dévaster.",
+    "phrase_en": "The hurricane advances quickly to devastate everything.",
+    "word": "l'ouragan",
+    "word_en": "hurricane"
+  },
+  {
+    "phrase": "La chaleur est accablante.",
+    "phrase_en": "The heat is overwhelming.",
+    "word": "la chaleur",
+    "word_en": "heat"
+  },
+  {
+    "phrase": "Ressentez la fraîcheur de l'air.",
+    "phrase_en": "Feel the freshness of the air.",
+    "word": "la fraîcheur",
+    "word_en": "freshness"
+  },
+  {
+    "phrase": "L'humidité est élevée.",
+    "phrase_en": "The humidity is high.",
+    "word": "l'humidité",
+    "word_en": "humidity"
+  },
+  {
+    "phrase": "La sécheresse s'aggrave.",
+    "phrase_en": "The drought is worsening.",
+    "word": "la sécheresse",
+    "word_en": "drought"
+  },
+  {
+    "phrase": "C'est la canicule.",
+    "phrase_en": "It is the heatwave.",
+    "word": "la canicule",
+    "word_en": "heatwave"
+  },
+  {
+    "phrase": "La température chute.",
+    "phrase_en": "The temperature is dropping.",
+    "word": "la température",
+    "word_en": "temperature"
+  },
+  {
+    "phrase": "La pression atmosphérique est en baisse.",
+    "phrase_en": "The atmospheric pressure is falling.",
+    "word": "la pression atmosphérique",
+    "word_en": "atmospheric pressure"
+  },
+  {
+    "phrase": "Les rafales atteignent 100 km/h.",
+    "phrase_en": "Gusts reach 100 km/h.",
+    "word": "la rafale",
+    "word_en": "gust"
+  },
+  {
+    "phrase": "Une bourrasque s'est levée.",
+    "phrase_en": "A squall arose.",
+    "word": "la bourrasque",
+    "word_en": "squall"
+  },
+  {
+    "phrase": "Il tombe de la bruine.",
+    "phrase_en": "Drizzle is falling.",
+    "word": "la bruine",
+    "word_en": "drizzle"
+  },
+  {
+    "phrase": "C'est une giboulée, ça ne durera pas.",
+    "phrase_en": "It is a shower, it will not last.",
+    "word": "la giboulée",
+    "word_en": "shower"
+  },
+  {
+    "phrase": "Attention au verglas !",
+    "phrase_en": "Beware of black ice!",
+    "word": "le verglas",
+    "word_en": "black ice"
+  },
+  {
+    "phrase": "Une brise légère souffle de l'est.",
+    "phrase_en": "A light breeze blows from the east.",
+    "word": "la brise",
+    "word_en": "breeze"
+  },
+  {
+    "phrase": "Le régime des moussons.",
+    "phrase_en": "The monsoon regime.",
+    "word": "la mousson",
+    "word_en": "monsoon"
+  },
+  {
+    "phrase": "La fonte des glaces de l’Antarctique s’est accélérée.",
+    "phrase_en": "The melting of Antarctic ice has accelerated.",
+    "word": "la fonte",
+    "word_en": "melting"
+  },
+  {
+    "phrase": "Après le dégel, la terre devient boueuse.",
+    "phrase_en": "After the thaw, the ground becomes muddy.",
+    "word": "le dégel",
+    "word_en": "thaw"
+  },
+  {
+    "phrase": "Le zénith est le point sur la verticale au-dessus de notre tête.",
+    "phrase_en": "The zenith is the point on the vertical above our head.",
+    "word": "le zénith",
+    "word_en": "zenith"
+  },
+  {
+    "phrase": "Il a voulu réserver l’azur pour le firmament et les yeux de certaines femmes.",
+    "phrase_en": "He wanted to reserve azure for the firmament and the eyes of certain women.",
+    "word": "l'azur",
+    "word_en": "azure"
+  },
+  {
+    "phrase": "Le mistral était en colère.",
+    "phrase_en": "The mistral was angry.",
+    "word": "le mistral",
+    "word_en": "mistral"
+  },
+  {
+    "phrase": "Des grêlons gros comme des œufs de pigeon.",
+    "phrase_en": "Hailstones as big as pigeon eggs.",
+    "word": "le grêlon",
+    "word_en": "hailstone"
+  },
+  {
+    "phrase": "Il tombe des flocons.",
+    "phrase_en": "Snowflakes are falling.",
+    "word": "le flocon",
+    "word_en": "snowflake"
+  },
+  {
+    "phrase": "Après moi le déluge.",
+    "phrase_en": "After me, the deluge.",
+    "word": "le déluge",
+    "word_en": "deluge"
+  },
+  {
+    "phrase": "Je n'ai jamais vu une gelée pareille.",
+    "phrase_en": "I have never seen such a frost.",
+    "word": "la gelée",
+    "word_en": "frost"
+  },
+  {
+    "phrase": "Il fait un froid de canard.",
+    "phrase_en": "It is bitterly cold.",
+    "word": "le froid",
+    "word_en": "cold"
+  },
+  {
+    "phrase": "Le redoux arrive.",
+    "phrase_en": "The mild spell is coming.",
+    "word": "le redoux",
+    "word_en": "mild spell"
+  },
+  {
+    "phrase": "L'anticyclone est de retour.",
+    "phrase_en": "The anticyclone is back.",
+    "word": "l'anticyclone",
+    "word_en": "anticyclone"
+  },
+  {
+    "phrase": "Le front progresse rapidement.",
+    "phrase_en": "The front is advancing rapidly.",
+    "word": "le front",
+    "word_en": "weather front"
+  },
+  {
+    "phrase": "En dessous du point de rosée, l'eau liquide commence à se condenser.",
+    "phrase_en": "Below the dew point, liquid water starts to condense.",
+    "word": "le point de rosée",
+    "word_en": "dew point"
+  },
+  {
+    "phrase": "La nébulosité est exprimée en octas.",
+    "phrase_en": "Cloud cover is expressed in oktas.",
+    "word": "la nébulosité",
+    "word_en": "cloud cover"
+  },
+  {
+    "phrase": "L'ensoleillement est excédentaire en première et troisième décade, mais déficitaire pour la deuxième décade.",
+    "phrase_en": "Sunshine is above normal in the first and third ten-day periods, but below normal for the second.",
+    "word": "l'ensoleillement",
+    "word_en": "sunshine"
+  },
+  {
+    "phrase": "Profiter de l'accalmie pour reprendre des forces.",
+    "phrase_en": "To take advantage of the lull to regain strength.",
+    "word": "l'accalmie",
+    "word_en": "lull"
+  },
+  {
+    "phrase": "Il fait beau et ensoleillé.",
+    "phrase_en": "The weather is fine and sunny.",
+    "word": "ensoleillé",
+    "word_en": "sunny"
+  },
+  {
+    "phrase": "Le temps est nuageux.",
+    "phrase_en": "The weather is cloudy.",
+    "word": "nuageux",
+    "word_en": "cloudy"
+  },
+  {
+    "phrase": "Le temps est pluvieux.",
+    "phrase_en": "The weather is rainy.",
+    "word": "pluvieux",
+    "word_en": "rainy"
+  },
+  {
+    "phrase": "Le temps est orageux.",
+    "phrase_en": "The weather is stormy.",
+    "word": "orageux",
+    "word_en": "stormy"
+  },
+  {
+    "phrase": "En Bretagne, le temps est venteux ! On est tout le temps décoiffé.",
+    "phrase_en": "In Brittany, the weather is windy! We are constantly windswept.",
+    "word": "venteux",
+    "word_en": "windy"
+  },
+  {
+    "phrase": "L'air est glacial.",
+    "phrase_en": "The air is freezing.",
+    "word": "glacial",
+    "word_en": "freezing"
+  },
+  {
+    "phrase": "Le temps est brumeux.",
+    "phrase_en": "The weather is misty.",
+    "word": "brumeux",
+    "word_en": "misty"
+  },
+  {
+    "phrase": "Le temps est serein et sec.",
+    "phrase_en": "The weather is clear and dry.",
+    "word": "serein",
+    "word_en": "serene"
+  },
+  {
+    "phrase": "C'est couvert.",
+    "phrase_en": "It is overcast.",
+    "word": "couvert",
+    "word_en": "overcast"
+  },
+  {
+    "phrase": "Les couleurs sont éclatantes.",
+    "phrase_en": "The colors are brilliant.",
+    "word": "éclatant",
+    "word_en": "brilliant"
+  },
+  {
+    "phrase": "Ses yeux brillent de joie.",
+    "phrase_en": "Her eyes are shining with joy.",
+    "word": "briller",
+    "word_en": "to shine"
+  },
+  {
+    "phrase": "Regarde dehors, il pleut des cordes!",
+    "phrase_en": "Look outside, it is raining cats and dogs!",
+    "word": "pleuvoir",
+    "word_en": "to rain"
+  },
+  {
+    "phrase": "C'est fou, il neige!",
+    "phrase_en": "It is crazy, it is snowing!",
+    "word": "neiger",
+    "word_en": "to snow"
+  },
+  {
+    "phrase": "Il grêle fort.",
+    "phrase_en": "It is hailing hard.",
+    "word": "grêler",
+    "word_en": "to hail"
+  },
+  {
+    "phrase": "Il tonne.",
+    "phrase_en": "It thunders.",
+    "word": "tonner",
+    "word_en": "to thunder"
+  },
+  {
+    "phrase": "La montagne domine le paysage.",
+    "phrase_en": "The mountain dominates the landscape.",
+    "word": "la montagne",
+    "word_en": "mountain"
+  },
+  {
+    "phrase": "Du sommet, la vue est magnifique.",
+    "phrase_en": "From the summit, the view is magnificent.",
+    "word": "le sommet",
+    "word_en": "summit"
+  },
+  {
+    "phrase": "Le glacier avance très lentement.",
+    "phrase_en": "The glacier is advancing very slowly.",
+    "word": "le glacier",
+    "word_en": "glacier"
+  },
+  {
+    "phrase": "La vallée s’élargit à cet endroit.",
+    "phrase_en": "The valley widens at this point.",
+    "word": "la vallée",
+    "word_en": "valley"
+  },
+  {
+    "phrase": "Cette gorge aux parois verticales mesure 40 m de profondeur.",
+    "phrase_en": "This gorge with vertical walls is 40 m deep.",
+    "word": "la gorge",
+    "word_en": "gorge"
+  },
+  {
+    "phrase": "La crête marque la frontière.",
+    "phrase_en": "The ridge marks the border.",
+    "word": "la crête",
+    "word_en": "ridge"
+  },
+  {
+    "phrase": "La colline est boisée.",
+    "phrase_en": "The hill is wooded.",
+    "word": "la colline",
+    "word_en": "hill"
+  },
+  {
+    "phrase": "La plaine s’étend à perte de vue.",
+    "phrase_en": "The plain stretches as far as the eye can see.",
+    "word": "la plaine",
+    "word_en": "plain"
+  },
+  {
+    "phrase": "Le plateau d’Emparis offre un panorama à 360°.",
+    "phrase_en": "The Emparis plateau offers a 360° panorama.",
+    "word": "le plateau",
+    "word_en": "plateau"
+  },
+  {
+    "phrase": "Le volcan entre en éruption.",
+    "phrase_en": "The volcano is erupting.",
+    "word": "le volcan",
+    "word_en": "volcano"
+  },
+  {
+    "phrase": "Un profond ravin sépare les deux blocs.",
+    "phrase_en": "A deep ravine separates the two blocks.",
+    "word": "le ravin",
+    "word_en": "ravine"
+  },
+  {
+    "phrase": "Le fleuve déborde de son lit.",
+    "phrase_en": "The major river is overflowing its banks.",
+    "word": "le fleuve",
+    "word_en": "major river"
+  },
+  {
+    "phrase": "Le pont enjambe la rivière.",
+    "phrase_en": "The bridge spans the river.",
+    "word": "la rivière",
+    "word_en": "river"
+  },
+  {
+    "phrase": "Le ruisseau gazouille.",
+    "phrase_en": "The stream babbles.",
+    "word": "le ruisseau",
+    "word_en": "stream"
+  },
+  {
+    "phrase": "Le torrent gronde.",
+    "phrase_en": "The mountain torrent roars.",
+    "word": "le torrent",
+    "word_en": "mountain torrent"
+  },
+  {
+    "phrase": "La cascade est spectaculaire.",
+    "phrase_en": "The waterfall is spectacular.",
+    "word": "la cascade",
+    "word_en": "waterfall"
+  },
+  {
+    "phrase": "La source est tarie.",
+    "phrase_en": "The water spring has run dry.",
+    "word": "la source",
+    "word_en": "water spring"
+  },
+  {
+    "phrase": "Le lac s’étend sur 10 km.",
+    "phrase_en": "The lake stretches over 10 km.",
+    "word": "le lac",
+    "word_en": "lake"
+  },
+  {
+    "phrase": "L’étang est bordé de roseaux.",
+    "phrase_en": "The pond is fringed with reeds.",
+    "word": "l’étang",
+    "word_en": "pond"
+  },
+  {
+    "phrase": "Le marais est un paradis pour les oiseaux nicheurs.",
+    "phrase_en": "The marsh is a paradise for nesting birds.",
+    "word": "le marais",
+    "word_en": "marsh"
+  },
+  {
+    "phrase": "Le delta abrite une grande variété d’animaux.",
+    "phrase_en": "The delta shelters a great variety of animals.",
+    "word": "le delta",
+    "word_en": "delta"
+  },
+  {
+    "phrase": "L’estuaire est large.",
+    "phrase_en": "The estuary is wide.",
+    "word": "l’estuaire",
+    "word_en": "estuary"
+  },
+  {
+    "phrase": "La mer est bleue.",
+    "phrase_en": "The sea is blue.",
+    "word": "la mer",
+    "word_en": "sea"
+  },
+  {
+    "phrase": "L’océan est immense.",
+    "phrase_en": "The ocean is immense.",
+    "word": "l’océan",
+    "word_en": "ocean"
+  },
+  {
+    "phrase": "La vague déferle.",
+    "phrase_en": "The wave breaks.",
+    "word": "la vague",
+    "word_en": "wave"
+  },
+  {
+    "phrase": "La marée monte.",
+    "phrase_en": "The tide is rising.",
+    "word": "la marée",
+    "word_en": "tide"
+  },
+  {
+    "phrase": "La plage est calme.",
+    "phrase_en": "The beach is calm.",
+    "word": "la plage",
+    "word_en": "beach"
+  },
+  {
+    "phrase": "La falaise est impressionnante.",
+    "phrase_en": "The cliff is impressive.",
+    "word": "la falaise",
+    "word_en": "cliff"
+  },
+  {
+    "phrase": "La baie est vaste.",
+    "phrase_en": "The bay is vast.",
+    "word": "la baie",
+    "word_en": "bay"
+  },
+  {
+    "phrase": "La côte est très découpée.",
+    "phrase_en": "The coast is deeply indented.",
+    "word": "la côte",
+    "word_en": "coast"
+  },
+  {
+    "phrase": "La crique est abritée.",
+    "phrase_en": "The cove is sheltered.",
+    "word": "la crique",
+    "word_en": "cove"
+  },
+  {
+    "phrase": "Le cap est une pointe de terre.",
+    "phrase_en": "A cape is a point of land.",
+    "word": "le cap",
+    "word_en": "cape"
+  },
+  {
+    "phrase": "L’île est entourée d’eau.",
+    "phrase_en": "The island is surrounded by water.",
+    "word": "l’île",
+    "word_en": "island"
+  },
+  {
+    "phrase": "La dune est mobile.",
+    "phrase_en": "The dune is shifting.",
+    "word": "la dune",
+    "word_en": "dune"
+  },
+  {
+    "phrase": "Le désert manque d’eau.",
+    "phrase_en": "The desert lacks water.",
+    "word": "le désert",
+    "word_en": "desert"
+  },
+  {
+    "phrase": "L’oasis est entourée de palmiers.",
+    "phrase_en": "The oasis is ringed by palm trees.",
+    "word": "l’oasis",
+    "word_en": "oasis"
+  },
+  {
+    "phrase": "La grotte est profonde.",
+    "phrase_en": "The cave is deep.",
+    "word": "la grotte",
+    "word_en": "cave"
+  },
+  {
+    "phrase": "Le rocher est abrupt.",
+    "phrase_en": "The rock is steep.",
+    "word": "le rocher",
+    "word_en": "rock"
+  },
+  {
+    "phrase": "Le sable est doré.",
+    "phrase_en": "The sand is golden.",
+    "word": "le sable",
+    "word_en": "sand"
+  },
+  {
+    "phrase": "La pierre est dure.",
+    "phrase_en": "The stone is hard.",
+    "word": "la pierre",
+    "word_en": "stone"
+  },
+  {
+    "phrase": "La forêt est dense.",
+    "phrase_en": "The forest is dense.",
+    "word": "la forêt",
+    "word_en": "forest"
+  },
+  {
+    "phrase": "L’arbre est centenaire.",
+    "phrase_en": "The tree is a hundred years old.",
+    "word": "l’arbre",
+    "word_en": "tree"
+  },
+  {
+    "phrase": "Le chêne est imposant.",
+    "phrase_en": "The oak is imposing.",
+    "word": "le chêne",
+    "word_en": "oak"
+  },
+  {
+    "phrase": "Le pin est un conifère.",
+    "phrase_en": "The pine is a conifer.",
+    "word": "le pin",
+    "word_en": "pine"
+  },
+  {
+    "phrase": "Le sapin sent bon.",
+    "phrase_en": "The fir smells good.",
+    "word": "le sapin",
+    "word_en": "fir"
+  },
+  {
+    "phrase": "La clairière s’ouvre.",
+    "phrase_en": "The clearing opens up.",
+    "word": "la clairière",
+    "word_en": "clearing"
+  },
+  {
+    "phrase": "Le sous-bois est sombre.",
+    "phrase_en": "The undergrowth is dark.",
+    "word": "le sous-bois",
+    "word_en": "undergrowth"
+  },
+  {
+    "phrase": "La lisière marque la limite du couvert végétal.",
+    "phrase_en": "The forest edge marks the limit of the tree cover.",
+    "word": "la lisière",
+    "word_en": "forest edge"
+  },
+  {
+    "phrase": "La haie est bien taillée.",
+    "phrase_en": "The hedge is well trimmed.",
+    "word": "la haie",
+    "word_en": "hedge"
+  },
+  {
+    "phrase": "Un bosquet est de très petite étendue.",
+    "phrase_en": "A grove is a very small wood.",
+    "word": "le bosquet",
+    "word_en": "grove"
+  },
+  {
+    "phrase": "Le buisson est épineux.",
+    "phrase_en": "The bush is thorny.",
+    "word": "le buisson",
+    "word_en": "bush"
+  },
+  {
+    "phrase": "La campagne est calme.",
+    "phrase_en": "The countryside is calm.",
+    "word": "la campagne",
+    "word_en": "countryside"
+  },
+  {
+    "phrase": "La prairie est verte.",
+    "phrase_en": "The meadow is green.",
+    "word": "la prairie",
+    "word_en": "meadow"
+  },
+  {
+    "phrase": "Le champ est labouré.",
+    "phrase_en": "The field is ploughed.",
+    "word": "le champ",
+    "word_en": "field"
+  },
+  {
+    "phrase": "Le parc est bien entretenu.",
+    "phrase_en": "The park is well kept.",
+    "word": "le parc",
+    "word_en": "park"
+  },
+  {
+    "phrase": "Le vignoble est vaste.",
+    "phrase_en": "The vineyard is vast.",
+    "word": "le vignoble",
+    "word_en": "vineyard"
+  },
+  {
+    "phrase": "Cette vigne grimpe à l’aide de vrilles.",
+    "phrase_en": "This vine climbs with tendrils.",
+    "word": "la vigne",
+    "word_en": "vine"
+  },
+  {
+    "phrase": "La garrigue est parfumée.",
+    "phrase_en": "The scrubland is fragrant.",
+    "word": "la garrigue",
+    "word_en": "scrubland"
+  },
+  {
+    "phrase": "Un paysage sauvage et préservé.",
+    "phrase_en": "A wild, unspoiled landscape.",
+    "word": "sauvage",
+    "word_en": "wild"
+  },
+  {
+    "phrase": "Un paysage verdoyant.",
+    "phrase_en": "A lush green landscape.",
+    "word": "verdoyant",
+    "word_en": "lush green"
+  },
+  {
+    "phrase": "Un relief escarpé.",
+    "phrase_en": "Steep terrain.",
+    "word": "escarpé",
+    "word_en": "steep"
+  },
+  {
+    "phrase": "Un sol rocheux.",
+    "phrase_en": "Rocky ground.",
+    "word": "rocheux",
+    "word_en": "rocky"
+  },
+  {
+    "phrase": "Un sol aride.",
+    "phrase_en": "Arid ground.",
+    "word": "aride",
+    "word_en": "arid"
+  },
+  {
+    "phrase": "Un sol fertile.",
+    "phrase_en": "Fertile ground.",
+    "word": "fertile",
+    "word_en": "fertile"
+  },
+  {
+    "phrase": "Une eau limpide.",
+    "phrase_en": "Clear water.",
+    "word": "limpide",
+    "word_en": "clear"
+  },
+  {
+    "phrase": "Une végétation luxuriante.",
+    "phrase_en": "Lush vegetation.",
+    "word": "luxuriant",
+    "word_en": "luxuriant"
+  },
+  {
+    "phrase": "Un lieu paisible.",
+    "phrase_en": "A peaceful place.",
+    "word": "paisible",
+    "word_en": "peaceful"
+  },
+  {
+    "phrase": "Un décor majestueux.",
+    "phrase_en": "A majestic setting.",
+    "word": "majestueux",
+    "word_en": "majestic"
+  },
+  {
+    "phrase": "L’eau coule de la fontaine.",
+    "phrase_en": "Water flows from the fountain.",
+    "word": "couler",
+    "word_en": "to flow"
+  },
+  {
+    "note": "A gave is a mountain stream in the Pyrenees.",
+    "phrase": "Le gave serpente.",
+    "phrase_en": "The mountain stream meanders.",
+    "word": "serpenter",
+    "word_en": "to wind (meander)"
+  },
+  {
+    "phrase": "Il plante un piquet.",
+    "phrase_en": "He drives in a stake.",
+    "word": "planter",
+    "word_en": "to plant"
+  },
+  {
+    "phrase": "Le jardin fleurit.",
+    "phrase_en": "The garden is blooming.",
+    "word": "fleurir",
+    "word_en": "to bloom"
+  },
+  {
+    "phrase": "Le lierre escalade les murs.",
+    "phrase_en": "The ivy climbs the walls.",
+    "word": "escalader",
+    "word_en": "to climb"
+  },
+  {
+    "phrase": "Le printemps arrive en mars.",
+    "phrase_en": "Spring arrives in March.",
+    "word": "le printemps",
+    "word_en": "spring"
+  },
+  {
+    "phrase": "En hiver, les soirées sont longues.",
+    "phrase_en": "In winter, evenings are long.",
+    "word": "l'hiver",
+    "word_en": "winter"
+  },
+  {
+    "phrase": "L'été commence en juin.",
+    "phrase_en": "Summer begins in June.",
+    "word": "l'été",
+    "word_en": "summer"
+  },
+  {
+    "phrase": "L'automne commence en septembre.",
+    "phrase_en": "Autumn begins in September.",
+    "word": "l'automne",
+    "word_en": "autumn"
+  },
+  {
+    "phrase": "Quelle est votre saison préférée ?",
+    "phrase_en": "What is your favourite season?",
+    "word": "la saison",
+    "word_en": "season"
+  },
+  {
+    "phrase": "L'équinoxe de printemps a lieu en mars.",
+    "phrase_en": "The spring equinox takes place in March.",
+    "word": "l'équinoxe",
+    "word_en": "equinox"
+  },
+  {
+    "phrase": "Le solstice d'été marque le jour le plus long de l'année.",
+    "phrase_en": "The summer solstice marks the longest day of the year.",
+    "word": "le solstice",
+    "word_en": "solstice"
+  },
+  {
+    "phrase": "L'aube pointe à l'horizon.",
+    "phrase_en": "Dawn breaks on the horizon.",
+    "word": "l'aube",
+    "word_en": "dawn"
+  },
+  {
+    "phrase": "Je préfère le matin.",
+    "phrase_en": "I prefer the morning.",
+    "word": "le matin",
+    "word_en": "morning (early hours)"
+  },
+  {
+    "phrase": "La matinée est mon moment préféré de la journée.",
+    "phrase_en": "The morning is my favourite part of the day.",
+    "word": "la matinée",
+    "word_en": "morning (whole forenoon)"
+  },
+  {
+    "phrase": "Il est midi.",
+    "phrase_en": "It is noon.",
+    "word": "midi",
+    "word_en": "noon"
+  },
+  {
+    "phrase": "L'après-midi passe vite.",
+    "phrase_en": "The afternoon goes by quickly.",
+    "word": "l'après-midi",
+    "word_en": "afternoon"
+  },
+  {
+    "phrase": "Les soirs d'été sont doux.",
+    "phrase_en": "Summer evenings are gentle.",
+    "word": "le soir",
+    "word_en": "evening (time of day)"
+  },
+  {
+    "phrase": "Je passerai dans la soirée.",
+    "phrase_en": "I'll come by during the evening.",
+    "word": "la soirée",
+    "word_en": "evening (course of an evening)"
+  },
+  {
+    "phrase": "La nuit porte conseil.",
+    "phrase_en": "Sleep on it.",
+    "word": "la nuit",
+    "word_en": "night"
+  },
+  {
+    "phrase": "Il est déjà minuit.",
+    "phrase_en": "It is already midnight.",
+    "word": "minuit",
+    "word_en": "midnight"
+  },
+  {
+    "phrase": "Au petit jour, la ville s'éveille.",
+    "phrase_en": "At daybreak, the town wakes up.",
+    "word": "le petit jour",
+    "word_en": "daybreak"
+  },
+  {
+    "phrase": "Un jour compte vingt-quatre heures.",
+    "phrase_en": "A day has twenty-four hours.",
+    "word": "le jour",
+    "word_en": "day (24-hour period)"
+  },
+  {
+    "phrase": "Bonne journée !",
+    "phrase_en": "Have a good day!",
+    "word": "la journée",
+    "word_en": "day (waking hours)"
+  },
+  {
+    "phrase": "Quelle heure est-il ?",
+    "phrase_en": "What time is it?",
+    "word": "l'heure",
+    "word_en": "hour"
+  },
+  {
+    "phrase": "Attends une minute.",
+    "phrase_en": "Wait a minute.",
+    "word": "la minute",
+    "word_en": "minute"
+  },
+  {
+    "phrase": "Attends une seconde, s'il te plaît.",
+    "phrase_en": "Wait a second, please.",
+    "word": "la seconde",
+    "word_en": "second"
+  },
+  {
+    "phrase": "Le temps, c'est de l'argent.",
+    "phrase_en": "Time is money.",
+    "word": "le temps",
+    "word_en": "time"
+  },
+  {
+    "phrase": "C'est le moment ou jamais.",
+    "phrase_en": "It's now or never.",
+    "word": "le moment",
+    "word_en": "moment (point in time)"
+  },
+  {
+    "phrase": "Attendez un instant.",
+    "phrase_en": "Wait a moment.",
+    "word": "l'instant",
+    "word_en": "instant"
+  },
+  {
+    "phrase": "Quelle est la date aujourd'hui ?",
+    "phrase_en": "What is today's date?",
+    "word": "la date",
+    "word_en": "date"
+  },
+  {
+    "phrase": "Une semaine compte sept jours.",
+    "phrase_en": "A week has seven days.",
+    "word": "la semaine",
+    "word_en": "week"
+  },
+  {
+    "phrase": "Bon week-end, à lundi !",
+    "phrase_en": "Have a good weekend, see you Monday!",
+    "word": "le week-end",
+    "word_en": "weekend"
+  },
+  {
+    "phrase": "Dans un mois, il y a quatre semaines.",
+    "phrase_en": "A month has four weeks.",
+    "word": "le mois",
+    "word_en": "month"
+  },
+  {
+    "phrase": "Dans une année, il y a douze mois.",
+    "phrase_en": "A year has twelve months.",
+    "word": "l'année",
+    "word_en": "year"
+  },
+  {
+    "phrase": "La veille de Noël.",
+    "phrase_en": "The day before Christmas.",
+    "word": "la veille",
+    "word_en": "the day before (an event)"
+  },
+  {
+    "phrase": "L'avant-veille du mariage.",
+    "phrase_en": "Two days before the wedding.",
+    "word": "l'avant-veille",
+    "word_en": "two days before (an event)"
+  },
+  {
+    "phrase": "Nous avons signé le contrat le lendemain matin.",
+    "phrase_en": "We signed the contract the next morning.",
+    "word": "le lendemain",
+    "word_en": "the day after (an event)"
+  },
+  {
+    "phrase": "Le surlendemain de son accident, il put enfin se lever.",
+    "phrase_en": "Two days after his accident, he was finally able to get up.",
+    "word": "le surlendemain",
+    "word_en": "two days after (an event)"
+  },
+  {
+    "phrase": "Nous sommes en janvier.",
+    "phrase_en": "We are in January.",
+    "word": "janvier",
+    "word_en": "January"
+  },
+  {
+    "phrase": "Nous sommes en février.",
+    "phrase_en": "We are in February.",
+    "word": "février",
+    "word_en": "February"
+  },
+  {
+    "phrase": "Nous sommes en mars.",
+    "phrase_en": "We are in March.",
+    "word": "mars",
+    "word_en": "March"
+  },
+  {
+    "phrase": "Nous sommes en avril.",
+    "phrase_en": "We are in April.",
+    "word": "avril",
+    "word_en": "April"
+  },
+  {
+    "phrase": "Nous sommes en mai.",
+    "phrase_en": "We are in May.",
+    "word": "mai",
+    "word_en": "May"
+  },
+  {
+    "phrase": "Nous sommes en juin.",
+    "phrase_en": "We are in June.",
+    "word": "juin",
+    "word_en": "June"
+  },
+  {
+    "phrase": "Nous sommes en juillet.",
+    "phrase_en": "We are in July.",
+    "word": "juillet",
+    "word_en": "July"
+  },
+  {
+    "phrase": "Nous sommes en août.",
+    "phrase_en": "We are in August.",
+    "word": "août",
+    "word_en": "August"
+  },
+  {
+    "phrase": "Nous sommes en septembre.",
+    "phrase_en": "We are in September.",
+    "word": "septembre",
+    "word_en": "September"
+  },
+  {
+    "phrase": "Nous sommes en octobre.",
+    "phrase_en": "We are in October.",
+    "word": "octobre",
+    "word_en": "October"
+  },
+  {
+    "phrase": "Nous sommes en novembre.",
+    "phrase_en": "We are in November.",
+    "word": "novembre",
+    "word_en": "November"
+  },
+  {
+    "phrase": "Nous sommes en décembre.",
+    "phrase_en": "We are in December.",
+    "word": "décembre",
+    "word_en": "December"
+  },
+  {
+    "phrase": "Aujourd'hui, c'est lundi.",
+    "phrase_en": "Today is Monday.",
+    "word": "lundi",
+    "word_en": "Monday"
+  },
+  {
+    "phrase": "Aujourd'hui, c'est mardi.",
+    "phrase_en": "Today is Tuesday.",
+    "word": "mardi",
+    "word_en": "Tuesday"
+  },
+  {
+    "phrase": "Aujourd'hui, c'est mercredi.",
+    "phrase_en": "Today is Wednesday.",
+    "word": "mercredi",
+    "word_en": "Wednesday"
+  },
+  {
+    "phrase": "Aujourd'hui, c'est jeudi.",
+    "phrase_en": "Today is Thursday.",
+    "word": "jeudi",
+    "word_en": "Thursday"
+  },
+  {
+    "phrase": "Aujourd'hui, c'est vendredi.",
+    "phrase_en": "Today is Friday.",
+    "word": "vendredi",
+    "word_en": "Friday"
+  },
+  {
+    "phrase": "Aujourd'hui, c'est samedi.",
+    "phrase_en": "Today is Saturday.",
+    "word": "samedi",
+    "word_en": "Saturday"
+  },
+  {
+    "phrase": "Aujourd'hui, c'est dimanche.",
+    "phrase_en": "Today is Sunday.",
+    "word": "dimanche",
+    "word_en": "Sunday"
+  },
+  {
+    "phrase": "Demain, c'est la Saint-Sylvestre.",
+    "phrase_en": "Tomorrow is New Year's Eve.",
+    "word": "la Saint-Sylvestre",
+    "word_en": "New Year's Eve"
+  },
+  {
+    "phrase": "La fête de la Toussaint a lieu le 1er novembre.",
+    "phrase_en": "All Saints' Day falls on November 1st.",
+    "word": "la Toussaint",
+    "word_en": "All Saints' Day"
+  },
+  {
+    "phrase": "Le jour de Noël est le 25 décembre.",
+    "phrase_en": "Christmas Day is December 25th.",
+    "word": "Noël",
+    "word_en": "Christmas"
+  },
+  {
+    "phrase": "Pâques est célébrée le premier dimanche après la pleine lune du printemps.",
+    "phrase_en": "Easter is celebrated on the first Sunday after the spring full moon.",
+    "word": "Pâques",
+    "word_en": "Easter"
+  },
+  {
+    "phrase": "Nous avons fêté le Nouvel An en famille.",
+    "phrase_en": "We celebrated the New Year with family.",
+    "word": "le Nouvel An",
+    "word_en": "New Year"
+  },
+  {
+    "phrase": "En France, on célèbre la fête nationale le 14 juillet.",
+    "phrase_en": "In France, the national holiday is celebrated on July 14th.",
+    "word": "le 14 juillet",
+    "word_en": "Bastille Day"
+  },
+  {
+    "phrase": "Je n'ai reçu la lettre qu'hier.",
+    "phrase_en": "I only received the letter yesterday.",
+    "word": "hier",
+    "word_en": "yesterday"
+  },
+  {
+    "phrase": "Aujourd'hui, nous sommes le 26 septembre.",
+    "phrase_en": "Today is September 26th.",
+    "word": "aujourd'hui",
+    "word_en": "today"
+  },
+  {
+    "phrase": "Le spectacle commence demain à midi.",
+    "phrase_en": "The show starts tomorrow at noon.",
+    "word": "demain",
+    "word_en": "tomorrow"
+  },
+  {
+    "phrase": "J'ai reçu sa lettre avant-hier matin.",
+    "phrase_en": "I received her letter the day before yesterday morning.",
+    "word": "avant-hier",
+    "word_en": "the day before yesterday"
+  },
+  {
+    "phrase": "Nous avons un rendez-vous important après-demain.",
+    "phrase_en": "We have an important appointment the day after tomorrow.",
+    "word": "après-demain",
+    "word_en": "the day after tomorrow"
+  },
+  {
+    "phrase": "Ce palais fut jadis la demeure d'un roi.",
+    "phrase_en": "This palace was once a king's residence.",
+    "word": "jadis",
+    "word_en": "long ago (in olden days)"
+  },
+  {
+    "phrase": "C'est maintenant qu'il faut agir.",
+    "phrase_en": "Now is the time to act.",
+    "word": "maintenant",
+    "word_en": "now"
+  },
+  {
+    "phrase": "Dorénavant, tu feras attention.",
+    "phrase_en": "From now on, you will be careful.",
+    "word": "dorénavant",
+    "word_en": "from now on"
+  },
+  {
+    "phrase": "Une soirée estivale.",
+    "phrase_en": "A summery evening.",
+    "word": "estival",
+    "word_en": "summery"
+  },
+  {
+    "phrase": "De belles journées automnales.",
+    "phrase_en": "Beautiful autumnal days.",
+    "word": "automnal",
+    "word_en": "autumnal"
+  },
+  {
+    "phrase": "Les soirées hivernales se passent au coin du feu.",
+    "phrase_en": "Wintry evenings are spent by the fireside.",
+    "word": "hivernal",
+    "word_en": "wintry"
+  },
+  {
+    "phrase": "Marie est très matinale.",
+    "phrase_en": "Marie is very much a morning person.",
+    "word": "matinal",
+    "word_en": "of the morning"
+  },
+  {
+    "phrase": "Les années passent.",
+    "phrase_en": "The years pass by.",
+    "word": "passer",
+    "word_en": "to pass (of time)"
+  },
+  {
+    "phrase": "Rien ne dure éternellement.",
+    "phrase_en": "Nothing lasts forever.",
+    "word": "durer",
+    "word_en": "to last"
+  },
+  {
+    "word": "bonjour",
+    "word_en": "hello (daytime greeting)",
+    "phrase": "Bonjour, comment allez-vous?",
+    "phrase_en": "Hello, how are you?",
+    "note": "The standard daytime greeting."
+  },
+  {
+    "word": "bonsoir",
+    "word_en": "good evening (greeting)",
+    "phrase": "Bonsoir et bienvenue.",
+    "phrase_en": "Good evening, and welcome.",
+    "note": "Used from late afternoon onward, as both 'good evening' and 'good night'."
+  },
+  {
+    "word": "s’il vous plaît",
+    "word_en": "please (formal)",
+    "phrase": "Je voudrais une baguette, s’il vous plaît.",
+    "phrase_en": "I would like a baguette, please.",
+    "note": "Literally 'if it pleases you'."
+  },
+  {
+    "word": "au revoir",
+    "word_en": "goodbye",
+    "phrase": "Au revoir, et merci.",
+    "phrase_en": "Goodbye, and thank you."
+  },
+  {
+    "word": "bienvenue",
+    "word_en": "welcome",
+    "phrase": "Bienvenue au village.",
+    "phrase_en": "Welcome to the village."
+  },
+  {
+    "word": "faire la bise",
+    "word_en": "to greet with a kiss on the cheek",
+    "phrase": "On se fait la bise.",
+    "phrase_en": "We greet each other with a kiss on the cheek.",
+    "note": "The customary cheek-kiss greeting in France."
+  },
+  {
+    "word": "merci",
+    "word_en": "thank you",
+    "phrase": "Merci, avec plaisir.",
+    "phrase_en": "Thank you — gladly."
+  },
+  {
+    "word": "de rien",
+    "word_en": "you are welcome (informal reply)",
+    "phrase": "De rien, c’est normal.",
+    "phrase_en": "You are welcome — it is nothing.",
+    "note": "Literally 'of nothing'."
+  },
+  {
+    "word": "excusez-moi",
+    "word_en": "excuse me (formal)",
+    "phrase": "Excusez-moi, où sont les toilettes?",
+    "phrase_en": "Excuse me, where are the restrooms?"
+  },
+  {
+    "word": "pardon",
+    "word_en": "sorry / pardon",
+    "phrase": "Pardon, je ne parle pas bien français.",
+    "phrase_en": "Sorry, I do not speak French well."
+  },
+  {
+    "word": "la boulangerie",
+    "word_en": "bakery (bread shop)",
+    "phrase": "La boulangerie est au bout de la rue.",
+    "phrase_en": "The bakery is at the end of the street."
+  },
+  {
+    "word": "la pâtisserie",
+    "word_en": "pastry shop",
+    "phrase": "La pâtisserie du village est excellente.",
+    "phrase_en": "The village pastry shop is excellent."
+  },
+  {
+    "word": "la baguette",
+    "word_en": "baguette (long French bread)",
+    "phrase": "Une baguette bien cuite, s’il vous plaît.",
+    "phrase_en": "A well-baked baguette, please."
+  },
+  {
+    "word": "le croissant",
+    "word_en": "croissant",
+    "phrase": "Je voudrais un croissant au beurre, s’il vous plaît.",
+    "phrase_en": "I would like a butter croissant, please."
+  },
+  {
+    "word": "la viennoiserie",
+    "word_en": "Viennese-style pastries",
+    "phrase": "Je croquais dans une viennoiserie encore chaude.",
+    "phrase_en": "I was biting into a still-warm pastry."
+  },
+  {
+    "word": "le pain au chocolat",
+    "word_en": "chocolate-filled pastry",
+    "phrase": "Un pain au chocolat et un café.",
+    "phrase_en": "A chocolate pastry and a coffee."
+  },
+  {
+    "word": "le café",
+    "word_en": "coffee / café",
+    "phrase": "Un café serré, s’il vous plaît.",
+    "phrase_en": "A short, strong espresso, please.",
+    "note": "'Un serré' is a short, concentrated espresso."
+  },
+  {
+    "word": "la brasserie",
+    "word_en": "brasserie (casual restaurant)",
+    "phrase": "On déjeune à la brasserie.",
+    "phrase_en": "We are having lunch at the brasserie."
+  },
+  {
+    "word": "la terrasse",
+    "word_en": "terrace (outdoor seating area)",
+    "phrase": "La terrasse est pleine.",
+    "phrase_en": "The terrace is full."
+  },
+  {
+    "word": "le comptoir",
+    "word_en": "counter (bar counter)",
+    "phrase": "On paie au comptoir.",
+    "phrase_en": "We pay at the counter."
+  },
+  {
+    "word": "le bistrot",
+    "word_en": "bistro",
+    "phrase": "Ce bistrot sert des plats traditionnels.",
+    "phrase_en": "This bistro serves traditional dishes."
+  },
+  {
+    "word": "l’apéritif",
+    "word_en": "pre-dinner drink (aperitif)",
+    "phrase": "Un apéritif entre amis.",
+    "phrase_en": "An aperitif with friends."
+  },
+  {
+    "word": "le pastis",
+    "word_en": "pastis (anise-flavored aperitif)",
+    "phrase": "Un pastis, s’il vous plaît.",
+    "phrase_en": "A pastis, please.",
+    "note": "An anise-flavored aperitif from the south of France."
+  },
+  {
+    "word": "le fromage",
+    "word_en": "cheese",
+    "phrase": "Ce fromage sent très fort.",
+    "phrase_en": "This cheese smells very strong."
+  },
+  {
+    "word": "le vin",
+    "word_en": "wine",
+    "phrase": "Un verre de vin rouge.",
+    "phrase_en": "A glass of red wine."
+  },
+  {
+    "word": "le champagne",
+    "word_en": "champagne (sparkling wine)",
+    "phrase": "On ouvre une bouteille de champagne.",
+    "phrase_en": "We are opening a bottle of champagne.",
+    "note": "Masculine for the beverage; the region is 'la Champagne'."
+  },
+  {
+    "word": "l’épicerie",
+    "word_en": "grocery store",
+    "phrase": "L’épicerie du village est ouverte.",
+    "phrase_en": "The village grocery store is open."
+  },
+  {
+    "word": "faire les courses",
+    "word_en": "to do the grocery shopping",
+    "phrase": "On fait les courses au marché.",
+    "phrase_en": "We do our grocery shopping at the market."
+  },
+  {
+    "word": "le terroir",
+    "word_en": "local soil and traditions (terroir)",
+    "phrase": "Un fromage au subtil goût du terroir.",
+    "phrase_en": "A cheese with a subtle taste of terroir.",
+    "note": "Literally the soil; by extension the local food culture."
+  },
+  {
+    "word": "la fromagerie",
+    "word_en": "cheese shop",
+    "phrase": "On achète du comté à la fromagerie.",
+    "phrase_en": "We buy Comté at the cheese shop."
+  },
+  {
+    "word": "l’addition",
+    "word_en": "bill / check (in a restaurant)",
+    "phrase": "L’addition, s’il vous plaît.",
+    "phrase_en": "The check, please.",
+    "note": "Service is included in French restaurant prices ('service compris')."
+  },
+  {
+    "word": "le marché",
+    "word_en": "market",
+    "phrase": "Le marché est animé.",
+    "phrase_en": "The market is lively."
+  },
+  {
+    "word": "le plat",
+    "word_en": "dish / main course",
+    "phrase": "Ce plat sent bon, j’ai hâte de le goûter.",
+    "phrase_en": "This dish smells good; I cannot wait to taste it.",
+    "note": "'Plat' is also a cooked dish, not just a plate."
+  },
+  {
+    "word": "la carte",
+    "word_en": "menu (in a restaurant)",
+    "phrase": "La carte, s’il vous plaît.",
+    "phrase_en": "The menu, please."
+  },
+  {
+    "word": "le pourboire",
+    "word_en": "tip (gratuity)",
+    "phrase": "On laisse un pourboire sur la table.",
+    "phrase_en": "We leave a tip on the table.",
+    "note": "Optional in France — a small extra for good service."
+  },
+  {
+    "word": "le dessert",
+    "word_en": "dessert",
+    "phrase": "Le dessert est fait maison.",
+    "phrase_en": "The dessert is homemade."
+  },
+  {
+    "word": "la crêpe",
+    "word_en": "crêpe (thin pancake)",
+    "phrase": "Une crêpe au sucre, s’il vous plaît.",
+    "phrase_en": "A sugar crêpe, please."
+  },
+  {
+    "word": "le village",
+    "word_en": "village",
+    "phrase": "C’est un petit village tranquille.",
+    "phrase_en": "It is a small, quiet village."
+  },
+  {
+    "word": "la place",
+    "word_en": "square (town square)",
+    "phrase": "Les enfants jouent sur la place.",
+    "phrase_en": "The children are playing on the square."
+  },
+  {
+    "word": "la rue",
+    "word_en": "street",
+    "phrase": "La rue est piétonne.",
+    "phrase_en": "The street is pedestrian-only."
+  },
+  {
+    "word": "l’église",
+    "word_en": "church",
+    "phrase": "L’église est située au centre du village.",
+    "phrase_en": "The church is located in the center of the village."
+  },
+  {
+    "word": "le quartier",
+    "word_en": "neighborhood",
+    "phrase": "Le quartier est animé.",
+    "phrase_en": "The neighborhood is lively."
+  },
+  {
+    "word": "le château",
+    "word_en": "castle",
+    "phrase": "Le château est ouvert à la visite.",
+    "phrase_en": "The castle is open to visitors."
+  },
+  {
+    "word": "le musée",
+    "word_en": "museum",
+    "phrase": "Le musée est ouvert.",
+    "phrase_en": "The museum is open."
+  },
+  {
+    "word": "délicieux",
+    "word_en": "delicious",
+    "phrase": "Ce plat est délicieux.",
+    "phrase_en": "This dish is delicious."
+  },
+  {
+    "word": "charmant",
+    "word_en": "charming",
+    "phrase": "C’est un village charmant.",
+    "phrase_en": "It is a charming village."
+  },
+  {
+    "word": "gourmand",
+    "word_en": "fond of good food",
+    "phrase": "Mon frère est très gourmand, il adore tous les desserts.",
+    "phrase_en": "My brother loves good food; he adores every dessert."
+  },
+  {
+    "word": "convivial",
+    "word_en": "warm and sociable",
+    "phrase": "Une soirée conviviale.",
+    "phrase_en": "A warm, sociable evening."
+  },
+  {
+    "word": "flâner",
+    "word_en": "to stroll / wander",
+    "phrase": "Flâner dans les rues du village.",
+    "phrase_en": "To stroll through the village streets."
+  },
+  {
+    "word": "déguster",
+    "word_en": "to taste / savor",
+    "phrase": "Déguster un vin régional au comptoir.",
+    "phrase_en": "To savor a regional wine at the counter.",
+    "note": "'Déguster' means tasting with attention."
+  },
+  {
+    "word": "pique-niquer",
+    "word_en": "to have a picnic",
+    "phrase": "On peut y pique-niquer au bord de la rivière.",
+    "phrase_en": "You can picnic there by the river.",
+    "note": "Here 'y' means 'there'."
+  },
+  {
+    "word": "la soupe",
+    "word_en": "soup",
+    "phrase": "La soupe est chaude.",
+    "phrase_en": "The soup is hot."
+  },
+  {
+    "word": "le rôti",
+    "word_en": "roast (roast meat)",
+    "phrase": "Le rôti est au four.",
+    "phrase_en": "The roast is in the oven."
+  },
+  {
+    "word": "la ratatouille",
+    "word_en": "ratatouille (Provençal vegetable stew)",
+    "phrase": "La ratatouille est un plat traditionnel.",
+    "phrase_en": "Ratatouille is a traditional dish."
+  },
+  {
+    "word": "la recette",
+    "word_en": "recipe",
+    "phrase": "C’est la recette de ma grand-mère.",
+    "phrase_en": "It is my grandmother’s recipe."
+  },
+  {
+    "word": "le chèvre",
+    "word_en": "goat cheese",
+    "phrase": "Coupez en tranches le chèvre frais.",
+    "phrase_en": "Cut the fresh goat cheese into slices.",
+    "note": "Masculine in the cheese sense ('le chèvre'); the animal is 'la chèvre'."
+  },
+  {
+    "word": "le miel",
+    "word_en": "honey",
+    "phrase": "Le miel est plutôt doux.",
+    "phrase_en": "Honey is rather mild."
+  },
+  {
+    "word": "l’omelette",
+    "word_en": "omelette",
+    "phrase": "Une omelette aux champignons.",
+    "phrase_en": "A mushroom omelette.",
+    "note": "Feminine: 'une omelette'."
+  },
+  {
+    "word": "le poivre",
+    "word_en": "pepper (spice)",
+    "phrase": "Ajoutez un peu de poivre.",
+    "phrase_en": "Add a little pepper."
+  },
+  {
+    "word": "le champignon",
+    "word_en": "mushroom",
+    "phrase": "Faites sauter les champignons de Paris.",
+    "phrase_en": "Sauté the button mushrooms.",
+    "note": "Used here in its culinary sense."
+  },
+  {
+    "word": "la noix",
+    "word_en": "walnut / nut",
+    "phrase": "Ajoutez une poignée de noix.",
+    "phrase_en": "Add a handful of walnuts."
+  },
+  {
+    "word": "le raisin",
+    "word_en": "grape (fresh grapes)",
+    "phrase": "Le raisin se marie bien avec le fromage.",
+    "phrase_en": "Grapes go well with cheese.",
+    "note": "'Raisin' means fresh grapes — not the dried fruit English calls a raisin."
+  },
+  {
+    "word": "le citron",
+    "word_en": "lemon",
+    "phrase": "Ajoutez un zeste de citron.",
+    "phrase_en": "Add some lemon zest."
+  },
+  {
+    "word": "le melon",
+    "word_en": "melon",
+    "phrase": "Le melon est juteux et sucré.",
+    "phrase_en": "The melon is juicy and sweet."
+  },
+  {
+    "word": "la poire",
+    "word_en": "pear",
+    "phrase": "Une poire avec de la sauce au chocolat.",
+    "phrase_en": "A pear with chocolate sauce."
+  },
+  {
+    "word": "le thé",
+    "word_en": "tea",
+    "phrase": "Un thé vert, s’il vous plaît.",
+    "phrase_en": "A green tea, please."
+  },
+  {
+    "word": "le jus",
+    "word_en": "juice",
+    "phrase": "Je voudrais un jus d’orange, s’il vous plaît.",
+    "phrase_en": "I would like an orange juice, please."
+  },
+  {
+    "word": "le camembert",
+    "word_en": "Camembert (cheese)",
+    "phrase": "Le camembert est crémeux.",
+    "phrase_en": "Camembert is creamy."
+  },
+  {
+    "word": "le comté",
+    "word_en": "Comté (cheese)",
+    "phrase": "Le comté est un fromage au lait cru.",
+    "phrase_en": "Comté is a raw-milk cheese."
+  },
+  {
+    "word": "la mairie",
+    "word_en": "town hall",
+    "phrase": "La mairie est fermée au public.",
+    "phrase_en": "The town hall is closed to the public."
+  },
+  {
+    "word": "la tarte",
+    "word_en": "tart / pie",
+    "phrase": "La tarte aux pommes est servie tiède.",
+    "phrase_en": "The apple tart is served warm."
+  },
+  {
+    "word": "la confiture",
+    "word_en": "jam",
+    "phrase": "La confiture de fraises se tartine sur du pain frais.",
+    "phrase_en": "Strawberry jam is spread on fresh bread."
+  },
+  {
+    "word": "la quiche",
+    "word_en": "quiche",
+    "phrase": "Dégustez la quiche chaude avec une salade verte.",
+    "phrase_en": "Enjoy the warm quiche with a green salad."
+  }
+]</script>
 
   <section class="promise">
     <h2>Our promise to creators</h2>
@@ -5741,6 +7973,25 @@
     else if(e.key==='ArrowLeft')show(idx-1);
     else if(e.key==='ArrowRight')show(idx+1);
   });
+})();
+</script>
+<script>
+(function(){
+  try{
+    var data=JSON.parse(document.getElementById('wotd-data').textContent);
+    if(!data||!data.length)return;
+    var now=new Date();
+    var doy=Math.floor((now-new Date(now.getFullYear(),0,0))/864e5); /* Jan 1 -> 1 */
+    var e=data[(doy-1)%data.length];
+    var esc=function(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});};
+    var h='<span class="word">'+esc(e.word)+'</span>';
+    if(e.translit)h+=' <span class="translit">('+esc(e.translit)+')</span>';
+    h+=' <span class="gloss">&ldquo;'+esc(e.word_en)+'&rdquo;</span> <span class="sep">&middot;</span> <span class="phrase">&ldquo;'+esc(e.phrase)+'&rdquo;</span>';
+    if(e.phrase_translit)h+=' <span class="translit">('+esc(e.phrase_translit)+')</span>';
+    h+=' <span class="gloss">&ldquo;'+esc(e.phrase_en)+'&rdquo;</span>';
+    document.querySelector('#wotd .wotd-body').innerHTML=h;
+    document.getElementById('wotd-day').textContent='Day '+doy+' of 365';
+  }catch(err){}
 })();
 </script>
 </body>
