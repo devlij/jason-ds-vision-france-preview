@@ -7,5 +7,36 @@
   "scenario_label": "24 September 2026 · 00:30 Indian/Reunion",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-183-16x9.png",
-  "file_4x5": "assets/fr-01-183-4x5.png"
+  "file_4x5": "assets/fr-01-183-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-183",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-183-16x9.png (16:9) and assets/fr-01-183-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-183-16x9.png",
+        "sha256": "a9377faf071974b60c959038bc00abba25c2947108277eea84e93d2875a5d8b6"
+      },
+      "4x5": {
+        "path": "assets/fr-01-183-4x5.png",
+        "sha256": "115e8b74317b6842598f50023a5b18a1c64b23cdbb75c86ff9165887829b5587"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-183-daylight-16x9.png",
+      "4x5": "assets/fr-01-183-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "9cee9d9298e398bf9ef14d6d29486b2cb9f548bd57662dd551375ce61230ec5f",
+      "4x5": "b04d90520d80e50fd8005977d91ce7e3cb4763c2dbcc76438cba0ce66fa5c428"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Hell-Bourg, Salazie",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

@@ -7,5 +7,36 @@
   "scenario_label": "23 September 2026 · 22:45 Europe/Paris",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-205-16x9.png",
-  "file_4x5": "assets/fr-01-205-4x5.png"
+  "file_4x5": "assets/fr-01-205-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-205",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-205-16x9.png (16:9) and assets/fr-01-205-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-205-16x9.png",
+        "sha256": "931fa83c7edcd8bdb437e6b88df8c3f50178bbb6243b513d5cfb554163110674"
+      },
+      "4x5": {
+        "path": "assets/fr-01-205-4x5.png",
+        "sha256": "1344446565ef8729c3a4191a0d008a839f7c2be9601e74388c761e0c6f9a4b97"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-205-daylight-16x9.png",
+      "4x5": "assets/fr-01-205-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "71d1420ba52d99a9b3d4b6839111c9bc8d7e22322493a965b7a39843dd6ebc5d",
+      "4x5": "1b933a8e541d692366bffe2a6745ca0dd5261131d05f03de85c868209299e05f"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Cap Gris-Nez, Audinghen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

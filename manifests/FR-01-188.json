@@ -7,5 +7,36 @@
   "scenario_label": "23 September 2026 · 22:30 Europe/Paris",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-188-16x9.png",
-  "file_4x5": "assets/fr-01-188-4x5.png"
+  "file_4x5": "assets/fr-01-188-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-188",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-188-16x9.png (16:9) and assets/fr-01-188-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-188-16x9.png",
+        "sha256": "01dd59f6b8cef80d9367980ed9020fa08806c918c1e2046f7df270240cd2a467"
+      },
+      "4x5": {
+        "path": "assets/fr-01-188-4x5.png",
+        "sha256": "ad7cf2446bd5947275db1b580040a417f44ba8c65d3402e3f3f8ba78dcdc78cf"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-188-daylight-16x9.png",
+      "4x5": "assets/fr-01-188-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "07f4850bb0734662e5fec87aa03a126171a729d6f061f2124d1a38557ac10ca9",
+      "4x5": "905ba537f86c7784e313d2c2e0f3e0821a8cc47465907dd6644982e935722739"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Tour de Porto, Porto",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

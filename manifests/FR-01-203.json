@@ -7,5 +7,36 @@
   "scenario_label": "23 September 2026 · 22:45 Europe/Paris",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-203-16x9.png",
-  "file_4x5": "assets/fr-01-203-4x5.png"
+  "file_4x5": "assets/fr-01-203-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-203",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-203-16x9.png (16:9) and assets/fr-01-203-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-203-16x9.png",
+        "sha256": "92b1bf615207d1abd97bb5de3581755b92a07aff0d034742fabea6172dbddb35"
+      },
+      "4x5": {
+        "path": "assets/fr-01-203-4x5.png",
+        "sha256": "531036cd14f6fd38f14711bb037ab228b4c9c7fbcc61cc965e4f8f0a4c0c4170"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-203-daylight-16x9.png",
+      "4x5": "assets/fr-01-203-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "7e0019ffa55c8277b82e47b5b6c1b6258f724ebc5ea4676d387e4f1f095a4dfb",
+      "4x5": "ffca3c89407aa509122488d271d27cda52d575aa5377efd0d6750020cf8d2241"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Abbaye de Baume-les-Messieurs, Baume-les-Messieurs",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
