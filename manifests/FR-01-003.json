@@ -9,11 +9,11 @@
   "description": "The recorded tourist view is gothic west façade from the parvis with twin towers and restored spire. The place named on the card is Notre-Dame Cathedral, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 14:52 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Notre-Dame Cathedral in Paris under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-003-16x9.png?v=batch001",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-003-4x5.png?v=batch001",
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "Notre-Dame western facade from the parvis: twin bell towers, the great rose window, three sculpted portals, the flying-buttress gallery and the rebuilt spire rising behind the roof ridge — consistent with the restored post-fire silhouette. Gate 1: recognizably Notre-Dame, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: sweep verified exact 1920x1080 / 864x1080; on-image caption 'Notre-Dame Cathedral, Paris', scenario '23 September 2026 · 14:52 Europe/Paris', disclosure, and exact curly-apostrophe 'Jason D's Vision' signature all legible on the bottom gradient; no approvals/FR-01-003.md exists so no weather-retrieval timestamp to cross-check — scenario stands as model data, no staleness evidence. Gate 3: no photographic inputs reported (no build-agent notes file on record). Gate 4: no identifiable people, no logos. Gate 5: no open blockers.",
-  "approved_at": "2026-09-25T04:32:09.085372+00:00",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: Notre-Dame Cathedral recognizable from the parvis — Gothic west façade with twin towers, the great rose window, carved portals, and the restored spire visible to the right, clean framing, no artifacts. Gate 2 PASS: masters 1920x1080 and 864x1080 exact per sweep; on-image text verified — caption 'Notre-Dame Cathedral, Paris', scenario '23 September 2026 · 14:52 Europe/Paris', 'AI-generated artistic interpretation · Not a photograph.' on a legible bottom-left scrim, and 'Jason D's Vision' (curly apostrophe) bottom-right. Weather cross-check: approvals/FR-01-003.md records this scene's own Open-Meteo retrieval 2026-09-25T23:46:41Z (unique to the second, fresh today), model-valid hour 2026-09-23T14:00 Europe/Paris containing the 14:52 scenario minute, and per-location values weather code 3 overcast 100%, 24.1°C, wind 3.3 km/h, model elevation 38 m. Gate 3 PASS: note documents text-prompt-only pictorial frame with no photographic inputs. Gate 4 documented: no prominent identifiable people or focal logos. Gate 5: all gates pass.",
+  "approved_at": "2026-09-26T00:44:36.331815+00:00",
   "reverted_at": "2026-09-25T18:51:56.891492+00:00",
   "qc_notes": [
     {
@@ -26,5 +26,7 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Notre-Dame west front from parvis: twin towers, rose window, three portals, gallery of kings, spire visible; clean framing, no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Notre-Dame Cathedral, Paris', scenario '23 September 2026 · 14:52 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-003.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: no people/logos visible. Gate 5: not ready."
     }
-  ]
+  ],
+  "sha256_16x9": "f82e85b1a876b2383739b0804844299e0ed8aea30fd4796a27fc60cf74c5140c",
+  "sha256_4x5": "cdc293f6961ce0a00cc04b2f2782c4052e2d8a2d826ea6894065f4902420d9c2"
 }
