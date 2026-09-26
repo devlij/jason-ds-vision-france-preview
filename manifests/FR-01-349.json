@@ -7,5 +7,36 @@
   "scenario_label": "24 September 2026 · 00:45 Europe/Paris",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-349-16x9.png",
-  "file_4x5": "assets/fr-01-349-4x5.png"
+  "file_4x5": "assets/fr-01-349-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-349",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-349-16x9.png (16:9) and assets/fr-01-349-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-349-16x9.png",
+        "sha256": "c84c8d0aa75a952101a6b801c2e4fc10d6e65b12b7bb57ca04e408de866ae3f9"
+      },
+      "4x5": {
+        "path": "assets/fr-01-349-4x5.png",
+        "sha256": "04057c34ff475921abf8a5143a923f3558437101b1bf9c5d2c5339f876eddc5b"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-349-daylight-16x9.png",
+      "4x5": "assets/fr-01-349-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "0ef572f12f0e6f7c8c061cd6216fe30c10ca9ece4f3ccd2aa7c958a3b157e308",
+      "4x5": "8eeeaa57a89c22fb4b919c164ab45394984d2493d241a016077354cf67657645"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Cathédrale Saint-Étienne, Toul",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

@@ -7,5 +7,36 @@
   "scenario_label": "23 September 2026 · 21:00 America/Miquelon",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-354-16x9.png",
-  "file_4x5": "assets/fr-01-354-4x5.png"
+  "file_4x5": "assets/fr-01-354-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-354",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-354-16x9.png (16:9) and assets/fr-01-354-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-354-16x9.png",
+        "sha256": "54326dd9ecddfa5ed4aa72795e3b58b16e25d5428dbd0c1201318b711c063a09"
+      },
+      "4x5": {
+        "path": "assets/fr-01-354-4x5.png",
+        "sha256": "0161a01a8238bc9e78bf8707354a9a32039a0c8847621f02a0b738f00058398e"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-354-daylight-16x9.png",
+      "4x5": "assets/fr-01-354-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "e12401064938aadc7482f1b732ecfde3b539450b720816c817c1da477ae8fa1f",
+      "4x5": "4c165734b21f57b603ed6d5a3ad0a7dfebed92ce71d66a4129362fd9a12f0b2d"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Grand Barachois, Miquelon",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

@@ -7,5 +7,36 @@
   "scenario_label": "24 September 2026 · 00:30 Europe/Paris",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-333-16x9.png",
-  "file_4x5": "assets/fr-01-333-4x5.png"
+  "file_4x5": "assets/fr-01-333-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-333",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-333-16x9.png (16:9) and assets/fr-01-333-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-333-16x9.png",
+        "sha256": "27613cfc076482b8aeb165a4c693bcbf9b26b4070ea2eea85c3f8a44cddb7a41"
+      },
+      "4x5": {
+        "path": "assets/fr-01-333-4x5.png",
+        "sha256": "461cd7ccda67ed44125e7cebe187c8b25d6314072ab5ab61490767223a5c6185"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-333-daylight-16x9.png",
+      "4x5": "assets/fr-01-333-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "6722bc62a0f732fbdbf9e927b8e8b7a4dbdeeb7c27965b09a61cd15b48d94b99",
+      "4x5": "e5e48c66c0aade41f3619101732b791da71631b8bf84cccf88bf0103fa92a724"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Alignements de Carnac, Carnac",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

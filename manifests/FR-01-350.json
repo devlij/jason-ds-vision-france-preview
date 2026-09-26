@@ -7,5 +7,36 @@
   "scenario_label": "24 September 2026 · 00:45 Europe/Paris",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-350-16x9.png",
-  "file_4x5": "assets/fr-01-350-4x5.png"
+  "file_4x5": "assets/fr-01-350-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-350",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-350-16x9.png (16:9) and assets/fr-01-350-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-350-16x9.png",
+        "sha256": "3f35529cafa4a5a3fad2d4a842171b573b357c6579ced1ad8c9bd7c74f780b57"
+      },
+      "4x5": {
+        "path": "assets/fr-01-350-4x5.png",
+        "sha256": "7ab9be063dd4445721434968408867ca602bca00d4d72f2424408d547159d886"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "assets/fr-01-350-daylight-16x9.png",
+      "4x5": "assets/fr-01-350-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "53e91eb1c10d5df4444e85931ff79388fb0ccc63eb247e19d315457ad9948abc",
+      "4x5": "efbf52a0a24297eef79a1f997cd5304236c4542a698dc4aa5a33129b3c12e73d"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Cathédrale Notre-Dame, Noyon",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
