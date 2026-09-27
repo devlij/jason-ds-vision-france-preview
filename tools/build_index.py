@@ -143,7 +143,7 @@ P1_CARD = r"""        card.className = 'card';
         card.innerHTML = `
           ${hero ? `<div class="preview">
             <a class="thumb" href="${esc(hero)}" target="_blank" rel="noopener">
-              <img src="${esc(hero)}" alt="${esc(s.alt_text)}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${day16 ? ` data-src-16-day="${esc(day16)}"` : ""}${day45 ? ` data-src-45-day="${esc(day45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""} />
+              <img src="${esc(hero)}" alt="${esc(sceneAlt(s))}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${day16 ? ` data-src-16-day="${esc(day16)}"` : ""}${day45 ? ` data-src-45-day="${esc(day45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""} />
             </a>
           </div>` : ""}
           ${(file16 || file45 || file916) ? `<div class="fmt-tabs" role="group" aria-label="Image size">
@@ -170,6 +170,23 @@ P1_CARD = r"""        card.className = 'card';
             </div>
           </div>`;
         grid.appendChild(card);
+"""
+
+P1_SCENE_ALT = r"""    /* P1-ALT-START */
+    /* Empty or generic alts become "{card description} — {site}, {City}". */
+    function sceneAlt(s) {
+      var current = String((s && s.alt_text) || "").trim();
+      var title = String((s && s.caption) || "").trim();
+      var desc = String((s && s.description) || "").trim();
+      var generic = !current
+        || /^(image|photo|picture|img|scene|thumbnail|placeholder)$/i.test(current)
+        || current === title
+        || current === String((s && s.entry_id) || "")
+        || /^AI-generated artistic interpretation\b/i.test(current);
+      var built = desc && title ? desc + " \u2014 " + title : (desc || title);
+      return generic ? (built || current) : current;
+    }
+    /* P1-ALT-END */
 """
 
 P1_ENHANCE = r"""<script>
@@ -232,7 +249,9 @@ P1_ENHANCE = r"""<script>
             var m = FRANCE_META[rid];
             if (!m || !m[3]) return;
             var a = document.createElement('a'); a.className = 'related-link'; a.href = '#' + rid;
-            var im = document.createElement('img'); im.loading = 'lazy'; im.src = m[3]; im.alt = m[4];
+            var im = document.createElement('img'); im.loading = 'lazy'; im.src = m[3];
+            var relScene = (typeof SCENES !== 'undefined') ? SCENES.filter(function(s){ return s.entry_id === rid; })[0] : null;
+            im.alt = relScene ? sceneAlt(relScene) : m[4];
             var sp = document.createElement('span'); sp.textContent = m[4];
             a.appendChild(im); a.appendChild(sp); grid.appendChild(a);
           });
@@ -622,7 +641,18 @@ def _insert_enhance_call(html: str) -> str:
     return html.replace(anchor, replacement, 1)
 
 
+def _insert_scene_alt(html: str) -> str:
+    """Emit sceneAlt once. A later publish leaves the block in place."""
+    if "/* P1-ALT-START */" in html:
+        return html
+    anchor = "    function render() {\n"
+    if anchor not in html:
+        raise SystemExit("render() anchor missing; refusing to publish")
+    return html.replace(anchor, P1_SCENE_ALT + anchor, 1)
+
+
 def insert_phase1(html: str, meta: dict[str, list[str]]) -> str:
+    html = _insert_scene_alt(html)
     html = _insert_css(html)
     html = re.sub(
         r"<button type=\"button\" id=\"clear\">.*?</button>",
@@ -923,6 +953,8 @@ def assert_phase1(html: str) -> None:
         'id="clear">Clear all</button>',
         "countEl.textContent = filtered.length",
         "card.id = s.entry_id;",
+        "function sceneAlt(s)",
+        "alt=\"${esc(sceneAlt(s))}\"",
         "const FRANCE_META=",
         "window.__phase1Enhance",
         "Copy link",
