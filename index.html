@@ -8154,11 +8154,11 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         card.id = s.entry_id;
         const file16 = s.file_16x9 || "";
         const file45 = s.file_4x5 || "";
-        /* 9:16 tab and download only when that master is present AND approved. */
-        const file916 = (s.file_9x16 && s.format_9x16_approval_status === "Approved") ? s.file_9x16 : "";
+        /* file_9x16 is present only when the generator found that file on disk. */
+        const file916 = s.file_9x16 || "";
         const day16 = s.file_16x9_day || "";
         const day45 = s.file_4x5_day || "";
-        const day916 = (file916 && s.file_9x16_day) ? s.file_9x16_day : "";
+        const day916 = s.file_9x16_day || "";
         const audioSrc = (typeof s.audio === "string" && /^audio\/[^/?#]+\.mp3(?:\?.*)?$/.test(s.audio)) ? s.audio : "";
         const hero = file16 || file45 || file916;
         card.innerHTML = `
@@ -8209,7 +8209,7 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         const dlink = dcard.querySelector('a.thumb');
         const dimg = dlink && dlink.querySelector('img');
         const t916 = dcard.querySelector('.fmt-tab[data-format="9x16"]');
-        if (t916 && !dcard.hasAttribute('data-916-missing')) {
+        if (t916) {
           const day916src = dimg && dimg.getAttribute('data-src-916-day');
           const hide916 = isDay && !day916src;
           t916.disabled = hide916;
@@ -8242,6 +8242,11 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
       const card = tab.closest('.card');
       if (!card) return;
       const fmt = tab.getAttribute('data-format');
+      card.querySelectorAll('.fmt-tab').forEach((item) => {
+        const on = item === tab;
+        item.classList.toggle('is-active', on);
+        item.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
       const link = card.querySelector('a.thumb');
       const img = link && link.querySelector('img');
       if (!img || !link) return;
@@ -8252,34 +8257,12 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         : fmt === '9x16'
         ? (useDay && img.getAttribute('data-src-916-day')) || img.getAttribute('data-src-916')
         : (useDay && img.getAttribute('data-src-16-day')) || img.getAttribute('data-src-16');
-      const activate = () => {
-        card.querySelectorAll('.fmt-tab').forEach((item) => {
-          const on = item === tab;
-          item.classList.toggle('is-active', on);
-          item.setAttribute('aria-pressed', on ? 'true' : 'false');
-        });
-        if (next) {
-          img.src = next;
-          link.href = next;
-        }
-        link.classList.toggle('tall', fmt === '4x5');
-        link.classList.toggle('tall916', fmt === '9x16');
-      };
-      /* Hide a 9:16 control whose master 404s. Image sources stay getAttribute, never dataset camelCase. */
-      if (fmt === '9x16' && next && !card.hasAttribute('data-916-ok')) {
-        const probe = new Image();
-        probe.onload = function(){ card.setAttribute('data-916-ok', '1'); activate(); };
-        probe.onerror = function(){
-          card.setAttribute('data-916-missing', '1');
-          tab.remove();
-          const dl = card.querySelector('a.download[data-dl="9x16"]');
-          if (dl) dl.remove();
-          link.classList.remove('tall916');
-        };
-        probe.src = next;
-        return;
+      if (next) {
+        img.src = next;
+        link.href = next;
       }
-      activate();
+      link.classList.toggle('tall', fmt === '4x5');
+      link.classList.toggle('tall916', fmt === '9x16');
     });
     q.addEventListener('input', render);
     region.addEventListener('change', render);

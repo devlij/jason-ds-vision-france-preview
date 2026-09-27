@@ -13,6 +13,10 @@ this script keeps Phase-1. Hand-patches to index.html do not.
 Scene copy stays in index.html (the published catalogue). Day/night and
 mood tags stay in tools/phase1_scene_meta.json. Image files are only
 read, never written.
+
+A 9:16 path is copied into the catalogue only when that master file is on
+disk. The published page does not probe for it, and it does not remove a
+tab after the card has rendered.
 """
 
 from __future__ import annotations
@@ -37,6 +41,9 @@ FILE_KEYS = (
     "file_9x16_day",
     "audio",
 )
+# Portrait controls are a disk gate, same as Greece and Switzerland.
+# A remote URL is not a master and is not emitted.
+PORTRAIT_KEYS = ("file_9x16", "file_9x16_day")
 
 MOODS = ("coastal", "mountain", "urban", "historic")
 MOOD_WORDS = {
@@ -122,11 +129,11 @@ P1_CARD = r"""        card.className = 'card';
         card.id = s.entry_id;
         const file16 = s.file_16x9 || "";
         const file45 = s.file_4x5 || "";
-        /* 9:16 tab and download only when that master is present AND approved. */
-        const file916 = (s.file_9x16 && s.format_9x16_approval_status === "Approved") ? s.file_9x16 : "";
+        /* file_9x16 is present only when the generator found that file on disk. */
+        const file916 = s.file_9x16 || "";
         const day16 = s.file_16x9_day || "";
         const day45 = s.file_4x5_day || "";
-        const day916 = (file916 && s.file_9x16_day) ? s.file_9x16_day : "";
+        const day916 = s.file_9x16_day || "";
         const audioSrc = (typeof s.audio === "string" && /^audio\/[^/?#]+\.mp3(?:\?.*)?$/.test(s.audio)) ? s.audio : "";
         const hero = file16 || file45 || file916;
         card.innerHTML = `
@@ -275,12 +282,43 @@ def master_present(url: str, root: Path) -> bool:
     return (root / path).is_file()
 
 
+def master_on_disk(url: str, root: Path) -> bool:
+    """True when url is a non-empty file inside the repo.
+
+    Remote and absolute paths are missing masters. This is the Greece and
+    Switzerland rule for optional portrait files: the catalogue line is
+    written only when the file is already on disk.
+    """
+    if not url or not isinstance(url, str):
+        return False
+    path = url.split("?", 1)[0].strip()
+    if not path or path.startswith(("/", "\\")) or "://" in path:
+        return False
+    file_path = (root / path).resolve()
+    try:
+        file_path.relative_to(root.resolve())
+    except ValueError:
+        return False
+    return file_path.is_file() and file_path.stat().st_size > 0
+
+
 def prune_scene(scene: dict, root: Path) -> dict:
-    """Drop file/audio fields whose local master is not on disk."""
+    """Drop file/audio fields that must not be published.
+
+    9:16 fields stay only when that master exists on disk. Other file fields
+    keep the previous local-or-remote check.
+    """
     kept = dict(scene)
     for key in FILE_KEYS:
         value = kept.get(key)
-        if value and not master_present(str(value), root):
+        if not value:
+            continue
+        present = (
+            master_on_disk(str(value), root)
+            if key in PORTRAIT_KEYS
+            else master_present(str(value), root)
+        )
+        if not present:
             kept.pop(key, None)
     return kept
 
@@ -686,6 +724,11 @@ _NEW_FMT_HANDLER = """      const tab = event.target.closest('.fmt-tab');
       const card = tab.closest('.card');
       if (!card) return;
       const fmt = tab.getAttribute('data-format');
+      card.querySelectorAll('.fmt-tab').forEach((item) => {
+        const on = item === tab;
+        item.classList.toggle('is-active', on);
+        item.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
       const link = card.querySelector('a.thumb');
       const img = link && link.querySelector('img');
       if (!img || !link) return;
@@ -696,34 +739,12 @@ _NEW_FMT_HANDLER = """      const tab = event.target.closest('.fmt-tab');
         : fmt === '9x16'
         ? (useDay && img.getAttribute('data-src-916-day')) || img.getAttribute('data-src-916')
         : (useDay && img.getAttribute('data-src-16-day')) || img.getAttribute('data-src-16');
-      const activate = () => {
-        card.querySelectorAll('.fmt-tab').forEach((item) => {
-          const on = item === tab;
-          item.classList.toggle('is-active', on);
-          item.setAttribute('aria-pressed', on ? 'true' : 'false');
-        });
-        if (next) {
-          img.src = next;
-          link.href = next;
-        }
-        link.classList.toggle('tall', fmt === '4x5');
-        link.classList.toggle('tall916', fmt === '9x16');
-      };
-      /* Hide a 9:16 control whose master 404s. Image sources stay getAttribute, never dataset camelCase. */
-      if (fmt === '9x16' && next && !card.hasAttribute('data-916-ok')) {
-        const probe = new Image();
-        probe.onload = function(){ card.setAttribute('data-916-ok', '1'); activate(); };
-        probe.onerror = function(){
-          card.setAttribute('data-916-missing', '1');
-          tab.remove();
-          const dl = card.querySelector('a.download[data-dl="9x16"]');
-          if (dl) dl.remove();
-          link.classList.remove('tall916');
-        };
-        probe.src = next;
-        return;
+      if (next) {
+        img.src = next;
+        link.href = next;
       }
-      activate();
+      link.classList.toggle('tall', fmt === '4x5');
+      link.classList.toggle('tall916', fmt === '9x16');
 """
 
 _OLD_DAY_MARK = """        dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
@@ -738,7 +759,7 @@ _NEW_DAY_MARK = """        dtab.setAttribute('data-daynight', isDay ? 'day' : 'n
         const dlink = dcard.querySelector('a.thumb');
         const dimg = dlink && dlink.querySelector('img');
         const t916 = dcard.querySelector('.fmt-tab[data-format="9x16"]');
-        if (t916 && !dcard.hasAttribute('data-916-missing')) {
+        if (t916) {
           const day916src = dimg && dimg.getAttribute('data-src-916-day');
           const hide916 = isDay && !day916src;
           t916.disabled = hide916;
@@ -837,8 +858,7 @@ def assert_phase1(html: str) -> None:
         "Copy link",
         "Copied \\u2713",
         "G-PDJ4WSS725",
-        'format_9x16_approval_status === "Approved"',
-        "data-916-ok",
+        'const file916 = s.file_9x16 || "";',
         "flag-chip.flag-no",
         "getAttribute('data-src-45')",
         "getAttribute('data-format')",
@@ -866,6 +886,17 @@ def assert_phase1(html: str) -> None:
         raise SystemExit(f"GA4 measurement ids must be G-PDJ4WSS725 only, found {ga_ids}")
     if "dataset.src45" in html or "dataset.src916" in html or "tab.dataset.format" in html:
         raise SystemExit("tab image sources must use getAttribute, not camelCase dataset")
+    banned_probe = (
+        "data-916-ok",
+        "data-916-missing",
+        "probe.onerror",
+        "new Image()",
+        "format_9x16_approval_status",
+        "tab.remove()",
+    )
+    survived = [item for item in banned_probe if item in html]
+    if survived:
+        raise SystemExit("9:16 runtime probe survived publish")
 
 
 def prove(html: str | None = None) -> None:
@@ -912,11 +943,59 @@ def prove(html: str | None = None) -> None:
     sample = dict(scenes[0])
     sample["file_16x9_day"] = "assets/does-not-exist-daylight-16x9.png"
     sample["file_4x5_day"] = "assets/does-not-exist-daylight-4x5.png"
+    sample["file_9x16"] = "assets/does-not-exist-9x16.png"
+    sample["file_9x16_day"] = "https://example.invalid/missing-9x16.png"
     pruned = prune_scene(sample, ROOT)
     if "file_16x9_day" in pruned or "file_4x5_day" in pruned:
         raise SystemExit("missing daylight masters were kept")
+    if "file_9x16" in pruned or "file_9x16_day" in pruned:
+        raise SystemExit("9:16 master that is not on disk was kept")
     if not pruned.get("file_16x9"):
         raise SystemExit("present master was dropped")
+
+    real_portrait = "assets/fr-01-001-16x9.png"
+    if not master_on_disk(real_portrait, ROOT):
+        raise SystemExit("expected a local master for the 9:16 disk gate")
+    on_disk = dict(scenes[0])
+    on_disk["file_9x16"] = real_portrait
+    if prune_scene(on_disk, ROOT).get("file_9x16") != real_portrait:
+        raise SystemExit("9:16 master on disk was dropped")
+    empty_portrait = ROOT / "assets" / "_empty-9x16-gate.png"
+    empty_portrait.write_bytes(b"")
+    try:
+        empty_scene = dict(scenes[0])
+        empty_scene["file_9x16"] = "assets/_empty-9x16-gate.png"
+        if "file_9x16" in prune_scene(empty_scene, ROOT):
+            raise SystemExit("empty 9:16 file was emitted")
+    finally:
+        empty_portrait.unlink(missing_ok=True)
+
+    def inject_field(html: str, entry_id: str, key: str, value: str) -> str:
+        i, j = _js_span(html, "const SCENES = ", "[", "]")
+        block = html[i:j]
+        marker = f'entry_id: "{entry_id}"'
+        start = block.find(marker)
+        if start < 0:
+            raise SystemExit(f"{entry_id} missing from scene catalogue")
+        line_end = block.find("\n", start)
+        inserted = f'\n          {key}: "{value}",'
+        block = block[:line_end] + inserted + block[line_end:]
+        return html[:i] + block + html[j:]
+
+    gated = inject_field(published, "FR-01-001", "file_9x16", "assets/does-not-exist-9x16.png")
+    gated = inject_field(gated, "FR-01-002", "file_9x16", "https://example.invalid/fr-9x16.png")
+    gated = inject_field(gated, "FR-01-003", "file_9x16", real_portrait)
+    gated = inject_field(gated, "FR-01-003", "file_9x16_day", "assets/does-not-exist-9x16-day.png")
+    gated_html = publish_html(gated, ROOT, load_tags())
+    gated_scenes = {scene["entry_id"]: scene for scene in parse_scenes(gated_html)}
+    if "file_9x16" in gated_scenes["FR-01-001"] or "file_9x16" in gated_scenes["FR-01-002"]:
+        raise SystemExit("publish emitted a 9:16 path that is not on disk")
+    if gated_scenes["FR-01-003"].get("file_9x16") != real_portrait:
+        raise SystemExit("publish dropped a 9:16 master that is on disk")
+    if "file_9x16_day" in gated_scenes["FR-01-003"]:
+        raise SystemExit("publish emitted a missing daylight 9:16 master")
+    if "new Image()" in gated_html or "data-916-ok" in gated_html:
+        raise SystemExit("publish still contains the 9:16 click probe")
 
     # Empty thumb is excluded from the four related slots.
     broken = {k: list(v) for k, v in meta.items()}
