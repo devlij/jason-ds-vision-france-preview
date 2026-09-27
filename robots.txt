@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://france.jdvision.org/sitemap.xml
+Sitemap: https://france.jdvision.org/image-sitemap.xml

@@ -8117,6 +8117,21 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
       return slash >= 0 ? path.slice(slash + 1) : path;
     }
 
+    /* P1-ALT-START */
+    /* Empty or generic alts become "{card description} — {site}, {City}". */
+    function sceneAlt(s) {
+      var current = String((s && s.alt_text) || "").trim();
+      var title = String((s && s.caption) || "").trim();
+      var desc = String((s && s.description) || "").trim();
+      var generic = !current
+        || /^(image|photo|picture|img|scene|thumbnail|placeholder)$/i.test(current)
+        || current === title
+        || current === String((s && s.entry_id) || "")
+        || /^AI-generated artistic interpretation\b/i.test(current);
+      var built = desc && title ? desc + " \u2014 " + title : (desc || title);
+      return generic ? (built || current) : current;
+    }
+    /* P1-ALT-END */
     function render() {
       const query = q.value.trim().toLowerCase();
       const reg = region.value;
@@ -8164,7 +8179,7 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         card.innerHTML = `
           ${hero ? `<div class="preview">
             <a class="thumb" href="${esc(hero)}" target="_blank" rel="noopener">
-              <img src="${esc(hero)}" alt="${esc(s.alt_text)}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${day16 ? ` data-src-16-day="${esc(day16)}"` : ""}${day45 ? ` data-src-45-day="${esc(day45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""} />
+              <img src="${esc(hero)}" alt="${esc(sceneAlt(s))}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${day16 ? ` data-src-16-day="${esc(day16)}"` : ""}${day45 ? ` data-src-45-day="${esc(day45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""} />
             </a>
           </div>` : ""}
           ${(file16 || file45 || file916) ? `<div class="fmt-tabs" role="group" aria-label="Image size">
@@ -8278,9 +8293,21 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
   overlay.className='lb';overlay.setAttribute('aria-hidden','true');
   overlay.innerHTML='<button class="lb-close" aria-label="Close">&times;</button>'
     +'<div class="lb-nav"><button class="lb-prev" aria-label="Previous image">&#8249;</button><span class="lb-count"></span><button class="lb-next" aria-label="Next image">&#8250;</button></div>'
-    +'<figure><img alt=""><figcaption><span class="lb-cap"></span></figcaption><button class="lb-play" aria-label="Play slideshow">&#9654;</button><button class="lb-narrate" aria-label="Listen to the scene description" style="display:none">&#128266;</button></figure>';
+    +'<figure><img><figcaption><span class="lb-cap"></span></figcaption><button class="lb-play" aria-label="Play slideshow">&#9654;</button><button class="lb-narrate" aria-label="Listen to the scene description" style="display:none">&#128266;</button></figure>';
   document.body.appendChild(overlay);
   var img=overlay.querySelector('img'),cap=overlay.querySelector('.lb-cap'),count=overlay.querySelector('.lb-count');
+  (function seedAlt(){
+    var card=document.querySelector('.card');
+    var title='';var desc='';
+    if(card){
+      var t=card.querySelector('.caption');
+      var d=card.querySelector('p.detail');
+      title=t?t.textContent:'';
+      desc=d?d.textContent.trim():'';
+    }
+    img.alt=desc&&title?desc+' \u2014 '+title:(desc||title||'');
+    if(!img.alt && typeof sceneAlt==='function' && typeof SCENES!=='undefined' && SCENES.length) img.alt=sceneAlt(SCENES[0]);
+  })();
   var playBtn=overlay.querySelector('.lb-play');
   var lbNarr=overlay.querySelector('.lb-narrate');/* studio narration: singleton, never overlaid on an image */
   var narrAudio=null,narrUrl=null;
@@ -8299,17 +8326,22 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
   function visibleCards(){return Array.prototype.filter.call(document.querySelectorAll('.card'),function(c){return c.style.display!=='none';});}
   function show(i){
     items=visibleCards().map(function(c){
-      var im=c.querySelector('a.thumb img');var t=c.querySelector('.caption');
+      var im=c.querySelector('a.thumb img');
+      var t=c.querySelector('.caption');
+      var detail=c.querySelector('p.detail');
       var src='';var daySrc='';
       if(im){var nk=lbFormat==='4x5'?'data-src-45':lbFormat==='9x16'?'data-src-916':'data-src-16',dk=lbFormat==='4x5'?'data-src-45-day':lbFormat==='9x16'?'data-src-916-day':'data-src-16-day';if(lbDay==='day'){daySrc=im.getAttribute(dk)||'';}src=daySrc||im.getAttribute(nk);}
       if(!src){var a=c.querySelector('a.thumb');src=a?a.href:'';}
-      var capT=t?t.textContent:'';if(daySrc)capT=capT+' \u2014 \u2600 Daylight variant';
+      var title=t?t.textContent:'';
+      var desc=detail?detail.textContent.trim():'';
+      var capT=title;if(daySrc)capT=capT+' \u2014 \u2600 Daylight variant';
+      var altText=desc&&title?desc+' \u2014 '+title:(desc||title);
       var nbtn=c.querySelector('.narrate');
-      return{src:src,cap:capT,audio:nbtn?nbtn.getAttribute('data-audio'):''};
+      return{src:src,cap:capT,alt:altText,audio:nbtn?nbtn.getAttribute('data-audio'):''};
     }).filter(function(x){return x.src;});
     if(!items.length)return;
     idx=(i+items.length)%items.length;
-    img.src=items[idx].src;img.alt=items[idx].cap;cap.textContent=items[idx].cap;
+    img.src=items[idx].src;img.alt=items[idx].alt||items[idx].cap;cap.textContent=items[idx].cap;
     count.textContent=(idx+1)+' / '+items.length;
     narrStop();var curAu=items[idx].audio||'';if(curAu){lbNarr.setAttribute('data-audio',curAu);lbNarr.style.display='';}else{lbNarr.removeAttribute('data-audio');lbNarr.style.display='none';}
     if(playing){if(timer)clearInterval(timer);timer=setInterval(function(){show(idx+1);},SLIDE_MS);}
@@ -8415,7 +8447,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
             var m = FRANCE_META[rid];
             if (!m || !m[3]) return;
             var a = document.createElement('a'); a.className = 'related-link'; a.href = '#' + rid;
-            var im = document.createElement('img'); im.loading = 'lazy'; im.src = m[3]; im.alt = m[4];
+            var im = document.createElement('img'); im.loading = 'lazy'; im.src = m[3];
+            var relScene = (typeof SCENES !== 'undefined') ? SCENES.filter(function(s){ return s.entry_id === rid; })[0] : null;
+            im.alt = relScene ? sceneAlt(relScene) : m[4];
             var sp = document.createElement('span'); sp.textContent = m[4];
             a.appendChild(im); a.appendChild(sp); grid.appendChild(a);
           });
