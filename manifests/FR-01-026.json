@@ -6,13 +6,21 @@
   "caption": "Château de Vincennes, Vincennes",
   "scenario_label": "23 September 2026 · 15:12 Europe/Paris",
   "composition": "Massive medieval keep with corner turrets, moat, and Sainte-Chapelle flèche · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is massive medieval keep with corner turrets, moat, and Sainte-Chapelle flèche. The place named on the card is Château de Vincennes, Vincennes, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:12 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is massive medieval keep with corner turrets, moat, and Sainte-Chapelle flèche. The place named on the card is Château de Vincennes, Vincennes, in Île-de-France. Model data from Open-Meteo, retrieved 2026-09-27T18:56:52+02:00 (2026-09-27T16:56:52Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.7°C, wind 4.3 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Château de Vincennes under clear afternoon light",
-  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-026-16x9.png?v=batch025",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-026-16x9.png?v=wx012026",
   "approval_status": "Candidate",
-  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-026-4x5.png?v=batch025",
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "Château de Vincennes: the massive limestone donjon keep with its corner turrets rising over the crenellated enceinte walls and moat, the Sainte-Chapelle's tall spire visible to the right behind the walls, mature trees and the avenue path framing the moat. Gate 1 passes on the donjon-enceinte-chapel ensemble from this moat-side viewpoint; clean framing, no artifacts. Gate 2: caption 'Château de Vincennes, Vincennes', scenario '23 September 2026 · 15:12 Europe/Paris', AI disclosure bottom-left; 'Jason D's Vision' signature bottom-right with curly apostrophe; exact 1920×1080/864×1080 masters verified. approvals/FR-01-026.md absent from the repo, so no weather-retrieval timestamp to cross-check; scenario minute unique to this scene. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: tiny distant figures on the path only, no logos; documented. Gate 5: ready.",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-026-4x5.png?v=wx012026",
+  "file_9x16": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-026-9x16.png?v=wx012026",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-27T16:56:52Z",
+  "weather_retrieval_local": "2026-09-27T18:56:52+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-27T18:56:52+02:00 (2026-09-27T16:56:52Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.7°C, wind 4.3 km/h, precipitation 0.0 mm.",
+  "qc_status": "Candidate — per-scene Open-Meteo retrieval recorded 2026-09-27; awaiting Cosmo QC",
+  "approval_basis": "2026-09-27 builder rework is in the matching approvals note. Status remains Candidate; this file does not approve the scene. The earlier basis below was withdrawn with the 2026-09-25 reversion. Château de Vincennes: the massive limestone donjon keep with its corner turrets rising over the crenellated enceinte walls and moat, the Sainte-Chapelle's tall spire visible to the right behind the walls, mature trees and the avenue path framing the moat. Gate 1 passes on the donjon-enceinte-chapel ensemble from this moat-side viewpoint; clean framing, no artifacts. Gate 2: caption 'Château de Vincennes, Vincennes', scenario '23 September 2026 · 15:12 Europe/Paris', AI disclosure bottom-left; 'Jason D's Vision' signature bottom-right with curly apostrophe; exact 1920×1080/864×1080 masters verified. approvals/FR-01-026.md absent from the repo, so no weather-retrieval timestamp to cross-check; scenario minute unique to this scene. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: tiny distant figures on the path only, no logos; documented. Gate 5: ready.",
   "approved_at": "2026-09-25T06:33:42.323200+00:00",
   "reverted_at": "2026-09-25T18:52:35.299939+00:00",
   "qc_notes": [
@@ -30,6 +38,14 @@
       "at": "2026-09-26T21:31:52.091167+00:00",
       "by": "Cosmo QC",
       "note": "Cosmo QC 2026-09-26 ~17:30 EDT — Gate 2 hold: no verifiable per-scene Open-Meteo retrieval timestamp exists for this scene. No approvals/FR-01-026.md note exists in the repo, and the scene is not covered by BATCH-FR-weather-rework-fullsteam-2026-09-25.txt. The on-image scenario line (23 September 2026 · 15:12 Europe/Paris) cannot be cross-checked against any recorded retrieval, so the weather gate cannot pass and approval is refused. Gate 1 visually plausible (Château de Vincennes — massive donjon with corner turrets, Sainte-Chapelle de Vincennes spire, moat and ramparts); exact 1920x1080 / 864x1080 masters; exact caption, signature, and AI disclosure legible. Gate 4: a few figures on the path, no logos. Pending builder per-scene weather rework with a recorded retrieval timestamp."
+    },
+    {
+      "at": "2026-09-27T16:56:52Z",
+      "by": "builder",
+      "note": "Builder rework 2026-09-27: one Open-Meteo retrieval for this scene, HTTP Date recorded in approvals/FR-01-026.md, scenario 23 September 2026 · 15:12 Europe/Paris inside 2026-09-23T15:00 Europe/Paris. Masters re-finished to 1920×1270, 864×1270, and 1080×2110 with a 190px label bar. Status stays Candidate for Cosmo QC."
     }
-  ]
+  ],
+  "sha256_16x9": "0f788ecceb6adce7016873cceca4662b2342ea2e187df60f420b83eaa8d5aa01",
+  "sha256_4x5": "413492b70d97f11ef4c91abe325bd126ac941e2ba511ec687be316894c747968",
+  "sha256_9x16": "73c2ce5c0e347965158b906119e45e7311bdcbdfd070011b951de6cd266e5d9f"
 }

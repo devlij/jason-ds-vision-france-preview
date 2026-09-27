@@ -6,13 +6,21 @@
   "caption": "Musée d'Orsay, Paris",
   "scenario_label": "23 September 2026 · 15:22 Europe/Paris",
   "composition": "Beaux-Arts Orsay river façade with central clock along the Seine · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is beaux-Arts Orsay river façade with central clock along the Seine. The place named on the card is Musée d'Orsay, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:22 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is beaux-Arts Orsay river façade with central clock along the Seine. The place named on the card is Musée d'Orsay, Paris, in Île-de-France. Model data from Open-Meteo, retrieved 2026-09-27T18:54:38+02:00 (2026-09-27T16:54:38Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.6°C, wind 3.2 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Musée d'Orsay under clear afternoon light",
-  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-019-16x9.png?v=batch017",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-019-16x9.png?v=wx012026",
   "approval_status": "Candidate",
-  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-019-4x5.png?v=batch017",
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "G1 visual pass: the long Beaux-Arts facade of the former Gare d'Orsay with its big station clocks and arched windows, viewed across the Seine from the Rive Droite — unmistakably the Musée d'Orsay, clean framing, no artifacts. G2 technical pass: masters verified 1920x1080 / 864x1080; on-image caption \"Musée d'Orsay, Paris\" with straight apostrophe in the title case, scenario '23 September 2026 · 15:22 Europe/Paris', and the AI disclosure all legible bottom-left on the scrim; 'Jason D's Vision' signature with curly apostrophe bottom-right; label matches the repo SCENES block and the sequential daylight batch with no weather-metadata reuse evidence (no approvals note exists for this entry). G3 originality: no photographic inputs reported. G4 commercial/IP: no visible people, logos, or private property — public national museum, documented only. G5 publication ready.",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-019-4x5.png?v=wx012026",
+  "file_9x16": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-019-9x16.png?v=wx012026",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-27T16:54:38Z",
+  "weather_retrieval_local": "2026-09-27T18:54:38+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-27T18:54:38+02:00 (2026-09-27T16:54:38Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.6°C, wind 3.2 km/h, precipitation 0.0 mm.",
+  "qc_status": "Candidate — per-scene Open-Meteo retrieval recorded 2026-09-27; awaiting Cosmo QC",
+  "approval_basis": "2026-09-27 builder rework is in the matching approvals note. Status remains Candidate; this file does not approve the scene. The earlier basis below was withdrawn with the 2026-09-25 reversion. G1 visual pass: the long Beaux-Arts facade of the former Gare d'Orsay with its big station clocks and arched windows, viewed across the Seine from the Rive Droite — unmistakably the Musée d'Orsay, clean framing, no artifacts. G2 technical pass: masters verified 1920x1080 / 864x1080; on-image caption \"Musée d'Orsay, Paris\" with straight apostrophe in the title case, scenario '23 September 2026 · 15:22 Europe/Paris', and the AI disclosure all legible bottom-left on the scrim; 'Jason D's Vision' signature with curly apostrophe bottom-right; label matches the repo SCENES block and the sequential daylight batch with no weather-metadata reuse evidence (no approvals note exists for this entry). G3 originality: no photographic inputs reported. G4 commercial/IP: no visible people, logos, or private property — public national museum, documented only. G5 publication ready.",
   "approved_at": "2026-09-25T05:32:56.415050+00:00",
   "reverted_at": "2026-09-25T18:52:22.638627+00:00",
   "qc_notes": [
@@ -30,6 +38,14 @@
       "at": "2026-09-26T21:31:32.623150+00:00",
       "by": "Cosmo QC",
       "note": "Cosmo QC 2026-09-26 ~17:30 EDT — Gate 2 hold: no verifiable per-scene Open-Meteo retrieval timestamp exists for this scene. No approvals/FR-01-019.md note exists in the repo, and the scene is not covered by BATCH-FR-weather-rework-fullsteam-2026-09-25.txt. The on-image scenario line (23 September 2026 · 15:22 Europe/Paris) cannot be cross-checked against any recorded retrieval, so the weather gate cannot pass and approval is refused. Gate 1 visually plausible (Musée d'Orsay — Beaux-Arts façade with twin clock dials and arched glass windows viewed across the Seine); exact 1920x1080 / 864x1080 masters; exact caption, signature, and AI disclosure legible. Gate 4: tiny figures on the quay, no logos. Pending builder per-scene weather rework with a recorded retrieval timestamp."
+    },
+    {
+      "at": "2026-09-27T16:54:38Z",
+      "by": "builder",
+      "note": "Builder rework 2026-09-27: one Open-Meteo retrieval for this scene, HTTP Date recorded in approvals/FR-01-019.md, scenario 23 September 2026 · 15:22 Europe/Paris inside 2026-09-23T15:00 Europe/Paris. Masters re-finished to 1920×1270, 864×1270, and 1080×2110 with a 190px label bar. Status stays Candidate for Cosmo QC."
     }
-  ]
+  ],
+  "sha256_16x9": "f35f7228c51050fc7f3cb7695deea3e1a3511484f13415bb3b19d37e54353da6",
+  "sha256_4x5": "aaa3184503201b16d45e5f4ba9656125e52f3d862eb64825e385c7dd633ce700",
+  "sha256_9x16": "12eb4b31759003088f3227c2f282ca644d4fc28b909576f9568a8b14e3c9111d"
 }

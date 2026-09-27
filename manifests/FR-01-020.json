@@ -6,13 +6,21 @@
   "caption": "Hôtel des Invalides, Paris",
   "scenario_label": "23 September 2026 · 15:23 Europe/Paris",
   "composition": "Gilded Dôme des Invalides centered on the esplanade axis · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is gilded Dôme des Invalides centered on the esplanade axis. The place named on the card is Hôtel des Invalides, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:23 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is gilded Dôme des Invalides centered on the esplanade axis. The place named on the card is Hôtel des Invalides, Paris, in Île-de-France. Model data from Open-Meteo, retrieved 2026-09-27T18:55:38+02:00 (2026-09-27T16:55:38Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.7°C, wind 3.2 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Hôtel des Invalides under clear afternoon light",
-  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-020-16x9.png?v=batch017",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-020-16x9.png?v=wx012026",
   "approval_status": "Candidate",
-  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-020-4x5.png?v=batch017",
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "G1 visual pass: the golden Dôme des Invalides rises over the classical east facade and the great lawn esplanade, viewed from the lawn axis — unmistakably the Hôtel des Invalides, clean framing, no artifacts. G2 technical pass: masters verified 1920x1080 / 864x1080; on-image caption 'Hôtel des Invalides, Paris', scenario '23 September 2026 · 15:23 Europe/Paris', and the AI disclosure all legible bottom-left on the scrim; 'Jason D's Vision' signature with curly apostrophe bottom-right; label matches the repo SCENES block and the sequential daylight batch with no weather-metadata reuse evidence (no approvals note exists for this entry). G3 originality: no photographic inputs reported. G4 commercial/IP: tiny generic figures on the lawn, no recognizable individuals, no logos, no private property — public historic monument, documented only. G5 publication ready.",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-020-4x5.png?v=wx012026",
+  "file_9x16": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-020-9x16.png?v=wx012026",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-27T16:55:38Z",
+  "weather_retrieval_local": "2026-09-27T18:55:38+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-27T18:55:38+02:00 (2026-09-27T16:55:38Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.7°C, wind 3.2 km/h, precipitation 0.0 mm.",
+  "qc_status": "Candidate — per-scene Open-Meteo retrieval recorded 2026-09-27; awaiting Cosmo QC",
+  "approval_basis": "2026-09-27 builder rework is in the matching approvals note. Status remains Candidate; this file does not approve the scene. The earlier basis below was withdrawn with the 2026-09-25 reversion. G1 visual pass: the golden Dôme des Invalides rises over the classical east facade and the great lawn esplanade, viewed from the lawn axis — unmistakably the Hôtel des Invalides, clean framing, no artifacts. G2 technical pass: masters verified 1920x1080 / 864x1080; on-image caption 'Hôtel des Invalides, Paris', scenario '23 September 2026 · 15:23 Europe/Paris', and the AI disclosure all legible bottom-left on the scrim; 'Jason D's Vision' signature with curly apostrophe bottom-right; label matches the repo SCENES block and the sequential daylight batch with no weather-metadata reuse evidence (no approvals note exists for this entry). G3 originality: no photographic inputs reported. G4 commercial/IP: tiny generic figures on the lawn, no recognizable individuals, no logos, no private property — public historic monument, documented only. G5 publication ready.",
   "approved_at": "2026-09-25T05:33:00.719590+00:00",
   "reverted_at": "2026-09-25T18:52:24.380565+00:00",
   "qc_notes": [
@@ -30,6 +38,14 @@
       "at": "2026-09-26T21:31:41.686390+00:00",
       "by": "Cosmo QC",
       "note": "Cosmo QC 2026-09-26 ~17:30 EDT — Gate 2 hold: no verifiable per-scene Open-Meteo retrieval timestamp exists for this scene. No approvals/FR-01-020.md note exists in the repo, and the scene is not covered by BATCH-FR-weather-rework-fullsteam-2026-09-25.txt. The on-image scenario line (23 September 2026 · 15:23 Europe/Paris) cannot be cross-checked against any recorded retrieval, so the weather gate cannot pass and approval is refused. Gate 1 visually plausible (Hôtel des Invalides — gilded dome, arcaded wings flanking the Esplanade); exact 1920x1080 / 864x1080 masters; exact caption, signature, and AI disclosure legible. Gate 4: distant pedestrians, no logos. Pending builder per-scene weather rework with a recorded retrieval timestamp."
+    },
+    {
+      "at": "2026-09-27T16:55:38Z",
+      "by": "builder",
+      "note": "Builder rework 2026-09-27: one Open-Meteo retrieval for this scene, HTTP Date recorded in approvals/FR-01-020.md, scenario 23 September 2026 · 15:23 Europe/Paris inside 2026-09-23T15:00 Europe/Paris. Masters re-finished to 1920×1270, 864×1270, and 1080×2110 with a 190px label bar. Status stays Candidate for Cosmo QC."
     }
-  ]
+  ],
+  "sha256_16x9": "d7be56306434dbb3abef2cf2f25c9280fffe6403463c5c9badafe0ffbd3eeb3e",
+  "sha256_4x5": "7e18b74167fe54561a75fc646e8fefe6427a9504ca72de36332d6ed4c5bf92cf",
+  "sha256_9x16": "f30c22292d69eb7f8e2dd538a6211ec6cc4de381e4becf7b3981c2780b62f8a8"
 }
