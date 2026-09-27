@@ -1,0 +1,1462 @@
+{
+  "FR-01-001": [
+    "day",
+    ""
+  ],
+  "FR-01-002": [
+    "day",
+    "historic"
+  ],
+  "FR-01-003": [
+    "day",
+    "historic"
+  ],
+  "FR-01-004": [
+    "day",
+    "urban"
+  ],
+  "FR-01-005": [
+    "day",
+    "historic"
+  ],
+  "FR-01-006": [
+    "day",
+    "historic"
+  ],
+  "FR-01-007": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-008": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-009": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-010": [
+    "day",
+    "mountain"
+  ],
+  "FR-01-011": [
+    "day",
+    "historic"
+  ],
+  "FR-01-012": [
+    "day",
+    "historic"
+  ],
+  "FR-01-013": [
+    "day",
+    "historic"
+  ],
+  "FR-01-014": [
+    "day",
+    "coastal,mountain"
+  ],
+  "FR-01-015": [
+    "day",
+    "mountain"
+  ],
+  "FR-01-016": [
+    "day",
+    "mountain,urban"
+  ],
+  "FR-01-017": [
+    "day",
+    "historic"
+  ],
+  "FR-01-018": [
+    "day",
+    ""
+  ],
+  "FR-01-019": [
+    "day",
+    "historic"
+  ],
+  "FR-01-020": [
+    "day",
+    ""
+  ],
+  "FR-01-021": [
+    "day",
+    ""
+  ],
+  "FR-01-022": [
+    "day",
+    "mountain"
+  ],
+  "FR-01-023": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-024": [
+    "day",
+    "historic"
+  ],
+  "FR-01-025": [
+    "day",
+    "historic"
+  ],
+  "FR-01-026": [
+    "day",
+    "historic"
+  ],
+  "FR-01-027": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-028": [
+    "day",
+    "historic"
+  ],
+  "FR-01-029": [
+    "day",
+    "historic"
+  ],
+  "FR-01-030": [
+    "day",
+    "urban,historic"
+  ],
+  "FR-01-031": [
+    "day",
+    "urban,historic"
+  ],
+  "FR-01-032": [
+    "day",
+    "urban"
+  ],
+  "FR-01-033": [
+    "day",
+    "historic"
+  ],
+  "FR-01-034": [
+    "day",
+    ""
+  ],
+  "FR-01-035": [
+    "day",
+    "historic"
+  ],
+  "FR-01-036": [
+    "day",
+    "historic"
+  ],
+  "FR-01-037": [
+    "day",
+    "historic"
+  ],
+  "FR-01-038": [
+    "day",
+    "historic"
+  ],
+  "FR-01-039": [
+    "day",
+    "historic"
+  ],
+  "FR-01-040": [
+    "day",
+    "historic"
+  ],
+  "FR-01-041": [
+    "day",
+    "historic"
+  ],
+  "FR-01-042": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-043": [
+    "day",
+    "historic"
+  ],
+  "FR-01-044": [
+    "day",
+    "historic"
+  ],
+  "FR-01-045": [
+    "day",
+    "coastal,urban,historic"
+  ],
+  "FR-01-046": [
+    "day",
+    "historic"
+  ],
+  "FR-01-047": [
+    "day",
+    "historic"
+  ],
+  "FR-01-048": [
+    "day",
+    "historic"
+  ],
+  "FR-01-049": [
+    "day",
+    ""
+  ],
+  "FR-01-050": [
+    "day",
+    "mountain"
+  ],
+  "FR-01-051": [
+    "day",
+    "historic"
+  ],
+  "FR-01-052": [
+    "day",
+    "historic"
+  ],
+  "FR-01-053": [
+    "day",
+    "coastal,mountain,historic"
+  ],
+  "FR-01-054": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-055": [
+    "day",
+    "urban,historic"
+  ],
+  "FR-01-056": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-057": [
+    "day",
+    "mountain,historic"
+  ],
+  "FR-01-058": [
+    "day",
+    "coastal,urban,historic"
+  ],
+  "FR-01-059": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-060": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-061": [
+    "day",
+    "historic"
+  ],
+  "FR-01-062": [
+    "day",
+    "mountain,historic"
+  ],
+  "FR-01-063": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-064": [
+    "day",
+    ""
+  ],
+  "FR-01-065": [
+    "day",
+    "mountain"
+  ],
+  "FR-01-066": [
+    "day",
+    "historic"
+  ],
+  "FR-01-067": [
+    "day",
+    "coastal,urban"
+  ],
+  "FR-01-068": [
+    "day",
+    "urban"
+  ],
+  "FR-01-069": [
+    "day",
+    "coastal,mountain,historic"
+  ],
+  "FR-01-070": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-071": [
+    "day",
+    "historic"
+  ],
+  "FR-01-072": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-073": [
+    "day",
+    ""
+  ],
+  "FR-01-074": [
+    "day",
+    "mountain"
+  ],
+  "FR-01-075": [
+    "day",
+    "historic"
+  ],
+  "FR-01-076": [
+    "day",
+    ""
+  ],
+  "FR-01-077": [
+    "day",
+    "urban,historic"
+  ],
+  "FR-01-078": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-079": [
+    "day",
+    "historic"
+  ],
+  "FR-01-080": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-081": [
+    "day",
+    "historic"
+  ],
+  "FR-01-082": [
+    "day",
+    "urban,historic"
+  ],
+  "FR-01-083": [
+    "day",
+    "historic"
+  ],
+  "FR-01-084": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-085": [
+    "day",
+    "mountain"
+  ],
+  "FR-01-086": [
+    "day",
+    "mountain,historic"
+  ],
+  "FR-01-087": [
+    "day",
+    "mountain,historic"
+  ],
+  "FR-01-088": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-089": [
+    "day",
+    "mountain,historic"
+  ],
+  "FR-01-090": [
+    "day",
+    "coastal,urban"
+  ],
+  "FR-01-091": [
+    "day",
+    "mountain"
+  ],
+  "FR-01-092": [
+    "day",
+    "mountain,historic"
+  ],
+  "FR-01-093": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-094": [
+    "day",
+    "mountain"
+  ],
+  "FR-01-095": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-096": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-097": [
+    "day",
+    "urban,historic"
+  ],
+  "FR-01-098": [
+    "day",
+    "historic"
+  ],
+  "FR-01-099": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-100": [
+    "day",
+    "mountain,historic"
+  ],
+  "FR-01-101": [
+    "day",
+    "coastal,urban,historic"
+  ],
+  "FR-01-102": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-103": [
+    "day",
+    "coastal,mountain"
+  ],
+  "FR-01-104": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-105": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-106": [
+    "day",
+    "urban,historic"
+  ],
+  "FR-01-107": [
+    "day",
+    "historic"
+  ],
+  "FR-01-108": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-109": [
+    "day",
+    "urban,historic"
+  ],
+  "FR-01-110": [
+    "day",
+    "coastal,mountain,historic"
+  ],
+  "FR-01-111": [
+    "day",
+    "urban,historic"
+  ],
+  "FR-01-112": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-113": [
+    "day",
+    "historic"
+  ],
+  "FR-01-114": [
+    "day",
+    "urban,historic"
+  ],
+  "FR-01-115": [
+    "day",
+    "historic"
+  ],
+  "FR-01-116": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-117": [
+    "night",
+    "urban,historic"
+  ],
+  "FR-01-118": [
+    "night",
+    "urban,historic"
+  ],
+  "FR-01-119": [
+    "night",
+    "mountain,historic"
+  ],
+  "FR-01-120": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-121": [
+    "night",
+    "mountain,historic"
+  ],
+  "FR-01-122": [
+    "night",
+    "coastal,historic"
+  ],
+  "FR-01-123": [
+    "night",
+    "urban,historic"
+  ],
+  "FR-01-124": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-125": [
+    "night",
+    "urban,historic"
+  ],
+  "FR-01-126": [
+    "night",
+    "historic"
+  ],
+  "FR-01-127": [
+    "night",
+    "urban"
+  ],
+  "FR-01-128": [
+    "day",
+    "coastal,mountain"
+  ],
+  "FR-01-129": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-130": [
+    "day",
+    "coastal,mountain"
+  ],
+  "FR-01-131": [
+    "night",
+    "mountain"
+  ],
+  "FR-01-132": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-133": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-134": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-135": [
+    "night",
+    "coastal,urban"
+  ],
+  "FR-01-136": [
+    "night",
+    "coastal,urban,historic"
+  ],
+  "FR-01-137": [
+    "night",
+    "coastal,mountain,historic"
+  ],
+  "FR-01-138": [
+    "night",
+    "urban,historic"
+  ],
+  "FR-01-139": [
+    "night",
+    "coastal,historic"
+  ],
+  "FR-01-140": [
+    "night",
+    ""
+  ],
+  "FR-01-141": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-142": [
+    "night",
+    "coastal,urban,historic"
+  ],
+  "FR-01-143": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-144": [
+    "night",
+    "urban,historic"
+  ],
+  "FR-01-145": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-146": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-147": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-148": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-149": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-150": [
+    "night",
+    "coastal,urban"
+  ],
+  "FR-01-151": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-152": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-153": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-154": [
+    "night",
+    "coastal,mountain,historic"
+  ],
+  "FR-01-155": [
+    "night",
+    "coastal,urban"
+  ],
+  "FR-01-156": [
+    "night",
+    "historic"
+  ],
+  "FR-01-157": [
+    "night",
+    "urban,historic"
+  ],
+  "FR-01-158": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-159": [
+    "night",
+    "coastal,urban,historic"
+  ],
+  "FR-01-160": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-161": [
+    "day",
+    "coastal,urban"
+  ],
+  "FR-01-162": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-163": [
+    "day",
+    "coastal,mountain"
+  ],
+  "FR-01-164": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-165": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-166": [
+    "day",
+    "coastal,mountain"
+  ],
+  "FR-01-167": [
+    "night",
+    "coastal,mountain"
+  ],
+  "FR-01-168": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-169": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-170": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-171": [
+    "night",
+    "coastal,urban,historic"
+  ],
+  "FR-01-172": [
+    "night",
+    "mountain"
+  ],
+  "FR-01-173": [
+    "night",
+    "urban,historic"
+  ],
+  "FR-01-174": [
+    "night",
+    "coastal,historic"
+  ],
+  "FR-01-175": [
+    "night",
+    "coastal,mountain,urban,historic"
+  ],
+  "FR-01-176": [
+    "night",
+    "mountain"
+  ],
+  "FR-01-177": [
+    "day",
+    "coastal,mountain"
+  ],
+  "FR-01-178": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-179": [
+    "day",
+    ""
+  ],
+  "FR-01-180": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-181": [
+    "day",
+    "coastal,mountain"
+  ],
+  "FR-01-182": [
+    "day",
+    "coastal,urban"
+  ],
+  "FR-01-183": [
+    "night",
+    "mountain,urban"
+  ],
+  "FR-01-184": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-185": [
+    "night",
+    "coastal,urban"
+  ],
+  "FR-01-186": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-187": [
+    "night",
+    "urban"
+  ],
+  "FR-01-188": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-189": [
+    "night",
+    "coastal,urban,historic"
+  ],
+  "FR-01-190": [
+    "night",
+    "historic"
+  ],
+  "FR-01-191": [
+    "night",
+    "historic"
+  ],
+  "FR-01-192": [
+    "night",
+    "mountain,urban,historic"
+  ],
+  "FR-01-193": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-194": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-195": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-196": [
+    "day",
+    ""
+  ],
+  "FR-01-197": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-198": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-199": [
+    "night",
+    "historic"
+  ],
+  "FR-01-200": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-201": [
+    "night",
+    "urban"
+  ],
+  "FR-01-202": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-203": [
+    "night",
+    "coastal,mountain,historic"
+  ],
+  "FR-01-204": [
+    "night",
+    "coastal,historic"
+  ],
+  "FR-01-205": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-206": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-207": [
+    "night",
+    "coastal,historic"
+  ],
+  "FR-01-208": [
+    "night",
+    "urban,historic"
+  ],
+  "FR-01-209": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-210": [
+    "night",
+    "coastal,historic"
+  ],
+  "FR-01-211": [
+    "day",
+    "coastal,mountain"
+  ],
+  "FR-01-212": [
+    "day",
+    "coastal,mountain"
+  ],
+  "FR-01-213": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-214": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-215": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-216": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-217": [
+    "night",
+    "mountain,urban"
+  ],
+  "FR-01-218": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-219": [
+    "night",
+    "historic"
+  ],
+  "FR-01-220": [
+    "night",
+    "historic"
+  ],
+  "FR-01-221": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-222": [
+    "night",
+    "urban"
+  ],
+  "FR-01-223": [
+    "night",
+    "coastal,historic"
+  ],
+  "FR-01-224": [
+    "night",
+    "urban,historic"
+  ],
+  "FR-01-225": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-226": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-227": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-228": [
+    "day",
+    "coastal,urban"
+  ],
+  "FR-01-229": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-230": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-231": [
+    "night",
+    "coastal,mountain,urban"
+  ],
+  "FR-01-232": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-233": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-234": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-235": [
+    "night",
+    "historic"
+  ],
+  "FR-01-236": [
+    "night",
+    ""
+  ],
+  "FR-01-237": [
+    "night",
+    "historic"
+  ],
+  "FR-01-238": [
+    "night",
+    "historic"
+  ],
+  "FR-01-239": [
+    "night",
+    "coastal,historic"
+  ],
+  "FR-01-240": [
+    "night",
+    "historic"
+  ],
+  "FR-01-241": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-242": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-243": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-244": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-245": [
+    "day",
+    "coastal,mountain"
+  ],
+  "FR-01-246": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-247": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-248": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-249": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-250": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-251": [
+    "night",
+    ""
+  ],
+  "FR-01-252": [
+    "night",
+    "mountain,historic"
+  ],
+  "FR-01-253": [
+    "night",
+    "urban"
+  ],
+  "FR-01-254": [
+    "night",
+    "historic"
+  ],
+  "FR-01-255": [
+    "night",
+    "historic"
+  ],
+  "FR-01-256": [
+    "night",
+    "historic"
+  ],
+  "FR-01-257": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-258": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-259": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-260": [
+    "day",
+    ""
+  ],
+  "FR-01-261": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-262": [
+    "day",
+    "coastal,urban"
+  ],
+  "FR-01-263": [
+    "night",
+    "mountain"
+  ],
+  "FR-01-264": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-265": [
+    "night",
+    "coastal,mountain"
+  ],
+  "FR-01-266": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-267": [
+    "night",
+    "mountain"
+  ],
+  "FR-01-268": [
+    "night",
+    "coastal,historic"
+  ],
+  "FR-01-269": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-270": [
+    "night",
+    "coastal,urban"
+  ],
+  "FR-01-271": [
+    "night",
+    "historic"
+  ],
+  "FR-01-272": [
+    "night",
+    "coastal,historic"
+  ],
+  "FR-01-273": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-274": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-275": [
+    "day",
+    "historic"
+  ],
+  "FR-01-276": [
+    "day",
+    "mountain"
+  ],
+  "FR-01-277": [
+    "day",
+    "coastal,historic"
+  ],
+  "FR-01-278": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-279": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-280": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-281": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-282": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-283": [
+    "night",
+    "coastal,historic"
+  ],
+  "FR-01-284": [
+    "night",
+    "historic"
+  ],
+  "FR-01-285": [
+    "night",
+    "historic"
+  ],
+  "FR-01-286": [
+    "night",
+    "historic"
+  ],
+  "FR-01-287": [
+    "night",
+    "historic"
+  ],
+  "FR-01-288": [
+    "night",
+    "historic"
+  ],
+  "FR-01-289": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-290": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-291": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-292": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-293": [
+    "day",
+    "coastal,mountain"
+  ],
+  "FR-01-294": [
+    "night",
+    "coastal,urban"
+  ],
+  "FR-01-295": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-296": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-297": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-298": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-299": [
+    "night",
+    "historic"
+  ],
+  "FR-01-300": [
+    "night",
+    "historic"
+  ],
+  "FR-01-301": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-302": [
+    "night",
+    "historic"
+  ],
+  "FR-01-303": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-304": [
+    "night",
+    "historic"
+  ],
+  "FR-01-305": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-306": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-307": [
+    "day",
+    "coastal,mountain"
+  ],
+  "FR-01-308": [
+    "day",
+    ""
+  ],
+  "FR-01-309": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-310": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-311": [
+    "night",
+    "coastal,mountain"
+  ],
+  "FR-01-312": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-313": [
+    "night",
+    ""
+  ],
+  "FR-01-314": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-315": [
+    "night",
+    "urban"
+  ],
+  "FR-01-316": [
+    "night",
+    "historic"
+  ],
+  "FR-01-317": [
+    "night",
+    "urban,historic"
+  ],
+  "FR-01-318": [
+    "night",
+    "historic"
+  ],
+  "FR-01-319": [
+    "night",
+    "historic"
+  ],
+  "FR-01-320": [
+    "night",
+    "historic"
+  ],
+  "FR-01-321": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-322": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-323": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-324": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-325": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-326": [
+    "night",
+    "coastal,urban"
+  ],
+  "FR-01-327": [
+    "night",
+    "coastal,mountain"
+  ],
+  "FR-01-328": [
+    "day",
+    "coastal,mountain"
+  ],
+  "FR-01-329": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-330": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-331": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-332": [
+    "night",
+    "historic"
+  ],
+  "FR-01-333": [
+    "night",
+    ""
+  ],
+  "FR-01-334": [
+    "night",
+    "mountain,historic"
+  ],
+  "FR-01-335": [
+    "night",
+    "historic"
+  ],
+  "FR-01-336": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-337": [
+    "day",
+    "coastal,urban"
+  ],
+  "FR-01-338": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-339": [
+    "day",
+    "coastal,mountain"
+  ],
+  "FR-01-340": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-341": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-342": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-343": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-344": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-345": [
+    "night",
+    ""
+  ],
+  "FR-01-346": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-347": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-348": [
+    "night",
+    "historic"
+  ],
+  "FR-01-349": [
+    "night",
+    "historic"
+  ],
+  "FR-01-350": [
+    "night",
+    "historic"
+  ],
+  "FR-01-351": [
+    "night",
+    "coastal,historic"
+  ],
+  "FR-01-352": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-353": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-354": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-355": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-356": [
+    "day",
+    "coastal"
+  ],
+  "FR-01-357": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-358": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-359": [
+    "night",
+    "mountain"
+  ],
+  "FR-01-360": [
+    "night",
+    "coastal,urban"
+  ],
+  "FR-01-361": [
+    "night",
+    "mountain"
+  ],
+  "FR-01-362": [
+    "night",
+    "coastal"
+  ],
+  "FR-01-363": [
+    "night",
+    ""
+  ],
+  "FR-01-364": [
+    "night",
+    "coastal,historic"
+  ],
+  "FR-01-365": [
+    "night",
+    "mountain,historic"
+  ]
+}
