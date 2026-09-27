@@ -10,9 +10,12 @@ this script keeps Phase-1. Hand-patches to index.html do not.
     python3 tools/build_index.py
     python3 tools/build_index.py --prove
 
-Scene copy stays in index.html (the published catalogue). Day/night and
-mood tags stay in tools/phase1_scene_meta.json. Image files are only
-read, never written.
+Scene copy stays in index.html (the published catalogue). Verbose tourist
+descriptions in tools/scene_descriptions.json replace those scenes'
+description fields on every publish, so a rebuild rewrites them into
+index.html. Scenes absent from that file keep their existing copy.
+Day/night and mood tags stay in tools/phase1_scene_meta.json. Image
+files are only read, never written.
 
 A 9:16 path is copied into the catalogue only when that master file is on
 disk. The published page does not probe for it, and it does not remove a
@@ -31,6 +34,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = ROOT / "index.html"
 META_PATH = Path(__file__).resolve().parent / "phase1_scene_meta.json"
+DESCRIPTIONS_PATH = Path(__file__).resolve().parent / "scene_descriptions.json"
 
 FILE_KEYS = (
     "file_16x9",
@@ -824,9 +828,74 @@ def apply_a7(html: str) -> str:
     return html
 
 
+def load_descriptions() -> dict[str, str]:
+    """Verbatim tourist copy. Values are applied exactly; never edited here."""
+    if not DESCRIPTIONS_PATH.is_file():
+        raise SystemExit(f"missing {DESCRIPTIONS_PATH}")
+    data = json.loads(DESCRIPTIONS_PATH.read_text(encoding="utf-8"))
+    if not isinstance(data, dict) or not data:
+        raise SystemExit("scene_descriptions.json must be a non-empty object")
+    out: dict[str, str] = {}
+    for key, value in data.items():
+        if not isinstance(key, str) or not isinstance(value, str) or value == "":
+            raise SystemExit(f"bad description entry {key!r}")
+        out[key] = value
+    return out
+
+
+def apply_descriptions(html: str, descriptions: dict[str, str]) -> str:
+    """Replace description string literals for the listed scenes only.
+
+    The rest of each scene object, including scenes not listed, is left
+    byte-for-byte. A second publish writes the same literals again.
+    """
+    i, j = _js_span(html, "const SCENES = ", "[", "]")
+    block = html[i:j]
+    pattern = re.compile(r'(description:\s*)"(?:\\.|[^"\\])*"')
+    for entry_id, text in descriptions.items():
+        marker = f'entry_id: "{entry_id}"'
+        start = block.find(marker)
+        if start < 0:
+            raise SystemExit(f"{entry_id} missing from scene catalogue")
+        if block.find(marker, start + len(marker)) >= 0:
+            raise SystemExit(f"{entry_id} appears more than once in the scene catalogue")
+        next_at = block.find('\n        entry_id: "', start + len(marker))
+        end = next_at if next_at >= 0 else len(block)
+        chunk = block[start:end]
+        quoted = json.dumps(text, ensure_ascii=False)
+        updated, n = pattern.subn(lambda match, q=quoted: match.group(1) + q, chunk, count=1)
+        if n != 1:
+            raise SystemExit(f"could not replace description for {entry_id}")
+        block = block[:start] + updated + block[end:]
+    return html[:i] + block + html[j:]
+
+
+def assert_descriptions(scenes: list[dict], descriptions: dict[str, str]) -> None:
+    """Every listed entry id is present once and its description matches exactly."""
+    seen: dict[str, int] = {}
+    by_id: dict[str, str] = {}
+    for scene in scenes:
+        entry_id = scene["entry_id"]
+        seen[entry_id] = seen.get(entry_id, 0) + 1
+        by_id[entry_id] = scene.get("description") or ""
+    dupes = [entry_id for entry_id, count in seen.items() if count != 1]
+    if dupes:
+        raise SystemExit("duplicate entry ids: " + ", ".join(dupes[:8]))
+    missing = [entry_id for entry_id in descriptions if entry_id not in by_id]
+    if missing:
+        raise SystemExit("descriptions missing from catalogue: " + ", ".join(missing[:8]))
+    mismatched = [
+        entry_id for entry_id, text in descriptions.items() if by_id[entry_id] != text
+    ]
+    if mismatched:
+        raise SystemExit("description text mismatch: " + ", ".join(mismatched[:8]))
+
+
 def publish_html(html: str, root: Path | None = None, tags: dict[str, list[str]] | None = None) -> str:
     root = root or ROOT
     tags = dict(tags if tags is not None else load_tags())
+    descriptions = load_descriptions()
+    html = apply_descriptions(html, descriptions)
     scenes = parse_scenes(html)
     html, scenes, _drops = drop_missing_scene_lines(html, scenes, root)
     html = strip_phase1(html)
@@ -834,6 +903,7 @@ def publish_html(html: str, root: Path | None = None, tags: dict[str, list[str]]
     html = insert_phase1(html, meta)
     html = apply_a7(html)
     assert_phase1(html)
+    assert_descriptions(parse_scenes(html), descriptions)
     return html
 
 
@@ -1007,11 +1077,17 @@ def prove(html: str | None = None) -> None:
     if len(reranked) != 4:
         raise SystemExit("related row did not backfill after a missing thumb")
 
+    descriptions = load_descriptions()
+    assert_descriptions(parse_scenes(published), descriptions)
+    assert_descriptions(parse_scenes(again), descriptions)
+    assert_descriptions(parse_scenes(from_clobber), descriptions)
     print("prove ok")
     print(f"scenes {len(scenes)}")
+    print(f"descriptions {len(descriptions)} exact")
     print(f"FR-01-001 related {first}")
     print("clobber rebuild emitted Phase-1")
     print("second regenerate byte-identical")
+    print("descriptions survived regenerate and clobber rebuild")
     return published
 
 
