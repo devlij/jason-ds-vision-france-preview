@@ -122,10 +122,12 @@ P1_CARD = r"""        card.className = 'card';
         card.id = s.entry_id;
         const file16 = s.file_16x9 || "";
         const file45 = s.file_4x5 || "";
-        const file916 = s.file_9x16 || "";
+        /* 9:16 tab and download only when that master is present AND approved. */
+        const file916 = (s.file_9x16 && s.format_9x16_approval_status === "Approved") ? s.file_9x16 : "";
         const day16 = s.file_16x9_day || "";
         const day45 = s.file_4x5_day || "";
-        const day916 = s.file_9x16_day || "";
+        const day916 = (file916 && s.file_9x16_day) ? s.file_9x16_day : "";
+        const audioSrc = (typeof s.audio === "string" && /^audio\/[^/?#]+\.mp3(?:\?.*)?$/.test(s.audio)) ? s.audio : "";
         const hero = file16 || file45 || file916;
         card.innerHTML = `
           ${hero ? `<div class="preview">
@@ -153,7 +155,7 @@ P1_CARD = r"""        card.className = 'card';
               ${file16 ? `<a class="download" data-dl="16x9" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>` : ""}
               ${file45 ? `<a class="download" data-dl="4x5" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>` : ""}
               ${file916 ? `<a class="download" data-dl="9x16" href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
-              ${s.audio ? `<button type="button" class="narrate" data-audio="${esc(s.audio)}" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>` : ""}
+              ${audioSrc ? `<button type="button" class="narrate" data-audio="${esc(audioSrc)}" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>` : ""}
             </div>
           </div>`;
         grid.appendChild(card);
@@ -194,17 +196,16 @@ P1_ENHANCE = r"""<script>
         b.setAttribute('aria-label', 'Copy link to this scene');
         b.addEventListener('click', function(){
           var url = location.origin + location.pathname + '#' + id;
-          b.textContent = 'Copied \u2713';
-          setTimeout(function(){ b.textContent = 'Copy link'; }, 1600);
+          var done = function(){ b.textContent = 'Copied \u2713'; setTimeout(function(){ b.textContent = 'Copy link'; }, 1600); };
           function fb(){
             var ta = document.createElement('textarea'); ta.value = url;
             ta.style.position = 'fixed'; ta.style.opacity = '0';
             document.body.appendChild(ta); ta.select();
-            try { document.execCommand('copy'); } catch(e) {}
+            try { document.execCommand('copy'); done(); } catch(e) {}
             ta.remove();
           }
           if (navigator.clipboard && navigator.clipboard.writeText){
-            navigator.clipboard.writeText(url).then(function(){}, fb);
+            navigator.clipboard.writeText(url).then(done, fb);
           } else { fb(); }
         });
         acts.appendChild(b);
@@ -636,6 +637,172 @@ def insert_phase1(html: str, meta: dict[str, list[str]]) -> str:
     return html
 
 
+_OLD_NORWAY = (
+    ".flag-no{background:linear-gradient(#00205B,#00205B) center/100% 20% no-repeat,"
+    "linear-gradient(#00205B,#00205B) center/22% 100% no-repeat,"
+    "linear-gradient(#fff,#fff) center/100% 38% no-repeat,"
+    "linear-gradient(#fff,#fff) center/40% 100% no-repeat,#BA0C2F}"
+)
+# Spain gallery chip: Nordic cross, not a centered blob. Same rule as spain.jdvision.org.
+_SPAIN_NORWAY = (
+    ".flag-chip.flag-no{background:linear-gradient(to bottom,transparent 35%,#00205B 35%,#00205B 65%,transparent 65%),"
+    "linear-gradient(to bottom,transparent 25%,#fff 25%,#fff 75%,transparent 75%),"
+    "linear-gradient(to right,transparent 25%,#00205B 25%,#00205B 45%,transparent 45%),"
+    "linear-gradient(to right,transparent 15%,#fff 15%,#fff 55%,transparent 55%),#BA0C2F}"
+)
+
+_OLD_FMT_HANDLER = """      const tab = event.target.closest('.fmt-tab');
+      if (!tab) return;
+      event.preventDefault();
+      const card = tab.closest('.card');
+      if (!card) return;
+      const fmt = tab.dataset.format;
+      card.querySelectorAll('.fmt-tab').forEach((item) => {
+        const on = item === tab;
+        item.classList.toggle('is-active', on);
+        item.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+      const link = card.querySelector('a.thumb');
+      const img = link && link.querySelector('img');
+      if (!img || !link) return;
+      const dayOn = card.querySelector('.day-tab.is-active');
+      const useDay = dayOn && dayOn.getAttribute('data-daynight') === 'day';
+      const next = fmt === '4x5'
+        ? (useDay && img.getAttribute('data-src-45-day')) || img.getAttribute('data-src-45')
+        : fmt === '9x16'
+        ? (useDay && img.getAttribute('data-src-916-day')) || img.getAttribute('data-src-916')
+        : (useDay && img.getAttribute('data-src-16-day')) || img.getAttribute('data-src-16');
+      if (next) {
+        img.src = next;
+        link.href = next;
+      }
+      link.classList.toggle('tall', fmt === '4x5');
+      link.classList.toggle('tall916', fmt === '9x16');
+"""
+
+_NEW_FMT_HANDLER = """      const tab = event.target.closest('.fmt-tab');
+      if (!tab || tab.disabled) return;
+      event.preventDefault();
+      const card = tab.closest('.card');
+      if (!card) return;
+      const fmt = tab.getAttribute('data-format');
+      const link = card.querySelector('a.thumb');
+      const img = link && link.querySelector('img');
+      if (!img || !link) return;
+      const dayOn = card.querySelector('.day-tab.is-active');
+      const useDay = dayOn && dayOn.getAttribute('data-daynight') === 'day';
+      const next = fmt === '4x5'
+        ? (useDay && img.getAttribute('data-src-45-day')) || img.getAttribute('data-src-45')
+        : fmt === '9x16'
+        ? (useDay && img.getAttribute('data-src-916-day')) || img.getAttribute('data-src-916')
+        : (useDay && img.getAttribute('data-src-16-day')) || img.getAttribute('data-src-16');
+      const activate = () => {
+        card.querySelectorAll('.fmt-tab').forEach((item) => {
+          const on = item === tab;
+          item.classList.toggle('is-active', on);
+          item.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+        if (next) {
+          img.src = next;
+          link.href = next;
+        }
+        link.classList.toggle('tall', fmt === '4x5');
+        link.classList.toggle('tall916', fmt === '9x16');
+      };
+      /* Hide a 9:16 control whose master 404s. Image sources stay getAttribute, never dataset camelCase. */
+      if (fmt === '9x16' && next && !card.hasAttribute('data-916-ok')) {
+        const probe = new Image();
+        probe.onload = function(){ card.setAttribute('data-916-ok', '1'); activate(); };
+        probe.onerror = function(){
+          card.setAttribute('data-916-missing', '1');
+          tab.remove();
+          const dl = card.querySelector('a.download[data-dl="9x16"]');
+          if (dl) dl.remove();
+          link.classList.remove('tall916');
+        };
+        probe.src = next;
+        return;
+      }
+      activate();
+"""
+
+_OLD_DAY_MARK = """        dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
+        const ftab = dcard.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        const dlink = dcard.querySelector('a.thumb');
+        const dimg = dlink && dlink.querySelector('img');
+        if (dimg && dlink) {
+"""
+
+_NEW_DAY_MARK = """        dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
+        const dlink = dcard.querySelector('a.thumb');
+        const dimg = dlink && dlink.querySelector('img');
+        const t916 = dcard.querySelector('.fmt-tab[data-format="9x16"]');
+        if (t916 && !dcard.hasAttribute('data-916-missing')) {
+          const day916src = dimg && dimg.getAttribute('data-src-916-day');
+          const hide916 = isDay && !day916src;
+          t916.disabled = hide916;
+          t916.classList.toggle('is-disabled', hide916);
+          if (hide916 && t916.classList.contains('is-active')) {
+            const t16 = dcard.querySelector('.fmt-tab[data-format="16x9"]') || dcard.querySelector('.fmt-tab[data-format="4x5"]');
+            if (t16) t16.click();
+          }
+        }
+        const ftab = dcard.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        if (dimg && dlink) {
+"""
+
+_OLD_COPY = """          b.textContent = 'Copied \\u2713';
+          setTimeout(function(){ b.textContent = 'Copy link'; }, 1600);
+          function fb(){
+            var ta = document.createElement('textarea'); ta.value = url;
+            ta.style.position = 'fixed'; ta.style.opacity = '0';
+            document.body.appendChild(ta); ta.select();
+            try { document.execCommand('copy'); } catch(e) {}
+            ta.remove();
+          }
+          if (navigator.clipboard && navigator.clipboard.writeText){
+            navigator.clipboard.writeText(url).then(function(){}, fb);
+          } else { fb(); }
+"""
+
+_NEW_COPY = """          var done = function(){ b.textContent = 'Copied \\u2713'; setTimeout(function(){ b.textContent = 'Copy link'; }, 1600); };
+          function fb(){
+            var ta = document.createElement('textarea'); ta.value = url;
+            ta.style.position = 'fixed'; ta.style.opacity = '0';
+            document.body.appendChild(ta); ta.select();
+            try { document.execCommand('copy'); done(); } catch(e) {}
+            ta.remove();
+          }
+          if (navigator.clipboard && navigator.clipboard.writeText){
+            navigator.clipboard.writeText(url).then(done, fb);
+          } else { fb(); }
+"""
+
+
+def apply_a7(html: str) -> str:
+    """Spain-look guards that survive a later publish. Does not touch SCENES."""
+    if _OLD_NORWAY in html:
+        html = html.replace(_OLD_NORWAY, _SPAIN_NORWAY, 1)
+    if ".fmt-tab:disabled" not in html:
+        anchor = """    .fmt-tab.is-active {
+      background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700;
+    }
+"""
+        insert = anchor + "    .fmt-tab:disabled, .fmt-tab.is-disabled { opacity: 0.4; cursor: default; }\n"
+        if anchor not in html:
+            raise SystemExit("fmt-tab active rule missing; refusing to publish")
+        html = html.replace(anchor, insert, 1)
+    if _OLD_FMT_HANDLER in html:
+        html = html.replace(_OLD_FMT_HANDLER, _NEW_FMT_HANDLER, 1)
+    if "data-src-916-day" in html and _OLD_DAY_MARK in html and "hide916" not in html:
+        html = html.replace(_OLD_DAY_MARK, _NEW_DAY_MARK, 1)
+    if _OLD_COPY in html:
+        html = html.replace(_OLD_COPY, _NEW_COPY, 1)
+    return html
+
+
 def publish_html(html: str, root: Path | None = None, tags: dict[str, list[str]] | None = None) -> str:
     root = root or ROOT
     tags = dict(tags if tags is not None else load_tags())
@@ -644,6 +811,7 @@ def publish_html(html: str, root: Path | None = None, tags: dict[str, list[str]]
     html = strip_phase1(html)
     meta = build_meta(scenes, root, tags)
     html = insert_phase1(html, meta)
+    html = apply_a7(html)
     assert_phase1(html)
     return html
 
@@ -669,6 +837,12 @@ def assert_phase1(html: str) -> None:
         "Copy link",
         "Copied \\u2713",
         "G-PDJ4WSS725",
+        'format_9x16_approval_status === "Approved"',
+        "data-916-ok",
+        "flag-chip.flag-no",
+        "getAttribute('data-src-45')",
+        "getAttribute('data-format')",
+        "^audio\\/",
         "Free · no credit needed",
         "class=\"flag\"",
         "lb-narrate",
@@ -685,6 +859,13 @@ def assert_phase1(html: str) -> None:
         raise SystemExit("day/night filter was duplicated")
     if html.count("const FRANCE_META=") != 1:
         raise SystemExit("FRANCE_META was duplicated")
+    if _OLD_NORWAY in html:
+        raise SystemExit("old Norway flag chip survived")
+    ga_ids = set(re.findall(r"G-[A-Z0-9]+", html))
+    if ga_ids != {"G-PDJ4WSS725"}:
+        raise SystemExit(f"GA4 measurement ids must be G-PDJ4WSS725 only, found {ga_ids}")
+    if "dataset.src45" in html or "dataset.src916" in html or "tab.dataset.format" in html:
+        raise SystemExit("tab image sources must use getAttribute, not camelCase dataset")
 
 
 def prove(html: str | None = None) -> None:
