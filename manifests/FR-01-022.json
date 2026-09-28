@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is single-arch Beaux-Arts bridge with gilded pegasus pylons over the Seine. The place named on the card is Pont Alexandre III, Paris, in Île-de-France. Model data from Open-Meteo, retrieved 2026-09-27T18:56:45+02:00 (2026-09-27T16:56:45Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.9°C, wind 3.3 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Pont Alexandre III under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-022-16x9.png?v=wx012026",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-022-4x5.png?v=wx012026",
   "file_9x16": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-022-9x16.png?v=wx012026",
   "weather_provider": "Open-Meteo",
@@ -19,9 +19,9 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-27T18:56:45+02:00 (2026-09-27T16:56:45Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.9°C, wind 3.3 km/h, precipitation 0.0 mm.",
-  "qc_status": "Candidate — per-scene Open-Meteo retrieval recorded 2026-09-27; awaiting Cosmo QC",
-  "approval_basis": "2026-09-27 builder rework is in the matching approvals note. Status remains Candidate; this file does not approve the scene. The earlier basis below was withdrawn with the 2026-09-25 reversion. Pont Alexandre III spanning the Seine: the four gilt-bronze Pegasus statues on stone pylons, the ornate multi-lamp posts along the balustrade, the white single arch, with the Invalides golden dome and the Grand Palais glass dome visible beyond — unmistakably the bridge from a classic riverbank viewpoint. Gate 1 passes on recognizability and clean framing. Gate 2: on-image caption 'Pont Alexandre III, Paris', scenario '23 September 2026 · 15:31 Europe/Paris', AI disclosure bottom-left; 'Jason D's Vision' signature bottom-right with curly apostrophe; exact 1920×1080/864×1080 masters verified by the sweep. approvals/FR-01-022.md absent from the repo, so the weather-retrieval cross-check had no source; the scenario minute is unique to this scene. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: small distant pedestrians on the deck only, no logos; documented. Gate 5: ready.",
-  "approved_at": "2026-09-25T06:33:26.348939+00:00",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Open-Meteo retrieval 2026-09-27T16:56:45Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. FR-01-022: Single-arch Beaux-Arts bridge with gilded pegasus pylons over the Seine, Grand Palais and Invalides domes behind; scenario 15:31 matches note and retrieval (valid 15:00, code 0, 0% cloud). Label bar exact. Gates 1–5 pass; no IP flags.",
+  "approved_at": "2026-09-28T00:55:17.840596+00:00",
   "reverted_at": "2026-09-25T18:52:28.132184+00:00",
   "qc_notes": [
     {
