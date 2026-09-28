@@ -43,6 +43,11 @@
       "at": "2026-09-27T16:54:27Z",
       "by": "builder",
       "note": "Builder rework 2026-09-27: one Open-Meteo retrieval for this scene, HTTP Date recorded in approvals/FR-01-012.md, scenario 23 September 2026 · 14:08 Europe/Paris inside 2026-09-23T14:00 Europe/Paris. Masters re-finished to 1920×1270, 864×1270, and 1080×2110 with a 190px label bar. Status stays Candidate for Cosmo QC."
+    },
+    {
+      "at": "2026-09-28T00:53:45.875587+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate-2 shared-retrieval hold resolved: the builder's #6 weather rework landed per-scene Open-Meteo retrievals 2026-09-27T16:54:27Z–16:56:52Z, unique to the second and verified repo-wide with zero collisions; Cosmo re-audited all five gates 2026-09-27 14:27 EDT and re-verified the 45 masters byte-identical at 20:27 EDT — cleared for approval."
     }
   ],
   "sha256_16x9": "1c3d7cdb91539c4ebe8c6151eb951992ecc783d1825f3dfc25cc34e00092970d",
