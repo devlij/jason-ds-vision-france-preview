@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is neoclassical portico and dome on Place du Panthéon. The place named on the card is Panthéon, Paris, in Île-de-France. Model data from Open-Meteo, retrieved 2026-09-27T18:56:47+02:00 (2026-09-27T16:56:47Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 24.7°C, wind 3.1 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of the Panthéon under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-023-16x9.png?v=wx012026",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-023-4x5.png?v=wx012026",
   "file_9x16": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-023-9x16.png?v=wx012026",
   "weather_provider": "Open-Meteo",
@@ -19,9 +19,9 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-27T18:56:47+02:00 (2026-09-27T16:56:47Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 24.7°C, wind 3.1 km/h, precipitation 0.0 mm.",
-  "qc_status": "Candidate — per-scene Open-Meteo retrieval recorded 2026-09-27; awaiting Cosmo QC",
-  "approval_basis": "2026-09-27 builder rework is in the matching approvals note. Status remains Candidate; this file does not approve the scene. The earlier basis below was withdrawn with the 2026-09-25 reversion. The Panthéon from the Place du Panthéon: Corinthian portico with sculpted pediment, the colonnaded drum and high dome with lantern and cross, flanked by Haussmann-era buildings — the Latin Quarter landmark is immediately recognizable. Gate 1 passes on the distinctive portico-and-dome silhouette and clean framing. Gate 2: caption 'Panthéon, Paris', scenario '23 September 2026 · 15:32 Europe/Paris', and AI disclosure legible bottom-left on the scrim; curly-apostrophe 'Jason D's Vision' signature bottom-right; sweep-verified exact 1920×1080/864×1080. approvals/FR-01-023.md absent from the repo, so no weather-retrieval timestamp to cross-check; unique scenario minute per scene, no reuse. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: small anonymous figures on the portico steps only, no logos; documented. Gate 5: ready.",
-  "approved_at": "2026-09-25T06:33:30.414637+00:00",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Open-Meteo retrieval 2026-09-27T16:56:47Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. FR-01-023: Neoclassical portico and dome from Place du Panthéon; scenario 15:32 matches note and retrieval (valid 15:00, code 0, 0% cloud). Label bar exact. Gates 1–5 pass; no IP flags.",
+  "approved_at": "2026-09-28T00:55:26.550380+00:00",
   "reverted_at": "2026-09-25T18:52:30.023184+00:00",
   "qc_notes": [
     {
