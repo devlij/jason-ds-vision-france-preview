@@ -8358,7 +8358,7 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
   var items=[],idx=0;
   var lbFormat='16x9';/* lightbox-session format: seeded from the opening card's active tab; persists across prev/next + slideshow, never reset to 16:9 */
   var lbDay='night';/* lightbox-session day/night: seeded from the opening card's active day tab; persists across prev/next and slideshow navigation */
-  var playing=false,timer=null,SLIDE_MS=6000;
+  var playing=false,timer=null,SLIDE_MS=4000;
   function renderPlay(){playBtn.innerHTML=playing?'&#10074;&#10074;':'&#9654;';playBtn.setAttribute('aria-label',playing?'Pause slideshow':'Play slideshow');playBtn.classList.toggle('playing',playing);}
   function stopSlide(){playing=false;if(timer){clearInterval(timer);timer=null;}renderPlay();}
   function startSlide(){playing=true;if(timer)clearInterval(timer);timer=setInterval(function(){show(idx+1);},SLIDE_MS);renderPlay();}
