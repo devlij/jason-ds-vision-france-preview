@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is pastel canal façades and stone bridge with Alpine backdrop. The place named on the card is Annecy old town canals, Annecy, in Auvergne-Rhône-Alpes. Model data from Open-Meteo, retrieved 2026-09-27T18:54:33+02:00 (2026-09-27T16:54:33Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 24.1°C, wind 8.3 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Annecy old town canals under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-016-16x9.png?v=wx012026",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-016-4x5.png?v=wx012026",
   "file_9x16": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-016-9x16.png?v=wx012026",
   "weather_provider": "Open-Meteo",
@@ -19,9 +19,9 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-27T18:54:33+02:00 (2026-09-27T16:54:33Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 24.1°C, wind 8.3 km/h, precipitation 0.0 mm.",
-  "qc_status": "Candidate — per-scene Open-Meteo retrieval recorded 2026-09-27; awaiting Cosmo QC",
-  "approval_basis": "2026-09-27 builder rework is in the matching approvals note. Status remains Candidate; this file does not approve the scene. The earlier basis below was withdrawn with the 2026-09-25 reversion. G1 visual pass: the turquoise Thiou canal runs under its stone bridge between arcaded pastel houses with shuttered windows and flower boxes, mountains rising behind — the classic Annecy old-town canal view, clean framing, no artifacts. G2 technical pass: masters verified 1920x1080 / 864x1080; on-image caption 'Annecy old town canals, Annecy', scenario '23 September 2026 · 15:15 Europe/Paris', and the AI disclosure all legible bottom-left on the scrim; 'Jason D's Vision' signature with curly apostrophe bottom-right; label matches the repo SCENES block and the sequential daylight batch with no weather-metadata reuse evidence (no approvals note exists for this entry). G3 originality: no photographic inputs reported. G4 commercial/IP: no logos; distant figures are generic tourist silhouettes on the quay, no recognizable individuals or private property — documented only. G5 publication ready.",
-  "approved_at": "2026-09-25T05:32:24.810183+00:00",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Open-Meteo retrieval 2026-09-27T16:54:33Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. FR-01-016: Pastel canal façades with flower boxes, stone bridge, Alpine backdrop; scenario 15:15 matches note and retrieval (valid 15:00, code 0, 0% cloud). Label bar exact. Gates 1–5 pass; small unidentifiable figures noted, Gate 4 only.",
+  "approved_at": "2026-09-28T00:54:24.461021+00:00",
   "reverted_at": "2026-09-25T18:52:17.310126+00:00",
   "qc_notes": [
     {
