@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is medieval riverside towers and Tour de l'Horloge along the Seine. The place named on the card is Conciergerie, Paris, in Île-de-France. Model data from Open-Meteo, retrieved 2026-09-27T18:56:48+02:00 (2026-09-27T16:56:48Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 24.9°C, wind 3.1 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of the Conciergerie under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-024-16x9.png?v=wx012026",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-024-4x5.png?v=wx012026",
   "file_9x16": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-024-9x16.png?v=wx012026",
   "weather_provider": "Open-Meteo",
@@ -19,9 +19,9 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-27T18:56:48+02:00 (2026-09-27T16:56:48Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 24.9°C, wind 3.1 km/h, precipitation 0.0 mm.",
-  "qc_status": "Candidate — per-scene Open-Meteo retrieval recorded 2026-09-27; awaiting Cosmo QC",
-  "approval_basis": "2026-09-27 builder rework is in the matching approvals note. Status remains Candidate; this file does not approve the scene. The earlier basis below was withdrawn with the 2026-09-25 reversion. The Conciergerie from across the Seine: the twin round towers with conical roofs, the long Gothic riverside facade, and the Tour de l'Horloge with its blue-and-gold clock face above the quay, with the Seine in the foreground — the medieval palace reads clearly from this classic rive-droite viewpoint. Gate 1 passes on the towers, clock tower and quay geometry with no artifacts. Gate 2: caption 'Conciergerie, Paris', scenario '23 September 2026 · 15:33 Europe/Paris', AI disclosure bottom-left; 'Jason D's Vision' signature bottom-right with curly apostrophe; exact 1920×1080/864×1080 masters confirmed by the sweep. approvals/FR-01-024.md absent from the repo, so no recorded weather-retrieval time to cross-check; scenario minute unique to this scene. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: tiny pedestrians along the quay only, no logos; documented. Gate 5: ready.",
-  "approved_at": "2026-09-25T06:33:34.439222+00:00",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Open-Meteo retrieval 2026-09-27T16:56:48Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. FR-01-024: Medieval riverside towers and Tour de l'Horloge along the Seine with the bridge at right; scenario 15:33 matches note and retrieval (valid 15:00, code 0, 0% cloud). 65-pixel residual documented, not visible as a defect. Label bar exact. Gates 1–5 pass; no IP flags.",
+  "approved_at": "2026-09-28T00:55:35.178219+00:00",
   "reverted_at": "2026-09-25T18:52:31.588428+00:00",
   "qc_notes": [
     {
