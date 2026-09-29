@@ -1,0 +1,35 @@
+{
+  "entry_id": "FR-01-121",
+  "country": "France",
+  "region": "Occitanie",
+  "city": "Conques",
+  "caption": "Conques abbey village, Conques",
+  "scenario_label": "23 September 2026 · 19:13 Europe/Paris",
+  "composition": "Clustered Romanesque Sainte-Foy abbey village in Dourdou gorge hollow · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is clustered Romanesque Sainte-Foy abbey village in Dourdou gorge hollow. The place named on the card is Conques abbey village, Conques, in Occitanie. Model data from Open-Meteo, retrieved 2026-09-29T22:11:46+02:00 (2026-09-29T20:11:46Z), valid 2026-09-23T19:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.7°C, wind 3.5 km/h, precipitation 0.0 mm.",
+  "alt_text": "AI-generated artistic interpretation of Conques abbey village under clear late-afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-121-16x9.png?v=batch121",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-121-4x5.png?v=batch121",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:11:46Z",
+  "weather_retrieval_local": "2026-09-29T22:11:46+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T19:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:11:46+02:00 (2026-09-29T20:11:46Z), valid 2026-09-23T19:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.7°C, wind 3.5 km/h, precipitation 0.0 mm.",
+  "sha256_16x9": "edb134143b103210081cded8e28d67f7fbf4c5b672f809eb989758ec96a402d1",
+  "sha256_4x5": "b59ea5edeee4552c222fe5d0705cbbff9754ad80b207788f3da1509148698af7",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "edb134143b103210081cded8e28d67f7fbf4c5b672f809eb989758ec96a402d1"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "b59ea5edeee4552c222fe5d0705cbbff9754ad80b207788f3da1509148698af7"
+    }
+  }
+}

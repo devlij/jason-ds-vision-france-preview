@@ -4,13 +4,20 @@
   "region": "Grand Est",
   "city": "Strasbourg",
   "caption": "Petite France, Strasbourg",
-  "scenario_label": "23 September 2026 · 15:46 Europe/Paris",
+  "scenario_label": "23 September 2026 · 13:46 Europe/Paris",
   "composition": "Half-timbered houses along the Ill canals · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is half-timbered houses along the Ill canals. The place named on the card is Petite France, Strasbourg, in Grand Est. Light and weather follow the modelled scenario 23 September 2026 · 15:46 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is half-timbered houses along the Ill canals. The place named on the card is Petite France, Strasbourg, in Grand Est. Model data from Open-Meteo, retrieved 2026-09-29T22:07:51+02:00 (2026-09-29T20:07:51Z), valid 2026-09-23T13:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 20.3°C, wind 3.1 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Petite France in Strasbourg under clear afternoon light",
-  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-064-16x9.png?v=batch061",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-064-16x9.png?v=wx06429",
   "approval_status": "Candidate",
-  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-064-4x5.png?v=batch061",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-064-4x5.png?v=wx06429",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:07:51Z",
+  "weather_retrieval_local": "2026-09-29T22:07:51+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T13:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:07:51+02:00 (2026-09-29T20:07:51Z), valid 2026-09-23T13:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 20.3°C, wind 3.1 km/h, precipitation 0.0 mm.",
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate1: Petite France's half-timbered houses with flower boxes along the Ill river, sluice bridge left, reflections — the classic Strasbourg riverside viewpoint. Clean framing, no artifacts. Gate2: exact 1920x1080/864x1080; caption 'Petite France, Strasbourg', scenario '23 September 2026 · 15:46 Europe/Paris', AI disclosure on gradient scrim; 'Jason D's Vision' bottom-right. No approvals note (404); sequential 15:46 scenario, no stale-weather evidence. Gate3: no photographic inputs evidenced. Gate4: no recognizable individuals, logos, or private property; generic old-town fronts only — documented only.",
   "approved_at": "2026-09-25T10:32:13.356790+00:00",
@@ -26,14 +33,14 @@
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "da6f1986272b2ed712aebcc387f42d5803d98fbcd1249c35a9d891762fa35720"
+      "sha256": "03fa7467816727b44672b7050529f89f100027ee184503ac238628c426ad04e9"
     },
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "e3d7011b61d42bea786784edb4effc00edbe54d2327c808f0560116483c4c050"
+      "sha256": "e09fb852c56ad7654fd217daf35dda9e89fee72be16d7f66be6709a47f91f186"
     }
   },
-  "sha256_4x5": "da6f1986272b2ed712aebcc387f42d5803d98fbcd1249c35a9d891762fa35720",
-  "sha256_16x9": "e3d7011b61d42bea786784edb4effc00edbe54d2327c808f0560116483c4c050"
+  "sha256_4x5": "03fa7467816727b44672b7050529f89f100027ee184503ac238628c426ad04e9",
+  "sha256_16x9": "e09fb852c56ad7654fd217daf35dda9e89fee72be16d7f66be6709a47f91f186"
 }

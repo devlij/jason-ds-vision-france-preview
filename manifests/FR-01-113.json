@@ -1,0 +1,35 @@
+{
+  "entry_id": "FR-01-113",
+  "country": "France",
+  "region": "Grand Est",
+  "city": "Kaysersberg",
+  "caption": "Kaysersberg medieval wine village, Kaysersberg",
+  "scenario_label": "23 September 2026 · 17:49 Europe/Paris",
+  "composition": "Fortified Alsace wine village with Schlossberg castle ruin above · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is fortified Alsace wine village with Schlossberg castle ruin above. The place named on the card is Kaysersberg medieval wine village, Kaysersberg, in Grand Est. Model data from Open-Meteo, retrieved 2026-09-29T22:11:36+02:00 (2026-09-29T20:11:36Z), valid 2026-09-23T17:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 22.2°C, wind 4.4 km/h, precipitation 0.0 mm.",
+  "alt_text": "AI-generated artistic interpretation of Kaysersberg medieval wine village under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-113-16x9.png?v=wx11329",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-113-4x5.png?v=wx11329",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:11:36Z",
+  "weather_retrieval_local": "2026-09-29T22:11:36+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T17:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:11:36+02:00 (2026-09-29T20:11:36Z), valid 2026-09-23T17:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 22.2°C, wind 4.4 km/h, precipitation 0.0 mm.",
+  "sha256_16x9": "bf5048b4ca546ec31faa5d524774633a41a166659eb579d01215fd6101f4f44e",
+  "sha256_4x5": "60aae9563b5ab3f449107128deca26bca9a00b407f8088fef871d4f1ef527959",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "bf5048b4ca546ec31faa5d524774633a41a166659eb579d01215fd6101f4f44e"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "60aae9563b5ab3f449107128deca26bca9a00b407f8088fef871d4f1ef527959"
+    }
+  }
+}

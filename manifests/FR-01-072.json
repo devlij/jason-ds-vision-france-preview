@@ -4,13 +4,20 @@
   "region": "Pays de la Loire",
   "city": "Saumur",
   "caption": "Château de Saumur, Saumur",
-  "scenario_label": "23 September 2026 · 15:51 Europe/Paris",
+  "scenario_label": "23 September 2026 · 16:51 Europe/Paris",
   "composition": "Four-tower white fortress-château on a cliff above the Loire · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is four-tower white fortress-château on a cliff above the Loire. The place named on the card is Château de Saumur, Saumur, in Pays de la Loire. Light and weather follow the modelled scenario 23 September 2026 · 15:51 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is four-tower white fortress-château on a cliff above the Loire. The place named on the card is Château de Saumur, Saumur, in Pays de la Loire. Model data from Open-Meteo, retrieved 2026-09-29T22:08:01+02:00 (2026-09-29T20:08:01Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.5°C, wind 5.6 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Château de Saumur under clear afternoon light",
-  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-072-16x9.png?v=batch069",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-072-16x9.png?v=wx07229",
   "approval_status": "Candidate",
-  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-072-4x5.png?v=batch069",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-072-4x5.png?v=wx07229",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:08:01Z",
+  "weather_retrieval_local": "2026-09-29T22:08:01+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T16:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:08:01+02:00 (2026-09-29T20:08:01Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.5°C, wind 5.6 km/h, precipitation 0.0 mm.",
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate 1: white tufa château with conical slate towers on its rocky promontory above the Loire, Saumur town rooftops behind — the canonical riverside viewpoint of Château de Saumur, clean framing, no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; caption 'Château de Saumur, Saumur', scenario '23 September 2026 · 15:51 Europe/Paris', disclosure on-image bottom-left, curly-apostrophe signature bottom-right verified at 2x zoom. No agent weather note for this scene (notes start at FR-01-125); sequential scenario time in this build batch, no reuse pattern. Gate 3: no provenance claims on file; nothing indicates photographic inputs. Gate 4: no identifiable people or logos — documented only. Gate 5: clear.",
   "approved_at": "2026-09-25T11:32:58.226634+00:00",
@@ -26,14 +33,14 @@
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "74c84a2026c7e4ff6e0f0bf788bd4ed98e4b7c6453e30a1272796a74706ea01c"
+      "sha256": "d8a9e98bb4126dc288879a9c28e80034be0993cdde67566ed594fced31e75701"
     },
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "07ce608358d2f05b36c565798e025f1db54b70cfef7f7d26992f467af9632e1b"
+      "sha256": "391c0fa9e4b72285b5bdd78fa6a11e2be43d18acc0f04c3f8bc8cde9e6bb2880"
     }
   },
-  "sha256_16x9": "74c84a2026c7e4ff6e0f0bf788bd4ed98e4b7c6453e30a1272796a74706ea01c",
-  "sha256_4x5": "07ce608358d2f05b36c565798e025f1db54b70cfef7f7d26992f467af9632e1b"
+  "sha256_16x9": "d8a9e98bb4126dc288879a9c28e80034be0993cdde67566ed594fced31e75701",
+  "sha256_4x5": "391c0fa9e4b72285b5bdd78fa6a11e2be43d18acc0f04c3f8bc8cde9e6bb2880"
 }

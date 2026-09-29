@@ -1,0 +1,35 @@
+{
+  "entry_id": "FR-01-108",
+  "country": "France",
+  "region": "Bretagne",
+  "city": "Île de Houat",
+  "caption": "Île de Houat harbor, Île de Houat",
+  "scenario_label": "23 September 2026 · 16:28 Europe/Paris",
+  "composition": "Brittany island harbor and village quay · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is brittany island harbor and village quay. The place named on the card is Île de Houat harbor, Île de Houat, in Bretagne. Model data from Open-Meteo, retrieved 2026-09-29T22:11:29+02:00 (2026-09-29T20:11:29Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 20.6°C, wind 16.2 km/h, precipitation 0.0 mm.",
+  "alt_text": "AI-generated artistic interpretation of Île de Houat harbor under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-108-16x9.png?v=wx10829",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-108-4x5.png?v=wx10829",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:11:29Z",
+  "weather_retrieval_local": "2026-09-29T22:11:29+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T16:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:11:29+02:00 (2026-09-29T20:11:29Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 20.6°C, wind 16.2 km/h, precipitation 0.0 mm.",
+  "sha256_16x9": "75e67399a3e03f9507e03b050561897a08c9800d08a681a825769347e198ec51",
+  "sha256_4x5": "4cf906ff6355e417bb8fe4d3284fe1cc6530e247a8e266cfa40aa923be2842c9",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "75e67399a3e03f9507e03b050561897a08c9800d08a681a825769347e198ec51"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "4cf906ff6355e417bb8fe4d3284fe1cc6530e247a8e266cfa40aa923be2842c9"
+    }
+  }
+}

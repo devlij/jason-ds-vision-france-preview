@@ -4,13 +4,20 @@
   "region": "Bourgogne-Franche-Comté",
   "city": "Besançon",
   "caption": "Citadel of Besançon, Besançon",
-  "scenario_label": "23 September 2026 · 16:35 Europe/Paris",
+  "scenario_label": "23 September 2026 · 13:35 Europe/Paris",
   "composition": "Vauban citadel on the rocky loop of the Doubs · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is vauban citadel on the rocky loop of the Doubs. The place named on the card is Citadel of Besançon, Besançon, in Bourgogne-Franche-Comté. Light and weather follow the modelled scenario 23 September 2026 · 16:35 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is vauban citadel on the rocky loop of the Doubs. The place named on the card is Citadel of Besançon, Besançon, in Bourgogne-Franche-Comté. Model data from Open-Meteo, retrieved 2026-09-29T22:08:03+02:00 (2026-09-29T20:08:03Z), valid 2026-09-23T13:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 21.1°C, wind 6.3 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of the Citadel of Besançon under clear afternoon light",
-  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-079-16x9.png?v=batch077",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-079-16x9.png?v=wx07929",
   "approval_status": "Candidate",
-  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-079-4x5.png?v=batch077",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-079-4x5.png?v=wx07929",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:08:03Z",
+  "weather_retrieval_local": "2026-09-29T22:08:03+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T13:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:08:03+02:00 (2026-09-29T20:08:03Z), valid 2026-09-23T13:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 21.1°C, wind 6.3 km/h, precipitation 0.0 mm.",
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate 1: aerial of the Citadel of Besançon on Mont Saint-Étienne inside the Doubs oxbow — Vauban walls wrapping the hilltop, the river looping the promontory; the site's defining geography is unmistakable. Gate 2: sweep verified 1920x1080 + 864x1080; caption 'Citadel of Besançon, Besançon', scenario '23 September 2026 · 16:35 Europe/Paris', disclosure on-image bottom-left, curly-apostrophe signature bottom-right verified at 2x zoom. No agent weather note (notes start at FR-01-125); sequential batch scenario time, no reuse pattern. Gate 3: no provenance claims on file; nothing indicates photographic inputs. Gate 4: no identifiable people or logos — documented only. Gate 5: clear.",
   "approved_at": "2026-09-25T11:33:22.681608+00:00",
@@ -26,14 +33,14 @@
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "2cc18e6b81ef3af69bbb8361559dcec412af685b4171262188eacc4decf90e3b"
+      "sha256": "e25ceb3ef37c8f12a9161b663d451cebe543b62093d6e463e49a9957f442f279"
     },
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "709b345daa4b1955bceda5a802e7ba0369dfe434ceccb745a5f9ccfcca1a6e65"
+      "sha256": "027d3557cb687c2affdf9b8c17cb4267c1e23ac674ab292bec355f6b8146c8e3"
     }
   },
-  "sha256_16x9": "2cc18e6b81ef3af69bbb8361559dcec412af685b4171262188eacc4decf90e3b",
-  "sha256_4x5": "709b345daa4b1955bceda5a802e7ba0369dfe434ceccb745a5f9ccfcca1a6e65"
+  "sha256_16x9": "e25ceb3ef37c8f12a9161b663d451cebe543b62093d6e463e49a9957f442f279",
+  "sha256_4x5": "027d3557cb687c2affdf9b8c17cb4267c1e23ac674ab292bec355f6b8146c8e3"
 }

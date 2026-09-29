@@ -1,0 +1,35 @@
+{
+  "entry_id": "FR-01-111",
+  "country": "France",
+  "region": "Occitanie",
+  "city": "Foix",
+  "caption": "Château de Foix, Foix",
+  "scenario_label": "23 September 2026 · 18:43 Europe/Paris",
+  "composition": "Triple-towered Counts of Foix castle on rocky spur above town · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is triple-towered Counts of Foix castle on rocky spur above town. The place named on the card is Château de Foix, Foix, in Occitanie. Model data from Open-Meteo, retrieved 2026-09-29T22:11:33+02:00 (2026-09-29T20:11:33Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 6%, 28.8°C, wind 5.9 km/h, precipitation 0.0 mm.",
+  "alt_text": "AI-generated artistic interpretation of Château de Foix under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-111-16x9.png?v=batch109",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-111-4x5.png?v=batch109",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:11:33Z",
+  "weather_retrieval_local": "2026-09-29T22:11:33+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T18:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:11:33+02:00 (2026-09-29T20:11:33Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 6%, 28.8°C, wind 5.9 km/h, precipitation 0.0 mm.",
+  "sha256_16x9": "8ef8bab0232155af932a23d91ec261cadc2c207a3e5b82a5f549c9c7f6d09a8d",
+  "sha256_4x5": "17266ed201fba6d26fbd54130c3cd8669082b93577b846bf325801626788a094",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "8ef8bab0232155af932a23d91ec261cadc2c207a3e5b82a5f549c9c7f6d09a8d"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "17266ed201fba6d26fbd54130c3cd8669082b93577b846bf325801626788a094"
+    }
+  }
+}

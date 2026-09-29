@@ -4,13 +4,20 @@
   "region": "Grand Est",
   "city": "Eguisheim",
   "caption": "Eguisheim, Eguisheim",
-  "scenario_label": "23 September 2026 · 15:48 Europe/Paris",
+  "scenario_label": "23 September 2026 · 13:48 Europe/Paris",
   "composition": "Flowered half-timbered street in a concentric Alsace wine village · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is flowered half-timbered street in a concentric Alsace wine village. The place named on the card is Eguisheim, Eguisheim, in Grand Est. Light and weather follow the modelled scenario 23 September 2026 · 15:48 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is flowered half-timbered street in a concentric Alsace wine village. The place named on the card is Eguisheim, Eguisheim, in Grand Est. Model data from Open-Meteo, retrieved 2026-09-29T22:07:56+02:00 (2026-09-29T20:07:56Z), valid 2026-09-23T13:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 18.3°C, wind 3.2 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Eguisheim under clear afternoon light",
-  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-068-16x9.png?v=batch065",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-068-16x9.png?v=wx06829",
   "approval_status": "Candidate",
-  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-068-4x5.png?v=batch065",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-068-4x5.png?v=wx06829",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:07:56Z",
+  "weather_retrieval_local": "2026-09-29T22:07:56+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T13:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:07:56+02:00 (2026-09-29T20:07:56Z), valid 2026-09-23T13:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 18.3°C, wind 3.2 km/h, precipitation 0.0 mm.",
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate1: Eguisheim's circular cobbled street lined with flower-bedecked half-timbered houses, vine-covered walls — the classic Alsace village viewpoint. Clean framing, no artifacts. Gate2: exact 1920x1080/864x1080; caption 'Eguisheim, Eguisheim', scenario '23 September 2026 · 15:48 Europe/Paris', AI disclosure on scrim; 'Jason D's Vision' bottom-right. No approvals note (404); sequential scenario, no stale-weather evidence. Gate3: no photographic inputs evidenced. Gate4: no people, logos, or recognizable private property — documented only.",
   "approved_at": "2026-09-25T10:32:47.689283+00:00",
@@ -26,14 +33,14 @@
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "3a3de074250b08a9dc2baa39a731a9301b3a008b8212e871d5125d1b2b0eb026"
+      "sha256": "d40d7146e893b2ffd019627925bfa7393284f894c30616c7a80227b6fa0d7777"
     },
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "5c8423b452272995c60f432fcb38e0dbdcb629ce8a630e9855e54713fba368dc"
+      "sha256": "165ce8b2c794b0fa0409b4a0b17a72a31c7c55071d9fa30fa168ce42a2f6eed9"
     }
   },
-  "sha256_4x5": "3a3de074250b08a9dc2baa39a731a9301b3a008b8212e871d5125d1b2b0eb026",
-  "sha256_16x9": "5c8423b452272995c60f432fcb38e0dbdcb629ce8a630e9855e54713fba368dc"
+  "sha256_4x5": "d40d7146e893b2ffd019627925bfa7393284f894c30616c7a80227b6fa0d7777",
+  "sha256_16x9": "165ce8b2c794b0fa0409b4a0b17a72a31c7c55071d9fa30fa168ce42a2f6eed9"
 }

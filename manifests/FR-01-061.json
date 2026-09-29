@@ -4,13 +4,20 @@
   "region": "Centre-Val de Loire",
   "city": "Villandry",
   "caption": "Château de Villandry, Villandry",
-  "scenario_label": "23 September 2026 · 15:43 Europe/Paris",
+  "scenario_label": "23 September 2026 · 16:43 Europe/Paris",
   "composition": "Renaissance geometric ornamental gardens with the château · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is renaissance geometric ornamental gardens with the château. The place named on the card is Château de Villandry, Villandry, in Centre-Val de Loire. Light and weather follow the modelled scenario 23 September 2026 · 15:43 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is renaissance geometric ornamental gardens with the château. The place named on the card is Château de Villandry, Villandry, in Centre-Val de Loire. Model data from Open-Meteo, retrieved 2026-09-29T22:07:47+02:00 (2026-09-29T20:07:47Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.3°C, wind 7.9 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Château de Villandry under clear afternoon light",
-  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-061-16x9.png?v=batch061",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-061-16x9.png?v=wx06129",
   "approval_status": "Candidate",
-  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-061-4x5.png?v=batch061",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-061-4x5.png?v=wx06129",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:07:47Z",
+  "weather_retrieval_local": "2026-09-29T22:07:47+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T16:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:07:47+02:00 (2026-09-29T20:07:47Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.3°C, wind 7.9 km/h, precipitation 0.0 mm.",
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate1: Elevated view of Villandry's Renaissance château — slate mansard roof, dormers, pale stone façade — behind geometric knot gardens of clipped boxwood parterres with purple/white plantings, exactly the tourist viewpoint from the gardens. Gate2: 1920x1080/864x1080 exact; caption 'Château de Villandry, Villandry', scenario '23 September 2026 · 15:43 Europe/Paris', AI disclosure on gradient scrim; 'Jason D's Vision' signature bottom-right. No approvals/*.md note exists (404) — no weather-retrieval cross-check possible; no stale/reused weather evidence. Gate3: no photographic inputs evidenced. Gate4: no people, logos, or private property visible — documented only, not certified.",
   "approved_at": "2026-09-25T10:31:44.721767+00:00",
@@ -26,14 +33,14 @@
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "ef082a7f04edc4b1e275e4446b3d2974986ca021432f3f117659d4b929131f81"
+      "sha256": "b94f0b2c9dc39a5d40bc601c225abe140c14f137740f844c88040b15e85d5c84"
     },
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "607c19843042a33298cfbee77099a9da1b306585ec855225cf6b06e5fece02ca"
+      "sha256": "fe54e369b9efcdb542fade754fab8b5ab621f58d11fc27f6402332c65a3f78f6"
     }
   },
-  "sha256_16x9": "ef082a7f04edc4b1e275e4446b3d2974986ca021432f3f117659d4b929131f81",
-  "sha256_4x5": "607c19843042a33298cfbee77099a9da1b306585ec855225cf6b06e5fece02ca"
+  "sha256_16x9": "b94f0b2c9dc39a5d40bc601c225abe140c14f137740f844c88040b15e85d5c84",
+  "sha256_4x5": "fe54e369b9efcdb542fade754fab8b5ab621f58d11fc27f6402332c65a3f78f6"
 }

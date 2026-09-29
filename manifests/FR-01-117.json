@@ -1,0 +1,35 @@
+{
+  "entry_id": "FR-01-117",
+  "country": "France",
+  "region": "Bretagne",
+  "city": "Vitré",
+  "caption": "Vitré fortified old town and château, Vitré",
+  "scenario_label": "23 September 2026 · 16:02 Europe/Paris",
+  "composition": "Triangular Brittany granite fortress château with timbered/granite old-town street · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is triangular Brittany granite fortress château with timbered/granite old-town street. The place named on the card is Vitré fortified old town and château, Vitré, in Bretagne. Model data from Open-Meteo, retrieved 2026-09-29T22:11:41+02:00 (2026-09-29T20:11:41Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.0°C, wind 16.6 km/h, precipitation 0.0 mm.",
+  "alt_text": "AI-generated artistic interpretation of Vitré fortified old town and château under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-117-16x9.png?v=wx11729",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-117-4x5.png?v=wx11729",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:11:41Z",
+  "weather_retrieval_local": "2026-09-29T22:11:41+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T16:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:11:41+02:00 (2026-09-29T20:11:41Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.0°C, wind 16.6 km/h, precipitation 0.0 mm.",
+  "sha256_16x9": "bca7efb4c8c6ec4d080ee4865e1e7abe5cfd13635e6217546ae0b2c23f5b9e02",
+  "sha256_4x5": "cbc944bb6aa90b9b4ac4fc3e6c66e471717529c2e78e5aef4f8ca36bb8f80b83",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "bca7efb4c8c6ec4d080ee4865e1e7abe5cfd13635e6217546ae0b2c23f5b9e02"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "cbc944bb6aa90b9b4ac4fc3e6c66e471717529c2e78e5aef4f8ca36bb8f80b83"
+    }
+  }
+}

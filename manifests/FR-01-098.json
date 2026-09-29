@@ -4,13 +4,20 @@
   "region": "Bretagne",
   "city": "Fougères",
   "caption": "Château de Fougères, Fougères",
-  "scenario_label": "23 September 2026 · 17:57 Europe/Paris",
+  "scenario_label": "23 September 2026 · 16:57 Europe/Paris",
   "composition": "Massive concentric medieval fortress with granite towers · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is massive concentric medieval fortress with granite towers. The place named on the card is Château de Fougères, Fougères, in Bretagne. Light and weather follow the modelled scenario 23 September 2026 · 17:57 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is massive concentric medieval fortress with granite towers. The place named on the card is Château de Fougères, Fougères, in Bretagne. Model data from Open-Meteo, retrieved 2026-09-29T22:08:27+02:00 (2026-09-29T20:08:27Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 3%, 24.6°C, wind 15.6 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Château de Fougères under clear afternoon light",
-  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-098-16x9.png?v=batch097",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-098-16x9.png?v=wx09829",
   "approval_status": "Candidate",
-  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-098-4x5.png?v=batch097",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-098-4x5.png?v=wx09829",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:08:27Z",
+  "weather_retrieval_local": "2026-09-29T22:08:27+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T16:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:08:27+02:00 (2026-09-29T20:08:27Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 3%, 24.6°C, wind 15.6 km/h, precipitation 0.0 mm.",
   "qc_notes": [
     {
       "at": "2026-09-25T18:38:55.010339+00:00",
@@ -22,14 +29,14 @@
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "b9bd4fbcf8d91f89379c9908c37a50dee055843b71e09fbcb3ff38eb91f1c9a8"
+      "sha256": "f6f601b95827b004c9783c2e9c9dec899631af1efce3ffd7af80688c74b05a18"
     },
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "e84fdb9fba35af270cfe53c2d0bb7e13456e3049e0d6ca02618e0d4fbece4f4d"
+      "sha256": "a3ba9361cc6e4021001190dcb7de3e96c22433d24e346d1c8899f88e304febe8"
     }
   },
-  "sha256_4x5": "b9bd4fbcf8d91f89379c9908c37a50dee055843b71e09fbcb3ff38eb91f1c9a8",
-  "sha256_16x9": "e84fdb9fba35af270cfe53c2d0bb7e13456e3049e0d6ca02618e0d4fbece4f4d"
+  "sha256_4x5": "f6f601b95827b004c9783c2e9c9dec899631af1efce3ffd7af80688c74b05a18",
+  "sha256_16x9": "a3ba9361cc6e4021001190dcb7de3e96c22433d24e346d1c8899f88e304febe8"
 }

@@ -1,0 +1,35 @@
+{
+  "entry_id": "FR-01-124",
+  "country": "France",
+  "region": "Pays de la Loire",
+  "city": "Noirmoutier-en-l'Île",
+  "caption": "Île de Noirmoutier / Passage du Gois or harbor, Noirmoutier-en-l'Île",
+  "scenario_label": "23 September 2026 · 18:16 Europe/Paris",
+  "composition": "Passage du Gois submersible tidal causeway across Baie de Bourgneuf salt-marsh flats · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is passage du Gois submersible tidal causeway across Baie de Bourgneuf salt-marsh flats. The place named on the card is Île de Noirmoutier / Passage du Gois or harbor, Noirmoutier-en-l'Île, in Pays de la Loire. Model data from Open-Meteo, retrieved 2026-09-29T22:11:50+02:00 (2026-09-29T20:11:50Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 13%, 23.6°C, wind 18.5 km/h, precipitation 0.0 mm.",
+  "alt_text": "AI-generated artistic interpretation of Île de Noirmoutier / Passage du Gois under clear late-afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-124-16x9.png?v=wx12429",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-124-4x5.png?v=wx12429",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:11:50Z",
+  "weather_retrieval_local": "2026-09-29T22:11:50+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T18:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:11:50+02:00 (2026-09-29T20:11:50Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 13%, 23.6°C, wind 18.5 km/h, precipitation 0.0 mm.",
+  "sha256_16x9": "1fc2d9709f0197f997f97a4c3dc7686614ae92c04fc9bb63b105a97b6a06ac37",
+  "sha256_4x5": "bfbdd73be95c1744f53854c2916516bed0604b91e2e604192caf4377c08002c4",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "1fc2d9709f0197f997f97a4c3dc7686614ae92c04fc9bb63b105a97b6a06ac37"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "bfbdd73be95c1744f53854c2916516bed0604b91e2e604192caf4377c08002c4"
+    }
+  }
+}
