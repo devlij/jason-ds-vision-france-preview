@@ -1,0 +1,35 @@
+{
+  "entry_id": "FR-01-119",
+  "country": "France",
+  "region": "Occitanie",
+  "city": "Najac",
+  "caption": "Najac ridge fortress village, Najac",
+  "scenario_label": "23 September 2026 · 19:04 Europe/Paris",
+  "composition": "Single castle keep on knife-edge ridge village above Aveyron valley · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is single castle keep on knife-edge ridge village above Aveyron valley. The place named on the card is Najac ridge fortress village, Najac, in Occitanie. Model data from Open-Meteo, retrieved 2026-09-29T22:11:43+02:00 (2026-09-29T20:11:43Z), valid 2026-09-23T19:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.6°C, wind 2.6 km/h, precipitation 0.0 mm.",
+  "alt_text": "AI-generated artistic interpretation of Najac ridge fortress village under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-119-16x9.png?v=batch117",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-119-4x5.png?v=batch117",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:11:43Z",
+  "weather_retrieval_local": "2026-09-29T22:11:43+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T19:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:11:43+02:00 (2026-09-29T20:11:43Z), valid 2026-09-23T19:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.6°C, wind 2.6 km/h, precipitation 0.0 mm.",
+  "sha256_16x9": "4511249b315666f98d249bdcde0eb57149e23216433119585d2e6da9bc206e14",
+  "sha256_4x5": "92f1772ff729b2fe686dc07672922ca2d756c39c0db820dc09fda6062432b251",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "4511249b315666f98d249bdcde0eb57149e23216433119585d2e6da9bc206e14"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "92f1772ff729b2fe686dc07672922ca2d756c39c0db820dc09fda6062432b251"
+    }
+  }
+}

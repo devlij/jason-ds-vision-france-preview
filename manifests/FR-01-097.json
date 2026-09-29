@@ -4,13 +4,20 @@
   "region": "Bretagne",
   "city": "Dinan",
   "caption": "Dinan medieval town, Dinan",
-  "scenario_label": "23 September 2026 · 17:56 Europe/Paris",
+  "scenario_label": "23 September 2026 · 15:56 Europe/Paris",
   "composition": "Half-timbered streets and medieval Brittany fabric · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is half-timbered streets and medieval Brittany fabric. The place named on the card is Dinan medieval town, Dinan, in Bretagne. Light and weather follow the modelled scenario 23 September 2026 · 17:56 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is half-timbered streets and medieval Brittany fabric. The place named on the card is Dinan medieval town, Dinan, in Bretagne. Model data from Open-Meteo, retrieved 2026-09-29T22:08:25+02:00 (2026-09-29T20:08:25Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 21.7°C, wind 21.3 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Dinan medieval town under clear afternoon light",
-  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-097-16x9.png?v=batch097",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-097-16x9.png?v=wx09729",
   "approval_status": "Candidate",
-  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-097-4x5.png?v=batch097",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-097-4x5.png?v=wx09729",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:08:25Z",
+  "weather_retrieval_local": "2026-09-29T22:08:25+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:08:25+02:00 (2026-09-29T20:08:25Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 21.7°C, wind 21.3 km/h, precipitation 0.0 mm.",
   "qc_notes": [
     {
       "at": "2026-09-25T18:38:50.964511+00:00",
@@ -22,14 +29,14 @@
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "0011c9020d8db71a1bd84d2f17729dc4ae556f8c1f0cd105a306addb140d6252"
+      "sha256": "e7b23ae3414448bbbb2807d6cd67a5c442b4ffec09fa6ab7dcaef17693c84729"
     },
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "c88261f5945b50f98b21aeb7b9acae922a6f0338e13b8b8f157a9d93f53b6537"
+      "sha256": "2d01f2f32f0c8d849236d7104c0404900f2af8eb025d36fc98385cbb7771b5f3"
     }
   },
-  "sha256_4x5": "0011c9020d8db71a1bd84d2f17729dc4ae556f8c1f0cd105a306addb140d6252",
-  "sha256_16x9": "c88261f5945b50f98b21aeb7b9acae922a6f0338e13b8b8f157a9d93f53b6537"
+  "sha256_4x5": "e7b23ae3414448bbbb2807d6cd67a5c442b4ffec09fa6ab7dcaef17693c84729",
+  "sha256_16x9": "2d01f2f32f0c8d849236d7104c0404900f2af8eb025d36fc98385cbb7771b5f3"
 }

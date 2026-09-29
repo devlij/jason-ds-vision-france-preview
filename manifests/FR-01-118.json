@@ -1,0 +1,35 @@
+{
+  "entry_id": "FR-01-118",
+  "country": "France",
+  "region": "Centre-Val de Loire",
+  "city": "Loches",
+  "caption": "Château de Loches and medieval town, Loches",
+  "scenario_label": "23 September 2026 · 18:03 Europe/Paris",
+  "composition": "Massive square Romanesque limestone donjon on spur above Loches · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is massive square Romanesque limestone donjon on spur above Loches. The place named on the card is Château de Loches and medieval town, Loches, in Centre-Val de Loire. Model data from Open-Meteo, retrieved 2026-09-29T22:11:42+02:00 (2026-09-29T20:11:42Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.6°C, wind 7.3 km/h, precipitation 0.0 mm.",
+  "alt_text": "AI-generated artistic interpretation of Château de Loches and medieval town under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-118-16x9.png?v=wx11829",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-118-4x5.png?v=wx11829",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:11:42Z",
+  "weather_retrieval_local": "2026-09-29T22:11:42+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T18:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:11:42+02:00 (2026-09-29T20:11:42Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.6°C, wind 7.3 km/h, precipitation 0.0 mm.",
+  "sha256_16x9": "40148b78a7afea07a61626f083cf6279e9869b966284de909026e7f56042ac3b",
+  "sha256_4x5": "6779090baf5dee9bc4639fc4272525ab85b4584d9b518079b8679a0633fbb93e",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "40148b78a7afea07a61626f083cf6279e9869b966284de909026e7f56042ac3b"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "6779090baf5dee9bc4639fc4272525ab85b4584d9b518079b8679a0633fbb93e"
+    }
+  }
+}

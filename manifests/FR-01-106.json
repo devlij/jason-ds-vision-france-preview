@@ -1,0 +1,35 @@
+{
+  "entry_id": "FR-01-106",
+  "country": "France",
+  "region": "Bretagne",
+  "city": "Quimper",
+  "caption": "Quimper cathedral and old town, Quimper",
+  "scenario_label": "23 September 2026 · 18:26 Europe/Paris",
+  "composition": "Twin-spired Cathédrale Saint-Corentin with Brittany timbered old town · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is twin-spired Cathédrale Saint-Corentin with Brittany timbered old town. The place named on the card is Quimper cathedral and old town, Quimper, in Bretagne. Model data from Open-Meteo, retrieved 2026-09-29T22:11:27+02:00 (2026-09-29T20:11:27Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 11%, 25.1°C, wind 12.2 km/h, precipitation 0.0 mm.",
+  "alt_text": "AI-generated artistic interpretation of Quimper cathedral and old town under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-106-16x9.png?v=batch105",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-106-4x5.png?v=batch105",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:11:27Z",
+  "weather_retrieval_local": "2026-09-29T22:11:27+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T18:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:11:27+02:00 (2026-09-29T20:11:27Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 11%, 25.1°C, wind 12.2 km/h, precipitation 0.0 mm.",
+  "sha256_16x9": "f47118c40c53e1ad133d1ee14a8388407caffc02966f3db145c81a89b75b876d",
+  "sha256_4x5": "6a93c10efb91d5376dee90f77a7a28f93495738994b605078b9575e6e1b90570",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "f47118c40c53e1ad133d1ee14a8388407caffc02966f3db145c81a89b75b876d"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "6a93c10efb91d5376dee90f77a7a28f93495738994b605078b9575e6e1b90570"
+    }
+  }
+}

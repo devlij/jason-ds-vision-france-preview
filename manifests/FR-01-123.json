@@ -1,0 +1,35 @@
+{
+  "entry_id": "FR-01-123",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "city": "Pérouges",
+  "caption": "Pérouges medieval hill town, Pérouges",
+  "scenario_label": "23 September 2026 · 18:15 Europe/Paris",
+  "composition": "Cobbled rue des Rondes / Place de la Halle stone medieval street inside ramparts · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is cobbled rue des Rondes / Place de la Halle stone medieval street inside ramparts. The place named on the card is Pérouges medieval hill town, Pérouges, in Auvergne-Rhône-Alpes. Model data from Open-Meteo, retrieved 2026-09-29T22:11:48+02:00 (2026-09-29T20:11:48Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 11%, 26.8°C, wind 7.2 km/h, precipitation 0.0 mm.",
+  "alt_text": "AI-generated artistic interpretation of Pérouges medieval hill town under clear late-afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-123-16x9.png?v=wx12329",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-123-4x5.png?v=wx12329",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:11:48Z",
+  "weather_retrieval_local": "2026-09-29T22:11:48+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T18:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:11:48+02:00 (2026-09-29T20:11:48Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 11%, 26.8°C, wind 7.2 km/h, precipitation 0.0 mm.",
+  "sha256_16x9": "14a7a48157b3e2d20ac9038972b52021e98258ea8d2e7879e7ce7fdb8605efff",
+  "sha256_4x5": "7dedfc5c16e3f22ca31457837874cdc8663afedae3b1f641cbbe17deb3a033d5",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "14a7a48157b3e2d20ac9038972b52021e98258ea8d2e7879e7ce7fdb8605efff"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "7dedfc5c16e3f22ca31457837874cdc8663afedae3b1f641cbbe17deb3a033d5"
+    }
+  }
+}

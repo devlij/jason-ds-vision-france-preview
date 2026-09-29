@@ -1,0 +1,21 @@
+{
+  "entry_id": "FR-01-067",
+  "provider": "Open-Meteo",
+  "model": "meteofrance_arome_france",
+  "http_date": "Tue, 29 Sep 2026 20:07:55 GMT",
+  "retrieval_utc": "2026-09-29T20:07:55Z",
+  "retrieval_local": "2026-09-29T22:07:55+02:00",
+  "latitude": 43.77535,
+  "longitude": 7.50292,
+  "elevation_m": 17.0,
+  "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
+  "scenario_label": "23 September 2026 · 15:47 Europe/Paris",
+  "scenario_minute_moved": false,
+  "weather_code": 0,
+  "cloud_cover": 3,
+  "temperature_2m": 26.1,
+  "wind_speed_10m": 9.6,
+  "precipitation": 0.0,
+  "rain": 0.0,
+  "is_day": 1
+}

@@ -1,0 +1,35 @@
+{
+  "entry_id": "FR-01-116",
+  "country": "France",
+  "region": "Bretagne",
+  "city": "Île de Groix",
+  "caption": "Île de Groix harbor / village, Île de Groix",
+  "scenario_label": "23 September 2026 · 16:52 Europe/Paris",
+  "composition": "Morbihan island Port Tudy harbor and village · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is morbihan island Port Tudy harbor and village. The place named on the card is Île de Groix harbor / village, Île de Groix, in Bretagne. Model data from Open-Meteo, retrieved 2026-09-29T22:11:39+02:00 (2026-09-29T20:11:39Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 3%, 21.9°C, wind 16.8 km/h, precipitation 0.0 mm.",
+  "alt_text": "AI-generated artistic interpretation of Île de Groix harbor / village under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-116-16x9.png?v=wx11629",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-116-4x5.png?v=wx11629",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:11:39Z",
+  "weather_retrieval_local": "2026-09-29T22:11:39+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T16:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:11:39+02:00 (2026-09-29T20:11:39Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 3%, 21.9°C, wind 16.8 km/h, precipitation 0.0 mm.",
+  "sha256_16x9": "7a55b471d45e897fdf1fa42cfc867d8a5a3c88821756575eb6749b035c7c52b8",
+  "sha256_4x5": "1a4f794add412b9ab059853ebeec2ce9060d455ecea3ac9325ff5f458961c2a8",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "7a55b471d45e897fdf1fa42cfc867d8a5a3c88821756575eb6749b035c7c52b8"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "1a4f794add412b9ab059853ebeec2ce9060d455ecea3ac9325ff5f458961c2a8"
+    }
+  }
+}

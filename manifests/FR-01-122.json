@@ -1,0 +1,35 @@
+{
+  "entry_id": "FR-01-122",
+  "country": "France",
+  "region": "Pays de la Loire",
+  "city": "Fontevraud-l'Abbaye",
+  "caption": "Abbaye Royale de Fontevraud, Fontevraud-l'Abbaye",
+  "scenario_label": "23 September 2026 · 18:14 Europe/Paris",
+  "composition": "Plantagenet royal abbey cloister arcade / Grand Moûtier limestone complex · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is plantagenet royal abbey cloister arcade / Grand Moûtier limestone complex. The place named on the card is Abbaye Royale de Fontevraud, Fontevraud-l'Abbaye, in Pays de la Loire. Model data from Open-Meteo, retrieved 2026-09-29T22:11:47+02:00 (2026-09-29T20:11:47Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.4°C, wind 8.3 km/h, precipitation 0.0 mm.",
+  "alt_text": "AI-generated artistic interpretation of Abbaye Royale de Fontevraud under clear late-afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-122-16x9.png?v=wx12229",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-122-4x5.png?v=wx12229",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:11:47Z",
+  "weather_retrieval_local": "2026-09-29T22:11:47+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T18:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:11:47+02:00 (2026-09-29T20:11:47Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.4°C, wind 8.3 km/h, precipitation 0.0 mm.",
+  "sha256_16x9": "9b4dc137ddc5b910c968e19eacf9298a983f9f07f494e191084f475b342418cf",
+  "sha256_4x5": "93275796f69fb9ab9f2aeffa800758eecc45e7d4784e1fad5829df5c1c6fd591",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "9b4dc137ddc5b910c968e19eacf9298a983f9f07f494e191084f475b342418cf"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "93275796f69fb9ab9f2aeffa800758eecc45e7d4784e1fad5829df5c1c6fd591"
+    }
+  }
+}

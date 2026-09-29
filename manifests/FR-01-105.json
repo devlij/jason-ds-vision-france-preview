@@ -1,0 +1,35 @@
+{
+  "entry_id": "FR-01-105",
+  "country": "France",
+  "region": "Bretagne",
+  "city": "Cancale",
+  "caption": "Cancale oyster harbor, Cancale",
+  "scenario_label": "23 September 2026 · 15:25 Europe/Paris",
+  "composition": "Brittany oyster harbor Port de la Houle with bay oyster parks · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is brittany oyster harbor Port de la Houle with bay oyster parks. The place named on the card is Cancale oyster harbor, Cancale, in Bretagne. Model data from Open-Meteo, retrieved 2026-09-29T22:11:25+02:00 (2026-09-29T20:11:25Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 2%, 19.9°C, wind 22.8 km/h, precipitation 0.0 mm.",
+  "alt_text": "AI-generated artistic interpretation of Cancale oyster harbor under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-105-16x9.png?v=wx10529",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-105-4x5.png?v=wx10529",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:11:25Z",
+  "weather_retrieval_local": "2026-09-29T22:11:25+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:11:25+02:00 (2026-09-29T20:11:25Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 2%, 19.9°C, wind 22.8 km/h, precipitation 0.0 mm.",
+  "sha256_16x9": "e73318e40cec91ebde2ae5baed5be36f23723c80ec7b06cebb94c9672bc9293f",
+  "sha256_4x5": "f34195c332c3d4199b908844eaf23e4ec60cd7ea7c21715d0f3e4b55c7fe2e93",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "e73318e40cec91ebde2ae5baed5be36f23723c80ec7b06cebb94c9672bc9293f"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "f34195c332c3d4199b908844eaf23e4ec60cd7ea7c21715d0f3e4b55c7fe2e93"
+    }
+  }
+}

@@ -4,13 +4,20 @@
   "region": "Bretagne",
   "city": "Concarneau",
   "caption": "Concarneau Ville Close, Concarneau",
-  "scenario_label": "23 September 2026 · 17:13 Europe/Paris",
+  "scenario_label": "23 September 2026 · 15:13 Europe/Paris",
   "composition": "Ville Close granite walls and harbor · AI-generated artistic interpretation",
-  "description": "The recorded tourist view is ville Close granite walls and harbor. The place named on the card is Concarneau Ville Close, Concarneau, in Bretagne. Light and weather follow the modelled scenario 23 September 2026 · 17:13 Europe/Paris, not a verified on-site observation.",
+  "description": "The recorded tourist view is ville Close granite walls and harbor. The place named on the card is Concarneau Ville Close, Concarneau, in Bretagne. Model data from Open-Meteo, retrieved 2026-09-29T22:08:17+02:00 (2026-09-29T20:08:17Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 26.1°C, wind 14.8 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Concarneau Ville Close under clear afternoon light",
-  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-090-16x9.png?v=batch089",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-090-16x9.png?v=wx09029",
   "approval_status": "Candidate",
-  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-090-4x5.png?v=batch089",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-090-4x5.png?v=wx09029",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:08:17Z",
+  "weather_retrieval_local": "2026-09-29T22:08:17+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:08:17+02:00 (2026-09-29T20:08:17Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 26.1°C, wind 14.8 km/h, precipitation 0.0 mm.",
   "qc_notes": [
     {
       "at": "2026-09-25T15:34:04.000508+00:00",
@@ -26,19 +33,19 @@
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate 1: walled island town of white houses and dark slate roofs, ringed by quay walls with small boats moored in the harbor, sea beyond — plausibly Concarneau Ville Close from an aerial viewpoint; no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Concarneau Ville Close, Concarneau', scenario '23 September 2026 · 17:13 Europe/Paris', disclosure legible bottom-left, matching the gallery index; curly-apostrophe signature bottom-right; scenario minute 17:13 unique across the batch; no per-scene builder note exists, so no retrieval-timestamp cross-check was possible. Gate 3: no photographic inputs reported anywhere. Gate 4: small boats visible, no identifiable people, no logos — documented only. Gate 5: all gates pass.",
   "approved_at": "2026-09-25T17:39:12.021114+00:00",
-  "sha256_16x9": "b7e93aa1cba23ec8b7b90d8c7032654164dfa575d063ea85538c62be108c00ce",
-  "sha256_4x5": "0f384f96928e00010ae37da46365d7a9877239f6eab8cf56045346188f8f9a55",
+  "sha256_16x9": "199be205ceb233b1482749771d911c5dce0a0ec30c32e1a819127157394a7b1b",
+  "sha256_4x5": "de2f31029eafdd30c6abee47efa96c56d18009a07936a36887723c9cb87488f5",
   "reverted_at": "2026-09-25T18:54:29.722275+00:00",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "b7e93aa1cba23ec8b7b90d8c7032654164dfa575d063ea85538c62be108c00ce"
+      "sha256": "199be205ceb233b1482749771d911c5dce0a0ec30c32e1a819127157394a7b1b"
     },
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "0f384f96928e00010ae37da46365d7a9877239f6eab8cf56045346188f8f9a55"
+      "sha256": "de2f31029eafdd30c6abee47efa96c56d18009a07936a36887723c9cb87488f5"
     }
   }
 }

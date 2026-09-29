@@ -1,0 +1,35 @@
+{
+  "entry_id": "FR-01-109",
+  "country": "France",
+  "region": "Grand Est",
+  "city": "Riquewihr",
+  "caption": "Riquewihr medieval wine village, Riquewihr",
+  "scenario_label": "23 September 2026 · 17:41 Europe/Paris",
+  "composition": "Alsace half-timbered wine-village street toward Dolder gate · AI-generated artistic interpretation",
+  "description": "The recorded tourist view is alsace half-timbered wine-village street toward Dolder gate. The place named on the card is Riquewihr medieval wine village, Riquewihr, in Grand Est. Model data from Open-Meteo, retrieved 2026-09-29T22:11:30+02:00 (2026-09-29T20:11:30Z), valid 2026-09-23T17:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 19%, 22.1°C, wind 3.9 km/h, precipitation 0.0 mm.",
+  "alt_text": "AI-generated artistic interpretation of Riquewihr medieval wine village under clear afternoon light",
+  "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-109-16x9.png?v=wx10929",
+  "approval_status": "Candidate",
+  "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-109-4x5.png?v=wx10929",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-09-29T20:11:30Z",
+  "weather_retrieval_local": "2026-09-29T22:11:30+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "model_valid_hour": "2026-09-23T17:00 Europe/Paris",
+  "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:11:30+02:00 (2026-09-29T20:11:30Z), valid 2026-09-23T17:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 19%, 22.1°C, wind 3.9 km/h, precipitation 0.0 mm.",
+  "sha256_16x9": "b1a2f5577de7199cb4a9d14c772de9ae1b04d0bee1ee1b9634784c052beabb73",
+  "sha256_4x5": "03ad4c5089e3ab7966e39701639aa9834e8b2eddcc41e367dfaf60a8d5f14a73",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "b1a2f5577de7199cb4a9d14c772de9ae1b04d0bee1ee1b9634784c052beabb73"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "03ad4c5089e3ab7966e39701639aa9834e8b2eddcc41e367dfaf60a8d5f14a73"
+    }
+  }
+}
