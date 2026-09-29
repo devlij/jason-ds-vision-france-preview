@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-285-16x9.png",
-        "sha256": "0a7e43ed93426aa6d3b4c8c378f20344d53d4c5039d3e91c7ed7ceb49975c72c"
+        "sha256": "3db51b1f9f184b329f73a0c379ef30f8c07f8c30170639e7452734a2e9cdba46"
       },
       "4x5": {
         "path": "assets/fr-01-285-4x5.png",
-        "sha256": "eb685f9ce94fb1b0c7dd7981e219a56149b9db8398bf1cfe80bf4d7018c4b307"
+        "sha256": "cce26afea759cd18596717a5e80dc798160d2de3c21caa378c6d98b35d0535c8"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-285-daylight-16x9.png",
       "4x5": "assets/fr-01-285-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "0232b07e5bac0fcc166fc411ca8df6f4d65b7d8fc2372f695c070032b4133150",
-      "4x5": "7368c0667ac23e147636962d6d01ad35ce0eedac7b736bfc7b7868f5507747c0"
+      "16x9": "e45da0e8ece9a6c7dd287c7ac9c7ac77d2b7a7ae9ad93c62eb19d08600577549",
+      "4x5": "831530a5bcdaf6980b3648632530eeaceda36afb170a36980fcaf3f261a46a02"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Citadelle de Bitche, Bitche",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "3db51b1f9f184b329f73a0c379ef30f8c07f8c30170639e7452734a2e9cdba46",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "3db51b1f9f184b329f73a0c379ef30f8c07f8c30170639e7452734a2e9cdba46"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "cce26afea759cd18596717a5e80dc798160d2de3c21caa378c6d98b35d0535c8"
+    }
+  },
+  "sha256_4x5": "cce26afea759cd18596717a5e80dc798160d2de3c21caa378c6d98b35d0535c8"
 }

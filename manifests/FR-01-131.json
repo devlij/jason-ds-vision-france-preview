@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-131-16x9.png",
-        "sha256": "96cdb66186edc2a8e70fd00e959ad18ac572f513eaf2e0fb237fe60ad7505d08"
+        "sha256": "5a394000bba2186deedd9733c5a4c9bbfdbdd727fb44c335ac3ef9c2d149df94"
       },
       "4x5": {
         "path": "assets/fr-01-131-4x5.png",
-        "sha256": "214ce5f53b70169440cff04855be1b0d6d52f3e44c40b4a4773ff0e924452f02"
+        "sha256": "f4af3c3fa0c0a4f5c766e5fd4fb80a940314e5f5c83938f7d0b9054e57ece169"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-131-daylight-16x9.png",
       "4x5": "assets/fr-01-131-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "6d52cc9adf2dba9a375cab58a96daff37ecacf1470725457d1ef65175365c67c",
-      "4x5": "109c2abdfea8f58a830014e2c78ee3ff77181014fd6f6ce7464d449dc81ed97d"
+      "16x9": "d6e73844fddcd6318b6060a3f5667fede11dafe62f83582099fbd0a5230ac118",
+      "4x5": "6500186e7a31277610391b1f1d189836a356c08397eaadc8638323ac8a734999"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Piton de la Fournaise, La Plaine-des-Cafres",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "5a394000bba2186deedd9733c5a4c9bbfdbdd727fb44c335ac3ef9c2d149df94",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "5a394000bba2186deedd9733c5a4c9bbfdbdd727fb44c335ac3ef9c2d149df94"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "f4af3c3fa0c0a4f5c766e5fd4fb80a940314e5f5c83938f7d0b9054e57ece169"
+    }
+  },
+  "sha256_4x5": "f4af3c3fa0c0a4f5c766e5fd4fb80a940314e5f5c83938f7d0b9054e57ece169"
 }

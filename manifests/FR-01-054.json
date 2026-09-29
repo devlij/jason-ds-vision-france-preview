@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: stone sanctuary village climbing the cliff face with the church spire, forested gorge behind — recognizably Rocamadour, clean framing, no artifacts; formats agree. Gate 2: exact 1920x1080/864x1080; caption/scenario '15:37' verified on-image, disclosure and exact signature legible; per-scene Open-Meteo retrieval 2026-09-25T14:41:20+02:00, unique to the second repo-wide. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos (documented only). Gate 5: pass.",
   "approved_at": "2026-09-29T00:34:38.021483+00:00",
-  "sha256_16x9": "339daf95d9a79877b8793c7ec473a3f0e31c7786b99e98c1ae9ac2d7acbbbd6d",
-  "sha256_4x5": "7f461735a70d2cbe8699900ac6502d0455183b939c23a216a8dda8bb7593f68a",
+  "sha256_16x9": "2f061972280095898250bab33d7ff6a7181a9a65a14fe2609571c67f9eb92471",
+  "sha256_4x5": "cc7ff5b6730d60f98d1bca710ba19cc476a9095a0693447abb08cec4eaabf1f5",
   "reverted_at": "2026-09-25T18:53:26.733347+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Gate 2 hold resolved 2026-09-28 (Cosmo QC): builder landed per-scene weather rework (approvals/FR-01-054.md) with a per-scene Open-Meteo retrieval timestamp (2026-09-25T14:41:20+02:00, unique to the second across all 302 repo approval notes); scenario minute sits inside the cited model-valid hour. Hold cleared — re-audit passes all five gates."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "2f061972280095898250bab33d7ff6a7181a9a65a14fe2609571c67f9eb92471"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "cc7ff5b6730d60f98d1bca710ba19cc476a9095a0693447abb08cec4eaabf1f5"
+    }
+  }
 }

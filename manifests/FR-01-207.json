@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-207-16x9.png",
-        "sha256": "0c0fb95d53ecded463d6c9e9929743e4bcda166ec195d1220b2ec690df240467"
+        "sha256": "71a439f771bbbb48470a6606cc0e695843273b18846ead3cdc5dad4d3412eaed"
       },
       "4x5": {
         "path": "assets/fr-01-207-4x5.png",
-        "sha256": "da35947681590a2ce274743fff08cec7d09dfd078cca68d577596a510ecbcedf"
+        "sha256": "eec4b082ad1e7e18c0f5cfe844361dce2c8730b563ffe4fe452bfb06cb41425a"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-207-daylight-16x9.png",
       "4x5": "assets/fr-01-207-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "e77afeaf068017bae8c9cd6ddc5176c3f7617e003390bafdfe9203b0eb2d171d",
-      "4x5": "208098975fc59b6ee5cfb431632f61df5db9983249845d05c61a9dfef1077592"
+      "16x9": "eaffc36165f832d69c6c2843649967b5e44dfcc4c1a36143703b19674c8da984",
+      "4x5": "6b8910c27045cdeea816653698b22ca3017e09081608a54512d2ba11e807b575"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Cathédrale de Bourges, Bourges",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "71a439f771bbbb48470a6606cc0e695843273b18846ead3cdc5dad4d3412eaed",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "71a439f771bbbb48470a6606cc0e695843273b18846ead3cdc5dad4d3412eaed"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "eec4b082ad1e7e18c0f5cfe844361dce2c8730b563ffe4fe452bfb06cb41425a"
+    }
+  },
+  "sha256_4x5": "eec4b082ad1e7e18c0f5cfe844361dce2c8730b563ffe4fe452bfb06cb41425a"
 }

@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-215-16x9.png",
-        "sha256": "bee2882c2b64e713245dae9286160389aba9ced2f42153ae69bc6911032de619"
+        "sha256": "2a6497c189a402f0a966b65c4f49ac9aab7814f30ce4f34f05ca9971ee893c92"
       },
       "4x5": {
         "path": "assets/fr-01-215-4x5.png",
-        "sha256": "41139eab24d37c57369998644c89a1c391b5f2fceaaad8d6d307bd02c0d1644a"
+        "sha256": "139bf4bd2981aa6cfa2a1c0e919625253ec7d3ebf45243ecf67b3f0f21c6d1a1"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-215-daylight-16x9.png",
       "4x5": "assets/fr-01-215-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "94faf4db5c8f991d7e1f3833672a47f5006fdf1fdde990f2f49f378af4c6ed42",
-      "4x5": "63f4c0ea29e9e6c8023e464e59058c7854e658eeecadaad6fa035a4b1a88d7c2"
+      "16x9": "b51fcbbc943db3f18978900b87c3d60b93af8638446d1d5247e9a757c0f905e3",
+      "4x5": "19d10d8e537d2a91358ac2c26bb1c3cb7d4d1875af3ffa0e0a1dfad1577677ed"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Cap Méchant, Saint-Philippe",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "2a6497c189a402f0a966b65c4f49ac9aab7814f30ce4f34f05ca9971ee893c92",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "2a6497c189a402f0a966b65c4f49ac9aab7814f30ce4f34f05ca9971ee893c92"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "139bf4bd2981aa6cfa2a1c0e919625253ec7d3ebf45243ecf67b3f0f21c6d1a1"
+    }
+  },
+  "sha256_4x5": "139bf4bd2981aa6cfa2a1c0e919625253ec7d3ebf45243ecf67b3f0f21c6d1a1"
 }

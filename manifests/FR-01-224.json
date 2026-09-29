@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-224-16x9.png",
-        "sha256": "1f8e396aecc82a9bd96f11452dc518e71bdc6664aa482c9f3af41ba39bc5ca95"
+        "sha256": "11c26f6d27b4ea72ce486262a15737689ddad0608163605f1a7cc2722f9e0ac4"
       },
       "4x5": {
         "path": "assets/fr-01-224-4x5.png",
-        "sha256": "6eef7d2a4b708e931514e5ef3a917852f1774ff1a5ba1365461c37ab0268ae6f"
+        "sha256": "3022bd02270cac715f55fce51e91246434bc0efbf1dbcff8211c7e82aeb32660"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-224-daylight-16x9.png",
       "4x5": "assets/fr-01-224-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "fd79aa66458d78052b101324ee440b86bcb14b6b6d0c117543a53469e3cebccc",
-      "4x5": "7f685fdfca16961f7db9213f6e077114b28f09d2fa6d38dfcea1f7c1f593acbb"
+      "16x9": "fe286647c8289c9da60ca84a6fc26019e0781fdbdcb1a81fc6d061e4959d56ad",
+      "4x5": "438f49e2d605e0e447681d52b35fa1d931c95c349c747c232309f422ad3a4dfd"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château de Clisson, Clisson",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "11c26f6d27b4ea72ce486262a15737689ddad0608163605f1a7cc2722f9e0ac4",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "11c26f6d27b4ea72ce486262a15737689ddad0608163605f1a7cc2722f9e0ac4"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "3022bd02270cac715f55fce51e91246434bc0efbf1dbcff8211c7e82aeb32660"
+    }
+  },
+  "sha256_4x5": "3022bd02270cac715f55fce51e91246434bc0efbf1dbcff8211c7e82aeb32660"
 }

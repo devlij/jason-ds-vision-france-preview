@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: white limestone cliffs with the citadel town perched on the rim above turquoise water — recognizably Bonifacio from a plausible sea-level viewpoint, clean; formats agree. Gate 2: exact 1920x1080/864x1080; caption/scenario '15:42' on-image, disclosure and exact signature legible; per-scene Open-Meteo retrieval 2026-09-25T14:41:28+02:00, unique to the second repo-wide. Gate 3: text-prompt-only lineage. Gate 4: no people or logos (documented only). Gate 5: pass.",
   "approved_at": "2026-09-29T00:35:02.585494+00:00",
-  "sha256_16x9": "658e3a4e5ade026d2dac3b7033fd6150bab37766261099d6121ddc8cee864f15",
-  "sha256_4x5": "659f4fb529bdbee202c28afe640b563d29b393bc4676995d9394bcc9c0a6605d",
+  "sha256_16x9": "5a0468706679323bf3659d358656b6476a139bef3cd7f6b7a5c933e3f84a85ba",
+  "sha256_4x5": "1e8b911322d1473155eddf0af3c8af627c5f22b32dcb334a6427445640dddc17",
   "reverted_at": "2026-09-25T18:53:33.866802+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Gate 2 hold resolved 2026-09-28 (Cosmo QC): builder landed per-scene weather rework (approvals/FR-01-058.md) with a per-scene Open-Meteo retrieval timestamp (2026-09-25T14:41:28+02:00, unique to the second across all 302 repo approval notes); scenario minute sits inside the cited model-valid hour. Hold cleared — re-audit passes all five gates."
     }
-  ]
+  ],
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "1e8b911322d1473155eddf0af3c8af627c5f22b32dcb334a6427445640dddc17"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "5a0468706679323bf3659d358656b6476a139bef3cd7f6b7a5c933e3f84a85ba"
+    }
+  }
 }

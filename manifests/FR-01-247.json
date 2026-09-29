@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-247-16x9.png",
-        "sha256": "4808c90e69c1626e879b0a75936c43a8b0d3ea5e874463a7dba1db00808c823a"
+        "sha256": "1a8849de4603762e07acf4f9f311876e65dceac8e594a33791c589e435b1f0ce"
       },
       "4x5": {
         "path": "assets/fr-01-247-4x5.png",
-        "sha256": "b6f46f03839eac7340b4c92fccacff0e0701994d2213c6e422c3d288a80fa420"
+        "sha256": "7966dcdb27ed4b60a62c166b595d1b9c3ece5c9f139c18b5b87e1a7c0fc98df4"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-247-daylight-16x9.png",
       "4x5": "assets/fr-01-247-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "4ef5332e588e5a4f579dbc99fee32c94dde4784eaa6336980659eee1e132cf61",
-      "4x5": "e9c7e75ea82e6badafef1372d9448430e8bd34ec4e33da78d39688e4ca4bb9e4"
+      "16x9": "238da6433a8a26a4ebe5e206d592bf5d895679121eb9406a3fbca2455e5ceebd",
+      "4x5": "a92b8d46570905eb6c727dc1fc6507ca4778c016469eefdcd69de4d744e5b7d8"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Lagon de l'Ermitage, Saint-Paul",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "1a8849de4603762e07acf4f9f311876e65dceac8e594a33791c589e435b1f0ce",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "1a8849de4603762e07acf4f9f311876e65dceac8e594a33791c589e435b1f0ce"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "7966dcdb27ed4b60a62c166b595d1b9c3ece5c9f139c18b5b87e1a7c0fc98df4"
+    }
+  },
+  "sha256_4x5": "7966dcdb27ed4b60a62c166b595d1b9c3ece5c9f139c18b5b87e1a7c0fc98df4"
 }

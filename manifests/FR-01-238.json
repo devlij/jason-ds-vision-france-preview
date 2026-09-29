@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-238-16x9.png",
-        "sha256": "82613d2107fe461ad93e5182f54893cd35f0443695bf56c843ecbdda39ace48c"
+        "sha256": "9d90fb1489125c8e7ee7890f2b90203908ebbc19f2a01632f84a3a6f4bd5fd5b"
       },
       "4x5": {
         "path": "assets/fr-01-238-4x5.png",
-        "sha256": "fe50f0d37a1b3a4f6f2d64b44dfeedcb867ac414cbe3e71bcdfb89908daabd90"
+        "sha256": "4f13488af0609480d39a727345fea298cd2f732cd068b981b015d38cb28d3dc6"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-238-daylight-16x9.png",
       "4x5": "assets/fr-01-238-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "c3c0141083e3f37560ebcdb70c3338e7127352fe438bd26bfac07b68cf9ad8c8",
-      "4x5": "8309b660f9ba1426e15a2d0eb271e3b0e81d9e3d324d684f4947db5138d9ce19"
+      "16x9": "3c4a2af9527df53d9aaffe54411868ccb80dc3920dcd5ea2dece0e900e61925b",
+      "4x5": "0c02c6c5fe1e445e3538bafc56425e84b4c9f54d5cdc7ebc580e39f670125185"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Cathédrale de Senlis, Senlis",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "9d90fb1489125c8e7ee7890f2b90203908ebbc19f2a01632f84a3a6f4bd5fd5b",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "9d90fb1489125c8e7ee7890f2b90203908ebbc19f2a01632f84a3a6f4bd5fd5b"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "4f13488af0609480d39a727345fea298cd2f732cd068b981b015d38cb28d3dc6"
+    }
+  },
+  "sha256_4x5": "4f13488af0609480d39a727345fea298cd2f732cd068b981b015d38cb28d3dc6"
 }

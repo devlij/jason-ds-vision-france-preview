@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-208-16x9.png",
-        "sha256": "b500262ff414aca45d47c54be6eeb323d261f572397e668b72d6c2d2bd385343"
+        "sha256": "02aec985ee9a31a6de9c08fcef1c3701f0c74d72d460b2107417e0cb6ddeb336"
       },
       "4x5": {
         "path": "assets/fr-01-208-4x5.png",
-        "sha256": "7cf9a068804f2535af714af9a3d679674944f4e0d03401059a023465967ff9e9"
+        "sha256": "ad0ac59e779a030c7bfff23d1923cff4147c6951c3605f4b537e1b1128e8751b"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-208-daylight-16x9.png",
       "4x5": "assets/fr-01-208-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "eb061fcd853c20231e9b468057119086286c42bb4ab2a25ce34bc3c2d3af7c23",
-      "4x5": "6870cf7d71e97103227c42391180a427847413fc33c86076cebf61a818fe526a"
+      "16x9": "a33ca2c3133a1f3eacbb6ef4af9d901b0a2140ccf2196814dfc29ce5ec77be50",
+      "4x5": "27948d09776d95aaa74d82af0a665899b84898b4f6b41b71aa050b75940da6f2"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château de Sedan, Sedan",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "02aec985ee9a31a6de9c08fcef1c3701f0c74d72d460b2107417e0cb6ddeb336",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "02aec985ee9a31a6de9c08fcef1c3701f0c74d72d460b2107417e0cb6ddeb336"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "ad0ac59e779a030c7bfff23d1923cff4147c6951c3605f4b537e1b1128e8751b"
+    }
+  },
+  "sha256_4x5": "ad0ac59e779a030c7bfff23d1923cff4147c6951c3605f4b537e1b1128e8751b"
 }

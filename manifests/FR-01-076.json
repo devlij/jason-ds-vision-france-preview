@@ -31,7 +31,19 @@
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate 1: the Théâtre antique d'Orange — tiered cavea curving in the foreground facing the intact stage wall with the central niche holding its statue; exactly the rebuild goal. Gate 2: caption 'Théâtre antique d'Orange, Orange', scenario 25 Sept 2026 14:33 Europe/Paris, 'Jason D's Vision' signature and AI disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T12:33:19Z (unique), valid 14:30, scenario inside 14:00–15:00; code 1, 41% cloud, frame follows the cloud cover with scattered clouds. Gate 3: text-prompt-only rebuild, no photographic inputs reported. Gate 4: no people/logos of note. Gate 5: Art. 50 PNG metadata present; exact 1920x1080 / 864x1080.",
   "approved_at": "2026-09-25T12:59:08.225002+00:00",
-  "sha256_16x9": "6b04ea1f255dc8cb6d93dd17df3112b2851d95d46eeba149811c2f4a97cce6c7",
-  "sha256_4x5": "d0d21517f9f994a1eae5b683c4ba27a39afb2a1db878d460ce370fd4d6fd94bc",
-  "reverted_at": "2026-09-25T18:54:05.451306+00:00"
+  "sha256_16x9": "eb62140c88a9c7d3d481c6ea36c294e51b4a0e4f9b611a56cfe8ab6f9f0384c4",
+  "sha256_4x5": "91ded6389155dfb3405e1565dfb53857fa295675bcf7cf9f781c6cabecace78e",
+  "reverted_at": "2026-09-25T18:54:05.451306+00:00",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "eb62140c88a9c7d3d481c6ea36c294e51b4a0e4f9b611a56cfe8ab6f9f0384c4"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "91ded6389155dfb3405e1565dfb53857fa295675bcf7cf9f781c6cabecace78e"
+    }
+  }
 }

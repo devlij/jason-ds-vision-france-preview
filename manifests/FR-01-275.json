@@ -7,5 +7,19 @@
   "scenario_label": "23 September 2026 · 11:45 Pacific/Tahiti",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-275-16x9.png",
-  "file_4x5": "assets/fr-01-275-4x5.png"
+  "file_4x5": "assets/fr-01-275-4x5.png",
+  "sha256_16x9": "5e78b6ce56a98f4b418be7190820318dadc2ad666bdd2e3849014868570db868",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "5e78b6ce56a98f4b418be7190820318dadc2ad666bdd2e3849014868570db868"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "137a9f3aa4d34f05397ceea6cd269988b52e6b3fdd0a2015b8018e8985b88a18"
+    }
+  },
+  "sha256_4x5": "137a9f3aa4d34f05397ceea6cd269988b52e6b3fdd0a2015b8018e8985b88a18"
 }

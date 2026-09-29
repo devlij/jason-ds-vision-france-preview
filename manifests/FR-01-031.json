@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Provins medieval town, Provins — Daylight. Tour César keep (octagonal keep with four corner turrets) crowning the Ville Haute above half-timbered houses and ramparts; scenario '23 September 2026 · 16:18 Europe/Paris' matches the builder note; retrieved 2026-09-25T12:38:30Z (valid 16:00, code 0 clear, 25.0°C, 0% cloud). Label bar exact: caption, scenario, AI disclosure left; Jason D's Vision signature + script right. No people/logos. Inter-format subject agreement verified.",
   "approved_at": "2026-09-28T12:12:17.626508+00:00",
-  "sha256_16x9": "aaa81274dcdf36ab10de9a34b3cc4269946349b273ce6ee6232f918e3237ea96",
-  "sha256_4x5": "20a1f64f583614826b27373201e25a0056d4f0751589886067efcf170851be15",
+  "sha256_16x9": "6d01ffa0d7f970d971228ff64b7a34f33ec75a991611a7f49922a618d9be2f0a",
+  "sha256_4x5": "b3fe123fd0e7d83ad23572b97f4a814f4756f3ef14c3d0f8f7611ec50ee78b18",
   "reverted_at": "2026-09-25T18:52:43.705291+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC re-audit 2026-09-28: builder's per-scene weather rework verified repo-wide — Open-Meteo retrieval timestamps unique to the second across all France scenes (this scene retrieved 2026-09-25T12:38:30Z). The Sep-25 withdrawal is cleared; five-gate re-audit PASS. Proceeding to re-approval."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "6d01ffa0d7f970d971228ff64b7a34f33ec75a991611a7f49922a618d9be2f0a"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "b3fe123fd0e7d83ad23572b97f4a814f4756f3ef14c3d0f8f7611ec50ee78b18"
+    }
+  }
 }

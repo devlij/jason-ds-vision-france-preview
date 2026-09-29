@@ -17,5 +17,19 @@
       "by": "Cosmo QC",
       "note": "Gate 1 PASS: red ochre cliffs of the Colorado Provençal rising above the ochre-washed village of Roussillon, blue sky, clean framing, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080) and on-image text exact: caption 'Roussillon ochre village, Roussillon', scenario '23 September 2026 · 17:28 Europe/Paris', 'AI-generated artistic interpretation · Not a photograph.' disclosure, 'Jason D's Vision' curly-apostrophe signature bottom-right — BUT HELD: weather retrieval cross-check impossible. No build-agent note exists (approvals/FR-01-095.md verified 404 via API; repo notes have a gap covering 078–124), no PNG metadata, no manifest. Under the hardened per-scene Open-Meteo retrieval law the retrieval timestamp cannot be verified, so Gate 2 stays open. Gate 3 undocumented (no note: generation lineage unconfirmed). Gate 4: no visible people, logos, or private-property concerns at review zoom — documented only."
     }
-  ]
+  ],
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "a99357562ebf150bc0752fd1a3c0faa7aed4a85f9ba2e2db2ae2c2d37671dbcd"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "6ec8688025adc2e17371b19e75aaec242bbd2431cbb4857444be9bf2519f06ea"
+    }
+  },
+  "sha256_4x5": "a99357562ebf150bc0752fd1a3c0faa7aed4a85f9ba2e2db2ae2c2d37671dbcd",
+  "sha256_16x9": "6ec8688025adc2e17371b19e75aaec242bbd2431cbb4857444be9bf2519f06ea"
 }

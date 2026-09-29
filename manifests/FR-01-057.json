@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: grand limestone amphitheatre wall with the Grande Cascade plunging down its center — instantly recognizable Cirque de Gavarnie, clean; formats agree. Gate 2: exact 1920x1080/864x1080; caption/scenario '15:41' on-image, disclosure and exact signature legible; per-scene Open-Meteo retrieval 2026-09-25T14:41:26+02:00, unique to the second repo-wide. Gate 3: text-prompt-only lineage. Gate 4: no people or logos (documented only). Gate 5: pass.",
   "approved_at": "2026-09-29T00:34:56.500807+00:00",
-  "sha256_16x9": "0cb3f0434241ab44b8a84e825f14303899a50ac81e49492fcf50d2b1e699bc86",
-  "sha256_4x5": "2d0391c80a0e0c1bf7edc633d58b28999ac9309086d73d3a25e866062038ce05",
+  "sha256_16x9": "9c70eb75f3a1b2f6abebbe191a36efede217e6a1e3770efefa8135e747dbb193",
+  "sha256_4x5": "ff221aeae5eec250e3ef27bcd61b4d318e62dacc3008b8f664909307095831aa",
   "reverted_at": "2026-09-25T18:53:31.995905+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Gate 2 hold resolved 2026-09-28 (Cosmo QC): builder landed per-scene weather rework (approvals/FR-01-057.md) with a per-scene Open-Meteo retrieval timestamp (2026-09-25T14:41:26+02:00, unique to the second across all 302 repo approval notes); scenario minute sits inside the cited model-valid hour. Hold cleared — re-audit passes all five gates."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "9c70eb75f3a1b2f6abebbe191a36efede217e6a1e3770efefa8135e747dbb193"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "ff221aeae5eec250e3ef27bcd61b4d318e62dacc3008b8f664909307095831aa"
+    }
+  }
 }

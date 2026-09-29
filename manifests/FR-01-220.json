@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-220-16x9.png",
-        "sha256": "dee5c10f6d9be4f35c1e93bef1558d5a21d9416d2b89c185d0b0cb54e2d3bfb7"
+        "sha256": "09e0be0fd911e37eb99667740073f7a0ec723d1f59e1bb62c29d6ac6834e3529"
       },
       "4x5": {
         "path": "assets/fr-01-220-4x5.png",
-        "sha256": "84c587f5412ddd67010308e9ef594db13924d774b006c51b3687d226d08149af"
+        "sha256": "e8d216d78853caea174c19d28c2928b52fd0404e197165a8c1af82c25ff155a4"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-220-daylight-16x9.png",
       "4x5": "assets/fr-01-220-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "35794fc8ebe5bc35da77650cca324507e08be8616005888df7cec8b4d2f39d2b",
-      "4x5": "e7f71d4377e8903e5e568c1c6d2dba9e4097f838ef50128338f4a10294f6d56f"
+      "16x9": "84d437ba0e9bd5b4fe537bef58498923ecabfd9a99fcbef432273265311f6ef5",
+      "4x5": "27f4ab3b0683cca242f0ee000989b74b04af2c212375e8dfdd8ace37bc365352"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Cathédrale Saint-Étienne, Auxerre",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "09e0be0fd911e37eb99667740073f7a0ec723d1f59e1bb62c29d6ac6834e3529",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "09e0be0fd911e37eb99667740073f7a0ec723d1f59e1bb62c29d6ac6834e3529"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "e8d216d78853caea174c19d28c2928b52fd0404e197165a8c1af82c25ff155a4"
+    }
+  },
+  "sha256_4x5": "e8d216d78853caea174c19d28c2928b52fd0404e197165a8c1af82c25ff155a4"
 }

@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-335-16x9.png",
-        "sha256": "4160017b08ca5ff4d361f853fd98fecc69fa01c6fcbdeed5dbc0d4b57091f6e7"
+        "sha256": "a8de80cd96de342636172aa253b659cc73521e8cc2e4acfa1ecdb04b173bb202"
       },
       "4x5": {
         "path": "assets/fr-01-335-4x5.png",
-        "sha256": "f4ecebd8810cb841d749c5fa936ffefee1dcfbf2ed31c0ff9d98d194c03574b9"
+        "sha256": "30108acbf592102c98509ad27bbdbe8d0e412f5b5d117356176e26e0dc2e4ed3"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-335-daylight-16x9.png",
       "4x5": "assets/fr-01-335-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "96f7425a4e082c2aa7caa36baf41c7ef022afc3f255c6340daf747e545bae68a",
-      "4x5": "5664e6f083a0fcc845b2d0029ea140bd659ecc327d8967a8b84fb76a920c14e7"
+      "16x9": "3739a8047f9dfc0e541f584f9f38caa43baa8c3ade5c9dd6b8b0dec3f195c87e",
+      "4x5": "7d3f8c6a5af4ca9ac9a207c3514281bc7e202344e619ceac44d20401b37336d1"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Monastère royal de Brou, Bourg-en-Bresse",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "a8de80cd96de342636172aa253b659cc73521e8cc2e4acfa1ecdb04b173bb202",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "a8de80cd96de342636172aa253b659cc73521e8cc2e4acfa1ecdb04b173bb202"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "30108acbf592102c98509ad27bbdbe8d0e412f5b5d117356176e26e0dc2e4ed3"
+    }
+  },
+  "sha256_4x5": "30108acbf592102c98509ad27bbdbe8d0e412f5b5d117356176e26e0dc2e4ed3"
 }

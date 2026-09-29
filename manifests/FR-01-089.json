@@ -26,7 +26,19 @@
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate 1: hilltop fortress of round towers and pointed slate roofs crowning a rocky spur above a green valley, in warm daylight — plausibly Château de Chinon; clean framing, no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Château de Chinon, Chinon', scenario '23 September 2026 · 17:12 Europe/Paris', disclosure legible bottom-left, matching the gallery index; curly-apostrophe signature bottom-right; scenario minute 17:12 unique across the batch; no per-scene builder note exists, so no retrieval-timestamp cross-check was possible. Gate 3: no photographic inputs reported anywhere. Gate 4: no people, no logos, no recognizable private property — documented only. Gate 5: all gates pass.",
   "approved_at": "2026-09-25T17:39:07.299793+00:00",
-  "sha256_16x9": "7326472b4df65bcd37d9f48f73fd687539984756e47bfda77d1c7ec6ca6f0ce6",
-  "sha256_4x5": "202db0dff2642a2b62b130bdaee058da0be9ea5fb7e897f99788287190beb34d",
-  "reverted_at": "2026-09-25T18:54:27.871159+00:00"
+  "sha256_16x9": "965f9a56f4f950a82cf0b811e771e4c580b63d196fa71f3b502aed9091e67cb7",
+  "sha256_4x5": "2c43b47836aea76029df6bcefac6698659268bf386b1020616aaae42d16f0310",
+  "reverted_at": "2026-09-25T18:54:27.871159+00:00",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "965f9a56f4f950a82cf0b811e771e4c580b63d196fa71f3b502aed9091e67cb7"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "2c43b47836aea76029df6bcefac6698659268bf386b1020616aaae42d16f0310"
+    }
+  }
 }

@@ -27,6 +27,18 @@
       "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Mont Saint-Michel abbey with spire atop tidal island, rampart walls, village below, low-tide flats; clean framing, no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Mont Saint-Michel, Le Mont-Saint-Michel', scenario '23 September 2026 · 15:00 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-007.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: no people visible. Gate 5: not ready."
     }
   ],
-  "sha256_16x9": "91169ecd48c53199b46287faf5880c884b53362f35bd7f623d5b35aa02525b56",
-  "sha256_4x5": "314d98db69b3f59b2a74aca20955b0cdee08c13e1bfe76700f5b18a9d1c03184"
+  "sha256_16x9": "3327987635d6f274b96250b6b0aa4c4f570d6be1a36c3fd31ed0749db6a2d0ad",
+  "sha256_4x5": "c6322e946fd2ce822ffe6fa90a8d3c29e2e0901a44f8116853f02081dfc95884",
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "c6322e946fd2ce822ffe6fa90a8d3c29e2e0901a44f8116853f02081dfc95884"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "3327987635d6f274b96250b6b0aa4c4f570d6be1a36c3fd31ed0749db6a2d0ad"
+    }
+  }
 }

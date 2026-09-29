@@ -26,5 +26,19 @@
       "by": "Cosmo QC",
       "note": "Gate 2 hold (Cosmo QC 2026-09-28): no approvals/FR-01-029.md in the repo — no recorded retrieval timestamp; scenario/weather cross-check not completable. Gate 1 passes (grand mansard-roofed château with formal parterre, clean). Hold until the evidence note lands."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "6378cb3a23ab222212eaf140fbb5dafc781319d8f24d89c556a5da21dd1ef969"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "019a6c968a5ff43087abb1e7b37ddfd81914aab85f6050f97a55e91c2ccc3be0"
+    }
+  },
+  "sha256_16x9": "6378cb3a23ab222212eaf140fbb5dafc781319d8f24d89c556a5da21dd1ef969",
+  "sha256_4x5": "019a6c968a5ff43087abb1e7b37ddfd81914aab85f6050f97a55e91c2ccc3be0"
 }

@@ -7,5 +7,19 @@
   "scenario_label": "23 September 2026 · 19:15 America/Miquelon",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-226-16x9.png",
-  "file_4x5": "assets/fr-01-226-4x5.png"
+  "file_4x5": "assets/fr-01-226-4x5.png",
+  "sha256_16x9": "af057bbc8553c5838913b753b2952988be3a4af6b8dc8c198994f437f4a58fad",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "af057bbc8553c5838913b753b2952988be3a4af6b8dc8c198994f437f4a58fad"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "321d1b1c694cc011520c3ce50d33aa3071d96c627e1ab8fc15a2ddfefce9b71c"
+    }
+  },
+  "sha256_4x5": "321d1b1c694cc011520c3ce50d33aa3071d96c627e1ab8fc15a2ddfefce9b71c"
 }

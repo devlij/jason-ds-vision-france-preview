@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-315-16x9.png",
-        "sha256": "c6a0ad3bdce1421983ae5cc5549ffeccc07bbb925030395018e0e1185a0be488"
+        "sha256": "93fce3bb5e3bfd1e02273fdd5883fd149a9ebccc317dcb8d8f9bc70b1a43a948"
       },
       "4x5": {
         "path": "assets/fr-01-315-4x5.png",
-        "sha256": "add44bbe8de8014c663a98611f4d353b2303630d80c9657bfdec0566e8d88851"
+        "sha256": "8fbeec254e675f8dcdb3248fac12dc3cb9f7a55300e426710cc37a5dccc89110"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-315-daylight-16x9.png",
       "4x5": "assets/fr-01-315-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "b9969da7ed63661934a2021c205f536a7bfbec86070239471350e3e5cd20bf03",
-      "4x5": "4a376169a479dbdc5bb96f3ca5d2ba5a2486475d9ee94830c651b603c91eb6a7"
+      "16x9": "0b58c235f0435dd8349836b361ce426f8c7eb3f9f3205435fc28156a2d16b070",
+      "4x5": "2adf6d5531109dd8022532ba32ee26abce15b014846a8cee09352db65ca59efc"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Place Ducale, Charleville-Mézières",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "93fce3bb5e3bfd1e02273fdd5883fd149a9ebccc317dcb8d8f9bc70b1a43a948",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "93fce3bb5e3bfd1e02273fdd5883fd149a9ebccc317dcb8d8f9bc70b1a43a948"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "8fbeec254e675f8dcdb3248fac12dc3cb9f7a55300e426710cc37a5dccc89110"
+    }
+  },
+  "sha256_4x5": "8fbeec254e675f8dcdb3248fac12dc3cb9f7a55300e426710cc37a5dccc89110"
 }

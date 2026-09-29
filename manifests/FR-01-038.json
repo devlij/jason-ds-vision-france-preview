@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Reims Cathedral, Reims — Daylight. High Gothic west façade with twin openwork towers and gallery of kings; scenario 16:26 matches the builder note; retrieved 2026-09-25T12:38:42Z (valid 16:00, 24.8°C). Label bar exact. No people/logos. Inter-format subject agreement verified.",
   "approved_at": "2026-09-28T12:19:39.314000+00:00",
-  "sha256_16x9": "9c208db119df7fc8814e1af84b25b610d2c723c7b7c28e9f6c277c0e6b74a261",
-  "sha256_4x5": "d732a9fb726be2a919add332617b0c68dac801b440358c26aca06a1a386094ad",
+  "sha256_16x9": "1d6fbe7ed331fc9fe7462a10b6f017c74981c3ef8e1f3563cd020e5e122f5b01",
+  "sha256_4x5": "256a2ef5c527a753daa10a7b5e7350ba84c8584fcbcc688d298c0cb03407702c",
   "reverted_at": "2026-09-25T18:52:57.303155+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC re-audit 2026-09-28: builder's per-scene weather rework verified repo-wide — Open-Meteo retrieval timestamps unique to the second across all France scenes (this scene retrieved 2026-09-25T12:38:42Z). The Sep-25 withdrawal is cleared; five-gate re-audit PASS. Proceeding to re-approval."
     }
-  ]
+  ],
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "256a2ef5c527a753daa10a7b5e7350ba84c8584fcbcc688d298c0cb03407702c"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "1d6fbe7ed331fc9fe7462a10b6f017c74981c3ef8e1f3563cd020e5e122f5b01"
+    }
+  }
 }

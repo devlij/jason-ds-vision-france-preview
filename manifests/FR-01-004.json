@@ -27,6 +27,18 @@
       "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Arc de Triomphe with sculptural reliefs and attic band, framed by tree-lined avenue axis (stylized viewpoint, arch itself correctly proportioned); no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Arc de Triomphe, Paris', scenario '23 September 2026 · 14:53 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-004.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: cars with unreadable plates, no logos. Gate 5: not ready."
     }
   ],
-  "sha256_16x9": "d51fe6de45c07b49e1dd8209b9cccb2aaf5f4fd8429f5df5e3ae3d02309ef077",
-  "sha256_4x5": "55ff8b7bae3f497b01790f3f991508101a6efe4d2b2f7855f0dc85f10b1a23bc"
+  "sha256_16x9": "e60e2b64658421304e5990ad72b2bba69b75a100f67b27326a6aebbf1a017279",
+  "sha256_4x5": "b39a5f930c7f95c2b526b54856f5a76a2b59bb105d11ac9fb110e224507a2d40",
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "b39a5f930c7f95c2b526b54856f5a76a2b59bb105d11ac9fb110e224507a2d40"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "e60e2b64658421304e5990ad72b2bba69b75a100f67b27326a6aebbf1a017279"
+    }
+  }
 }

@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-126-16x9.png",
-        "sha256": "1f96207afb3374d262225fb6378f48bd0f7847e14ea3cd73844038d6461a9cd5"
+        "sha256": "27563b7e85e3b6bfecfea24ad74e45e64af76d80b52a4ad8f0cfd6268dec99d3"
       },
       "4x5": {
         "path": "assets/fr-01-126-4x5.png",
-        "sha256": "9407e3218950381074177fba803a99b32fcb64156c6c6962d01ebcc02274aafe"
+        "sha256": "ed623ba93c0897eb84d64971faea6e82bfb5ac79dd1541fe390805e6d3e921f1"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-126-daylight-16x9.png",
       "4x5": "assets/fr-01-126-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "49d441e118028fb805cd0167c4f3256bb13361b06257c490042382b7f0af365b",
-      "4x5": "14b607e62d8048daf65b7ef193e14a0b2e28896d40b2b2c72b738bd547a10b23"
+      "16x9": "0bcb8502baf7480c1d8f0cda7727c98761b00770676f073b836d83688e7fa298",
+      "4x5": "3a31f7c23831a24dad530932b7c8cf46e53f70039f78b5e8a3e0ee8f52f3db10"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château d'Angers, Angers",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "27563b7e85e3b6bfecfea24ad74e45e64af76d80b52a4ad8f0cfd6268dec99d3",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "27563b7e85e3b6bfecfea24ad74e45e64af76d80b52a4ad8f0cfd6268dec99d3"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "ed623ba93c0897eb84d64971faea6e82bfb5ac79dd1541fe390805e6d3e921f1"
+    }
+  },
+  "sha256_4x5": "ed623ba93c0897eb84d64971faea6e82bfb5ac79dd1541fe390805e6d3e921f1"
 }

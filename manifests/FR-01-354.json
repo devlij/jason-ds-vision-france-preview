@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-354-16x9.png",
-        "sha256": "54326dd9ecddfa5ed4aa72795e3b58b16e25d5428dbd0c1201318b711c063a09"
+        "sha256": "9521a7196bc5c0e01ef4663ab05023c9b4dcea048a17b95e4ae1230f7af979dc"
       },
       "4x5": {
         "path": "assets/fr-01-354-4x5.png",
-        "sha256": "0161a01a8238bc9e78bf8707354a9a32039a0c8847621f02a0b738f00058398e"
+        "sha256": "b8298bbdbcc31bbd1b6e2ed130addda1ed5fa5ea91ac413bead1a020c85a97bf"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-354-daylight-16x9.png",
       "4x5": "assets/fr-01-354-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "e12401064938aadc7482f1b732ecfde3b539450b720816c817c1da477ae8fa1f",
-      "4x5": "4c165734b21f57b603ed6d5a3ad0a7dfebed92ce71d66a4129362fd9a12f0b2d"
+      "16x9": "bdee9ead8f2f7a9db2d08f8566d5cfe6184968e8a3469acff2e2600ebc07204f",
+      "4x5": "66e473f6a915bb6891c99e0eab20802c897c0a07bb3059815fa98681e8f6764b"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Grand Barachois, Miquelon",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "9521a7196bc5c0e01ef4663ab05023c9b4dcea048a17b95e4ae1230f7af979dc",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "9521a7196bc5c0e01ef4663ab05023c9b4dcea048a17b95e4ae1230f7af979dc"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "b8298bbdbcc31bbd1b6e2ed130addda1ed5fa5ea91ac413bead1a020c85a97bf"
+    }
+  },
+  "sha256_4x5": "b8298bbdbcc31bbd1b6e2ed130addda1ed5fa5ea91ac413bead1a020c85a97bf"
 }

@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-303-16x9.png",
-        "sha256": "88034a784d3dfb2b1b59d9b176d8eb005694a691de663929b9b0a0ffd8969ca2"
+        "sha256": "459db9ce8c53b994806bfad987925e09e6ead3b26c8f019b1a54be7024b020c0"
       },
       "4x5": {
         "path": "assets/fr-01-303-4x5.png",
-        "sha256": "6b6103a3490c2b1e4bc9580163aeb5c3766c1cb1ccae50f4afd56b941802a833"
+        "sha256": "08aae054f981001082c91c5f4ded621954b938690c50fd70e85bf1ef8c47867e"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-303-daylight-16x9.png",
       "4x5": "assets/fr-01-303-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "88dcbf0c8f355d90575c330671a847e24199c3356844aea4cee9877674ca83da",
-      "4x5": "f91a572d4df218617eafa03e80f34c9b5dd59ef18106bcbdb491abbda300ee14"
+      "16x9": "3d8937480bb3a27bc035239b68a7330c7b8971e5b476c5cf2b7b86c76bfb2158",
+      "4x5": "8b91b75e925df4165b11ad1f230758b8e95665165de2b28c1d084138ee5c642f"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Pointe du Raz, Plogoff",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "459db9ce8c53b994806bfad987925e09e6ead3b26c8f019b1a54be7024b020c0",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "459db9ce8c53b994806bfad987925e09e6ead3b26c8f019b1a54be7024b020c0"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "08aae054f981001082c91c5f4ded621954b938690c50fd70e85bf1ef8c47867e"
+    }
+  },
+  "sha256_4x5": "08aae054f981001082c91c5f4ded621954b938690c50fd70e85bf1ef8c47867e"
 }

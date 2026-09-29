@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "G1 PASS: the Virgin statue atop the rock islet linked by its metal footbridge, surf around the rocks and Biarritz town behind — unmistakable Rocher de la Vierge; clean framing, no artifacts. G2 PASS: sweep MECHANICAL PASS; on-image caption 'Rocher de la Vierge, Biarritz', scenario '23 September 2026 · 15:35 Europe/Paris', disclosure and 'Jason D's Vision' signature verified on the scrim; weather retrieved 2026-09-25T14:39:03+02:00, valid 2026-09-23T15:00, unique to the second across FR-01-031–052. G3: text-prompt-only, no photographic inputs reported. G4: no prominent identifiable people or focal logos; commercial call remains Jason's.",
   "approved_at": "2026-09-28T18:19:26.193004+00:00",
-  "sha256_16x9": "4b68ead69a733ba5afd24a4c1eed89d31d5b27b3ba609f7909d8f1f43999eb77",
-  "sha256_4x5": "d3c1b5a6209f9f427c2ef0f0bc9429cf6a701cb9e1a3f6d4f2fcb2ee1ba1212a",
+  "sha256_16x9": "524f8f4506e02b0ede357658272ac08ffa4a4df0e2d1f225b4e413bdd5208fe0",
+  "sha256_4x5": "e1b4dfd13e56d4cc5c3b2f34a8b5209e6db2ee9ebba65f43f3dbd29001885911",
   "reverted_at": "2026-09-25T18:53:19.407777+00:00",
   "qc_notes": [
     {
@@ -30,5 +30,17 @@
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "524f8f4506e02b0ede357658272ac08ffa4a4df0e2d1f225b4e413bdd5208fe0"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "e1b4dfd13e56d4cc5c3b2f34a8b5209e6db2ee9ebba65f43f3dbd29001885911"
+    }
+  }
 }

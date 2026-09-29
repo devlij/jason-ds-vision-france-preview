@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-283-16x9.png",
-        "sha256": "31003604823739b7de088517804ac243849c82e007dc59e40801dc33e085fe5f"
+        "sha256": "42cc05ffba4f4b512513708f0b2703198b103f50ff932a3865fe50260425286a"
       },
       "4x5": {
         "path": "assets/fr-01-283-4x5.png",
-        "sha256": "0082e14fe599d4b1ecf057b1d430c1505f6c1496a30ee14e367a41589937a8fe"
+        "sha256": "cf88cc3cbc709b848809350e0d079378405897ccba4353407e20367799bf9f5f"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-283-daylight-16x9.png",
       "4x5": "assets/fr-01-283-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "fa6f35c5cfabd63f645224d87f59331141c27b51f6ca9a4bc514e91059bf404f",
-      "4x5": "ae12d15c929a7fc614b69f98edb02a0120354ec595afd7a5756718c641da89df"
+      "16x9": "8a844c53c2170a2c329d1cffd16e0aeaf840d41c435358d9f38e9e91231655ba",
+      "4x5": "8359ab6038d9c05e3386e002ada7a828dbe08d5dbcaf6971092f0b419c5983b6"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Fort la Latte, Plévenon",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "42cc05ffba4f4b512513708f0b2703198b103f50ff932a3865fe50260425286a",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "42cc05ffba4f4b512513708f0b2703198b103f50ff932a3865fe50260425286a"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "cf88cc3cbc709b848809350e0d079378405897ccba4353407e20367799bf9f5f"
+    }
+  },
+  "sha256_4x5": "cf88cc3cbc709b848809350e0d079378405897ccba4353407e20367799bf9f5f"
 }

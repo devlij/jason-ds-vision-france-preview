@@ -17,5 +17,19 @@
       "by": "Cosmo QC",
       "note": "Gate 1 PASS: Èze — perched village with its stone tower crowning a craggy, tree-covered headland above the Mediterranean; plausible Riviera viewpoint, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080); on-image caption 'Èze perched village, Èze', scenario '23 September 2026 · 18:15 Europe/Paris', disclosure and curly-apostrophe signature exact — BUT HELD: weather retrieval cross-check impossible. approvals/FR-01-102.md verified 404 (notes gap 078–124), no PNG metadata, no manifest; per-scene retrieval unverifiable, Gate 2 open. Gate 3 undocumented. Gate 4: no people/logos visible — documented only."
     }
-  ]
+  ],
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "3a71d686644b0c0616c05f6d339d9e6bb34b54e9ef47ffaae9051677902f7fa3"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "725c2fd3718b37db1455c5502e5187d91ad969ad73cfc84ea4d9964fb8293c79"
+    }
+  },
+  "sha256_4x5": "3a71d686644b0c0616c05f6d339d9e6bb34b54e9ef47ffaae9051677902f7fa3",
+  "sha256_16x9": "725c2fd3718b37db1455c5502e5187d91ad969ad73cfc84ea4d9964fb8293c79"
 }

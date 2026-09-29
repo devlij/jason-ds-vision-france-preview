@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-364-16x9.png",
-        "sha256": "80606bd40f482e5ecd8e7db476385138f6623e177130ffc204c91fe5b32dd618"
+        "sha256": "00814d0ea6a4549bfc616c4dc6ea2a80b2a99924dff9152e2e6d0eda49f269be"
       },
       "4x5": {
         "path": "assets/fr-01-364-4x5.png",
-        "sha256": "b1a088ec52049326e1b0159b751f8be35171391bb6672a300ed966f64e210d0d"
+        "sha256": "6d6979f7ee8014b72d0eff2f2f37dd3669712dfee52be89481618c70d2dd661e"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-364-daylight-16x9.png",
       "4x5": "assets/fr-01-364-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "d60515a5a093d8c78e801ed1013da1085a36f165def93ba63ff3eb9b91a83628",
-      "4x5": "507de3b4174de5d5c9b3dd282dbb959e050a6b566bf8ae63202a7c8bb7ec8773"
+      "16x9": "5fdaab637defe14f3ea49176bb4b6ebbc31dcf20fdc85827aefe1a60928fef1f",
+      "4x5": "3478897d18003d97622994a2e10513beb7604827e947a897ae1175e41f14117b"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château d'If, Marseille",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "00814d0ea6a4549bfc616c4dc6ea2a80b2a99924dff9152e2e6d0eda49f269be",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "00814d0ea6a4549bfc616c4dc6ea2a80b2a99924dff9152e2e6d0eda49f269be"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "6d6979f7ee8014b72d0eff2f2f37dd3669712dfee52be89481618c70d2dd661e"
+    }
+  },
+  "sha256_4x5": "6d6979f7ee8014b72d0eff2f2f37dd3669712dfee52be89481618c70d2dd661e"
 }

@@ -7,5 +7,19 @@
   "scenario_label": "23 September 2026 · 17:15 America/St_Barthelemy",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-234-16x9.png",
-  "file_4x5": "assets/fr-01-234-4x5.png"
+  "file_4x5": "assets/fr-01-234-4x5.png",
+  "sha256_16x9": "219e23aee24f25af49e505f2101c3df6b72b737b89b9ae1198689ca174e30816",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "219e23aee24f25af49e505f2101c3df6b72b737b89b9ae1198689ca174e30816"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "ed42dfa9e75488af938a45db3d07d66d9b48e71551cbc7342cf538db8498c2c4"
+    }
+  },
+  "sha256_4x5": "ed42dfa9e75488af938a45db3d07d66d9b48e71551cbc7342cf538db8498c2c4"
 }

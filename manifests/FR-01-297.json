@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-297-16x9.png",
-        "sha256": "183d153ac78c94d0bcb55142c8a196bff3c27f6525c1353b4b7625b21f19af2d"
+        "sha256": "eaed50b2ec3a3c07559da5df6a6e604796ed7655a75d4bd1155c7f0d514c9b92"
       },
       "4x5": {
         "path": "assets/fr-01-297-4x5.png",
-        "sha256": "e0836b914b69bebc0e985f29c9d2a82ea11f6989e73490c49994cb1765043679"
+        "sha256": "2b72b93030a68d39cabf92c0f55ff5b4bf118fafed0f02a6f012103f50ebb714"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-297-daylight-16x9.png",
       "4x5": "assets/fr-01-297-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "2a7d396d4ab6d6ac2e1ed52d5af6250f8c8e43d60bce74ffbf60e418bb7b76a9",
-      "4x5": "d1a6f4fef814bbab181aa9fb71ccc7a1ceed75530e23ae001aea3a7a88b34efd"
+      "16x9": "6f40ac402f4ef7d80a07d68618711198706018114185782f7687b171b54c4035",
+      "4x5": "e1ab0cbf7b21bf0310345f2f68848515c2aaefd9d0f17df95b70ce57b4f5012d"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Plage de Sohoa, Chiconi",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "eaed50b2ec3a3c07559da5df6a6e604796ed7655a75d4bd1155c7f0d514c9b92",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "eaed50b2ec3a3c07559da5df6a6e604796ed7655a75d4bd1155c7f0d514c9b92"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "2b72b93030a68d39cabf92c0f55ff5b4bf118fafed0f02a6f012103f50ebb714"
+    }
+  },
+  "sha256_4x5": "2b72b93030a68d39cabf92c0f55ff5b4bf118fafed0f02a6f012103f50ebb714"
 }

@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-333-16x9.png",
-        "sha256": "27613cfc076482b8aeb165a4c693bcbf9b26b4070ea2eea85c3f8a44cddb7a41"
+        "sha256": "eb548951f1445f0446af29e4c4aaad9e25c743a782197e4a4e367d5a8757e8a9"
       },
       "4x5": {
         "path": "assets/fr-01-333-4x5.png",
-        "sha256": "461cd7ccda67ed44125e7cebe187c8b25d6314072ab5ab61490767223a5c6185"
+        "sha256": "dbe430896a641eb8877c25838d3638b25a997e34847a80a566ab98b84ff605c2"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-333-daylight-16x9.png",
       "4x5": "assets/fr-01-333-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "6722bc62a0f732fbdbf9e927b8e8b7a4dbdeeb7c27965b09a61cd15b48d94b99",
-      "4x5": "e5e48c66c0aade41f3619101732b791da71631b8bf84cccf88bf0103fa92a724"
+      "16x9": "3e4ab4eacb3b720411c1b03f58a023553df2f11d79ad925f3771b2a3c7d24f91",
+      "4x5": "079ca517a211d407d337eaa69ce8d95d6f754acb55a97b20d2b4b747beafadab"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Alignements de Carnac, Carnac",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "eb548951f1445f0446af29e4c4aaad9e25c743a782197e4a4e367d5a8757e8a9",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "eb548951f1445f0446af29e4c4aaad9e25c743a782197e4a4e367d5a8757e8a9"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "dbe430896a641eb8877c25838d3638b25a997e34847a80a566ab98b84ff605c2"
+    }
+  },
+  "sha256_4x5": "dbe430896a641eb8877c25838d3638b25a997e34847a80a566ab98b84ff605c2"
 }

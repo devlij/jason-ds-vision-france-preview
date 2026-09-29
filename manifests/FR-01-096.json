@@ -17,5 +17,19 @@
       "by": "Cosmo QC",
       "note": "Gate 1 PASS: Porquerolles village harbor — marina with moored sailboats, pastel waterfront buildings, green hills behind, blue sky; plausible tourist viewpoint, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080); on-image caption 'Île de Porquerolles village harbor, Porquerolles', scenario '23 September 2026 · 17:29 Europe/Paris', disclosure and curly-apostrophe 'Jason D's Vision' signature exact — BUT HELD: weather retrieval cross-check impossible. approvals/FR-01-096.md verified 404 (notes gap 078–124), no PNG metadata, no manifest; per-scene retrieval timestamp unverifiable under the hardened weather law, Gate 2 open. Gate 3 undocumented (lineage unconfirmed). Gate 4: no people/logos visible at review zoom — documented only."
     }
-  ]
+  ],
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "26f76574db0c1bd5a3afcc0fd8b4ca88500d7982e137f351f770c458d0cb5824"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "b9d0d93d0bb0ecd78b1177ac3251c7ada0b463642f04cd1bbd5ed2e7c17268b1"
+    }
+  },
+  "sha256_4x5": "26f76574db0c1bd5a3afcc0fd8b4ca88500d7982e137f351f770c458d0cb5824",
+  "sha256_16x9": "b9d0d93d0bb0ecd78b1177ac3251c7ada0b463642f04cd1bbd5ed2e7c17268b1"
 }

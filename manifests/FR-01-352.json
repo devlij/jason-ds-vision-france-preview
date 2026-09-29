@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-352-16x9.png",
-        "sha256": "cee628ea90a16c0b535e6d89714df4956f5a2ec51db6c134e9c252a398311646"
+        "sha256": "3e8e5d8dbb4a4d163152cdf71c3cea0b421c75a497ac2ebe539f74aad00b0579"
       },
       "4x5": {
         "path": "assets/fr-01-352-4x5.png",
-        "sha256": "b0119d6e3610cdb63c0971205a1b4d3c13071e321df53c2f144304e3cf9f5a64"
+        "sha256": "05957b5331e2bd20f3e2dd585c68e57c824c19f676c0146b33cbdbf14ac0fe60"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-352-daylight-16x9.png",
       "4x5": "assets/fr-01-352-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "ea08b312cf4fcee398ad72ad377c9e347d75faa123a0be628d9bd5888a1daf0c",
-      "4x5": "1f8e691ebf4139c41501e0df55973a8b90c92379f98893d34bbef3f2dd54d9e9"
+      "16x9": "acc4cf6b67ff7870b341ea735fa8351d393671c1b95e59e89524d5b7a5367a83",
+      "4x5": "104868efda10e8bfa58cf59c5a149e2b94d0c060646789dcaf7c22fcfc98755d"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Phare des Baleines, Saint-Clément-des-Baleines",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "3e8e5d8dbb4a4d163152cdf71c3cea0b421c75a497ac2ebe539f74aad00b0579",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "3e8e5d8dbb4a4d163152cdf71c3cea0b421c75a497ac2ebe539f74aad00b0579"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "05957b5331e2bd20f3e2dd585c68e57c824c19f676c0146b33cbdbf14ac0fe60"
+    }
+  },
+  "sha256_4x5": "05957b5331e2bd20f3e2dd585c68e57c824c19f676c0146b33cbdbf14ac0fe60"
 }

@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Place des Vosges, Paris — Daylight. Henri IV square of red-brick arcaded façades with slate mansard roofs and dormers around formal lawns, pollarded plane trees; scenario 15:19 matches the builder note; retrieved 2026-09-25T12:38:32Z (valid 15:00, 25.7°C, 0% cloud). Label bar exact. Small unidentifiable figures on the square — Gate 4 documented only. Inter-format subject agreement verified.",
   "approved_at": "2026-09-28T12:13:20.874433+00:00",
-  "sha256_16x9": "98af646f31005edaccdf911f994b01c49d719351ff5f87bda096dd8618fe0d97",
-  "sha256_4x5": "ec4ba0abef836d4ac1f62933e1adbe6f29fc8dfb5f47e00a274c1023a8f53ef9",
+  "sha256_16x9": "b81b36d01254d8d5c8c5ace9e5de2d755d0e4700128335cb58f8678403e99bd9",
+  "sha256_4x5": "a3bca750683f1b6f572e06793bab2d2e6d0b9a6d9079400c74fc400154cd1838",
   "reverted_at": "2026-09-25T18:52:45.243358+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC re-audit 2026-09-28: builder's per-scene weather rework verified repo-wide — Open-Meteo retrieval timestamps unique to the second across all France scenes (this scene retrieved 2026-09-25T12:38:32Z). The Sep-25 withdrawal is cleared; five-gate re-audit PASS. Proceeding to re-approval."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "b81b36d01254d8d5c8c5ace9e5de2d755d0e4700128335cb58f8678403e99bd9"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "a3bca750683f1b6f572e06793bab2d2e6d0b9a6d9079400c74fc400154cd1838"
+    }
+  }
 }

@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-361-16x9.png",
-        "sha256": "d270f61fa972df7419c31a8f198cae535a2f119babb03d77e9666bada78f7ade"
+        "sha256": "e30fba9b3bb8d06e55047064c56216dcc32bf308e4c5704f6980d8b641287ca8"
       },
       "4x5": {
         "path": "assets/fr-01-361-4x5.png",
-        "sha256": "f1351fc4be573ad883b30265b9c6d0506fc81b899fab647b91068f99b2c80435"
+        "sha256": "cdf6f6d5a7a44e9a08101a2c44b45bea37480cfa5160102447a6609a7894fa57"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-361-daylight-16x9.png",
       "4x5": "assets/fr-01-361-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "c40f7e815f7cb6afa9f593a4a8de3a130f65e010c963ea56acc7a1fdef1e4c6f",
-      "4x5": "5241c712c5a6aa7719bab38c863c2d210ada7f28a8e67caa6d3b6184fdb601ac"
+      "16x9": "b589d8877c5ec1540e48b4a2f8ddbab6d12942c970f7d5ab1bc8c32980fcb5ba",
+      "4x5": "c163a8284c25ed5ed3037328a820cdc4d165666ad8daf4343a1b0712a26b5821"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Mont Choungui, Chirongui",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "e30fba9b3bb8d06e55047064c56216dcc32bf308e4c5704f6980d8b641287ca8",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "e30fba9b3bb8d06e55047064c56216dcc32bf308e4c5704f6980d8b641287ca8"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "cdf6f6d5a7a44e9a08101a2c44b45bea37480cfa5160102447a6609a7894fa57"
+    }
+  },
+  "sha256_4x5": "cdf6f6d5a7a44e9a08101a2c44b45bea37480cfa5160102447a6609a7894fa57"
 }

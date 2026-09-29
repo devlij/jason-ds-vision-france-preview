@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-267-16x9.png",
-        "sha256": "62fa06ba5f234c7579ef67c84996246e630a0481397dc551616ebc7783db78d3"
+        "sha256": "fd97fa7e2b3eb1e90cfd0d2d1dd49c6f1c35f006695e4d039b6e30433f2d619a"
       },
       "4x5": {
         "path": "assets/fr-01-267-4x5.png",
-        "sha256": "3e19a09a62575d42d59604654bec70f176de1ad24e0d341593b8b28dfe72f693"
+        "sha256": "6d6f128a6a2ec2f525bff322d246cfa9faf0d9811eee27de07459d57ec5bfe23"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-267-daylight-16x9.png",
       "4x5": "assets/fr-01-267-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "ecd2709d549a4ffe5b91423bc9c633c733b6e924846790b8e511b3a5d476ff55",
-      "4x5": "3cd504449197ef5293826411f3e80bb1a4598b5510b7550b34e040f160dbbe04"
+      "16x9": "f4438864d40615438b35a51f6bd0ac9be3e68ba6d81291393404a7eaafab0ae9",
+      "4x5": "833d70c1706ae567f0fca8008351cbe2f5f2133c3687b3ef6bb2c8f662632c01"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Viaduc de Garabit, Ruynes-en-Margeride",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "fd97fa7e2b3eb1e90cfd0d2d1dd49c6f1c35f006695e4d039b6e30433f2d619a",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "fd97fa7e2b3eb1e90cfd0d2d1dd49c6f1c35f006695e4d039b6e30433f2d619a"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "6d6f128a6a2ec2f525bff322d246cfa9faf0d9811eee27de07459d57ec5bfe23"
+    }
+  },
+  "sha256_4x5": "6d6f128a6a2ec2f525bff322d246cfa9faf0d9811eee27de07459d57ec5bfe23"
 }

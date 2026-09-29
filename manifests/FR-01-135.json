@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-135-16x9.png",
-        "sha256": "30aa13d08f58a479578a3bf919259be211c6874001db0e3c25ff6197347094e5"
+        "sha256": "19c9bea5ca47ee02ea553b83654b46b320afddb226dcbe0503103ac9ffc2cba6"
       },
       "4x5": {
         "path": "assets/fr-01-135-4x5.png",
-        "sha256": "0814b23ca0e452e2b410e45663e88e82b48332ec91b0c3cd19a39000445b9d2f"
+        "sha256": "adc086cbaeb0d7e881036b874983030c1d0cda4eebe4012165c2e23c18663fb6"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-135-daylight-16x9.png",
       "4x5": "assets/fr-01-135-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "b1d01377852a46860d2214470d5c34247d9d97939b1c3722b28f96656b0ea62b",
-      "4x5": "f8d73ac723a4f1e63589015ad4a014e0cfac8420b51d5b463b223e078e92222f"
+      "16x9": "b9f9dce9b6397a595585066c85a9643ebd665ec1c83da4d639b5026e270a0fb1",
+      "4x5": "28c758240c215bd45a18391d3c283cac4e61b89255818d8731020103dc1fda60"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Normandy American Cemetery, Colleville-sur-Mer",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "19c9bea5ca47ee02ea553b83654b46b320afddb226dcbe0503103ac9ffc2cba6",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "19c9bea5ca47ee02ea553b83654b46b320afddb226dcbe0503103ac9ffc2cba6"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "adc086cbaeb0d7e881036b874983030c1d0cda4eebe4012165c2e23c18663fb6"
+    }
+  },
+  "sha256_4x5": "adc086cbaeb0d7e881036b874983030c1d0cda4eebe4012165c2e23c18663fb6"
 }

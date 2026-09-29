@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-253-16x9.png",
-        "sha256": "87f23f5a473c3c943dcf8adbaef62ef2c4d07b4fe6335929ed21f55130473e18"
+        "sha256": "bbe64fd9995f724efd8261dd5fe88cbb034099458650e52ff105a4e1d4b46f02"
       },
       "4x5": {
         "path": "assets/fr-01-253-4x5.png",
-        "sha256": "d00c10d0abaa21f60a0249bda596396b319de1f466eb41ecb673dba3a6fd11f6"
+        "sha256": "0f281cad1d0aebb1db90dd51b5217f7332a23fb1c102d21b823bcbdc6936a6fb"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-253-daylight-16x9.png",
       "4x5": "assets/fr-01-253-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "c055d71af963e140161add493c350f366704c27a97b7c50374314920c84d11ca",
-      "4x5": "45fe177a896c7c173385d0d5220917c611732aeb189bffb298cbb7cdf5b420a1"
+      "16x9": "03df2e32c8f075e8529488116bcb7a0345678a3bde2880c581020cdf01fbe7f4",
+      "4x5": "f5648de13570d7279b34b7460fceec2449788031058c97b13c47dfc663406f67"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Sartène, Sartène",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "bbe64fd9995f724efd8261dd5fe88cbb034099458650e52ff105a4e1d4b46f02",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "bbe64fd9995f724efd8261dd5fe88cbb034099458650e52ff105a4e1d4b46f02"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "0f281cad1d0aebb1db90dd51b5217f7332a23fb1c102d21b823bcbdc6936a6fb"
+    }
+  },
+  "sha256_4x5": "0f281cad1d0aebb1db90dd51b5217f7332a23fb1c102d21b823bcbdc6936a6fb"
 }

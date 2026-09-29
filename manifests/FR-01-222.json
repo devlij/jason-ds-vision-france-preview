@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-222-16x9.png",
-        "sha256": "4db387a32556fc0d2af7d9a8ba02062f70e6aa7831f623d65ed11da39aab2c48"
+        "sha256": "bc51a0d2f7c8677d936bf0a7fa0de78882a40822152a1afddda98b12de7c216f"
       },
       "4x5": {
         "path": "assets/fr-01-222-4x5.png",
-        "sha256": "e0d83d494120bb41a91a9bd45ffc81b541789be614aba4a6d3323ecd14e18be9"
+        "sha256": "d74aea2eb9c5e1b02471629f818071b6af17fffae300856b29ff6cf5e954548d"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-222-daylight-16x9.png",
       "4x5": "assets/fr-01-222-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "ce969b5b2e2dbacba966304b3d49ebadbad5dd09060e429d0796fa21d85bab03",
-      "4x5": "de6d20c70de9c9915457a3920e612dd652eaf883f29770c6f76fb7d2671149cf"
+      "16x9": "5b7316f4e7f255806caeab3dfef718d8a8317fcfcf8de6c9c008f5ea865d6537",
+      "4x5": "5e4b9f5648528e11cb17cb8f894c5f50d0498061b46f63f8f486e2ad1b4c7e01"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Beffroi de Bergues, Bergues",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "bc51a0d2f7c8677d936bf0a7fa0de78882a40822152a1afddda98b12de7c216f",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "bc51a0d2f7c8677d936bf0a7fa0de78882a40822152a1afddda98b12de7c216f"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "d74aea2eb9c5e1b02471629f818071b6af17fffae300856b29ff6cf5e954548d"
+    }
+  },
+  "sha256_4x5": "d74aea2eb9c5e1b02471629f818071b6af17fffae300856b29ff6cf5e954548d"
 }

@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-136-16x9.png",
-        "sha256": "9fbdffdc285dc4a0e41031b7bbdbaf5c2a709f4d6af013cc7d4bca9a08d1ad70"
+        "sha256": "2e882070f662c9eaa0b98d318388afd7bda7cb78c2a50ec5822677bbc95ecff0"
       },
       "4x5": {
         "path": "assets/fr-01-136-4x5.png",
-        "sha256": "5900a04f2717cbaaffaad74ea1e8541c95c57e0e48aab9f276b8e64b59db08ae"
+        "sha256": "c87b3137ffdb21142ba21eeed15f4e1b0cff6a80ff7c289685517c16dfbfa19d"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-136-daylight-16x9.png",
       "4x5": "assets/fr-01-136-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "cb3b768a172c284abcbea90866b5a0dfe793b7d2b1fdf0cd811b161b89d7957c",
-      "4x5": "a5a24fa8adbc717edbdaa789a78256a37727df11b49acb146bba5d1ae43ef5d8"
+      "16x9": "91ebe5b94b294a33d097d6a9b45e9ff879c4ee17b194e9bada3a804913bc5998",
+      "4x5": "7f5b3eb50febe8acfe6a3528eb6071bcd1f6133eda71aed969a1b6fce4d7c9b5"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Yvoire medieval port, Yvoire",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "2e882070f662c9eaa0b98d318388afd7bda7cb78c2a50ec5822677bbc95ecff0",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "2e882070f662c9eaa0b98d318388afd7bda7cb78c2a50ec5822677bbc95ecff0"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "c87b3137ffdb21142ba21eeed15f4e1b0cff6a80ff7c289685517c16dfbfa19d"
+    }
+  },
+  "sha256_4x5": "c87b3137ffdb21142ba21eeed15f4e1b0cff6a80ff7c289685517c16dfbfa19d"
 }

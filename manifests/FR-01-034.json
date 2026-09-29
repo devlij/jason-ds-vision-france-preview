@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Place de la Bourse, Bordeaux — Daylight. 18th-century Place de la Bourse reflected in the Miroir d'eau, curved limestone façades; scenario 15:21 matches the builder note; retrieved 2026-09-25T12:38:35Z (valid 15:00, 30.2°C, 0% cloud). Label bar exact. Small unidentifiable quay strollers — Gate 4 documented only. Inter-format subject agreement verified.",
   "approved_at": "2026-09-28T12:15:27.303521+00:00",
-  "sha256_16x9": "943ce938de301e462ce41e1306d510098a9f6b8c88f47b0060967b24eb380524",
-  "sha256_4x5": "9f128baf9469b889adef573bf51e625740991a5bef6629b61a962c39670743ee",
+  "sha256_16x9": "00c08aa218ac59de94db5f604096a8a1190a7330c69c6f91897da1c8a192cab2",
+  "sha256_4x5": "0cf7e6d851ba556df264abee78a226da62d5afb892e214b66286635e44263d91",
   "reverted_at": "2026-09-25T18:52:50.147257+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC re-audit 2026-09-28: builder's per-scene weather rework verified repo-wide — Open-Meteo retrieval timestamps unique to the second across all France scenes (this scene retrieved 2026-09-25T12:38:35Z). The Sep-25 withdrawal is cleared; five-gate re-audit PASS. Proceeding to re-approval."
     }
-  ]
+  ],
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "0cf7e6d851ba556df264abee78a226da62d5afb892e214b66286635e44263d91"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "00c08aa218ac59de94db5f604096a8a1190a7330c69c6f91897da1c8a192cab2"
+    }
+  }
 }

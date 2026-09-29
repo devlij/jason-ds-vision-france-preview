@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Basilique Notre-Dame de Fourvière, Lyon — Daylight. White basilica with four corner towers on the hill, Lyon panorama below; scenario 15:20 matches the builder note; retrieved 2026-09-25T12:38:33Z (valid 15:00, 26.2°C, 0% cloud). Label bar exact. Small terrace figures — Gate 4 documented only. Inter-format subject agreement verified.",
   "approved_at": "2026-09-28T12:14:23.496412+00:00",
-  "sha256_16x9": "3c1a72cb17e60e6c5a638a20489130fbf3e575d5cd1cca9a45396d9de1dd81f0",
-  "sha256_4x5": "5b4d79321866e30604232ea7e639eebeb89317135d1773334ac3dc9ad5e342ea",
+  "sha256_16x9": "687413120a20bd352b17451b5c31454b0581ed60d72b65d5e503a03c5c70b783",
+  "sha256_4x5": "43a2bb6362763a41631f6ae1ce771f9c8198c32aca98a59d918058e6c25801c1",
   "reverted_at": "2026-09-25T18:52:47.255849+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC re-audit 2026-09-28: builder's per-scene weather rework verified repo-wide — Open-Meteo retrieval timestamps unique to the second across all France scenes (this scene retrieved 2026-09-25T12:38:33Z). The Sep-25 withdrawal is cleared; five-gate re-audit PASS. Proceeding to re-approval."
     }
-  ]
+  ],
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "43a2bb6362763a41631f6ae1ce771f9c8198c32aca98a59d918058e6c25801c1"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "687413120a20bd352b17451b5c31454b0581ed60d72b65d5e503a03c5c70b783"
+    }
+  }
 }

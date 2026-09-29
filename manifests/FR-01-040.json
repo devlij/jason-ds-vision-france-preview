@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Basilique Saint-Sernin, Toulouse — Daylight. Romanesque pink-brick basilica with five-tier octagonal bell tower and radiating apse chapels; scenario 15:28 matches the builder note; retrieved 2026-09-25T12:38:45Z (valid 15:00, 29.4°C). Label bar exact. Small figures — Gate 4 documented only. Inter-format subject agreement verified.",
   "approved_at": "2026-09-28T12:21:50.294473+00:00",
-  "sha256_16x9": "c390f78c0ac98e2031345d84268b678a2f354be2cd00ca80177cf8d73b28aad6",
-  "sha256_4x5": "03269dabbffd510ba257f5c0440bca441b926bd9efc0299e1621238d67359485",
+  "sha256_16x9": "e484ef2f0cf414c3d5c91e141c0d1ec2804aaa62aa903780bd486be16a2b0c04",
+  "sha256_4x5": "8010aee57994c068192d2a952ccd0ad68cd1352f54684a25b34ac39860bf56bb",
   "reverted_at": "2026-09-25T18:53:00.779187+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC re-audit 2026-09-28: builder's per-scene weather rework verified repo-wide — Open-Meteo retrieval timestamps unique to the second across all France scenes (this scene retrieved 2026-09-25T12:38:45Z). The Sep-25 withdrawal is cleared; five-gate re-audit PASS. Proceeding to re-approval."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "e484ef2f0cf414c3d5c91e141c0d1ec2804aaa62aa903780bd486be16a2b0c04"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "8010aee57994c068192d2a952ccd0ad68cd1352f54684a25b34ac39860bf56bb"
+    }
+  }
 }

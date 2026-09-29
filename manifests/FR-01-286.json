@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-286-16x9.png",
-        "sha256": "4ca9289c2ef5b57b79b6de1f1bbc91d38cf464c73876ffbb0c2f5f34780d2068"
+        "sha256": "736bce3f0848a390afa8f07a818a7ff0ad523538ab86751620f9cfba071c34ca"
       },
       "4x5": {
         "path": "assets/fr-01-286-4x5.png",
-        "sha256": "4af7c8892c473661af492beed00fdfe74b5c687e799f8267a8d2aeeebe5a532c"
+        "sha256": "4b93abfb1662df18bff995ee493b81e444b85683669d816ceaada2531e744662"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-286-daylight-16x9.png",
       "4x5": "assets/fr-01-286-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "c30fd742d92fc0d788e06762a05263d46d048ccfb56a1e20220594c79f465888",
-      "4x5": "79adbeec7bc8836409687f948dc17d91d620e959a4aff5fadb509d16c4b73d5f"
+      "16x9": "24409e72cae30b39efcfadffe0a46a6b2342b9f8d479a25afa6dc755296c4cac",
+      "4x5": "db7efa46af8640a8c56f095459381f0766f6292e55131fd9f745e6eeac3751b7"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château de Coucy, Coucy-le-Château-Auffrique",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "736bce3f0848a390afa8f07a818a7ff0ad523538ab86751620f9cfba071c34ca",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "736bce3f0848a390afa8f07a818a7ff0ad523538ab86751620f9cfba071c34ca"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "4b93abfb1662df18bff995ee493b81e444b85683669d816ceaada2531e744662"
+    }
+  },
+  "sha256_4x5": "4b93abfb1662df18bff995ee493b81e444b85683669d816ceaada2531e744662"
 }

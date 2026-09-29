@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-217-16x9.png",
-        "sha256": "bb54a66f22cdc6a3b342161e56bdc1333719a99995075a1fbe7e5c07731492dc"
+        "sha256": "e5a120ce13dc03a510aedd20cff1e34220e4ae6760b33b2379ed81a429a4c5de"
       },
       "4x5": {
         "path": "assets/fr-01-217-4x5.png",
-        "sha256": "fbf6396cb46c1c74ea6f8762b93dd2b9761f233d63d79b433d250d1af2c4466e"
+        "sha256": "7da7dff4909850f56b0cef23b3b5fd66e42ea4669dc3d28afb184c9407363787"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-217-daylight-16x9.png",
       "4x5": "assets/fr-01-217-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "48e7dec4d2c233ea1e038f9c292beb5f5674fadb2d50633f2e43b92137e21fcf",
-      "4x5": "d2e072de106cdf80ee646ecacdc5d16939ff53415f6314c4d6f3fc7625923012"
+      "16x9": "4381db01c1a1f841e5311bffb1f3c2ac4b8dd48e77ec884b2da143832c9683ad",
+      "4x5": "da9beb543277e0a4a04dab3f4f4bc53c22a28f3b6a355f4ecd34801650481696"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Rocher de Dzaoudzi, Dzaoudzi",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "e5a120ce13dc03a510aedd20cff1e34220e4ae6760b33b2379ed81a429a4c5de",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "e5a120ce13dc03a510aedd20cff1e34220e4ae6760b33b2379ed81a429a4c5de"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "7da7dff4909850f56b0cef23b3b5fd66e42ea4669dc3d28afb184c9407363787"
+    }
+  },
+  "sha256_4x5": "7da7dff4909850f56b0cef23b3b5fd66e42ea4669dc3d28afb184c9407363787"
 }

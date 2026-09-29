@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-183-16x9.png",
-        "sha256": "a9377faf071974b60c959038bc00abba25c2947108277eea84e93d2875a5d8b6"
+        "sha256": "81b57d2bf75db4d7b35809bf48604e4684f9ee5e2fc059893e4bee07a317b78a"
       },
       "4x5": {
         "path": "assets/fr-01-183-4x5.png",
-        "sha256": "115e8b74317b6842598f50023a5b18a1c64b23cdbb75c86ff9165887829b5587"
+        "sha256": "d0b6272f19cf901c84333cd19e70d27b4b31832f8cf7796e340f77deac9dc172"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-183-daylight-16x9.png",
       "4x5": "assets/fr-01-183-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "9cee9d9298e398bf9ef14d6d29486b2cb9f548bd57662dd551375ce61230ec5f",
-      "4x5": "b04d90520d80e50fd8005977d91ce7e3cb4763c2dbcc76438cba0ce66fa5c428"
+      "16x9": "36e43736a3316cee346fd65a9c05c3a463eb56a79d00ece33c2c350fb2cd5b1b",
+      "4x5": "af9b879a42e89187ea4ee3eb27b0f04ad7b1b8a194d9c11cdbb0f00edd0abcca"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Hell-Bourg, Salazie",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "81b57d2bf75db4d7b35809bf48604e4684f9ee5e2fc059893e4bee07a317b78a",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "81b57d2bf75db4d7b35809bf48604e4684f9ee5e2fc059893e4bee07a317b78a"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "d0b6272f19cf901c84333cd19e70d27b4b31832f8cf7796e340f77deac9dc172"
+    }
+  },
+  "sha256_4x5": "d0b6272f19cf901c84333cd19e70d27b4b31832f8cf7796e340f77deac9dc172"
 }

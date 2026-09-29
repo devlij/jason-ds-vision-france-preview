@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Notre-Dame de la Garde, Marseille — Daylight. Romano-Byzantine basilica with the gilded Madonna atop the bell tower on the limestone hill, Marseille and the old port below; scenario 15:22 matches the builder note; retrieved 2026-09-25T12:38:37Z (valid 15:00, 27.3°C, wind 20.1 km/h). Label bar exact. Tiny terrace figures — Gate 4 documented only. Inter-format subject agreement verified.",
   "approved_at": "2026-09-28T12:16:29.709363+00:00",
-  "sha256_16x9": "b3eb0020b75f9fb9130cc4532f52ac8d1ca1202142d7efc9ad9c8a3be8013267",
-  "sha256_4x5": "6160f5d864a70364f6684337e6223e8cec2c89b1996564787feaff7761cdd47e",
+  "sha256_16x9": "16f7e9019298088c51ecfc008e47aba02a63ccb16da13c07a954d2f7a6a5bfed",
+  "sha256_4x5": "36df6407f9ad549746725afc5fe6aa5c01e3545d46edc43bbd19e9e0f1f53b66",
   "reverted_at": "2026-09-25T18:52:51.848851+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC re-audit 2026-09-28: builder's per-scene weather rework verified repo-wide — Open-Meteo retrieval timestamps unique to the second across all France scenes (this scene retrieved 2026-09-25T12:38:37Z). The Sep-25 withdrawal is cleared; five-gate re-audit PASS. Proceeding to re-approval."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "16f7e9019298088c51ecfc008e47aba02a63ccb16da13c07a954d2f7a6a5bfed"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "36df6407f9ad549746725afc5fe6aa5c01e3545d46edc43bbd19e9e0f1f53b66"
+    }
+  }
 }

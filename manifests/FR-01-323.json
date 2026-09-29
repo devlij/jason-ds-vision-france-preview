@@ -7,5 +7,19 @@
   "scenario_label": "23 September 2026 · 13:00 Pacific/Marquesas",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-323-16x9.png",
-  "file_4x5": "assets/fr-01-323-4x5.png"
+  "file_4x5": "assets/fr-01-323-4x5.png",
+  "sha256_16x9": "c1dac5b37106450e57e64c4dec4d6edfedb5e2bf056a21150ffc9ac6dc37cd99",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "c1dac5b37106450e57e64c4dec4d6edfedb5e2bf056a21150ffc9ac6dc37cd99"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "a795b8559f3e4295e0a62e73ed99b2709bf8e01b6cab0e574a7237c7f061ec71"
+    }
+  },
+  "sha256_4x5": "a795b8559f3e4295e0a62e73ed99b2709bf8e01b6cab0e574a7237c7f061ec71"
 }

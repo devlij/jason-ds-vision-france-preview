@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-155-16x9.png",
-        "sha256": "8700dd4b51959e7065aa7fd6fe1605cbfac63d6cffd9e43b40900f8a6862b52b"
+        "sha256": "46ba53fd317ed2adae392271bca4fd1483af0cfd52a7c5db17539716374bd254"
       },
       "4x5": {
         "path": "assets/fr-01-155-4x5.png",
-        "sha256": "0de7e4e130b5caff8dc9242f2dc72eb9996c6495cab5852b9d426119342c2d5c"
+        "sha256": "e14d3fa81f07ba2593931fe0c85214e793f2e7c30c25f4c5b11bff6d627fab63"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-155-daylight-16x9.png",
       "4x5": "assets/fr-01-155-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "c5408426a01335523e2a718dff28504389908f64602bf25b3d4e6ef8be11e493",
-      "4x5": "1694001b5086fa571e9727b5f8e77f107c6f2d77ae892ea9a8161b133c100c96"
+      "16x9": "37366590b101d42b089811dc1712e732c6ea3dccf58eaf3502a55d10a6eaa3c9",
+      "4x5": "f681cb04ce47eb735f0ba305f8630059ab9126ecd08df9fe1d5e9e9475246882"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Tour de Nonza, Nonza",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "46ba53fd317ed2adae392271bca4fd1483af0cfd52a7c5db17539716374bd254",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "46ba53fd317ed2adae392271bca4fd1483af0cfd52a7c5db17539716374bd254"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "e14d3fa81f07ba2593931fe0c85214e793f2e7c30c25f4c5b11bff6d627fab63"
+    }
+  },
+  "sha256_4x5": "e14d3fa81f07ba2593931fe0c85214e793f2e7c30c25f4c5b11bff6d627fab63"
 }

@@ -27,6 +27,18 @@
       "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Notre-Dame west front from parvis: twin towers, rose window, three portals, gallery of kings, spire visible; clean framing, no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Notre-Dame Cathedral, Paris', scenario '23 September 2026 · 14:52 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-003.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: no people/logos visible. Gate 5: not ready."
     }
   ],
-  "sha256_16x9": "f82e85b1a876b2383739b0804844299e0ed8aea30fd4796a27fc60cf74c5140c",
-  "sha256_4x5": "cdc293f6961ce0a00cc04b2f2782c4052e2d8a2d826ea6894065f4902420d9c2"
+  "sha256_16x9": "6e9cb800e659f85f1eaae5db020e3e1b3af2043a6f098ba37656bb5b0b2a153a",
+  "sha256_4x5": "f5d832a381689a6aa6c364b4239baf438b8daae0ef0b31944a2b87e20fde5b20",
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "f5d832a381689a6aa6c364b4239baf438b8daae0ef0b31944a2b87e20fde5b20"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "6e9cb800e659f85f1eaae5db020e3e1b3af2043a6f098ba37656bb5b0b2a153a"
+    }
+  }
 }

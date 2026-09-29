@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-252-16x9.png",
-        "sha256": "395b54021a62102b26904e1695578b50907f2e74caf26f36cf6363390537dcc4"
+        "sha256": "fa3c2a7f752115bd006ae9041359bba74d77d65307a9aee8ac0140c7eb55f7c5"
       },
       "4x5": {
         "path": "assets/fr-01-252-4x5.png",
-        "sha256": "2a2963b8a19c9b45e799760efeb030f42e5e5d55a517d3d0289b2bf895b7a0a5"
+        "sha256": "4e6f65f54a7e8f098cf35f3c3d807f6a627473e6a4967f0bbfb050e7996780fc"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-252-daylight-16x9.png",
       "4x5": "assets/fr-01-252-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "c94f0a5f4ec6e578ad2b6e64102f9740b2d8758cca8e63855cd052f1ae2895f6",
-      "4x5": "2d33e780104c84feab7adbe6ac1b6995852a7a11ea02fefde5dcea93f2091b0b"
+      "16x9": "a8d1d15eb4707d0a214680e1e4fd38db42c931a9a84f5afe61f96b585e387f13",
+      "4x5": "1b02617b05d837053930ab9e45b2b76606205dde11da82bc437dcdd3d57bceb3"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château de Joux, La Cluse-et-Mijoux",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "fa3c2a7f752115bd006ae9041359bba74d77d65307a9aee8ac0140c7eb55f7c5",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "fa3c2a7f752115bd006ae9041359bba74d77d65307a9aee8ac0140c7eb55f7c5"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "4e6f65f54a7e8f098cf35f3c3d807f6a627473e6a4967f0bbfb050e7996780fc"
+    }
+  },
+  "sha256_4x5": "4e6f65f54a7e8f098cf35f3c3d807f6a627473e6a4967f0bbfb050e7996780fc"
 }

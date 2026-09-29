@@ -27,6 +27,18 @@
       "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Palace of Versailles Royal Court facade: central clock pavilion, gilded mansard roofs, royal gate, courtyard visitors; clean framing, no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Palace of Versailles, Versailles', scenario '23 September 2026 · 14:59 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-006.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: distant unidentifiable visitors. Gate 5: not ready."
     }
   ],
-  "sha256_16x9": "583fb216b819811ff3e193767cf2ee777064aeb53a55c662c0e17deeee35d109",
-  "sha256_4x5": "5b8e0ccde33a73fbf1dda72e2cbcf4e9a0e1f1da83999cb3734b2a82e40f293c"
+  "sha256_16x9": "091e0b6b410aa3921a61ac696da78ed18d0b0b718a404a149a0a3344541044a9",
+  "sha256_4x5": "e3272faa767de460d8a981cea1394926cb65f8b614cf36dc02e9f47accff4e21",
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "e3272faa767de460d8a981cea1394926cb65f8b614cf36dc02e9f47accff4e21"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "091e0b6b410aa3921a61ac696da78ed18d0b0b718a404a149a0a3344541044a9"
+    }
+  }
 }

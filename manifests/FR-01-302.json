@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-302-16x9.png",
-        "sha256": "3a82dedcc10d64ae96f08530099c73b4d0473c5d843d42bde44ff77691c4080d"
+        "sha256": "9954ee66ea440d20415c95622654bf73b8c373725fd31872159de1c44fef2926"
       },
       "4x5": {
         "path": "assets/fr-01-302-4x5.png",
-        "sha256": "9c6c1df797a9e5ff66921c8dd401c3836de1f041e30012a67d2d8cc57e3d067c"
+        "sha256": "59729a0575c21395f8f66df680928a808da150f1ceebb2352593356779674215"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-302-daylight-16x9.png",
       "4x5": "assets/fr-01-302-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "66600fe5722795ecde71871bc6e73c8ada99dde4f6e57371dc9416c34d9233a9",
-      "4x5": "28dbf151e47e8285882cb17fb73f081db1a0087c026fbb67623cb4416305c226"
+      "16x9": "5501a5c7daceb69d94a8c3ccd0738b92ecf3649240aaaa15b5ac1bafae09b0ae",
+      "4x5": "106cd1eaa0da42d7e3abff6dedbe49efd9d23adbc7a6734e6f100c596ee02b22"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château de Serrant, Saint-Georges-sur-Loire",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "9954ee66ea440d20415c95622654bf73b8c373725fd31872159de1c44fef2926",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "9954ee66ea440d20415c95622654bf73b8c373725fd31872159de1c44fef2926"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "59729a0575c21395f8f66df680928a808da150f1ceebb2352593356779674215"
+    }
+  },
+  "sha256_4x5": "59729a0575c21395f8f66df680928a808da150f1ceebb2352593356779674215"
 }

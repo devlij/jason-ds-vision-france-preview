@@ -27,6 +27,18 @@
       "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Eiffel Tower from Champ de Mars lawns, correct iron-lattice proportions, clean framing, no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Eiffel Tower, Paris', scenario '23 September 2026 · 14:50 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-001.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: no prominent people/logos. Gate 5: not ready."
     }
   ],
-  "sha256_16x9": "0d0396e35d42503a928231ca107b3c090372158eebc4fe60e90f831f147c9638",
-  "sha256_4x5": "4dee1d08d0db157df7e08fa841dcf7371c8fd947a1eb96e7bda035996e9bd95b"
+  "sha256_16x9": "793ee000eebcd9fe87703718ee536b9637086d56670fd60c7fb3031757a3430d",
+  "sha256_4x5": "fa5336a5be7d590ba31c4dae064ebe3ad3c3bd9a022a442bfd2a3f3ebb9a02d7",
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "fa5336a5be7d590ba31c4dae064ebe3ad3c3bd9a022a442bfd2a3f3ebb9a02d7"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "793ee000eebcd9fe87703718ee536b9637086d56670fd60c7fb3031757a3430d"
+    }
+  }
 }

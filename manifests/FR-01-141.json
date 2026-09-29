@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-141-16x9.png",
-        "sha256": "5627b0e5803f2957422308e542bf8c3efb29f44d6c5c170f0c6ea558879c571b"
+        "sha256": "b50e95ae0e4fd5c68ff0534ef32cd942d9239ae1b7cf5b540570f791cd99019e"
       },
       "4x5": {
         "path": "assets/fr-01-141-4x5.png",
-        "sha256": "7f23a054baa3c2598fc9fc5f92da3eb946fb560282fa0ed941a6e63c3c21e23f"
+        "sha256": "068bb8b82433b821e7f9a3b77937438c46443a18860a46d95e10b561d852f116"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-141-daylight-16x9.png",
       "4x5": "assets/fr-01-141-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "d37edc92b1a996322ed8322c1693f89448754884b3118bd3a50d2c2482eb7be8",
-      "4x5": "8abfea576948c4ee9d79af7d6327c32b801d3bdff0ab021fd7bee251f0c562a9"
+      "16x9": "2dd3370949f09b77966ebe986072a6457f4ce59b04b5b91c135c3ead69d7cb2e",
+      "4x5": "aa5cab8f1d60ff1dd43168d0d0449587c1cafca8e781cac605a0992efcc7cd6a"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Cap Blanc-Nez, Escalles",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "b50e95ae0e4fd5c68ff0534ef32cd942d9239ae1b7cf5b540570f791cd99019e",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "b50e95ae0e4fd5c68ff0534ef32cd942d9239ae1b7cf5b540570f791cd99019e"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "068bb8b82433b821e7f9a3b77937438c46443a18860a46d95e10b561d852f116"
+    }
+  },
+  "sha256_4x5": "068bb8b82433b821e7f9a3b77937438c46443a18860a46d95e10b561d852f116"
 }

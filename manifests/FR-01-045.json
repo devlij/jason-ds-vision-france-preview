@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "G1 PASS: the fortress-like brick mass of Albi's Sainte-Cécile in Southern Gothic with its great bell tower dominating the square; clean and recognizable. G2 PASS: sweep MECHANICAL PASS; on-image caption 'Albi Cathedral, Albi', scenario '23 September 2026 · 15:32 Europe/Paris', disclosure and 'Jason D's Vision' signature verified on the scrim; weather retrieved 2026-09-25T14:38:54+02:00, valid 2026-09-23T15:00, unique to the second across FR-01-031–052. G3: text-prompt-only, no photographic inputs reported. G4: no prominent identifiable people or focal logos; commercial call remains Jason's.",
   "approved_at": "2026-09-28T18:18:59.364379+00:00",
-  "sha256_16x9": "4f737d277406a11a901655ef8b9c1707c57e5021a1a80a5050a4a4de3372a4be",
-  "sha256_4x5": "50d075728bbe5dc16b484685d231bfb195015785fa611beb5c507c8d09404b76",
+  "sha256_16x9": "ea8a357d0fbb6f9ef413a7eb8a9b6dc80b46dd71976258532517b04fedd6c916",
+  "sha256_4x5": "4642dc8972e5df6d2a7deb6fe0248b60f8b67cfd15f7f8746c523bea2ed401d4",
   "reverted_at": "2026-09-25T18:53:09.922914+00:00",
   "qc_notes": [
     {
@@ -30,5 +30,17 @@
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
     }
-  ]
+  ],
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "4642dc8972e5df6d2a7deb6fe0248b60f8b67cfd15f7f8746c523bea2ed401d4"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "ea8a357d0fbb6f9ef413a7eb8a9b6dc80b46dd71976258532517b04fedd6c916"
+    }
+  }
 }

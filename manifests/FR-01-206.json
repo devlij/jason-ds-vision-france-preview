@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-206-16x9.png",
-        "sha256": "1924e7683e083440d424d84e0efa2245c371f785e9cc7d9790aeecfa6537f11b"
+        "sha256": "bc546e4e8339d7672287f8b5d4c549bca4a1ff45d0ba2cd22f2047ec4344c309"
       },
       "4x5": {
         "path": "assets/fr-01-206-4x5.png",
-        "sha256": "f08076be3d9ba4c06b674d9fda2be3f3e55f9852142584d6a13a3848013457f0"
+        "sha256": "8fef4173eb1366b524dd8b7e6237ea505dce78c18e3c7bca499869d47a265d09"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-206-daylight-16x9.png",
       "4x5": "assets/fr-01-206-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "802fa67c34f2100319b0fa59a4a8f7a842b47c5bf8d13843df0f1b9d8f9beb85",
-      "4x5": "df4e31fb10a8150cb1dfaa084094f2f080360940f20d7511dc7442619ee66e01"
+      "16x9": "15f8c72482794930ef3e79c9eb6b38d6e523fbef81b296dc53c7de64eeb2c54a",
+      "4x5": "880d0de8305c47d41fa67743bfdf3421f8f80705faa66421c6bbe53a8d85628b"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Port du Croisic, Le Croisic",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "bc546e4e8339d7672287f8b5d4c549bca4a1ff45d0ba2cd22f2047ec4344c309",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "bc546e4e8339d7672287f8b5d4c549bca4a1ff45d0ba2cd22f2047ec4344c309"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "8fef4173eb1366b524dd8b7e6237ea505dce78c18e3c7bca499869d47a265d09"
+    }
+  },
+  "sha256_4x5": "8fef4173eb1366b524dd8b7e6237ea505dce78c18e3c7bca499869d47a265d09"
 }

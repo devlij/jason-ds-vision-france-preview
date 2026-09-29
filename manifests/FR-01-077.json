@@ -31,7 +31,19 @@
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate 1: Sarlat old town — a sharp honey-stone lane with lauze roofs and carved window frames, church tower closing the vista, cobbled street; exactly the rebuild goal. Gate 2: caption 'Sarlat old town, Sarlat-la-Canéda', scenario 25 Sept 2026 14:33 Europe/Paris, 'Jason D's Vision' signature and AI disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T12:33:22Z (unique), valid 14:30, scenario inside 14:00–15:00; code 0, 0% cloud matches the clear sky. Gate 3: text-prompt-only rebuild, no photographic inputs reported. Gate 4: two tiny distant figures, documented only. Gate 5: Art. 50 PNG metadata present; exact 1920x1080 / 864x1080.",
   "approved_at": "2026-09-25T12:59:10.249597+00:00",
-  "sha256_16x9": "4cf8810a0abc0d7911138b18b907615ddae59eac8dddcfa74d0e3cf097bc1e8d",
-  "sha256_4x5": "ee7ffd4a7628719613ca7c4cb0ebde0da91da2a4ebf58ea97c505b8ac402156f",
-  "reverted_at": "2026-09-25T18:54:07.408354+00:00"
+  "sha256_16x9": "161b9256e36885461840b9b78983a1c76d2c380e28c170a532f27d5a0b7ed17b",
+  "sha256_4x5": "d97257d2506ec31e5582ea3585d7c6701ded3e2264f76076e289b69b908914f2",
+  "reverted_at": "2026-09-25T18:54:07.408354+00:00",
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "d97257d2506ec31e5582ea3585d7c6701ded3e2264f76076e289b69b908914f2"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "161b9256e36885461840b9b78983a1c76d2c380e28c170a532f27d5a0b7ed17b"
+    }
+  }
 }

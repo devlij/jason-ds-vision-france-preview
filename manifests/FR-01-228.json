@@ -7,5 +7,19 @@
   "scenario_label": "24 September 2026 · 08:15 Pacific/Noumea",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-228-16x9.png",
-  "file_4x5": "assets/fr-01-228-4x5.png"
+  "file_4x5": "assets/fr-01-228-4x5.png",
+  "sha256_16x9": "631d26be17ea224ea894b696d0eb4e0d031f46214fe5931d88d251ee838c3eb9",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "631d26be17ea224ea894b696d0eb4e0d031f46214fe5931d88d251ee838c3eb9"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "b3d009b246ec791da8a91c811d7d3fe0940434fa52aeec08ea7a531728013511"
+    }
+  },
+  "sha256_4x5": "b3d009b246ec791da8a91c811d7d3fe0940434fa52aeec08ea7a531728013511"
 }

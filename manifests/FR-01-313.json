@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-313-16x9.png",
-        "sha256": "ec5f8bb795894ff5acfa4d7c145ef242a8f05de2ab21228a8f81eb8df018b9b8"
+        "sha256": "21da7b970df76e779574c7bab265f651f957788d3476cc8a0a3082b1aaeec40e"
       },
       "4x5": {
         "path": "assets/fr-01-313-4x5.png",
-        "sha256": "1ec2d0f9b5f4f4b3356a3e19db8d78a6b125938d54e6db7e2b77774f3ac69ee4"
+        "sha256": "58fb9ef5c837715cf1e1bd84dd7164d6eaf5fc651f1f498c9d4707b817c5cb05"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-313-daylight-16x9.png",
       "4x5": "assets/fr-01-313-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "776a12828a5f01b70c3544d8a92a886c25ac7ba4bd489742f5b7c1e84fd4ca6e",
-      "4x5": "505a6472e15ead79779c3b2d53228baecb69e16d6e21af6ff1c7b803d3cc6edd"
+      "16x9": "b9a51a1e6ca4c1e54d2b1384c6b290e5b052028a22fe38ac59d1f1416b57e57d",
+      "4x5": "7bcf69ef981753cceeb2bbb9c2feb54c98d79c732f48d515a24a44451708cee5"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Vasière des Badamiers, Pamandzi",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "21da7b970df76e779574c7bab265f651f957788d3476cc8a0a3082b1aaeec40e",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "21da7b970df76e779574c7bab265f651f957788d3476cc8a0a3082b1aaeec40e"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "58fb9ef5c837715cf1e1bd84dd7164d6eaf5fc651f1f498c9d4707b817c5cb05"
+    }
+  },
+  "sha256_4x5": "58fb9ef5c837715cf1e1bd84dd7164d6eaf5fc651f1f498c9d4707b817c5cb05"
 }

@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-319-16x9.png",
-        "sha256": "bd62353988cb2c9f940d0898d9a4983b643d837281c3fd66cfc998cb569b4388"
+        "sha256": "f31730c0a74b4822065e4746dfaf94b892f2b016334ca5d59d0fbf5e3ea36c54"
       },
       "4x5": {
         "path": "assets/fr-01-319-4x5.png",
-        "sha256": "b4c873d045865155b118ad8a40798b10866f1dad55dcdd775a7092fb7884f757"
+        "sha256": "bc35596877919dd5f3bb1f98bbf98ea06e6fefe61c2e8165531ecbef160f1bee"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-319-daylight-16x9.png",
       "4x5": "assets/fr-01-319-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "9227238c25e55c909197aab796e2c7f7a39fea96038758a4531e9ec137f0248f",
-      "4x5": "ec2ef4c9bd84603cde16bddf355e22dd9f1d5cc03952f63f49b64090744f3704"
+      "16x9": "35d0a287a4fe1ee58435780aa0b031442828b207fe7ca82acd8fa3e3a14a03e5",
+      "4x5": "c71c4be59719556b42919798e6d67b304be6644e8c66fe08ebc5e258aae32408"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château de Murol, Murol",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "f31730c0a74b4822065e4746dfaf94b892f2b016334ca5d59d0fbf5e3ea36c54",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "f31730c0a74b4822065e4746dfaf94b892f2b016334ca5d59d0fbf5e3ea36c54"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "bc35596877919dd5f3bb1f98bbf98ea06e6fefe61c2e8165531ecbef160f1bee"
+    }
+  },
+  "sha256_4x5": "bc35596877919dd5f3bb1f98bbf98ea06e6fefe61c2e8165531ecbef160f1bee"
 }

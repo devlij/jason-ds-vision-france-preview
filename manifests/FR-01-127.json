@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-127-16x9.png",
-        "sha256": "34f80c13abdaf504a59f14c79d0246b30fb8f27706785e696d369ad3da76983a"
+        "sha256": "166d355cdd0cf4f14eae16ef829b5bcf66ddf1d0a5a98c071bb97c7b4a43153d"
       },
       "4x5": {
         "path": "assets/fr-01-127-4x5.png",
-        "sha256": "d483365a9dad8695a4dd089975545552503c552b465a6b70e67a1b12c651ee17"
+        "sha256": "54ef379322cac59e0899f75053e591c375d88da8060b436137d2f774e383cfd9"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-127-daylight-16x9.png",
       "4x5": "assets/fr-01-127-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "fa0f786621f4b4d4575055f9b41d54b9c69c5ef31463793310a47f4391ab6a30",
-      "4x5": "27b7311fcd64d117812b315086d9ee7972e9dd4e2446052b99c0c29e8419d24a"
+      "16x9": "77b5d6f75ecdc93eef3b5aa5aeeffcdc64fe03be413bc965d9978b499736c76c",
+      "4x5": "50c85789c5684caeecdc49cf20e426bac7b9e45c12e3a15aa23ee9676619d4c8"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Belfry of Arras, Arras",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "166d355cdd0cf4f14eae16ef829b5bcf66ddf1d0a5a98c071bb97c7b4a43153d",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "166d355cdd0cf4f14eae16ef829b5bcf66ddf1d0a5a98c071bb97c7b4a43153d"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "54ef379322cac59e0899f75053e591c375d88da8060b436137d2f774e383cfd9"
+    }
+  },
+  "sha256_4x5": "54ef379322cac59e0899f75053e591c375d88da8060b436137d2f774e383cfd9"
 }

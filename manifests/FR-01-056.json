@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: tall narrow quayside houses (half-timber and slate) with moored fishing boats and still-water reflections — unmistakably Honfleur's Vieux Bassin, clean; formats agree. Gate 2: exact 1920x1080/864x1080; caption/scenario '15:39' on-image, disclosure and exact signature legible; per-scene Open-Meteo retrieval 2026-09-25T14:41:24+02:00, unique to the second repo-wide. Gate 3: text-prompt-only lineage. Gate 4: no people or logos (documented only). Gate 5: pass.",
   "approved_at": "2026-09-29T00:34:50.453243+00:00",
-  "sha256_16x9": "ffb24eb171ecf5f88d7f9ce3b58842558b5a4deb9f93bc1e91715b7942cb62c3",
-  "sha256_4x5": "3d76ea56b080fead28c1e2bd059cda34dd1ffb54c72d46575a089ffaf3e399b8",
+  "sha256_16x9": "3f5f01ca47d6249ef18ee7208d181ee402e551db8894d8b86f842261530de8d3",
+  "sha256_4x5": "820c83cdc6803014d7a856c07e4cfe9f115096e41fc6289da9aee4993ab4be79",
   "reverted_at": "2026-09-25T18:53:30.185321+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Gate 2 hold resolved 2026-09-28 (Cosmo QC): builder landed per-scene weather rework (approvals/FR-01-056.md) with a per-scene Open-Meteo retrieval timestamp (2026-09-25T14:41:24+02:00, unique to the second across all 302 repo approval notes); scenario minute sits inside the cited model-valid hour. Hold cleared — re-audit passes all five gates."
     }
-  ]
+  ],
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "820c83cdc6803014d7a856c07e4cfe9f115096e41fc6289da9aee4993ab4be79"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "3f5f01ca47d6249ef18ee7208d181ee402e551db8894d8b86f842261530de8d3"
+    }
+  }
 }

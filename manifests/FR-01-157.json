@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-157-16x9.png",
-        "sha256": "d05d8e2218156a31538e42cb0d26cfa28a16d895c268dee195d15aa8a1f10c04"
+        "sha256": "8c7c19a6a7142b45e744cb3db6050fbf53c6319bb19ec3af4801e2c5e4696cfa"
       },
       "4x5": {
         "path": "assets/fr-01-157-4x5.png",
-        "sha256": "78771ecd49d7c758aa1d642c41f6597d3d913d98c58b04c6a4b67d57e1936371"
+        "sha256": "4e3a7253f37316822fdd43250463248b4eea0ba2cd39da7deb43e9712d9b79dd"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-157-daylight-16x9.png",
       "4x5": "assets/fr-01-157-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "52fe681fd373014084b5a9502dba45880918a410a2d23bf2d1997d519cab8078",
-      "4x5": "a1b59c01ba777b17edbf36e8e2134c1ea1afa853106e84e9cbb79dcaf7fd33f3"
+      "16x9": "96f7852ce719417b314a9dc306b701651392b787248beb2754802bc8b3d2678f",
+      "4x5": "8495abf74b68fcb0e6f7d68d9f6f8de703792066394e1ee27ba584b2426b4c52"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Le Mans Cathedral, Le Mans",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "8c7c19a6a7142b45e744cb3db6050fbf53c6319bb19ec3af4801e2c5e4696cfa",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "8c7c19a6a7142b45e744cb3db6050fbf53c6319bb19ec3af4801e2c5e4696cfa"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "4e3a7253f37316822fdd43250463248b4eea0ba2cd39da7deb43e9712d9b79dd"
+    }
+  },
+  "sha256_4x5": "4e3a7253f37316822fdd43250463248b4eea0ba2cd39da7deb43e9712d9b79dd"
 }

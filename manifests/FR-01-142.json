@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-142-16x9.png",
-        "sha256": "e939dec61cf72ce113ce05569b0927befc25e0816dcf729bf8c2f7518b40512f"
+        "sha256": "5dffdedbed426b9572c1dbff43951bbdcd67868c1b7464f94071c3ba2888728a"
       },
       "4x5": {
         "path": "assets/fr-01-142-4x5.png",
-        "sha256": "acd2fecefffc54e10f780cddd5ae5dd6986b7d9582f6e2a3ec2d4c543cdfaab8"
+        "sha256": "4f156d60374bbd8ea5fda6eae04ccbe01c5bd711c98bc46224945f7ba0832a83"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-142-daylight-16x9.png",
       "4x5": "assets/fr-01-142-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "bd82c0f05acd7010525cb086c8a171661c2552e3d6daf01787bf0360ab322ed6",
-      "4x5": "63dcdda15c4ee51f7f2246babdbccced4929c25dbcde42dc59a24f28717e7689"
+      "16x9": "994e229ada351fafada1dc6e7498a41e485753f52ebd2fceb4291d16f823205c",
+      "4x5": "0f5861988b6443aa5cfdb1f9afb25a9b7290f8feca1fd85ef47d7c7b639840aa"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Porte Saint-Michel, Guérande",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "5dffdedbed426b9572c1dbff43951bbdcd67868c1b7464f94071c3ba2888728a",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "5dffdedbed426b9572c1dbff43951bbdcd67868c1b7464f94071c3ba2888728a"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "4f156d60374bbd8ea5fda6eae04ccbe01c5bd711c98bc46224945f7ba0832a83"
+    }
+  },
+  "sha256_4x5": "4f156d60374bbd8ea5fda6eae04ccbe01c5bd711c98bc46224945f7ba0832a83"
 }

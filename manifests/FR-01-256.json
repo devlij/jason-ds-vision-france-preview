@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-256-16x9.png",
-        "sha256": "62c998b3939e13cc5ca7ec38e1f3b62d5ee79eae3424ca29003c9112c867180f"
+        "sha256": "8fc8e529e1baf23a3562980ce59732b761018ee18dd3802997d90b85b4750341"
       },
       "4x5": {
         "path": "assets/fr-01-256-4x5.png",
-        "sha256": "ae1c84be23eadab4f397578ad5a445af4b0bd1f860ef349a827cac0fcbc843ba"
+        "sha256": "4fbd311da0753c5d0cf0d8e25e4df30db9c9c75d8a77cb72203ceaa4eddd11ea"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-256-daylight-16x9.png",
       "4x5": "assets/fr-01-256-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "8aeaee90d419f7c7a973fdae061e0494b6124ec6121c9c19bb584201be344bfe",
-      "4x5": "ee820276b973310cb61e69148c93fdedc6a9213aeb46d5d38aafd5f4ebadeb02"
+      "16x9": "1296d0dc1cb7060096982f247d082e8cf97490c9bb77a9c994ccfeaaef13f021",
+      "4x5": "a4282eceaf097576fb91602575657559a6ac54f0f7290b5b376b6c672c8e82c8"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château de Compiègne, Compiègne",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "8fc8e529e1baf23a3562980ce59732b761018ee18dd3802997d90b85b4750341",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "8fc8e529e1baf23a3562980ce59732b761018ee18dd3802997d90b85b4750341"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "4fbd311da0753c5d0cf0d8e25e4df30db9c9c75d8a77cb72203ceaa4eddd11ea"
+    }
+  },
+  "sha256_4x5": "4fbd311da0753c5d0cf0d8e25e4df30db9c9c75d8a77cb72203ceaa4eddd11ea"
 }

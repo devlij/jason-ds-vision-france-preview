@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-328-16x9.png",
-        "sha256": "45385a46152069a834f1b957ba0c85d9df79bd6cde45d9f5d5f46183639a296b"
+        "sha256": "cbe4171380d991dd0c8d1a16541809a97f79ce95397f5bd080db6f60337243db"
       },
       "4x5": {
         "path": "assets/fr-01-328-4x5.png",
-        "sha256": "2ccdf6f366e5fe354bde771bfd3a7a1c27e11940825b739ff97df2a551512fc3"
+        "sha256": "f824172bc5b96b6dfc92603eb7db17ea17f385de702797f4df81421505876048"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-328-daylight-16x9.png",
       "4x5": "assets/fr-01-328-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "4b69f8f7113ee844001aedad8363085fa42be31c8f4cf1fe83293138c56fc985",
-      "4x5": "a70c09d7c62f4c9f81967e53fd90aa9810bc7659446e1ea781fb2efee3b7666f"
+      "16x9": "e09dab9b011ed88f0bc592b85c02118b5d1d1c85d40d7f3a1e389e0616a0df9e",
+      "4x5": "ece217ef0459ac529d3705985f90582ef47c9e9e31d4ac74b97832c81debe660"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Pitons du Carbet, Fonds-Saint-Denis",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "cbe4171380d991dd0c8d1a16541809a97f79ce95397f5bd080db6f60337243db",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "cbe4171380d991dd0c8d1a16541809a97f79ce95397f5bd080db6f60337243db"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "f824172bc5b96b6dfc92603eb7db17ea17f385de702797f4df81421505876048"
+    }
+  },
+  "sha256_4x5": "f824172bc5b96b6dfc92603eb7db17ea17f385de702797f4df81421505876048"
 }

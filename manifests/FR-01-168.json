@@ -7,5 +7,19 @@
   "scenario_label": "23 September 2026 · 17:15 America/Cayenne",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-168-16x9.png",
-  "file_4x5": "assets/fr-01-168-4x5.png"
+  "file_4x5": "assets/fr-01-168-4x5.png",
+  "sha256_16x9": "c5bef8fb65cd45c4355da222fa065042df30a9e6ea445776dbdad99f779172e3",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "c5bef8fb65cd45c4355da222fa065042df30a9e6ea445776dbdad99f779172e3"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "295afd85758452510d15642ac76ee998a306cd01827b05254691e82d7eca82f8"
+    }
+  },
+  "sha256_4x5": "295afd85758452510d15642ac76ee998a306cd01827b05254691e82d7eca82f8"
 }

@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-152-16x9.png",
-        "sha256": "aa7a98cce86f9e9f6b92c3cbf504e17855e3ce538373d184712abd6fcf9307a1"
+        "sha256": "6da7f4cb7ade41ba13ab6f858c2f8954a6e223a839c398bf27ccfcc3209f7f56"
       },
       "4x5": {
         "path": "assets/fr-01-152-4x5.png",
-        "sha256": "b5eea0af6dc26f3049117b5df8101c3b14fda76b9cc27aa7df355b3b71a6feb1"
+        "sha256": "3805f9c2dedd8cfcdac235af6779114cce1c24d205f8ad88a774cfaad590ad97"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-152-daylight-16x9.png",
       "4x5": "assets/fr-01-152-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "31922938259124071ed112f3bca0f0b9e6e9b01692c8ce24c77212fe626f41d3",
-      "4x5": "6154afca21e83a947bf9a25ae071f93845a11c3fb98a1c4c80cca7ba4b8e0564"
+      "16x9": "2fe235db65baeab65fa892007455fb4b1dbbf37ae5549e8e263844ecb7f5e30c",
+      "4x5": "e1251d0c51e3eb2770b774d58ccea788e7a1dad8bd5252a44fa298ba53619cbe"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Dziani Dzaha, Pamandzi",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "6da7f4cb7ade41ba13ab6f858c2f8954a6e223a839c398bf27ccfcc3209f7f56",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "6da7f4cb7ade41ba13ab6f858c2f8954a6e223a839c398bf27ccfcc3209f7f56"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "3805f9c2dedd8cfcdac235af6779114cce1c24d205f8ad88a774cfaad590ad97"
+    }
+  },
+  "sha256_4x5": "3805f9c2dedd8cfcdac235af6779114cce1c24d205f8ad88a774cfaad590ad97"
 }

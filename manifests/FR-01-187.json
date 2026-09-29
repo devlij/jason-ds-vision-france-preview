@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-187-16x9.png",
-        "sha256": "8452eb7e5663fc67f9838a08e9db2ebab21b109cf9566fca22731bfd815e2187"
+        "sha256": "82f12254a544d561005d491478cbfd2890a212acf52da3542ae3dae6109fa906"
       },
       "4x5": {
         "path": "assets/fr-01-187-4x5.png",
-        "sha256": "e6861b12d67fbd67c1281b863c4a5a8f7d212cd54347ce3b0755f0d373ff5e0d"
+        "sha256": "693e8a458549ec6b45131535c3791c902b710262a457bb1fdf7924d947cf666d"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-187-daylight-16x9.png",
       "4x5": "assets/fr-01-187-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "4fb2e57df1f587c723362732e552dbc332c1be4ef897ad881f48290b3f07ecaa",
-      "4x5": "7c5f2388e0df7f6e64f561fa7834cc0edf5005c784adbb72fd62911f738733db"
+      "16x9": "b944dbe954111d190c3b7576024d35bc08bdb740b0794e22c6580c79714d7d76",
+      "4x5": "d650b800f699d0fdd989a7c1cfda285a1efcc76b8c8ab5e957ed7303b8762102"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Semur-en-Auxois, Semur-en-Auxois",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "82f12254a544d561005d491478cbfd2890a212acf52da3542ae3dae6109fa906",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "82f12254a544d561005d491478cbfd2890a212acf52da3542ae3dae6109fa906"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "693e8a458549ec6b45131535c3791c902b710262a457bb1fdf7924d947cf666d"
+    }
+  },
+  "sha256_4x5": "693e8a458549ec6b45131535c3791c902b710262a457bb1fdf7924d947cf666d"
 }

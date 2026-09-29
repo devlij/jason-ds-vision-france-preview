@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-334-16x9.png",
-        "sha256": "8835fec4ce67057b536707cc5c2fe35cff1a3bc4d3b0210d3575fb2dc82e8e44"
+        "sha256": "113907544a81ceeb998f38d0d1737838c22904f4c2a9ba16e68827cc2a126818"
       },
       "4x5": {
         "path": "assets/fr-01-334-4x5.png",
-        "sha256": "7c781c21bfa750c6b6acccf8e1199c2ca5c428bf1c13ec5cae0c05ec60eeb837"
+        "sha256": "0fb30ed7022acdc26fa4f9e7ceeaf4faa48a2b6b054cba2ec6445ffc815ef060"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-334-daylight-16x9.png",
       "4x5": "assets/fr-01-334-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "7492859ce60fc6e6cc636d6339b4c94546b0d990be196199a47dc4df62a58eb2",
-      "4x5": "c10fa3e022bf2b45394da1eff033aceacd69a60671597a9bc2ec03e5f791f795"
+      "16x9": "0c68c75d9acb5922329c0b00ace233b8bf542e530561d117dee277dcd93a8e93",
+      "4x5": "be66081db97ea83eaf96a4d13da5942e52d656b9ef96038877de3cc942d35440"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château de Langeais, Langeais",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "113907544a81ceeb998f38d0d1737838c22904f4c2a9ba16e68827cc2a126818",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "113907544a81ceeb998f38d0d1737838c22904f4c2a9ba16e68827cc2a126818"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "0fb30ed7022acdc26fa4f9e7ceeaf4faa48a2b6b054cba2ec6445ffc815ef060"
+    }
+  },
+  "sha256_4x5": "0fb30ed7022acdc26fa4f9e7ceeaf4faa48a2b6b054cba2ec6445ffc815ef060"
 }

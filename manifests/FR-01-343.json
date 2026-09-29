@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-343-16x9.png",
-        "sha256": "f0904408484e7b270ebea312aedb393e5a770223ab1fdbc312a4c7dfb333de64"
+        "sha256": "89531330230ce0d7a419d858a881c4403c79d5ee34ee37980e3fa048d577d496"
       },
       "4x5": {
         "path": "assets/fr-01-343-4x5.png",
-        "sha256": "83958c409ee9fc93b6dbb53d8f669c9e020d2afd08ba8d5d515e4de969ff6648"
+        "sha256": "da3ffd694e60a29b1375cb217ce43962640a03096af6abba56c6db248e6d2ad8"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-343-daylight-16x9.png",
       "4x5": "assets/fr-01-343-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "7cae102786ce9478269daa7d1bd24dab8040be2360872d172733608e05817e99",
-      "4x5": "890bd05c6c0157036ccb50f7ec7a3811382fc23620a9d5a1d505bad513d7c1dd"
+      "16x9": "74325586f48e12aad8a5395093c9458e4b9c27ce76981cb8d0440d6fdca960d4",
+      "4x5": "638654ae465397d725504e384aa1e18cfeef6751bb5ab627d6558b77336d53c2"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Plage de Boucan Canot, Saint-Paul",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "89531330230ce0d7a419d858a881c4403c79d5ee34ee37980e3fa048d577d496",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "89531330230ce0d7a419d858a881c4403c79d5ee34ee37980e3fa048d577d496"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "da3ffd694e60a29b1375cb217ce43962640a03096af6abba56c6db248e6d2ad8"
+    }
+  },
+  "sha256_4x5": "da3ffd694e60a29b1375cb217ce43962640a03096af6abba56c6db248e6d2ad8"
 }

@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-154-16x9.png",
-        "sha256": "57082bd291bd22c9e0cd43b6814d96e6ce597984cc4a5b4cda03aa0eedb9d52e"
+        "sha256": "ea8220b8161f3b7de42af8dac5894b842c4ab83b02afba13bc64f7dd6a8c6d12"
       },
       "4x5": {
         "path": "assets/fr-01-154-4x5.png",
-        "sha256": "5cd1679b41936d9e6c11848712ed827bb95513eec017fbdbeffa73bcba68daaa"
+        "sha256": "3aff4d919bfb70c30136a74cf1b5b0aeb515c9e7519f5bbb079316a42e9f9129"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-154-daylight-16x9.png",
       "4x5": "assets/fr-01-154-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "b7d259d3b82190c24b30f8d680e1792abe2f3eded8eb84755a42f4c192a8630e",
-      "4x5": "6e6497e7be484fb22d31e19c5d69aaaeeaca83d03c1fa3a1abddde8fcbd2dd6a"
+      "16x9": "710c57544665318cabd855975b3973ff28e37960970bf0f4c8d426319fa901a4",
+      "4x5": "1ca8f53d3f9ed2975ff5b03d3449ef90380782b1301a7ab90da6538416fabadb"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Abbaye de Fontenay, Marmagne",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "ea8220b8161f3b7de42af8dac5894b842c4ab83b02afba13bc64f7dd6a8c6d12",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "ea8220b8161f3b7de42af8dac5894b842c4ab83b02afba13bc64f7dd6a8c6d12"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "3aff4d919bfb70c30136a74cf1b5b0aeb515c9e7519f5bbb079316a42e9f9129"
+    }
+  },
+  "sha256_4x5": "3aff4d919bfb70c30136a74cf1b5b0aeb515c9e7519f5bbb079316a42e9f9129"
 }

@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-190-16x9.png",
-        "sha256": "a557837d7871d6563504dfdcddfc667df62429e294544aa129458bdd7e5f0c3e"
+        "sha256": "1e57ea81ad61443b7b92a97e051c4761a7a5b2d77ea8be37ff535f25d00e91ea"
       },
       "4x5": {
         "path": "assets/fr-01-190-4x5.png",
-        "sha256": "60f06bd40570a11bf23aca2c2e4444736b4ed3263a099f151f5cd0019b82e356"
+        "sha256": "6385d10ca6097e5001edb72180eebb97715c0671c351a196edeace7e3f8d62e9"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-190-daylight-16x9.png",
       "4x5": "assets/fr-01-190-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "f73c28293f881bbe5159e3098f9de9568f73dddc337ac726f795fe0330335b7b",
-      "4x5": "71b6b92f9349e2d9180696ed24a81bff2c2531c71c461efcc49a0276d513c091"
+      "16x9": "b7e2f80334c722c179a8d7bd6d4932cad176fb8658af6ca3cfc82dfbd0186205",
+      "4x5": "12a9cf96ee12aebe59f0113d7c9237d27d3a592e348ec02f22605baa99deffc4"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château de Brissac, Brissac-Quincé",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "1e57ea81ad61443b7b92a97e051c4761a7a5b2d77ea8be37ff535f25d00e91ea",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "1e57ea81ad61443b7b92a97e051c4761a7a5b2d77ea8be37ff535f25d00e91ea"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "6385d10ca6097e5001edb72180eebb97715c0671c351a196edeace7e3f8d62e9"
+    }
+  },
+  "sha256_4x5": "6385d10ca6097e5001edb72180eebb97715c0671c351a196edeace7e3f8d62e9"
 }

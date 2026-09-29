@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-233-16x9.png",
-        "sha256": "5f0e367d2ac3233c46a5f170d836d05e4917ea04f078f1ba4875c0214ec30ff6"
+        "sha256": "9db869757f45f686f6ba1d2af596136722c3bb0e0d255a562a14c9a76471f888"
       },
       "4x5": {
         "path": "assets/fr-01-233-4x5.png",
-        "sha256": "85bea1d28c4e878c947c98f63de38b917ce1ecef8363e0bd1ebb7c666cb60d22"
+        "sha256": "3597bdfa1d32508d69c6d6e65b94a1e332d9f389cc623cbd2f7850d87faf9e6a"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-233-daylight-16x9.png",
       "4x5": "assets/fr-01-233-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "a3b2cf75589b6b62330b259c0634c320b18e97c88e851b2cd9aa4acbb2a9a3ea",
-      "4x5": "ef4269d3473c4adcee96709da77f00a02f0d7366a12c47220b81e20f16a7df37"
+      "16x9": "e980cbfb202b41193b16cb038fbbda3651f5deb320f342d64e639f3217cfe6c3",
+      "4x5": "0ad7b12a439a2b689ce7c2199b17407fdcd2df34fe7f8840ba9a3a97771c8d75"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Plage de Sakouli, Bandrele",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "9db869757f45f686f6ba1d2af596136722c3bb0e0d255a562a14c9a76471f888",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "9db869757f45f686f6ba1d2af596136722c3bb0e0d255a562a14c9a76471f888"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "3597bdfa1d32508d69c6d6e65b94a1e332d9f389cc623cbd2f7850d87faf9e6a"
+    }
+  },
+  "sha256_4x5": "3597bdfa1d32508d69c6d6e65b94a1e332d9f389cc623cbd2f7850d87faf9e6a"
 }

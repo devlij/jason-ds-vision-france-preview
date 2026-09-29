@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-326-16x9.png",
-        "sha256": "bfc17fe7ce167e4ca857cc4ae7b5e88c8e3a5c4e9f8884d808365226a26861e8"
+        "sha256": "b70b83ddb0d42035eee29aedfe51fedb1ecae2fe8db533d5875d079fa9071353"
       },
       "4x5": {
         "path": "assets/fr-01-326-4x5.png",
-        "sha256": "ffe5da3eabdcab69378ab25a3b9b095a54e804c654ffd6c963829daa9ea91c17"
+        "sha256": "a38496665eed103e5b830dbe3479273a5af8c5e9adc8468a34ad17760cc96922"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-326-daylight-16x9.png",
       "4x5": "assets/fr-01-326-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "348e0ee456b4617d20c51d9a9e4f91a222df2953e47c93c85b76092cb0cf5179",
-      "4x5": "55974f660764d5c2419bf229136c88113ac90b03d672cf83341a47ab4abcdc02"
+      "16x9": "7d6dfc26df99f3a54c015b39146b8a523273374e3612637404cdd1c0cba30145",
+      "4x5": "2140f37d6527bdd5f9ccffd2498559c9e6db1195d6d99e3eca19dfa1405848bc"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Cacao, Roura",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "b70b83ddb0d42035eee29aedfe51fedb1ecae2fe8db533d5875d079fa9071353",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "b70b83ddb0d42035eee29aedfe51fedb1ecae2fe8db533d5875d079fa9071353"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "a38496665eed103e5b830dbe3479273a5af8c5e9adc8468a34ad17760cc96922"
+    }
+  },
+  "sha256_4x5": "a38496665eed103e5b830dbe3479273a5af8c5e9adc8468a34ad17760cc96922"
 }

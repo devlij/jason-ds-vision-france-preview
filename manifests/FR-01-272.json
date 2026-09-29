@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-272-16x9.png",
-        "sha256": "67b5752fdb50e45a0d92d67e4036387ac9a43392ec2200ab1798eaa097b1cc08"
+        "sha256": "569aede12e0b9a595d4c2a5d6882a7c6c32b9f8bf5f92e92f2415c42f2f34a44"
       },
       "4x5": {
         "path": "assets/fr-01-272-4x5.png",
-        "sha256": "52cde626e8c8963bd66ee622e5722fa0529833a4f95c666ffa2fe0989a1d3848"
+        "sha256": "61293320e3443bddb8b3fef868b6b42412ce6c2a68be959dabd8882c6ce460f2"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-272-daylight-16x9.png",
       "4x5": "assets/fr-01-272-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "d19798fc4ee3a1a869c4e8505de07643a7046b059a09ab0a9d967840b37821e7",
-      "4x5": "37b03c086515577a0718c757892d9a73c62f52108a9299feeb3105443442a8c1"
+      "16x9": "3c6e42278c731102467c3c5f92e1f41f084a7c22a63aedc870505be9194041d9",
+      "4x5": "592663595e243f081f32025b1da13e2594ea06b37dd2391f2e440d3efb0b067a"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Abbaye de Maillezais, Maillezais",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "569aede12e0b9a595d4c2a5d6882a7c6c32b9f8bf5f92e92f2415c42f2f34a44",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "569aede12e0b9a595d4c2a5d6882a7c6c32b9f8bf5f92e92f2415c42f2f34a44"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "61293320e3443bddb8b3fef868b6b42412ce6c2a68be959dabd8882c6ce460f2"
+    }
+  },
+  "sha256_4x5": "61293320e3443bddb8b3fef868b6b42412ce6c2a68be959dabd8882c6ce460f2"
 }

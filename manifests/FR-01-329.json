@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-329-16x9.png",
-        "sha256": "acabc926d61f94f251a840ace168ca8f809677e0b3d9e32a708f4de47d3868d5"
+        "sha256": "5f53d7577f7954ce4c3fcb73f2f389c226b288824c8cde8d2915d9730b80203a"
       },
       "4x5": {
         "path": "assets/fr-01-329-4x5.png",
-        "sha256": "20eec9367684e35081bd0ff07087105fabe7ed932f8d29229b92aabf366b027f"
+        "sha256": "e01349a8a0fcc524a00310780d85339132e7bbdff193d02e0b98d9c1a1fae180"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-329-daylight-16x9.png",
       "4x5": "assets/fr-01-329-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "3ebe0db1f3610a0662b8963c00762368baa7e0c4d9c98ae08bea332121912555",
-      "4x5": "b464b118b9c84c8533215564a21b5feae2db6aa2c6f833347c19e25942781825"
+      "16x9": "6fa6480f8dfe1778c597e97663cdc3469d161aa796863d8df09549610c4a5b74",
+      "4x5": "2cd69a95c776fd3d7434b3358aeecdd26991de5a18b8471afb1cd8e742bdfdea"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Baie de Bouéni, Bouéni",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "5f53d7577f7954ce4c3fcb73f2f389c226b288824c8cde8d2915d9730b80203a",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "5f53d7577f7954ce4c3fcb73f2f389c226b288824c8cde8d2915d9730b80203a"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "e01349a8a0fcc524a00310780d85339132e7bbdff193d02e0b98d9c1a1fae180"
+    }
+  },
+  "sha256_4x5": "e01349a8a0fcc524a00310780d85339132e7bbdff193d02e0b98d9c1a1fae180"
 }

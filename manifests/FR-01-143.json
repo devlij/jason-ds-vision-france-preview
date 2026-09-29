@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-143-16x9.png",
-        "sha256": "71a3bfe73b81d4f7b083eb64ea50ecf2cbb69402468eb1ec37f8f17481d1b982"
+        "sha256": "65d2b93b102fe56bbfbaab85603e06787f29ac0cff17ce4b01f88d9a8a97aee2"
       },
       "4x5": {
         "path": "assets/fr-01-143-4x5.png",
-        "sha256": "c60ed8f3c467f3704601f309dbc81f84354414d581f346423db0ded18fcfffe8"
+        "sha256": "f197ffe3bf0bbfec672143308851263b63bfd97302f88066005f45fd17690d1c"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-143-daylight-16x9.png",
       "4x5": "assets/fr-01-143-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "824b3aa3738dea2a2a3a61967b1c538383d96c16308f16f4b0414eca35d2f394",
-      "4x5": "1d84d805a0b18374b8a54b7a8273c8ffcacaa6273cdb1236320f4c81edec91ff"
+      "16x9": "1bf637eefc7b0fc76dbfc69406407d9e67aca96f3aac8a9114c92004cf5ecf67",
+      "4x5": "bcfb7fffea1973cdf0747551b7ffb9092b89d36b72e5ca9ceff298bf521bfb61"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Calanques de Piana, Piana",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "65d2b93b102fe56bbfbaab85603e06787f29ac0cff17ce4b01f88d9a8a97aee2",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "65d2b93b102fe56bbfbaab85603e06787f29ac0cff17ce4b01f88d9a8a97aee2"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "f197ffe3bf0bbfec672143308851263b63bfd97302f88066005f45fd17690d1c"
+    }
+  },
+  "sha256_4x5": "f197ffe3bf0bbfec672143308851263b63bfd97302f88066005f45fd17690d1c"
 }

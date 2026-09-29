@@ -7,5 +7,19 @@
   "scenario_label": "23 September 2026 · 17:45 America/Guadeloupe",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-261-16x9.png",
-  "file_4x5": "assets/fr-01-261-4x5.png"
+  "file_4x5": "assets/fr-01-261-4x5.png",
+  "sha256_16x9": "aed4dcc08ffe4dd618633a383f8a1db41dedae43882596d131e22cebfeb9d8fb",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "aed4dcc08ffe4dd618633a383f8a1db41dedae43882596d131e22cebfeb9d8fb"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "99f4d930ad4d08e3a76bf119b98bc4b650f62126b180979fa8293c5173234c11"
+    }
+  },
+  "sha256_4x5": "99f4d930ad4d08e3a76bf119b98bc4b650f62126b180979fa8293c5173234c11"
 }

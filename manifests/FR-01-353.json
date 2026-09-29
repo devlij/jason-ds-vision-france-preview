@@ -7,5 +7,19 @@
   "scenario_label": "23 September 2026 · 19:00 America/Marigot",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-353-16x9.png",
-  "file_4x5": "assets/fr-01-353-4x5.png"
+  "file_4x5": "assets/fr-01-353-4x5.png",
+  "sha256_16x9": "982fefbd4c984c6fb74f6ef5207cbb400d18945d774d891af08587da33f77878",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "982fefbd4c984c6fb74f6ef5207cbb400d18945d774d891af08587da33f77878"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "4c889697b04b6546812853bcb346f1aac9511f0e4ea67e21a0a5b0ea054ba1c4"
+    }
+  },
+  "sha256_4x5": "4c889697b04b6546812853bcb346f1aac9511f0e4ea67e21a0a5b0ea054ba1c4"
 }

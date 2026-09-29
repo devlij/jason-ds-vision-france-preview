@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-139-16x9.png",
-        "sha256": "fdd24cef7210ebec48aaaa7c8a114355e23952f74fa07ecee69bfed973a0bdaf"
+        "sha256": "9064320207357392c301755ed92f7365b1db0ad7cc84ccc58a63933e170dce65"
       },
       "4x5": {
         "path": "assets/fr-01-139-4x5.png",
-        "sha256": "5b8546cc8aa0e37c6c0b2efceae8babd5bebdbd12b91f41dbd4eba42d18b7411"
+        "sha256": "b4ce0800721958ebb1c6d13fd8a70f50df8152b8d8893f5d6132478b002c837d"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-139-daylight-16x9.png",
       "4x5": "assets/fr-01-139-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "79788b68c5e456bc8eaf3238f98b47ec96842879e1df239e0e516fcacbc9fef6",
-      "4x5": "458bdca54ff457b05e2ecd8c06229802ae712057b265aea95e61ecc080c9b124"
+      "16x9": "e88ec3428f45c6f3d7bba12836ecb712cf3826e01badf8ab427eecef67ad42eb",
+      "4x5": "5412d0317906654d491d5711b63a6f55c3eadc217b434007044161eea061ae4e"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Saint-Jean-de-Luz harbor, Saint-Jean-de-Luz",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "9064320207357392c301755ed92f7365b1db0ad7cc84ccc58a63933e170dce65",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "9064320207357392c301755ed92f7365b1db0ad7cc84ccc58a63933e170dce65"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "b4ce0800721958ebb1c6d13fd8a70f50df8152b8d8893f5d6132478b002c837d"
+    }
+  },
+  "sha256_4x5": "b4ce0800721958ebb1c6d13fd8a70f50df8152b8d8893f5d6132478b002c837d"
 }

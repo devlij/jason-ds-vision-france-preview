@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "G1 PASS: the Genoese citadel crowning the headland above the Gulf of Ajaccio with the town curving along the bay behind; recognizable and clean. G2 PASS: sweep MECHANICAL PASS; on-image caption 'Citadel of Ajaccio, Ajaccio', scenario '23 September 2026 · 15:37 Europe/Paris', disclosure and 'Jason D's Vision' signature verified on the scrim; weather retrieved 2026-09-25T14:41:16+02:00, valid 2026-09-23T15:00, unique to the second across FR-01-031–052. G3: text-prompt-only, no photographic inputs reported. G4: no prominent identifiable people or focal logos; commercial call remains Jason's.",
   "approved_at": "2026-09-28T18:19:37.523560+00:00",
-  "sha256_16x9": "4babf3191be24648757edda01e51054ce0a998677bf94a121329fc3f9f602d61",
-  "sha256_4x5": "b3f8de78f17e7a56eee408358f1d8f27f69d51b1906181899cda119af5481406",
+  "sha256_16x9": "a401839df46152f40a53a4c2f5b5e16ce0fcd213f9219514357aa34bb0ab6cfb",
+  "sha256_4x5": "887ae971fb73d5273119e05bc25649677adb53be24b5eb138a80be71da4ddeb9",
   "reverted_at": "2026-09-25T18:53:23.114447+00:00",
   "qc_notes": [
     {
@@ -30,5 +30,17 @@
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "a401839df46152f40a53a4c2f5b5e16ce0fcd213f9219514357aa34bb0ab6cfb"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "887ae971fb73d5273119e05bc25649677adb53be24b5eb138a80be71da4ddeb9"
+    }
+  }
 }

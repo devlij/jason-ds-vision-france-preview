@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-171-16x9.png",
-        "sha256": "c9b1c635fd53d118d2c05c691f2965138d59683246a060553016433cd6c5e3f4"
+        "sha256": "74f0abd714ddf4579c96f21a51be9ec94206218ad5b62627f8c394f06437748b"
       },
       "4x5": {
         "path": "assets/fr-01-171-4x5.png",
-        "sha256": "e8b95c4c739fd249430a8d630fa80607ef06e8a783571f8404aabbd495f109a5"
+        "sha256": "2d8f4a61aae2638f7dd1cfc882380d4419afd36663dcb15cbd5cf76965ed05ad"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-171-daylight-16x9.png",
       "4x5": "assets/fr-01-171-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "9e4b46a2a21a139fc0304cf160b1264019c5b5ab7755fb7b82858e0121a5031b",
-      "4x5": "22b2d93b52909a03fec05346814bb33364cb56e384e15aebbc8e5358b55b811b"
+      "16x9": "9b15735ac3cf7f64f81f8abfbcd22417e34835572400503ed87d278a9a58ca32",
+      "4x5": "15922afa4a73c599b78ae74055bd7a5a679ebbb0ae2f4fb577fcc19c7ee0fe0b"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Abbaye de Cluny, Cluny",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "74f0abd714ddf4579c96f21a51be9ec94206218ad5b62627f8c394f06437748b",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "74f0abd714ddf4579c96f21a51be9ec94206218ad5b62627f8c394f06437748b"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "2d8f4a61aae2638f7dd1cfc882380d4419afd36663dcb15cbd5cf76965ed05ad"
+    }
+  },
+  "sha256_4x5": "2d8f4a61aae2638f7dd1cfc882380d4419afd36663dcb15cbd5cf76965ed05ad"
 }

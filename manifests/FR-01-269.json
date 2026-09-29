@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-269-16x9.png",
-        "sha256": "b10b853d1407492ea4c0952d30290805adf94863772067263ae5e94d0da3d68d"
+        "sha256": "4a89ce4ed68d0dca40a6915faea2958799bbab97e915eda181295ca5ea659be1"
       },
       "4x5": {
         "path": "assets/fr-01-269-4x5.png",
-        "sha256": "ce13ca894c72dde056258b7c4a53b0c27198e3895556c03b89c60f1a195b9c5a"
+        "sha256": "fbbf3a734dd64fb82e81a42097441a182cdeaaa422a673cd389af2cc2867aefb"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-269-daylight-16x9.png",
       "4x5": "assets/fr-01-269-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "6f26188e4e3d6a2808608d506e2de64daee211b692a9d2424f6cbfde890de6a8",
-      "4x5": "fc0a69e1281465c95200fddd12142e6ff3c746ea4813f83f4df75c6cd619868d"
+      "16x9": "110b34ff7ced04a1447a7d5fa1218d2ba0d1401fcc2b384a5593bb83ed1f40f7",
+      "4x5": "79d0cd8beed9d723e709d632de631f7852585b284563e90ca0fb536a3950b8d0"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Plage de Palombaggia, Porto-Vecchio",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "4a89ce4ed68d0dca40a6915faea2958799bbab97e915eda181295ca5ea659be1",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "4a89ce4ed68d0dca40a6915faea2958799bbab97e915eda181295ca5ea659be1"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "fbbf3a734dd64fb82e81a42097441a182cdeaaa422a673cd389af2cc2867aefb"
+    }
+  },
+  "sha256_4x5": "fbbf3a734dd64fb82e81a42097441a182cdeaaa422a673cd389af2cc2867aefb"
 }

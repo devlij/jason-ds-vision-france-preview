@@ -26,7 +26,19 @@
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate 1: restored pink-sandstone mountain fortress with red roofs, cylindrical and square towers, set against hazy forested Vosges ridges in warm late-afternoon light — plausibly Château du Haut-Koenigsbourg above the Alsace plain; no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Château du Haut-Koenigsbourg, Orschwiller', scenario '23 September 2026 · 17:07 Europe/Paris', disclosure legible bottom-left, matching the gallery index; curly-apostrophe signature bottom-right; scenario minute 17:07 unique across the batch; no per-scene builder note exists, so no retrieval-timestamp cross-check was possible. Gate 3: no photographic inputs reported anywhere. Gate 4: no people, no logos, no recognizable private property — documented only. Gate 5: all gates pass.",
   "approved_at": "2026-09-25T17:38:23.384904+00:00",
-  "sha256_16x9": "1cf30fcc57297419aa6b3332e5137c503f9bcdaf63d3556c0fd38b400f028514",
-  "sha256_4x5": "227528a969d4587d17c4fc8d089ea94421185106cf3a5d793c8973242f49d804",
-  "reverted_at": "2026-09-25T18:54:24.362048+00:00"
+  "sha256_16x9": "cb0fee1bbd036c8a96624156fbfa2944d1fca4eb0f0e7a53178f3467a71754fd",
+  "sha256_4x5": "9074c202cff07266c091733e3f343a559937c0124846fc019f3c729bf5775140",
+  "reverted_at": "2026-09-25T18:54:24.362048+00:00",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "cb0fee1bbd036c8a96624156fbfa2944d1fca4eb0f0e7a53178f3467a71754fd"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "9074c202cff07266c091733e3f343a559937c0124846fc019f3c729bf5775140"
+    }
+  }
 }

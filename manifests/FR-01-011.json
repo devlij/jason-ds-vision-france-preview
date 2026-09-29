@@ -27,6 +27,18 @@
       "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Carcassonne citadel: double walls with conical-roofed towers, basilica towers rising above; clean framing, no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Carcassonne citadel, Carcassonne', scenario '23 September 2026 · 15:07 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-011.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: no people visible. Gate 5: not ready."
     }
   ],
-  "sha256_16x9": "d56bb7e246539e223e497185914b56f6985120393c2ebbc9a13ee12bcfad48b5",
-  "sha256_4x5": "6f2f95babf5620a1eff8f2ca023d651de71cff4115fe5da2c71a1dd25db50156"
+  "sha256_16x9": "4d33cee41119f7cfccb986d127669d7b8c74df567a9965de5951507318f15264",
+  "sha256_4x5": "d5a3a09828be30dc7423ca175c7e027b51a35fe6d555156fd3098b351fafbd05",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "4d33cee41119f7cfccb986d127669d7b8c74df567a9965de5951507318f15264"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "d5a3a09828be30dc7423ca175c7e027b51a35fe6d555156fd3098b351fafbd05"
+    }
+  }
 }

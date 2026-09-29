@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Palais des Papes, Avignon — Daylight. Massive papal Gothic fortress-palace with crenellated towers and machicolations above Place du Palais; scenario 15:25 matches the builder note; retrieved 2026-09-25T12:38:40Z (valid 15:00, 28.6°C). Label bar exact. Small square figures — Gate 4 documented only. Inter-format subject agreement verified.",
   "approved_at": "2026-09-28T12:18:34.552258+00:00",
-  "sha256_16x9": "af2590d02a6a106201a3748c3ba6d430db930b4134a0fcc31774e043e93a4967",
-  "sha256_4x5": "e2be7609adbd36a2879a56faccd4eac927464217bfe7ca0b96c88832e7954213",
+  "sha256_16x9": "fdd6df4e062a4cca16e5ff8dbff01d6a912f8db63b516d3d9a8dcb60c9691bca",
+  "sha256_4x5": "72a51db03576607e0ba2639f85394226457968939c2367f19ccb253c536e8f1e",
   "reverted_at": "2026-09-25T18:52:55.484411+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC re-audit 2026-09-28: builder's per-scene weather rework verified repo-wide — Open-Meteo retrieval timestamps unique to the second across all France scenes (this scene retrieved 2026-09-25T12:38:40Z). The Sep-25 withdrawal is cleared; five-gate re-audit PASS. Proceeding to re-approval."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "fdd6df4e062a4cca16e5ff8dbff01d6a912f8db63b516d3d9a8dcb60c9691bca"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "72a51db03576607e0ba2639f85394226457968939c2367f19ccb253c536e8f1e"
+    }
+  }
 }

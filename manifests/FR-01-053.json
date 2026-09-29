@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: white chalk Porte d'Aval arch and the Aiguille needle rising from the Channel, plausible sea-level tourist viewpoint, clean, no artifacts; subject identity agrees between 16:9 and 4:5. Gate 2: exact 1920x1080/864x1080; caption 'Cliffs of Étretat, Étretat', scenario '23 September 2026 · 15:36 Europe/Paris', disclosure and exact curly-apostrophe Jason D’s Vision signature legible on the bottom scrim; per-scene Open-Meteo retrieval 2026-09-25T14:41:18+02:00, unique to the second across all 302 repo approval notes, model-valid hour covers the scenario minute. Gate 3: text-prompt-only lineage per builder note, no photographic inputs. Gate 4: no identifiable people or logos (documented only). Gate 5: pass.",
   "approved_at": "2026-09-29T00:34:31.886335+00:00",
-  "sha256_16x9": "028e47b5c0fb5c23f09a2339cadb2c08b46050e63589e0a2fce1d4e6308636a7",
-  "sha256_4x5": "f989c0e5adc8a2ac0e1f6015112a4253c537c859dcb67379a955a9d9583a0cf4",
+  "sha256_16x9": "4b3d1c299426d84b1d6a2fc21674c6452bf761abca63d1726fd90779b40fc537",
+  "sha256_4x5": "58ead9f5d05752257c98bb0144ee62e317868f0183ad1a9728e4063ac76d2a7b",
   "reverted_at": "2026-09-25T18:53:24.898673+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Gate 2 hold resolved 2026-09-28 (Cosmo QC): builder landed per-scene weather rework (approvals/FR-01-053.md) with a per-scene Open-Meteo retrieval timestamp (2026-09-25T14:41:18+02:00, unique to the second across all 302 repo approval notes); scenario minute sits inside the cited model-valid hour. Hold cleared — re-audit passes all five gates."
     }
-  ]
+  ],
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "58ead9f5d05752257c98bb0144ee62e317868f0183ad1a9728e4063ac76d2a7b"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "4b3d1c299426d84b1d6a2fc21674c6452bf761abca63d1726fd90779b40fc537"
+    }
+  }
 }

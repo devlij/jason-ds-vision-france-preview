@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-358-16x9.png",
-        "sha256": "fa6736e39f6938686e16918f61d75bca576cb3e4c5612f886691e93bf2b913b1"
+        "sha256": "1ce27768e960fb93285f5dea9f047e8d9dbac9a6abd3dd3308062e932e276851"
       },
       "4x5": {
         "path": "assets/fr-01-358-4x5.png",
-        "sha256": "0a061f0d74ce63c3e27ec0c92b987330dc7365fc93c1d17fc750ce22ce27eeac"
+        "sha256": "0597307e31cc0a963f61ce904bdcf06b9ed6397bf4df4d45b4171375efaa5552"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-358-daylight-16x9.png",
       "4x5": "assets/fr-01-358-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "0e88f71f4a6116f6b989e9fdf3df7395e1af7a300398e8cce7d6d3e17341c898",
-      "4x5": "c781fd34ade17f290859b98ce37b71fdb798ccba32201c2a053b9955d96b5cf8"
+      "16x9": "19e34b950d0ee90782a7b9e004447398e2d85e36fd5ac34a875e5e47bbbcab39",
+      "4x5": "85aaa181ae57af7e3c5160f7483cbd3e9d6689e4001445a851da9413c39d5394"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Plage des Hattes, Awala-Yalimapo",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "1ce27768e960fb93285f5dea9f047e8d9dbac9a6abd3dd3308062e932e276851",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "1ce27768e960fb93285f5dea9f047e8d9dbac9a6abd3dd3308062e932e276851"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "0597307e31cc0a963f61ce904bdcf06b9ed6397bf4df4d45b4171375efaa5552"
+    }
+  },
+  "sha256_4x5": "0597307e31cc0a963f61ce904bdcf06b9ed6397bf4df4d45b4171375efaa5552"
 }

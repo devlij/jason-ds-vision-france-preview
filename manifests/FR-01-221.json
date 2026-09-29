@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-221-16x9.png",
-        "sha256": "3b08d8e2e8b6ac3a60ac9fc26f3fb17e7caaf17c1ec0f3336cacf42bdad9ab41"
+        "sha256": "eb8f132f73ee0fb689137d603585e8da77beb6cd57df6b5adb08de007b2e7544"
       },
       "4x5": {
         "path": "assets/fr-01-221-4x5.png",
-        "sha256": "cbeaa254c5d830dfe4d06d6f9ad6d95ba6c179fc2cdb705e9b2b1ce4a3e5a96c"
+        "sha256": "7aa94b4ae93cb96220e100baa649aedfff7d05aba34268e1f5e3611c690745d5"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-221-daylight-16x9.png",
       "4x5": "assets/fr-01-221-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "4fdcc8ae653401a95d0ddd7847cdf81df7125740e67dd4169f7a53fdb495596a",
-      "4x5": "a299c20d65936440e282f46c08a371fae69be0530e37604648389f993a408209"
+      "16x9": "785b188e0ef42dbbf215a7281c5aa93cadc1d9c64f717c73f3acbaf567831835",
+      "4x5": "4e457e013632488449338342e31f63253db66492f1c047ba2a87d98961f21ea8"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "La Pietra, L'Île-Rousse",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "eb8f132f73ee0fb689137d603585e8da77beb6cd57df6b5adb08de007b2e7544",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "eb8f132f73ee0fb689137d603585e8da77beb6cd57df6b5adb08de007b2e7544"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "7aa94b4ae93cb96220e100baa649aedfff7d05aba34268e1f5e3611c690745d5"
+    }
+  },
+  "sha256_4x5": "7aa94b4ae93cb96220e100baa649aedfff7d05aba34268e1f5e3611c690745d5"
 }

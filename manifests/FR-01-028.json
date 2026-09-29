@@ -26,5 +26,19 @@
       "by": "Cosmo QC",
       "note": "Gate 2 hold (Cosmo QC 2026-09-28): no approvals/FR-01-028.md in the repo — no recorded retrieval timestamp; scenario/weather cross-check not completable. Gate 1 passes (Luxembourg Palace across the Grand Bassin, clean). Hold until the evidence note lands."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "eb1dd5211661649340623eb6c5cb28a9553f6d444d2bb11d475fea95765e54e2"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "01bb0ff6c32780f1fe15cb50baa5aa97085c2499b8e307804880b8b72cd161dd"
+    }
+  },
+  "sha256_16x9": "eb1dd5211661649340623eb6c5cb28a9553f6d444d2bb11d475fea95765e54e2",
+  "sha256_4x5": "01bb0ff6c32780f1fe15cb50baa5aa97085c2499b8e307804880b8b72cd161dd"
 }

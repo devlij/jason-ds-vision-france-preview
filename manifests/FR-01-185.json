@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-185-16x9.png",
-        "sha256": "67ab2804c1f5abbe318a07c2f5265951880984199ffaf1f1b0fea061a8d6c80b"
+        "sha256": "555b10c623ecaea2976a184c513843a75f2793d261fd22a390aa8f7af5181289"
       },
       "4x5": {
         "path": "assets/fr-01-185-4x5.png",
-        "sha256": "51fd2413e17fb9430f46c2414e4ce7a45cb58b16133c5207768062022ed3b4d2"
+        "sha256": "f2cbfb974a13708f492ad50a75def16342cf6dedcc6a3e91479c124c87a2f408"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-185-daylight-16x9.png",
       "4x5": "assets/fr-01-185-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "93c815637fa85f66d8a04c5f895ef47ec1a7f626f5830fde733a967331c665f5",
-      "4x5": "de6e9332114772c83bbe58a3925ad0689cdc51eee88a88fd6ba26eaa84e0bf35"
+      "16x9": "0aaea722d04bfffd08468596b2a671fc096c45a4924e4394bcd6d37ab8766615",
+      "4x5": "21dc86de913840c40fb71f4374013923b684d00226f59abfbf45d2cb6b6a9e61"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Baie de Mamoudzou, Mamoudzou",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "555b10c623ecaea2976a184c513843a75f2793d261fd22a390aa8f7af5181289",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "555b10c623ecaea2976a184c513843a75f2793d261fd22a390aa8f7af5181289"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "f2cbfb974a13708f492ad50a75def16342cf6dedcc6a3e91479c124c87a2f408"
+    }
+  },
+  "sha256_4x5": "f2cbfb974a13708f492ad50a75def16342cf6dedcc6a3e91479c124c87a2f408"
 }

@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-318-16x9.png",
-        "sha256": "02ea9c23db1ed83a3bb25ba4e1975827d768576dbb8d373f2c811e257abc9c3f"
+        "sha256": "384f4f9c37a84a4ca821a67d1f1da50c7dfcd6b0a7797e2211cecaf474475a7f"
       },
       "4x5": {
         "path": "assets/fr-01-318-4x5.png",
-        "sha256": "6dd209b90da4bec38b05fc8c1d682923eafef153e7d031c1f9b52c4762811384"
+        "sha256": "8d46d11dcf6f91118ca217172a120a3bcad6c60221a1372623d92eec8fc555fa"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-318-daylight-16x9.png",
       "4x5": "assets/fr-01-318-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "476d40695549dabbb185aec6f44d44f321a6953b25851febc3a2eda711150b8d",
-      "4x5": "2a67db7d323771d5cff19d1b51ebe13eca4b57e1581fcef0bb633e983c2b0774"
+      "16x9": "9edc6323eb1e413429a914af674e277803c694dd7e15d58d84d1d0bf5a50f513",
+      "4x5": "e409759d9a1c5d0237aca641f4afd7179728b49aef6befb65e7dcc21dfdd4bb0"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château de La Rochefoucauld, La Rochefoucauld",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "384f4f9c37a84a4ca821a67d1f1da50c7dfcd6b0a7797e2211cecaf474475a7f",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "384f4f9c37a84a4ca821a67d1f1da50c7dfcd6b0a7797e2211cecaf474475a7f"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "8d46d11dcf6f91118ca217172a120a3bcad6c60221a1372623d92eec8fc555fa"
+    }
+  },
+  "sha256_4x5": "8d46d11dcf6f91118ca217172a120a3bcad6c60221a1372623d92eec8fc555fa"
 }

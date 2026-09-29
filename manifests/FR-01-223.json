@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-223-16x9.png",
-        "sha256": "b95bda29826f75ff9f0925572e794c9d5599af9c74d75f32183cfd8338e5c76c"
+        "sha256": "7b352339c315987e89ea5b36791c3a5ed8640b9d56f5e7056118ef61300d9c20"
       },
       "4x5": {
         "path": "assets/fr-01-223-4x5.png",
-        "sha256": "820964c7105a5d6bcf02b3d13d663aa96f6ed0a949b977034c362612f01982d4"
+        "sha256": "74644d4e0f4b31aa5ff4a3dc0de9297357c5c7b6eaec81426030bf15727ba32c"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-223-daylight-16x9.png",
       "4x5": "assets/fr-01-223-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "b267aa6e94e83e12f796f26633ea89a1fe103a09d3d5a6c84b453bb69bc0baff",
-      "4x5": "369af7a70e484d770c3ca30b985c21e858171747e6b948ed877e822f1b4095ec"
+      "16x9": "ef067c35cc60eea21f5c0cc92f18f38b01b2fcb6134a86d229f3793b4b3ab981",
+      "4x5": "6e158c5c9b7c31ed4c527b6586718fde00a5d3c012c3abb6ee4746cc81f99961"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château Gaillard, Les Andelys",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "7b352339c315987e89ea5b36791c3a5ed8640b9d56f5e7056118ef61300d9c20",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "7b352339c315987e89ea5b36791c3a5ed8640b9d56f5e7056118ef61300d9c20"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "74644d4e0f4b31aa5ff4a3dc0de9297357c5c7b6eaec81426030bf15727ba32c"
+    }
+  },
+  "sha256_4x5": "74644d4e0f4b31aa5ff4a3dc0de9297357c5c7b6eaec81426030bf15727ba32c"
 }

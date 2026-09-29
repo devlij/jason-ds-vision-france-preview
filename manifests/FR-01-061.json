@@ -21,5 +21,19 @@
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "ef082a7f04edc4b1e275e4446b3d2974986ca021432f3f117659d4b929131f81"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "607c19843042a33298cfbee77099a9da1b306585ec855225cf6b06e5fece02ca"
+    }
+  },
+  "sha256_16x9": "ef082a7f04edc4b1e275e4446b3d2974986ca021432f3f117659d4b929131f81",
+  "sha256_4x5": "607c19843042a33298cfbee77099a9da1b306585ec855225cf6b06e5fece02ca"
 }

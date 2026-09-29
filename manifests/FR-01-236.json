@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-236-16x9.png",
-        "sha256": "8b56b6255546584c32c6d05eedf06e650f5332d45407f6ed5befee648a5835fb"
+        "sha256": "c0dfd3358b817342502db80da5b43540b6b3866455a4fe10e2541aa7ae7d6253"
       },
       "4x5": {
         "path": "assets/fr-01-236-4x5.png",
-        "sha256": "ce8ca41678dbc2b4ae747536a7b41535a535327033fcbc5784a684c04ed88b3d"
+        "sha256": "3c42ffacf5c576f46b3c5c4e3a1f1593dabca2a0bb6e969afbec14f5e4984280"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-236-daylight-16x9.png",
       "4x5": "assets/fr-01-236-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "af0eca315ca7103c51f3f0b3be2009dd6d13a7571f6fabfbe3d0f74222f67882",
-      "4x5": "c3d2166ef09df9eaadf11bce5a140a889162ca41198ce448291e6c9a70209487"
+      "16x9": "014b52cabd1860e01b704d2c3aa83374d5e7dd20e364ae1283bc5fdede82e463",
+      "4x5": "b092a6c5ecbd4fb962e8c4123328e4ddffb06733384ffe2dd6786ef66b387ba3"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Ossuaire de Douaumont, Douaumont-Vaux",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "c0dfd3358b817342502db80da5b43540b6b3866455a4fe10e2541aa7ae7d6253",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "c0dfd3358b817342502db80da5b43540b6b3866455a4fe10e2541aa7ae7d6253"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "3c42ffacf5c576f46b3c5c4e3a1f1593dabca2a0bb6e969afbec14f5e4984280"
+    }
+  },
+  "sha256_4x5": "3c42ffacf5c576f46b3c5c4e3a1f1593dabca2a0bb6e969afbec14f5e4984280"
 }

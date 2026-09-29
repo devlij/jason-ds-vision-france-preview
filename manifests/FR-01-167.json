@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-167-16x9.png",
-        "sha256": "f1b562a46c67a21a6b747b504c8aada2da21efc6ed90afb52b736767f214e9e5"
+        "sha256": "6000e9a9e899825d464379ced764f63f354fb42e0ea22ebb420d16d041639964"
       },
       "4x5": {
         "path": "assets/fr-01-167-4x5.png",
-        "sha256": "b61463f59e04701d24558808e92892fdd7ebf07bcc9d723b789afacd86a44135"
+        "sha256": "6bcbc3a4e5df4dae80fadf8664e7225e391a2ea003a16e5676faab473880ea78"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-167-daylight-16x9.png",
       "4x5": "assets/fr-01-167-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "c2c7210ff22f9bc7674c52d1a49348817c090cdc0d9d992a5947af9eab3fa555",
-      "4x5": "88bdda63cb956df33112166d56270beb16a940b4b35b7f249bbfdccf156542b8"
+      "16x9": "2b26c2f452d6b16ee78f9e91b3238c42dc3781cabcad0c6fa7cdfe4070b627d2",
+      "4x5": "126c2202bde961863eb91e99dbc3bf9f7109331d9488f682d9ab056bc69e13b3"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Maïdo, Saint-Paul",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "6000e9a9e899825d464379ced764f63f354fb42e0ea22ebb420d16d041639964",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "6000e9a9e899825d464379ced764f63f354fb42e0ea22ebb420d16d041639964"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "6bcbc3a4e5df4dae80fadf8664e7225e391a2ea003a16e5676faab473880ea78"
+    }
+  },
+  "sha256_4x5": "6bcbc3a4e5df4dae80fadf8664e7225e391a2ea003a16e5676faab473880ea78"
 }

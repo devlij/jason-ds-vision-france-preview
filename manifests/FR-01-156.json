@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-156-16x9.png",
-        "sha256": "c8f451eed09845cc142714c54b00048785dae355c0d63e6896f52d99066dfbdf"
+        "sha256": "9ae1a887c6e4d0a25f0bb3178e051d793453994501be739f2ebdc02acdade62b"
       },
       "4x5": {
         "path": "assets/fr-01-156-4x5.png",
-        "sha256": "e49b16c2fc7f92ee413aeafac8aad0e64de80f529f02849b88dbc5b87665f9a0"
+        "sha256": "b5e115d12faef505e67edd1475dee1907bcbe77bbe4dc6208150c5c6b6b44e61"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-156-daylight-16x9.png",
       "4x5": "assets/fr-01-156-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "68f913e11f74cd26bbd192b6a254b349d9119ba0b1b0ab341ec8e13945c96d51",
-      "4x5": "0061b4d3b2d6935fe2d06b75fc9ea05baf67dc184149d73a36cb5b747460edaf"
+      "16x9": "312d092d4f94224f0b870add76c0f41471cd71eba2d8d167e7fb6b0672910d84",
+      "4x5": "abb2b7bd575b0d83a3646bc6dbb97dd42901ea1e0501d1af01c9313de303a6a5"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Laon Cathedral, Laon",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "9ae1a887c6e4d0a25f0bb3178e051d793453994501be739f2ebdc02acdade62b",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "9ae1a887c6e4d0a25f0bb3178e051d793453994501be739f2ebdc02acdade62b"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "b5e115d12faef505e67edd1475dee1907bcbe77bbe4dc6208150c5c6b6b44e61"
+    }
+  },
+  "sha256_4x5": "b5e115d12faef505e67edd1475dee1907bcbe77bbe4dc6208150c5c6b6b44e61"
 }

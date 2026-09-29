@@ -17,5 +17,19 @@
       "by": "Cosmo QC",
       "note": "Gate 1 PASS: Île de Batz — aerial view of the island village, harbor coves, sandy beaches and rocky islets in a glittering sea; plausible island viewpoint, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080); on-image caption 'Île de Batz harbor, Île de Batz', scenario '23 September 2026 · 18:17 Europe/Paris', disclosure and curly-apostrophe signature exact — BUT HELD: weather retrieval cross-check impossible. approvals/FR-01-104.md verified 404 (notes gap 078–124), no PNG metadata, no manifest; per-scene retrieval unverifiable, Gate 2 open. Gate 3 undocumented. Gate 4: no people/logos visible — documented only."
     }
-  ]
+  ],
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "302c5e4e7366a9da5a414a9e2335156f13dd9139d6f21d772699ee160e11ec21"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "ad1f1bbfde846ca98471e72f0621ec5051dcabc22b95d7f1b881aba601ee805c"
+    }
+  },
+  "sha256_4x5": "302c5e4e7366a9da5a414a9e2335156f13dd9139d6f21d772699ee160e11ec21",
+  "sha256_16x9": "ad1f1bbfde846ca98471e72f0621ec5051dcabc22b95d7f1b881aba601ee805c"
 }

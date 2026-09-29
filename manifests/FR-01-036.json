@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Rouen Cathedral, Rouen — Daylight. Gothic west façade with mismatched towers and tall iron flèche centered, rose window; scenario 15:23 matches the builder note; retrieved 2026-09-25T12:38:39Z (valid 15:00, 26.2°C). Label bar exact. Tiny portal figures — Gate 4 documented only. Inter-format subject agreement verified.",
   "approved_at": "2026-09-28T12:17:31.937127+00:00",
-  "sha256_16x9": "b8699b0fea757966fdc6d90c061681f949eeec134c61e94467bbe4b88727ebcc",
-  "sha256_4x5": "e3070445ae3d4011b3e2cfd3d787b10d75806afaf763d3eacb6582cf1a380940",
+  "sha256_16x9": "e2082b3fd996a504977db81b223610c8aac531d0078090e4154518465451bc9a",
+  "sha256_4x5": "eb24e10cbc43a2b5b7b3660d48ad6ab078963a6393f8f1abb0cc4ff3aecab700",
   "reverted_at": "2026-09-25T18:52:53.429391+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC re-audit 2026-09-28: builder's per-scene weather rework verified repo-wide — Open-Meteo retrieval timestamps unique to the second across all France scenes (this scene retrieved 2026-09-25T12:38:39Z). The Sep-25 withdrawal is cleared; five-gate re-audit PASS. Proceeding to re-approval."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "e2082b3fd996a504977db81b223610c8aac531d0078090e4154518465451bc9a"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "eb24e10cbc43a2b5b7b3660d48ad6ab078963a6393f8f1abb0cc4ff3aecab700"
+    }
+  }
 }

@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-219-16x9.png",
-        "sha256": "ab3aa8f6712f227c093cc3a7632b01212abda60e79c604f21be0aaff8a4097d8"
+        "sha256": "0a2436f13be7cf0b5668a14246c0e9774c01da660dad997130f7bfa4a2570f93"
       },
       "4x5": {
         "path": "assets/fr-01-219-4x5.png",
-        "sha256": "bfaef7b384b362ab601aeba2c819a0c5dde7a5bae4dbd0095d349f745318f6a3"
+        "sha256": "0a8fc784db73eb4c2cd19255c5dc76ddde28dcf8da3a17511918bfecf229c05d"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-219-daylight-16x9.png",
       "4x5": "assets/fr-01-219-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "5d6c04e4f02fe864c752b63af73f479cabe733ceeb2cfa8d86fe0945c980a004",
-      "4x5": "efd96d0e928b544f3bef2a39fee537f2d00836e5a4ef3f5d84ea564746f7b502"
+      "16x9": "0ae3ec8ce9cd41b44cdd55c4b80e886eee1c4ee0eb189674b8797c001fb75a4e",
+      "4x5": "1b29cade2349027a93e64f9127643b00cddaf5b7885de67c396621d6d93bdfa6"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Palais Idéal, Hauterives",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "0a2436f13be7cf0b5668a14246c0e9774c01da660dad997130f7bfa4a2570f93",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "0a2436f13be7cf0b5668a14246c0e9774c01da660dad997130f7bfa4a2570f93"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "0a8fc784db73eb4c2cd19255c5dc76ddde28dcf8da3a17511918bfecf229c05d"
+    }
+  },
+  "sha256_4x5": "0a8fc784db73eb4c2cd19255c5dc76ddde28dcf8da3a17511918bfecf229c05d"
 }

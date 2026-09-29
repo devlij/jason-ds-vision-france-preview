@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-231-16x9.png",
-        "sha256": "5018d9b113bf216284168ed24a9bbce79db343400823d06f73d19b730657cda1"
+        "sha256": "5752c061cf72d46cf9782f59642bbeb42654e769befca517ccfbecb32d5de7e2"
       },
       "4x5": {
         "path": "assets/fr-01-231-4x5.png",
-        "sha256": "20a0266f95a31af378f8779f3af571056ea501442b8fc49ad2639f0c81277c33"
+        "sha256": "e65d71e52b4cf09b6bf64c1d1c9ac3f456b13f53dd4af07e2b221de84f0d913e"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-231-daylight-16x9.png",
       "4x5": "assets/fr-01-231-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "cdca3fddc4afc24752067d94618b7bc6867993330be5c20a785dd0454dceba3f",
-      "4x5": "e9da8695d9e87673d81aa4a8f1058274620d32fbcdcd28579d9e4605d8283ce1"
+      "16x9": "f4c9789ffb7145b6e253365b04c6b5202276059434bc4199a962dc5c6b661402",
+      "4x5": "a9db00f0361c0b89e94d969f0fe4ffc8e3dafe19b43ba2cecb9a1d1c9acbb057"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Cilaos, Cilaos",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "5752c061cf72d46cf9782f59642bbeb42654e769befca517ccfbecb32d5de7e2",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "5752c061cf72d46cf9782f59642bbeb42654e769befca517ccfbecb32d5de7e2"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "e65d71e52b4cf09b6bf64c1d1c9ac3f456b13f53dd4af07e2b221de84f0d913e"
+    }
+  },
+  "sha256_4x5": "e65d71e52b4cf09b6bf64c1d1c9ac3f456b13f53dd4af07e2b221de84f0d913e"
 }

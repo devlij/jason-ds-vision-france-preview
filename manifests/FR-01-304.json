@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-304-16x9.png",
-        "sha256": "558e05c581c7f6eabf1ce963fdd8566027aee48371461f2ffd8bc8b345043ea7"
+        "sha256": "2103ee70252cf783011886c002fc8b239466153ea615c120f69c26033ce6ee35"
       },
       "4x5": {
         "path": "assets/fr-01-304-4x5.png",
-        "sha256": "2dfa8267527ad24c4e38f64e4cba6c00abe021ebb11eb34afbde7451c2350c58"
+        "sha256": "b31858120ec5acd04f36b3485244aade07cf052b004c3fe96219ee1aa78b53a8"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-304-daylight-16x9.png",
       "4x5": "assets/fr-01-304-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "866b239e79e7affda7cd52911fa71fff1472716a19ef4a22f9809ad5b9c1dfa7",
-      "4x5": "10b5ecce612fff84b56ddcca0afff986e19125c5ea94e59f66ea285775f74f9d"
+      "16x9": "120d9e8bedc1af06781dae5123a723dfd98254d6b611eabb0b8ee51c50c02d96",
+      "4x5": "98a46c7a0ef9a3acacc70a76009e8546d9189bf64d7b395af0f6d1d9ec7e837b"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château de Châteaudun, Châteaudun",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "2103ee70252cf783011886c002fc8b239466153ea615c120f69c26033ce6ee35",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "2103ee70252cf783011886c002fc8b239466153ea615c120f69c26033ce6ee35"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "b31858120ec5acd04f36b3485244aade07cf052b004c3fe96219ee1aa78b53a8"
+    }
+  },
+  "sha256_4x5": "b31858120ec5acd04f36b3485244aade07cf052b004c3fe96219ee1aa78b53a8"
 }

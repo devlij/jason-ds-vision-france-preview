@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Gothic cathedral with twin west spires and the crossing dome — recognizably Bayeux Cathedral, clean framing; formats agree. Gate 2: exact 1920x1080/864x1080; caption/scenario '15:43' on-image, disclosure and exact signature legible; per-scene Open-Meteo retrieval 2026-09-25T14:41:30+02:00, unique to the second repo-wide. Gate 3: text-prompt-only lineage. Gate 4: no people or logos (documented only). Gate 5: pass.",
   "approved_at": "2026-09-29T00:35:08.543203+00:00",
-  "sha256_16x9": "e00b41119166403f42eedf84f5d6cc12126843be20ed121d7ee66b91cadf6c29",
-  "sha256_4x5": "3f0237b76dd192f6f49176c6b57710001e419e2bdc0f1e79100c6f30d88aebce",
+  "sha256_16x9": "ffa6be1608fb16cc753aa11e5e578da8bc8dd44bbc7eae54aca1ffecdd0d03b1",
+  "sha256_4x5": "d265d01bf5d8f26ca222c36f5106102ede93a7329cdf093075f58b6996df9021",
   "reverted_at": "2026-09-25T18:53:35.778009+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Gate 2 hold resolved 2026-09-28 (Cosmo QC): builder landed per-scene weather rework (approvals/FR-01-059.md) with a per-scene Open-Meteo retrieval timestamp (2026-09-25T14:41:30+02:00, unique to the second across all 302 repo approval notes); scenario minute sits inside the cited model-valid hour. Hold cleared — re-audit passes all five gates."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "ffa6be1608fb16cc753aa11e5e578da8bc8dd44bbc7eae54aca1ffecdd0d03b1"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "d265d01bf5d8f26ca222c36f5106102ede93a7329cdf093075f58b6996df9021"
+    }
+  }
 }

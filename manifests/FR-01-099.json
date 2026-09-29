@@ -17,5 +17,19 @@
       "by": "Cosmo QC",
       "note": "Gate 1 PASS: Saint-Cirq-Lapopie — village perched on a cliff above a river bend, stone houses along the crag, lush green Lot valley, blue sky; plausible aerial tourist viewpoint, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080); on-image caption 'Saint-Cirq-Lapopie cliff village, Saint-Cirq-Lapopie', scenario '23 September 2026 · 17:58 Europe/Paris', disclosure and curly-apostrophe signature exact — BUT HELD: weather retrieval cross-check impossible. approvals/FR-01-099.md verified 404 (notes gap 078–124), no PNG metadata, no manifest; per-scene retrieval unverifiable, Gate 2 open. Gate 3 undocumented. Gate 4: no people/logos visible — documented only."
     }
-  ]
+  ],
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "de880b77ed2240a129e5cd546b3a957d7da905451fa318e9698746166424e162"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "89176d5908026331c7cf28b4ee317aa78e354dbc9bf93c05eb55eee45d9b2691"
+    }
+  },
+  "sha256_4x5": "de880b77ed2240a129e5cd546b3a957d7da905451fa318e9698746166424e162",
+  "sha256_16x9": "89176d5908026331c7cf28b4ee317aa78e354dbc9bf93c05eb55eee45d9b2691"
 }

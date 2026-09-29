@@ -26,5 +26,19 @@
       "by": "Cosmo QC",
       "note": "Gate 2 hold (Cosmo QC 2026-09-28): no approvals/FR-01-027.md in the repo — no recorded Open-Meteo retrieval timestamp, so the scenario-timestamp/weather cross-check cannot be completed. Gate 1 passes (Gothic west front with rose window and single tall tower, clean). Hold until the builder pushes the evidence note."
     }
-  ]
+  ],
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "40f38c4d87c441323e880dc4830eec23aa47e3595c5eda7dd395b497752c2656"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "ca7fd47b7b7a62bc464ef717a34b7a3151cf1832798952e187215d5ab1750c0f"
+    }
+  },
+  "sha256_16x9": "40f38c4d87c441323e880dc4830eec23aa47e3595c5eda7dd395b497752c2656",
+  "sha256_4x5": "ca7fd47b7b7a62bc464ef717a34b7a3151cf1832798952e187215d5ab1750c0f"
 }

@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-342-16x9.png",
-        "sha256": "cad2fc04ab50987990887f1f5cb82df1ce6f43547e0195d72ae5e7e0e638c0b8"
+        "sha256": "a3bdfc6b55103b671af7d969d4e99e4fc17f328bc42285fa451c053e5bad442e"
       },
       "4x5": {
         "path": "assets/fr-01-342-4x5.png",
-        "sha256": "380a9386cac26489a83489ba787e7f09b3a32abdecad53f96b362b22036ddb11"
+        "sha256": "1182047d887f13946469a9f797de9aa4a4ffa4f1911bc33220ad99b1939ed8d9"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-342-daylight-16x9.png",
       "4x5": "assets/fr-01-342-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "bc6d0fa341aeac7d39e639583409900c8558165201cce04039fc28a24a4458a5",
-      "4x5": "de673280b504741eaa998ef78ac416296e39371010c838bb2f9d92859ba42752"
+      "16x9": "e2ee2a6b6262733dc2fa1380e6079b2279a8ac999a895bf20bdf50668e724cb4",
+      "4x5": "1b40785013f8b5448818472ab7696634d0f696b383fb6dc0cc055154e306b05c"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Kaw, Régina",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "a3bdfc6b55103b671af7d969d4e99e4fc17f328bc42285fa451c053e5bad442e",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "a3bdfc6b55103b671af7d969d4e99e4fc17f328bc42285fa451c053e5bad442e"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "1182047d887f13946469a9f797de9aa4a4ffa4f1911bc33220ad99b1939ed8d9"
+    }
+  },
+  "sha256_4x5": "1182047d887f13946469a9f797de9aa4a4ffa4f1911bc33220ad99b1939ed8d9"
 }

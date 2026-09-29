@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-176-16x9.png",
-        "sha256": "4aa5ed355801a257331992c0c7b7a650b05701ca0ce44e339dfdd330a7391599"
+        "sha256": "b839b9a6047d255dead12e89f39e398d911755501fa352e0e4ea1def7de26e9a"
       },
       "4x5": {
         "path": "assets/fr-01-176-4x5.png",
-        "sha256": "369da2e4ea5ca0f1f7fdb3c3cc5d973602d1b462b425717b4105160b7ef1bab9"
+        "sha256": "e7074ead587d0e758ba1939131ecc210dda72304d4a0d99f36c08a0b88e88cf5"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-176-daylight-16x9.png",
       "4x5": "assets/fr-01-176-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "c5fa6b0fd2c14675b6cb4c8cec563bca4f784ce09dd508639243cf6ee84555f8",
-      "4x5": "74891c7ef601162f886e3831dcdc4fae0ffa401e04be37825151875f73f28e9a"
+      "16x9": "70ec46152122ea472f59f0d71cbabe0016459675fc48830532cc9edae835c2f2",
+      "4x5": "4e5329baa0b0950421166f635da5d463464853086402c64bc1f971adafb8e92b"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Pont d'Arc, Vallon-Pont-d'Arc",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "b839b9a6047d255dead12e89f39e398d911755501fa352e0e4ea1def7de26e9a",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "b839b9a6047d255dead12e89f39e398d911755501fa352e0e4ea1def7de26e9a"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "e7074ead587d0e758ba1939131ecc210dda72304d4a0d99f36c08a0b88e88cf5"
+    }
+  },
+  "sha256_4x5": "e7074ead587d0e758ba1939131ecc210dda72304d4a0d99f36c08a0b88e88cf5"
 }

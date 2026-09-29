@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-169-16x9.png",
-        "sha256": "085b265b4a50f8d9723452bbc59380aa7f7db1472a2a05f43abee5e01363e79c"
+        "sha256": "a518a4388219206c98464e7870118e46f7c9e51d4243ec3ea5daf1aefd9071d5"
       },
       "4x5": {
         "path": "assets/fr-01-169-4x5.png",
-        "sha256": "5d9ddb3efe73de8d305dd617df5887adb445da9b168ad237c816018f0d221c9a"
+        "sha256": "10429537835e333c681aa7f69b833c66098f7e670011e00a66d9d4d7bcc475c0"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-169-daylight-16x9.png",
       "4x5": "assets/fr-01-169-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "7e4cffe5367633914033e77c0d894f95af4c9c7471996898473c91cf6d8ad409",
-      "4x5": "ca80226698688d5121bc0883df4d163a0d779deecdf5b38179083f2abf82af67"
+      "16x9": "b64eb41ab5bde3093fea892e26736c83c695c0a659b65d1939f1dbf4cfe968c7",
+      "4x5": "cc8d4d4401512eeb2bd7335332a64ffec866b6fc44b772dc27646590a8d37390"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Plage de N'Gouja, Kani-Kéli",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "a518a4388219206c98464e7870118e46f7c9e51d4243ec3ea5daf1aefd9071d5",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "a518a4388219206c98464e7870118e46f7c9e51d4243ec3ea5daf1aefd9071d5"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "10429537835e333c681aa7f69b833c66098f7e670011e00a66d9d4d7bcc475c0"
+    }
+  },
+  "sha256_4x5": "10429537835e333c681aa7f69b833c66098f7e670011e00a66d9d4d7bcc475c0"
 }

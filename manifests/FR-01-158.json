@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-158-16x9.png",
-        "sha256": "8357d56bcc7baa9995e73054dca700c7ebc6610d5dc629fba53238ef7f8b4a8d"
+        "sha256": "c74c64a47e79bd9e61e87019d8bb60de7a85cb2cf6fd96e95ede2276dad0335e"
       },
       "4x5": {
         "path": "assets/fr-01-158-4x5.png",
-        "sha256": "257d87b13dc72a02341bdd08598b8c04385a6de5a923ae910d84f43669138f36"
+        "sha256": "76c09653802dc34257afd48c9c9345f061dd40960d9a92efbbd742c704ea3c0f"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-158-daylight-16x9.png",
       "4x5": "assets/fr-01-158-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "d5ace8f63cc8e747d54026a97c7280280d0a33f152654287c9c84e5b799cc1d3",
-      "4x5": "4b5d78f07d948d298c58e325dc84b6a4024c2bafdec29a7daf32afd050b4043e"
+      "16x9": "4075746c6700851fb112c74dc5829b0a3a4edb0869047f3a5fdcb7c79c4af3a2",
+      "4x5": "d8aa7eb0e2c37494e116f94a2bfd932f1867da101628c3993ac33426d53d66db"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Mulberry harbour, Arromanches-les-Bains",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "c74c64a47e79bd9e61e87019d8bb60de7a85cb2cf6fd96e95ede2276dad0335e",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "c74c64a47e79bd9e61e87019d8bb60de7a85cb2cf6fd96e95ede2276dad0335e"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "76c09653802dc34257afd48c9c9345f061dd40960d9a92efbbd742c704ea3c0f"
+    }
+  },
+  "sha256_4x5": "76c09653802dc34257afd48c9c9345f061dd40960d9a92efbbd742c704ea3c0f"
 }

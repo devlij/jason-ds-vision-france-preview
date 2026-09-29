@@ -17,5 +17,19 @@
       "by": "Cosmo QC",
       "note": "Gate 1 PASS: Dinan medieval street — tall granite half-timbered houses, steep slate roofs, cobbled lane curving between them under a bright blue sky; clean framing, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080); on-image caption 'Dinan medieval town, Dinan', scenario '23 September 2026 · 17:56 Europe/Paris', disclosure and curly-apostrophe signature exact — BUT HELD: weather retrieval cross-check impossible. approvals/FR-01-097.md verified 404 (notes gap 078–124), no PNG metadata, no manifest; per-scene retrieval unverifiable, Gate 2 open. Gate 3 undocumented. Gate 4: no people/logos visible — documented only."
     }
-  ]
+  ],
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "0011c9020d8db71a1bd84d2f17729dc4ae556f8c1f0cd105a306addb140d6252"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "c88261f5945b50f98b21aeb7b9acae922a6f0338e13b8b8f157a9d93f53b6537"
+    }
+  },
+  "sha256_4x5": "0011c9020d8db71a1bd84d2f17729dc4ae556f8c1f0cd105a306addb140d6252",
+  "sha256_16x9": "c88261f5945b50f98b21aeb7b9acae922a6f0338e13b8b8f157a9d93f53b6537"
 }

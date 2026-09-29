@@ -7,5 +7,19 @@
   "scenario_label": "23 September 2026 · 16:00 America/Martinique",
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-149-16x9.png",
-  "file_4x5": "assets/fr-01-149-4x5.png"
+  "file_4x5": "assets/fr-01-149-4x5.png",
+  "sha256_16x9": "97a7f134c26f8ce349539839995c309028f182b41386712059ba2a9f571ad830",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "97a7f134c26f8ce349539839995c309028f182b41386712059ba2a9f571ad830"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "68de0ac1ac2d22296b3298f5bc1e5eeb04dd4205c8a770213a5818672cdd788d"
+    }
+  },
+  "sha256_4x5": "68de0ac1ac2d22296b3298f5bc1e5eeb04dd4205c8a770213a5818672cdd788d"
 }

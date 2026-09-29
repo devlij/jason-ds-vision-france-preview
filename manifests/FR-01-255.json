@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-255-16x9.png",
-        "sha256": "bacb366772c5b4c373a3d9941d0de94349f5b31e6d9ef388575755e05a797ba4"
+        "sha256": "cdbd64ea101d5352a54da39b451900f1b448bb3b4f235de64c7372cda5c16847"
       },
       "4x5": {
         "path": "assets/fr-01-255-4x5.png",
-        "sha256": "66e2b21584b5e7024757a9eae071dfb33ee3db8e849095863a411d75c6da9ef9"
+        "sha256": "5d79dd3e42f38bb8cd99c245ba59298766ed7310e8a3eedb5dd96f6640e444f7"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-255-daylight-16x9.png",
       "4x5": "assets/fr-01-255-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "02a7f90ad7159500518ce2c4502933b037b087f58a9f257e0e6eb8b9de8d140e",
-      "4x5": "aa187bfb4266a3f2c891d4fc481722f654b2172f4901bb10ed9342060197f66c"
+      "16x9": "d0b7664168979416b62583c2a7b5bea23df78a60837821e1396a0212dcd61757",
+      "4x5": "3ac168aa135092eddf536d2c0ffea1bc4a1d59cbcfcb8f9ff55963431cc3aa46"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Cathédrale de Troyes, Troyes",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "cdbd64ea101d5352a54da39b451900f1b448bb3b4f235de64c7372cda5c16847",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "cdbd64ea101d5352a54da39b451900f1b448bb3b4f235de64c7372cda5c16847"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "5d79dd3e42f38bb8cd99c245ba59298766ed7310e8a3eedb5dd96f6640e444f7"
+    }
+  },
+  "sha256_4x5": "5d79dd3e42f38bb8cd99c245ba59298766ed7310e8a3eedb5dd96f6640e444f7"
 }

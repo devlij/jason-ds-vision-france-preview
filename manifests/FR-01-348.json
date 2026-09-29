@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-348-16x9.png",
-        "sha256": "ee1938285ee4bf34ed1365fa83145f82f1113fb4f4a229825944e7b57a3bb241"
+        "sha256": "227bd7e0057d3ef80be74b8595bb1f04e0979f886443f0dff3a91eb2bd18f079"
       },
       "4x5": {
         "path": "assets/fr-01-348-4x5.png",
-        "sha256": "43feaf8898f77f42cdefda3748afa28afe6ce86cee8bd9470a2bc2c014555dc5"
+        "sha256": "7c51b6efcd288b6de5889dffa139a3e00f2865ad8c6c68248ce384b90715b286"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-348-daylight-16x9.png",
       "4x5": "assets/fr-01-348-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "633250686ebe89ad7c4316b37db1a1a70e6c930558c796d3aeaae11e0b4a7bfe",
-      "4x5": "5044079628f2a131beee89fa0eff181cf0d72a666cc3e532d239e0b02e545e6a"
+      "16x9": "dbf4146d7b5c6975b3f45cb0483341cffdf7739abbb1d235f93c52c583260e64",
+      "4x5": "b1509cf972e10f72acc611f15bd6239a3e89ff764604d935add717ef33046d69"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château du Lude, Le Lude",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "227bd7e0057d3ef80be74b8595bb1f04e0979f886443f0dff3a91eb2bd18f079",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "227bd7e0057d3ef80be74b8595bb1f04e0979f886443f0dff3a91eb2bd18f079"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "7c51b6efcd288b6de5889dffa139a3e00f2865ad8c6c68248ce384b90715b286"
+    }
+  },
+  "sha256_4x5": "7c51b6efcd288b6de5889dffa139a3e00f2865ad8c6c68248ce384b90715b286"
 }

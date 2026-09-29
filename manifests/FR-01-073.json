@@ -31,7 +31,19 @@
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate 1: the Arc Héré on Place Stanislas — crisp cornice statues with the gilded central group, four flanking stone figures, relief panels, the square's classical pavilions on both sides and the gilded wrought-iron gate at left; the rebuild goal is delivered. Gate 2: caption 'Place Stanislas, Nancy', scenario 25 Sept 2026 14:33 Europe/Paris, 'Jason D's Vision' signature and AI disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T12:33:09Z (unique to this scene), valid 14:30, scenario inside 14:00–15:00; code 0, 8% cloud matches the clear blue sky. Gate 3: text-prompt-only rebuild, no photographic inputs reported. Gate 4: no people/logos of note. Gate 5: Art. 50 PNG metadata present; exact 1920x1080 / 864x1080.",
   "approved_at": "2026-09-25T12:58:33.288662+00:00",
-  "sha256_16x9": "f012497fddf7cbfce699d43a6b4622b3e259a61b8871e2493fa7501fd505e827",
-  "sha256_4x5": "0cdf188bcf97cc8c67ab6ff43f7dea33bc7441f0ac8a5fb2115c640b5d7e0631",
-  "reverted_at": "2026-09-25T18:53:59.835385+00:00"
+  "sha256_16x9": "b0b1d9c6ed13575f6d9abe61d0552710ccea4f63ccd5d906d1975222696df47c",
+  "sha256_4x5": "e91eed7ab319f4dddbcbf7f17880fb73b8fabb887842719f6000d940ce2211b3",
+  "reverted_at": "2026-09-25T18:53:59.835385+00:00",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "b0b1d9c6ed13575f6d9abe61d0552710ccea4f63ccd5d906d1975222696df47c"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "e91eed7ab319f4dddbcbf7f17880fb73b8fabb887842719f6000d940ce2211b3"
+    }
+  }
 }

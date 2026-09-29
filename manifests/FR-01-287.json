@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-287-16x9.png",
-        "sha256": "82cdc09b40b36d2ab1c01cafaa903a541761630ea50802f056ad467a4ce540c3"
+        "sha256": "2ca70125197580de10f147551330e5c49debd7617de98e85f8b55b4d241189eb"
       },
       "4x5": {
         "path": "assets/fr-01-287-4x5.png",
-        "sha256": "0f0c6569942c3e1b063f608d85b9a3cfcd3b94e5a4d395043ad65ab52763c6a6"
+        "sha256": "c331fe00c4c80eb2aef6999d5ef419556d4b1db5602db6c7f436f031ececfa3a"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-287-daylight-16x9.png",
       "4x5": "assets/fr-01-287-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "c2f874c4b2b8950e9a5ba91b711ed6fc27cefe122ff893c02e0161fa9146087e",
-      "4x5": "669116389f490b1adb021321c7a2aba2f5a4ac8cdd95edf233adbf55c9f9ea2d"
+      "16x9": "12658109592ed326fcd9c70ca398fd34e8f7e7577e22c94529fd9db1402636b9",
+      "4x5": "916258b6a78dbb42678855d5876e783ba663ab9aac33e6ef4b1932e9ac8c5059"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château de Carrouges, Carrouges",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "2ca70125197580de10f147551330e5c49debd7617de98e85f8b55b4d241189eb",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "2ca70125197580de10f147551330e5c49debd7617de98e85f8b55b4d241189eb"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "c331fe00c4c80eb2aef6999d5ef419556d4b1db5602db6c7f436f031ececfa3a"
+    }
+  },
+  "sha256_4x5": "c331fe00c4c80eb2aef6999d5ef419556d4b1db5602db6c7f436f031ececfa3a"
 }

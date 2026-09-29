@@ -17,5 +17,19 @@
       "by": "Cosmo QC",
       "note": "Gate 1 PASS: Antibes — Fort Carré's square stone ramparts on a headland above turquoise sea, old-town roofs behind, a yacht anchored in the bay; plausible coastal viewpoint, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080); on-image caption 'Antibes old town and Fort Carré, Antibes', scenario '23 September 2026 · 18:14 Europe/Paris', disclosure and curly-apostrophe signature exact — BUT HELD: weather retrieval cross-check impossible. approvals/FR-01-101.md verified 404 (notes gap 078–124), no PNG metadata, no manifest; per-scene retrieval unverifiable, Gate 2 open. Gate 3 undocumented. Gate 4: no people/logos visible (distant yacht, no branding) — documented only."
     }
-  ]
+  ],
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "6f7f668f8056d6a7d05751057f23f26d689ee33c8e941066923234da55af84d9"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "189e9cf083f9e6c71b28431cb422008e710698cd3be7a6435aa2178f3e79ea27"
+    }
+  },
+  "sha256_4x5": "6f7f668f8056d6a7d05751057f23f26d689ee33c8e941066923234da55af84d9",
+  "sha256_16x9": "189e9cf083f9e6c71b28431cb422008e710698cd3be7a6435aa2178f3e79ea27"
 }

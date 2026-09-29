@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-240-16x9.png",
-        "sha256": "257978b5b54484be2b31189de86c2c78488835997acd1bc292d0bdef180359b8"
+        "sha256": "147676c430258c32129907b1b72f5d35749959b41212f7d6ed18a6302ddda5a5"
       },
       "4x5": {
         "path": "assets/fr-01-240-4x5.png",
-        "sha256": "a36ea462d2dbd83da18144cc7dd515416d57b6fc2bcf440e1a29619784595c38"
+        "sha256": "51bfa1e0d26dad8df55a36e29785288729f8200f8b188d528cdfe1c0914b2110"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-240-daylight-16x9.png",
       "4x5": "assets/fr-01-240-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "a2e0bc0b2d665bbc95119dea734673492d338e2da00962310cad217c0e496884",
-      "4x5": "52da1211ced8997b3c707837c19f17a6d14f418e212045323a7b5774babcf480"
+      "16x9": "6ae653a9e1e1e7200037890ff7e854296aa1e9b883a47189e375f6e50b6a558f",
+      "4x5": "21a20ec36ff14129d367336be353bb1dee7e66ee7df7bf8983ac70bc0f512df2"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château du Plessis-Bourré, Écuillé",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "147676c430258c32129907b1b72f5d35749959b41212f7d6ed18a6302ddda5a5",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "147676c430258c32129907b1b72f5d35749959b41212f7d6ed18a6302ddda5a5"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "51bfa1e0d26dad8df55a36e29785288729f8200f8b188d528cdfe1c0914b2110"
+    }
+  },
+  "sha256_4x5": "51bfa1e0d26dad8df55a36e29785288729f8200f8b188d528cdfe1c0914b2110"
 }

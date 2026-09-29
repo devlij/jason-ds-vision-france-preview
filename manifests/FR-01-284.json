@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-284-16x9.png",
-        "sha256": "23ca60ae42118fd80f0df19893256191d221c321a3ef235ce773632894656981"
+        "sha256": "0b6d4c79903782339a20ee9ce71f75539b52dee34d4e4880d46ae5466cd2dc7c"
       },
       "4x5": {
         "path": "assets/fr-01-284-4x5.png",
-        "sha256": "bf24f17c6486b1caff967f0866c40d7e2e50e72432675c5d5be4054420eb819f"
+        "sha256": "205826a75351c46e5a7bd51945ea9a98e96ca8e29ec9a8d6c8acc390fdc68c9b"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-284-daylight-16x9.png",
       "4x5": "assets/fr-01-284-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "ea384b9f243e6bf0c66fb320f40f0601432d3cbc96322e8f48b5a0d1e6edfac2",
-      "4x5": "b8909adcf7da93a1e0fedc4c1a2552213b79b771ec5e17b8fa8b711d378b8f7f"
+      "16x9": "45912b5b9c71a739fd1d850b04c3f43968a27f5b1f7ecae3f8c2774fcfb6de1c",
+      "4x5": "5056e65fadf78cd3b2f0853fd700c87ea32b410ac8ff6d233558743853f76ee0"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Château de Sully-sur-Loire, Sully-sur-Loire",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "0b6d4c79903782339a20ee9ce71f75539b52dee34d4e4880d46ae5466cd2dc7c",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "0b6d4c79903782339a20ee9ce71f75539b52dee34d4e4880d46ae5466cd2dc7c"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "205826a75351c46e5a7bd51945ea9a98e96ca8e29ec9a8d6c8acc390fdc68c9b"
+    }
+  },
+  "sha256_4x5": "205826a75351c46e5a7bd51945ea9a98e96ca8e29ec9a8d6c8acc390fdc68c9b"
 }

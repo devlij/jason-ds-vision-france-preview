@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-263-16x9.png",
-        "sha256": "ae643da14e202063479dfaf0f8ac525f2b1e458180e426c81a0ffde4d3a1162a"
+        "sha256": "b46b706ab81b3c761b5a663805deba88332bfc1094ddbdc74877958b09a0e3fc"
       },
       "4x5": {
         "path": "assets/fr-01-263-4x5.png",
-        "sha256": "2cac89936c9d6a61ca036848954716e52bc535af211986ef2e93143911fe6126"
+        "sha256": "b8262c8449d233477475b2784359bb626c393d029aa02919b810c09c6917f89e"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-263-daylight-16x9.png",
       "4x5": "assets/fr-01-263-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "dfe4a4729fe54bb55e34be38401323a2bbbd7def8ea9a88813ac2d9367f467e3",
-      "4x5": "8c292d03b938be96416c08200f161929bf0236219d583b6e081017b99f961604"
+      "16x9": "7630b76144b5ed18a056d2c55da33b0b860860cc2b52a8d711de7ba7bc30dfaf",
+      "4x5": "8d1b10fcf9e5757b390ac75170cd62545f440a0571ceebde624794cc6d39b421"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Cascade de Grand Galet, Saint-Joseph",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "b46b706ab81b3c761b5a663805deba88332bfc1094ddbdc74877958b09a0e3fc",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "b46b706ab81b3c761b5a663805deba88332bfc1094ddbdc74877958b09a0e3fc"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "b8262c8449d233477475b2784359bb626c393d029aa02919b810c09c6917f89e"
+    }
+  },
+  "sha256_4x5": "b8262c8449d233477475b2784359bb626c393d029aa02919b810c09c6917f89e"
 }

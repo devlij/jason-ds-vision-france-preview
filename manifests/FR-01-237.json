@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-237-16x9.png",
-        "sha256": "decd5f10677cac047c7173eb5cd25f7d2f9fe4989642fe41cfe12305c1461be3"
+        "sha256": "8e4c4365df036bf86f15c0b8f28d5461a2197eec6d233113c6e647838f088d38"
       },
       "4x5": {
         "path": "assets/fr-01-237-4x5.png",
-        "sha256": "f15153042ba448e086dd613ee4a565fb1d671fc73f9c4ff4a454b81f9434bd6a"
+        "sha256": "e2adadaad2bd9f779e3218442ac91c2c1272591ab55e75761dc1bf98dc4834be"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-237-daylight-16x9.png",
       "4x5": "assets/fr-01-237-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "e4c7691c1440d9034856c5ef04a6177464a78330ff7a2eba06274a715c23acba",
-      "4x5": "aa1d7d67ccccf47e150409c0d7b87ba6a1947c7f7bb62f99c9e1cc252d217926"
+      "16x9": "d07fb0efd92510df3b93d476908efc910cfe1a778c3ba585897eff485a3deec2",
+      "4x5": "890ddf3bb5245ee690e3f963b6fd3b7c7965c991a8d8799d9ce14f79d79bd8d2"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Citadelle de Blaye, Blaye",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "8e4c4365df036bf86f15c0b8f28d5461a2197eec6d233113c6e647838f088d38",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "8e4c4365df036bf86f15c0b8f28d5461a2197eec6d233113c6e647838f088d38"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "e2adadaad2bd9f779e3218442ac91c2c1272591ab55e75761dc1bf98dc4834be"
+    }
+  },
+  "sha256_4x5": "e2adadaad2bd9f779e3218442ac91c2c1272591ab55e75761dc1bf98dc4834be"
 }

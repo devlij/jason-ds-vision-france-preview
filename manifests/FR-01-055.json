@@ -21,8 +21,8 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Roman arena with its three medieval towers above the arcades, Arles rooftops behind — recognizably the Arles Amphitheatre, clean; formats agree. Gate 2: exact 1920x1080/864x1080; caption/scenario '15:38' on-image, disclosure and exact signature legible; per-scene Open-Meteo retrieval 2026-09-25T14:41:22+02:00, unique to the second repo-wide. Gate 3: text-prompt-only lineage. Gate 4: no people or logos (documented only). Gate 5: pass.",
   "approved_at": "2026-09-29T00:34:44.236981+00:00",
-  "sha256_16x9": "463b67b6c39b5cdd36e906e87c3b595229a2c1b2f4ac893254629f9302b7ba1e",
-  "sha256_4x5": "8069e28aa1cd2e6295f7aaa0999eaa46197112d2a03e020e4068a2c5def17acb",
+  "sha256_16x9": "a1245f887c7b3dad2a27d10dde2da1650765db9d00c715f2eb201583be926b4d",
+  "sha256_4x5": "d2da276146348892ca14cc5a3df5d8ee5bf3447f261a6d4fee893d1cf8d4d209",
   "reverted_at": "2026-09-25T18:53:28.429981+00:00",
   "qc_notes": [
     {
@@ -35,5 +35,17 @@
       "by": "Cosmo QC",
       "note": "Gate 2 hold resolved 2026-09-28 (Cosmo QC): builder landed per-scene weather rework (approvals/FR-01-055.md) with a per-scene Open-Meteo retrieval timestamp (2026-09-25T14:41:22+02:00, unique to the second across all 302 repo approval notes); scenario minute sits inside the cited model-valid hour. Hold cleared — re-audit passes all five gates."
     }
-  ]
+  ],
+  "dimensions": {
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "d2da276146348892ca14cc5a3df5d8ee5bf3447f261a6d4fee893d1cf8d4d209"
+    },
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "a1245f887c7b3dad2a27d10dde2da1650765db9d00c715f2eb201583be926b4d"
+    }
+  }
 }

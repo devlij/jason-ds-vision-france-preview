@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-172-16x9.png",
-        "sha256": "d90ac9edb19f16a4d758a98affbfba54afc194cc9af10fcb5b12ed91af39921d"
+        "sha256": "0cfb78844da8c38f0c40885c8f9a955b4d5bf18dbc9661d42c191964d7360a16"
       },
       "4x5": {
         "path": "assets/fr-01-172-4x5.png",
-        "sha256": "22343ff422b6750b106e7d30a6321b6c0a82b06f363dfce3617f383eaefc78ff"
+        "sha256": "cb6527d1e2746b75d6fb4723e82ce2525993925b7c174d763cbfd782a7d561f1"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-172-daylight-16x9.png",
       "4x5": "assets/fr-01-172-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "15051043756663c086b6a81f75c2630e89a4126d0be186241087a5a794623ead",
-      "4x5": "933f1e726046125887e64a3e391f673dc49862fb08d2a81d0c8dd79a9ae9b657"
+      "16x9": "9ee251fb1d4e8ca344ef2c0c5cb9372e1ff6394424e6db8b055b8c902de4321e",
+      "4x5": "78abb70dcd5a9949998026bd5d4d56459e883abebca13d9ed339c7ad697731ae"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Aiguilles de Bavella, Zonza",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "0cfb78844da8c38f0c40885c8f9a955b4d5bf18dbc9661d42c191964d7360a16",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "0cfb78844da8c38f0c40885c8f9a955b4d5bf18dbc9661d42c191964d7360a16"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "cb6527d1e2746b75d6fb4723e82ce2525993925b7c174d763cbfd782a7d561f1"
+    }
+  },
+  "sha256_4x5": "cb6527d1e2746b75d6fb4723e82ce2525993925b7c174d763cbfd782a7d561f1"
 }

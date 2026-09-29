@@ -15,21 +15,21 @@
     "source_night": {
       "16x9": {
         "path": "assets/fr-01-338-16x9.png",
-        "sha256": "aa6072815c16cb84b2a02c2b3b788529dee71f61fa6b0f2bf2eaf10ca1557bcd"
+        "sha256": "86d81264f663a5d3a8e01bbe820b2bea22290f57c7914c64c8afd2eb0dd58792"
       },
       "4x5": {
         "path": "assets/fr-01-338-4x5.png",
-        "sha256": "07b5e86a8aa7792a33b1b3ad060cf98063bc5fba80f0c7292d8bfb33a39d79c9"
+        "sha256": "059ed18486071332fc869e4bb8e58bad23ff4104aee9b8d4964315442cb7a47e"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
     },
     "files": {
       "16x9": "assets/fr-01-338-daylight-16x9.png",
       "4x5": "assets/fr-01-338-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "6c57f2af52d8e20c9e441ec7f4ecf56be05f05b92c5124e7c5518b647abe2c7b",
-      "4x5": "2040e1c61db0146641a1b5987b4b2be32ab998e80857540a387c446de6f68ffe"
+      "16x9": "1f98e767860aacb60d4d7d8ff04b193d81722d154d374a3d85536aff8702c883",
+      "4x5": "79835e2a35d0125f429632742bf51d038aea29cac1c70744d7db7f0a4709d617"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Anse du Gouvernement, Langlade",
@@ -38,5 +38,19 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "sha256_16x9": "86d81264f663a5d3a8e01bbe820b2bea22290f57c7914c64c8afd2eb0dd58792",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "86d81264f663a5d3a8e01bbe820b2bea22290f57c7914c64c8afd2eb0dd58792"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "059ed18486071332fc869e4bb8e58bad23ff4104aee9b8d4964315442cb7a47e"
+    }
+  },
+  "sha256_4x5": "059ed18486071332fc869e4bb8e58bad23ff4104aee9b8d4964315442cb7a47e"
 }
