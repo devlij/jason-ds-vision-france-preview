@@ -9,12 +9,12 @@
   "description": "The recorded tourist view is alpine needle and summit station above Mont Blanc massif snowfields. The place named on the card is Aiguille du Midi, Chamonix, in Auvergne-Rhône-Alpes. Light and weather follow the modelled scenario 23 September 2026 · 15:06 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of the Aiguille du Midi above Chamonix under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-010-16x9.png?v=batch009",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-010-4x5.png?v=batch009",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
   "approval_basis": "Gate 1 PASS: Aiguille du Midi recognizable — the rocky alpine needle with its summit station perched on top, set above the snow-covered Mont Blanc massif ridgelines under a bright sun, clean framing, no artifacts. Gate 2 PASS: masters 1920x1080 and 864x1080 exact per sweep; on-image text verified — caption 'Aiguille du Midi, Chamonix', scenario '23 September 2026 · 15:06 Europe/Paris', 'AI-generated artistic interpretation · Not a photograph.' on a legible bottom-left scrim, and 'Jason D's Vision' (curly apostrophe) bottom-right. Weather cross-check: approvals/FR-01-010.md records this scene's own Open-Meteo retrieval 2026-09-25T23:46:48Z (unique to the second, fresh today), model-valid hour 2026-09-23T15:00 Europe/Paris containing the 15:06 scenario minute, and per-location values weather code 0 clear, cloud cover 0%, −0.6°C, wind 9.7 km/h, model elevation 3676 m. Gate 3 PASS: note documents text-prompt-only pictorial frame with no photographic inputs. Gate 4 documented: no people or logos present. Gate 5: all gates pass.",
   "approved_at": "2026-09-26T00:47:01.527623+00:00",
-  "reverted_at": "2026-09-25T18:52:07.133590+00:00",
+  "reverted_at": "2026-09-30T07:13:17.245870+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T18:52:07.133590+00:00",
@@ -25,6 +25,11 @@
       "at": "2026-09-25T19:39:00.600515+00:00",
       "by": "Cosmo QC",
       "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Aiguille du Midi summit station atop the rock aiguille, panoramic snow-covered Mont Blanc ranges under bright sun; clean framing, no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Aiguille du Midi, Chamonix', scenario '23 September 2026 · 15:06 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-010.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: no people visible. Gate 5: not ready."
+    },
+    {
+      "at": "2026-09-30T07:13:17.245870+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification): the summit station lacks the defining tall telecommunications mast (TDF antenna) that crowns the real Aiguille du Midi piton central; the render shows only a tiny antenna on a simplified summit building. Gate 1 hold — rework: add the true tall TDF mast. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
   "sha256_16x9": "51c038a5b3e24f3a8eb2731058f6fb041bc86cfd7fd8b5d3a2e36b0ebbba2e63",
