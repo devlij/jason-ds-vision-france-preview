@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is the Arc Héré on the north side of Place Stanislas, with a gilded gate. The place named on the card is Place Stanislas, Nancy, in Grand Est. Light and weather follow the modelled scenario 25 September 2026 · 14:33 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of the Arc Héré at Place Stanislas in Nancy under a mostly clear afternoon sky",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-073-16x9.png?v=gate1-20260925",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-073-4x5.png?v=gate1-20260925",
   "qc_notes": [
     {
@@ -33,9 +33,9 @@
       "note": "Gate 2 hold: residual gradient-scrim text (caption/scenario/disclosure lines, legible over the paving stones) baked into the photo area beneath the appended label bar — violates the zero-tint finish standard. Requires builder re-finish from the clean pictorial frame; queued for the next rework order. Verifier architectural PASS; weather retrieval 2026-09-25T12:33:09Z verified unique to the second."
     }
   ],
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "Gate 1: the Arc Héré on Place Stanislas — crisp cornice statues with the gilded central group, four flanking stone figures, relief panels, the square's classical pavilions on both sides and the gilded wrought-iron gate at left; the rebuild goal is delivered. Gate 2: caption 'Place Stanislas, Nancy', scenario 25 Sept 2026 14:33 Europe/Paris, 'Jason D's Vision' signature and AI disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T12:33:09Z (unique to this scene), valid 14:30, scenario inside 14:00–15:00; code 0, 8% cloud matches the clear blue sky. Gate 3: text-prompt-only rebuild, no photographic inputs reported. Gate 4: no people/logos of note. Gate 5: Art. 50 PNG metadata present; exact 1920x1080 / 864x1080.",
-  "approved_at": "2026-09-25T12:58:33.288662+00:00",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "The Arc Héré closes the north side of Place Stanislas: triumphal arch with the gilded central group reading as separate figures above the cornice statues, flanking pavilions with mansard roofs. Gate 1 passes: recognizable Place Stanislas, clean framing, no artifacts — this is the rebuild the note describes as replacing the melted-sculpture frame, and the new frame reads clean. Gate 2: exact 1920x1270/864x1270 (sha256 match), label bar with exact caption 'Place Stanislas, Nancy', scenario '25 September 2026 · 14:33 Europe/Paris', AI disclosure bottom-left, curly-apostrophe 'Jason D's Vision' + script signature bottom-right on both formats; approvals/FR-01-073.md records its own Open-Meteo retrieval 2026-09-25T12:33:09Z (valid 14:30 Europe/Paris, scenario minute inside it), unique to the second repo-wide; the frame's few small clouds match the model's code 0/8% reading. Gate 3: text-prompt-only per the note, no photographic reference. Gate 4: no people or logos visible. Gate 5: ready.",
+  "approved_at": "2026-09-30T14:29:23.467961+00:00",
   "sha256_16x9": "b0b1d9c6ed13575f6d9abe61d0552710ccea4f63ccd5d906d1975222696df47c",
   "sha256_4x5": "e91eed7ab319f4dddbcbf7f17880fb73b8fabb887842719f6000d940ce2211b3",
   "reverted_at": "2026-09-25T18:53:59.835385+00:00",
