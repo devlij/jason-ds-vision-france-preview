@@ -11,10 +11,10 @@
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-027-16x9.png?v=batch025",
   "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-027-4x5.png?v=batch025",
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
   "approval_basis": "Basilique Saint-Denis from the parvis: the tall west tower with pyramidal spire, the large rose window over the three sculpted Gothic portals, and the arcaded gallery — the pioneering Gothic basilica reads clearly. Gate 1 passes on the rose-window-and-tower composition with clean daylight framing. Gate 2: caption 'Basilique Saint-Denis, Saint-Denis', scenario '23 September 2026 · 15:13 Europe/Paris', AI disclosure bottom-left; curly-apostrophe 'Jason D's Vision' signature bottom-right; sweep verified exact 1920×1080/864×1080. approvals/FR-01-027.md absent from the repo, so the weather-retrieval cross-check had no recorded time; scenario minute unique to this scene, no reuse. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: a few small anonymous figures at the portals, no logos; documented. Gate 5: ready.",
   "approved_at": "2026-09-25T06:33:46.352647+00:00",
-  "reverted_at": "2026-09-25T18:52:36.882353+00:00",
+  "reverted_at": "2026-09-30T07:13:21.936112+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T18:52:36.882353+00:00",
@@ -25,6 +25,11 @@
       "at": "2026-09-28T18:19:55.075753+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 hold (Cosmo QC 2026-09-28): no approvals/FR-01-027.md in the repo — no recorded Open-Meteo retrieval timestamp, so the scenario-timestamp/weather cross-check cannot be completed. Gate 1 passes (Gothic west front with rose window and single tall tower, clean). Hold until the builder pushes the evidence note."
+    },
+    {
+      "at": "2026-09-30T07:13:21.936112+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification): the west facade shows a finished tall north (left) tower with a completed conical spire; the real Saint-Denis north tower reconstruction is still incomplete (lower stages, finish targeted ~2030), not a completed historical spire. Gate 1 hold — rework: depict the north tower in its true under-reconstruction state. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
   "dimensions": {
