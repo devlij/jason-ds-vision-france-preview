@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is high Gothic west front with mismatched plain and Flamboyant spires. The place named on the card is Chartres Cathedral, Chartres, in Centre-Val de Loire. Model data from Open-Meteo, retrieved 2026-09-25T14:38:44+02:00 (2026-09-25T12:38:44Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.7°C, wind 3.2 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Chartres Cathedral in Chartres under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-039-16x9.png?v=batch037",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-039-4x5.png?v=batch037",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -18,12 +18,12 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:38:44+02:00 (2026-09-25T12:38:44Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.7°C, wind 3.2 km/h, precipitation 0.0 mm.",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Chartres Cathedral, Chartres — Daylight. West front with mismatched plain and Flamboyant spires flanking the rose window; scenario 15:27 matches the builder note; retrieved 2026-09-25T12:38:44Z (valid 15:00, 25.7°C). Label bar exact. No people/logos. Inter-format subject agreement verified.",
   "approved_at": "2026-09-28T12:20:44.892265+00:00",
   "sha256_16x9": "2d714c4df25e833df93b9057287e02d117119e7a3e9fe3602b80a9fa0da14316",
   "sha256_4x5": "3839af56f71a6cf557eab581dd888c83e77af78dffb9d889ce4468feaeec89a1",
-  "reverted_at": "2026-09-25T18:52:58.942215+00:00",
+  "reverted_at": "2026-09-30T07:13:26.220846+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T18:52:58.942215+00:00",
@@ -34,6 +34,11 @@
       "at": "2026-09-28T12:20:40.032690+00:00",
       "by": "Cosmo QC",
       "note": "Cosmo QC re-audit 2026-09-28: builder's per-scene weather rework verified repo-wide — Open-Meteo retrieval timestamps unique to the second across all France scenes (this scene retrieved 2026-09-25T12:38:44Z). The Sep-25 withdrawal is cleared; five-gate re-audit PASS. Proceeding to re-approval."
+    },
+    {
+      "at": "2026-09-30T07:13:26.220846+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification): the west-front towers are reversed — the render puts the plain Clocher Vieux-style spire viewer-left and the ornate Flamboyant Clocher Neuf viewer-right; the real Chartres Cathedral has the Flamboyant Clocher Neuf on the north/left and the plainer Clocher Vieux on the south/right facing the west facade. Gate 1 hold — rework: place the towers correctly. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
   "dimensions": {
