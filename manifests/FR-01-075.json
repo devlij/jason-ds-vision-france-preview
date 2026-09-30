@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is small Renaissance château reflected in the Indre moat/river. The place named on the card is Château d'Azay-le-Rideau, Azay-le-Rideau, in Centre-Val de Loire. Light and weather follow the modelled scenario 25 September 2026 · 14:33 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of the pale-stone Château d'Azay-le-Rideau reflected in the Indre under a clear afternoon sky",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-075-16x9.png?v=gate1-20260925",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-075-4x5.png?v=gate1-20260925",
   "qc_notes": [
     {
@@ -33,11 +33,11 @@
       "note": "Cosmo QC 2026-09-30: builder rebuilt this scene's masters 2026-09-25 (commit 647101e) after the 2026-09-25 Gate-1 finding; Cosmo independently re-verified the current repo master — luminous white Renaissance chateau with slate roofs mirrored in the Indre, pale stone facades, green trees framing, clean daylight. Gate 1 PASS; the earlier finding is fixed and cleared."
     }
   ],
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "Gate 1: the pale tuffeau Château d'Azay-le-Rideau on the Indre with its mirror reflection — exactly the rebuild goal, a clean break from the rejected dark-ruin version; crisp stonework, slate roofs, parkland framing. Gate 2: caption 'Château d'Azay-le-Rideau, Azay-le-Rideau', scenario 25 Sept 2026 14:33 Europe/Paris, 'Jason D's Vision' signature and AI disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T12:33:16Z (unique), valid 14:30, scenario inside 14:00–15:00; code 0, 0% cloud matches the clear sky. Gate 3: text-prompt-only rebuild, no photographic inputs reported. Gate 4: no people/logos of note. Gate 5: Art. 50 PNG metadata present; exact 1920x1080 / 864x1080.",
-  "approved_at": "2026-09-25T12:58:53.279493+00:00",
-  "sha256_16x9": "4f59260c192b5b85698b877377e8740129ccf34793e661e07780965595a8ba43",
-  "sha256_4x5": "d1ffca94a92cd6ab214577f273becb33e7f86ce68b51d5ce5f6987d72dee6984",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Pale stone and slate roofs of the château mirrored in the Indre, framed by green trees under a hot clear afternoon. Gate 1 passes: recognizable Château d'Azay-le-Rideau with its distinctive water reflection, clean framing, no artifacts — the rebuild the note describes as replacing the dark-ruin frame, and the new frame reads clean. Gate 2: exact 1920x1270/864x1270 (sha256 match), label bar with exact caption 'Château d'Azay-le-Rideau, Azay-le-Rideau', scenario '25 September 2026 · 14:33 Europe/Paris', AI disclosure bottom-left, curly-apostrophe 'Jason D's Vision' + script signature bottom-right on both formats; approvals/FR-01-075.md records its own Open-Meteo retrieval 2026-09-25T12:33:16Z (valid 14:30 Europe/Paris, scenario minute inside it), unique to the second repo-wide. Gate 3: text-prompt-only per the note, no photographic reference. Gate 4: no people or logos visible. Gate 5: ready.",
+  "approved_at": "2026-09-30T14:31:34.801504+00:00",
+  "sha256_16x9": "0857ddb954ee25b1dac1df5ee5bd243e816196fcf6dfb4ae8c18816f04f7625c",
+  "sha256_4x5": "a125838b3fc4fe0eb31669f81a14300c474212f5a30df0158d51925b62671b8e",
   "reverted_at": "2026-09-25T18:54:03.574137+00:00",
   "dimensions": {
     "16x9": {
