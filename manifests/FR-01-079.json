@@ -27,6 +27,11 @@
       "at": "2026-09-25T18:54:10.992002+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-30T20:41:17.791145+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 hold 2026-09-30 (Cosmo QC visual): the 16:9 master carries a legacy finish leak — faint ghost caption text on a gradient scrim across the lower photo area ABOVE the label bar (text fragments readable over the trees/water in the bottom third of the frame). The label-bar standard requires zero tint/text over the artwork. Builder must re-finish the master with the over-photo scrim removed (pixels above the bar clean) and re-push both masters; Cosmo will re-audit after. On-image strings otherwise correct: 'Citadel of Besancon, Besancon', scenario '23 September 2026 · 13:35 Europe/Paris', disclosure, signature."
     }
   ],
   "dimensions": {
