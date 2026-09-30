@@ -26,6 +26,11 @@
       "at": "2026-09-25T18:54:07.408354+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-30T20:41:02.529848+00:00",
+      "by": "Cosmo QC",
+      "note": "Cosmo QC 2026-09-30 (independent five-gate re-audit after the 2026-09-25 whole-frame-defocus finding): the builder's rebuild claim verified against the current bytes (sha256-identical to the manifest anchors) — the frame is sharp and clean, verified visually by Cosmo: golden Perigord stone facades, readable windows, doorways and cobblestones, the church tower in the distance under a clear blue sky, no defocus anywhere. The earlier finding is cleared and resolved by this re-audit. Gate 1 PASS: recognizable Sarlat old town, clean framing, no artifacts. Gate 2 PASS: exact 1920x1270/864x1270; on-image caption 'Sarlat old town, Sarlat-la-Caneda', scenario '25 September 2026 · 14:33 Europe/Paris', AI disclosure bottom-left, 'Jason D's Vision' + script 'Jason A. Devlin' bottom-right. approvals/FR-01-077.md records its own Open-Meteo retrieval 2026-09-25T12:33:22Z, valid hour 2026-09-25T14:30 Europe/Paris covering the scenario minute, code 0 clear matching the bright frame. Gate 3: note claims text-prompt-only lineage. Gate 4: two distant anonymous figures, no logos — documented. Ready for approval."
     }
   ],
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
