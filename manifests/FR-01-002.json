@@ -9,12 +9,12 @@
   "description": "The recorded tourist view is glass pyramid centered in Cour Napoléon with palace wings framing. The place named on the card is Louvre Pyramid, Paris, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 14:51 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of the Louvre Pyramid in Paris under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-002-16x9.png?v=batch001",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-002-4x5.png?v=batch001",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
   "approval_basis": "Gate 1 PASS: Louvre Pyramid recognizable in Cour Napoléon — the glass pyramid centered between the palace wings with the foreground reflecting pool and small tourist crowds, clean framing, no artifacts. Gate 2 PASS: masters 1920x1080 and 864x1080 exact per sweep; on-image text verified — caption 'Louvre Pyramid, Paris', scenario '23 September 2026 · 14:51 Europe/Paris', 'AI-generated artistic interpretation · Not a photograph.' on a legible bottom-left scrim, and 'Jason D's Vision' (curly apostrophe) bottom-right. Weather cross-check: approvals/FR-01-002.md records this scene's own Open-Meteo retrieval 2026-09-25T23:46:40Z (unique to the second, fresh today), model-valid hour 2026-09-23T14:00 Europe/Paris containing the 14:51 scenario minute, and per-location values weather code 3 overcast 100%, 23.9°C, wind 3.3 km/h, model elevation 69 m. Gate 3 PASS: note documents text-prompt-only pictorial frame with no photographic inputs. Gate 4 documented: only small unidentifiable tourist figures, no focal logos. Gate 5: all gates pass.",
   "approved_at": "2026-09-26T00:44:13.619825+00:00",
-  "reverted_at": "2026-09-25T18:51:55.183836+00:00",
+  "reverted_at": "2026-09-30T07:13:03.775747+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T18:51:55.183836+00:00",
@@ -25,6 +25,11 @@
       "at": "2026-09-25T19:37:57.543536+00:00",
       "by": "Cosmo QC",
       "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Louvre Pyramid centered in Cour Napoleon with reflecting pool, flanking domed pavilions, small side pyramids; clean framing, no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Louvre Pyramid, Paris', scenario '23 September 2026 · 14:51 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-002.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: small unidentifiable plaza figures only. Gate 5: not ready."
+    },
+    {
+      "at": "2026-09-30T07:13:03.775747+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification): the Cour Napoléon water feature is fabricated as a large rectangular reflecting pool centered on the pyramid axis; the real Cour Napoléon uses triangular/polygonal fountain basins, not a rectangular mirror pool. Gate 1 hold — rework: correct the basin geometry to the real triangular fountain layout. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
   "sha256_16x9": "00fcd14c3eb2546e9c865bb19a44b76a00a1df1a5952dd90befc34b920c10b16",
