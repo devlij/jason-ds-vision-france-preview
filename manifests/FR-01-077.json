@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is honey-stone medieval streets and steep slate roofs. The place named on the card is Sarlat old town, Sarlat-la-Canéda, in Nouvelle-Aquitaine. Light and weather follow the modelled scenario 25 September 2026 · 14:33 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Sarlat-la-Canéda old town under a clear hot afternoon sky",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-077-16x9.png?v=gate1-20260925",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-077-4x5.png?v=gate1-20260925",
   "qc_notes": [
     {
@@ -33,11 +33,11 @@
       "note": "Cosmo QC 2026-09-30 (independent five-gate re-audit after the 2026-09-25 whole-frame-defocus finding): the builder's rebuild claim verified against the current bytes (sha256-identical to the manifest anchors) — the frame is sharp and clean, verified visually by Cosmo: golden Perigord stone facades, readable windows, doorways and cobblestones, the church tower in the distance under a clear blue sky, no defocus anywhere. The earlier finding is cleared and resolved by this re-audit. Gate 1 PASS: recognizable Sarlat old town, clean framing, no artifacts. Gate 2 PASS: exact 1920x1270/864x1270; on-image caption 'Sarlat old town, Sarlat-la-Caneda', scenario '25 September 2026 · 14:33 Europe/Paris', AI disclosure bottom-left, 'Jason D's Vision' + script 'Jason A. Devlin' bottom-right. approvals/FR-01-077.md records its own Open-Meteo retrieval 2026-09-25T12:33:22Z, valid hour 2026-09-25T14:30 Europe/Paris covering the scenario minute, code 0 clear matching the bright frame. Gate 3: note claims text-prompt-only lineage. Gate 4: two distant anonymous figures, no logos — documented. Ready for approval."
     }
   ],
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "Gate 1: Sarlat old town — a sharp honey-stone lane with lauze roofs and carved window frames, church tower closing the vista, cobbled street; exactly the rebuild goal. Gate 2: caption 'Sarlat old town, Sarlat-la-Canéda', scenario 25 Sept 2026 14:33 Europe/Paris, 'Jason D's Vision' signature and AI disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T12:33:22Z (unique), valid 14:30, scenario inside 14:00–15:00; code 0, 0% cloud matches the clear sky. Gate 3: text-prompt-only rebuild, no photographic inputs reported. Gate 4: two tiny distant figures, documented only. Gate 5: Art. 50 PNG metadata present; exact 1920x1080 / 864x1080.",
-  "approved_at": "2026-09-25T12:59:10.249597+00:00",
-  "sha256_16x9": "161b9256e36885461840b9b78983a1c76d2c380e28c170a532f27d5a0b7ed17b",
-  "sha256_4x5": "d97257d2506ec31e5582ea3585d7c6701ded3e2264f76076e289b69b908914f2",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "A cobblestone street in golden Perigord stone: rows of old houses with steep slate roofs, the church tower rising at the end of the street under a clear blue sky, two small figures walking mid-street. Gate 1 passes: recognizably Sarlat old town, clean framing, no artifacts — the whole-frame defocus finding from 2026-09-25 is gone; the current master (sha256-identical to the manifest anchor) is sharp edge to edge, which I verified visually myself, so this is a genuine re-audit clearance, not a builder claim. Gate 2: both masters at exact 1920x1270/864x1270, label bar under the photo with exact caption 'Sarlat old town, Sarlat-la-Caneda', scenario '25 September 2026 · 14:33 Europe/Paris' matching the card, 'AI-generated artistic interpretation · Not a photograph.' bottom-left, curly-apostrophe 'Jason D's Vision' plus script 'Jason A. Devlin' bottom-right on both formats; approvals/FR-01-077.md records its own Open-Meteo retrieval 2026-09-25T12:33:22Z (valid hour 2026-09-25T14:30 Europe/Paris covers the scenario minute; code 0 clear, 0% cloud matches the bright clear frame), unique to the second. Gate 3: note claims text-prompt-only lineage, no photographic reference passed to the generator. Gate 4: two distant anonymous figures, no logos — documented. Gate 5: ready.",
+  "approved_at": "2026-09-30T20:41:09.547080+00:00",
+  "sha256_16x9": "b84d8cc95759a86908a7243dc58b986712ff45ceb3e7e3f58d767ea6aa741d1f",
+  "sha256_4x5": "195f97bc054810da530e9f8320fb664d9b4dcbe6ab877e353212ca01193b652b",
   "reverted_at": "2026-09-25T18:54:07.408354+00:00",
   "dimensions": {
     "4x5": {
