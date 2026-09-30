@@ -52,5 +52,14 @@
       "sha256": "4e3a7253f37316822fdd43250463248b4eea0ba2cd39da7deb43e9712d9b79dd"
     }
   },
-  "sha256_4x5": "4e3a7253f37316822fdd43250463248b4eea0ba2cd39da7deb43e9712d9b79dd"
+  "sha256_4x5": "4e3a7253f37316822fdd43250463248b4eea0ba2cd39da7deb43e9712d9b79dd",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "reverted_at": "2026-09-30T07:39:38.413683+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T07:39:38.413683+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): Chevet shown with roughly seven radiating chapels and conventional stacked flying buttresses; the real Cathédrale Saint-Julien du Mans chevet is defined by thirteen radiating chapels and its unique inverted-Y (arcs-boutants en Y) flying-buttress system. Gate 1 hold — rework: render the true thirteen-chapel chevet with Y-buttresses. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
