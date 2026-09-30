@@ -52,5 +52,14 @@
       "sha256": "5b053a9667d545d72336f9a527a7dd3542a90cab996a2ba3b5dc2cef159ea006"
     }
   },
-  "sha256_4x5": "5b053a9667d545d72336f9a527a7dd3542a90cab996a2ba3b5dc2cef159ea006"
+  "sha256_4x5": "5b053a9667d545d72336f9a527a7dd3542a90cab996a2ba3b5dc2cef159ea006",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "reverted_at": "2026-09-30T07:40:18.487838+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T07:40:18.487838+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): Church rendered with stark white walls; the real Notre-Dame-des-Laves at Piton Sainte-Rose is characteristically painted pink/salmon (rose) Art Deco, famously ringed by the 1977 lava flow. Gate 1 hold — rework: render the true pink Art Deco church with the lava flow. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
