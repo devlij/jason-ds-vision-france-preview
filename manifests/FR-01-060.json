@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is royal château on a cliff terrace above the Loire. The place named on the card is Château d'Amboise, Amboise, in Centre-Val de Loire. Model data from Open-Meteo, retrieved 2026-09-25T14:41:32+02:00 (2026-09-25T12:41:32Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.1°C, wind 7.2 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Château d'Amboise under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-060-16x9.png?v=gate2wx",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-060-4x5.png?v=gate2wx",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -18,12 +18,12 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T16:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-25T14:41:32+02:00 (2026-09-25T12:41:32Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.1°C, wind 7.2 km/h, precipitation 0.0 mm.",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
   "approval_basis": "Gate 1: royal château on the cliff terrace above the Loire, round towers and chapel spire — recognizably Château d'Amboise, clean; formats agree. Gate 2: exact 1920x1080/864x1080; caption/scenario '23 September 2026 · 16:44 Europe/Paris' verified on-image, disclosure and exact signature legible; per-scene Open-Meteo retrieval 2026-09-25T14:41:32+02:00, unique to the second repo-wide, model-valid hour covers 16:44. Gate 3: text-prompt-only lineage. Gate 4: no people or logos (documented only). Gate 5: pass.",
   "approved_at": "2026-09-29T00:35:14.928385+00:00",
   "sha256_16x9": "af303588357800f3096058101095c5c0abf9b763fb7742f9d1087aab0cb78d2f",
   "sha256_4x5": "511db362e589e3bb923ed5fef78888fa1b9f4798e15edfba5e46f87dfbf7b88d",
-  "reverted_at": "2026-09-25T18:53:37.338864+00:00",
+  "reverted_at": "2026-09-30T07:21:53.049599+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T18:53:37.338864+00:00",
@@ -34,6 +34,11 @@
       "at": "2026-09-29T00:35:11.986798+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 hold resolved 2026-09-28 (Cosmo QC): builder landed per-scene weather rework (approvals/FR-01-060.md) with a per-scene Open-Meteo retrieval timestamp (2026-09-25T14:41:32+02:00, unique to the second across all 302 repo approval notes); scenario minute sits inside the cited model-valid hour. Hold cleared — re-audit passes all five gates."
+    },
+    {
+      "at": "2026-09-30T07:21:53.049599+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the repo master): the master shows a long fantasy multi-tower facade with ~6 conical pepper-pot towers on a jagged cliff; the real Château d'Amboise from the Loire is defined by the massive squat Tour des Minimes and the Logis royal with its open arched gallery, plus the separate Chapelle Saint-Hubert — not a continuous spiked fairy-castle silhouette. Gate 1 hold — rework: render the true Amboise profile (Tour des Minimes, Logis royal gallery, Chapelle Saint-Hubert). Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
   "dimensions": {
