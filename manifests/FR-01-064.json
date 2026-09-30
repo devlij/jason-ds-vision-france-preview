@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is half-timbered houses along the Ill canals. The place named on the card is Petite France, Strasbourg, in Grand Est. Model data from Open-Meteo, retrieved 2026-09-29T22:07:51+02:00 (2026-09-29T20:07:51Z), valid 2026-09-23T13:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 20.3°C, wind 3.1 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Petite France in Strasbourg under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-064-16x9.png?v=wx06429",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-064-4x5.png?v=wx06429",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -18,15 +18,20 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T13:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:07:51+02:00 (2026-09-29T20:07:51Z), valid 2026-09-23T13:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 20.3°C, wind 3.1 km/h, precipitation 0.0 mm.",
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "Gate1: Petite France's half-timbered houses with flower boxes along the Ill river, sluice bridge left, reflections — the classic Strasbourg riverside viewpoint. Clean framing, no artifacts. Gate2: exact 1920x1080/864x1080; caption 'Petite France, Strasbourg', scenario '23 September 2026 · 15:46 Europe/Paris', AI disclosure on gradient scrim; 'Jason D's Vision' bottom-right. No approvals note (404); sequential 15:46 scenario, no stale-weather evidence. Gate3: no photographic inputs evidenced. Gate4: no recognizable individuals, logos, or private property; generic old-town fronts only — documented only.",
-  "approved_at": "2026-09-25T10:32:13.356790+00:00",
+  "qc_status": "Cosmo QC 5/5",
+  "approval_basis": "Gate 1 — half-timbered houses with flower boxes along the Ill, weir left; photo area byte-identical to the QC'd frame, zoom-checked for artifacts (clean); 16:9/4:5 subject identity agrees. Gate 2 — exact dims; on-image bar reads caption \"Petite France, Strasbourg\", \"Scenario: 23 September 2026 · 13:46 Europe/Paris\" (verified on both masters), AI disclosure and exact \"Jason D's Vision\" + script signature, zero tint; weather retrieval 2026-09-29T20:07:51Z unique to the second, model-valid hour 2026-09-23T13:00 Europe/Paris, code 0 / cloud 0%. Gate 3 — text-prompt-only lineage, no photographic inputs. Gate 4 — no people, no logos.",
+  "approved_at": "2026-09-30T02:43:55.074935+00:00",
   "reverted_at": "2026-09-25T18:53:44.329753+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T18:53:44.329753+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-30T02:43:55.074935+00:00",
+      "by": "Cosmo QC",
+      "note": "Cosmo QC re-verification 2026-09-29 (genuine five-gate re-audit after the 2026-09-25 approval withdrawal): the builder's weather rework (commit a2cfbd50) was verified pixel-by-pixel — photo areas byte-identical to the previously QC'd frames on the re-touched scenes, all 59 retrieval timestamps unique to the second with none shared across batches, per-scene weather JSONs agree with the per-scene notes, every scenario minute sits inside its model-valid hour, lineage is text-prompt-only with no photographic inputs, and inter-format subject agreement confirmed. This scene is resolved and PASS on all five gates."
     }
   ],
   "dimensions": {
