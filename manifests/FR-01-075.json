@@ -26,6 +26,11 @@
       "at": "2026-09-25T18:54:03.574137+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-30T14:31:25.189046+00:00",
+      "by": "Cosmo QC",
+      "note": "Cosmo QC 2026-09-30: builder rebuilt this scene's masters 2026-09-25 (commit 647101e) after the 2026-09-25 Gate-1 finding; Cosmo independently re-verified the current repo master — luminous white Renaissance chateau with slate roofs mirrored in the Indre, pale stone facades, green trees framing, clean daylight. Gate 1 PASS; the earlier finding is fixed and cleared."
     }
   ],
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
