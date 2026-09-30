@@ -31,5 +31,14 @@
       "height": 1270,
       "sha256": "bc5589c3db93bac38aefab5640711dfe5a1dd5d7ef72a4834dd3d9c9587f6f9f"
     }
-  }
+  },
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "reverted_at": "2026-09-30T07:34:55.979389+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T07:34:55.979389+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): the central landmark is fabricated as an extremely tall multi-tiered needle Gothic skyscraper spire; the real Saint-Émilion clocher of the monolithic church is a chunky square limestone tower of staged Gothic belfry proportions, not a slender needle spire. Gate 1 hold — rework: render the true chunky belfry tower. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
