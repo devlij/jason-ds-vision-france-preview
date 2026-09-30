@@ -21,5 +21,14 @@
       "sha256": "6365c77ef0ba931172a98dfd9089a229e3870833cd8fdd9fa05e3e669d71804f"
     }
   },
-  "sha256_4x5": "6365c77ef0ba931172a98dfd9089a229e3870833cd8fdd9fa05e3e669d71804f"
+  "sha256_4x5": "6365c77ef0ba931172a98dfd9089a229e3870833cd8fdd9fa05e3e669d71804f",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "reverted_at": "2026-09-30T07:40:22.985456+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T07:40:22.985456+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): Church shown as rough-hewn stone with a heavy square stone belfry on the beach sand, without the wooden pier; the real Église Saint-Henri des Anses-d'Arlet is white-plastered with brown stone quoins and a distinctive multi-tier red wooden steeple, and is defined by its postcard alignment with the wooden pontoon. Gate 1 hold — rework: render the true plastered church with red wooden steeple and pontoon. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
