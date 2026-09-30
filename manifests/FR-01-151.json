@@ -21,5 +21,14 @@
       "sha256": "a8afb1e1653e9cc60b7fc5808cbe373808944896e6605e1fdeae5038e09ff3e0"
     }
   },
-  "sha256_4x5": "a8afb1e1653e9cc60b7fc5808cbe373808944896e6605e1fdeae5038e09ff3e0"
+  "sha256_4x5": "a8afb1e1653e9cc60b7fc5808cbe373808944896e6605e1fdeae5038e09ff3e0",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "reverted_at": "2026-09-30T07:39:26.632114+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T07:39:26.632114+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): Entrance rendered as a light-stone wall with a closed green wooden double door under a tiled gable; the real Camp de la Transportation is defined by the Arche d'Entrée — an open red-brick segmental portal with brick piers and a 'CAMP DE LA TRANSPORTATION' plaque, not a closed wooden gate. Gate 1 hold — rework: render the true red-brick open portal. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
