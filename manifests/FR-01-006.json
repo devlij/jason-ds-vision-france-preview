@@ -9,12 +9,12 @@
   "description": "The recorded tourist view is baroque palace façade from Cour d'Honneur / Place d'Armes. The place named on the card is Palace of Versailles, Versailles, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 14:59 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of the Palace of Versailles under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-006-16x9.png?v=batch005",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-006-4x5.png?v=batch005",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
   "approval_basis": "Gate 1 PASS: Palace of Versailles recognizable from the Cour d'Honneur — the baroque façade with the gilded Royal Gate centered, slate mansard roofs with gold cresting, and small visitors crossing the courtyard, clean framing, no artifacts. Gate 2 PASS: masters 1920x1080 and 864x1080 exact per sweep; on-image text verified — caption 'Palace of Versailles, Versailles', scenario '23 September 2026 · 14:59 Europe/Paris', 'AI-generated artistic interpretation · Not a photograph.' on a legible bottom-left scrim, and 'Jason D's Vision' (curly apostrophe) bottom-right. Weather cross-check: approvals/FR-01-006.md records this scene's own Open-Meteo retrieval 2026-09-25T23:46:44Z (unique to the second, fresh today), model-valid hour 2026-09-23T14:00 Europe/Paris containing the 14:59 scenario minute, and per-location values weather code 3 overcast, cloud cover 98%, 23.8°C, wind 3.8 km/h, model elevation 144 m. Gate 3 PASS: note documents text-prompt-only pictorial frame with no photographic inputs. Gate 4 documented: only small unidentifiable visitors, no focal logos. Gate 5: all gates pass.",
   "approved_at": "2026-09-26T00:45:55.612753+00:00",
-  "reverted_at": "2026-09-25T18:52:02.013927+00:00",
+  "reverted_at": "2026-09-30T07:13:12.805254+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T18:52:02.013927+00:00",
@@ -25,6 +25,11 @@
       "at": "2026-09-25T19:38:51.322068+00:00",
       "by": "Cosmo QC",
       "note": "Cosmo QC audit 2026-09-25 ~19:45Z: Gate 1 visual PASS — Palace of Versailles Royal Court facade: central clock pavilion, gilded mansard roofs, royal gate, courtyard visitors; clean framing, no artifacts. On-image: exact Jason D's Vision signature (curly apostrophe), caption 'Palace of Versailles, Versailles', scenario '23 September 2026 · 14:59 Europe/Paris', disclosure legible on scrim; sweep verified 1920x1080/864x1080. Gate 2 STILL BLOCKED: approvals/FR-01-006.md absent in repo (rechecked this run) — no verifiable per-scene weather retrieval timestamp; awaiting Grok weather rework. Gate 3: inputs undocumented (no builder note). Gate 4: distant unidentifiable visitors. Gate 5: not ready."
+    },
+    {
+      "at": "2026-09-30T07:13:12.805254+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification): the Cour d'Honneur / Cour de Marbre central facade is rendered entirely in cream stone; the real Marble Court (visible through the Grille Royale from Place d'Armes) is defined by red brick with white stone quoins and dressings. Gate 1 hold — rework: render the true red-brick-with-white-stone Marble Court facade. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
   "sha256_16x9": "091e0b6b410aa3921a61ac696da78ed18d0b0b718a404a149a0a3344541044a9",
