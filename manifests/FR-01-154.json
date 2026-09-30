@@ -52,5 +52,14 @@
       "sha256": "3aff4d919bfb70c30136a74cf1b5b0aeb515c9e7519f5bbb079316a42e9f9129"
     }
   },
-  "sha256_4x5": "3aff4d919bfb70c30136a74cf1b5b0aeb515c9e7519f5bbb079316a42e9f9129"
+  "sha256_4x5": "3aff4d919bfb70c30136a74cf1b5b0aeb515c9e7519f5bbb079316a42e9f9129",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "reverted_at": "2026-09-30T07:39:33.032687+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T07:39:33.032687+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): Abbey church shown with a prominent square bell tower and pyramidal stone roof at the crossing; the real Abbaye de Fontenay Cistercian church deliberately has no tower (Bernardine austerity / UNESCO description: transept devoid of a tower) — only a minor roof bell — so the square steeple is a fabrication. Gate 1 hold — rework: render the towerless crossing. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
