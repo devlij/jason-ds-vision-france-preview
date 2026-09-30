@@ -52,5 +52,14 @@
       "sha256": "6385d10ca6097e5001edb72180eebb97715c0671c351a196edeace7e3f8d62e9"
     }
   },
-  "sha256_4x5": "6385d10ca6097e5001edb72180eebb97715c0671c351a196edeace7e3f8d62e9"
+  "sha256_4x5": "6385d10ca6097e5001edb72180eebb97715c0671c351a196edeace7e3f8d62e9",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "reverted_at": "2026-09-30T07:40:08.142475+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T07:40:08.142475+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): Shown as a long symmetrical multi-storey rectangular block with a uniform window grid; the real Château de Brissac (tallest Loire château) is defined by two massive medieval round towers framing an unfinished, taller Renaissance pavilion with layered/asymmetric façades — not a regular barracks-like bar. Gate 1 hold — rework: render the true two-tower plus pavilion massing. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
