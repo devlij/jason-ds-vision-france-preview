@@ -26,6 +26,11 @@
       "at": "2026-09-25T18:53:59.835385+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-30T08:27:32.105327+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 hold: residual gradient-scrim text (caption/scenario/disclosure lines, legible over the paving stones) baked into the photo area beneath the appended label bar — violates the zero-tint finish standard. Requires builder re-finish from the clean pictorial frame; queued for the next rework order. Verifier architectural PASS; weather retrieval 2026-09-25T12:33:09Z verified unique to the second."
     }
   ],
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
