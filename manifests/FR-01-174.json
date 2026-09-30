@@ -52,5 +52,14 @@
       "sha256": "3508d7500a71c2b1660972f51f03d2031fc7d90460590766c1885ba532b3b796"
     }
   },
-  "sha256_4x5": "3508d7500a71c2b1660972f51f03d2031fc7d90460590766c1885ba532b3b796"
+  "sha256_4x5": "3508d7500a71c2b1660972f51f03d2031fc7d90460590766c1885ba532b3b796",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "reverted_at": "2026-09-30T07:39:48.496213+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T07:39:48.496213+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): Loire river façade shown with a round corner tower under a conical roof; the real Château de Montsoreau river elevation is framed by square towers with machicolations, not a round pepper-pot corner turret. Gate 1 hold — rework: render the true square machicolated towers. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
