@@ -31,5 +31,14 @@
       "height": 1270,
       "sha256": "92f1772ff729b2fe686dc07672922ca2d756c39c0db820dc09fda6062432b251"
     }
-  }
+  },
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "reverted_at": "2026-09-30T07:35:06.241477+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T07:35:06.241477+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): the ridge architecture is shown as low generic stone clusters without a dominant keep; the real Château de Najac is defined by a tall circular donjon crowning the knife-edge ridge above the village. Gate 1 hold — rework: render the true donjon-crowned ridge. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
