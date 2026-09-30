@@ -33,14 +33,19 @@
       "at": "2026-09-25T18:54:21.039178+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-30T07:22:21.321256+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the repo master): Puy de Dôme is shown as a bare smooth green cone with a white summit cap and no built features; the real summit is defined by the tall white telecommunications mast/antenna complex and the dark-stone ruins of the Temple of Mercury. Gate 1 hold — rework: add the true summit mast complex and Temple of Mercury ruins. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
   "approval_basis": "Gate 1: green rounded volcanic dome filling the frame under clear blue sky with one long horizontal cloud band — plausible Puy de Dôme summit from the Chaîne des Puys, clean framing, no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Puy de Dôme, Orcines', scenario '23 September 2026 · 17:05 Europe/Paris', disclosure 'AI-generated artistic interpretation · Not a photograph.' legible on the bottom gradient, matching the gallery index; curly-apostrophe 'Jason D's Vision' signature bottom-right verified at 3x zoom; no approvals/FR-01-085.md exists (the builder writes notes sporadically, as with FR-01-078–084), so no retrieval-timestamp cross-check was possible — the scenario minute 17:05 is unique across the batch (no shared minute), consistent with the kit's real-time build-time convention. Gate 3: no photographic inputs reported anywhere. Gate 4: no people, no logos, no recognizable private property — documented only, no chain certified. Gate 5: all gates pass.",
   "approved_at": "2026-09-25T17:38:13.035859+00:00",
   "sha256_16x9": "0294f2c79a4ea4e76f54e2739a9dfeb138cfa036a11937a7edae3d67d4da299b",
   "sha256_4x5": "0372ee82d79b8bfebea69a74b1f98338e612fd48bef7366ad6f868eed8a869fa",
-  "reverted_at": "2026-09-25T18:54:21.039178+00:00",
+  "reverted_at": "2026-09-30T07:22:21.321256+00:00",
   "dimensions": {
     "16x9": {
       "width": 1920,
