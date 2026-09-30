@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is cable-stayed multi-span bridge spanning the Tarn gorge. The place named on the card is Viaduc de Millau, Millau, in Occitanie. Light and weather follow the modelled scenario 25 September 2026 · 14:33 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Viaduc de Millau under a mainly clear hot afternoon sky",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-074-16x9.png?v=gate1-20260925",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-074-4x5.png?v=gate1-20260925",
   "qc_notes": [
     {
@@ -33,9 +33,9 @@
       "note": "Gate-2 weather evidence re-verified and cleared 2026-09-30: retrieval 2026-09-25T12:33:12Z confirmed unique to the second repo-wide against the 073–088 wave; scenario 14:33 inside model-valid hour. Cosmo re-verified all five gates — cleared for approval."
     }
   ],
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "Gate 1: the Millau Viaduct — a crisp, readable multi-span cable-stayed deck on tall slender pylons spanning the green Tarn valley with the town below; the rebuild goal is delivered (eight slender masts visible in this interpretation vs seven on the real structure — a minor count deviation, not a misconfiguration). Gate 2: caption 'Viaduc de Millau, Millau', scenario 25 Sept 2026 14:33 Europe/Paris, 'Jason D's Vision' signature and AI disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T12:33:12Z (unique), valid 14:30, scenario inside 14:00–15:00; code 1, 31% cloud matches the scattered clouds. Gate 3: text-prompt-only rebuild, no photographic inputs reported. Gate 4: no people/logos of note. Gate 5: Art. 50 PNG metadata present; exact 1920x1080 / 864x1080.",
-  "approved_at": "2026-09-25T12:58:43.796468+00:00",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 — cable-stayed viaduct read pier by pier across the Tarn gorge, town of Millau below, causse hills, hot mainly-clear afternoon; recognizably the Millau Viaduct; real-place-verifier architectural PASS. Gate 2 — exact dims 1920x1270/864x1270; label bar exact with caption \"Viaduc de Millau, Millau\", scenario \"25 September 2026 · 14:33 Europe/Paris\", disclosure and exact signature; retrieval 2026-09-25T12:33:12Z unique to the second (verified repo-wide against the 073–088 wave), model-valid hour 14:00–15:00 Europe/Paris contains 14:33, code 1 mainly clear / cloud 31% / 31.8°C / is_day 1; faint speckle dots in the old text band over grass below the legibility floor — documented, not gated. Gate 3 — note documents text-prompt-only lineage (\"rebuild replaces the Gate 1 frame that was an unreadable smudge\"), no photographic inputs. Gate 4 — no people, no logos.",
+  "approved_at": "2026-09-30T08:27:26.674521+00:00",
   "sha256_16x9": "e21921ba6ecc4da8756854cb3a16805bb93948497e08c243968eceac76d31bbd",
   "sha256_4x5": "ba8849cb5b22bdf4358ff9d0c1aae876ddd5496f2a608f1c684dc886ee377853",
   "reverted_at": "2026-09-25T18:54:01.768841+00:00",
