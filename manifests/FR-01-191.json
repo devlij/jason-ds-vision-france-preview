@@ -52,5 +52,14 @@
       "sha256": "414bdaeb45cf22bc8a569e75aa1f0f52111b7c30d4e05c9bdef6f75f7fdfd5a0"
     }
   },
-  "sha256_4x5": "414bdaeb45cf22bc8a569e75aa1f0f52111b7c30d4e05c9bdef6f75f7fdfd5a0"
+  "sha256_4x5": "414bdaeb45cf22bc8a569e75aa1f0f52111b7c30d4e05c9bdef6f75f7fdfd5a0",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "reverted_at": "2026-09-30T07:40:13.269033+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T07:40:13.269033+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): Central massing includes a tall intact rectangular crenellated keep; the real Château de Caen donjon was largely razed by order of the Convention in 1793 and survives only as excavated foundations within the enceinte — not a standing Norman keep. Gate 1 hold — rework: render the enceinte without an intact keep. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
