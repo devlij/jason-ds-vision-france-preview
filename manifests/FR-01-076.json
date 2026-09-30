@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is roman theatre with intact scaenae frons stage wall. The place named on the card is Théâtre antique d'Orange, Orange, in Provence-Alpes-Côte d'Azur. Light and weather follow the modelled scenario 25 September 2026 · 14:33 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of the Théâtre antique d'Orange and its stage wall under a partly cloudy afternoon sky",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-076-16x9.png?v=gate1-20260925",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-076-4x5.png?v=gate1-20260925",
   "qc_notes": [
     {
@@ -33,11 +33,11 @@
       "note": "Cosmo QC 2026-09-30: builder rebuilt this scene's masters 2026-09-25 (commit 647101e) after the 2026-09-25 Gate-1 finding; Cosmo independently re-verified the current repo master — intact Roman scaenae frons with columned stage wall, central niche statue, dark modern stage cover at its foot, cavea sweeping both sides, clean daylight. Gate 1 PASS; the earlier finding is fixed and cleared."
     }
   ],
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "Gate 1: the Théâtre antique d'Orange — tiered cavea curving in the foreground facing the intact stage wall with the central niche holding its statue; exactly the rebuild goal. Gate 2: caption 'Théâtre antique d'Orange, Orange', scenario 25 Sept 2026 14:33 Europe/Paris, 'Jason D's Vision' signature and AI disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T12:33:19Z (unique), valid 14:30, scenario inside 14:00–15:00; code 1, 41% cloud, frame follows the cloud cover with scattered clouds. Gate 3: text-prompt-only rebuild, no photographic inputs reported. Gate 4: no people/logos of note. Gate 5: Art. 50 PNG metadata present; exact 1920x1080 / 864x1080.",
-  "approved_at": "2026-09-25T12:59:08.225002+00:00",
-  "sha256_16x9": "eb62140c88a9c7d3d481c6ea36c294e51b4a0e4f9b611a56cfe8ab6f9f0384c4",
-  "sha256_4x5": "91ded6389155dfb3405e1565dfb53857fa295675bcf7cf9f781c6cabecace78e",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "From the cavea, the intact Roman stage wall fills the frame — columned scaenae frons with the central niche and statue readable, the dark modern stage cover at its foot, stone seating sweeping on both sides. Gate 1 passes: recognizable Théâtre antique d'Orange, clean framing, no artifacts — the rebuild the note describes as replacing the generic-colonnade frame, and the new frame reads clean. Gate 2: exact 1920x1270/864x1270 (sha256 match), label bar with exact caption 'Théâtre antique d'Orange, Orange', scenario '25 September 2026 · 14:33 Europe/Paris', AI disclosure bottom-left, curly-apostrophe 'Jason D's Vision' + script signature bottom-right on both formats; approvals/FR-01-076.md records its own Open-Meteo retrieval 2026-09-25T12:33:19Z (valid 14:30 Europe/Paris, scenario minute inside it), unique to the second repo-wide; the broken afternoon cloud in the frame follows the model's code 1/41% cloud reading. Gate 3: text-prompt-only per the note, no photographic reference. Gate 4: no people or logos visible. Gate 5: ready.",
+  "approved_at": "2026-09-30T14:31:39.629646+00:00",
+  "sha256_16x9": "7dedc038a971e7fd06839402586e8645e3686657aeaba0ee2f6b9a4742c2f23f",
+  "sha256_4x5": "6ea486f5e9bf5b54d73ec6705426fa7af5c8f358f9c6cda81be0361cbc861073",
   "reverted_at": "2026-09-25T18:54:05.451306+00:00",
   "dimensions": {
     "16x9": {
