@@ -133,6 +133,7 @@ Linked country galleries. Hub: https://muse.ai/s/jason-d-s-vision-gallery-bv6lxw
 
 - Top pointer, promise, license exact copy per issued kit.
 - Country switcher: `France | Germany | Italy` (Germany → muse.ai hub; Italy → Italy preview URL).
+- Home is the first switcher item, before the country links: `<a class="home-link" href="https://jdvision.org/">&#8962; Home</a>` then the normal separator. The only added rule is `.home-link{font-weight:700}`. `tools/build_index.py` re-applies this on every publish so a rebuild cannot drop it.
 - Title: "Jason D's Vision — France".
 - Publish via GitHub Pages; stable URL; push every newly approved scene.
 - Keep: entry ID, caption, scenario label, composition, approval status, license section and badge, footer, search, country switcher.

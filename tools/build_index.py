@@ -836,6 +836,53 @@ _NEW_COPY = """          var done = function(){ b.textContent = 'Copied \\u2713'
 """
 
 
+HOME_LINK = '<a class="home-link" href="https://jdvision.org/">&#8962; Home</a>'
+HOME_CSS = ".home-link{font-weight:700}"
+_HOME_SEP = '<span class="sep" aria-hidden="true">|</span>'
+_HOME_CSS_ANCHORS = (
+    "    .country-switch a {\n      color: var(--accent);\n      text-decoration: none;\n    }\n",
+    ".country-switch a { color: var(--accent); text-decoration: none; }\n",
+)
+
+
+def apply_home_link(html: str) -> str:
+    """Keep the hub Home link first in the country switcher.
+
+    Rebuilds re-apply this so a later publish cannot drop the nav chrome.
+    The link inherits .country-switch a color; only font-weight is added.
+    """
+    if HOME_CSS not in html:
+        placed = False
+        for anchor in _HOME_CSS_ANCHORS:
+            if anchor in html:
+                html = html.replace(anchor, anchor + "    " + HOME_CSS + "\n", 1)
+                placed = True
+                break
+        if not placed:
+            raise SystemExit("country-switch link rule missing; refusing to publish")
+    open_tag = '<nav class="country-switch" aria-label="Country galleries">'
+    start = html.find(open_tag)
+    if start < 0:
+        raise SystemExit("country switcher missing")
+    end = html.find("</nav>", start)
+    if end < 0:
+        raise SystemExit("country switcher unclosed")
+    body = html[start + len(open_tag):end]
+    if body.lstrip().startswith(HOME_LINK):
+        return html
+    body = body.replace(HOME_LINK, "")
+    if body.startswith("\n"):
+        indent = ""
+        i = 1
+        while i < len(body) and body[i] in " \t":
+            indent += body[i]
+            i += 1
+        body = "\n" + indent + HOME_LINK + "\n" + indent + _HOME_SEP + body
+    else:
+        body = HOME_LINK + _HOME_SEP + body
+    return html[:start] + open_tag + body + html[end:]
+
+
 def apply_a7(html: str) -> str:
     """Spain-look guards that survive a later publish. Does not touch SCENES."""
     if _OLD_NORWAY in html:
@@ -931,7 +978,7 @@ def publish_html(html: str, root: Path | None = None, tags: dict[str, list[str]]
     html = strip_phase1(html)
     meta = build_meta(scenes, root, tags)
     html = insert_phase1(html, meta)
-    html = apply_a7(html)
+    html = apply_home_link(apply_a7(html))
     assert_phase1(html)
     assert_descriptions(parse_scenes(html), descriptions)
     return html
@@ -960,6 +1007,9 @@ def assert_phase1(html: str) -> None:
         "Copy link",
         "Copied \\u2713",
         "G-PDJ4WSS725",
+        'class="home-link" href="https://jdvision.org/"',
+        ".home-link{font-weight:700}",
+        "&#8962; Home",
         'const file916 = s.file_9x16 || "";',
         "flag-chip.flag-no",
         "getAttribute('data-src-45')",
