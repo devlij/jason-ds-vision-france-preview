@@ -21,5 +21,14 @@
       "sha256": "76bb66683cea59fc78e6563ec48499980baa9a8fafeb952c024664c896db6d96"
     }
   },
-  "sha256_4x5": "76bb66683cea59fc78e6563ec48499980baa9a8fafeb952c024664c896db6d96"
+  "sha256_4x5": "76bb66683cea59fc78e6563ec48499980baa9a8fafeb952c024664c896db6d96",
+  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "reverted_at": "2026-09-30T07:39:53.290810+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T07:39:53.290810+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): Rendered as a cream Beaux-Arts / neoclassical palace with a massive multi-tiered stone/glass dome and pilasters; the real Bibliothèque Schœlcher is Henri Picq's polychrome metal-frame eclectic pavilion (Byzantine / Art Nouveau / Egyptian) with red-and-yellow tile banding, ornate iron brackets, and a distinctive glazed cupola — not a stone palace. Gate 1 hold — rework: render the true polychrome pavilion. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
