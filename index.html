@@ -199,6 +199,37 @@
 .copy-link:hover{border-color:var(--accent)}
 @media(max-width:760px){.related-row{grid-template-columns:repeat(2,1fr)}}
 /* P1-CSS-END */
+/* Christmas charm: holiday collection stays hidden until the medallion is tapped. */
+#christmas { margin: 8px 0 16px; padding: 20px 22px; background: linear-gradient(180deg, #14231a, #121a2a);
+             border: 1px solid #2f4a35; border-radius: 12px; }
+#christmas[hidden] { display: none; }
+#christmas h2 { margin: 0 0 6px; font-size: 24px; }
+#christmas .xmas-sub { margin: 0 0 14px; color: #b9c8b2; font-size: 14px; }
+.xmas-medallion-wrap { display: flex; justify-content: center; padding: 10px 0 6px; }
+.xmas-medallion { display: inline-flex; align-items: center; gap: 8px;
+                  background: none; border: 1px solid #3a4a3f; border-radius: 999px;
+                  cursor: pointer; padding: 5px 14px 5px 6px; }
+.xmas-medallion .medal { width: 26px; height: 26px; border-radius: 50%;
+                  background: radial-gradient(circle at 35% 30%, #2f5d3a, #14231a 70%);
+                  border: 1px solid #c9a227;
+                  display: inline-flex; align-items: center; justify-content: center; font-size: 14px;
+                  transition: transform .15s ease; }
+.xmas-medallion:hover .medal, .xmas-medallion:focus-visible .medal { transform: scale(1.1); }
+.xmas-medallion .medal-label { font-size: 12px; letter-spacing: .08em;
+                  color: #c9a227; font-weight: 600; }
+.xmas-medallion[aria-expanded="true"] .medal-label::after { content: " — tap to hide"; text-transform: none;
+                  letter-spacing: 0; font-weight: 400; color: #b9c8b2; }
+.xmas-close { display: block; margin: 16px auto 0; background: none; border: 1px solid #4a3f2c;
+              color: #b9c8b2; border-radius: 8px; padding: 8px 18px; cursor: pointer; font-size: 14px; }
+.xmas-close:hover { border-color: #c9a227; color: #f2ede3; }
+.xmas-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
+.xmas-card { display: block; border-radius: 10px; overflow: hidden; border: 1px solid #3d523f;
+             text-decoration: none; background: #101a12; transition: transform .15s ease; }
+.xmas-card:hover { transform: translateY(-2px); }
+.xmas-card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; }
+.xmas-card .xmas-cap { display: block; padding: 8px 10px; color: #f2ede3; font-size: 13px; font-weight: 600; }
+.xmas-card .xmas-cap small { display: block; font-weight: 400; color: #9db198; font-size: 11px; margin-top: 2px; }
+#christmas-full { margin-top: 18px; }
 </style>
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="Jason D's Vision"/>
@@ -2460,6 +2491,18 @@
   </section>
 
   <main>
+    <div class="xmas-medallion-wrap"><button type="button" class="xmas-medallion" data-xmas-toggle aria-expanded="false" aria-controls="christmas" aria-label="View the Christmas collection"><span class="medal" aria-hidden="true">🎄</span><span class="medal-label">Christmas</span></button></div>
+    <section id="christmas" aria-label="Christmas markets" hidden>
+      <h2>🎄 Christmas Markets</h2>
+      <p class="xmas-sub">Our special holiday collection — festive market evenings, growing through the season. Candidate scenes only. Tap a card to jump to its full gallery entry.</p>
+      <div class="xmas-row">
+        <a class="xmas-card" href="#FR-01-366"><img src="assets/fr-01-366-16x9.png" alt="Wooden Christmas chalets on Place de la Cathédrale at night, with Strasbourg Cathedral’s single openwork spire" loading="lazy" /><span class="xmas-cap">Christkindelsmärik, Strasbourg<small>Christmas Markets collection</small></span></a>
+        <a class="xmas-card" href="#FR-01-367"><img src="assets/fr-01-367-16x9.png" alt="Night Christmas chalets on Place des Dominicains in Colmar, with the Dominican church and half-timbered houses" loading="lazy" /><span class="xmas-cap">Christmas market, Colmar<small>Christmas Markets collection</small></span></a>
+        <a class="xmas-card" href="#FR-01-368"><img src="assets/fr-01-368-16x9.png" alt="Night view down the Tuileries allée toward the Luxor Obelisk, with the Grande Roue and wooden chalets" loading="lazy" /><span class="xmas-cap">Tuileries Christmas market, Paris<small>Christmas Markets collection</small></span></a>
+      </div>
+      <div class="grid" id="christmas-full"></div>
+      <button type="button" class="xmas-close" data-xmas-close>✕ Close the holiday collection</button>
+    </section>
     <div class="toolbar" role="search">
       <input id="q" type="search" placeholder="Search by city, site, or region" aria-label="Search by city, site, or region" />
       <select id="region" aria-label="Filter by region">
@@ -8451,7 +8494,7 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
   function stopSlide(){playing=false;if(timer){clearInterval(timer);timer=null;}renderPlay();}
   function startSlide(){playing=true;if(timer)clearInterval(timer);timer=setInterval(function(){show(idx+1);},SLIDE_MS);renderPlay();}
   function toggleSlide(){if(!overlay.classList.contains('open'))return;if(playing)stopSlide();else startSlide();}
-  function visibleCards(){return Array.prototype.filter.call(document.querySelectorAll('.card'),function(c){return c.style.display!=='none';});}
+  function visibleCards(){return Array.prototype.filter.call(document.querySelectorAll('.card'),function(c){return c.style.display!=='none' && !c.closest('[hidden]');});}
   function show(i){
     items=visibleCards().map(function(c){
       var im=c.querySelector('a.thumb img');
@@ -8513,6 +8556,135 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
     document.querySelector('#wotd .wotd-body').innerHTML=h;
     document.getElementById('wotd-day').textContent='Day '+doy+' of 365';
   }catch(err){}
+})();
+</script>
+<script>
+/* Christmas collection: compact cards above link to these full cards. Hidden until the charm is tapped. */
+(function(){
+  var XMAS = [
+    {
+      entry_id: "FR-01-366",
+      caption: "Christkindelsmärik, Strasbourg",
+      scenario_label: "13 December 2026 · 19:00 Europe/Paris",
+      composition: "Cathedral-square chalets before the single-spire west front · AI-generated artistic interpretation",
+      description: "Wooden chalets fill the cobbles of Place de la Cathédrale, with the pink sandstone west front of Notre-Dame behind them: one openwork spire on the north tower and the south tower left unfinished. The frame is a December evening in the real Christkindelsmärik season. The Open-Meteo reading kept with this scene is October provenance only, not a forecast for that December night.",
+      alt_text: "Wooden Christmas chalets on Place de la Cathédrale at night, with Strasbourg Cathedral’s single openwork spire and unfinished south tower behind them",
+      file_16x9: "assets/fr-01-366-16x9.png",
+      file_4x5: "assets/fr-01-366-4x5.png",
+      file_9x16: "assets/fr-01-366-9x16.png"
+    },
+    {
+      entry_id: "FR-01-367",
+      caption: "Christmas market, Colmar",
+      scenario_label: "18 December 2026 · 19:00 Europe/Paris",
+      composition: "Dominican church and half-timbered houses over the chalet square · AI-generated artistic interpretation",
+      description: "On Place des Dominicains the 14th-century Dominican church shows its tall glowing windows above rows of wooden chalets, with ochre and salmon half-timbered houses closing the square. The frame is a December evening during Colmar’s published market season. The weather file is a separate October retrieval for provenance and is not a forecast for the depicted night.",
+      alt_text: "Night Christmas chalets on Place des Dominicains in Colmar, with the Dominican church’s glowing windows and half-timbered houses around the square",
+      file_16x9: "assets/fr-01-367-16x9.png",
+      file_4x5: "assets/fr-01-367-4x5.png",
+      file_9x16: "assets/fr-01-367-9x16.png"
+    },
+    {
+      entry_id: "FR-01-368",
+      caption: "Tuileries Christmas market, Paris",
+      scenario_label: "20 December 2026 · 19:00 Europe/Paris",
+      composition: "Gravel allée, chalets, Grande Roue, and the Luxor Obelisk · AI-generated artistic interpretation",
+      description: "The Tuileries Christmas market lines the formal gravel allée, with the Luxor Obelisk at the end of the axis and the Grande Roue lit beside it. The frame is a December evening inside the market’s published season, between the Louvre and Place de la Concorde. The Open-Meteo retrieval is October model data kept for provenance, not a claim about that December hour.",
+      alt_text: "Night view down the Tuileries gravel allée, wooden Christmas chalets on both sides, the Luxor Obelisk ahead and the Grande Roue beside it",
+      file_16x9: "assets/fr-01-368-16x9.png",
+      file_4x5: "assets/fr-01-368-4x5.png",
+      file_9x16: "assets/fr-01-368-9x16.png"
+    }
+  ];
+  function esc(value) {
+    return String(value ?? "").replace(/[&<>"']/g, function(ch) {
+      return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[ch];
+    });
+  }
+  var host = document.getElementById("christmas-full");
+  if (host) {
+    XMAS.forEach(function(s) {
+      var card = document.createElement("article");
+      card.className = "card";
+      card.id = s.entry_id;
+      card.setAttribute("data-category", "christmas");
+      card.innerHTML =
+        '<div class="preview"><a class="thumb" href="' + esc(s.file_16x9) + '" target="_blank" rel="noopener">' +
+          '<img src="' + esc(s.file_16x9) + '" alt="' + esc(s.alt_text) + '" loading="lazy"' +
+          ' data-src-16="' + esc(s.file_16x9) + '" data-src-45="' + esc(s.file_4x5) + '" data-src-916="' + esc(s.file_9x16) + '" />' +
+        '</a></div>' +
+        '<div class="fmt-tabs" role="group" aria-label="Image size">' +
+          '<button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>' +
+          '<button type="button" class="fmt-tab" data-format="4x5" aria-pressed="false">4:5</button>' +
+          '<button type="button" class="fmt-tab" data-format="9x16" aria-pressed="false">9:16</button>' +
+        '</div>' +
+        '<div class="card-body">' +
+          '<div class="status-row"><div class="entry-id">' + esc(s.entry_id) + '</div><span class="status candidate">Candidate</span></div>' +
+          '<h3 class="caption">' + esc(s.caption) + '</h3>' +
+          '<p class="scenario" data-scenario="' + esc(s.scenario_label) + '">Scenario: ' + esc(s.scenario_label) + '</p>' +
+          '<p class="composition">' + esc(s.composition) + '</p>' +
+          '<p class="detail">' + esc(s.description) + '</p>' +
+          '<div class="actions">' +
+            '<a class="badge" href="#license">Free · no credit needed</a>' +
+            '<a class="download" data-dl="16x9" href="' + esc(s.file_16x9) + '" download="' + esc(s.entry_id.toLowerCase()) + '-16x9.png">Download 16:9</a>' +
+            '<a class="download" data-dl="4x5" href="' + esc(s.file_4x5) + '" download="' + esc(s.entry_id.toLowerCase()) + '-4x5.png">Download 4:5</a>' +
+            '<a class="download" data-dl="9x16" href="' + esc(s.file_9x16) + '" download="' + esc(s.entry_id.toLowerCase()) + '-9x16.png">Download 9:16</a>' +
+          '</div></div>';
+      host.appendChild(card);
+    });
+    host.addEventListener("click", function(event) {
+      var tab = event.target.closest(".fmt-tab");
+      if (!tab || tab.disabled) return;
+      event.preventDefault();
+      var card = tab.closest(".card");
+      if (!card) return;
+      var fmt = tab.getAttribute("data-format");
+      card.querySelectorAll(".fmt-tab").forEach(function(item) {
+        var on = item === tab;
+        item.classList.toggle("is-active", on);
+        item.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+      var link = card.querySelector("a.thumb");
+      var img = link && link.querySelector("img");
+      if (!img || !link) return;
+      var next = fmt === "4x5" ? img.getAttribute("data-src-45") : fmt === "9x16" ? img.getAttribute("data-src-916") : img.getAttribute("data-src-16");
+      if (next) { img.src = next; link.href = next; }
+      link.classList.toggle("tall", fmt === "4x5");
+      link.classList.toggle("tall916", fmt === "9x16");
+    });
+  }
+  var toggle = document.querySelector("[data-xmas-toggle]");
+  var section = document.getElementById("christmas");
+  function setOpen(open) {
+    if (!section || !toggle) return;
+    section.hidden = !open;
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    if (open) section.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  if (toggle && section) {
+    toggle.addEventListener("click", function(){ setOpen(section.hidden); });
+    var closer = section.querySelector("[data-xmas-close]");
+    if (closer) closer.addEventListener("click", function(){
+      setOpen(false);
+      toggle.scrollIntoView({behavior: "smooth", block: "center"});
+    });
+    section.addEventListener("click", function(event) {
+      var a = event.target.closest("a.xmas-card");
+      if (!a) return;
+      section.hidden = false;
+      toggle.setAttribute("aria-expanded", "true");
+    });
+  }
+  function openForHash() {
+    var id = decodeURIComponent((location.hash || "").slice(1));
+    if (!section || !toggle) return;
+    if (id === "FR-01-366" || id === "FR-01-367" || id === "FR-01-368") {
+      section.hidden = false;
+      toggle.setAttribute("aria-expanded", "true");
+    }
+  }
+  openForHash();
+  window.addEventListener("hashchange", openForHash);
 })();
 </script>
 <script>

@@ -1,0 +1,23 @@
+{
+  "entry_id": "FR-01-367",
+  "provider": "Open-Meteo",
+  "model": "meteofrance_arome_france",
+  "http_date": "Fri, 02 Oct 2026 16:11:16 GMT",
+  "retrieval_utc": "2026-10-02T16:11:16Z",
+  "retrieval_local": "2026-10-02T18:11:16+02:00",
+  "latitude": 48.07948,
+  "longitude": 7.35722,
+  "elevation_m": 199.0,
+  "current_model_time": "2026-10-02T18:00 Europe/Paris",
+  "weather_code": 1,
+  "cloud_cover": 44,
+  "temperature_2m": 21.4,
+  "wind_speed_10m": 13.3,
+  "precipitation": 0.0,
+  "rain": 0.0,
+  "is_day": 1,
+  "scenario_label": "18 December 2026 · 19:00 Europe/Paris",
+  "depicted_conditions": "seasonal artistic interpretation of a December evening",
+  "forecast_claim": false,
+  "note": "This retrieval is provenance at generation time. It is not a forecast for the December scenario date, and the picture does not depict this October model hour."
+}

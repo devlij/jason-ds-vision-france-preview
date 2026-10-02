@@ -1,0 +1,46 @@
+{
+  "entry_id": "FR-01-366",
+  "country": "France",
+  "region": "Grand Est",
+  "city": "Strasbourg",
+  "category": "christmas",
+  "caption": "Christkindelsmärik, Strasbourg",
+  "scenario_label": "13 December 2026 · 19:00 Europe/Paris",
+  "composition": "Cathedral-square chalets before the single-spire west front · AI-generated artistic interpretation",
+  "description": "Wooden chalets fill the cobbles of Place de la Cathédrale, with the pink sandstone west front of Notre-Dame behind them: one openwork spire on the north tower and the south tower left unfinished. The frame is a December evening in the real Christkindelsmärik season. The Open-Meteo reading kept with this scene is October provenance only, not a forecast for that December night.",
+  "alt_text": "Wooden Christmas chalets on Place de la Cathédrale at night, with Strasbourg Cathedral’s single openwork spire and unfinished south tower behind them",
+  "approval_status": "Candidate",
+  "file_16x9": "assets/fr-01-366-16x9.png",
+  "file_4x5": "assets/fr-01-366-4x5.png",
+  "file_9x16": "assets/fr-01-366-9x16.png",
+  "weather_provider": "Open-Meteo",
+  "weather_model": "meteofrance_arome_france",
+  "weather_retrieval": "2026-10-02T16:09:37Z",
+  "weather_retrieval_local": "2026-10-02T18:09:37+02:00",
+  "weather_retrieval_timezone": "Europe/Paris",
+  "weather_role": "provenance at generation time only — not a forecast for the December scenario date",
+  "depicted_conditions": "seasonal artistic interpretation of a December evening",
+  "weather": "Model data from Open-Meteo, retrieved 2026-10-02T18:09:37+02:00 (2026-10-02T16:09:37Z), HTTP Date: Fri, 02 Oct 2026 16:09:37 GMT, model meteofrance_arome_france, current hour 2026-10-02T18:00 Europe/Paris — not a verified on-site observation, and not a forecast for the December scenario date. Weather code 2 (partly cloudy), cloud cover 79%, 21.5°C, wind 16.5 km/h, is_day 1, precipitation 0.0 mm, rain 0.0 mm. Model elevation at the point is 149.0 m. Requested point 48.58161, 7.75083. SEASONAL ARTISTIC INTERPRETATION: the picture shows a December evening in the real market season. The Open-Meteo retrieval above was taken at generation time in October 2026 and is recorded for provenance only. It must not be read as the weather, cloud, temperature, or daylight of the December scenario date.",
+  "sha256_16x9": "54aba324d063955f0e4c97bb9df32a1c3df91dc51815e8039154212d3dfdace8",
+  "sha256_4x5": "f9884caf412d52aed85a8758aba525e3387ff7945a83e4e4494b2dfa4f9031fe",
+  "sha256_9x16": "131f78956729e13de7a46b54878678237c4cfe764f96f0563e6fdb7b608bb380",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "54aba324d063955f0e4c97bb9df32a1c3df91dc51815e8039154212d3dfdace8"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "f9884caf412d52aed85a8758aba525e3387ff7945a83e4e4494b2dfa4f9031fe"
+    },
+    "9x16": {
+      "width": 1080,
+      "height": 2110,
+      "sha256": "131f78956729e13de7a46b54878678237c4cfe764f96f0563e6fdb7b608bb380"
+    }
+  },
+  "qc_status": "Candidate",
+  "qc_notes": []
+}
