@@ -84,6 +84,10 @@ P1_CSS = """
 .copy-link{display:inline-block;background:#243049;color:var(--text);border:1px solid var(--line);border-radius:8px;padding:0.4rem 0.7rem;font-size:0.85rem;cursor:pointer;font:inherit}
 .copy-link:hover{border-color:var(--accent)}
 @media(max-width:760px){.related-row{grid-template-columns:repeat(2,1fr)}}
+.motion-tab{background:#243049;color:var(--text);border:1px solid var(--line);border-radius:8px;padding:5px 10px;font:inherit;font-size:12px;line-height:1.2;cursor:pointer}
+.motion-tab:hover{border-color:var(--accent)}
+.motion-tab.is-active{background:#e8b23a;border-color:#e8b23a;color:#1a1405;font-weight:700}
+.thumb video.motion-clip{width:100%;height:auto;display:block;border-radius:8px;background:#000;aspect-ratio:4/5;object-fit:cover}
 /* P1-CSS-END */
 """
 
@@ -139,6 +143,9 @@ P1_CARD = r"""        card.className = 'card';
         const day45 = s.file_4x5_day || "";
         const day916 = s.file_9x16_day || "";
         const audioSrc = (typeof s.audio === "string" && /^audio\/[^/?#]+\.mp3(?:\?.*)?$/.test(s.audio)) ? s.audio : "";
+        const motionPair = (typeof FRANCE_MOTION !== "undefined") ? FRANCE_MOTION[s.entry_id] : null;
+        const motion = motionPair && motionPair[0] ? motionPair[0] : "";
+        const motionPoster = motionPair && motionPair[1] ? motionPair[1] : "";
         const hero = file16 || file45 || file916;
         card.innerHTML = `
           ${hero ? `<div class="preview">
@@ -150,6 +157,7 @@ P1_CARD = r"""        card.className = 'card';
               ${file16 ? `<button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>` : ""}
               ${file45 ? `<button type="button" class="fmt-tab${file16 ? "" : " is-active"}" data-format="4x5" aria-pressed="${file16 ? "false" : "true"}">4:5</button>` : ""}
               ${file916 ? `<button type="button" class="fmt-tab${(!file16 && !file45) ? " is-active" : ""}" data-format="9x16" aria-pressed="${(!file16 && !file45) ? "true" : "false"}">9:16</button>` : ""}
+              ${motion ? `<button type="button" class="motion-tab" data-motion="${esc(motion)}"${motionPoster ? ` data-poster="${esc(motionPoster)}"` : ""} title="Play the 360° daylight motion clip" aria-pressed="false">\u25B6 360\u00B0</button>` : ""}
             </div>` : ""}
           ${(day16 || day45) ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button></div>` : ""}
           <div class="card-body">
@@ -651,7 +659,29 @@ def _insert_scene_alt(html: str) -> str:
     return html.replace(anchor, P1_SCENE_ALT + anchor, 1)
 
 
-def insert_phase1(html: str, meta: dict[str, list[str]]) -> str:
+def motion_catalog(root: Path) -> dict[str, list[str]]:
+    """Clips the player may offer. A scene is listed only when its mp4 is on disk.
+
+    Poster is the second entry, or an empty string when that jpeg is absent.
+    """
+    assets = root / "assets"
+    found: dict[str, list[str]] = {}
+    if not assets.is_dir():
+        return found
+    for mp4 in sorted(assets.glob("fr-*-motion-10s-4x5.mp4")):
+        if not mp4.is_file() or mp4.stat().st_size <= 0:
+            continue
+        stem = mp4.name[: -len("-motion-10s-4x5.mp4")]
+        if not re.fullmatch(r"fr-\d{2}-\d{3}", stem):
+            continue
+        poster_name = f"{stem}-motion-10s-4x5-poster.jpg"
+        poster = assets / poster_name
+        poster_rel = f"assets/{poster_name}" if poster.is_file() and poster.stat().st_size > 0 else ""
+        found[stem.upper()] = [f"assets/{mp4.name}", poster_rel]
+    return found
+
+
+def insert_phase1(html: str, meta: dict[str, list[str]], root: Path | None = None) -> str:
     html = _insert_scene_alt(html)
     html = _insert_css(html)
     html = re.sub(
@@ -668,12 +698,15 @@ def insert_phase1(html: str, meta: dict[str, list[str]]) -> str:
         after=False,
     )
     payload = json.dumps(meta, ensure_ascii=False, separators=(",", ":"))
+    motion_payload = json.dumps(motion_catalog(root or ROOT), ensure_ascii=False, separators=(",", ":"))
     meta_script = (
         "<script>\n"
         "/* P1-META-START */\n"
         "/* Phase 1 France: [region, day|night, mood-tags, 16:9 thumb, name]. "
         "Empty thumb means the master is missing and must not be rendered. */\n"
         f"const FRANCE_META={payload};\n"
+        "/* Daylight 360 clips. Entry is [mp4, poster]. Absent entries have no button. */\n"
+        f"const FRANCE_MOTION={motion_payload};\n"
         "/* P1-META-END */\n"
         "</script>\n"
     )
@@ -836,6 +869,125 @@ _NEW_COPY = """          var done = function(){ b.textContent = 'Copied \\u2713'
 """
 
 
+_MOTION_FN = """    function stopCardMotion(card) {
+      const v = card.querySelector('video.motion-clip');
+      if (v) v.remove();
+      const img = card.querySelector('a.thumb img');
+      if (img) img.style.display = '';
+      const mtab = card.querySelector('.motion-tab');
+      if (mtab) {
+        mtab.classList.remove('is-active');
+        mtab.setAttribute('aria-pressed', 'false');
+        mtab.innerHTML = '\\u25B6 360\\u00B0';
+      }
+      const link = card.querySelector('a.thumb');
+      const ftab = card.querySelector('.fmt-tab.is-active');
+      const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+      if (link) {
+        link.classList.toggle('tall', dfmt === '4x5');
+        link.classList.toggle('tall916', dfmt === '9x16');
+      }
+    }
+"""
+
+_MOTION_FN_ANCHOR = "    function render() {\n"
+
+_MOTION_LISTENER = """    grid.addEventListener('click', (event) => {
+      if (event.target.closest('video.motion-clip')) {
+        event.preventDefault();
+        return;
+      }
+      const mtab = event.target.closest('.motion-tab');
+      if (mtab) {
+        event.preventDefault();
+        const mcard = mtab.closest('.card');
+        if (!mcard) return;
+        if (mcard.querySelector('video.motion-clip')) { stopCardMotion(mcard); return; }
+        document.querySelectorAll('article.card').forEach(function (other) {
+          if (other !== mcard) stopCardMotion(other);
+        });
+        const mlink = mcard.querySelector('a.thumb');
+        const mimg = mlink && mlink.querySelector('img');
+        const vid = document.createElement('video');
+        vid.className = 'motion-clip';
+        vid.src = mtab.getAttribute('data-motion');
+        const poster = mtab.getAttribute('data-poster');
+        if (poster) vid.poster = poster;
+        vid.autoplay = true; vid.loop = true; vid.muted = true; vid.playsInline = true; vid.controls = false;
+        vid.defaultMuted = true;
+        vid.setAttribute('muted', '');
+        vid.setAttribute('autoplay', '');
+        vid.setAttribute('loop', '');
+        vid.setAttribute('playsinline', '');
+        vid.disablePictureInPicture = true;
+        vid.setAttribute('controlsList', 'nodownload nofullscreen noremoteplayback');
+        if (mimg) mimg.style.display = 'none';
+        if (mlink) { mlink.classList.add('tall'); mlink.classList.remove('tall916'); mlink.appendChild(vid); }
+        mtab.classList.add('is-active');
+        mtab.setAttribute('aria-pressed', 'true');
+        mtab.innerHTML = '\\u2715 Close';
+        vid.play().catch(function () {});
+        return;
+      }
+      const dtab = event.target.closest('.day-tab');
+      if (dtab) {
+        event.preventDefault();
+        const dcard = dtab.closest('.card');
+        if (!dcard) return;
+        stopCardMotion(dcard);
+"""
+
+_MOTION_LISTENER_ANCHOR = """    grid.addEventListener('click', (event) => {
+      const dtab = event.target.closest('.day-tab');
+      if (dtab) {
+        event.preventDefault();
+        const dcard = dtab.closest('.card');
+        if (!dcard) return;
+"""
+
+_FMT_STOP_ANCHOR = """      const tab = event.target.closest('.fmt-tab');
+      if (!tab || tab.disabled) return;
+      event.preventDefault();
+      const card = tab.closest('.card');
+      if (!card) return;
+"""
+
+_FMT_STOP = """      const tab = event.target.closest('.fmt-tab');
+      if (!tab || tab.disabled) return;
+      event.preventDefault();
+      const card = tab.closest('.card');
+      if (!card) return;
+      stopCardMotion(card);
+"""
+
+_LB_THUMB_ANCHOR = """    var a=e.target.closest?e.target.closest('a.thumb'):null;
+"""
+
+_LB_THUMB = """    if(e.target.closest&&e.target.closest('video.motion-clip'))return;
+    var a=e.target.closest?e.target.closest('a.thumb'):null;
+"""
+
+
+def apply_motion_player(html: str) -> str:
+    """Play and close control for daylight 360 clips. Idempotent.
+
+    Format and daylight clicks stop the clip. Listen and the Home link are
+    outside this handler and stay as they are. Pages without the day-tab
+    listener are left unchanged.
+    """
+    if "function stopCardMotion(" in html:
+        return html
+    if _MOTION_LISTENER_ANCHOR not in html or _MOTION_FN_ANCHOR not in html:
+        return html
+    html = html.replace(_MOTION_FN_ANCHOR, _MOTION_FN + _MOTION_FN_ANCHOR, 1)
+    html = html.replace(_MOTION_LISTENER_ANCHOR, _MOTION_LISTENER, 1)
+    if _FMT_STOP_ANCHOR in html:
+        html = html.replace(_FMT_STOP_ANCHOR, _FMT_STOP, 1)
+    if _LB_THUMB_ANCHOR in html:
+        html = html.replace(_LB_THUMB_ANCHOR, _LB_THUMB, 1)
+    return html
+
+
 def apply_a7(html: str) -> str:
     """Spain-look guards that survive a later publish. Does not touch SCENES."""
     if _OLD_NORWAY in html:
@@ -930,8 +1082,9 @@ def publish_html(html: str, root: Path | None = None, tags: dict[str, list[str]]
     html, scenes, _drops = drop_missing_scene_lines(html, scenes, root)
     html = strip_phase1(html)
     meta = build_meta(scenes, root, tags)
-    html = insert_phase1(html, meta)
+    html = insert_phase1(html, meta, root)
     html = apply_a7(html)
+    html = apply_motion_player(html)
     assert_phase1(html)
     assert_descriptions(parse_scenes(html), descriptions)
     return html
@@ -971,6 +1124,9 @@ def assert_phase1(html: str) -> None:
         "data-format=\"16x9\"",
         "Download 16:9",
         "if (!o[3]) continue;",
+        "const FRANCE_MOTION=",
+        'class="motion-tab"',
+        "function stopCardMotion(",
         'const file16 = s.file_16x9 || "";',
         "(day16 || day45)",
     )
