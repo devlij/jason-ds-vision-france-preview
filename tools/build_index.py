@@ -43,11 +43,14 @@ FILE_KEYS = (
     "file_16x9_day",
     "file_4x5_day",
     "file_9x16_day",
+    "file_16x9_postcard",
+    "file_4x5_postcard",
+    "file_9x16_postcard",
     "audio",
 )
 # Portrait controls are a disk gate, same as Greece and Switzerland.
 # A remote URL is not a master and is not emitted.
-PORTRAIT_KEYS = ("file_9x16", "file_9x16_day")
+PORTRAIT_KEYS = ("file_9x16", "file_9x16_day", "file_9x16_postcard")
 
 MOODS = ("coastal", "mountain", "urban", "historic")
 MOOD_WORDS = {
@@ -138,34 +141,45 @@ P1_CARD = r"""        card.className = 'card';
         const day16 = s.file_16x9_day || "";
         const day45 = s.file_4x5_day || "";
         const day916 = s.file_9x16_day || "";
+        const pc16 = s.file_16x9_postcard || "";
+        const pc45 = s.file_4x5_postcard || "";
+        const pc916 = s.file_9x16_postcard || "";
+        const hasPc = !!(pc16 || pc45 || pc916);
         const audioSrc = (typeof s.audio === "string" && /^audio\/[^/?#]+\.mp3(?:\?.*)?$/.test(s.audio)) ? s.audio : "";
-        const hero = file16 || file45 || file916;
+        const sceneHero = file16 || file45 || file916;
+        const hero = hasPc ? (pc16 || pc45 || pc916) : sceneHero;
+        const show16 = !!(file16 || pc16);
+        const show45 = !!(file45 || pc45);
+        const show916 = !!(file916 || pc916);
+        const dl16 = (hasPc && pc16) ? pc16 : file16;
+        const dl45 = (hasPc && pc45) ? pc45 : file45;
+        const dl916 = (hasPc && pc916) ? pc916 : file916;
         card.innerHTML = `
           ${hero ? `<div class="preview">
             <a class="thumb" href="${esc(hero)}" target="_blank" rel="noopener">
-              <img src="${esc(hero)}" alt="${esc(sceneAlt(s))}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${day16 ? ` data-src-16-day="${esc(day16)}"` : ""}${day45 ? ` data-src-45-day="${esc(day45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""} />
+              <img src="${esc(hero)}" alt="${esc(sceneAlt(s))}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${day16 ? ` data-src-16-day="${esc(day16)}"` : ""}${day45 ? ` data-src-45-day="${esc(day45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""}${pc16 ? ` data-src-16-pc="${esc(pc16)}"` : ""}${pc45 ? ` data-src-45-pc="${esc(pc45)}"` : ""}${pc916 ? ` data-src-916-pc="${esc(pc916)}"` : ""} />
             </a>
           </div>` : ""}
-          ${(file16 || file45 || file916) ? `<div class="fmt-tabs" role="group" aria-label="Image size">
-              ${file16 ? `<button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>` : ""}
-              ${file45 ? `<button type="button" class="fmt-tab${file16 ? "" : " is-active"}" data-format="4x5" aria-pressed="${file16 ? "false" : "true"}">4:5</button>` : ""}
-              ${file916 ? `<button type="button" class="fmt-tab${(!file16 && !file45) ? " is-active" : ""}" data-format="9x16" aria-pressed="${(!file16 && !file45) ? "true" : "false"}">9:16</button>` : ""}
+          ${(show16 || show45 || show916) ? `<div class="fmt-tabs" role="group" aria-label="Image size">
+              ${show16 ? `<button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>` : ""}
+              ${show45 ? `<button type="button" class="fmt-tab${show16 ? "" : " is-active"}" data-format="4x5" aria-pressed="${show16 ? "false" : "true"}">4:5</button>` : ""}
+              ${show916 ? `<button type="button" class="fmt-tab${(!show16 && !show45) ? " is-active" : ""}" data-format="9x16" aria-pressed="${(!show16 && !show45) ? "true" : "false"}">9:16</button>` : ""}
             </div>` : ""}
-          ${(day16 || day45) ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button></div>` : ""}
+          ${(day16 || day45 || hasPc) ? `<div class="day-row">${(day16 || day45) ? `<button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button>` : ""}${hasPc ? `<button type="button" class="day-tab pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">\u{1F4E9} Postcard</button>` : ""}</div>` : ""}
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">${esc(s.entry_id)}</div>
               <span class="status ${esc((s.approval_status || 'Candidate').toLowerCase())}">${esc(s.approval_status || 'Candidate')}</span>
             </div>
             <h3 class="caption">${esc(s.caption)}</h3>
-            <p class="scenario" data-scenario="${esc(s.scenario_label)}">Scenario: ${esc(s.scenario_label)}</p>
+            <p class="scenario" data-scenario="${esc(s.scenario_label)}">${hasPc ? "Postcard collection" : `Scenario: ${esc(s.scenario_label)}`}</p>
             <p class="composition">${esc(s.composition)}</p>
             ${s.description ? `<p class="detail">${esc(s.description)}</p>` : ""}
             <div class="actions">
               <a class="badge" href="#license">Free · no credit needed</a>
-              ${file16 ? `<a class="download" data-dl="16x9" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>` : ""}
-              ${file45 ? `<a class="download" data-dl="4x5" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>` : ""}
-              ${file916 ? `<a class="download" data-dl="9x16" href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
+              ${dl16 ? `<a class="download" data-dl="16x9" href="${esc(dl16)}" download="${esc(fileName(dl16))}">Download 16:9</a>` : ""}
+              ${dl45 ? `<a class="download" data-dl="4x5" href="${esc(dl45)}" download="${esc(fileName(dl45))}">Download 4:5</a>` : ""}
+              ${dl916 ? `<a class="download" data-dl="9x16" href="${esc(dl916)}" download="${esc(fileName(dl916))}">Download 9:16</a>` : ""}
               ${audioSrc ? `<button type="button" class="narrate" data-audio="${esc(audioSrc)}" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>` : ""}
             </div>
           </div>`;

@@ -89,7 +89,7 @@
     }
     .preview { position: relative; }
     .fmt-tabs { display: flex; gap: 6px; padding: 0.75rem 1.05rem 0; line-height: 1.4; }
-    .day-row { padding: 0.5rem 1.05rem 0; }
+    .day-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 0.5rem 1.05rem 0; }
     .fmt-tab {
       background: rgba(15, 17, 21, 0.82); color: var(--text); border: 1px solid var(--line);
       border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; line-height: 1.2; cursor: pointer;
@@ -107,6 +107,9 @@
     .day-tab:hover { border-color: var(--accent); }
     .day-tab.is-active {
       background: #e8b23a; border-color: #e8b23a; color: #1a1405; font-weight: 700;
+    }
+    .day-tab.pc-tab.is-active {
+      background: #1f6b4a; border-color: #1f6b4a; color: #f4fff8; font-weight: 700;
     }
     .thumb {
       display: block; padding: 0.65rem 0.65rem 0; background: #12151c; line-height: 0;
@@ -2511,6 +2514,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         file_16x9: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-001-16x9.png?v=batch001",
         approval_status: "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-001-4x5.png?v=batch001",
+        file_16x9_postcard: "assets/fr-01-001-postcard-16x9.png",
+        file_4x5_postcard: "assets/fr-01-001-postcard-4x5.png",
+        file_9x16_postcard: "assets/fr-01-001-postcard-9x16.png",
         audio: "audio/fr-01-001-narration.mp3"
       },
       {
@@ -2526,6 +2532,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         file_16x9: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-002-16x9.png?v=batch001",
         approval_status: "Candidate",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-002-4x5.png?v=batch001",
+        file_16x9_postcard: "assets/fr-01-002-postcard-16x9.png",
+        file_4x5_postcard: "assets/fr-01-002-postcard-4x5.png",
+        file_9x16_postcard: "assets/fr-01-002-postcard-9x16.png",
         audio: "audio/fr-01-002-narration.mp3"
       },
       {
@@ -2541,6 +2550,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         file_16x9: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-003-16x9.png?v=batch001",
         approval_status: "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-003-4x5.png?v=batch001",
+        file_16x9_postcard: "assets/fr-01-003-postcard-16x9.png",
+        file_4x5_postcard: "assets/fr-01-003-postcard-4x5.png",
+        file_9x16_postcard: "assets/fr-01-003-postcard-9x16.png",
         audio: "audio/fr-01-003-narration.mp3"
       },
       {
@@ -2556,6 +2568,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         file_16x9: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-004-16x9.png?v=batch001",
         approval_status: "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-004-4x5.png?v=batch001",
+        file_16x9_postcard: "assets/fr-01-004-postcard-16x9.png",
+        file_4x5_postcard: "assets/fr-01-004-postcard-4x5.png",
+        file_9x16_postcard: "assets/fr-01-004-postcard-9x16.png",
         audio: "audio/fr-01-004-narration.mp3"
       },
       {
@@ -2571,6 +2586,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         file_16x9: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-005-16x9.png?v=batch005",
         approval_status: "Candidate",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-005-4x5.png?v=batch005",
+        file_16x9_postcard: "assets/fr-01-005-postcard-16x9.png",
+        file_4x5_postcard: "assets/fr-01-005-postcard-4x5.png",
+        file_9x16_postcard: "assets/fr-01-005-postcard-9x16.png",
         audio: "audio/fr-01-005-narration.mp3"
       },
       {
@@ -2586,6 +2604,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         file_16x9: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-006-16x9.png?v=batch005",
         approval_status: "Candidate",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-006-4x5.png?v=batch005",
+        file_16x9_postcard: "assets/fr-01-006-postcard-16x9.png",
+        file_4x5_postcard: "assets/fr-01-006-postcard-4x5.png",
+        file_9x16_postcard: "assets/fr-01-006-postcard-9x16.png",
         audio: "audio/fr-01-006-narration.mp3"
       },
       {
@@ -2601,6 +2622,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         file_16x9: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-007-16x9.png?v=batch005",
         approval_status: "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-007-4x5.png?v=batch005",
+        file_16x9_postcard: "assets/fr-01-007-postcard-16x9.png",
+        file_4x5_postcard: "assets/fr-01-007-postcard-4x5.png",
+        file_9x16_postcard: "assets/fr-01-007-postcard-9x16.png",
         audio: "audio/fr-01-007-narration.mp3"
       },
       {
@@ -2616,6 +2640,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         file_16x9: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-008-16x9.png?v=batch005",
         approval_status: "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-008-4x5.png?v=batch005",
+        file_16x9_postcard: "assets/fr-01-008-postcard-16x9.png",
+        file_4x5_postcard: "assets/fr-01-008-postcard-4x5.png",
+        file_9x16_postcard: "assets/fr-01-008-postcard-9x16.png",
         audio: "audio/fr-01-008-narration.mp3"
       },
       {
@@ -2631,7 +2658,10 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         alt_text: "AI-generated artistic interpretation of harvested lavender stubble on the Plateau de Valensole, seen from ground level in late-day September light",
         file_16x9: "assets/fr-01-009-16x9.png?v=groundlevel",
         approval_status: "Approved",
-        file_4x5: "assets/fr-01-009-4x5.png?v=groundlevel"
+        file_4x5: "assets/fr-01-009-4x5.png?v=groundlevel",
+        file_16x9_postcard: "assets/fr-01-009-postcard-16x9.png",
+        file_4x5_postcard: "assets/fr-01-009-postcard-4x5.png",
+        file_9x16_postcard: "assets/fr-01-009-postcard-9x16.png",
       },
       {
         entry_id: "FR-01-010",
@@ -2646,6 +2676,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         file_16x9: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-010-16x9.png?v=batch009",
         approval_status: "Candidate",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-010-4x5.png?v=batch009",
+        file_16x9_postcard: "assets/fr-01-010-postcard-16x9.png",
+        file_4x5_postcard: "assets/fr-01-010-postcard-4x5.png",
+        file_9x16_postcard: "assets/fr-01-010-postcard-9x16.png",
         audio: "audio/fr-01-010-narration.mp3"
       },
       {
@@ -2661,6 +2694,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         file_16x9: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-011-16x9.png?v=batch009",
         approval_status: "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-011-4x5.png?v=batch009",
+        file_16x9_postcard: "assets/fr-01-011-postcard-16x9.png",
+        file_4x5_postcard: "assets/fr-01-011-postcard-4x5.png",
+        file_9x16_postcard: "assets/fr-01-011-postcard-9x16.png",
         audio: "audio/fr-01-011-narration.mp3"
       },
       {
@@ -2677,6 +2713,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         file_16x9: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-012-16x9.png?v=wx012026",
         "approval_status": "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-012-4x5.png?v=wx012026",
+        file_16x9_postcard: "assets/fr-01-012-postcard-16x9.png",
+        file_4x5_postcard: "assets/fr-01-012-postcard-4x5.png",
+        file_9x16_postcard: "assets/fr-01-012-postcard-9x16.png",
         file_9x16: "assets/fr-01-012-9x16.png?v=wx012026",
         audio: "audio/fr-01-012-narration.mp3"
       },
@@ -8260,6 +8299,72 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
       return generic ? (built || current) : current;
     }
     /* P1-ALT-END */
+    function variantKey(fmt, mode) {
+      if (mode === 'postcard') {
+        return fmt === '4x5' ? 'data-src-45-pc' : fmt === '9x16' ? 'data-src-916-pc' : 'data-src-16-pc';
+      }
+      if (mode === 'day') {
+        return fmt === '4x5' ? 'data-src-45-day' : fmt === '9x16' ? 'data-src-916-day' : 'data-src-16-day';
+      }
+      return fmt === '4x5' ? 'data-src-45' : fmt === '9x16' ? 'data-src-916' : 'data-src-16';
+    }
+    function ownSrc(img, fmt, mode) {
+      return (img && img.getAttribute(variantKey(fmt, mode))) || '';
+    }
+    function variantSrc(img, fmt, mode) {
+      const own = ownSrc(img, fmt, mode);
+      if (own) return own;
+      if (mode === 'day') return ownSrc(img, fmt, 'scene');
+      return '';
+    }
+    function cardMode(card) {
+      if (card.querySelector('.pc-tab.is-active')) return 'postcard';
+      const day = card.querySelector('.day-tab.is-active');
+      if (day && day.getAttribute('data-daynight') === 'day') return 'day';
+      return 'scene';
+    }
+    function applyVariant(card, mode) {
+      const link = card.querySelector('a.thumb');
+      const img = link && link.querySelector('img');
+      let fmt = '16x9';
+      const active = card.querySelector('.fmt-tab.is-active');
+      if (active) fmt = active.getAttribute('data-format') || '16x9';
+      const t916 = card.querySelector('.fmt-tab[data-format="9x16"]');
+      if (t916 && img) {
+        const ok = !!ownSrc(img, '9x16', mode);
+        t916.disabled = !ok;
+        t916.classList.toggle('is-disabled', !ok);
+        if (!ok && t916.classList.contains('is-active')) {
+          const fallback = card.querySelector('.fmt-tab[data-format="16x9"]') || card.querySelector('.fmt-tab[data-format="4x5"]');
+          if (fallback) {
+            card.querySelectorAll('.fmt-tab').forEach((item) => {
+              const on = item === fallback;
+              item.classList.toggle('is-active', on);
+              item.setAttribute('aria-pressed', on ? 'true' : 'false');
+            });
+            fmt = fallback.getAttribute('data-format') || '16x9';
+          }
+        }
+      }
+      if (img && link) {
+        const next = variantSrc(img, fmt, mode);
+        if (next) { img.src = next; link.href = next; }
+        link.classList.toggle('tall', fmt === '4x5');
+        link.classList.toggle('tall916', fmt === '9x16');
+      }
+      card.querySelectorAll('a.download').forEach((a) => {
+        const f = a.getAttribute('data-dl');
+        const u = variantSrc(img, f, mode);
+        if (u) { a.href = u; a.hidden = false; }
+        else a.hidden = true;
+      });
+      const sc = card.querySelector('p.scenario');
+      if (sc) {
+        if (mode === 'postcard') sc.textContent = 'Postcard collection';
+        else if (mode === 'day') sc.textContent = '\u2600 Daylight variant \u00b7 derived from the night interpretation';
+        else sc.textContent = 'Scenario: ' + (sc.getAttribute('data-scenario') || '');
+      }
+    }
     function render() {
       const query = q.value.trim().toLowerCase();
       const reg = region.value;
@@ -8302,34 +8407,45 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         const day16 = s.file_16x9_day || "";
         const day45 = s.file_4x5_day || "";
         const day916 = s.file_9x16_day || "";
+        const pc16 = s.file_16x9_postcard || "";
+        const pc45 = s.file_4x5_postcard || "";
+        const pc916 = s.file_9x16_postcard || "";
+        const hasPc = !!(pc16 || pc45 || pc916);
         const audioSrc = (typeof s.audio === "string" && /^audio\/[^/?#]+\.mp3(?:\?.*)?$/.test(s.audio)) ? s.audio : "";
-        const hero = file16 || file45 || file916;
+        const sceneHero = file16 || file45 || file916;
+        const hero = hasPc ? (pc16 || pc45 || pc916) : sceneHero;
+        const show16 = !!(file16 || pc16);
+        const show45 = !!(file45 || pc45);
+        const show916 = !!(file916 || pc916);
+        const dl16 = (hasPc && pc16) ? pc16 : file16;
+        const dl45 = (hasPc && pc45) ? pc45 : file45;
+        const dl916 = (hasPc && pc916) ? pc916 : file916;
         card.innerHTML = `
           ${hero ? `<div class="preview">
             <a class="thumb" href="${esc(hero)}" target="_blank" rel="noopener">
-              <img src="${esc(hero)}" alt="${esc(sceneAlt(s))}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${day16 ? ` data-src-16-day="${esc(day16)}"` : ""}${day45 ? ` data-src-45-day="${esc(day45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""} />
+              <img src="${esc(hero)}" alt="${esc(sceneAlt(s))}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${day16 ? ` data-src-16-day="${esc(day16)}"` : ""}${day45 ? ` data-src-45-day="${esc(day45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""}${pc16 ? ` data-src-16-pc="${esc(pc16)}"` : ""}${pc45 ? ` data-src-45-pc="${esc(pc45)}"` : ""}${pc916 ? ` data-src-916-pc="${esc(pc916)}"` : ""} />
             </a>
           </div>` : ""}
-          ${(file16 || file45 || file916) ? `<div class="fmt-tabs" role="group" aria-label="Image size">
-              ${file16 ? `<button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>` : ""}
-              ${file45 ? `<button type="button" class="fmt-tab${file16 ? "" : " is-active"}" data-format="4x5" aria-pressed="${file16 ? "false" : "true"}">4:5</button>` : ""}
-              ${file916 ? `<button type="button" class="fmt-tab${(!file16 && !file45) ? " is-active" : ""}" data-format="9x16" aria-pressed="${(!file16 && !file45) ? "true" : "false"}">9:16</button>` : ""}
+          ${(show16 || show45 || show916) ? `<div class="fmt-tabs" role="group" aria-label="Image size">
+              ${show16 ? `<button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>` : ""}
+              ${show45 ? `<button type="button" class="fmt-tab${show16 ? "" : " is-active"}" data-format="4x5" aria-pressed="${show16 ? "false" : "true"}">4:5</button>` : ""}
+              ${show916 ? `<button type="button" class="fmt-tab${(!show16 && !show45) ? " is-active" : ""}" data-format="9x16" aria-pressed="${(!show16 && !show45) ? "true" : "false"}">9:16</button>` : ""}
             </div>` : ""}
-          ${(day16 || day45) ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button></div>` : ""}
+          ${(day16 || day45 || hasPc) ? `<div class="day-row">${(day16 || day45) ? `<button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button>` : ""}${hasPc ? `<button type="button" class="day-tab pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">\u{1F4E9} Postcard</button>` : ""}</div>` : ""}
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">${esc(s.entry_id)}</div>
               <span class="status ${esc((s.approval_status || 'Candidate').toLowerCase())}">${esc(s.approval_status || 'Candidate')}</span>
             </div>
             <h3 class="caption">${esc(s.caption)}</h3>
-            <p class="scenario" data-scenario="${esc(s.scenario_label)}">Scenario: ${esc(s.scenario_label)}</p>
+            <p class="scenario" data-scenario="${esc(s.scenario_label)}">${hasPc ? "Postcard collection" : `Scenario: ${esc(s.scenario_label)}`}</p>
             <p class="composition">${esc(s.composition)}</p>
             ${s.description ? `<p class="detail">${esc(s.description)}</p>` : ""}
             <div class="actions">
               <a class="badge" href="#license">Free · no credit needed</a>
-              ${file16 ? `<a class="download" data-dl="16x9" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>` : ""}
-              ${file45 ? `<a class="download" data-dl="4x5" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>` : ""}
-              ${file916 ? `<a class="download" data-dl="9x16" href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
+              ${dl16 ? `<a class="download" data-dl="16x9" href="${esc(dl16)}" download="${esc(fileName(dl16))}">Download 16:9</a>` : ""}
+              ${dl45 ? `<a class="download" data-dl="4x5" href="${esc(dl45)}" download="${esc(fileName(dl45))}">Download 4:5</a>` : ""}
+              ${dl916 ? `<a class="download" data-dl="9x16" href="${esc(dl916)}" download="${esc(fileName(dl916))}">Download 9:16</a>` : ""}
               ${audioSrc ? `<button type="button" class="narrate" data-audio="${esc(audioSrc)}" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>` : ""}
             </div>
           </div>`;
@@ -8340,6 +8456,24 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
       /* P1-ENHANCE-CALL-END */
     }
     grid.addEventListener('click', (event) => {
+      const ptab = event.target.closest('.pc-tab');
+      if (ptab) {
+        event.preventDefault();
+        const card = ptab.closest('.card');
+        if (!card) return;
+        const on = !ptab.classList.contains('is-active');
+        ptab.classList.toggle('is-active', on);
+        ptab.setAttribute('aria-pressed', on ? 'true' : 'false');
+        ptab.setAttribute('data-postcard', on ? 'on' : 'off');
+        const sun = card.querySelector('.day-tab:not(.pc-tab)');
+        if (on && sun) {
+          sun.classList.remove('is-active');
+          sun.setAttribute('aria-pressed', 'false');
+          sun.setAttribute('data-daynight', 'night');
+        }
+        applyVariant(card, on ? 'postcard' : 'scene');
+        return;
+      }
       const dtab = event.target.closest('.day-tab');
       if (dtab) {
         event.preventDefault();
@@ -8349,34 +8483,13 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         dtab.classList.toggle('is-active', isDay);
         dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
         dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
-        const dlink = dcard.querySelector('a.thumb');
-        const dimg = dlink && dlink.querySelector('img');
-        const t916 = dcard.querySelector('.fmt-tab[data-format="9x16"]');
-        if (t916) {
-          const day916src = dimg && dimg.getAttribute('data-src-916-day');
-          const hide916 = isDay && !day916src;
-          t916.disabled = hide916;
-          t916.classList.toggle('is-disabled', hide916);
-          if (hide916 && t916.classList.contains('is-active')) {
-            const t16 = dcard.querySelector('.fmt-tab[data-format="16x9"]') || dcard.querySelector('.fmt-tab[data-format="4x5"]');
-            if (t16) t16.click();
-          }
+        const pcard = dcard.querySelector('.pc-tab');
+        if (isDay && pcard) {
+          pcard.classList.remove('is-active');
+          pcard.setAttribute('aria-pressed', 'false');
+          pcard.setAttribute('data-postcard', 'off');
         }
-        const ftab = dcard.querySelector('.fmt-tab.is-active');
-        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
-        if (dimg && dlink) {
-          const dkey = dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
-          const dnext = dimg.getAttribute(dkey);
-          if (dnext) { dimg.src = dnext; dlink.href = dnext; }
-        }
-        dcard.querySelectorAll('a.download').forEach((a) => {
-          const f = a.getAttribute('data-dl');
-          const dk = f === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : f === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
-          const u = dimg && dimg.getAttribute(dk);
-          if (u) a.href = u;
-        });
-        const sc = dcard.querySelector('p.scenario');
-        if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+        applyVariant(dcard, isDay ? 'day' : 'scene');
         return;
       }
       const tab = event.target.closest('.fmt-tab');
@@ -8393,13 +8506,12 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
       const link = card.querySelector('a.thumb');
       const img = link && link.querySelector('img');
       if (!img || !link) return;
-      const dayOn = card.querySelector('.day-tab.is-active');
-      const useDay = dayOn && dayOn.getAttribute('data-daynight') === 'day';
+      const mode = cardMode(card);
       const next = fmt === '4x5'
-        ? (useDay && img.getAttribute('data-src-45-day')) || img.getAttribute('data-src-45')
+        ? (mode === 'postcard' ? img.getAttribute('data-src-45-pc') : mode === 'day' ? (img.getAttribute('data-src-45-day') || img.getAttribute('data-src-45')) : img.getAttribute('data-src-45'))
         : fmt === '9x16'
-        ? (useDay && img.getAttribute('data-src-916-day')) || img.getAttribute('data-src-916')
-        : (useDay && img.getAttribute('data-src-16-day')) || img.getAttribute('data-src-16');
+        ? (mode === 'postcard' ? img.getAttribute('data-src-916-pc') : mode === 'day' ? (img.getAttribute('data-src-916-day') || img.getAttribute('data-src-916')) : img.getAttribute('data-src-916'))
+        : (mode === 'postcard' ? img.getAttribute('data-src-16-pc') : mode === 'day' ? (img.getAttribute('data-src-16-day') || img.getAttribute('data-src-16')) : img.getAttribute('data-src-16'));
       if (next) {
         img.src = next;
         link.href = next;
@@ -8446,6 +8558,7 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
   var items=[],idx=0;
   var lbFormat='16x9';/* lightbox-session format: seeded from the opening card's active tab; persists across prev/next + slideshow, never reset to 16:9 */
   var lbDay='night';/* lightbox-session day/night: seeded from the opening card's active day tab; persists across prev/next and slideshow navigation */
+  var lbPost='off';/* lightbox-session postcard: seeded from the opening card; falls back per image when that card has no postcard */
   var playing=false,timer=null,SLIDE_MS=4000;
   function renderPlay(){playBtn.innerHTML=playing?'&#10074;&#10074;':'&#9654;';playBtn.setAttribute('aria-label',playing?'Pause slideshow':'Play slideshow');playBtn.classList.toggle('playing',playing);}
   function stopSlide(){playing=false;if(timer){clearInterval(timer);timer=null;}renderPlay();}
@@ -8458,11 +8571,11 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
       var t=c.querySelector('.caption');
       var detail=c.querySelector('p.detail');
       var src='';var daySrc='';
-      if(im){var nk=lbFormat==='4x5'?'data-src-45':lbFormat==='9x16'?'data-src-916':'data-src-16',dk=lbFormat==='4x5'?'data-src-45-day':lbFormat==='9x16'?'data-src-916-day':'data-src-16-day';if(lbDay==='day'){daySrc=im.getAttribute(dk)||'';}src=daySrc||im.getAttribute(nk);}
+      if(im){var nk=lbFormat==='4x5'?'data-src-45':lbFormat==='9x16'?'data-src-916':'data-src-16',dk=lbFormat==='4x5'?'data-src-45-day':lbFormat==='9x16'?'data-src-916-day':'data-src-16-day',pk=lbFormat==='4x5'?'data-src-45-pc':lbFormat==='9x16'?'data-src-916-pc':'data-src-16-pc';var pcSrc=(lbPost==='on')?(im.getAttribute(pk)||''):'';if(pcSrc){src=pcSrc;}else{if(lbDay==='day'){daySrc=im.getAttribute(dk)||'';}src=daySrc||im.getAttribute(nk);}}
       if(!src){var a=c.querySelector('a.thumb');src=a?a.href:'';}
       var title=t?t.textContent:'';
       var desc=detail?detail.textContent.trim():'';
-      var capT=title;if(daySrc)capT=capT+' \u2014 \u2600 Daylight variant';
+      var capT=title;if(pcSrc)capT=capT+' \u2014 Postcard collection';else if(daySrc)capT=capT+' \u2014 \u2600 Daylight variant';
       var altText=desc&&title?desc+' \u2014 '+title:(desc||title);
       var nbtn=c.querySelector('.narrate');
       return{src:src,cap:capT,alt:altText,audio:nbtn?nbtn.getAttribute('data-audio'):''};
@@ -8481,7 +8594,7 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
     var nb=e.target.closest?e.target.closest('.narrate,.lb-narrate'):null;
     if(nb){e.preventDefault();narrHandle(nb);return;}
     var a=e.target.closest?e.target.closest('a.thumb'):null;
-    if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active');lbFormat=(tab&&tab.getAttribute('data-format')==='9x16')?'9x16':(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';var dtab=card.querySelector('.day-tab.is-active');lbDay=(dtab&&dtab.getAttribute('data-daynight')==='day')?'day':'night';show(cards.indexOf(card));return;}
+    if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active');lbFormat=(tab&&tab.getAttribute('data-format')==='9x16')?'9x16':(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';var ptab=card.querySelector('.pc-tab.is-active');lbPost=ptab?'on':'off';var dtab=card.querySelector('.day-tab:not(.pc-tab).is-active');lbDay=(dtab&&dtab.getAttribute('data-daynight')==='day')?'day':'night';if(lbPost==='on')lbDay='night';show(cards.indexOf(card));return;}
     if(e.target===overlay||(e.target.closest&&e.target.closest('.lb-close')))hide();
     else if(e.target.closest&&e.target.closest('.lb-play'))toggleSlide();
     else if(e.target.closest&&e.target.closest('.lb-prev'))show(idx-1);
