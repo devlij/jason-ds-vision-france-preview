@@ -8299,15 +8299,13 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         const file45 = s.file_4x5 || "";
         /* file_9x16 is present only when the generator found that file on disk. */
         const file916 = s.file_9x16 || "";
-        const day16 = s.file_16x9_day || "";
-        const day45 = s.file_4x5_day || "";
         const day916 = s.file_9x16_day || "";
         const audioSrc = (typeof s.audio === "string" && /^audio\/[^/?#]+\.mp3(?:\?.*)?$/.test(s.audio)) ? s.audio : "";
         const hero = file16 || file45 || file916;
         card.innerHTML = `
           ${hero ? `<div class="preview">
             <a class="thumb" href="${esc(hero)}" target="_blank" rel="noopener">
-              <img src="${esc(hero)}" alt="${esc(sceneAlt(s))}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${day16 ? ` data-src-16-day="${esc(day16)}"` : ""}${day45 ? ` data-src-45-day="${esc(day45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""} />
+              <img src="${esc(hero)}" alt="${esc(sceneAlt(s))}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${s.file_16x9_day ? ` data-src-16-day="${esc(s.file_16x9_day)}" data-src-45-day="${esc(s.file_4x5_day)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""} />
             </a>
           </div>` : ""}
           ${(file16 || file45 || file916) ? `<div class="fmt-tabs" role="group" aria-label="Image size">
@@ -8315,7 +8313,7 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
               ${file45 ? `<button type="button" class="fmt-tab${file16 ? "" : " is-active"}" data-format="4x5" aria-pressed="${file16 ? "false" : "true"}">4:5</button>` : ""}
               ${file916 ? `<button type="button" class="fmt-tab${(!file16 && !file45) ? " is-active" : ""}" data-format="9x16" aria-pressed="${(!file16 && !file45) ? "true" : "false"}">9:16</button>` : ""}
             </div>` : ""}
-          ${(day16 || day45) ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button></div>` : ""}
+          ${s.file_16x9_day ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button></div>` : ""}
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">${esc(s.entry_id)}</div>
