@@ -700,19 +700,22 @@ SWEEP_SCENES = (
         "window_start": 612.0,
         "window_end": 664.0,
     },
-    # Château de Serrant. The slate roof, left pavilion, dome, and
-    # right eave measure about x 759–1595. That is 836px. An 864
-    # window has only a few pixels of slack once the roof is padded.
-    # This clip eases only across that slack so the pavilion, the
-    # dome, and the right eave stay inside every frame.
+    # Château de Serrant. The left pavilion's dark roof edge is about
+    # x 743, the dome finial about x 1331, the right finial about
+    # x 1526, and the right eave ends about x 1589. That span is
+    # 846px. An 864 window has 17px of slack. This clip uses all of
+    # it. The pavilion may sit on the left edge of the last frame and
+    # the eave on the right edge of the first; neither is cropped,
+    # and the glide does not bring another building in.
     {
         "entry_id": "FR-01-302",
         "n": 302,
         "held": "Château de Serrant pavilion, dome, and right eave",
-        "subject_x": 1177.0,
-        "subject_span": (759.0, 1595.0),
-        "window_start": 743.0,
-        "window_end": 747.0,
+        "subject_x": 1166.0,
+        "subject_span": (743.0, 1589.0),
+        "window_start": 726.0,
+        "window_end": 743.0,
+        "span_pad": 0.0,
     },
 )
 
@@ -1268,12 +1271,16 @@ def assert_span_in_frame(
     subject_x: float,
     span: tuple[float, float],
     bounds: tuple[float, float] | None = None,
+    pad: float = 12.0,
 ) -> None:
-    """The whole subject, not only its center, stays inside every frame."""
+    """The whole subject, not only its center, stays inside every frame.
+
+    ``pad`` stays 12px unless a scene's roof already fills the slack an
+    864 window has. A zero pad still rejects a window that crops the span.
+    """
     left, right = span
     if not (left < subject_x < right):
         raise SystemExit("subject center is outside its span")
-    pad = 12.0
     for n in range(FRAMES):
         x = sweep_x(n, subject_x, bounds)
         if left < x + pad or right > x + PHOTO_W - pad:
@@ -1435,7 +1442,8 @@ def scene_bounds(scene: dict) -> tuple[float, tuple[float, float] | None, tuple[
         assert_sweep_path(subject_x)
     if span is not None:
         span = (float(span[0]), float(span[1]))
-        assert_span_in_frame(subject_x, span, bounds)
+        pad = float(scene.get("span_pad", 12.0))
+        assert_span_in_frame(subject_x, span, bounds, pad)
     return subject_x, span, bounds
 
 
