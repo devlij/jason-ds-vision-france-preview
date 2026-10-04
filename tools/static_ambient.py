@@ -441,16 +441,20 @@ SWEEP_SCENES = (
         "window_start": 506.0,
         "window_end": 550.0,
     },
-    # La Pietra. The Genoese tower crown and shaft measure about
-    # x 1102–1295, tip near x 1199. That fits an 18% glide aimed at
-    # the tower, so the crown stays inside the 864 frame. The red rock
-    # continues past the tower and is wider than 864.
+    # La Pietra. The round Genoese tower measures about x 1090–1300,
+    # crown centered near x 1205. A white lighthouse stands to its right,
+    # about x 1520–1575. An 18% glide aimed at the Genoese tower traveled
+    # onto that lighthouse. Both fit in 864. This clip is a short glide
+    # centered on the Genoese tower, so the tower and the lighthouse stay
+    # fully inside every frame and the lighthouse does not enter or leave.
     {
         "entry_id": "FR-01-221",
         "n": 221,
-        "held": "La Pietra Genoese tower",
-        "subject_x": 1198.5,
-        "subject_span": (1102.0, 1295.0),
+        "held": "La Pietra Genoese tower and white lighthouse",
+        "subject_x": 1205.0,
+        "subject_span": (1090.0, 1588.0),
+        "window_start": 749.0,
+        "window_end": 797.0,
     },
     # Bergues belfry. The brick shaft measures about x 691–1115, and the
     # spire already touches the top of the plate near x 875–920. Same
@@ -463,15 +467,21 @@ SWEEP_SCENES = (
         "subject_x": 903.0,
         "subject_span": (691.0, 1115.0),
     },
-    # Château Gaillard. The rectangular keep and its crenellations
-    # measure about x 780–1200. The chalk cliff continues past the keep
-    # and is not a second tower. Same 18% glide, aimed at the keep.
+    # Château Gaillard. The left curtain measures about x 430–780, and
+    # the keep, crenellations included, measures about x 893–1165. An
+    # 18% glide kept the curtain at the start and had lost it by the
+    # end, while the river and the town entered on the right. Both the
+    # curtain and the keep fit in 864. This clip is a short glide that
+    # keeps that curtain and the keep inside every frame and does not
+    # travel onto the valley.
     {
         "entry_id": "FR-01-223",
         "n": 223,
-        "held": "Château Gaillard keep",
-        "subject_x": 990.0,
-        "subject_span": (780.0, 1200.0),
+        "held": "Château Gaillard left curtain and keep",
+        "subject_x": 1029.0,
+        "subject_span": (430.0, 1175.0),
+        "window_start": 330.0,
+        "window_end": 376.0,
     },
     # Cilaos. The church bell tower, two tips included, measures about
     # x 1208–1265, and the trees beside the church stand about x 808–1061.
