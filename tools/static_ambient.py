@@ -291,19 +291,20 @@ SWEEP_SCENES = (
         "window_start": 86.0,
         "window_end": 279.0,
     },
-    # Château de Falaise. The square keep is about x 1152–1309 and the
-    # round tower about x 1441–1543. Together they are wider than an
-    # 18% glide can aim at without leaving the plate. This clip eases
-    # across the on-plate slack that keeps both towers inside every
-    # frame with a 12px pad.
+    # Château de Falaise. The curtain and far-left tower begin about
+    # x 948, the keep rises about x 1152–1311, and the round tower
+    # ends about x 1543. The whole castle is wider than an 18% glide
+    # can hold. This clip is a short glide centered on that span, so
+    # the curtain, the far-left tower, the keep, and the round tower
+    # stay inside every frame.
     {
         "entry_id": "FR-01-175",
         "n": 175,
-        "held": "Château de Falaise keep and round tower",
-        "subject_x": 1347.5,
-        "subject_span": (1152.0, 1543.0),
-        "window_start": 691.0,
-        "window_end": 1056.0,
+        "held": "Château de Falaise curtain, keep, and round tower",
+        "subject_x": 1237.5,
+        "subject_span": (910.0, 1565.0),
+        "window_start": 765.0,
+        "window_end": 845.0,
     },
     # Mamoudzou. The white minaret and the mosque mass under it measure
     # about x 1390–1580, right of plate center. An 18% glide aimed at
@@ -318,18 +319,18 @@ SWEEP_SCENES = (
         "window_start": 728.0,
         "window_end": 1056.0,
     },
-    # Tour de Porto. The pale Genoese crown on the daylight plate is
-    # about x 1400–1590, right of plate center. An 18% glide aimed at
-    # the tower leaves the plate. This clip eases across the on-plate
-    # slack that keeps the crown inside every frame with a 12px pad.
+    # Tour de Porto. The round tower and the rock it stands on measure
+    # about x 560–810. The old window walked past that mass. This clip
+    # is a short glide centered on the tower, so the crown and the
+    # rock stay inside every frame.
     {
         "entry_id": "FR-01-188",
         "n": 188,
-        "held": "Tour de Porto",
-        "subject_x": 1495.0,
-        "subject_span": (1400.0, 1590.0),
-        "window_start": 738.0,
-        "window_end": 1056.0,
+        "held": "Tour de Porto and its rock",
+        "subject_x": 685.0,
+        "subject_span": (560.0, 810.0),
+        "window_start": 223.0,
+        "window_end": 283.0,
     },
 )
 
