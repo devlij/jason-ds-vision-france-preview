@@ -805,6 +805,24 @@ SWEEP_SCENES = (
         "window_end": 708.0,
         "span_pad": 0.0,
     },
+    # Anse du Gouvernement. Three shore houses. The left roof becomes
+    # a wall at about x 1212. The right roof is still dark at x 1850
+    # and the near-black eave runs to about x 1882; the dune is lighter
+    # by x 1884, short of the plate edge at 1920. That span fits in 864.
+    # The right wall is the limit, so this clip eases from x 1024 to
+    # the plate's last origin at 1056 (32px). Frame 0 samples through
+    # x 1887, five pixels past the eave, so the right wall is inside
+    # the frame and not on its edge. Frame 239 still holds the left wall.
+    {
+        "entry_id": "FR-01-338",
+        "n": 338,
+        "held": "Anse du Gouvernement three shore houses",
+        "subject_x": 1547.0,
+        "subject_span": (1212.0, 1882.0),
+        "window_start": 1024.0,
+        "window_end": 1056.0,
+        "span_pad": 5.0,
+    },
 )
 
 # Not encoded. Distinct tips cannot all stay in one 864 frame while the
@@ -1436,18 +1454,6 @@ SKIPPED = (
             "has only a few pixels of slack, under 15px, so a lateral "
             "sweep would read as locked or would crop the shoulder. "
             "Left without a clip."
-        ),
-    },
-    {
-        "entry_id": "FR-01-338",
-        "held": "Anse du Gouvernement three shore houses",
-        "reason": (
-            "The left house on the daylight plate begins about x 1280, "
-            "and the right house runs from about x 1780 to the right "
-            "edge of the plate. The outer span is about 640px, but the "
-            "right wall already meets the plate edge, so the only 864 "
-            "window that keeps it is locked at x 1056. A 15px glide "
-            "would crop that house. Left without a clip."
         ),
     },
     {
