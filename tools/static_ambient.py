@@ -842,6 +842,27 @@ SWEEP_SCENES = (
         "window_start": 820.0,
         "window_end": 868.0,
     },
+    # Pack 12. Measured on the daylight 16:9 photo (top 1080 rows).
+    # Château d'If. The sea line on the open water sits at about y 656.
+    # The left wall becomes stone at x 746: y 360 is [151, 121, 75], and
+    # x 744 at that row is still sky. The right tower's last sustained
+    # dark column is x 1319; x 1320 has no 8px run under luminance 155.
+    # Three tops sit inside that span: a left tower near x 780, the
+    # higher central parapet at x 929, y 306, and a right tower whose
+    # tip is near x 1275, y 332. That masonry is 573px. The low rocky
+    # shore of the islet continues past the walls, about x 577–1490
+    # where the land is 30px above the sea, and that shore is not a
+    # tower of the fort. This clip is a 48px glide centered on the
+    # walls, so all three towers stay inside every frame.
+    {
+        "entry_id": "FR-01-364",
+        "n": 364,
+        "held": "Château d'If walls and three towers",
+        "subject_x": 1032.5,
+        "subject_span": (746.0, 1319.0),
+        "window_start": 576.5,
+        "window_end": 624.5,
+    },
 )
 
 # Not encoded. Distinct tips cannot all stay in one 864 frame while the
@@ -1607,6 +1628,41 @@ SKIPPED = (
             "left edge (first dark pixel at x 0, y 315) to about x 1151. "
             "That span is 1152px, wider than 864, and the left side "
             "already meets the plate edge. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-361",
+        "held": "Mont Choungui peak",
+        "reason": (
+            "The forest horizon on the daylight plate sits at about "
+            "y 830. The summit is dark rock at x 938, y 382. The "
+            "slopes, where the silhouette is 25px above that horizon, "
+            "run x 361–1420. That span is 1060px, wider than 864, so "
+            "holding the peak would mean cropping the same slopes. "
+            "Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-363",
+        "held": "Centre Pompidou colored front",
+        "reason": (
+            "A colored duct on the daylight plate starts at x 406, "
+            "y 450. The same saturated front is still present at "
+            "x 1578, y 601. That span is 1173px, wider than 864. The "
+            "high pipes near x 405–740 are the left end of that front, "
+            "not a separate tower that can stand in for the building. "
+            "Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-365",
+        "held": "Château de Peyrepertuse walls",
+        "reason": (
+            "The ruined walls on the daylight plate stand above about "
+            "y 450 from x 651 to x 1723. That span is 1073px. Distinct "
+            "tops sit near x 662, 855, 1210, 1413, and 1467, and the "
+            "curtain stays high past x 1600. Holding every wall would "
+            "mean dropping one. Left without a clip."
         ),
     },
 )
