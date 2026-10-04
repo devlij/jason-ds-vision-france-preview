@@ -685,6 +685,38 @@ SWEEP_SCENES = (
         "window_start": 300.0,
         "window_end": 348.0,
     },
+    # Pack 8. Measured on the daylight 16:9 photo (top 1080 rows).
+    # Château de Grignan. The left pavilion and the main block, roof
+    # tips included, stand about x 734–1409, and the lower eaves run
+    # about x 704–1437. That fits in 864. This clip is a short glide
+    # centered on that span, so both ends of the château stay inside
+    # every frame and the hillside to the right does not enter.
+    {
+        "entry_id": "FR-01-299",
+        "n": 299,
+        "held": "Château de Grignan pavilions and roof",
+        "subject_x": 1070.5,
+        "subject_span": (704.0, 1437.0),
+        "window_start": 612.0,
+        "window_end": 664.0,
+    },
+    # Château de Serrant. The left pavilion's dark roof edge is about
+    # x 743, the dome finial about x 1331, the right finial about
+    # x 1526, and the right eave ends about x 1589. That span is
+    # 846px. An 864 window has 17px of slack. This clip uses all of
+    # it. The pavilion may sit on the left edge of the last frame and
+    # the eave on the right edge of the first; neither is cropped,
+    # and the glide does not bring another building in.
+    {
+        "entry_id": "FR-01-302",
+        "n": 302,
+        "held": "Château de Serrant pavilion, dome, and right eave",
+        "subject_x": 1166.0,
+        "subject_span": (743.0, 1589.0),
+        "window_start": 726.0,
+        "window_end": 743.0,
+        "span_pad": 0.0,
+    },
 )
 
 # Not encoded. Distinct tips cannot all stay in one 864 frame while the
@@ -1051,6 +1083,110 @@ SKIPPED = (
             "every tower would mean dropping one. Left without a clip."
         ),
     },
+    {
+        "entry_id": "FR-01-285",
+        "held": "Citadelle de Bitche ramparts",
+        "reason": (
+            "The citadel on the daylight plate, towers included, runs "
+            "about x 224–1486. That outer span is about 1262px, wider "
+            "than 864, so holding every tower would mean dropping one. "
+            "Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-286",
+        "held": "Château de Coucy ruined walls",
+        "reason": (
+            "Stone masses on the daylight plate stand about x 285–359, "
+            "x 620–720, x 1101–1352, and x 1468–1694. The outer span is "
+            "about 1409px, wider than 864, so holding every wall would "
+            "mean dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-287",
+        "held": "Château de Carrouges slate roofs",
+        "reason": (
+            "Slate roofs on the daylight plate run about x 623–817, "
+            "x 858–1478, and x 1564–1635. The outer span is about "
+            "1012px, wider than 864, so holding every roof would mean "
+            "dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-288",
+        "held": "Château de Hautefort pavilions and dome",
+        "reason": (
+            "A left pavilion on the daylight plate stands about "
+            "x 763–839, and the main roof, dome included, runs to about "
+            "x 1703. The outer span is about 940px, wider than 864, so "
+            "holding every roof tip would mean dropping one. Left "
+            "without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-295",
+        "held": "Grande Anse beach and rocks",
+        "reason": (
+            "The dark rocks on the daylight plate run from about x 912 "
+            "to the right edge, and the beach fills the plate below "
+            "that. There is no separate tower. The shore is wider than "
+            "864, so a sweep would let beach leave one side while more "
+            "beach enters the other. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-297",
+        "held": "Plage de Sohoa headland trees",
+        "reason": (
+            "The headland canopy on the daylight plate already meets "
+            "the left edge and the top of the plate, and runs to about "
+            "x 738. A lateral sweep would crop the trees that already "
+            "sit on the plate edge. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-300",
+        "held": "Château de Tanlay roofs",
+        "reason": (
+            "The château slate on the daylight plate runs about "
+            "x 638–1591, with further stone masses about x 344–434 and "
+            "x 514–594. The outer span is wider than 864, so holding "
+            "every roof would mean dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-301",
+        "held": "Port de Centuri and the hill behind it",
+        "reason": (
+            "The port and the hill on the daylight plate run from about "
+            "x 1126 to the right edge. That mass already meets the "
+            "plate edge, so a lateral sweep would crop it or leave the "
+            "plate. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-303",
+        "held": "Pointe du Raz cliffs",
+        "reason": (
+            "The cliffs on the daylight plate run from the left edge to "
+            "about x 859, and again from about x 1313 to the right edge. "
+            "Holding both sides would mean dropping one. A sweep would "
+            "let cliff leave one side while more cliff enters the other. "
+            "Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-304",
+        "held": "Château de Châteaudun keep and wing",
+        "reason": (
+            "The keep on the daylight plate stands about x 557–806, and "
+            "the wing runs to about x 1418. That outer span is about "
+            "861px. An 864 window can hold the keep and the wing only "
+            "with a few pixels of slack, and a lateral sweep crops one "
+            "end. Left without a clip."
+        ),
+    },
 )
 
 
@@ -1135,12 +1271,16 @@ def assert_span_in_frame(
     subject_x: float,
     span: tuple[float, float],
     bounds: tuple[float, float] | None = None,
+    pad: float = 12.0,
 ) -> None:
-    """The whole subject, not only its center, stays inside every frame."""
+    """The whole subject, not only its center, stays inside every frame.
+
+    ``pad`` stays 12px unless a scene's roof already fills the slack an
+    864 window has. A zero pad still rejects a window that crops the span.
+    """
     left, right = span
     if not (left < subject_x < right):
         raise SystemExit("subject center is outside its span")
-    pad = 12.0
     for n in range(FRAMES):
         x = sweep_x(n, subject_x, bounds)
         if left < x + pad or right > x + PHOTO_W - pad:
@@ -1302,7 +1442,8 @@ def scene_bounds(scene: dict) -> tuple[float, tuple[float, float] | None, tuple[
         assert_sweep_path(subject_x)
     if span is not None:
         span = (float(span[0]), float(span[1]))
-        assert_span_in_frame(subject_x, span, bounds)
+        pad = float(scene.get("span_pad", 12.0))
+        assert_span_in_frame(subject_x, span, bounds, pad)
     return subject_x, span, bounds
 
 
