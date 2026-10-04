@@ -643,6 +643,48 @@ SWEEP_SCENES = (
         "window_start": 773.0,
         "window_end": 823.0,
     },
+    # Pack 7. Measured on the daylight 16:9 photo (top 1080 rows).
+    # Cascade de Grand Galet. The white water on the daylight plate
+    # runs about x 738–921. The gorge around it is wider, and the
+    # forest touches the top of the plate. This clip is a short glide
+    # centered on the falls, so the whole ribbon stays inside every
+    # frame.
+    {
+        "entry_id": "FR-01-263",
+        "n": 263,
+        "held": "Cascade de Grand Galet",
+        "subject_x": 830.0,
+        "subject_span": (700.0, 980.0),
+        "window_start": 414.0,
+        "window_end": 462.0,
+    },
+    # Phare de Gatteville. The granite shaft, lantern included, measures
+    # about x 612–799, tip near x 710 and y 65. No second tower. This
+    # clip is a short glide centered on the shaft so the lantern and
+    # the base stay inside every frame.
+    {
+        "entry_id": "FR-01-270",
+        "n": 270,
+        "held": "Phare de Gatteville",
+        "subject_x": 710.0,
+        "subject_span": (600.0, 820.0),
+        "window_start": 254.0,
+        "window_end": 302.0,
+    },
+    # Fort la Latte. The keep and the curtain, towers included, measure
+    # about x 422–1094 on the daylight plate. The rocky point continues
+    # past the walls. The fort itself fits in 864. This clip is a short
+    # glide that keeps every tower inside every frame and does not
+    # travel onto open sea.
+    {
+        "entry_id": "FR-01-283",
+        "n": 283,
+        "held": "Fort la Latte towers",
+        "subject_x": 758.0,
+        "subject_span": (410.0, 1100.0),
+        "window_start": 300.0,
+        "window_end": 348.0,
+    },
 )
 
 # Not encoded. Distinct tips cannot all stay in one 864 frame while the
@@ -914,6 +956,99 @@ SKIPPED = (
             "x 510 to about x 1630. That outer span is about 1120px, "
             "wider than 864, so holding both wings would mean "
             "dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-265",
+        "held": "Plage de Soulou cliff, waterfall, and tree",
+        "reason": (
+            "The cliff on the daylight plate, waterfall included, "
+            "meets the left edge and the vegetated face runs to about "
+            "x 805, with a further tree about x 882–974. That outer "
+            "span is wider than 864, and a sweep would crop the cliff "
+            "that already meets the plate edge. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-267",
+        "held": "Viaduc de Garabit arch",
+        "reason": (
+            "The red iron arch on the daylight plate runs from about "
+            "x 125 to about x 1767. That outer span is about 1643px, "
+            "wider than 864, so holding the arch would mean cutting it. "
+            "Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-268",
+        "held": "Château de La Rochepot tiled towers",
+        "reason": (
+            "The patterned roofs on the daylight plate, turrets "
+            "included, run about x 532–1723. That outer span is about "
+            "1192px, wider than 864, so holding every tower would mean "
+            "dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-269",
+        "held": "Palombaggia pines and red rocks",
+        "reason": (
+            "The pines and red rocks on the daylight plate already "
+            "meet the left edge and run to about x 782. They fit in "
+            "one locked 864 window, but a lateral sweep would crop "
+            "the pines that already sit on the plate edge. Left "
+            "without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-271",
+        "held": "Château de Bonaguil keep and towers",
+        "reason": (
+            "The keep on the daylight plate stands about x 442–855, "
+            "a round tower about x 1020–1180, and a further tower "
+            "about x 1398–1548. The outer span is about 1106px, wider "
+            "than 864, so holding every tower would mean dropping one. "
+            "Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-272",
+        "held": "Abbaye de Maillezais ruins",
+        "reason": (
+            "The ruined walls on the daylight plate and the tall tower "
+            "to their right run about x 940–1822. That outer span is "
+            "about 883px, wider than 864, so holding both masses would "
+            "mean dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-279",
+        "held": "Le Souffleur lava coast",
+        "reason": (
+            "The lava shore on the daylight plate runs the full width, "
+            "and there is no separate tower or bounded blowhole that "
+            "fits in 864. A sweep would let coast leave one side while "
+            "more coast enters the other. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-281",
+        "held": "Plage de Saziley headland trees",
+        "reason": (
+            "The headland canopy on the daylight plate, tips already "
+            "touching the top, runs from about x 640 to about x 1900. "
+            "That outer span is wider than 864, so holding the trees "
+            "would mean dropping some. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-284",
+        "held": "Château de Sully-sur-Loire towers",
+        "reason": (
+            "The brick château on the daylight plate, round tower and "
+            "right-hand tower included, runs about x 550–1450. That "
+            "outer span is about 900px, wider than 864, so holding "
+            "every tower would mean dropping one. Left without a clip."
         ),
     },
 )
