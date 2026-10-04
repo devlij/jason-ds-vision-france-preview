@@ -267,6 +267,71 @@ SWEEP_SCENES = (
         "window_start": 798.0,
         "window_end": 818.0,
     },
+    # Pack 3. Measured on the daylight 16:9 photo (top 1080 rows).
+    # Cluny. The surviving octagonal tower and the smaller tower beside
+    # it, tips included, measure about x 1020–1420. That fits an 18%
+    # glide aimed at the pair, so the towers stay inside the 864 frame.
+    {
+        "entry_id": "FR-01-171",
+        "n": 171,
+        "held": "Cluny Abbey octagonal tower and the tower beside it",
+        "subject_x": 1220.0,
+        "subject_span": (1020.0, 1420.0),
+    },
+    # Aiguilles de Bavella. The high granite needles on the daylight
+    # plate run about x 291–938, wider than an 18% glide can hold.
+    # This clip eases only across the slack that keeps every needle
+    # inside every frame with a 12px pad.
+    {
+        "entry_id": "FR-01-172",
+        "n": 172,
+        "held": "Aiguilles de Bavella granite needles",
+        "subject_x": 614.5,
+        "subject_span": (291.0, 938.0),
+        "window_start": 86.0,
+        "window_end": 279.0,
+    },
+    # Château de Falaise. The curtain and far-left tower begin about
+    # x 948, the keep rises about x 1152–1311, and the round tower
+    # ends about x 1543. The whole castle is wider than an 18% glide
+    # can hold. This clip is a short glide centered on that span, so
+    # the curtain, the far-left tower, the keep, and the round tower
+    # stay inside every frame.
+    {
+        "entry_id": "FR-01-175",
+        "n": 175,
+        "held": "Château de Falaise curtain, keep, and round tower",
+        "subject_x": 1237.5,
+        "subject_span": (910.0, 1565.0),
+        "window_start": 765.0,
+        "window_end": 845.0,
+    },
+    # Mamoudzou. The white minaret and the mosque mass under it measure
+    # about x 1390–1580, right of plate center. An 18% glide aimed at
+    # that mass leaves the plate. This clip eases across the on-plate
+    # slack that keeps the minaret inside every frame with a 12px pad.
+    {
+        "entry_id": "FR-01-185",
+        "n": 185,
+        "held": "Mamoudzou minaret",
+        "subject_x": 1485.0,
+        "subject_span": (1390.0, 1580.0),
+        "window_start": 728.0,
+        "window_end": 1056.0,
+    },
+    # Tour de Porto. The round tower and the rock it stands on measure
+    # about x 560–810. The old window walked past that mass. This clip
+    # is a short glide centered on the tower, so the crown and the
+    # rock stay inside every frame.
+    {
+        "entry_id": "FR-01-188",
+        "n": 188,
+        "held": "Tour de Porto and its rock",
+        "subject_x": 685.0,
+        "subject_span": (560.0, 810.0),
+        "window_start": 223.0,
+        "window_end": 283.0,
+    },
 )
 
 # Not encoded. Distinct tips cannot all stay in one 864 frame while the
@@ -330,6 +395,81 @@ SKIPPED = (
             "the body runs to about x 1600. The sculpture is wider than "
             "864. A window that holds the head cuts the hindquarters. "
             "Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-167",
+        "held": "Maïdo cirque rim",
+        "reason": (
+            "Two crests on the daylight plate stand at about the same "
+            "height: one about x 160–480, highest near x 320, and one "
+            "about x 1000–1160, highest near x 1067. The outer span is "
+            "about 1000px, wider than 864, so holding both crests would "
+            "mean dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-169",
+        "held": "Plage de N'Gouja trees",
+        "reason": (
+            "A tree cluster on the daylight plate stands about x 16–331, "
+            "and a large tree stands about x 1461–1919. The outer span "
+            "is about 1900px, wider than 864, so holding both trees "
+            "would mean dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-173",
+        "held": "Beauvais Cathedral pinnacles",
+        "reason": (
+            "The choir pinnacles on the daylight plate run from about "
+            "x 849 to about x 1832. That outer span is 984px, wider "
+            "than 864, so holding every pinnacle would mean dropping "
+            "one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-174",
+        "held": "Château de Montsoreau roof",
+        "reason": (
+            "The slate roof on the daylight plate, dormers and tower "
+            "caps included, runs about x 218–1207. That outer span is "
+            "990px, wider than 864, so holding every roof tip would "
+            "mean dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-176",
+        "held": "Pont d'Arc",
+        "reason": (
+            "The arch opening on the daylight plate is widest about "
+            "x 795–1158, and the stone rims continue past that hole. "
+            "The left abutment is still the arch near x 400, and the "
+            "right abutment is still the arch past x 1500. The outer "
+            "span is wider than 864, so holding both rims would mean "
+            "dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-183",
+        "held": "Hell-Bourg roofs and cirque wall",
+        "reason": (
+            "Creole roofs on the daylight plate run from about x 774 "
+            "to the right edge, and the cirque wall rises to about "
+            "y 71 near x 1560. That span is wider than 864, so holding "
+            "every roof and the wall would mean dropping one. Left "
+            "without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-187",
+        "held": "Semur-en-Auxois round towers",
+        "reason": (
+            "A round tower on the daylight plate stands about x 121–297, "
+            "a spire peaks near x 1283, and further towers run about "
+            "x 1475–1767. The outer span is about 1646px, wider than "
+            "864, so holding every tower would mean dropping one. Left "
+            "without a clip."
         ),
     },
 )
