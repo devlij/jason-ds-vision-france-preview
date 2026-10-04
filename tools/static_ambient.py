@@ -823,6 +823,25 @@ SWEEP_SCENES = (
         "window_end": 1056.0,
         "span_pad": 5.0,
     },
+    # Pack 11. Measured on the daylight 16:9 photo (top 1080 rows).
+    # Phare des Baleines. The finial is a dark tip at about x 1271–1276,
+    # y 237. The gallery at y 346 is object from x 1226 through x 1322
+    # and sky again at x 1326. The white shaft's first solid pixel at
+    # y 690 is x 1211. The shadowed right side of the shaft is still
+    # dark at y 660 through x 1342 and light by x 1344. That span is
+    # 132px. The foreground wall under the tower runs much wider and
+    # is not part of the shaft. This clip is a short glide centered
+    # on the lighthouse, so the finial, the gallery, and the shaft
+    # stay inside every frame.
+    {
+        "entry_id": "FR-01-352",
+        "n": 352,
+        "held": "Phare des Baleines",
+        "subject_x": 1276.5,
+        "subject_span": (1211.0, 1342.0),
+        "window_start": 820.0,
+        "window_end": 868.0,
+    },
 )
 
 # Not encoded. Distinct tips cannot all stay in one 864 frame while the
@@ -1477,6 +1496,117 @@ SKIPPED = (
             "shore is wider than 864, so a sweep would let beach leave "
             "one side while more beach enters the other. Left without "
             "a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-345",
+        "held": "Îlot Mbouzi",
+        "reason": (
+            "The islet canopy on the daylight plate runs about "
+            "x 402–1492. That span is 1091px, wider than 864, and the "
+            "shore below runs about x 219–1664. Holding the islet would "
+            "mean cutting it. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-347",
+        "held": "Plage de Saleccia tree and beach",
+        "reason": (
+            "A tree on the daylight plate is already dark at the left "
+            "edge (x 0, y 400). The beach runs from that edge to about "
+            "x 1891. The tree already meets the plate edge, so a lateral "
+            "sweep would crop it. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-348",
+        "held": "Château du Lude towers and roofs",
+        "reason": (
+            "The château stone on the daylight plate, corner tower "
+            "included, runs about x 393–1503. That span is 1111px, "
+            "wider than 864, so holding every tower would mean dropping "
+            "one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-349",
+        "held": "Cathédrale Saint-Étienne spires",
+        "reason": (
+            "The cathedral on the daylight plate rises at about x 700 "
+            "and the right high roof ends at about x 1555. That span "
+            "is 856px. An 864 window has about 8px of slack, under 15px. "
+            "A separate pale crown stands about x 1767–1835. Left "
+            "without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-350",
+        "held": "Cathédrale Notre-Dame de Noyon",
+        "reason": (
+            "The cathedral on the daylight plate, left tower tip near "
+            "x 533, runs about x 403–1617. That span is 1215px, wider "
+            "than 864, so holding both ends would mean dropping one. "
+            "Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-351",
+        "held": "Abbaye de Saint-Wandrille ruins",
+        "reason": (
+            "The high ruins on the daylight plate run from about x 1030 "
+            "to the right edge. The pixel at x 1919 is already dark at "
+            "y 279. That span is about 890px, wider than 864, and the "
+            "right mass already meets the plate edge. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-354",
+        "held": "Grand Barachois shores",
+        "reason": (
+            "A dark bank on the daylight plate runs from the left edge "
+            "to about x 547, and the right shore is brown land at the "
+            "plate edge (x 1919, y 640) back to about x 1125. The outer "
+            "span is the full plate, wider than 864. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-357",
+        "held": "Îles de la Petite-Terre",
+        "reason": (
+            "Two islets on the daylight plate stand about x 269–902 and "
+            "x 928–1653. The outer span is 1385px, wider than 864, so "
+            "holding both islets would mean dropping one. Left without "
+            "a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-358",
+        "held": "Plage des Hattes",
+        "reason": (
+            "Dark land on the daylight plate at y 366 runs from about "
+            "x 280 to the right edge, and the pixel at x 1919 is already "
+            "dark. The shore is wider than 864, so a sweep would crop "
+            "land that already meets the plate edge. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-359",
+        "held": "Trou de Fer gorge walls",
+        "reason": (
+            "The gorge walls on the daylight plate are already dark at "
+            "both plate edges from about y 233. The wall meets the left "
+            "edge and the right edge, so a lateral sweep would crop it. "
+            "Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-360",
+        "held": "Grand'Rivière houses and trees",
+        "reason": (
+            "Dark roofs and trees on the daylight plate run from the "
+            "left edge (first dark pixel at x 0, y 315) to about x 1151. "
+            "That span is 1152px, wider than 864, and the left side "
+            "already meets the plate edge. Left without a clip."
         ),
     },
 )
