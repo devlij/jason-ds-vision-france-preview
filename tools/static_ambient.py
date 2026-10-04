@@ -75,18 +75,20 @@ SWEEP_SCENES = (
         "window_start": 520.0,
         "window_end": 640.0,
     },
-    # Plage de Moya cove between the inner cliff faces, x 760–1480.
-    # The outer crater rims run to both plate edges. This clip eases
-    # only across the slack that keeps the cove inside every frame
-    # with a 12px pad.
+    # Plage de Moya baobab and the cove it stands in. The canopy on the
+    # daylight plate starts near x 588, the trunk sits under that crown,
+    # and the inner cliff faces that close the cove run out to about
+    # x 1380. Wider than an 18% glide can hold. This clip eases only
+    # across the slack that keeps the whole tree and both cove sides
+    # inside every frame with a 12px pad.
     {
         "entry_id": "FR-01-133",
         "n": 133,
-        "held": "Plage de Moya cove",
-        "subject_x": 1120.0,
-        "subject_span": (760.0, 1480.0),
-        "window_start": 628.0,
-        "window_end": 748.0,
+        "held": "Plage de Moya baobab and cove",
+        "subject_x": 977.5,
+        "subject_span": (575.0, 1380.0),
+        "window_start": 528.0,
+        "window_end": 563.0,
     },
     # Grave field wider than 864, with the tall marker mass at about
     # x 540–750 kept inside. This clip eases only across the slack that
@@ -100,16 +102,18 @@ SWEEP_SCENES = (
         "window_start": 476.0,
         "window_end": 488.0,
     },
-    # Yvoire château tower, spire already within a few pixels of the top
-    # of the plate (about x 1125–1152). Same 18% glide, aimed at the
-    # tower measured x 921–1227, so the shaft and spire stay inside the
-    # 864 frame. The sweep does not crop the spire further at the top.
+    # Yvoire château tower. The crenellated crown, clock included, measures
+    # about x 570–1348 on the daylight plate. The 18% aim walked the left
+    # end off the frame. This clip eases only across the slack that keeps
+    # the crown and the clock inside every frame with a 12px pad.
     {
         "entry_id": "FR-01-136",
         "n": 136,
         "held": "Yvoire château tower",
-        "subject_x": 1074.0,
-        "subject_span": (921.0, 1227.0),
+        "subject_x": 959.0,
+        "subject_span": (570.0, 1348.0),
+        "window_start": 496.0,
+        "window_end": 558.0,
     },
     # Mer de Glace tongue in the valley center. The flanking ridges run
     # wider than 864 and are not separate spires of the glacier. This
