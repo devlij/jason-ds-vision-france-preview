@@ -524,6 +524,125 @@ SWEEP_SCENES = (
         "window_start": 490.0,
         "window_end": 536.0,
     },
+    # Pack 6. Measured on the daylight 16:9 photo (top 1080 rows).
+    # Citadelle de Blaye. The rampart runs from the left edge to about
+    # x 1107, and the round keep rises about x 490–710. The whole
+    # citadel is wider than 864. This clip holds the keep and the
+    # rampart around it, and eases only across the slack inside that span.
+    {
+        "entry_id": "FR-01-237",
+        "n": 237,
+        "held": "Citadelle de Blaye keep and rampart",
+        "subject_x": 600.0,
+        "subject_span": (202.0, 998.0),
+        "window_start": 148.0,
+        "window_end": 188.0,
+    },
+    # Senlis Cathedral. The spire tip is about x 1238, y 14, and the
+    # church, buttresses included, measures about x 950–1500. An 18%
+    # glide aimed at the spire lost the left roof. The whole church
+    # fits in 864. This clip is a short glide that keeps the spire,
+    # uncropped past the plate's top edge, and the church inside
+    # every frame.
+    {
+        "entry_id": "FR-01-238",
+        "n": 238,
+        "held": "Senlis Cathedral spire and church",
+        "subject_x": 1238.0,
+        "subject_span": (950.0, 1500.0),
+        "window_start": 774.0,
+        "window_end": 822.0,
+    },
+    # Jumièges. The two ruined towers measure about x 668–866 and
+    # x 1082–1266. An 18% glide cannot hold both. This clip is a
+    # short glide that keeps both towers inside every frame.
+    {
+        "entry_id": "FR-01-239",
+        "n": 239,
+        "held": "Jumièges ruined towers",
+        "subject_x": 967.0,
+        "subject_span": (660.0, 1275.0),
+        "window_start": 514.0,
+        "window_end": 562.0,
+    },
+    # Lagon de l'Ermitage. The lagoon runs the full plate, and there
+    # is no separate tower. Wider than 864. This clip holds the
+    # central water and eases only across the slack inside that span.
+    {
+        "entry_id": "FR-01-247",
+        "n": 247,
+        "held": "Lagon de l'Ermitage",
+        "subject_x": 960.0,
+        "subject_span": (564.0, 1356.0),
+        "window_start": 506.0,
+        "window_end": 550.0,
+    },
+    # Phare de Mtsamboro. The white tower, lantern included, measures
+    # about x 1345–1414, right of plate center. An 18% glide aimed at
+    # the tower leaves the plate. This clip is a short glide centered
+    # on the tower so the shaft and the lantern stay inside every frame.
+    {
+        "entry_id": "FR-01-249",
+        "n": 249,
+        "held": "Phare de Mtsamboro",
+        "subject_x": 1377.0,
+        "subject_span": (1310.0, 1460.0),
+        "window_start": 900.0,
+        "window_end": 948.0,
+    },
+    # Lac du Bourget. The lake and the ridge run the full plate, and
+    # the highest summit is about x 1058. There is no separate tower.
+    # Wider than 864. This clip holds the summit and the water in
+    # front of it, and eases only across the slack inside that span.
+    {
+        "entry_id": "FR-01-251",
+        "n": 251,
+        "held": "Lac du Bourget summit and water",
+        "subject_x": 1058.0,
+        "subject_span": (640.0, 1400.0),
+        "window_start": 560.0,
+        "window_end": 608.0,
+    },
+    # Château de Joux. The fortress, round tower and keep included,
+    # measures about x 840–1560. Wider than an 18% glide can hold.
+    # This clip is a short glide that keeps the round tower and the
+    # keep inside every frame.
+    {
+        "entry_id": "FR-01-252",
+        "n": 252,
+        "held": "Château de Joux round tower and keep",
+        "subject_x": 1200.0,
+        "subject_span": (840.0, 1560.0),
+        "window_start": 760.0,
+        "window_end": 820.0,
+    },
+    # Valençay. The domed tower begins about x 776, and the round
+    # tower on the right ends about x 1584. Both fit in 864, with
+    # little slack. An 18% glide would lose a tower. This clip eases
+    # only across that slack so both towers stay inside every frame.
+    {
+        "entry_id": "FR-01-254",
+        "n": 254,
+        "held": "Valençay domed tower and round tower",
+        "subject_x": 1180.0,
+        "subject_span": (776.0, 1584.0),
+        "window_start": 734.0,
+        "window_end": 762.0,
+    },
+    # Troyes Cathedral. The finished spire, tip about x 938 and y 23,
+    # and the lower unfinished tower measure about x 870–1610. Wider
+    # than an 18% glide can hold. This clip is a short glide that
+    # keeps both towers inside every frame, and does not crop the
+    # spire past the plate's top edge.
+    {
+        "entry_id": "FR-01-255",
+        "n": 255,
+        "held": "Troyes Cathedral spire and unfinished tower",
+        "subject_x": 1240.0,
+        "subject_span": (870.0, 1610.0),
+        "window_start": 773.0,
+        "window_end": 823.0,
+    },
 )
 
 # Not encoded. Distinct tips cannot all stay in one 864 frame while the
@@ -764,6 +883,37 @@ SKIPPED = (
             "and the islet stands about x 960–1290. The outer span is "
             "1290px, wider than 864, so holding the palms and the islet "
             "would mean dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-240",
+        "held": "Château du Plessis-Bourré corner towers",
+        "reason": (
+            "A left pavilion on the daylight plate stands about "
+            "x 244–411, and the right-hand roofs run to about "
+            "x 1538. The outer span is about 1294px, wider than "
+            "864, so holding every tower would mean dropping one. "
+            "Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-253",
+        "held": "Sartène roofs and trees",
+        "reason": (
+            "Granite roofs and trees on the daylight plate stand "
+            "from about x 0 to about x 1910. That outer span is "
+            "about 1910px, wider than 864, so holding every roof "
+            "and tree would mean dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-256",
+        "held": "Château de Compiègne wings",
+        "reason": (
+            "The palace walls on the daylight plate run from about "
+            "x 510 to about x 1630. That outer span is about 1120px, "
+            "wider than 864, so holding both wings would mean "
+            "dropping one. Left without a clip."
         ),
     },
 )
