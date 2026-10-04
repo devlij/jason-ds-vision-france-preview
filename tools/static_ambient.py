@@ -373,18 +373,20 @@ SWEEP_SCENES = (
         "window_start": 508.0,
         "window_end": 568.0,
     },
-    # Tsingoni. The square minaret stands about x 444–654, left of plate
-    # center, and the mosque continues to about x 980. An 18% glide aimed
-    # at that mass leaves the plate. This clip eases across the on-plate
-    # slack that keeps the minaret and the mosque inside every frame.
+    # Tsingoni. The square minaret and its finial measure about x 440–658,
+    # the tip near x 549. A large palm stands to the left, about x 144–304.
+    # The mosque roof continues past the minaret and is wider than an 864
+    # frame can hold together with that palm. This clip is a short glide
+    # centered on the finial, so the minaret, the finial, and the palm
+    # stay inside every frame and a further wing does not enter.
     {
         "entry_id": "FR-01-201",
         "n": 201,
-        "held": "Tsingoni mosque and minaret",
-        "subject_x": 700.0,
-        "subject_span": (420.0, 980.0),
-        "window_start": 128.0,
-        "window_end": 408.0,
+        "held": "Tsingoni minaret, finial, and palm",
+        "subject_x": 549.0,
+        "subject_span": (144.0, 658.0),
+        "window_start": 102.0,
+        "window_end": 132.0,
     },
     # Bastia old port. The church and its bell tower measure about
     # x 1100–1650, and the quay continues past both sides of that church.
@@ -399,18 +401,19 @@ SWEEP_SCENES = (
         "window_start": 848.0,
         "window_end": 888.0,
     },
-    # Cap Gris-Nez lighthouse. The shaft and lantern measure about
-    # x 468–582, left of plate center. An 18% glide aimed at the tower
-    # leaves the plate. This clip eases from the plate's left edge
-    # across the slack that keeps the lighthouse inside every frame.
+    # Cap Gris-Nez. The stone house left of the tower measures about
+    # x 220–420, and the lighthouse, lantern included, measures about
+    # x 480–584. The old window ran from the plate edge to x 456 and
+    # walked past the house. This clip is a short glide that keeps the
+    # house and the lighthouse inside every frame.
     {
         "entry_id": "FR-01-205",
         "n": 205,
-        "held": "Cap Gris-Nez lighthouse",
-        "subject_x": 525.0,
-        "subject_span": (468.0, 582.0),
-        "window_start": 0.0,
-        "window_end": 456.0,
+        "held": "Cap Gris-Nez lighthouse and stone house",
+        "subject_x": 402.0,
+        "subject_span": (220.0, 584.0),
+        "window_start": 16.0,
+        "window_end": 72.0,
     },
     # Le Croisic. The church and its bell tower measure about x 300–950,
     # and the harbor continues past that church. The whole port is wider
