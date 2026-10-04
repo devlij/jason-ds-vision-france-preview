@@ -332,6 +332,102 @@ SWEEP_SCENES = (
         "window_start": 223.0,
         "window_end": 283.0,
     },
+    # Pack 4. Measured on the daylight 16:9 photo (top 1080 rows).
+    # Château de Brissac. The tall block, corner towers included, measures
+    # about x 590–1330. That is wider than an 18% glide can hold. This
+    # clip eases only across the slack that keeps the château inside
+    # every frame with a 12px pad.
+    {
+        "entry_id": "FR-01-190",
+        "n": 190,
+        "held": "Château de Brissac",
+        "subject_x": 960.0,
+        "subject_span": (590.0, 1330.0),
+        "window_start": 478.0,
+        "window_end": 578.0,
+    },
+    # Clermont-Ferrand cathedral. The dark stone mass and the spire,
+    # whose tip sits near the top of the plate at about x 1217, measure
+    # about x 766–1380. Wider than an 18% glide can hold. This clip
+    # eases only across the slack that keeps the spire, uncropped past
+    # the plate's top edge, and the cathedral mass inside every frame.
+    {
+        "entry_id": "FR-01-192",
+        "n": 192,
+        "held": "Clermont-Ferrand Cathedral spire",
+        "subject_x": 1073.0,
+        "subject_span": (766.0, 1380.0),
+        "window_start": 528.0,
+        "window_end": 754.0,
+    },
+    # Notre-Dame-des-Laves. The church and its bell tower measure about
+    # x 580–1360. Wider than an 18% glide can hold. This clip eases
+    # only across the slack that keeps the church and the bell tower
+    # inside every frame with a 12px pad.
+    {
+        "entry_id": "FR-01-199",
+        "n": 199,
+        "held": "Notre-Dame-des-Laves and its bell tower",
+        "subject_x": 970.0,
+        "subject_span": (580.0, 1360.0),
+        "window_start": 508.0,
+        "window_end": 568.0,
+    },
+    # Tsingoni. The square minaret and its finial measure about x 440–658,
+    # the tip near x 549. A large palm stands to the left, about x 144–304.
+    # The mosque roof continues past the minaret and is wider than an 864
+    # frame can hold together with that palm. This clip is a short glide
+    # centered on the finial, so the minaret, the finial, and the palm
+    # stay inside every frame and a further wing does not enter.
+    {
+        "entry_id": "FR-01-201",
+        "n": 201,
+        "held": "Tsingoni minaret, finial, and palm",
+        "subject_x": 549.0,
+        "subject_span": (144.0, 658.0),
+        "window_start": 102.0,
+        "window_end": 132.0,
+    },
+    # Bastia old port. The church and its bell tower measure about
+    # x 1100–1650, and the quay continues past both sides of that church.
+    # The whole harbor is wider than 864. This clip holds the church,
+    # bell tower included, and the quay from about x 900 to x 1700.
+    {
+        "entry_id": "FR-01-204",
+        "n": 204,
+        "held": "Bastia old-port church and quay",
+        "subject_x": 1300.0,
+        "subject_span": (900.0, 1700.0),
+        "window_start": 848.0,
+        "window_end": 888.0,
+    },
+    # Cap Gris-Nez. The stone house left of the tower measures about
+    # x 220–420, and the lighthouse, lantern included, measures about
+    # x 480–584. The old window ran from the plate edge to x 456 and
+    # walked past the house. This clip is a short glide that keeps the
+    # house and the lighthouse inside every frame.
+    {
+        "entry_id": "FR-01-205",
+        "n": 205,
+        "held": "Cap Gris-Nez lighthouse and stone house",
+        "subject_x": 402.0,
+        "subject_span": (220.0, 584.0),
+        "window_start": 16.0,
+        "window_end": 72.0,
+    },
+    # Le Croisic. The church and its bell tower measure about x 300–950,
+    # and the harbor continues past that church. The whole port is wider
+    # than 864. This clip holds the church, bell tower included, and the
+    # quay from about x 200 to x 1010.
+    {
+        "entry_id": "FR-01-206",
+        "n": 206,
+        "held": "Le Croisic church and harbor",
+        "subject_x": 605.0,
+        "subject_span": (200.0, 1010.0),
+        "window_start": 158.0,
+        "window_end": 188.0,
+    },
 )
 
 # Not encoded. Distinct tips cannot all stay in one 864 frame while the
@@ -470,6 +566,56 @@ SKIPPED = (
             "x 1475–1767. The outer span is about 1646px, wider than "
             "864, so holding every tower would mean dropping one. Left "
             "without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-189",
+        "held": "Saint-Valery-sur-Somme quay",
+        "reason": (
+            "The quay roofs on the daylight plate run from the left edge "
+            "to about x 1708. That outer span is about 1708px, wider "
+            "than 864, so holding every roof would mean dropping one. "
+            "Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-191",
+        "held": "Château de Caen ramparts",
+        "reason": (
+            "The rampart on the daylight plate runs about x 0–1491. "
+            "That outer span is about 1491px, wider than 864, so holding "
+            "the curtain would mean dropping one end. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-203",
+        "held": "Baume-les-Messieurs abbey roofs",
+        "reason": (
+            "The abbey roofs in the valley on the daylight plate run "
+            "about x 400–1500. That outer span is about 1100px, wider "
+            "than 864, so holding every roof would mean dropping one. "
+            "Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-207",
+        "held": "Bourges Cathedral towers",
+        "reason": (
+            "The north-tower spire on the daylight plate stands about "
+            "x 501–743, tip near x 620, and the south tower stands about "
+            "x 1196–1426. The outer span is 925px, wider than 864, so "
+            "holding both towers would mean dropping one. Left without "
+            "a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-208",
+        "held": "Château de Sedan bastions",
+        "reason": (
+            "The higher curtain on the daylight plate runs about "
+            "x 692–1588. That outer span is 896px, wider than 864, and "
+            "the bastioned mass continues about x 216–1592. Holding "
+            "every bastion would mean dropping one. Left without a clip."
         ),
     },
 )
