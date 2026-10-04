@@ -774,6 +774,66 @@ SWEEP_SCENES = (
         "window_start": 752.0,
         "window_end": 804.0,
     },
+    # Pack 10. Measured on the daylight 16:9 photo (top 1080 rows).
+    # Phare des îles Sanguinaires. The white shaft and lantern measure
+    # about x 708–778, the lantern near y 448. The red islet under the
+    # tower runs much wider than 864. This clip is a short glide
+    # centered on the lighthouse, so the shaft and the lantern stay
+    # inside every frame.
+    {
+        "entry_id": "FR-01-331",
+        "n": 331,
+        "held": "Phare des îles Sanguinaires",
+        "subject_x": 743.0,
+        "subject_span": (708.0, 778.0),
+        "window_start": 287.0,
+        "window_end": 335.0,
+    },
+    # Château de Goulaine. The slate roofs, turrets included, measure
+    # about x 708–1548. That is 841px. An 864 window has 23px of slack.
+    # This clip uses all of it. The left roof may sit on the left edge
+    # of the last frame and the right eave on the right edge of the
+    # first; neither is cropped. The park trees beyond the roofs are
+    # not part of the château.
+    {
+        "entry_id": "FR-01-332",
+        "n": 332,
+        "held": "Château de Goulaine roofs and turrets",
+        "subject_x": 1128.0,
+        "subject_span": (708.0, 1548.0),
+        "window_start": 685.0,
+        "window_end": 708.0,
+        "span_pad": 0.0,
+    },
+    # Château de Langeais. The round tower begins about x 944, the
+    # square tower's tip is about x 1468 and y 26, and the right wall
+    # ends about x 1730. The trees to the left of the round tower are
+    # not a keep. The château fits in 864. This clip is a short glide
+    # that keeps both towers inside every frame.
+    {
+        "entry_id": "FR-01-334",
+        "n": 334,
+        "held": "Château de Langeais round tower and square tower",
+        "subject_x": 1337.0,
+        "subject_span": (944.0, 1730.0),
+        "window_start": 882.0,
+        "window_end": 930.0,
+    },
+    # Anse du Gouvernement. The shore houses measure about x 1230–1860.
+    # They sit toward the right of the plate, so an 864 window that
+    # keeps every house inside cannot travel past x 1056. This clip
+    # uses that on-plate slack, 59px, so the houses stay inside every
+    # frame and the sweep does not leave the plate.
+    {
+        "entry_id": "FR-01-338",
+        "n": 338,
+        "held": "Anse du Gouvernement shore houses",
+        "subject_x": 1545.0,
+        "subject_span": (1230.0, 1860.0),
+        "window_start": 997.0,
+        "window_end": 1056.0,
+        "span_pad": 0.0,
+    },
 )
 
 # Not encoded. Distinct tips cannot all stay in one 864 frame while the
@@ -1328,6 +1388,94 @@ SKIPPED = (
             "right edge. That outer span is wider than 864, so holding "
             "every house and the trees would mean dropping one. Left "
             "without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-327",
+        "held": "Voile de la Mariée cliff and waterfall",
+        "reason": (
+            "The cirque wall on the daylight plate already meets the "
+            "top of the plate from the left edge to about x 600, and "
+            "again from about x 1380 to the right edge. The falls sit "
+            "about x 1050–1250. The wall is wider than 864, so a sweep "
+            "would crop cliff that already meets the plate edge. Left "
+            "without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-328",
+        "held": "Pitons du Carbet",
+        "reason": (
+            "Three rocky peaks on the daylight plate stand about "
+            "x 540–750, x 780–1050, and x 1100–1430. The outer span "
+            "is about 890px, wider than 864, so holding every peak "
+            "would mean dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-329",
+        "held": "Baie de Bouéni headlands",
+        "reason": (
+            "A headland on the daylight plate runs from the left edge "
+            "to about x 400, an islet stands about x 1310–1375, and "
+            "the far shore runs from about x 1550 to the right edge. "
+            "The outer span is the full plate, wider than 864, so "
+            "holding both shores would mean dropping one. Left without "
+            "a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-333",
+        "held": "Alignements de Carnac",
+        "reason": (
+            "Standing stones on the daylight plate run from the left "
+            "edge to the right edge. The outer span is about 1920px, "
+            "wider than 864, so holding every stone would mean dropping "
+            "some. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-335",
+        "held": "Monastère royal de Brou roofs and spires",
+        "reason": (
+            "The church roof on the daylight plate, three spires "
+            "included, runs about x 860–1740. That outer span is about "
+            "880px, wider than 864, so holding both roof ends would "
+            "mean cutting one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-336",
+        "held": "Roche de Solutré escarpment",
+        "reason": (
+            "The limestone face on the daylight plate runs about "
+            "x 850–1712. That outer span is about 863px. An 864 window "
+            "has only a few pixels of slack, under 15px, so a lateral "
+            "sweep would read as locked or would crop the shoulder. "
+            "Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-342",
+        "held": "Kaw houses and the tree to their right",
+        "reason": (
+            "Houses on the daylight plate run from the left edge to "
+            "about x 900, and a large tree stands from about x 1100 "
+            "to the right edge. The outer span is the full plate, "
+            "wider than 864, and the village already meets the plate "
+            "edge, so a lateral sweep would crop it. Left without a "
+            "clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-343",
+        "held": "Plage de Boucan Canot rocks and beach",
+        "reason": (
+            "The beach on the daylight plate fills the frame, and the "
+            "dark rocks run from about x 1550 to the right edge. The "
+            "shore is wider than 864, so a sweep would let beach leave "
+            "one side while more beach enters the other. Left without "
+            "a clip."
         ),
     },
 )
