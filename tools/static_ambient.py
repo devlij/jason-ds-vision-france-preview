@@ -428,6 +428,102 @@ SWEEP_SCENES = (
         "window_start": 158.0,
         "window_end": 188.0,
     },
+    # Pack 5. Measured on the daylight 16:9 photo (top 1080 rows).
+    # Cap Méchant. The basalt shelf runs the full plate, about x 0–1919,
+    # and there is no separate tower. Wider than 864. This clip holds
+    # the central shelf and eases only across the slack inside that span.
+    {
+        "entry_id": "FR-01-215",
+        "n": 215,
+        "held": "Cap Méchant basalt shelf",
+        "subject_x": 960.0,
+        "subject_span": (564.0, 1356.0),
+        "window_start": 506.0,
+        "window_end": 550.0,
+    },
+    # La Pietra. The round Genoese tower measures about x 1090–1300,
+    # crown centered near x 1205. A white lighthouse stands to its right,
+    # about x 1520–1575. An 18% glide aimed at the Genoese tower traveled
+    # onto that lighthouse. Both fit in 864. This clip is a short glide
+    # centered on the Genoese tower, so the tower and the lighthouse stay
+    # fully inside every frame and the lighthouse does not enter or leave.
+    {
+        "entry_id": "FR-01-221",
+        "n": 221,
+        "held": "La Pietra Genoese tower and white lighthouse",
+        "subject_x": 1205.0,
+        "subject_span": (1090.0, 1588.0),
+        "window_start": 749.0,
+        "window_end": 797.0,
+    },
+    # Bergues belfry. The brick shaft measures about x 691–1115, and the
+    # spire already touches the top of the plate near x 875–920. Same
+    # 18% glide, aimed at the shaft, so the spire is not cropped past
+    # the plate's top edge.
+    {
+        "entry_id": "FR-01-222",
+        "n": 222,
+        "held": "Bergues belfry",
+        "subject_x": 903.0,
+        "subject_span": (691.0, 1115.0),
+    },
+    # Château Gaillard. The left curtain measures about x 430–780, and
+    # the keep, crenellations included, measures about x 893–1165. An
+    # 18% glide kept the curtain at the start and had lost it by the
+    # end, while the river and the town entered on the right. Both the
+    # curtain and the keep fit in 864. This clip is a short glide that
+    # keeps that curtain and the keep inside every frame and does not
+    # travel onto the valley.
+    {
+        "entry_id": "FR-01-223",
+        "n": 223,
+        "held": "Château Gaillard left curtain and keep",
+        "subject_x": 1029.0,
+        "subject_span": (430.0, 1175.0),
+        "window_start": 330.0,
+        "window_end": 376.0,
+    },
+    # Cilaos. The church bell tower, two tips included, measures about
+    # x 1208–1265, and the trees beside the church stand about x 808–1061.
+    # The cirque wall behind them runs wider than 864. This clip eases
+    # only across the slack that keeps the church, both tips, and those
+    # trees inside every frame.
+    {
+        "entry_id": "FR-01-231",
+        "n": 231,
+        "held": "Cilaos church, bell tower, and the trees beside it",
+        "subject_x": 1120.0,
+        "subject_span": (790.0, 1450.0),
+        "window_start": 620.0,
+        "window_end": 740.0,
+    },
+    # Chaumont. The left round tower, cone included, and the right tower
+    # measure about x 348–1100, tips near x 534 and x 968. A lower wing
+    # and a small chimney continue past x 1165. The whole château is
+    # wider than 864. This clip is a short glide that keeps both towers
+    # inside every frame and does not travel into that chimney.
+    {
+        "entry_id": "FR-01-235",
+        "n": 235,
+        "held": "Chaumont round tower and right tower",
+        "subject_x": 724.0,
+        "subject_span": (348.0, 1100.0),
+        "window_start": 256.0,
+        "window_end": 296.0,
+    },
+    # Douaumont ossuary. The lantern tower measures about x 892–998,
+    # tip near x 945. The vault runs about x 40–1860, wider than 864.
+    # This clip holds the tower and the vault around it, and eases only
+    # across the slack inside that span.
+    {
+        "entry_id": "FR-01-236",
+        "n": 236,
+        "held": "Douaumont ossuary lantern tower",
+        "subject_x": 945.0,
+        "subject_span": (548.0, 1340.0),
+        "window_start": 490.0,
+        "window_end": 536.0,
+    },
 )
 
 # Not encoded. Distinct tips cannot all stay in one 864 frame while the
@@ -616,6 +712,58 @@ SKIPPED = (
             "x 692–1588. That outer span is 896px, wider than 864, and "
             "the bastioned mass continues about x 216–1592. Holding "
             "every bastion would mean dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-217",
+        "held": "Rocher de Dzaoudzi and the tree to its left",
+        "reason": (
+            "A tree on the daylight plate stands about x 0–163, and the "
+            "rock stands about x 642–1149. The outer span is about "
+            "1149px, wider than 864, so holding the tree and the rock "
+            "would mean dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-219",
+        "held": "Palais Idéal towers",
+        "reason": (
+            "The palace towers on the daylight plate, the tallest tip "
+            "near x 1603, run about x 860–1851. That outer span is "
+            "991px, wider than 864, so holding every tower would mean "
+            "dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-220",
+        "held": "Auxerre Cathedral west towers",
+        "reason": (
+            "The north tower on the daylight plate stands about "
+            "x 400–701, tip near x 642, and the south tower stands about "
+            "x 1214–1472, tip near x 1399. The outer span is 1072px, "
+            "wider than 864, so holding both towers would mean dropping "
+            "one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-224",
+        "held": "Château de Clisson round tower and square keep",
+        "reason": (
+            "The round tower on the daylight plate stands about "
+            "x 343–1046, tip near x 772, and the square keep stands about "
+            "x 1229–1502. The outer span is 1159px, wider than 864, so "
+            "holding both towers would mean dropping one. Left without "
+            "a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-233",
+        "held": "Sakouli palms and islet",
+        "reason": (
+            "A palm grove on the daylight plate stands about x 0–536, "
+            "and the islet stands about x 960–1290. The outer span is "
+            "1290px, wider than 864, so holding the palms and the islet "
+            "would mean dropping one. Left without a clip."
         ),
     },
 )
