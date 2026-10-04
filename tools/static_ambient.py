@@ -164,6 +164,109 @@ SWEEP_SCENES = (
         "window_start": 0.0,
         "window_end": 388.0,
     },
+    # Pack 2. Measured on the daylight 16:9 photo (top 1080 rows).
+    # Calanques pinnacles. The high porphyry, skyline under y 400, runs
+    # about x 1157–1900 and is wider than an 18% glide can hold. The
+    # right shoulder is near the plate edge, so this clip eases only
+    # across the slack that keeps that mass inside every frame.
+    {
+        "entry_id": "FR-01-143",
+        "n": 143,
+        "held": "Calanques de Piana pinnacles",
+        "subject_x": 1528.5,
+        "subject_span": (1157.0, 1900.0),
+        "window_start": 1048.0,
+        "window_end": 1056.0,
+    },
+    # Metz Cathedral. Buttress pinnacles rise from about x 600, and the
+    # great spire already touches the top of the plate at about x 1056.
+    # The nave continues past x 1420, wider than 864. This clip eases
+    # only across the slack that keeps the pinnacles and the spire,
+    # uncropped past the plate's top edge, inside every frame.
+    {
+        "entry_id": "FR-01-144",
+        "n": 144,
+        "held": "Metz Cathedral spire and buttress pinnacles",
+        "subject_x": 1010.0,
+        "subject_span": (600.0, 1420.0),
+        "window_start": 568.0,
+        "window_end": 588.0,
+    },
+    # Royal palms on the Barachois lawn. Crowns that reach above about
+    # y 260 run x 141–948, wider than an 18% glide can hold. Some fronds
+    # already touch the top of the plate. This clip eases only across
+    # the slack that keeps those palms inside every frame.
+    {
+        "entry_id": "FR-01-150",
+        "n": 150,
+        "held": "Le Barachois royal palms",
+        "subject_x": 544.5,
+        "subject_span": (141.0, 948.0),
+        "window_start": 96.0,
+        "window_end": 129.0,
+    },
+    # Dziani Dzaha. The green crater water is wider than 864. The held
+    # portion is the central lake, x 500–1280, long enough that the
+    # crater still reads, and the glide is long enough that this smooth
+    # plate does not collapse into a locked hold.
+    {
+        "entry_id": "FR-01-152",
+        "n": 152,
+        "held": "Dziani Dzaha crater lake",
+        "subject_x": 890.0,
+        "subject_span": (500.0, 1280.0),
+        "window_start": 428.0,
+        "window_end": 488.0,
+    },
+    # Fontenay church roof, about x 520–1480, wider than 864, with the
+    # ridge turret at about x 1152–1276. This clip eases only across
+    # the slack that keeps that turret, and the longest church portion
+    # around it, inside every frame.
+    {
+        "entry_id": "FR-01-154",
+        "n": 154,
+        "held": "Abbaye de Fontenay church and ridge turret",
+        "subject_x": 1000.0,
+        "subject_span": (590.0, 1410.0),
+        "window_start": 558.0,
+        "window_end": 578.0,
+    },
+    # Tour Paoline, left of plate center but near it. The shaft on the
+    # daylight plate is about x 886–986. Same 18% glide, aimed at the
+    # tower, so the shaft stays inside the 864 frame.
+    {
+        "entry_id": "FR-01-155",
+        "n": 155,
+        "held": "Tour de Nonza",
+        "subject_x": 936.0,
+        "subject_span": (886.0, 986.0),
+    },
+    # Laon west towers. The two crowns and their shafts, from the left
+    # wall at about x 703 to the right wall at about x 1535, are wider
+    # than an 18% glide can hold. This clip eases only across the slack
+    # that keeps both towers inside every frame with a 12px pad.
+    {
+        "entry_id": "FR-01-156",
+        "n": 156,
+        "held": "Laon Cathedral west towers",
+        "subject_x": 1119.0,
+        "subject_span": (703.0, 1535.0),
+        "window_start": 683.0,
+        "window_end": 691.0,
+    },
+    # Erbalunga. The Genoese tower crown is about x 844–969, and the
+    # harbor houses continue to the right edge of the plate. Wider than
+    # 864. This clip eases only across the slack that keeps the tower
+    # and the houses through about x 1650 inside every frame.
+    {
+        "entry_id": "FR-01-160",
+        "n": 160,
+        "held": "Erbalunga tower and harbor houses",
+        "subject_x": 1240.0,
+        "subject_span": (830.0, 1650.0),
+        "window_start": 798.0,
+        "window_end": 818.0,
+    },
 )
 
 # Not encoded. Distinct tips cannot all stay in one 864 frame while the
@@ -188,6 +291,45 @@ SKIPPED = (
             "The outer span is 858px. An 864 frame cannot keep both "
             "finials inside while the window still moves. Left without "
             "a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-142",
+        "held": "Porte Saint-Michel twin towers",
+        "reason": (
+            "Conical slate roofs on the daylight plate run from about "
+            "x 448 on the left tower to about x 1446 on the right tower. "
+            "That outer span is 998px, wider than 864, so holding both "
+            "towers would mean dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-157",
+        "held": "Le Mans Cathedral chevet pinnacles",
+        "reason": (
+            "A stone pinnacle on the daylight plate peaks at about x 864, "
+            "and the chevet crown's last high pinnacle ends near x 1740. "
+            "The outer span is about 880px, wider than 864, so holding "
+            "every pinnacle would mean dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-158",
+        "held": "Mulberry harbour caissons",
+        "reason": (
+            "The caisson line on the daylight plate runs from about "
+            "x 400 to about x 1600. That is wider than 864, so holding "
+            "every block would mean dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-159",
+        "held": "Lion de Belfort",
+        "reason": (
+            "The lion's head on the daylight plate is near x 400–700 and "
+            "the body runs to about x 1600. The sculpture is wider than "
+            "864. A window that holds the head cuts the hindquarters. "
+            "Left without a clip."
         ),
     },
 )
