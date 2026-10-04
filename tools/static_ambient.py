@@ -732,19 +732,6 @@ SWEEP_SCENES = (
         "window_start": 800.0,
         "window_end": 848.0,
     },
-    # Fort Diamant. The stone fort on the point measures about
-    # x 1080–1740. The beach continues past it. The fort fits in
-    # 864. This clip is a short glide that keeps the walls inside
-    # every frame and does not travel onto open water past the point.
-    {
-        "entry_id": "FR-01-310",
-        "n": 310,
-        "held": "Fort Diamant",
-        "subject_x": 1410.0,
-        "subject_span": (1080.0, 1740.0),
-        "window_start": 968.0,
-        "window_end": 1016.0,
-    },
     # Anse des Cascades. The waterfall and the trees that frame it
     # measure about x 620–1240. The cove forest continues to both
     # plate edges and already touches the top. This clip is a short
@@ -1255,6 +1242,18 @@ SKIPPED = (
             "861px. An 864 window can hold the keep and the wing only "
             "with a few pixels of slack, and a lateral sweep crops one "
             "end. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-310",
+        "held": "Fort Diamant keep and right bastion",
+        "reason": (
+            "A square tower on the daylight plate rises above the left "
+            "end of the curtain, and the right bastion closes the wall. "
+            "The window 968–1016 held the curtain and the right bastion "
+            "and dropped the keep. The tower and the right bastion "
+            "together span more than 864, so holding both would mean "
+            "cutting one. Left without a clip."
         ),
     },
     {
