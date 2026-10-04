@@ -805,35 +805,6 @@ SWEEP_SCENES = (
         "window_end": 708.0,
         "span_pad": 0.0,
     },
-    # Château de Langeais. The round tower begins about x 944, the
-    # square tower's tip is about x 1468 and y 26, and the right wall
-    # ends about x 1730. The trees to the left of the round tower are
-    # not a keep. The château fits in 864. This clip is a short glide
-    # that keeps both towers inside every frame.
-    {
-        "entry_id": "FR-01-334",
-        "n": 334,
-        "held": "Château de Langeais round tower and square tower",
-        "subject_x": 1337.0,
-        "subject_span": (944.0, 1730.0),
-        "window_start": 882.0,
-        "window_end": 930.0,
-    },
-    # Anse du Gouvernement. The shore houses measure about x 1230–1860.
-    # They sit toward the right of the plate, so an 864 window that
-    # keeps every house inside cannot travel past x 1056. This clip
-    # uses that on-plate slack, 59px, so the houses stay inside every
-    # frame and the sweep does not leave the plate.
-    {
-        "entry_id": "FR-01-338",
-        "n": 338,
-        "held": "Anse du Gouvernement shore houses",
-        "subject_x": 1545.0,
-        "subject_span": (1230.0, 1860.0),
-        "window_start": 997.0,
-        "window_end": 1056.0,
-        "span_pad": 0.0,
-    },
 )
 
 # Not encoded. Distinct tips cannot all stay in one 864 frame while the
@@ -1435,6 +1406,18 @@ SKIPPED = (
         ),
     },
     {
+        "entry_id": "FR-01-334",
+        "held": "Château de Langeais round tower and right conical tower",
+        "reason": (
+            "A separate round tower on the daylight plate stands about "
+            "x 621–916, cone tip near x 688. The right conical tower, "
+            "tip near x 1469 and y 25, runs to about x 1726. The outer "
+            "span is about 1105px, wider than 864, so holding both "
+            "towers and the spires between them would mean dropping "
+            "one. Left without a clip."
+        ),
+    },
+    {
         "entry_id": "FR-01-335",
         "held": "Monastère royal de Brou roofs and spires",
         "reason": (
@@ -1453,6 +1436,18 @@ SKIPPED = (
             "has only a few pixels of slack, under 15px, so a lateral "
             "sweep would read as locked or would crop the shoulder. "
             "Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-338",
+        "held": "Anse du Gouvernement three shore houses",
+        "reason": (
+            "The left house on the daylight plate begins about x 1280, "
+            "and the right house runs from about x 1780 to the right "
+            "edge of the plate. The outer span is about 640px, but the "
+            "right wall already meets the plate edge, so the only 864 "
+            "window that keeps it is locked at x 1056. A 15px glide "
+            "would crop that house. Left without a clip."
         ),
     },
     {
