@@ -717,6 +717,76 @@ SWEEP_SCENES = (
         "window_end": 743.0,
         "span_pad": 0.0,
     },
+    # Pack 9. Measured on the daylight 16:9 photo (top 1080 rows).
+    # Phare de Pointe-Plate. The white shaft and red lantern measure
+    # about x 1220–1292, the lantern near y 410. The rocky point under
+    # it runs much wider than 864. This clip is a short glide centered
+    # on the lighthouse, so the shaft and the lantern stay inside
+    # every frame.
+    {
+        "entry_id": "FR-01-306",
+        "n": 306,
+        "held": "Phare de Pointe-Plate",
+        "subject_x": 1256.0,
+        "subject_span": (1220.0, 1292.0),
+        "window_start": 800.0,
+        "window_end": 848.0,
+    },
+    # Fort Diamant. The stone fort on the point measures about
+    # x 1080–1740. The beach continues past it. The fort fits in
+    # 864. This clip is a short glide that keeps the walls inside
+    # every frame and does not travel onto open water past the point.
+    {
+        "entry_id": "FR-01-310",
+        "n": 310,
+        "held": "Fort Diamant",
+        "subject_x": 1410.0,
+        "subject_span": (1080.0, 1740.0),
+        "window_start": 968.0,
+        "window_end": 1016.0,
+    },
+    # Anse des Cascades. The waterfall and the trees that frame it
+    # measure about x 620–1240. The cove forest continues to both
+    # plate edges and already touches the top. This clip is a short
+    # glide centered on the falls, so the ribbon and those framing
+    # trees stay inside every frame.
+    {
+        "entry_id": "FR-01-311",
+        "n": 311,
+        "held": "Anse des Cascades waterfall and the trees beside it",
+        "subject_x": 930.0,
+        "subject_span": (620.0, 1240.0),
+        "window_start": 468.0,
+        "window_end": 516.0,
+    },
+    # Beffroi de Douai. The Gothic shaft, spire included, measures
+    # about x 778–1072, the tip near x 950 and y 59. The town roofs
+    # below run wider than 864. This clip is a short glide centered
+    # on the belfry, so the spire is not cropped and a further
+    # house does not enter.
+    {
+        "entry_id": "FR-01-316",
+        "n": 316,
+        "held": "Beffroi de Douai",
+        "subject_x": 925.0,
+        "subject_span": (778.0, 1072.0),
+        "window_start": 470.0,
+        "window_end": 518.0,
+    },
+    # Château de Murol. The ruined walls, tower included, measure
+    # about x 860–1560, the highest stone near x 1283 and y 239.
+    # The knoll continues past the walls. The ruin fits in 864.
+    # This clip is a short glide that keeps the tower and the walls
+    # inside every frame.
+    {
+        "entry_id": "FR-01-319",
+        "n": 319,
+        "held": "Château de Murol tower and walls",
+        "subject_x": 1210.0,
+        "subject_span": (860.0, 1560.0),
+        "window_start": 752.0,
+        "window_end": 804.0,
+    },
 )
 
 # Not encoded. Distinct tips cannot all stay in one 864 frame while the
@@ -1185,6 +1255,80 @@ SKIPPED = (
             "861px. An 864 window can hold the keep and the wing only "
             "with a few pixels of slack, and a lateral sweep crops one "
             "end. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-313",
+        "held": "Vasière des Badamiers mangroves",
+        "reason": (
+            "Mangroves on the daylight plate run from the left edge "
+            "to about x 1314, and the tidal flat fills the frame below "
+            "that. There is no separate tower. The flat is wider than "
+            "864, so a sweep would let shore leave one side while more "
+            "shore enters the other. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-315",
+        "held": "Place Ducale arcades",
+        "reason": (
+            "Arcade roofs on the daylight plate stand about x 103–792 "
+            "and about x 1275–1752, with a further block between them. "
+            "The outer span is about 1650px, wider than 864, so holding "
+            "every roof would mean dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-317",
+        "held": "Granville Haute-Ville ramparts",
+        "reason": (
+            "The church and the granite ramparts on the daylight plate "
+            "run from about x 1120 to the right edge. That outer span "
+            "is wider than 864, and the wall already meets the plate "
+            "edge, so a lateral sweep would crop it. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-318",
+        "held": "Château de La Rochefoucauld round towers",
+        "reason": (
+            "A round tower on the daylight plate stands at the left "
+            "edge, about x 0–217, and further towers stand about "
+            "x 1715–1919. The outer span is the full plate, wider than "
+            "864, so holding every tower would mean dropping one. Left "
+            "without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-320",
+        "held": "Château de Bussy-Rabutin round tower and right pavilion",
+        "reason": (
+            "A round tower on the daylight plate stands about "
+            "x 496–700, and the main roof, right pavilion included, "
+            "runs to about x 1460. The outer span is about 964px, "
+            "wider than 864, so holding both towers would mean "
+            "dropping one. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-322",
+        "held": "Cap du Nid à l'Aigle cliffs",
+        "reason": (
+            "The cape on the daylight plate runs from about x 855 to "
+            "the right edge. That outer span is about 1065px, wider "
+            "than 864, and the cliff already meets the plate edge, so "
+            "a lateral sweep would crop it. Left without a clip."
+        ),
+    },
+    {
+        "entry_id": "FR-01-326",
+        "held": "Cacao houses and forest",
+        "reason": (
+            "Forest on the daylight plate already meets the left edge "
+            "and the top, and the houses run from about x 609 to the "
+            "right edge. That outer span is wider than 864, so holding "
+            "every house and the trees would mean dropping one. Left "
+            "without a clip."
         ),
     },
 )
