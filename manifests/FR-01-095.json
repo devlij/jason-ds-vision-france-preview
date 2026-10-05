@@ -29,14 +29,14 @@
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "a99357562ebf150bc0752fd1a3c0faa7aed4a85f9ba2e2db2ae2c2d37671dbcd"
+      "sha256": "cae23648cb05a5c539973ea979242eea0abaccb30412dbb369951034e458a34b"
     },
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "6ec8688025adc2e17371b19e75aaec242bbd2431cbb4857444be9bf2519f06ea"
+      "sha256": "81449a79f5dae487f3a5c9109fe3fabee62e9333a205362832233a6aac2177a7"
     }
   },
-  "sha256_4x5": "a99357562ebf150bc0752fd1a3c0faa7aed4a85f9ba2e2db2ae2c2d37671dbcd",
-  "sha256_16x9": "6ec8688025adc2e17371b19e75aaec242bbd2431cbb4857444be9bf2519f06ea"
+  "sha256_4x5": "cae23648cb05a5c539973ea979242eea0abaccb30412dbb369951034e458a34b",
+  "sha256_16x9": "81449a79f5dae487f3a5c9109fe3fabee62e9333a205362832233a6aac2177a7"
 }
