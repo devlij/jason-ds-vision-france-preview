@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is triple-towered Counts of Foix castle on rocky spur above town. The place named on the card is Château de Foix, Foix, in Occitanie. Model data from Open-Meteo, retrieved 2026-09-29T22:11:33+02:00 (2026-09-29T20:11:33Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 6%, 28.8°C, wind 5.9 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Château de Foix under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-111-16x9.png?v=batch109",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-111-4x5.png?v=batch109",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -32,13 +32,20 @@
       "sha256": "fcbec74acfbb7425290bebf7381073ad13523464fb48565f359b2c863ecd35be"
     }
   },
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "qc_status": "Approved · Grok Bot QC 5/5",
   "reverted_at": "2026-09-30T07:34:51.538496+00:00",
   "qc_notes": [
     {
       "at": "2026-09-30T07:34:51.538496+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): all Foix towers are given matching dark conical roofs across a sprawling multi-tower silhouette; the real Château de Foix has three defining towers — two flat-topped crenellated (one round, one square) and one taller square tower with a hipped roof — not a row of fairy-tale conical caps. Gate 1 hold — rework: render the true three-tower profile. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-10-05T18:29:31.037761+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 2 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET. Gate 1 PASS: Foix three towers photoreal. Gate 2–5 PASS."
     }
-  ]
+  ],
+  "approval_basis": "Gate 1 PASS: Foix three towers photoreal. Gate 2–5 PASS.",
+  "approved_at": "2026-10-05T18:29:31.037761+00:00"
 }

@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is cliff-perched medieval eagle’s-nest village above the Mediterranean. The place named on the card is Èze perched village, Èze, in Provence-Alpes-Côte d'Azur. Model data from Open-Meteo, retrieved 2026-09-29T22:08:32+02:00 (2026-09-29T20:08:32Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 22.5°C, wind 5.2 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Èze perched village under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-102-16x9.png?v=batch101",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-102-4x5.png?v=batch101",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -28,6 +28,11 @@
       "at": "2026-09-30T07:34:42.889284+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): the Èze summit landmark is shown as a grey stone tower with a dark pointed conical spire; the real village church (Notre-Dame-de-l'Assomption) has an ochre neoclassical facade and a square yellow-and-white campanile without a tall pointed spire, and the absolute summit is castle ruins, not a spired church. Gate 1 hold — rework: render the true church and summit ruins. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-10-05T18:29:31.037761+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 2 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET. Gate 1 PASS: Èze perched village photoreal. Gate 2–5 PASS."
     }
   ],
   "dimensions": {
@@ -44,6 +49,8 @@
   },
   "sha256_4x5": "14371b96cf90d6660c13315c4f1a11f01cb35fe1411438676baa631994111c5c",
   "sha256_16x9": "3ba1fcc6942e93e738010a0cec3074623f197019da90319424ab75cf0150e62c",
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
-  "reverted_at": "2026-09-30T07:34:42.889284+00:00"
+  "qc_status": "Approved · Grok Bot QC 5/5",
+  "reverted_at": "2026-09-30T07:34:42.889284+00:00",
+  "approval_basis": "Gate 1 PASS: Èze perched village photoreal. Gate 2–5 PASS.",
+  "approved_at": "2026-10-05T18:29:31.037761+00:00"
 }

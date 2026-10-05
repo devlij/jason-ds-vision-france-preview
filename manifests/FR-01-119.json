@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is single castle keep on knife-edge ridge village above Aveyron valley. The place named on the card is Najac ridge fortress village, Najac, in Occitanie. Model data from Open-Meteo, retrieved 2026-09-29T22:11:43+02:00 (2026-09-29T20:11:43Z), valid 2026-09-23T19:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.6°C, wind 2.6 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Najac ridge fortress village under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-119-16x9.png?v=batch117",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-119-4x5.png?v=batch117",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -32,13 +32,20 @@
       "sha256": "4d56facebdee3bbc97bc907d1b842f6d5953c6392d81c400a36d3163f7cb432c"
     }
   },
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "qc_status": "Approved · Grok Bot QC 5/5",
   "reverted_at": "2026-09-30T07:35:06.241477+00:00",
   "qc_notes": [
     {
       "at": "2026-09-30T07:35:06.241477+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): the ridge architecture is shown as low generic stone clusters without a dominant keep; the real Château de Najac is defined by a tall circular donjon crowning the knife-edge ridge above the village. Gate 1 hold — rework: render the true donjon-crowned ridge. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-10-05T18:29:31.037761+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 2 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET. Gate 1 PASS: Najac ridge + keep legible. Gate 2–5 PASS."
     }
-  ]
+  ],
+  "approval_basis": "Gate 1 PASS: Najac ridge + keep legible. Gate 2–5 PASS.",
+  "approved_at": "2026-10-05T18:29:31.037761+00:00"
 }

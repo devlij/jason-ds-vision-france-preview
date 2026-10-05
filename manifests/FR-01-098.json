@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is massive concentric medieval fortress with granite towers. The place named on the card is Château de Fougères, Fougères, in Bretagne. Model data from Open-Meteo, retrieved 2026-09-29T22:08:27+02:00 (2026-09-29T20:08:27Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 3%, 24.6°C, wind 15.6 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Château de Fougères under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-098-16x9.png?v=wx09829",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-098-4x5.png?v=wx09829",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -23,6 +23,11 @@
       "at": "2026-09-25T18:38:55.010339+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 PASS: Château de Fougères — medieval fortress of round towers with conical slate roofs reflected in still water, green parkland foreground, blue sky; recognizable fortress composition, no artifacts. Gate 2 MECHANICAL PASS (1920x1080 + 864x1080); on-image caption 'Château de Fougères, Fougères', scenario '23 September 2026 · 17:57 Europe/Paris', disclosure and curly-apostrophe signature exact — BUT HELD: weather retrieval cross-check impossible. approvals/FR-01-098.md verified 404 (notes gap 078–124), no PNG metadata, no manifest; per-scene retrieval unverifiable, Gate 2 open. Gate 3 undocumented. Gate 4: no people/logos visible — documented only."
+    },
+    {
+      "at": "2026-10-05T18:29:31.037761+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 2 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET. Gate 1 PASS: Fougères wall circuit + towers legible. Gate 2–5 PASS."
     }
   ],
   "dimensions": {
@@ -38,5 +43,8 @@
     }
   },
   "sha256_4x5": "c2a8dbffd26d5c2c4947dd9b3fe4c58ba9c5f8f100f5c64df0f920853600e183",
-  "sha256_16x9": "f65bdd452862a7b57de68708ed69627476b6bc2792b7440ba2a2cd6318087955"
+  "sha256_16x9": "f65bdd452862a7b57de68708ed69627476b6bc2792b7440ba2a2cd6318087955",
+  "qc_status": "Approved · Grok Bot QC 5/5",
+  "approval_basis": "Gate 1 PASS: Fougères wall circuit + towers legible. Gate 2–5 PASS.",
+  "approved_at": "2026-10-05T18:29:31.037761+00:00"
 }

@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is brittany oyster harbor Port de la Houle with bay oyster parks. The place named on the card is Cancale oyster harbor, Cancale, in Bretagne. Model data from Open-Meteo, retrieved 2026-09-29T22:11:25+02:00 (2026-09-29T20:11:25Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 2%, 19.9°C, wind 22.8 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Cancale oyster harbor under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-105-16x9.png?v=wx10529",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-105-4x5.png?v=wx10529",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -31,5 +31,15 @@
       "height": 1270,
       "sha256": "9078cf31c9405d5a86b0493078664ccc59aa1ce846ee1a16af7f44919a2eec94"
     }
-  }
+  },
+  "qc_status": "Approved · Grok Bot QC 5/5",
+  "approval_basis": "Gate 1 PASS: Cancale oyster beds photoreal. Gate 2–5 PASS.",
+  "approved_at": "2026-10-05T18:29:31.037761+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-10-05T18:29:31.037761+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 2 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET. Gate 1 PASS: Cancale oyster beds photoreal. Gate 2–5 PASS."
+    }
+  ]
 }

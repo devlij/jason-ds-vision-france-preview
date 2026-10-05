@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is fortified Alsace wine village with Schlossberg castle ruin above. The place named on the card is Kaysersberg medieval wine village, Kaysersberg, in Grand Est. Model data from Open-Meteo, retrieved 2026-09-29T22:11:36+02:00 (2026-09-29T20:11:36Z), valid 2026-09-23T17:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 22.2°C, wind 4.4 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Kaysersberg medieval wine village under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-113-16x9.png?v=wx11329",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-113-4x5.png?v=wx11329",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -31,5 +31,15 @@
       "height": 1270,
       "sha256": "d86e47cf70e5b552ca3cf17ef8f4bdff9f1870d9060dbf9968061364a664be58"
     }
-  }
+  },
+  "qc_status": "Approved · Grok Bot QC 5/5",
+  "approval_basis": "Gate 1 PASS: Kaysersberg bridge/tower photoreal. Gate 2–5 PASS.",
+  "approved_at": "2026-10-05T18:29:31.037761+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-10-05T18:29:31.037761+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 2 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET. Gate 1 PASS: Kaysersberg bridge/tower photoreal. Gate 2–5 PASS."
+    }
+  ]
 }
