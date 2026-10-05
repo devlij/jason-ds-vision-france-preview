@@ -4349,67 +4349,452 @@
       "entry_id": "FR-01-106",
       "caption": "Quimper cathedral and old town, Quimper",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-106-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 109.22,
+      "top_v": 198.77,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "6d949b97b6b79122aee95d8e00503252bfbb102cefa5cb458760339d26c9064a",
+        "bytes": 1167848
+      },
+      "ends_mae": 6.921,
+      "file": "assets/fr-01-106-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-107",
       "caption": "Ch\u00e2teau de Pierrefonds, Pierrefonds",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-107-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 102.2,
+      "top_v": 152.99,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "d62f409d6e7d9a31f0a8196ff0db4ad400ed252ed644ef700b2a11211e84d330",
+        "bytes": 1213190
+      },
+      "ends_mae": 10.038,
+      "file": "assets/fr-01-107-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-108",
       "caption": "\u00cele de Houat harbor, \u00cele de Houat",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-108-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 109.0,
+      "top_v": 104.04,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "9cc98fac1a9d82140ec4f4b114f5f7105032a3a02c2ccf2b0ae80cf3219087a4",
+        "bytes": 1470427
+      },
+      "ends_mae": 15.61,
+      "file": "assets/fr-01-108-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-109",
       "caption": "Riquewihr medieval wine village, Riquewihr",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-109-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 94.34,
+      "top_v": 148.82,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "c231e8dfe8f5c878dc45672c27acb062de8577b9248031a27a478891304da1b5",
+        "bytes": 1032463
+      },
+      "ends_mae": 7.665,
+      "file": "assets/fr-01-109-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-110",
       "caption": "Ch\u00e2teau de Castelnaud, Castelnaud-la-Chapelle",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-110-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 81.17,
+      "top_v": 110.83,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "3be023dc953d966dbf0f26e31ccddd8737c1db7639e6a5b2c1d09956aff3de69",
+        "bytes": 952912
+      },
+      "ends_mae": 10.687,
+      "file": "assets/fr-01-110-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-111",
       "caption": "Ch\u00e2teau de Foix, Foix",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-111-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 90.44,
+      "top_v": 195.15,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "b779b2fba0403bb1fe653340b02dbdc3393b6acee6600aab0ed51b32af1ce0b4",
+        "bytes": 1266356
+      },
+      "ends_mae": 11.166,
+      "file": "assets/fr-01-111-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-112",
       "caption": "\u00cele de Br\u00e9hat harbor / village, \u00cele de Br\u00e9hat",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-112-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 127.79,
+      "top_v": 137.84,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "0a0f731ca786e468ce33400b2c18ecdd1ee98d2d09b1091cd9e60a16c294d6a4",
+        "bytes": 1603196
+      },
+      "ends_mae": 19.722,
+      "file": "assets/fr-01-112-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-113",
       "caption": "Kaysersberg medieval wine village, Kaysersberg",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-113-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 100.48,
+      "top_v": 148.42,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "6e4a5776fb565faadb2a77d3ccf4df10e3571753acca07bab0f1cf8468519fa6",
+        "bytes": 1198211
+      },
+      "ends_mae": 12.643,
+      "file": "assets/fr-01-113-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-114",
       "caption": "Saint-\u00c9milion limestone town and vineyards, Saint-\u00c9milion",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-114-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 97.01,
+      "top_v": 133.34,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "4794b04dc91f7b9a752d96a6e9d4f089ec0bad9393d4fdf585ec383729ee51df",
+        "bytes": 1329410
+      },
+      "ends_mae": 19.012,
+      "file": "assets/fr-01-114-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-115",
       "caption": "Citadelle de Sisteron / Durance gap, Sisteron",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-115-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        24,
+        846,
+        1068
+      ],
+      "pin_top": false,
+      "mean_v": 109.5,
+      "top_v": 191.28,
+      "zoom_end": 1.03,
+      "travel_px": 25.83,
+      "window_end": [
+        14.97,
+        21.05
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "914088f4803d20bf28ed5304847a4ae78fc47145e3924a0ebe733d7373e17ebf",
+        "bytes": 1139874
+      },
+      "ends_mae": 9.706,
+      "file": "assets/fr-01-115-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-116",
       "caption": "\u00cele de Groix harbor / village, \u00cele de Groix",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-116-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        24,
+        846,
+        1068
+      ],
+      "pin_top": false,
+      "mean_v": 88.77,
+      "top_v": 133.01,
+      "zoom_end": 1.03,
+      "travel_px": 25.83,
+      "window_end": [
+        14.97,
+        21.05
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "3ebfe72fdf9bc95f079afcc84db161da7b439416f9295c5ec6ce69acbfc7d1b2",
+        "bytes": 1139412
+      },
+      "ends_mae": 12.802,
+      "file": "assets/fr-01-116-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-117",
@@ -4479,7 +4864,42 @@
       "entry_id": "FR-01-126",
       "caption": "Ch\u00e2teau d'Angers, Angers",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-126-daylight-4x5.png",
+      "anchor_kind": "daylight",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 145.26,
+      "top_v": 179.71,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "f5b4ac644b445dcc0546fee6f44ee1083d7b84c997a123aff9fd5466dd4777b0",
+        "bytes": 5299244
+      },
+      "ends_mae": 28.751,
+      "file": "assets/fr-01-126-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-127",
@@ -4493,19 +4913,124 @@
       "entry_id": "FR-01-128",
       "caption": "Les Saintes harbor, Terre-de-Haut",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-128-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        24,
+        846,
+        1068
+      ],
+      "pin_top": false,
+      "mean_v": 166.18,
+      "top_v": 228.51,
+      "zoom_end": 1.03,
+      "travel_px": 25.83,
+      "window_end": [
+        14.97,
+        21.05
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "e05a54b2d1aaf4252996f8ad4a696758514d7bee468f2ffccab5e253d1ac2e49",
+        "bytes": 4239574
+      },
+      "ends_mae": 14.89,
+      "file": "assets/fr-01-128-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-129",
       "caption": "Pointe des Ch\u00e2teaux, Saint-Fran\u00e7ois",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-129-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        24,
+        846,
+        1068
+      ],
+      "pin_top": false,
+      "mean_v": 149.09,
+      "top_v": 212.48,
+      "zoom_end": 1.03,
+      "travel_px": 25.83,
+      "window_end": [
+        14.97,
+        21.05
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "609d2e6876e94c1da79a1f28ebc33939b63cc626edf0a928c5bbb8d12e74dc59",
+        "bytes": 5485911
+      },
+      "ends_mae": 19.491,
+      "file": "assets/fr-01-129-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-130",
       "caption": "Rocher du Diamant, Le Diamant",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-130-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        24,
+        846,
+        1068
+      ],
+      "pin_top": false,
+      "mean_v": 139.03,
+      "top_v": 184.76,
+      "zoom_end": 1.03,
+      "travel_px": 25.83,
+      "window_end": [
+        14.97,
+        21.05
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "ce637bedb2e73c74bf03de9fd7728e1250396602f98015bee0e9e05a2b55912f",
+        "bytes": 3984783
+      },
+      "ends_mae": 15.223,
+      "file": "assets/fr-01-130-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-131",
@@ -4519,7 +5044,42 @@
       "entry_id": "FR-01-132",
       "caption": "\u00cele du Diable, \u00celes du Salut",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-132-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 125.33,
+      "top_v": 223.86,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "c0e27c321198aa4093dfba9dc2c68093c8ac251e209fed365da115ba78a26dda",
+        "bytes": 5233998
+      },
+      "ends_mae": 19.226,
+      "file": "assets/fr-01-132-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-133",
@@ -4533,7 +5093,42 @@
       "entry_id": "FR-01-134",
       "caption": "Gustavia harbor, Gustavia",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-134-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 107.25,
+      "top_v": 141.92,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "7759f9770253ef829dcfb0e06d58b4442062259d13eb1310c5c75ba26618a331",
+        "bytes": 3867908
+      },
+      "ends_mae": 20.312,
+      "file": "assets/fr-01-134-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-135",
@@ -4563,7 +5158,42 @@
       "entry_id": "FR-01-138",
       "caption": "Ch\u00e2teau de Cheverny, Cheverny",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-138-daylight-4x5.png",
+      "anchor_kind": "daylight",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 153.79,
+      "top_v": 208.73,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "7b00c93c8ad1310bcb7d3cc7e2a902bee8bae3916b45703dacdb2184c879fa50",
+        "bytes": 5268823
+      },
+      "ends_mae": 26.024,
+      "file": "assets/fr-01-138-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-139",
@@ -4593,7 +5223,42 @@
       "entry_id": "FR-01-142",
       "caption": "Porte Saint-Michel, Gu\u00e9rande",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-142-daylight-4x5.png",
+      "anchor_kind": "daylight",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 146.18,
+      "top_v": 205.8,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "fd38c3da788147f157aeb1ce3762e1a7b913a65b7959f3634491595f90a3afbb",
+        "bytes": 6523663
+      },
+      "ends_mae": 19.858,
+      "file": "assets/fr-01-142-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-143",
@@ -4615,31 +5280,206 @@
       "entry_id": "FR-01-145",
       "caption": "Fort Louis, Marigot",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-145-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 95.0,
+      "top_v": 111.44,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "9c4e12f2867b802ab2117db52c17fd6da37d7fbf6faee4242997e25dcbc75ddb",
+        "bytes": 3003063
+      },
+      "ends_mae": 14.25,
+      "file": "assets/fr-01-145-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-146",
       "caption": "\u00cele aux Marins, Saint-Pierre",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-146-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 165.07,
+      "top_v": 216.84,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "34f814417882f9785f9697a08bdfc20263b5d4c9f1f0314c338fe1b36ce12ca8",
+        "bytes": 2864186
+      },
+      "ends_mae": 18.085,
+      "file": "assets/fr-01-146-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-147",
       "caption": "Mount Otemanu, Bora-Bora",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-147-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 168.51,
+      "top_v": 198.47,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "2c41841592bae75be12023b16f2ac03fd588c7c823b9bbe115790dd9980d0bc8",
+        "bytes": 3585094
+      },
+      "ends_mae": 16.034,
+      "file": "assets/fr-01-147-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-148",
       "caption": "Baie de Kanum\u00e9ra, \u00cele des Pins",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-148-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 137.55,
+      "top_v": 165.13,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "cc2ecd3c8414241c986594e1591b4f3b93b348238711df23d3efbb37e820aeed",
+        "bytes": 7043805
+      },
+      "ends_mae": 37.561,
+      "file": "assets/fr-01-148-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-149",
       "caption": "Th\u00e9\u00e2tre de Saint-Pierre, Saint-Pierre",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-149-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 99.07,
+      "top_v": 183.7,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "3c9351067c64459e2cfec66b78cbde76e65acca7359b7c6658264b99f13fd082",
+        "bytes": 6200401
+      },
+      "ends_mae": 22.973,
+      "file": "assets/fr-01-149-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-150",
@@ -4653,7 +5493,42 @@
       "entry_id": "FR-01-151",
       "caption": "Camp de la Transportation, Saint-Laurent-du-Maroni",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-151-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        24,
+        846,
+        1068
+      ],
+      "pin_top": false,
+      "mean_v": 96.82,
+      "top_v": 184.52,
+      "zoom_end": 1.03,
+      "travel_px": 25.83,
+      "window_end": [
+        14.97,
+        21.05
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "828a4d29193c7b521d2c9bfbc8830f2dcafb775e14345eb3f3af8f8d5cfe31f2",
+        "bytes": 6149837
+      },
+      "ends_mae": 21.638,
+      "file": "assets/fr-01-151-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-152",
@@ -4667,7 +5542,42 @@
       "entry_id": "FR-01-153",
       "caption": "Anse de Colombier, Colombier",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-153-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 110.5,
+      "top_v": 154.53,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "e0ef800470c14b95ad6b6692616cd418e3cb3bcb80d694f5aba9cf1d7570812e",
+        "bytes": 2834838
+      },
+      "ends_mae": 14.823,
+      "file": "assets/fr-01-153-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-154",
@@ -4697,19 +5607,124 @@
       "entry_id": "FR-01-157",
       "caption": "Le Mans Cathedral, Le Mans",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-157-daylight-4x5.png",
+      "anchor_kind": "daylight",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        24,
+        846,
+        1068
+      ],
+      "pin_top": false,
+      "mean_v": 127.26,
+      "top_v": 202.3,
+      "zoom_end": 1.03,
+      "travel_px": 25.83,
+      "window_end": [
+        14.97,
+        21.05
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "beafc87c5c03b3167ec3b1bd55648b317e43b2e03f2c18c67acc4db1f83132c2",
+        "bytes": 3914930
+      },
+      "ends_mae": 16.988,
+      "file": "assets/fr-01-157-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-158",
       "caption": "Mulberry harbour, Arromanches-les-Bains",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-158-daylight-4x5.png",
+      "anchor_kind": "daylight",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 169.47,
+      "top_v": 217.8,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "bdb380e80d2900ecaba6dc8bdf0f94e73183888ab7f1513f207168ba785eebc0",
+        "bytes": 4677847
+      },
+      "ends_mae": 21.472,
+      "file": "assets/fr-01-158-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-159",
       "caption": "Lion de Belfort, Belfort",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-159-daylight-4x5.png",
+      "anchor_kind": "daylight",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 159.63,
+      "top_v": 189.6,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "ca6ba1d1a8c9703327ee1ccba3f5c5d54c15173bafa77d659c750a455aa50bd2",
+        "bytes": 3946290
+      },
+      "ends_mae": 18.427,
+      "file": "assets/fr-01-159-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-160",
@@ -4723,61 +5738,411 @@
       "entry_id": "FR-01-161",
       "caption": "Grand Case beach, Grand Case",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-161-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 94.71,
+      "top_v": 96.82,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "22ff3d56c2d8eef1df787264a278d657bdb8492e7230dae93a09bb1388f5b27c",
+        "bytes": 3136893
+      },
+      "ends_mae": 11.107,
+      "file": "assets/fr-01-161-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-162",
       "caption": "Saint-Pierre harbor, Saint-Pierre",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-162-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 158.63,
+      "top_v": 226.68,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "14e1a1e4dd2df77db02585ce7c49455b0c99ce0a2a3af06b1c03e3bd9b3e7e64",
+        "bytes": 3245173
+      },
+      "ends_mae": 19.788,
+      "file": "assets/fr-01-162-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-163",
       "caption": "Cook's Bay, Moorea",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-163-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 141.53,
+      "top_v": 221.11,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "993f2a590d99a658e0e7bf5153d10ea60e9d8d782c498e37f809ba09a6f76fd4",
+        "bytes": 5025830
+      },
+      "ends_mae": 17.098,
+      "file": "assets/fr-01-163-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-164",
       "caption": "Phare Am\u00e9d\u00e9e, \u00celot Am\u00e9d\u00e9e",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-164-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        24,
+        846,
+        1068
+      ],
+      "pin_top": false,
+      "mean_v": 179.65,
+      "top_v": 204.27,
+      "zoom_end": 1.03,
+      "travel_px": 25.83,
+      "window_end": [
+        14.97,
+        21.05
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "46c397015841c90b14103b7d6ca9739fd6729556ff9d76f2aef8fb36d030a1e4",
+        "bytes": 3317478
+      },
+      "ends_mae": 13.085,
+      "file": "assets/fr-01-164-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-165",
       "caption": "La Soufri\u00e8re, Saint-Claude",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-165-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        24,
+        846,
+        1068
+      ],
+      "pin_top": false,
+      "mean_v": 123.75,
+      "top_v": 193.43,
+      "zoom_end": 1.03,
+      "travel_px": 25.83,
+      "window_end": [
+        14.97,
+        21.05
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "9fca81d0f3d002ab088254a18bd9dcb3f0a7b991cfeacb99e2b2071e7b2bd4f3",
+        "bytes": 3049514
+      },
+      "ends_mae": 8.979,
+      "file": "assets/fr-01-165-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-166",
       "caption": "Montagne Pel\u00e9e, Le Morne-Rouge",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-166-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        24,
+        846,
+        1068
+      ],
+      "pin_top": false,
+      "mean_v": 130.96,
+      "top_v": 196.74,
+      "zoom_end": 1.03,
+      "travel_px": 25.83,
+      "window_end": [
+        14.97,
+        21.05
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "b7e110bd4ba966027ef4d3208b82fd368862a86a879220303e4db27cb2f1c7c6",
+        "bytes": 3849103
+      },
+      "ends_mae": 13.618,
+      "file": "assets/fr-01-166-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-167",
       "caption": "Ma\u00efdo, Saint-Paul",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-167-daylight-4x5.png",
+      "anchor_kind": "daylight",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        24,
+        846,
+        1068
+      ],
+      "pin_top": false,
+      "mean_v": 213.48,
+      "top_v": 248.59,
+      "zoom_end": 1.03,
+      "travel_px": 25.83,
+      "window_end": [
+        14.97,
+        21.05
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "d4c2672d77aff3bf6c845b292a94fa404da211f5f2f3b38a3db311a6700db471",
+        "bytes": 1344966
+      },
+      "ends_mae": 5.945,
+      "file": "assets/fr-01-167-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-168",
       "caption": "Place des Palmistes, Cayenne",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-168-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 115.2,
+      "top_v": 154.84,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "0ee0e101f52538b1b1478f77c7b18eb7b403a242f16d4997508b656505b7e0ff",
+        "bytes": 6384176
+      },
+      "ends_mae": 30.695,
+      "file": "assets/fr-01-168-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-169",
       "caption": "Plage de N'Gouja, Kani-K\u00e9li",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-169-daylight-4x5.png",
+      "anchor_kind": "daylight",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 198.67,
+      "top_v": 211.71,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "607b5e866b0ecb38eb11e1da9bcbaa1ea8f49da7512452995b4403f70b347944",
+        "bytes": 3307845
+      },
+      "ends_mae": 18.247,
+      "file": "assets/fr-01-169-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-170",
       "caption": "Anse de Grande Saline, Grande Saline",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-170-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 134.55,
+      "top_v": 136.82,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "f10c8f9a8c610e0205218e2490ecd37dd061337bbd845d0593e31716d4abc7dc",
+        "bytes": 1584148
+      },
+      "ends_mae": 11.361,
+      "file": "assets/fr-01-170-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-171",
@@ -4799,7 +6164,42 @@
       "entry_id": "FR-01-173",
       "caption": "Beauvais Cathedral, Beauvais",
       "method": "static-ambient",
-      "status": "pending"
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-173-daylight-4x5.png",
+      "anchor_kind": "daylight",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        24,
+        846,
+        1068
+      ],
+      "pin_top": false,
+      "mean_v": 128.04,
+      "top_v": 190.44,
+      "zoom_end": 1.03,
+      "travel_px": 25.83,
+      "window_end": [
+        14.97,
+        21.05
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "66f893b6e7264400654d375a7246f72d6083535d6fd44d0c7618feae9fcdbb30",
+        "bytes": 4464229
+      },
+      "ends_mae": 16.601,
+      "file": "assets/fr-01-173-motion-10s-4x5.mp4"
     },
     {
       "entry_id": "FR-01-174",
@@ -6150,8 +7550,48 @@
     "FR-01-102",
     "FR-01-103",
     "FR-01-104",
-    "FR-01-105"
+    "FR-01-105",
+    "FR-01-106",
+    "FR-01-107",
+    "FR-01-108",
+    "FR-01-109",
+    "FR-01-110",
+    "FR-01-111",
+    "FR-01-112",
+    "FR-01-113",
+    "FR-01-114",
+    "FR-01-115",
+    "FR-01-116",
+    "FR-01-126",
+    "FR-01-128",
+    "FR-01-129",
+    "FR-01-130",
+    "FR-01-132",
+    "FR-01-134",
+    "FR-01-138",
+    "FR-01-142",
+    "FR-01-145",
+    "FR-01-146",
+    "FR-01-147",
+    "FR-01-148",
+    "FR-01-149",
+    "FR-01-151",
+    "FR-01-153",
+    "FR-01-157",
+    "FR-01-158",
+    "FR-01-159",
+    "FR-01-161",
+    "FR-01-162",
+    "FR-01-163",
+    "FR-01-164",
+    "FR-01-165",
+    "FR-01-166",
+    "FR-01-167",
+    "FR-01-168",
+    "FR-01-169",
+    "FR-01-170",
+    "FR-01-173"
   ],
-  "shipped_count": 101,
-  "daylight_gap_after": 187
+  "shipped_count": 141,
+  "daylight_gap_after": 147
 }

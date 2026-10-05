@@ -404,8 +404,19 @@ def qc_decoded(path: Path, plate: np.ndarray, subject: tuple[int, int, int, int]
     crop = last[max(0, y0) : min(PHOTO_H, y1), max(0, x0) : min(PHOTO_W, x1)]
     if crop.size == 0 or float(crop.std()) < 6.0:
         raise RuntimeError("subject crop on the last frame is empty")
-    black = np.all(last < 3, axis=2)
-    if float(black.mean()) > 0.01:
+    # A real empty edge is a whole side of the frame that went black while
+    # the plate's matching edge is not. Dark water or shadow inside the
+    # picture is not a border.
+    def edge_black(arr: np.ndarray) -> float:
+        return float(np.all(arr < 3, axis=-1).mean())
+
+    edges = (
+        (last[0], plate[0]),
+        (last[-1], plate[-1]),
+        (last[:, 0], plate[:, 0]),
+        (last[:, -1], plate[:, -1]),
+    )
+    if any(edge_black(out) > 0.95 and edge_black(src) < 0.5 for out, src in edges):
         raise RuntimeError("last frame has a black border")
 
 
