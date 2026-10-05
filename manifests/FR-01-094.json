@@ -33,19 +33,19 @@
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate 1: hilltop bastide village with church towers and stone houses crowning a wooded hill under blue sky, stone buildings stepping down the slope — plausibly Cordes-sur-Ciel from an aerial viewpoint; no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Cordes-sur-Ciel, Cordes-sur-Ciel', scenario '23 September 2026 · 17:27 Europe/Paris', disclosure 'AI-generated artistic interpretation · Not a photograph.' legible, matching the gallery index; curly-apostrophe 'Jason D's Vision' signature bottom-right verified at 3x zoom; scenario minute 17:27 unique across the batch; no per-scene builder note exists, so no retrieval-timestamp cross-check was possible. Gate 3: no photographic inputs reported anywhere. Gate 4: no people, no logos, no recognizable private property — documented only. Gate 5: all gates pass.",
   "approved_at": "2026-09-25T17:40:04.067997+00:00",
-  "sha256_16x9": "0b984b41dc49449349a9bf31b53e297d7412ed7fc3a67a35ccac75b1ddd0086a",
-  "sha256_4x5": "7b4e303ebd10734c64e6fbdcbd87b0535a8e951314de030958498b189b37021e",
+  "sha256_16x9": "8a66f71136957d371d16439386eeb5886c3fdd6bf37ba9951110c175d288923f",
+  "sha256_4x5": "c73470141c76b8d82084632e9055428cadec89c743484cb31472871985f5c2f7",
   "reverted_at": "2026-09-25T18:54:36.961395+00:00",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "0b984b41dc49449349a9bf31b53e297d7412ed7fc3a67a35ccac75b1ddd0086a"
+      "sha256": "8a66f71136957d371d16439386eeb5886c3fdd6bf37ba9951110c175d288923f"
     },
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "7b4e303ebd10734c64e6fbdcbd87b0535a8e951314de030958498b189b37021e"
+      "sha256": "c73470141c76b8d82084632e9055428cadec89c743484cb31472871985f5c2f7"
     }
   }
 }

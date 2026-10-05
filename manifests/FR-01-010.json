@@ -32,18 +32,18 @@
       "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification): the summit station lacks the defining tall telecommunications mast (TDF antenna) that crowns the real Aiguille du Midi piton central; the render shows only a tiny antenna on a simplified summit building. Gate 1 hold — rework: add the true tall TDF mast. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
-  "sha256_16x9": "51c038a5b3e24f3a8eb2731058f6fb041bc86cfd7fd8b5d3a2e36b0ebbba2e63",
-  "sha256_4x5": "cd6013de355e14cd193fab05dbf95a182c73c6ab570350cfcdc9b55634f048a2",
+  "sha256_16x9": "c7ba17809de31e0fa075f6b0866d7cd94853165a7abbb1e1c9332b915b876d03",
+  "sha256_4x5": "b1dc9b2b7963a06ffc986be6a2251b80ab7d0915056ba4a26c5f0dd7b33ac61f",
   "dimensions": {
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "cd6013de355e14cd193fab05dbf95a182c73c6ab570350cfcdc9b55634f048a2"
+      "sha256": "b1dc9b2b7963a06ffc986be6a2251b80ab7d0915056ba4a26c5f0dd7b33ac61f"
     },
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "51c038a5b3e24f3a8eb2731058f6fb041bc86cfd7fd8b5d3a2e36b0ebbba2e63"
+      "sha256": "c7ba17809de31e0fa075f6b0866d7cd94853165a7abbb1e1c9332b915b876d03"
     }
   }
 }

@@ -21,8 +21,8 @@
   "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Amiens Cathedral, Amiens — Daylight. Vast High Gothic west façade with gallery of kings and flat-topped twin towers; scenario 15:29 matches the builder note; retrieved 2026-09-25T12:38:47Z (valid 15:00, 25.6°C). Label bar exact. Small portal figures — Gate 4 documented only. Inter-format subject agreement verified.",
   "approved_at": "2026-09-28T12:22:53.904933+00:00",
-  "sha256_16x9": "669e4302b634c18d7489f2d1532f4340760775507c232131fc1caaf8867ff13a",
-  "sha256_4x5": "f27b67970fb27ce7612fe8ad7f3b189629c91989be7b412d2d5cbcf6515a87ea",
+  "sha256_16x9": "c948fd8e4f0c4f6eb1c3a299c1dd033826573539096f7a44bc3340be7cf6676d",
+  "sha256_4x5": "a3b4118d7741932aa802dfa3abbf6081c4ebafd4a7f4d185aeeba1339591a564",
   "reverted_at": "2026-09-30T07:13:30.579358+00:00",
   "qc_notes": [
     {
@@ -45,12 +45,12 @@
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "669e4302b634c18d7489f2d1532f4340760775507c232131fc1caaf8867ff13a"
+      "sha256": "c948fd8e4f0c4f6eb1c3a299c1dd033826573539096f7a44bc3340be7cf6676d"
     },
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "f27b67970fb27ce7612fe8ad7f3b189629c91989be7b412d2d5cbcf6515a87ea"
+      "sha256": "a3b4118d7741932aa802dfa3abbf6081c4ebafd4a7f4d185aeeba1339591a564"
     }
   }
 }

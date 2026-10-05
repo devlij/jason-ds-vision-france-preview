@@ -21,8 +21,8 @@
   "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
   "approval_basis": "Gate 1: royal château on the cliff terrace above the Loire, round towers and chapel spire — recognizably Château d'Amboise, clean; formats agree. Gate 2: exact 1920x1080/864x1080; caption/scenario '23 September 2026 · 16:44 Europe/Paris' verified on-image, disclosure and exact signature legible; per-scene Open-Meteo retrieval 2026-09-25T14:41:32+02:00, unique to the second repo-wide, model-valid hour covers 16:44. Gate 3: text-prompt-only lineage. Gate 4: no people or logos (documented only). Gate 5: pass.",
   "approved_at": "2026-09-29T00:35:14.928385+00:00",
-  "sha256_16x9": "af303588357800f3096058101095c5c0abf9b763fb7742f9d1087aab0cb78d2f",
-  "sha256_4x5": "511db362e589e3bb923ed5fef78888fa1b9f4798e15edfba5e46f87dfbf7b88d",
+  "sha256_16x9": "c5d6b399e5f09e863dfb2a683451d37dbfbf21973a22d5948c00a1fece6e5460",
+  "sha256_4x5": "26c7fb4d77310550b741b3830438783f24612d5f7bb16e61d22c091d0dc3f340",
   "reverted_at": "2026-09-30T07:21:53.049599+00:00",
   "qc_notes": [
     {
@@ -45,12 +45,12 @@
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "511db362e589e3bb923ed5fef78888fa1b9f4798e15edfba5e46f87dfbf7b88d"
+      "sha256": "26c7fb4d77310550b741b3830438783f24612d5f7bb16e61d22c091d0dc3f340"
     },
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "af303588357800f3096058101095c5c0abf9b763fb7742f9d1087aab0cb78d2f"
+      "sha256": "c5d6b399e5f09e863dfb2a683451d37dbfbf21973a22d5948c00a1fece6e5460"
     }
   }
 }

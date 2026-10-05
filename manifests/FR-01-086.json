@@ -38,19 +38,19 @@
   "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
   "approval_basis": "Gate 1: fortified medieval three-tower bridge over a wide calm Lot, stone towers and arched spans, wooded banks beyond, from an elevated viewpoint — plausibly Pont Valentré, Cahors; no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Pont Valentré, Cahors', scenario '23 September 2026 · 17:06 Europe/Paris', disclosure legible bottom-left on the gradient scrim, matching the gallery index; curly-apostrophe signature bottom-right; scenario minute 17:06 unique across the batch, no shared minute; no per-scene builder note exists, so no retrieval-timestamp cross-check was possible. Gate 3: no photographic inputs reported anywhere. Gate 4: no people, no logos, no recognizable private property — documented only. Gate 5: all gates pass.",
   "approved_at": "2026-09-25T17:38:18.898860+00:00",
-  "sha256_16x9": "38d6ddaa952df7ff40669cafbee424df889ffce7e43bf6023bf2562ea1b75665",
-  "sha256_4x5": "03cf23ceaebf4f5eb4c2467789771a8e6b1729e8ce0da6a2aa868ce48b025064",
+  "sha256_16x9": "5ea23d2bc743e67cb453006de8f6969525580902c48d02d782f2cfd73ce700c2",
+  "sha256_4x5": "4e570f1a1ef3f8d7f87adb2664c893104a7bfa1f4fee069327c74f4f8dc66bb6",
   "reverted_at": "2026-09-30T07:22:25.488522+00:00",
   "dimensions": {
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "03cf23ceaebf4f5eb4c2467789771a8e6b1729e8ce0da6a2aa868ce48b025064"
+      "sha256": "4e570f1a1ef3f8d7f87adb2664c893104a7bfa1f4fee069327c74f4f8dc66bb6"
     },
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "38d6ddaa952df7ff40669cafbee424df889ffce7e43bf6023bf2562ea1b75665"
+      "sha256": "5ea23d2bc743e67cb453006de8f6969525580902c48d02d782f2cfd73ce700c2"
     }
   }
 }

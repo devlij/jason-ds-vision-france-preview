@@ -32,18 +32,18 @@
       "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification): the Cour d'Honneur / Cour de Marbre central facade is rendered entirely in cream stone; the real Marble Court (visible through the Grille Royale from Place d'Armes) is defined by red brick with white stone quoins and dressings. Gate 1 hold — rework: render the true red-brick-with-white-stone Marble Court facade. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
-  "sha256_16x9": "091e0b6b410aa3921a61ac696da78ed18d0b0b718a404a149a0a3344541044a9",
-  "sha256_4x5": "e3272faa767de460d8a981cea1394926cb65f8b614cf36dc02e9f47accff4e21",
+  "sha256_16x9": "4061e5ff23ae456ee9293943f945d603c838e2fd485783c1d17483eaa3e05a57",
+  "sha256_4x5": "652c4d8c700637fa859df0bfebb221b899e56a2fe045accdc993159241f5cdee",
   "dimensions": {
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "e3272faa767de460d8a981cea1394926cb65f8b614cf36dc02e9f47accff4e21"
+      "sha256": "652c4d8c700637fa859df0bfebb221b899e56a2fe045accdc993159241f5cdee"
     },
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "091e0b6b410aa3921a61ac696da78ed18d0b0b718a404a149a0a3344541044a9"
+      "sha256": "4061e5ff23ae456ee9293943f945d603c838e2fd485783c1d17483eaa3e05a57"
     }
   }
 }

@@ -21,8 +21,8 @@
   "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Chartres Cathedral, Chartres — Daylight. West front with mismatched plain and Flamboyant spires flanking the rose window; scenario 15:27 matches the builder note; retrieved 2026-09-25T12:38:44Z (valid 15:00, 25.7°C). Label bar exact. No people/logos. Inter-format subject agreement verified.",
   "approved_at": "2026-09-28T12:20:44.892265+00:00",
-  "sha256_16x9": "2d714c4df25e833df93b9057287e02d117119e7a3e9fe3602b80a9fa0da14316",
-  "sha256_4x5": "3839af56f71a6cf557eab581dd888c83e77af78dffb9d889ce4468feaeec89a1",
+  "sha256_16x9": "782906a785aad10ea32c6cbf9a67e02c65831e83b21f990581275633837d65ed",
+  "sha256_4x5": "0ec9fe427c421643be04cf95843ed710e7943e1aa69ebed73c00c450c6809a11",
   "reverted_at": "2026-09-30T07:13:26.220846+00:00",
   "qc_notes": [
     {
@@ -45,12 +45,12 @@
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "3839af56f71a6cf557eab581dd888c83e77af78dffb9d889ce4468feaeec89a1"
+      "sha256": "0ec9fe427c421643be04cf95843ed710e7943e1aa69ebed73c00c450c6809a11"
     },
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "2d714c4df25e833df93b9057287e02d117119e7a3e9fe3602b80a9fa0da14316"
+      "sha256": "782906a785aad10ea32c6cbf9a67e02c65831e83b21f990581275633837d65ed"
     }
   }
 }
