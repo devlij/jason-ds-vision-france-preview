@@ -5,7 +5,8 @@
   "city": "Le Lude",
   "caption": "Château du Lude, Le Lude",
   "scenario_label": "24 September 2026 · 00:45 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Grok Bot QC 5/5",
   "file_16x9": "assets/fr-01-348-16x9.png",
   "file_4x5": "assets/fr-01-348-4x5.png",
   "daylight_variant": {

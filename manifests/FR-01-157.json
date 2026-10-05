@@ -5,7 +5,7 @@
   "city": "Le Mans",
   "caption": "Le Mans Cathedral, Le Mans",
   "scenario_label": "23 September 2026 · 22:00 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-157-16x9.png",
   "file_4x5": "assets/fr-01-157-4x5.png",
   "daylight_variant": {
@@ -53,7 +53,7 @@
     }
   },
   "sha256_4x5": "4e3a7253f37316822fdd43250463248b4eea0ba2cd39da7deb43e9712d9b79dd",
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "qc_status": "Approved · Grok Bot QC 5/5",
   "reverted_at": "2026-09-30T07:39:38.413683+00:00",
   "qc_notes": [
     {

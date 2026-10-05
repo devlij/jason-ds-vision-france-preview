@@ -5,7 +5,7 @@
   "city": "Saint-Laurent-du-Maroni",
   "caption": "Camp de la Transportation, Saint-Laurent-du-Maroni",
   "scenario_label": "23 September 2026 · 17:00 America/Cayenne",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-151-16x9.png",
   "file_4x5": "assets/fr-01-151-4x5.png",
   "sha256_16x9": "f0e9a895442352ad8791220a5c7c6795781ff099c85a08185dfd84c19f835ab1",
@@ -22,7 +22,7 @@
     }
   },
   "sha256_4x5": "a8afb1e1653e9cc60b7fc5808cbe373808944896e6605e1fdeae5038e09ff3e0",
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "qc_status": "Approved · Grok Bot QC 5/5",
   "reverted_at": "2026-09-30T07:39:26.632114+00:00",
   "qc_notes": [
     {

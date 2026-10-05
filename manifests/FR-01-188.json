@@ -5,7 +5,7 @@
   "city": "Porto",
   "caption": "Tour de Porto, Porto",
   "scenario_label": "23 September 2026 · 22:30 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-188-16x9.png",
   "file_4x5": "assets/fr-01-188-4x5.png",
   "daylight_variant": {
@@ -53,7 +53,7 @@
     }
   },
   "sha256_4x5": "c45921100b363b97a5d5c1e861d88a17a30240320a31330036e6587bc9f561bb",
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "qc_status": "Approved · Grok Bot QC 5/5",
   "reverted_at": "2026-09-30T07:40:03.453184+00:00",
   "qc_notes": [
     {

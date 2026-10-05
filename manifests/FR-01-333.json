@@ -5,7 +5,8 @@
   "city": "Carnac",
   "caption": "Alignements de Carnac, Carnac",
   "scenario_label": "24 September 2026 · 00:30 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Grok Bot QC 5/5",
   "file_16x9": "assets/fr-01-333-16x9.png",
   "file_4x5": "assets/fr-01-333-4x5.png",
   "daylight_variant": {

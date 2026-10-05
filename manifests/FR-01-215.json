@@ -5,7 +5,8 @@
   "city": "Saint-Philippe",
   "caption": "Cap Méchant, Saint-Philippe",
   "scenario_label": "24 September 2026 · 01:00 Indian/Reunion",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Grok Bot QC 5/5",
   "file_16x9": "assets/fr-01-215-16x9.png",
   "file_4x5": "assets/fr-01-215-4x5.png",
   "daylight_variant": {
