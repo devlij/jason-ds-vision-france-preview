@@ -5,7 +5,7 @@
   "city": "Cheverny",
   "caption": "Château de Cheverny, Cheverny",
   "scenario_label": "23 September 2026 · 21:30 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-138-16x9.png",
   "file_4x5": "assets/fr-01-138-4x5.png",
   "daylight_variant": {
@@ -53,7 +53,7 @@
     }
   },
   "sha256_4x5": "5c19d950394bb123a5dee8465cbcf957e7f8b14663c7156c3f70451a73d05ee2",
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "qc_status": "Approved · Grok Bot QC 5/5",
   "reverted_at": "2026-09-30T07:35:30.086521+00:00",
   "qc_notes": [
     {

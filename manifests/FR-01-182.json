@@ -5,7 +5,7 @@
   "city": "Fort-de-France",
   "caption": "Bibliothèque Schoelcher, Fort-de-France",
   "scenario_label": "23 September 2026 · 16:30 America/Martinique",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-182-16x9.png",
   "file_4x5": "assets/fr-01-182-4x5.png",
   "sha256_16x9": "04db5bec8202d338eb7cbb5716001f78cd3b5656fd9d597639b2eead1527c5c0",
@@ -22,7 +22,7 @@
     }
   },
   "sha256_4x5": "76bb66683cea59fc78e6563ec48499980baa9a8fafeb952c024664c896db6d96",
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "qc_status": "Approved · Grok Bot QC 5/5",
   "reverted_at": "2026-09-30T07:39:53.290810+00:00",
   "qc_notes": [
     {

@@ -5,7 +5,8 @@
   "city": "Kani-Kéli",
   "caption": "Plage de N'Gouja, Kani-Kéli",
   "scenario_label": "23 September 2026 · 23:15 Indian/Mayotte",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Grok Bot QC 5/5",
   "file_16x9": "assets/fr-01-169-16x9.png",
   "file_4x5": "assets/fr-01-169-4x5.png",
   "daylight_variant": {
