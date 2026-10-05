@@ -1,0 +1,4741 @@
+{
+  "work_order": "wo-france-360-gapfill-2026-10-05",
+  "pack": "gapfill-cumulative",
+  "method": "static-ambient",
+  "variant": "ken-burns",
+  "i2v": "not used; Ken Burns pan-zoom on the daylight still",
+  "supersedes_draft_prs": [
+    "#42",
+    "#43"
+  ],
+  "contains_branches": [
+    "cursor/fr-gapfill-pack2-static-8fc4",
+    "cursor/fr-gapfill-static-ambient-380d"
+  ],
+  "spec": {
+    "duration_s": 10.0,
+    "tolerance_s": 0.1,
+    "fps": 24,
+    "frames": 240,
+    "width": 864,
+    "height": 1080,
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "faststart": true,
+    "crop": "864:1080:0:0"
+  },
+  "approval_status": "unchanged",
+  "scene_approval": "unchanged; no Cosmo QC",
+  "escalated": false,
+  "stop_reason": "",
+  "consecutive_holds": 0,
+  "night_only_excluded": [
+    "FR-01-117",
+    "FR-01-118",
+    "FR-01-119",
+    "FR-01-120",
+    "FR-01-121",
+    "FR-01-122",
+    "FR-01-123",
+    "FR-01-124",
+    "FR-01-210",
+    "FR-01-226",
+    "FR-01-242",
+    "FR-01-258",
+    "FR-01-274",
+    "FR-01-290",
+    "FR-01-294",
+    "FR-01-353",
+    "FR-01-362"
+  ],
+  "preexisting_not_remade": [
+    "FR-01-125",
+    "FR-01-127",
+    "FR-01-131",
+    "FR-01-133",
+    "FR-01-135",
+    "FR-01-136",
+    "FR-01-137",
+    "FR-01-139",
+    "FR-01-140",
+    "FR-01-141",
+    "FR-01-143",
+    "FR-01-144",
+    "FR-01-150",
+    "FR-01-152",
+    "FR-01-154",
+    "FR-01-155",
+    "FR-01-156",
+    "FR-01-160",
+    "FR-01-171",
+    "FR-01-172",
+    "FR-01-175",
+    "FR-01-185",
+    "FR-01-188",
+    "FR-01-190",
+    "FR-01-192",
+    "FR-01-199",
+    "FR-01-201",
+    "FR-01-204",
+    "FR-01-205",
+    "FR-01-206",
+    "FR-01-215",
+    "FR-01-221",
+    "FR-01-222",
+    "FR-01-223",
+    "FR-01-231",
+    "FR-01-235",
+    "FR-01-236",
+    "FR-01-237",
+    "FR-01-238",
+    "FR-01-239",
+    "FR-01-247",
+    "FR-01-249",
+    "FR-01-251",
+    "FR-01-252",
+    "FR-01-254",
+    "FR-01-255",
+    "FR-01-263",
+    "FR-01-270",
+    "FR-01-283",
+    "FR-01-299",
+    "FR-01-302",
+    "FR-01-306",
+    "FR-01-311",
+    "FR-01-316",
+    "FR-01-319",
+    "FR-01-331",
+    "FR-01-332",
+    "FR-01-338",
+    "FR-01-352",
+    "FR-01-364"
+  ],
+  "daylight_gap_before": 264,
+  "scenes": [
+    {
+      "entry_id": "FR-01-001",
+      "caption": "Eiffel Tower, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-001-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        70,
+        31,
+        520,
+        1020
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 166.72,
+      "top_v": 208.92,
+      "zoom_end": 1.05,
+      "travel_px": 31.55,
+      "window_end": [
+        29.62,
+        10.85
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "ba78b96f3f2834845860a5089fea7ab28d9f0f2b271ff26a58845a6e372a309f",
+        "bytes": 1689099
+      },
+      "ends_mae": 16.716,
+      "file": "assets/fr-01-001-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack1-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-002",
+      "caption": "Louvre Pyramid, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-002-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        250,
+        490,
+        620,
+        960
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 186.55,
+      "top_v": 229.12,
+      "zoom_end": 1.05,
+      "travel_px": 34.66,
+      "window_end": [
+        29.62,
+        18.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "14b402b5d91e7df860f8bc52ea743132bbc827c3880a116c60a22087b620c9bd",
+        "bytes": 1670426
+      },
+      "ends_mae": 16.593,
+      "file": "assets/fr-01-002-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack1-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-003",
+      "caption": "Notre-Dame Cathedral, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-003-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        36,
+        0,
+        828,
+        1020
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 134.51,
+      "top_v": 174.18,
+      "zoom_end": 1.04,
+      "travel_px": 23.93,
+      "window_end": [
+        23.93,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "732551ca0d3efccb1654638621e6ceb1c081f73a8e50e8604a9b154a9df7e3bb",
+        "bytes": 3483601
+      },
+      "ends_mae": 33.611,
+      "file": "assets/fr-01-003-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack1-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-004",
+      "caption": "Arc de Triomphe, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-004-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        160,
+        390,
+        700,
+        1000
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 157.57,
+      "top_v": 208.91,
+      "zoom_end": 1.05,
+      "travel_px": 34.66,
+      "window_end": [
+        29.62,
+        18.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "ab8df69deb6b6cd27db9452c0de8c29e926baefca3b8b70c88d9b65ffa41be48",
+        "bytes": 2037931
+      },
+      "ends_mae": 20.148,
+      "file": "assets/fr-01-004-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack1-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-005",
+      "caption": "Sacr\u00e9-C\u0153ur, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-005-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        180,
+        17,
+        800,
+        1000
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 173.28,
+      "top_v": 203.7,
+      "zoom_end": 1.045,
+      "travel_px": 27.44,
+      "window_end": [
+        26.79,
+        5.95
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "26e9ca4f0ef6609b62275032fd96b7aa9c29f970d4bcdbe991ae28d149de8255",
+        "bytes": 2470261
+      },
+      "ends_mae": 25.959,
+      "file": "assets/fr-01-005-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack1-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-006",
+      "caption": "Palace of Versailles, Versailles",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-006-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        70,
+        303,
+        800,
+        980
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 162.72,
+      "top_v": 217.9,
+      "zoom_end": 1.045,
+      "travel_px": 31.35,
+      "window_end": [
+        26.79,
+        16.28
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "b3a26ebf4d085f529a337ecb4f8ed0879efcb73a17dd4dcd0fbaa9ebcc2534a0",
+        "bytes": 2936210
+      },
+      "ends_mae": 22.207,
+      "file": "assets/fr-01-006-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack1-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-007",
+      "caption": "Mont Saint-Michel, Le Mont-Saint-Michel",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-007-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        180,
+        330,
+        780,
+        1000
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 163.79,
+      "top_v": 202.77,
+      "zoom_end": 1.05,
+      "travel_px": 34.66,
+      "window_end": [
+        29.62,
+        18.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "83ec98d5aaeca3acf8405997412ad81a12e9920f71b15bb9397fa4ce6fdc0ef3",
+        "bytes": 1817780
+      },
+      "ends_mae": 19.081,
+      "file": "assets/fr-01-007-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack1-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-008",
+      "caption": "Promenade des Anglais, Nice",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-008-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        30,
+        540,
+        830,
+        1040
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 190.09,
+      "top_v": 226.11,
+      "zoom_end": 1.04,
+      "travel_px": 26.61,
+      "window_end": [
+        21.6,
+        15.54
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "8e3bba71cadf7be6ac4b350f7b3cd6b165ba6800a0e43faa651051baea7e905f",
+        "bytes": 1799732
+      },
+      "ends_mae": 10.644,
+      "file": "assets/fr-01-008-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack1-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-009",
+      "caption": "Valensole lavender fields, Valensole",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-009-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        30,
+        262,
+        834,
+        1040
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 120.9,
+      "top_v": 222.92,
+      "zoom_end": 1.035,
+      "travel_px": 24.62,
+      "window_end": [
+        21.04,
+        12.78
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "8802144eb1334216ddfd81becdaaa3d0254b4a7d388d59e9c909ceb986addcce",
+        "bytes": 6984053
+      },
+      "ends_mae": 17.851,
+      "file": "assets/fr-01-009-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack1-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-010",
+      "caption": "Aiguille du Midi, Chamonix",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-010-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        0,
+        0,
+        620,
+        920
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 140.45,
+      "top_v": 177.81,
+      "zoom_end": 1.06,
+      "travel_px": 0.0,
+      "window_end": [
+        0.0,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "c5b90450c1e4dea51e118c2cc7eb739cc171996a9ec17cd019f9a81e64adcf48",
+        "bytes": 2358991
+      },
+      "ends_mae": 29.457,
+      "file": "assets/fr-01-010-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack1-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-011",
+      "caption": "Carcassonne citadel, Carcassonne",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-011-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        60,
+        280,
+        800,
+        1000
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 147.74,
+      "top_v": 221.03,
+      "zoom_end": 1.045,
+      "travel_px": 31.35,
+      "window_end": [
+        26.79,
+        16.28
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "24854da19e312d36a501966a7cc425e1a218e2ecf4114f3cd4e9d9fb94a686d8",
+        "bytes": 2673435
+      },
+      "ends_mae": 24.35,
+      "file": "assets/fr-01-011-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack1-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-012",
+      "caption": "Ch\u00e2teau de Chambord, Chambord",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-012-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        90,
+        400,
+        780,
+        1000
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 162.86,
+      "top_v": 216.85,
+      "zoom_end": 1.05,
+      "travel_px": 34.66,
+      "window_end": [
+        29.62,
+        18.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "0cf418597ffb8e36e206e56d39ccdf484972b5d1b9fe9ad8ccd7ebe2ab7e6728",
+        "bytes": 2029751
+      },
+      "ends_mae": 20.488,
+      "file": "assets/fr-01-012-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack1-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-013",
+      "caption": "Strasbourg Cathedral, Strasbourg",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-013-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        160,
+        0,
+        780,
+        1020
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 137.53,
+      "top_v": 210.99,
+      "zoom_end": 1.045,
+      "travel_px": 26.79,
+      "window_end": [
+        26.79,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "fd16e03be7d5e63e10ccea066a7e078e467694d3d7f66e114fbd2245a2dfc675",
+        "bytes": 3164911
+      },
+      "ends_mae": 27.351,
+      "file": "assets/fr-01-013-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack2-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-014",
+      "caption": "Dune du Pilat, La Teste-de-Buch",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-014-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        30,
+        340,
+        830,
+        1040
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 179.69,
+      "top_v": 211.81,
+      "zoom_end": 1.04,
+      "travel_px": 26.61,
+      "window_end": [
+        21.6,
+        15.54
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "d88347c47ac64a0e723bccc04cf1989979400659f5cab28526a9c6dfe3438232",
+        "bytes": 1528319
+      },
+      "ends_mae": 7.174,
+      "file": "assets/fr-01-014-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack2-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-015",
+      "caption": "Gorges du Verdon, La Palud-sur-Verdon",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-015-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        20,
+        220,
+        840,
+        1040
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 143.33,
+      "top_v": 236.0,
+      "zoom_end": 1.035,
+      "travel_px": 20.37,
+      "window_end": [
+        15.86,
+        12.78
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "da502cbd7af361cd7bc5dbe1ec6f6cd47160d005e33fff65e4a4c3c14d736def",
+        "bytes": 4225840
+      },
+      "ends_mae": 25.167,
+      "file": "assets/fr-01-015-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack2-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-016",
+      "caption": "Annecy old town canals, Annecy",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-016-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        40,
+        90,
+        830,
+        1020
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 143.04,
+      "top_v": 229.73,
+      "zoom_end": 1.04,
+      "travel_px": 28.0,
+      "window_end": [
+        23.93,
+        14.54
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "9bcf88a200627a86ee99def5993c841c395c74e4de46555bf665bc7ba43bcb95",
+        "bytes": 3707333
+      },
+      "ends_mae": 21.866,
+      "file": "assets/fr-01-016-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack2-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-017",
+      "caption": "Sainte-Chapelle, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-017-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        250,
+        30,
+        800,
+        1000
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 156.69,
+      "top_v": 231.87,
+      "zoom_end": 1.05,
+      "travel_px": 31.43,
+      "window_end": [
+        29.62,
+        10.5
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "1e492c69d4f6d3de5392767e2fb13b0297f5ffd7d0bdb43264875be5d9fb41a7",
+        "bytes": 2673914
+      },
+      "ends_mae": 25.03,
+      "file": "assets/fr-01-017-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack2-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-018",
+      "caption": "Place de la Concorde, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-018-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        120,
+        90,
+        760,
+        1000
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 178.26,
+      "top_v": 222.28,
+      "zoom_end": 1.045,
+      "travel_px": 31.35,
+      "window_end": [
+        26.79,
+        16.28
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "a6937fdc1c5e6c2ddb4c03edbbe7aeee5ac07af7a56f601793a882f5d32c4ba1",
+        "bytes": 2070904
+      },
+      "ends_mae": 17.122,
+      "file": "assets/fr-01-018-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack2-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-019",
+      "caption": "Mus\u00e9e d'Orsay, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-019-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        40,
+        180,
+        830,
+        1020
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 149.36,
+      "top_v": 222.01,
+      "zoom_end": 1.04,
+      "travel_px": 28.0,
+      "window_end": [
+        23.93,
+        14.54
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "055c031049454aef8d5d0070188d959c7003c902d03cedde66017447de9d27f5",
+        "bytes": 2855773
+      },
+      "ends_mae": 20.822,
+      "file": "assets/fr-01-019-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack2-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-020",
+      "caption": "H\u00f4tel des Invalides, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-020-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        80,
+        110,
+        800,
+        1000
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 133.12,
+      "top_v": 219.34,
+      "zoom_end": 1.045,
+      "travel_px": 31.35,
+      "window_end": [
+        26.79,
+        16.28
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "b2ef090f0059226786242f09090fe3c0b58c9c5eb5400904772a3f32f6eed7c2",
+        "bytes": 2586307
+      },
+      "ends_mae": 14.714,
+      "file": "assets/fr-01-020-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack2-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-021",
+      "caption": "Op\u00e9ra Garnier, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-021-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        80,
+        40,
+        840,
+        1000
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 146.56,
+      "top_v": 214.02,
+      "zoom_end": 1.04,
+      "travel_px": 29.98,
+      "window_end": [
+        26.51,
+        14.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "0e43df5124f4a159d80250d05d4e50c113879b6d7056f4729ecf8e16c73e673b",
+        "bytes": 3643012
+      },
+      "ends_mae": 30.285,
+      "file": "assets/fr-01-021-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack2-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-022",
+      "caption": "Pont Alexandre III, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-022-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        40,
+        280,
+        840,
+        1020
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 148.89,
+      "top_v": 224.79,
+      "zoom_end": 1.04,
+      "travel_px": 30.24,
+      "window_end": [
+        26.51,
+        14.54
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "7f78b43a0f49c24d2af8a60b2e049bf61df0ae5def09468c5111868e6f88da40",
+        "bytes": 2328909
+      },
+      "ends_mae": 16.005,
+      "file": "assets/fr-01-022-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack2-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-023",
+      "caption": "Panth\u00e9on, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-023-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        80,
+        20,
+        850,
+        1000
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 156.26,
+      "top_v": 212.99,
+      "zoom_end": 1.04,
+      "travel_px": 30.14,
+      "window_end": [
+        29.31,
+        7.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "6cf98a5e8fa62ca1c2c4aa577e66b911f488bc0605903da299272143657a179a",
+        "bytes": 2289064
+      },
+      "ends_mae": 20.447,
+      "file": "assets/fr-01-023-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack2-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-024",
+      "caption": "Conciergerie, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-024-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        40,
+        100,
+        850,
+        1000
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 149.34,
+      "top_v": 211.28,
+      "zoom_end": 1.04,
+      "travel_px": 32.72,
+      "window_end": [
+        29.31,
+        14.54
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "54076ba84123bd280b5731e304ea0f3588b9b75220810ee7ebddbfb7655c7432",
+        "bytes": 2761389
+      },
+      "ends_mae": 26.759,
+      "file": "assets/fr-01-024-motion-10s-4x5.mp4",
+      "source": "FR-360-gapfill-pack2-2026-10-05.json"
+    },
+    {
+      "entry_id": "FR-01-025",
+      "caption": "Ch\u00e2teau de Fontainebleau, Fontainebleau",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-025-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 145.34,
+      "top_v": 225.29,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "665cfb47788da3417ffdf560efedaa00b1437dfdd126ca8611f37030f80f2779",
+        "bytes": 3354462
+      },
+      "ends_mae": 21.469,
+      "file": "assets/fr-01-025-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-026",
+      "caption": "Ch\u00e2teau de Vincennes, Vincennes",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-026-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 150.97,
+      "top_v": 204.87,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "8df97f7a7be480b1bf949fc73a56d03c6da985afd7e0582452b6d94d4a92fb57",
+        "bytes": 3043519
+      },
+      "ends_mae": 18.619,
+      "file": "assets/fr-01-026-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-027",
+      "caption": "Basilique Saint-Denis, Saint-Denis",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-027-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "HOLD",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 142.15,
+      "top_v": 228.82,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "error": "last frame has a black border",
+      "hold_reason": "last frame has a black border"
+    },
+    {
+      "entry_id": "FR-01-028",
+      "caption": "Jardin du Luxembourg, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-028-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 158.71,
+      "top_v": 232.58,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "801dcab22938987997a863bd151a9ea433565c408e9f58a925dcb7dd2a047cd5",
+        "bytes": 3070977
+      },
+      "ends_mae": 18.114,
+      "file": "assets/fr-01-028-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-029",
+      "caption": "Ch\u00e2teau de Maisons-Laffitte, Maisons-Laffitte",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-029-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 142.51,
+      "top_v": 229.27,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "3c49e860a14311d4642e15b81b02a6e1b12c702f157adddd4dddcf732938c903",
+        "bytes": 2915037
+      },
+      "ends_mae": 24.396,
+      "file": "assets/fr-01-029-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-030",
+      "caption": "Ch\u00e2teau de Malmaison, Rueil-Malmaison",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-030-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 142.74,
+      "top_v": 203.81,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "3e9fe2d655772eba43917f757072a54b3e1b99fb02a5eae14dfbce5ce09f5f9b",
+        "bytes": 2780729
+      },
+      "ends_mae": 16.937,
+      "file": "assets/fr-01-030-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-031",
+      "caption": "Provins medieval town, Provins",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-031-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 147.15,
+      "top_v": 217.72,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "468299213d156ccea51665aa3ce0c03886eadd7c9b6bba699259e1e2ea2bf12c",
+        "bytes": 2336548
+      },
+      "ends_mae": 17.559,
+      "file": "assets/fr-01-031-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-032",
+      "caption": "Place des Vosges, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-032-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 137.32,
+      "top_v": 233.95,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "16ed4f728e74423420aff07839e0e2a35f1788da6bf458c27d0cb8d2cb346ac4",
+        "bytes": 3202031
+      },
+      "ends_mae": 23.612,
+      "file": "assets/fr-01-032-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-033",
+      "caption": "Basilique Notre-Dame de Fourvi\u00e8re, Lyon",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-033-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 144.31,
+      "top_v": 210.37,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "aa08c456c490e106471fca6d9d712ef29227fb046ad6303965d41d12ace81bd4",
+        "bytes": 2957727
+      },
+      "ends_mae": 21.423,
+      "file": "assets/fr-01-033-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-034",
+      "caption": "Place de la Bourse, Bordeaux",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-034-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 153.94,
+      "top_v": 224.26,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "071fdbbac59669dddc2c9f8df06d05800cc456814036ef970c4da046656bba84",
+        "bytes": 3177612
+      },
+      "ends_mae": 19.514,
+      "file": "assets/fr-01-034-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-035",
+      "caption": "Notre-Dame de la Garde, Marseille",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-035-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 144.1,
+      "top_v": 204.77,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "7180fd04ca96d660e4d32dbc6d5d80f6ea6daa6b7b44b14a93fb54cdcb9dcd2e",
+        "bytes": 2762552
+      },
+      "ends_mae": 19.445,
+      "file": "assets/fr-01-035-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-036",
+      "caption": "Rouen Cathedral, Rouen",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-036-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 127.88,
+      "top_v": 194.64,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "528ecce4aed7c9e827aaf3a351f93b9899f158f4e7548f6148dd9bb10a0e616d",
+        "bytes": 4511436
+      },
+      "ends_mae": 22.835,
+      "file": "assets/fr-01-036-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-037",
+      "caption": "Palais des Papes, Avignon",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-037-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 145.48,
+      "top_v": 215.52,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "d7aeec0fa76d3a33e21a51ae108da18b7c5e607de93c59dd182f1421dc1ff48c",
+        "bytes": 3305904
+      },
+      "ends_mae": 21.044,
+      "file": "assets/fr-01-037-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-038",
+      "caption": "Reims Cathedral, Reims",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-038-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 122.31,
+      "top_v": 172.31,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "92b852dd932f21b279ae55918fd1684690152a78cd22f5277ae54f67738dad5c",
+        "bytes": 4908319
+      },
+      "ends_mae": 32.327,
+      "file": "assets/fr-01-038-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-039",
+      "caption": "Chartres Cathedral, Chartres",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-039-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 152.14,
+      "top_v": 203.81,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "d17de2ad7cfd0f24f664938420727843689af138fff05217c497048752b90ffb",
+        "bytes": 3067724
+      },
+      "ends_mae": 21.562,
+      "file": "assets/fr-01-039-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-040",
+      "caption": "Basilique Saint-Sernin, Toulouse",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-040-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 150.66,
+      "top_v": 219.04,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "12030fe0e78aaa6ff3b53a0d37d857366c8b283942f54ed79b839e3f6a7fa905",
+        "bytes": 2637514
+      },
+      "ends_mae": 18.238,
+      "file": "assets/fr-01-040-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-041",
+      "caption": "Amiens Cathedral, Amiens",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-041-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 123.47,
+      "top_v": 186.59,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "461012270f2de9204b6a1a42e3e0461fe87ffee86c9f52a75036d695d7a7cb9a",
+        "bytes": 4397927
+      },
+      "ends_mae": 26.535,
+      "file": "assets/fr-01-041-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-042",
+      "caption": "Hospices de Beaune, Beaune",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-042-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 146.49,
+      "top_v": 235.0,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "d9e33bdc0c5e6eb03c33badbee6dd0c7eb807a8d7cbd520f8264169b15830142",
+        "bytes": 3046448
+      },
+      "ends_mae": 23.194,
+      "file": "assets/fr-01-042-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-043",
+      "caption": "Ch\u00e2teau des Ducs de Bretagne, Nantes",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-043-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 148.4,
+      "top_v": 226.85,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "6e23efafe711030727405097afa907712f5766f03b357cc2152ce63b695bdf27",
+        "bytes": 3102383
+      },
+      "ends_mae": 19.654,
+      "file": "assets/fr-01-043-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-044",
+      "caption": "Vieille Bourse, Lille",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-044-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 134.61,
+      "top_v": 233.93,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "4ed9fce62506ed5d6b95516ab32e7e2439b9cbeea4eb49fbf2eb66500221c171",
+        "bytes": 3680174
+      },
+      "ends_mae": 22.845,
+      "file": "assets/fr-01-044-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-045",
+      "caption": "Albi Cathedral, Albi",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-045-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 145.07,
+      "top_v": 217.79,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "33c74c0019c24388760be99b549d7fe1e104fb7a0fe1b22ab38f5fca04063390",
+        "bytes": 2730620
+      },
+      "ends_mae": 15.548,
+      "file": "assets/fr-01-045-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-046",
+      "caption": "Pont du Gard, Vers-Pont-du-Gard",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-046-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 140.79,
+      "top_v": 220.84,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "58a1b73bfff2eb64ec2dfd5c2f4a2a3fd5ee1f07895b2608001e709e0c9449fe",
+        "bytes": 3669476
+      },
+      "ends_mae": 22.074,
+      "file": "assets/fr-01-046-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-047",
+      "caption": "Arena of N\u00eemes, N\u00eemes",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-047-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 121.72,
+      "top_v": 196.05,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "cfbe41b0260244927f5026aee5c32d41a7ec47c283e45aee92438b64b553bb01",
+        "bytes": 3599621
+      },
+      "ends_mae": 23.756,
+      "file": "assets/fr-01-047-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-048",
+      "caption": "Saint-Malo ramparts, Saint-Malo",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-048-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 114.3,
+      "top_v": 228.89,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "13a5030e7b9b5a79e968320fa3e725340c65fa528f5057df17c8b2572cccaeea",
+        "bytes": 3379965
+      },
+      "ends_mae": 17.449,
+      "file": "assets/fr-01-048-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-049",
+      "caption": "Petite Venise, Colmar",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-049-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 125.86,
+      "top_v": 226.94,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "8f1a8ec8edde47292baa5710ae2f8754d40356ce85744f6e9699cfa97c8a83f2",
+        "bytes": 4231554
+      },
+      "ends_mae": 25.602,
+      "file": "assets/fr-01-049-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-050",
+      "caption": "Rocher de la Vierge, Biarritz",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-050-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 125.04,
+      "top_v": 217.19,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "d6ac4069199a504a0926c32660d7c3f7603aeaeb1d307cab42604df76e2c55a3",
+        "bytes": 3026718
+      },
+      "ends_mae": 19.516,
+      "file": "assets/fr-01-050-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-051",
+      "caption": "Ch\u00e2teau de Chenonceau, Chenonceaux",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-051-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        24,
+        846,
+        1068
+      ],
+      "pin_top": false,
+      "mean_v": 127.85,
+      "top_v": 208.67,
+      "zoom_end": 1.03,
+      "travel_px": 25.83,
+      "window_end": [
+        14.97,
+        21.05
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "5f8d3d07d839e78acdc5e477b0750368aa1f98e52ee85a4ef26f613239046636",
+        "bytes": 2458082
+      },
+      "ends_mae": 18.745,
+      "file": "assets/fr-01-051-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-052",
+      "caption": "Citadel of Ajaccio, Ajaccio",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-052-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 142.01,
+      "top_v": 237.18,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "eab059b9240256b71466c4e7ec41b6a45d39de25ab458dae2a5178a5947e405b",
+        "bytes": 3129192
+      },
+      "ends_mae": 20.062,
+      "file": "assets/fr-01-052-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-053",
+      "caption": "Cliffs of \u00c9tretat, \u00c9tretat",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-053-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 134.35,
+      "top_v": 216.65,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "f61fc63beef6b5e0c40aa6d9a5a7aac478e73d162f5b191211a3080722c3b29c",
+        "bytes": 2953336
+      },
+      "ends_mae": 16.553,
+      "file": "assets/fr-01-053-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-054",
+      "caption": "Rocamadour, Rocamadour",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-054-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 112.09,
+      "top_v": 178.83,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "5f57fe14684e12550b46f1720c47de918e9ba6c73e814791eab27c1682059002",
+        "bytes": 4915588
+      },
+      "ends_mae": 31.584,
+      "file": "assets/fr-01-054-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-055",
+      "caption": "Arles Amphitheatre, Arles",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-055-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 127.94,
+      "top_v": 215.26,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "e293318f032f328b95025b40586f1075815639ceb63f4d9d2bbef13f9bfa2fdf",
+        "bytes": 4182537
+      },
+      "ends_mae": 27.747,
+      "file": "assets/fr-01-055-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-056",
+      "caption": "Vieux Bassin, Honfleur",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-056-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 119.7,
+      "top_v": 234.35,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "b30f6ff7c193d96260f80f572e21cd43f40788eddd2d7b8730e9e384d891716c",
+        "bytes": 3580780
+      },
+      "ends_mae": 25.161,
+      "file": "assets/fr-01-056-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-057",
+      "caption": "Cirque de Gavarnie, Gavarnie",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-057-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 122.86,
+      "top_v": 228.32,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "bb46794af4ee2e6172efe7a99b2618c3ad54e51b5cbcbc976173bc63363298be",
+        "bytes": 3846500
+      },
+      "ends_mae": 20.293,
+      "file": "assets/fr-01-057-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-058",
+      "caption": "Bonifacio cliffs, Bonifacio",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-058-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 141.46,
+      "top_v": 233.58,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "edfd3ed93905d1b2301f66c267dcf226c897f2795c8213b4f6bfa1fb2be4bed8",
+        "bytes": 4889818
+      },
+      "ends_mae": 29.622,
+      "file": "assets/fr-01-058-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-059",
+      "caption": "Bayeux Cathedral, Bayeux",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-059-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 141.55,
+      "top_v": 206.6,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "78beb2501aed769a776d247b8925899090df2137baaa3407f85e3565fb2e8026",
+        "bytes": 3387118
+      },
+      "ends_mae": 22.522,
+      "file": "assets/fr-01-059-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-060",
+      "caption": "Ch\u00e2teau d'Amboise, Amboise",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-060-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 139.04,
+      "top_v": 226.88,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "4561210a14137ea4e58ef06841aa801fdb78e2e564bfe083cb5722b189af5d7a",
+        "bytes": 3460481
+      },
+      "ends_mae": 22.541,
+      "file": "assets/fr-01-060-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-061",
+      "caption": "Ch\u00e2teau de Villandry, Villandry",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-061-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        24,
+        846,
+        1068
+      ],
+      "pin_top": false,
+      "mean_v": 95.65,
+      "top_v": 150.87,
+      "zoom_end": 1.03,
+      "travel_px": 25.83,
+      "window_end": [
+        14.97,
+        21.05
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "71a424a677dd761bdbf6a37f3e856404314336ac3e2c3c41094d42a18b5a31e1",
+        "bytes": 3895980
+      },
+      "ends_mae": 30.183,
+      "file": "assets/fr-01-061-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-062",
+      "caption": "Rocher Saint-Michel, Le Puy-en-Velay",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-062-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 131.72,
+      "top_v": 215.38,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "46638424fc80d3ca11bdbda6b96c36e35b8be93937e5e80bd4684caf7dd8d3a2",
+        "bytes": 2564607
+      },
+      "ends_mae": 19.666,
+      "file": "assets/fr-01-062-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-063",
+      "caption": "Calanques de Cassis, Cassis",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-063-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 86.42,
+      "top_v": 103.57,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "5e38575fd7aee6de79979c8511843dfe333141bc0040d2dcc75e1489bd68dd39",
+        "bytes": 4025855
+      },
+      "ends_mae": 21.781,
+      "file": "assets/fr-01-063-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-064",
+      "caption": "Petite France, Strasbourg",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-064-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "HOLD",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 85.63,
+      "top_v": 166.76,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "error": "last frame has a black border",
+      "hold_reason": "last frame has a black border"
+    },
+    {
+      "entry_id": "FR-01-065",
+      "caption": "Monet's garden, Giverny",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-065-4x5.png",
+      "anchor_kind": "primary",
+      "crop": "864:1080:0:0",
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "subject": [
+        18,
+        0,
+        846,
+        1044
+      ],
+      "pin_top": true,
+      "mean_v": 87.37,
+      "top_v": 112.0,
+      "zoom_end": 1.03,
+      "travel_px": 14.97,
+      "window_end": [
+        14.97,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "1e4d40d9105883ca99a75059aebd755f2762ff930a4b94893c2644b33ceb9dda",
+        "bytes": 4392398
+      },
+      "ends_mae": 32.082,
+      "file": "assets/fr-01-065-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-066",
+      "caption": "Ch\u00e2teau de Chantilly, Chantilly",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-067",
+      "caption": "Menton old town, Menton",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-068",
+      "caption": "Eguisheim, Eguisheim",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-069",
+      "caption": "Abbaye de S\u00e9nanque, Gordes",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-070",
+      "caption": "Collioure harbor, Collioure",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-071",
+      "caption": "V\u00e9zelay Abbey, V\u00e9zelay",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-072",
+      "caption": "Ch\u00e2teau de Saumur, Saumur",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-073",
+      "caption": "Place Stanislas, Nancy",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-074",
+      "caption": "Viaduc de Millau, Millau",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-075",
+      "caption": "Ch\u00e2teau d'Azay-le-Rideau, Azay-le-Rideau",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-076",
+      "caption": "Th\u00e9\u00e2tre antique d'Orange, Orange",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-077",
+      "caption": "Sarlat old town, Sarlat-la-Can\u00e9da",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-078",
+      "caption": "Old Port of La Rochelle, La Rochelle",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-079",
+      "caption": "Citadel of Besan\u00e7on, Besan\u00e7on",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-080",
+      "caption": "Citadel of Calvi, Calvi",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-081",
+      "caption": "Les Baux-de-Provence, Les Baux-de-Provence",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-082",
+      "caption": "Aigues-Mortes ramparts, Aigues-Mortes",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-083",
+      "caption": "Ch\u00e2teau de Blois, Blois",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-084",
+      "caption": "Belle-\u00cele cliffs, Le Palais",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-085",
+      "caption": "Puy de D\u00f4me, Orcines",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-086",
+      "caption": "Pont Valentr\u00e9, Cahors",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-087",
+      "caption": "Ch\u00e2teau du Haut-Koenigsbourg, Orschwiller",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-088",
+      "caption": "Saint-Martin-de-R\u00e9 harbor, Saint-Martin-de-R\u00e9",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-089",
+      "caption": "Ch\u00e2teau de Chinon, Chinon",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-090",
+      "caption": "Concarneau Ville Close, Concarneau",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-091",
+      "caption": "Gorges du Tarn, Sainte-Enimie",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-092",
+      "caption": "Citadel of Corte, Corte",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-093",
+      "caption": "Ch\u00e2teau de Beynac, Beynac-et-Cazenac",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-094",
+      "caption": "Cordes-sur-Ciel, Cordes-sur-Ciel",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-095",
+      "caption": "Roussillon ochre village, Roussillon",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-096",
+      "caption": "\u00cele de Porquerolles village harbor, Porquerolles",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-097",
+      "caption": "Dinan medieval town, Dinan",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-098",
+      "caption": "Ch\u00e2teau de Foug\u00e8res, Foug\u00e8res",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-099",
+      "caption": "Saint-Cirq-Lapopie cliff village, Saint-Cirq-Lapopie",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-100",
+      "caption": "Citadel of Brian\u00e7on, Brian\u00e7on",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-101",
+      "caption": "Antibes old town and Fort Carr\u00e9, Antibes",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-102",
+      "caption": "\u00c8ze perched village, \u00c8ze",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-103",
+      "caption": "Domme bastide overlook, Domme",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-104",
+      "caption": "\u00cele de Batz harbor, \u00cele de Batz",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-105",
+      "caption": "Cancale oyster harbor, Cancale",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-106",
+      "caption": "Quimper cathedral and old town, Quimper",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-107",
+      "caption": "Ch\u00e2teau de Pierrefonds, Pierrefonds",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-108",
+      "caption": "\u00cele de Houat harbor, \u00cele de Houat",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-109",
+      "caption": "Riquewihr medieval wine village, Riquewihr",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-110",
+      "caption": "Ch\u00e2teau de Castelnaud, Castelnaud-la-Chapelle",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-111",
+      "caption": "Ch\u00e2teau de Foix, Foix",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-112",
+      "caption": "\u00cele de Br\u00e9hat harbor / village, \u00cele de Br\u00e9hat",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-113",
+      "caption": "Kaysersberg medieval wine village, Kaysersberg",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-114",
+      "caption": "Saint-\u00c9milion limestone town and vineyards, Saint-\u00c9milion",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-115",
+      "caption": "Citadelle de Sisteron / Durance gap, Sisteron",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-116",
+      "caption": "\u00cele de Groix harbor / village, \u00cele de Groix",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-117",
+      "caption": "Vitr\u00e9 fortified old town and ch\u00e2teau, Vitr\u00e9",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-118",
+      "caption": "Ch\u00e2teau de Loches and medieval town, Loches",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-119",
+      "caption": "Najac ridge fortress village, Najac",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-120",
+      "caption": "\u00cele d'Ouessant / Ushant harbor or lighthouse coast, \u00cele d'Ouessant",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-121",
+      "caption": "Conques abbey village, Conques",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-122",
+      "caption": "Abbaye Royale de Fontevraud, Fontevraud-l'Abbaye",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-123",
+      "caption": "P\u00e9rouges medieval hill town, P\u00e9rouges",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-124",
+      "caption": "\u00cele de Noirmoutier / Passage du Gois or harbor, Noirmoutier-en-l'\u00cele",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-125",
+      "caption": "Palais des Ducs, Dijon",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-125-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-126",
+      "caption": "Ch\u00e2teau d'Angers, Angers",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-127",
+      "caption": "Belfry of Arras, Arras",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-127-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-128",
+      "caption": "Les Saintes harbor, Terre-de-Haut",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-129",
+      "caption": "Pointe des Ch\u00e2teaux, Saint-Fran\u00e7ois",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-130",
+      "caption": "Rocher du Diamant, Le Diamant",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-131",
+      "caption": "Piton de la Fournaise, La Plaine-des-Cafres",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-131-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-132",
+      "caption": "\u00cele du Diable, \u00celes du Salut",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-133",
+      "caption": "Plage de Moya, Pamandzi",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-133-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-134",
+      "caption": "Gustavia harbor, Gustavia",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-135",
+      "caption": "Normandy American Cemetery, Colleville-sur-Mer",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-135-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-136",
+      "caption": "Yvoire medieval port, Yvoire",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-136-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-137",
+      "caption": "Mer de Glace, Chamonix",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-137-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-138",
+      "caption": "Ch\u00e2teau de Cheverny, Cheverny",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-139",
+      "caption": "Saint-Jean-de-Luz harbor, Saint-Jean-de-Luz",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-139-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-140",
+      "caption": "Saline Royale, Arc-et-Senans",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-140-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-141",
+      "caption": "Cap Blanc-Nez, Escalles",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-141-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-142",
+      "caption": "Porte Saint-Michel, Gu\u00e9rande",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-143",
+      "caption": "Calanques de Piana, Piana",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-143-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-144",
+      "caption": "Metz Cathedral, Metz",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-144-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-145",
+      "caption": "Fort Louis, Marigot",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-146",
+      "caption": "\u00cele aux Marins, Saint-Pierre",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-147",
+      "caption": "Mount Otemanu, Bora-Bora",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-148",
+      "caption": "Baie de Kanum\u00e9ra, \u00cele des Pins",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-149",
+      "caption": "Th\u00e9\u00e2tre de Saint-Pierre, Saint-Pierre",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-150",
+      "caption": "Le Barachois, Saint-Denis",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-150-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-151",
+      "caption": "Camp de la Transportation, Saint-Laurent-du-Maroni",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-152",
+      "caption": "Dziani Dzaha, Pamandzi",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-152-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-153",
+      "caption": "Anse de Colombier, Colombier",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-154",
+      "caption": "Abbaye de Fontenay, Marmagne",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-154-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-155",
+      "caption": "Tour de Nonza, Nonza",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-155-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-156",
+      "caption": "Laon Cathedral, Laon",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-156-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-157",
+      "caption": "Le Mans Cathedral, Le Mans",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-158",
+      "caption": "Mulberry harbour, Arromanches-les-Bains",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-159",
+      "caption": "Lion de Belfort, Belfort",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-160",
+      "caption": "Erbalunga harbor, Brando",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-160-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-161",
+      "caption": "Grand Case beach, Grand Case",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-162",
+      "caption": "Saint-Pierre harbor, Saint-Pierre",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-163",
+      "caption": "Cook's Bay, Moorea",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-164",
+      "caption": "Phare Am\u00e9d\u00e9e, \u00celot Am\u00e9d\u00e9e",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-165",
+      "caption": "La Soufri\u00e8re, Saint-Claude",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-166",
+      "caption": "Montagne Pel\u00e9e, Le Morne-Rouge",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-167",
+      "caption": "Ma\u00efdo, Saint-Paul",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-168",
+      "caption": "Place des Palmistes, Cayenne",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-169",
+      "caption": "Plage de N'Gouja, Kani-K\u00e9li",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-170",
+      "caption": "Anse de Grande Saline, Grande Saline",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-171",
+      "caption": "Abbaye de Cluny, Cluny",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-171-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-172",
+      "caption": "Aiguilles de Bavella, Zonza",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-172-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-173",
+      "caption": "Beauvais Cathedral, Beauvais",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-174",
+      "caption": "Ch\u00e2teau de Montsoreau, Montsoreau",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-175",
+      "caption": "Ch\u00e2teau de Falaise, Falaise",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-175-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-176",
+      "caption": "Pont d'Arc, Vallon-Pont-d'Arc",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-177",
+      "caption": "Pic Paradis, Rambaud",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-178",
+      "caption": "Miquelon village, Miquelon",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-179",
+      "caption": "Tiputa Pass, Rangiroa",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-180",
+      "caption": "Centre Tjibaou, Noum\u00e9a",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-181",
+      "caption": "Chutes du Carbet, Capesterre-Belle-Eau",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-182",
+      "caption": "Biblioth\u00e8que Schoelcher, Fort-de-France",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-183",
+      "caption": "Hell-Bourg, Salazie",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-184",
+      "caption": "Fort C\u00e9p\u00e9rou, Cayenne",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-185",
+      "caption": "Baie de Mamoudzou, Mamoudzou",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-185-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-186",
+      "caption": "Baie de Saint-Jean, Saint-Jean",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-187",
+      "caption": "Semur-en-Auxois, Semur-en-Auxois",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-188",
+      "caption": "Tour de Porto, Porto",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-188-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-189",
+      "caption": "Medieval quay, Saint-Valery-sur-Somme",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-190",
+      "caption": "Ch\u00e2teau de Brissac, Brissac-Quinc\u00e9",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-190-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-191",
+      "caption": "Ch\u00e2teau de Caen, Caen",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-192",
+      "caption": "Cath\u00e9drale de Clermont-Ferrand, Clermont-Ferrand",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-192-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-193",
+      "caption": "Baie Orientale, Cul-de-Sac",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-194",
+      "caption": "Isthme de Langlade, Miquelon",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-195",
+      "caption": "Marae Taputapuatea, Raiatea",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-196",
+      "caption": "La Poule de Hiengh\u00e8ne, Hiengh\u00e8ne",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-197",
+      "caption": "Grande Anse, Deshaies",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-198",
+      "caption": "\u00cele Royale, \u00celes du Salut",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-199",
+      "caption": "Notre-Dame-des-Laves, Sainte-Rose",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-199-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-200",
+      "caption": "\u00c9glise d'Anse d'Arlet, Les Anses-d'Arlet",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-201",
+      "caption": "Mosqu\u00e9e de Tsingoni, Tsingoni",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-201-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-202",
+      "caption": "Anse de Gouverneur, Gouverneur",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-203",
+      "caption": "Abbaye de Baume-les-Messieurs, Baume-les-Messieurs",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-204",
+      "caption": "Vieux port, Bastia",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-204-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-205",
+      "caption": "Cap Gris-Nez, Audinghen",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-205-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-206",
+      "caption": "Port du Croisic, Le Croisic",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-206-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-207",
+      "caption": "Cath\u00e9drale de Bourges, Bourges",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-208",
+      "caption": "Ch\u00e2teau de Sedan, Sedan",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-209",
+      "caption": "\u00celet Pinel, Cul-de-Sac",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-210",
+      "caption": "Cath\u00e9drale Saint-Pierre, Saint-Pierre",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-211",
+      "caption": "Baie d'Opunohu, Moorea",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-212",
+      "caption": "Pont de Mouli, Ouv\u00e9a",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-213",
+      "caption": "Gueule Grand Gouffre, Saint-Louis",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-214",
+      "caption": "Cath\u00e9drale Saint-Sauveur, Cayenne",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-215",
+      "caption": "Cap M\u00e9chant, Saint-Philippe",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-215-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-216",
+      "caption": "Fort Saint-Louis, Fort-de-France",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-217",
+      "caption": "Rocher de Dzaoudzi, Dzaoudzi",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-218",
+      "caption": "Anse de Grand Galet, Gustavia",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-219",
+      "caption": "Palais Id\u00e9al, Hauterives",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-220",
+      "caption": "Cath\u00e9drale Saint-\u00c9tienne, Auxerre",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-221",
+      "caption": "La Pietra, L'\u00cele-Rousse",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-221-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-222",
+      "caption": "Beffroi de Bergues, Bergues",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-222-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-223",
+      "caption": "Ch\u00e2teau Gaillard, Les Andelys",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-223-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-224",
+      "caption": "Ch\u00e2teau de Clisson, Clisson",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-225",
+      "caption": "Baie Longue, Terres Basses",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-226",
+      "caption": "Phare du Cap Blanc, Miquelon",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-227",
+      "caption": "Baie de Fare, Huahine",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-228",
+      "caption": "Baie des Citrons, Noum\u00e9a",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-229",
+      "caption": "Fort Delgr\u00e8s, Basse-Terre",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-230",
+      "caption": "Plage de Montjoly, R\u00e9mire-Montjoly",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-231",
+      "caption": "Cilaos, Cilaos",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-231-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-232",
+      "caption": "Plage des Salines, Sainte-Anne",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-233",
+      "caption": "Plage de Sakouli, Bandrele",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-234",
+      "caption": "Anse de Toiny, Toiny",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-235",
+      "caption": "Ch\u00e2teau de Chaumont, Chaumont-sur-Loire",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-235-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-236",
+      "caption": "Ossuaire de Douaumont, Douaumont-Vaux",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-236-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-237",
+      "caption": "Citadelle de Blaye, Blaye",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-237-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-238",
+      "caption": "Cath\u00e9drale de Senlis, Senlis",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-238-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-239",
+      "caption": "Abbaye de Jumi\u00e8ges, Jumi\u00e8ges",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-239-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-240",
+      "caption": "Ch\u00e2teau du Plessis-Bourr\u00e9, \u00c9cuill\u00e9",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-241",
+      "caption": "Anse Marcel, Anse Marcel",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-242",
+      "caption": "Phare de Galantry, Saint-Pierre",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-243",
+      "caption": "Front de mer, Papeete",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-244",
+      "caption": "Plage de Po\u00e9, Bourail",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-245",
+      "caption": "Cascade aux \u00c9crevisses, Petit-Bourg",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-246",
+      "caption": "\u00cele Saint-Joseph, \u00celes du Salut",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-247",
+      "caption": "Lagon de l'Ermitage, Saint-Paul",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-247-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-248",
+      "caption": "Ch\u00e2teau Dubuc, La Trinit\u00e9",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-249",
+      "caption": "Phare de Mtsamboro, Mtsamboro",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-249-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-250",
+      "caption": "Anse de Lorient, Lorient",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-251",
+      "caption": "Lac du Bourget, Aix-les-Bains",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-251-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-252",
+      "caption": "Ch\u00e2teau de Joux, La Cluse-et-Mijoux",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-252-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-253",
+      "caption": "Sart\u00e8ne, Sart\u00e8ne",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-254",
+      "caption": "Ch\u00e2teau de Valen\u00e7ay, Valen\u00e7ay",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-254-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-255",
+      "caption": "Cath\u00e9drale de Troyes, Troyes",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-255-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-256",
+      "caption": "Ch\u00e2teau de Compi\u00e8gne, Compi\u00e8gne",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-257",
+      "caption": "Baie Rouge, Terres Basses",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-258",
+      "caption": "Pointe aux Canons, Saint-Pierre",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-259",
+      "caption": "Pointe V\u00e9nus, Mahina",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-260",
+      "caption": "Fort Teremba, Moindou",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-261",
+      "caption": "Porte d'Enfer, Anse-Bertrand",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-262",
+      "caption": "Plage de Montabo, Cayenne",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-263",
+      "caption": "Cascade de Grand Galet, Saint-Joseph",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-263-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-264",
+      "caption": "Sacr\u00e9-C\u0153ur de Balata, Fort-de-France",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-265",
+      "caption": "Plage de Soulou, Tsingoni",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-266",
+      "caption": "Anse des Flamands, Flamands",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-267",
+      "caption": "Viaduc de Garabit, Ruynes-en-Margeride",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-268",
+      "caption": "Ch\u00e2teau de La Rochepot, La Rochepot",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-269",
+      "caption": "Plage de Palombaggia, Porto-Vecchio",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-270",
+      "caption": "Phare de Gatteville, Gatteville-le-Phare",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-270-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-271",
+      "caption": "Ch\u00e2teau de Bonaguil, Saint-Front-sur-L\u00e9mance",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-272",
+      "caption": "Abbaye de Maillezais, Maillezais",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-273",
+      "caption": "Baie Nettl\u00e9, Terres Basses",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-274",
+      "caption": "Anse \u00e0 Henry, Saint-Pierre",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-275",
+      "caption": "Tetamanu, Fakarava",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-276",
+      "caption": "Chutes de la Madeleine, Yat\u00e9",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-277",
+      "caption": "\u00celet du Gosier, Le Gosier",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-278",
+      "caption": "Plage des Roches, Kourou",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-279",
+      "caption": "Le Souffleur, Saint-Leu",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-280",
+      "caption": "Habitation Cl\u00e9ment, Le Fran\u00e7ois",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-281",
+      "caption": "Plage de Saziley, Bandrele",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-282",
+      "caption": "Anse de Grand Cul-de-Sac, Grand Cul-de-Sac",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-283",
+      "caption": "Fort la Latte, Pl\u00e9venon",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-283-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-284",
+      "caption": "Ch\u00e2teau de Sully-sur-Loire, Sully-sur-Loire",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-285",
+      "caption": "Citadelle de Bitche, Bitche",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-286",
+      "caption": "Ch\u00e2teau de Coucy, Coucy-le-Ch\u00e2teau-Auffrique",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-287",
+      "caption": "Ch\u00e2teau de Carrouges, Carrouges",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-288",
+      "caption": "Ch\u00e2teau de Hautefort, Hautefort",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-289",
+      "caption": "Sandy Ground, Sandy Ground",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-290",
+      "caption": "Le Grand Colombier, Saint-Pierre",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-291",
+      "caption": "Baie de Hane, Ua Huka",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-292",
+      "caption": "Baie d'Oro, \u00cele des Pins",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-293",
+      "caption": "Saut d'Acomat, Pointe-Noire",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-294",
+      "caption": "Bourg de Sinnamary, Sinnamary",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-295",
+      "caption": "Grande Anse, Petite-\u00cele",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-296",
+      "caption": "Anse Noire, Les Anses-d'Arlet",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-297",
+      "caption": "Plage de Sohoa, Chiconi",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-298",
+      "caption": "Anse des Cayes, Anse des Cayes",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-299",
+      "caption": "Ch\u00e2teau de Grignan, Grignan",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-299-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-300",
+      "caption": "Ch\u00e2teau de Tanlay, Tanlay",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-301",
+      "caption": "Port de Centuri, Centuri",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-302",
+      "caption": "Ch\u00e2teau de Serrant, Saint-Georges-sur-Loire",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-302-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-303",
+      "caption": "Pointe du Raz, Plogoff",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-304",
+      "caption": "Ch\u00e2teau de Ch\u00e2teaudun, Ch\u00e2teaudun",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-305",
+      "caption": "Rocher Cr\u00e9ole, Cul-de-Sac",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-306",
+      "caption": "Phare de Pointe-Plate, Langlade",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-306-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-307",
+      "caption": "Baie de Taiohae, Nuku Hiva",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-308",
+      "caption": "La Roche Perc\u00e9e, Bourail",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-309",
+      "caption": "\u00celets Pigeon, Bouillante",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-310",
+      "caption": "Fort Diamant, R\u00e9mire-Montjoly",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-311",
+      "caption": "Anse des Cascades, Sainte-Rose",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-311-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-312",
+      "caption": "Baie du Tr\u00e9sor, Tartane",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-313",
+      "caption": "Vasi\u00e8re des Badamiers, Pamandzi",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-314",
+      "caption": "Anse de Grand Fond, Grand Fond",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-315",
+      "caption": "Place Ducale, Charleville-M\u00e9zi\u00e8res",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-316",
+      "caption": "Beffroi de Douai, Douai",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-316-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-317",
+      "caption": "Haute-Ville, Granville",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-318",
+      "caption": "Ch\u00e2teau de La Rochefoucauld, La Rochefoucauld",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-319",
+      "caption": "Ch\u00e2teau de Murol, Murol",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-319-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-320",
+      "caption": "Ch\u00e2teau de Bussy-Rabutin, Bussy-le-Grand",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-321",
+      "caption": "\u00cele Tintamarre, Cul-de-Sac",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-322",
+      "caption": "Cap du Nid \u00e0 l'Aigle, Miquelon",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-323",
+      "caption": "Baie des Vierges, Fatu Hiva",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-324",
+      "caption": "Baie de Prony, Le Mont-Dore",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-325",
+      "caption": "Pointe de la Grande Vigie, Anse-Bertrand",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-326",
+      "caption": "Cacao, Roura",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-327",
+      "caption": "Voile de la Mari\u00e9e, Salazie",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-328",
+      "caption": "Pitons du Carbet, Fonds-Saint-Denis",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-329",
+      "caption": "Baie de Bou\u00e9ni, Bou\u00e9ni",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-330",
+      "caption": "Phare de Gustavia, Gustavia",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-331",
+      "caption": "Phare des \u00eeles Sanguinaires, Ajaccio",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-331-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-332",
+      "caption": "Ch\u00e2teau de Goulaine, Haute-Goulaine",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-332-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-333",
+      "caption": "Alignements de Carnac, Carnac",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-334",
+      "caption": "Ch\u00e2teau de Langeais, Langeais",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-335",
+      "caption": "Monast\u00e8re royal de Brou, Bourg-en-Bresse",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-336",
+      "caption": "Roche de Solutr\u00e9, Solutr\u00e9-Pouilly",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-337",
+      "caption": "Quartier-d'Orl\u00e9ans, Quartier-d'Orl\u00e9ans",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-338",
+      "caption": "Anse du Gouvernement, Langlade",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-338-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-339",
+      "caption": "Baie d'Atuona, Hiva Oa",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-340",
+      "caption": "Fayaou\u00e9, Ouv\u00e9a",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-341",
+      "caption": "Habitation Murat, Grand-Bourg",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-342",
+      "caption": "Kaw, R\u00e9gina",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-343",
+      "caption": "Plage de Boucan Canot, Saint-Paul",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-344",
+      "caption": "Anse Couleuvre, Le Pr\u00eacheur",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-345",
+      "caption": "\u00celot Mbouzi, Mamoudzou",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-346",
+      "caption": "Anse de Marigot, Marigot",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-347",
+      "caption": "Plage de Saleccia, Santo-Pietro-di-Tenda",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-348",
+      "caption": "Ch\u00e2teau du Lude, Le Lude",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-349",
+      "caption": "Cath\u00e9drale Saint-\u00c9tienne, Toul",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-350",
+      "caption": "Cath\u00e9drale Notre-Dame, Noyon",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-351",
+      "caption": "Abbaye de Saint-Wandrille, Rives-en-Seine",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-352",
+      "caption": "Phare des Baleines, Saint-Cl\u00e9ment-des-Baleines",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-352-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-353",
+      "caption": "Oyster Pond, Oyster-Pond",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-354",
+      "caption": "Grand Barachois, Miquelon",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-355",
+      "caption": "Baie d'Hakahau, Ua Pou",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-356",
+      "caption": "Xodr\u00eb, Lifou",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-357",
+      "caption": "\u00celes de la Petite-Terre, La D\u00e9sirade",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-358",
+      "caption": "Plage des Hattes, Awala-Yalimapo",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-359",
+      "caption": "Trou de Fer, Salazie",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-360",
+      "caption": "Grand'Rivi\u00e8re, Grand'Rivi\u00e8re",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-361",
+      "caption": "Mont Choungui, Chirongui",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-362",
+      "caption": "Corossol, Corossol",
+      "method": "static-ambient",
+      "status": "excluded-night-only",
+      "hold_reason": "night-only scene; no daylight master"
+    },
+    {
+      "entry_id": "FR-01-363",
+      "caption": "Centre Pompidou, Paris",
+      "method": "static-ambient",
+      "status": "pending"
+    },
+    {
+      "entry_id": "FR-01-364",
+      "caption": "Ch\u00e2teau d'If, Marseille",
+      "method": "sideways-sweep",
+      "status": "preexisting",
+      "file": "assets/fr-01-364-motion-10s-4x5.mp4",
+      "note": "clip already on main; not remade"
+    },
+    {
+      "entry_id": "FR-01-365",
+      "caption": "Ch\u00e2teau de Peyrepertuse, Duilhac-sous-Peyrepertuse",
+      "method": "static-ambient",
+      "status": "pending"
+    }
+  ],
+  "holds": [
+    "FR-01-027",
+    "FR-01-064"
+  ],
+  "shipped": [
+    "FR-01-001",
+    "FR-01-002",
+    "FR-01-003",
+    "FR-01-004",
+    "FR-01-005",
+    "FR-01-006",
+    "FR-01-007",
+    "FR-01-008",
+    "FR-01-009",
+    "FR-01-010",
+    "FR-01-011",
+    "FR-01-012",
+    "FR-01-013",
+    "FR-01-014",
+    "FR-01-015",
+    "FR-01-016",
+    "FR-01-017",
+    "FR-01-018",
+    "FR-01-019",
+    "FR-01-020",
+    "FR-01-021",
+    "FR-01-022",
+    "FR-01-023",
+    "FR-01-024",
+    "FR-01-025",
+    "FR-01-026",
+    "FR-01-028",
+    "FR-01-029",
+    "FR-01-030",
+    "FR-01-031",
+    "FR-01-032",
+    "FR-01-033",
+    "FR-01-034",
+    "FR-01-035",
+    "FR-01-036",
+    "FR-01-037",
+    "FR-01-038",
+    "FR-01-039",
+    "FR-01-040",
+    "FR-01-041",
+    "FR-01-042",
+    "FR-01-043",
+    "FR-01-044",
+    "FR-01-045",
+    "FR-01-046",
+    "FR-01-047",
+    "FR-01-048",
+    "FR-01-049",
+    "FR-01-050",
+    "FR-01-051",
+    "FR-01-052",
+    "FR-01-053",
+    "FR-01-054",
+    "FR-01-055",
+    "FR-01-056",
+    "FR-01-057",
+    "FR-01-058",
+    "FR-01-059",
+    "FR-01-060",
+    "FR-01-061",
+    "FR-01-062",
+    "FR-01-063",
+    "FR-01-065"
+  ],
+  "shipped_count": 63,
+  "daylight_gap_after": 225
+}
