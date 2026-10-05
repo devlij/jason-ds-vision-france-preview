@@ -39,20 +39,20 @@
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
-  "sha256_16x9": "27563b7e85e3b6bfecfea24ad74e45e64af76d80b52a4ad8f0cfd6268dec99d3",
+  "sha256_16x9": "85b527700a59d213bccbc3783108e677bc87e4bd2c019c191c18cad74a379d56",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "27563b7e85e3b6bfecfea24ad74e45e64af76d80b52a4ad8f0cfd6268dec99d3"
+      "sha256": "85b527700a59d213bccbc3783108e677bc87e4bd2c019c191c18cad74a379d56"
     },
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "ed623ba93c0897eb84d64971faea6e82bfb5ac79dd1541fe390805e6d3e921f1"
+      "sha256": "3d231a3493977c2f939f10103e3e0de392c4d5ca096168cf3913edab5ebeb419"
     }
   },
-  "sha256_4x5": "ed623ba93c0897eb84d64971faea6e82bfb5ac79dd1541fe390805e6d3e921f1",
+  "sha256_4x5": "3d231a3493977c2f939f10103e3e0de392c4d5ca096168cf3913edab5ebeb419",
   "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
   "reverted_at": "2026-09-30T07:35:20.741220+00:00",
   "qc_notes": [

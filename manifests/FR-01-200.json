@@ -8,20 +8,20 @@
   "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-200-16x9.png",
   "file_4x5": "assets/fr-01-200-4x5.png",
-  "sha256_16x9": "c714d90be756ef9357e3f10973a1c652f763fe80d79595a9b7c1b7d6326fe0e7",
+  "sha256_16x9": "f9b1183b06b5f35bd27dfb8632f2846bbe3ab21808d9af2261204853445001b0",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "c714d90be756ef9357e3f10973a1c652f763fe80d79595a9b7c1b7d6326fe0e7"
+      "sha256": "f9b1183b06b5f35bd27dfb8632f2846bbe3ab21808d9af2261204853445001b0"
     },
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "6365c77ef0ba931172a98dfd9089a229e3870833cd8fdd9fa05e3e669d71804f"
+      "sha256": "70d50eeda8be03832c2f6c09d5c4690d6f96d5b47b5ee8acd4634747f949c0f4"
     }
   },
-  "sha256_4x5": "6365c77ef0ba931172a98dfd9089a229e3870833cd8fdd9fa05e3e669d71804f",
+  "sha256_4x5": "70d50eeda8be03832c2f6c09d5c4690d6f96d5b47b5ee8acd4634747f949c0f4",
   "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
   "reverted_at": "2026-09-30T07:40:22.985456+00:00",
   "qc_notes": [
