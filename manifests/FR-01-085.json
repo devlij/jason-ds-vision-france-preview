@@ -43,19 +43,19 @@
   "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
   "approval_basis": "Gate 1: green rounded volcanic dome filling the frame under clear blue sky with one long horizontal cloud band — plausible Puy de Dôme summit from the Chaîne des Puys, clean framing, no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Puy de Dôme, Orcines', scenario '23 September 2026 · 17:05 Europe/Paris', disclosure 'AI-generated artistic interpretation · Not a photograph.' legible on the bottom gradient, matching the gallery index; curly-apostrophe 'Jason D's Vision' signature bottom-right verified at 3x zoom; no approvals/FR-01-085.md exists (the builder writes notes sporadically, as with FR-01-078–084), so no retrieval-timestamp cross-check was possible — the scenario minute 17:05 is unique across the batch (no shared minute), consistent with the kit's real-time build-time convention. Gate 3: no photographic inputs reported anywhere. Gate 4: no people, no logos, no recognizable private property — documented only, no chain certified. Gate 5: all gates pass.",
   "approved_at": "2026-09-25T17:38:13.035859+00:00",
-  "sha256_16x9": "0294f2c79a4ea4e76f54e2739a9dfeb138cfa036a11937a7edae3d67d4da299b",
-  "sha256_4x5": "0372ee82d79b8bfebea69a74b1f98338e612fd48bef7366ad6f868eed8a869fa",
+  "sha256_16x9": "3ebeb696415927d69dc79fb8544da660c811adc2654925f237d3f95de88a475e",
+  "sha256_4x5": "635e41a33d009b8a9d71fab827d38cae45a9b4809032b7aa9aeb9b2623759a17",
   "reverted_at": "2026-09-30T07:22:21.321256+00:00",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "0294f2c79a4ea4e76f54e2739a9dfeb138cfa036a11937a7edae3d67d4da299b"
+      "sha256": "3ebeb696415927d69dc79fb8544da660c811adc2654925f237d3f95de88a475e"
     },
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "0372ee82d79b8bfebea69a74b1f98338e612fd48bef7366ad6f868eed8a869fa"
+      "sha256": "635e41a33d009b8a9d71fab827d38cae45a9b4809032b7aa9aeb9b2623759a17"
     }
   }
 }

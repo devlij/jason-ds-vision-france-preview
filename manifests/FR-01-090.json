@@ -33,19 +33,19 @@
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
   "approval_basis": "Gate 1: walled island town of white houses and dark slate roofs, ringed by quay walls with small boats moored in the harbor, sea beyond — plausibly Concarneau Ville Close from an aerial viewpoint; no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Concarneau Ville Close, Concarneau', scenario '23 September 2026 · 17:13 Europe/Paris', disclosure legible bottom-left, matching the gallery index; curly-apostrophe signature bottom-right; scenario minute 17:13 unique across the batch; no per-scene builder note exists, so no retrieval-timestamp cross-check was possible. Gate 3: no photographic inputs reported anywhere. Gate 4: small boats visible, no identifiable people, no logos — documented only. Gate 5: all gates pass.",
   "approved_at": "2026-09-25T17:39:12.021114+00:00",
-  "sha256_16x9": "199be205ceb233b1482749771d911c5dce0a0ec30c32e1a819127157394a7b1b",
-  "sha256_4x5": "de2f31029eafdd30c6abee47efa96c56d18009a07936a36887723c9cb87488f5",
+  "sha256_16x9": "8ee3d425bc3f7720ad45cb318eb5e22a803efeb31e059ac2c71c697d953ccd19",
+  "sha256_4x5": "257590e34cab032c60b684b2a7d25b08c63420cc86174ff8ffcbaa444a6822bf",
   "reverted_at": "2026-09-25T18:54:29.722275+00:00",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "199be205ceb233b1482749771d911c5dce0a0ec30c32e1a819127157394a7b1b"
+      "sha256": "8ee3d425bc3f7720ad45cb318eb5e22a803efeb31e059ac2c71c697d953ccd19"
     },
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "de2f31029eafdd30c6abee47efa96c56d18009a07936a36887723c9cb87488f5"
+      "sha256": "257590e34cab032c60b684b2a7d25b08c63420cc86174ff8ffcbaa444a6822bf"
     }
   }
 }
