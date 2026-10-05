@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is brittany island harbor and village quay. The place named on the card is Île de Houat harbor, Île de Houat, in Bretagne. Model data from Open-Meteo, retrieved 2026-09-29T22:11:29+02:00 (2026-09-29T20:11:29Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 20.6°C, wind 16.2 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Île de Houat harbor under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-108-16x9.png?v=wx10829",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-108-4x5.png?v=wx10829",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -31,5 +31,15 @@
       "height": 1270,
       "sha256": "572e4cfd792b5cf39b7578edf41837cb047a90cb23fa7816aa9c9e54fa55f983"
     }
-  }
+  },
+  "qc_status": "Approved · Grok Bot QC 5/5",
+  "approval_basis": "Gate 1 PASS: Houat harbor photoreal, no ghost text. Gate 2–5 PASS.",
+  "approved_at": "2026-10-05T18:29:31.037761+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-10-05T18:29:31.037761+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 2 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET. Gate 1 PASS: Houat harbor photoreal, no ghost text. Gate 2–5 PASS."
+    }
+  ]
 }

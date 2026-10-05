@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is morbihan island Port Tudy harbor and village. The place named on the card is Île de Groix harbor / village, Île de Groix, in Bretagne. Model data from Open-Meteo, retrieved 2026-09-29T22:11:39+02:00 (2026-09-29T20:11:39Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 3%, 21.9°C, wind 16.8 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Île de Groix harbor / village under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-116-16x9.png?v=wx11629",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-116-4x5.png?v=wx11629",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -31,5 +31,15 @@
       "height": 1270,
       "sha256": "ccb6fcacd9f9b5e7121f811f5f5eb3524ae1f126528b68b139d8a2972b167b43"
     }
-  }
+  },
+  "qc_status": "Approved · Grok Bot QC 5/5",
+  "approval_basis": "Gate 1 PASS: Groix harbor photoreal. Gate 2–5 PASS.",
+  "approved_at": "2026-10-05T18:29:31.037761+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-10-05T18:29:31.037761+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 2 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET. Gate 1 PASS: Groix harbor photoreal. Gate 2–5 PASS."
+    }
+  ]
 }

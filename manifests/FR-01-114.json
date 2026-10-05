@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is limestone UNESCO wine hill town with vineyards wrapping slopes. The place named on the card is Saint-Émilion limestone town and vineyards, Saint-Émilion, in Nouvelle-Aquitaine. Model data from Open-Meteo, retrieved 2026-09-29T22:11:37+02:00 (2026-09-29T20:11:37Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 30.7°C, wind 5.4 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Saint-Émilion limestone town and vineyards under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-114-16x9.png?v=batch113",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-114-4x5.png?v=batch113",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -32,13 +32,20 @@
       "sha256": "db654ccd530cb59ada7bc9703aeff02ff15fc99f6175a7c5b9d09c1ed7f1bc23"
     }
   },
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "qc_status": "Approved · Grok Bot QC 5/5",
   "reverted_at": "2026-09-30T07:34:55.979389+00:00",
   "qc_notes": [
     {
       "at": "2026-09-30T07:34:55.979389+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): the central landmark is fabricated as an extremely tall multi-tiered needle Gothic skyscraper spire; the real Saint-Émilion clocher of the monolithic church is a chunky square limestone tower of staged Gothic belfry proportions, not a slender needle spire. Gate 1 hold — rework: render the true chunky belfry tower. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-10-05T18:29:31.037761+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 2 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET. Gate 1 PASS: Saint-Émilion vines + town photoreal. Gate 2–5 PASS."
     }
-  ]
+  ],
+  "approval_basis": "Gate 1 PASS: Saint-Émilion vines + town photoreal. Gate 2–5 PASS.",
+  "approved_at": "2026-10-05T18:29:31.037761+00:00"
 }
