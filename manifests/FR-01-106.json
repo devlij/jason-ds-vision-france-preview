@@ -18,18 +18,18 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T18:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:11:27+02:00 (2026-09-29T20:11:27Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 11%, 25.1°C, wind 12.2 km/h, precipitation 0.0 mm.",
-  "sha256_16x9": "f47118c40c53e1ad133d1ee14a8388407caffc02966f3db145c81a89b75b876d",
-  "sha256_4x5": "6a93c10efb91d5376dee90f77a7a28f93495738994b605078b9575e6e1b90570",
+  "sha256_16x9": "653590a75e090176cf41ff5e5246572854a8a5d8a08c80632c4ed851fe353c0c",
+  "sha256_4x5": "8b7fa9bb114fa12cf803d65e4d3a8964f3bea55fd8bcd6da42d665b011417bd3",
   "dimensions": {
     "16x9": {
       "width": 1920,
       "height": 1270,
-      "sha256": "f47118c40c53e1ad133d1ee14a8388407caffc02966f3db145c81a89b75b876d"
+      "sha256": "653590a75e090176cf41ff5e5246572854a8a5d8a08c80632c4ed851fe353c0c"
     },
     "4x5": {
       "width": 864,
       "height": 1270,
-      "sha256": "6a93c10efb91d5376dee90f77a7a28f93495738994b605078b9575e6e1b90570"
+      "sha256": "8b7fa9bb114fa12cf803d65e4d3a8964f3bea55fd8bcd6da42d665b011417bd3"
     }
   }
 }
