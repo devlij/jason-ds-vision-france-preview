@@ -198,6 +198,10 @@
 .copy-link{display:inline-block;background:#243049;color:var(--text);border:1px solid var(--line);border-radius:8px;padding:0.4rem 0.7rem;font-size:0.85rem;cursor:pointer;font:inherit}
 .copy-link:hover{border-color:var(--accent)}
 @media(max-width:760px){.related-row{grid-template-columns:repeat(2,1fr)}}
+.motion-tab{background:#243049;color:var(--text);border:1px solid var(--line);border-radius:8px;padding:5px 10px;font:inherit;font-size:12px;line-height:1.2;cursor:pointer}
+.motion-tab:hover{border-color:var(--accent)}
+.motion-tab.is-active{background:#e8b23a;border-color:#e8b23a;color:#1a1405;font-weight:700}
+.thumb video.motion-clip{width:100%;height:auto;display:block;border-radius:8px;background:#000;aspect-ratio:4/5;object-fit:cover}
 /* P1-CSS-END */
 </style>
 <meta property="og:type" content="website"/>
@@ -2695,7 +2699,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         "approval_status": "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-013-4x5.png?v=wx012026",
         file_9x16: "assets/fr-01-013-9x16.png?v=wx012026",
-        audio: "audio/fr-01-013-narration.mp3"
+        audio: "audio/fr-01-013-narration.mp3",
+        has_360: true,
+        motion_clip: "assets/fr-01-013-motion-10s-4x5.mp4"
       },
       {
         entry_id: "FR-01-014",
@@ -2712,7 +2718,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         "approval_status": "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-014-4x5.png?v=wx012026",
         file_9x16: "assets/fr-01-014-9x16.png?v=wx012026",
-        audio: "audio/fr-01-014-narration.mp3"
+        audio: "audio/fr-01-014-narration.mp3",
+        has_360: true,
+        motion_clip: "assets/fr-01-014-motion-10s-4x5.mp4"
       },
       {
         entry_id: "FR-01-015",
@@ -2729,7 +2737,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         "approval_status": "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-015-4x5.png?v=wx012026",
         file_9x16: "assets/fr-01-015-9x16.png?v=wx012026",
-        audio: "audio/fr-01-015-narration.mp3"
+        audio: "audio/fr-01-015-narration.mp3",
+        has_360: true,
+        motion_clip: "assets/fr-01-015-motion-10s-4x5.mp4"
       },
       {
         entry_id: "FR-01-016",
@@ -2746,7 +2756,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         "approval_status": "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-016-4x5.png?v=wx012026",
         file_9x16: "assets/fr-01-016-9x16.png?v=wx012026",
-        audio: "audio/fr-01-016-narration.mp3"
+        audio: "audio/fr-01-016-narration.mp3",
+        has_360: true,
+        motion_clip: "assets/fr-01-016-motion-10s-4x5.mp4"
       },
       {
         entry_id: "FR-01-017",
@@ -2763,7 +2775,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         "approval_status": "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-017-4x5.png?v=wx012026",
         file_9x16: "assets/fr-01-017-9x16.png?v=wx012026",
-        audio: "audio/fr-01-017-narration.mp3"
+        audio: "audio/fr-01-017-narration.mp3",
+        has_360: true,
+        motion_clip: "assets/fr-01-017-motion-10s-4x5.mp4"
       },
       {
         entry_id: "FR-01-018",
@@ -2780,7 +2794,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         "approval_status": "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-018-4x5.png?v=wx012026",
         file_9x16: "assets/fr-01-018-9x16.png?v=wx012026",
-        audio: "audio/fr-01-018-narration.mp3"
+        audio: "audio/fr-01-018-narration.mp3",
+        has_360: true,
+        motion_clip: "assets/fr-01-018-motion-10s-4x5.mp4"
       },
       {
         entry_id: "FR-01-019",
@@ -2797,7 +2813,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         "approval_status": "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-019-4x5.png?v=wx012026",
         file_9x16: "assets/fr-01-019-9x16.png?v=wx012026",
-        audio: "audio/fr-01-019-narration.mp3"
+        audio: "audio/fr-01-019-narration.mp3",
+        has_360: true,
+        motion_clip: "assets/fr-01-019-motion-10s-4x5.mp4"
       },
       {
         entry_id: "FR-01-020",
@@ -2814,7 +2832,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         "approval_status": "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-020-4x5.png?v=wx012026",
         file_9x16: "assets/fr-01-020-9x16.png?v=wx012026",
-        audio: "audio/fr-01-020-narration.mp3"
+        audio: "audio/fr-01-020-narration.mp3",
+        has_360: true,
+        motion_clip: "assets/fr-01-020-motion-10s-4x5.mp4"
       },
       {
         entry_id: "FR-01-021",
@@ -2831,7 +2851,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         "approval_status": "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-021-4x5.png?v=wx012026",
         file_9x16: "assets/fr-01-021-9x16.png?v=wx012026",
-        audio: "audio/fr-01-021-narration.mp3"
+        audio: "audio/fr-01-021-narration.mp3",
+        has_360: true,
+        motion_clip: "assets/fr-01-021-motion-10s-4x5.mp4"
       },
       {
         entry_id: "FR-01-022",
@@ -2848,7 +2870,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         "approval_status": "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-022-4x5.png?v=wx012026",
         file_9x16: "assets/fr-01-022-9x16.png?v=wx012026",
-        audio: "audio/fr-01-022-narration.mp3"
+        audio: "audio/fr-01-022-narration.mp3",
+        has_360: true,
+        motion_clip: "assets/fr-01-022-motion-10s-4x5.mp4"
       },
       {
         entry_id: "FR-01-023",
@@ -2865,7 +2889,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         "approval_status": "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-023-4x5.png?v=wx012026",
         file_9x16: "assets/fr-01-023-9x16.png?v=wx012026",
-        audio: "audio/fr-01-023-narration.mp3"
+        audio: "audio/fr-01-023-narration.mp3",
+        has_360: true,
+        motion_clip: "assets/fr-01-023-motion-10s-4x5.mp4"
       },
       {
         entry_id: "FR-01-024",
@@ -2882,7 +2908,9 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         "approval_status": "Approved",
         file_4x5: "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-024-4x5.png?v=wx012026",
         file_9x16: "assets/fr-01-024-9x16.png?v=wx012026",
-        audio: "audio/fr-01-024-narration.mp3"
+        audio: "audio/fr-01-024-narration.mp3",
+        has_360: true,
+        motion_clip: "assets/fr-01-024-motion-10s-4x5.mp4"
       },
       {
         entry_id: "FR-01-025",
@@ -8380,6 +8408,25 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
       return generic ? (built || current) : current;
     }
     /* P1-ALT-END */
+    function stopCardMotion(card) {
+      const v = card.querySelector('video.motion-clip');
+      if (v) v.remove();
+      const img = card.querySelector('a.thumb img');
+      if (img) img.style.display = '';
+      const mtab = card.querySelector('.motion-tab');
+      if (mtab) {
+        mtab.classList.remove('is-active');
+        mtab.setAttribute('aria-pressed', 'false');
+        mtab.innerHTML = '\u25B6 360\u00B0';
+      }
+      const link = card.querySelector('a.thumb');
+      const ftab = card.querySelector('.fmt-tab.is-active');
+      const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+      if (link) {
+        link.classList.toggle('tall', dfmt === '4x5');
+        link.classList.toggle('tall916', dfmt === '9x16');
+      }
+    }
     function render() {
       const query = q.value.trim().toLowerCase();
       const reg = region.value;
@@ -8423,6 +8470,7 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
         const day45 = s.file_4x5_day || "";
         const day916 = s.file_9x16_day || "";
         const audioSrc = (typeof s.audio === "string" && /^audio\/[^/?#]+\.mp3(?:\?.*)?$/.test(s.audio)) ? s.audio : "";
+        const motion = (typeof s.motion_clip === "string" && /^assets\/fr-\d{2}-\d{3}-motion-10s-4x5\.mp4$/.test(s.motion_clip)) ? s.motion_clip : "";
         const hero = file16 || file45 || file916;
         card.innerHTML = `
           ${hero ? `<div class="preview">
@@ -8434,6 +8482,7 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
               ${file16 ? `<button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>` : ""}
               ${file45 ? `<button type="button" class="fmt-tab${file16 ? "" : " is-active"}" data-format="4x5" aria-pressed="${file16 ? "false" : "true"}">4:5</button>` : ""}
               ${file916 ? `<button type="button" class="fmt-tab${(!file16 && !file45) ? " is-active" : ""}" data-format="9x16" aria-pressed="${(!file16 && !file45) ? "true" : "false"}">9:16</button>` : ""}
+              ${motion ? `<button type="button" class="motion-tab" data-motion="${esc(motion)}" title="Play the 360° daylight motion clip" aria-pressed="false">\u25B6 360\u00B0</button>` : ""}
             </div>` : ""}
           ${(day16 || day45) ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button></div>` : ""}
           <div class="card-body">
@@ -8460,11 +8509,48 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
       /* P1-ENHANCE-CALL-END */
     }
     grid.addEventListener('click', (event) => {
+      if (event.target.closest('video.motion-clip')) {
+        event.preventDefault();
+        return;
+      }
+      const mtab = event.target.closest('.motion-tab');
+      if (mtab) {
+        event.preventDefault();
+        const mcard = mtab.closest('.card');
+        if (!mcard) return;
+        if (mcard.querySelector('video.motion-clip')) { stopCardMotion(mcard); return; }
+        document.querySelectorAll('article.card').forEach(function (other) {
+          if (other !== mcard) stopCardMotion(other);
+        });
+        const mlink = mcard.querySelector('a.thumb');
+        const mimg = mlink && mlink.querySelector('img');
+        const vid = document.createElement('video');
+        vid.className = 'motion-clip';
+        vid.src = mtab.getAttribute('data-motion');
+        const poster = mtab.getAttribute('data-poster');
+        if (poster) vid.poster = poster;
+        vid.autoplay = true; vid.loop = true; vid.muted = true; vid.playsInline = true; vid.controls = false;
+        vid.defaultMuted = true;
+        vid.setAttribute('muted', '');
+        vid.setAttribute('autoplay', '');
+        vid.setAttribute('loop', '');
+        vid.setAttribute('playsinline', '');
+        vid.disablePictureInPicture = true;
+        vid.setAttribute('controlsList', 'nodownload nofullscreen noremoteplayback');
+        if (mimg) mimg.style.display = 'none';
+        if (mlink) { mlink.classList.add('tall'); mlink.classList.remove('tall916'); mlink.appendChild(vid); }
+        mtab.classList.add('is-active');
+        mtab.setAttribute('aria-pressed', 'true');
+        mtab.innerHTML = '\u2715 Close';
+        vid.play().catch(function () {});
+        return;
+      }
       const dtab = event.target.closest('.day-tab');
       if (dtab) {
         event.preventDefault();
         const dcard = dtab.closest('.card');
         if (!dcard) return;
+        stopCardMotion(dcard);
         const isDay = !dtab.classList.contains('is-active');
         dtab.classList.toggle('is-active', isDay);
         dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
@@ -8504,6 +8590,7 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
       event.preventDefault();
       const card = tab.closest('.card');
       if (!card) return;
+      stopCardMotion(card);
       const fmt = tab.getAttribute('data-format');
       card.querySelectorAll('.fmt-tab').forEach((item) => {
         const on = item === tab;
@@ -8600,6 +8687,7 @@ const FRANCE_META={"FR-01-001":["Île-de-France","day","","assets/fr-01-001-16x9
   document.addEventListener('click',function(e){
     var nb=e.target.closest?e.target.closest('.narrate,.lb-narrate'):null;
     if(nb){e.preventDefault();narrHandle(nb);return;}
+    if(e.target.closest&&e.target.closest('video.motion-clip'))return;
     var a=e.target.closest?e.target.closest('a.thumb'):null;
     if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active');lbFormat=(tab&&tab.getAttribute('data-format')==='9x16')?'9x16':(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';var dtab=card.querySelector('.day-tab.is-active');lbDay=(dtab&&dtab.getAttribute('data-daynight')==='day')?'day':'night';show(cards.indexOf(card));return;}
     if(e.target===overlay||(e.target.closest&&e.target.closest('.lb-close')))hide();

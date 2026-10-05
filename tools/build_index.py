@@ -84,6 +84,10 @@ P1_CSS = """
 .copy-link{display:inline-block;background:#243049;color:var(--text);border:1px solid var(--line);border-radius:8px;padding:0.4rem 0.7rem;font-size:0.85rem;cursor:pointer;font:inherit}
 .copy-link:hover{border-color:var(--accent)}
 @media(max-width:760px){.related-row{grid-template-columns:repeat(2,1fr)}}
+.motion-tab{background:#243049;color:var(--text);border:1px solid var(--line);border-radius:8px;padding:5px 10px;font:inherit;font-size:12px;line-height:1.2;cursor:pointer}
+.motion-tab:hover{border-color:var(--accent)}
+.motion-tab.is-active{background:#e8b23a;border-color:#e8b23a;color:#1a1405;font-weight:700}
+.thumb video.motion-clip{width:100%;height:auto;display:block;border-radius:8px;background:#000;aspect-ratio:4/5;object-fit:cover}
 /* P1-CSS-END */
 """
 
@@ -139,6 +143,7 @@ P1_CARD = r"""        card.className = 'card';
         const day45 = s.file_4x5_day || "";
         const day916 = s.file_9x16_day || "";
         const audioSrc = (typeof s.audio === "string" && /^audio\/[^/?#]+\.mp3(?:\?.*)?$/.test(s.audio)) ? s.audio : "";
+        const motion = (typeof s.motion_clip === "string" && /^assets\/fr-\d{2}-\d{3}-motion-10s-4x5\.mp4$/.test(s.motion_clip)) ? s.motion_clip : "";
         const hero = file16 || file45 || file916;
         card.innerHTML = `
           ${hero ? `<div class="preview">
@@ -150,6 +155,7 @@ P1_CARD = r"""        card.className = 'card';
               ${file16 ? `<button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>` : ""}
               ${file45 ? `<button type="button" class="fmt-tab${file16 ? "" : " is-active"}" data-format="4x5" aria-pressed="${file16 ? "false" : "true"}">4:5</button>` : ""}
               ${file916 ? `<button type="button" class="fmt-tab${(!file16 && !file45) ? " is-active" : ""}" data-format="9x16" aria-pressed="${(!file16 && !file45) ? "true" : "false"}">9:16</button>` : ""}
+              ${motion ? `<button type="button" class="motion-tab" data-motion="${esc(motion)}" title="Play the 360° daylight motion clip" aria-pressed="false">\u25B6 360\u00B0</button>` : ""}
             </div>` : ""}
           ${(day16 || day45) ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button></div>` : ""}
           <div class="card-body">

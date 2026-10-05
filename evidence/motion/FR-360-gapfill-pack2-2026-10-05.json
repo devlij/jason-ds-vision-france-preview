@@ -1,0 +1,510 @@
+{
+  "work_order": "wo-france-360-gapfill-2026-10-05",
+  "pack": "gapfill-pack2",
+  "method": "static-ambient",
+  "i2v": "not used; Ken Burns pan-zoom on the daylight still",
+  "spec": {
+    "duration_s": 10.0,
+    "tolerance_s": 0.1,
+    "fps": 24,
+    "frames": 240,
+    "width": 864,
+    "height": 1080,
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "faststart": true,
+    "crop": "864:1080:0:0"
+  },
+  "approval_status": "unchanged",
+  "scene_approval": "unchanged; no Cosmo QC",
+  "escalated": false,
+  "night_only_excluded": 17,
+  "daylight_gap_before": 276,
+  "daylight_gap_after": 264,
+  "next_entry_id": "FR-01-025",
+  "scenes": [
+    {
+      "entry_id": "FR-01-013",
+      "caption": "Strasbourg Cathedral, Strasbourg",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-013-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        160,
+        0,
+        780,
+        1020
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 137.53,
+      "top_v": 210.99,
+      "zoom_end": 1.045,
+      "travel_px": 26.79,
+      "window_end": [
+        26.79,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "fd16e03be7d5e63e10ccea066a7e078e467694d3d7f66e114fbd2245a2dfc675",
+        "bytes": 3164911
+      },
+      "ends_mae": 27.351,
+      "file": "assets/fr-01-013-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-014",
+      "caption": "Dune du Pilat, La Teste-de-Buch",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-014-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        30,
+        340,
+        830,
+        1040
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 179.69,
+      "top_v": 211.81,
+      "zoom_end": 1.04,
+      "travel_px": 26.61,
+      "window_end": [
+        21.6,
+        15.54
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "d88347c47ac64a0e723bccc04cf1989979400659f5cab28526a9c6dfe3438232",
+        "bytes": 1528319
+      },
+      "ends_mae": 7.174,
+      "file": "assets/fr-01-014-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-015",
+      "caption": "Gorges du Verdon, La Palud-sur-Verdon",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-015-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        20,
+        220,
+        840,
+        1040
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 143.33,
+      "top_v": 236.0,
+      "zoom_end": 1.035,
+      "travel_px": 20.37,
+      "window_end": [
+        15.86,
+        12.78
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "da502cbd7af361cd7bc5dbe1ec6f6cd47160d005e33fff65e4a4c3c14d736def",
+        "bytes": 4225840
+      },
+      "ends_mae": 25.167,
+      "file": "assets/fr-01-015-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-016",
+      "caption": "Annecy old town canals, Annecy",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-016-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        40,
+        90,
+        830,
+        1020
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 143.04,
+      "top_v": 229.73,
+      "zoom_end": 1.04,
+      "travel_px": 28.0,
+      "window_end": [
+        23.93,
+        14.54
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "9bcf88a200627a86ee99def5993c841c395c74e4de46555bf665bc7ba43bcb95",
+        "bytes": 3707333
+      },
+      "ends_mae": 21.866,
+      "file": "assets/fr-01-016-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-017",
+      "caption": "Sainte-Chapelle, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-017-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        250,
+        30,
+        800,
+        1000
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 156.69,
+      "top_v": 231.87,
+      "zoom_end": 1.05,
+      "travel_px": 31.43,
+      "window_end": [
+        29.62,
+        10.5
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "1e492c69d4f6d3de5392767e2fb13b0297f5ffd7d0bdb43264875be5d9fb41a7",
+        "bytes": 2673914
+      },
+      "ends_mae": 25.03,
+      "file": "assets/fr-01-017-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-018",
+      "caption": "Place de la Concorde, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-018-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        120,
+        90,
+        760,
+        1000
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 178.26,
+      "top_v": 222.28,
+      "zoom_end": 1.045,
+      "travel_px": 31.35,
+      "window_end": [
+        26.79,
+        16.28
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "a6937fdc1c5e6c2ddb4c03edbbe7aeee5ac07af7a56f601793a882f5d32c4ba1",
+        "bytes": 2070904
+      },
+      "ends_mae": 17.122,
+      "file": "assets/fr-01-018-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-019",
+      "caption": "Mus\u00e9e d'Orsay, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-019-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        40,
+        180,
+        830,
+        1020
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 149.36,
+      "top_v": 222.01,
+      "zoom_end": 1.04,
+      "travel_px": 28.0,
+      "window_end": [
+        23.93,
+        14.54
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "055c031049454aef8d5d0070188d959c7003c902d03cedde66017447de9d27f5",
+        "bytes": 2855773
+      },
+      "ends_mae": 20.822,
+      "file": "assets/fr-01-019-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-020",
+      "caption": "H\u00f4tel des Invalides, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-020-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        80,
+        110,
+        800,
+        1000
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 133.12,
+      "top_v": 219.34,
+      "zoom_end": 1.045,
+      "travel_px": 31.35,
+      "window_end": [
+        26.79,
+        16.28
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "b2ef090f0059226786242f09090fe3c0b58c9c5eb5400904772a3f32f6eed7c2",
+        "bytes": 2586307
+      },
+      "ends_mae": 14.714,
+      "file": "assets/fr-01-020-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-021",
+      "caption": "Op\u00e9ra Garnier, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-021-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        80,
+        40,
+        840,
+        1000
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 146.56,
+      "top_v": 214.02,
+      "zoom_end": 1.04,
+      "travel_px": 29.98,
+      "window_end": [
+        26.51,
+        14.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "0e43df5124f4a159d80250d05d4e50c113879b6d7056f4729ecf8e16c73e673b",
+        "bytes": 3643012
+      },
+      "ends_mae": 30.285,
+      "file": "assets/fr-01-021-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-022",
+      "caption": "Pont Alexandre III, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-022-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        40,
+        280,
+        840,
+        1020
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 148.89,
+      "top_v": 224.79,
+      "zoom_end": 1.04,
+      "travel_px": 30.24,
+      "window_end": [
+        26.51,
+        14.54
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "7f78b43a0f49c24d2af8a60b2e049bf61df0ae5def09468c5111868e6f88da40",
+        "bytes": 2328909
+      },
+      "ends_mae": 16.005,
+      "file": "assets/fr-01-022-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-023",
+      "caption": "Panth\u00e9on, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-023-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        80,
+        20,
+        850,
+        1000
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 156.26,
+      "top_v": 212.99,
+      "zoom_end": 1.04,
+      "travel_px": 30.14,
+      "window_end": [
+        29.31,
+        7.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "6cf98a5e8fa62ca1c2c4aa577e66b911f488bc0605903da299272143657a179a",
+        "bytes": 2289064
+      },
+      "ends_mae": 20.447,
+      "file": "assets/fr-01-023-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-024",
+      "caption": "Conciergerie, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-024-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        40,
+        100,
+        850,
+        1000
+      ],
+      "approval_status": "unchanged",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 149.34,
+      "top_v": 211.28,
+      "zoom_end": 1.04,
+      "travel_px": 32.72,
+      "window_end": [
+        29.31,
+        14.54
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "54076ba84123bd280b5731e304ea0f3588b9b75220810ee7ebddbfb7655c7432",
+        "bytes": 2761389
+      },
+      "ends_mae": 26.759,
+      "file": "assets/fr-01-024-motion-10s-4x5.mp4"
+    }
+  ],
+  "holds": [],
+  "shipped": [
+    "FR-01-013",
+    "FR-01-014",
+    "FR-01-015",
+    "FR-01-016",
+    "FR-01-017",
+    "FR-01-018",
+    "FR-01-019",
+    "FR-01-020",
+    "FR-01-021",
+    "FR-01-022",
+    "FR-01-023",
+    "FR-01-024"
+  ]
+}
