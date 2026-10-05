@@ -1163,8 +1163,8 @@
       "anchor_kind": "primary",
       "crop": "864:1080:0:0",
       "approval_status": "unchanged",
-      "attempts": 1,
-      "status": "HOLD",
+      "attempts": 2,
+      "status": "shipped",
       "subject": [
         18,
         0,
@@ -1180,8 +1180,22 @@
         14.97,
         0.0
       ],
-      "error": "last frame has a black border",
-      "hold_reason": "last frame has a black border"
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "01ad7cd987c8f2f50ca4df55027aee78fe31883d189772b7679335e85046f907",
+        "bytes": 3093528
+      },
+      "ends_mae": 22.027,
+      "file": "assets/fr-01-027-motion-10s-4x5.mp4",
+      "first_hold_reason": "last frame has a black border",
+      "qc_note": "First pass rejected interior near-black pixels as a border. The checker now flags only a whole edge that the plate itself does not already have. Re-encoded once under that correction."
     },
     {
       "entry_id": "FR-01-028",
@@ -2668,8 +2682,8 @@
       "anchor_kind": "primary",
       "crop": "864:1080:0:0",
       "approval_status": "unchanged",
-      "attempts": 1,
-      "status": "HOLD",
+      "attempts": 2,
+      "status": "shipped",
       "subject": [
         18,
         0,
@@ -2685,8 +2699,22 @@
         14.97,
         0.0
       ],
-      "error": "last frame has a black border",
-      "hold_reason": "last frame has a black border"
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "78d7225579990375fa495fe108f4ba182aedc69f14f858d41cfd1f480a9acf93",
+        "bytes": 4107895
+      },
+      "ends_mae": 26.159,
+      "file": "assets/fr-01-064-motion-10s-4x5.mp4",
+      "first_hold_reason": "last frame has a black border",
+      "qc_note": "First pass rejected interior near-black pixels as a border. The checker now flags only a whole edge that the plate itself does not already have. Re-encoded once under that correction."
     },
     {
       "entry_id": "FR-01-065",
@@ -3435,8 +3463,8 @@
       "anchor_kind": "primary",
       "crop": "864:1080:0:0",
       "approval_status": "unchanged",
-      "attempts": 1,
-      "status": "HOLD",
+      "attempts": 2,
+      "status": "shipped",
       "subject": [
         18,
         0,
@@ -3452,8 +3480,22 @@
         14.97,
         0.0
       ],
-      "error": "last frame has a black border",
-      "hold_reason": "last frame has a black border"
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "198c6eede78b9ce3a68835f0a9223b676b89c82230897ee152979611970f80a9",
+        "bytes": 1019633
+      },
+      "ends_mae": 12.177,
+      "file": "assets/fr-01-083-motion-10s-4x5.mp4",
+      "first_hold_reason": "last frame has a black border",
+      "qc_note": "First pass rejected interior near-black pixels as a border. The checker now flags only a whole edge that the plate itself does not already have. Re-encoded once under that correction."
     },
     {
       "entry_id": "FR-01-084",
@@ -3587,8 +3629,8 @@
       "anchor_kind": "primary",
       "crop": "864:1080:0:0",
       "approval_status": "unchanged",
-      "attempts": 1,
-      "status": "HOLD",
+      "attempts": 2,
+      "status": "shipped",
       "subject": [
         18,
         24,
@@ -3604,8 +3646,22 @@
         14.97,
         21.05
       ],
-      "error": "last frame has a black border",
-      "hold_reason": "last frame has a black border"
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "77fbe9049984951eb98bb51a88417f593bcf5b6cf842ea6b962b6ad71be61273",
+        "bytes": 950873
+      },
+      "ends_mae": 6.534,
+      "file": "assets/fr-01-087-motion-10s-4x5.mp4",
+      "first_hold_reason": "last frame has a black border",
+      "qc_note": "First pass rejected interior near-black pixels as a border. The checker now flags only a whole edge that the plate itself does not already have. Re-encoded once under that correction."
     },
     {
       "entry_id": "FR-01-088",
@@ -12448,12 +12504,7 @@
       "file": "assets/fr-01-365-motion-10s-4x5.mp4"
     }
   ],
-  "holds": [
-    "FR-01-027",
-    "FR-01-064",
-    "FR-01-083",
-    "FR-01-087"
-  ],
+  "holds": [],
   "shipped": [
     "FR-01-001",
     "FR-01-002",
@@ -12481,6 +12532,7 @@
     "FR-01-024",
     "FR-01-025",
     "FR-01-026",
+    "FR-01-027",
     "FR-01-028",
     "FR-01-029",
     "FR-01-030",
@@ -12517,6 +12569,7 @@
     "FR-01-061",
     "FR-01-062",
     "FR-01-063",
+    "FR-01-064",
     "FR-01-065",
     "FR-01-066",
     "FR-01-067",
@@ -12535,9 +12588,11 @@
     "FR-01-080",
     "FR-01-081",
     "FR-01-082",
+    "FR-01-083",
     "FR-01-084",
     "FR-01-085",
     "FR-01-086",
+    "FR-01-087",
     "FR-01-088",
     "FR-01-089",
     "FR-01-090",
@@ -12740,6 +12795,6 @@
     "FR-01-363",
     "FR-01-365"
   ],
-  "shipped_count": 284,
-  "daylight_gap_after": 4
+  "shipped_count": 288,
+  "daylight_gap_after": 0
 }
