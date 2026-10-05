@@ -83,6 +83,10 @@ P1_CSS = """
 .related-link:hover span{color:var(--text)}
 .copy-link{display:inline-block;background:#243049;color:var(--text);border:1px solid var(--line);border-radius:8px;padding:0.4rem 0.7rem;font-size:0.85rem;cursor:pointer;font:inherit}
 .copy-link:hover{border-color:var(--accent)}
+.day-row{display:flex;flex-wrap:wrap;gap:0.45rem;align-items:center}
+.night-tab{display:inline-block;background:#243049;color:var(--text);border-radius:8px;padding:0.4rem 0.7rem;font-size:0.85rem;border:1px solid var(--line);cursor:pointer;font:inherit}
+.night-tab:hover{border-color:var(--accent)}
+.night-tab.is-active{background:#1b2744;border-color:#9eb6e0;color:#e7eefc;font-weight:700}
 @media(max-width:760px){.related-row{grid-template-columns:repeat(2,1fr)}}
 /* P1-CSS-END */
 """
@@ -138,12 +142,18 @@ P1_CARD = r"""        card.className = 'card';
         const day16 = s.file_16x9_day || "";
         const day45 = s.file_4x5_day || "";
         const day916 = s.file_9x16_day || "";
+        /* FRANCE_NIGHT lists only manifest source_night files that are on disk. */
+        const nightRec = (typeof FRANCE_NIGHT !== "undefined") ? FRANCE_NIGHT[s.entry_id] : null;
+        const night16 = (nightRec && nightRec[0]) || "";
+        const night45 = (nightRec && nightRec[1]) || "";
+        const night916 = (nightRec && nightRec[2]) || "";
+        const hasNight = !!(night16 || night45 || night916);
         const audioSrc = (typeof s.audio === "string" && /^audio\/[^/?#]+\.mp3(?:\?.*)?$/.test(s.audio)) ? s.audio : "";
         const hero = file16 || file45 || file916;
         card.innerHTML = `
           ${hero ? `<div class="preview">
             <a class="thumb" href="${esc(hero)}" target="_blank" rel="noopener">
-              <img src="${esc(hero)}" alt="${esc(sceneAlt(s))}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${day16 ? ` data-src-16-day="${esc(day16)}"` : ""}${day45 ? ` data-src-45-day="${esc(day45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""} />
+              <img src="${esc(hero)}" alt="${esc(sceneAlt(s))}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${day16 ? ` data-src-16-day="${esc(day16)}"` : ""}${day45 ? ` data-src-45-day="${esc(day45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${day916 ? ` data-src-916-day="${esc(day916)}"` : ""}${night16 ? ` data-src-16-night="${esc(night16)}"` : ""}${night45 ? ` data-src-45-night="${esc(night45)}"` : ""}${night916 ? ` data-src-916-night="${esc(night916)}"` : ""} />
             </a>
           </div>` : ""}
           ${(file16 || file45 || file916) ? `<div class="fmt-tabs" role="group" aria-label="Image size">
@@ -151,7 +161,7 @@ P1_CARD = r"""        card.className = 'card';
               ${file45 ? `<button type="button" class="fmt-tab${file16 ? "" : " is-active"}" data-format="4x5" aria-pressed="${file16 ? "false" : "true"}">4:5</button>` : ""}
               ${file916 ? `<button type="button" class="fmt-tab${(!file16 && !file45) ? " is-active" : ""}" data-format="9x16" aria-pressed="${(!file16 && !file45) ? "true" : "false"}">9:16</button>` : ""}
             </div>` : ""}
-          ${(day16 || day45) ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button></div>` : ""}
+          ${(hasNight || day16 || day45) ? `<div class="day-row">${hasNight ? `<button type="button" class="night-tab" aria-pressed="false" title="Show the night image">\uD83C\uDF19 Night</button>` : ""}${(day16 || day45) ? `<button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button>` : ""}</div>` : ""}
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">${esc(s.entry_id)}</div>
@@ -163,9 +173,9 @@ P1_CARD = r"""        card.className = 'card';
             ${s.description ? `<p class="detail">${esc(s.description)}</p>` : ""}
             <div class="actions">
               <a class="badge" href="#license">Free · no credit needed</a>
-              ${file16 ? `<a class="download" data-dl="16x9" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>` : ""}
-              ${file45 ? `<a class="download" data-dl="4x5" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>` : ""}
-              ${file916 ? `<a class="download" data-dl="9x16" href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
+              ${file16 ? `<a class="download" data-dl="16x9"${night16 ? ` data-dl-night="${esc(night16)}"` : ""} href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>` : ""}
+              ${file45 ? `<a class="download" data-dl="4x5"${night45 ? ` data-dl-night="${esc(night45)}"` : ""} href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>` : ""}
+              ${file916 ? `<a class="download" data-dl="9x16"${night916 ? ` data-dl-night="${esc(night916)}"` : ""} href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
               ${audioSrc ? `<button type="button" class="narrate" data-audio="${esc(audioSrc)}" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>` : ""}
             </div>
           </div>`;
@@ -449,6 +459,48 @@ def thumb_for(scene: dict, root: Path) -> str:
     return ""
 
 
+def load_night_masters(scenes: list[dict], root: Path) -> dict[str, list[str]]:
+    """Night-master URLs keyed by entry id: [16:9, 4:5, 9:16].
+
+    A card is included only when its manifest records source_night and that
+    file is the scene's own master on disk. Scenario hour is not enough:
+    evening cards such as FR-01-009 are daylight plates.
+    """
+    by_id = {scene["entry_id"]: scene for scene in scenes}
+    scene_keys = {"16x9": "file_16x9", "4x5": "file_4x5", "9x16": "file_9x16"}
+    found: dict[str, list[str]] = {}
+    manifest_dir = root / "manifests"
+    if not manifest_dir.is_dir():
+        return found
+    for path in sorted(manifest_dir.glob("*.json")):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(data, dict):
+            continue
+        entry_id = data.get("entry_id")
+        scene = by_id.get(entry_id)
+        variant = data.get("daylight_variant")
+        source = variant.get("source_night") if isinstance(variant, dict) else None
+        if not scene or not isinstance(source, dict) or not source:
+            continue
+        urls = ["", "", ""]
+        for index, fmt in enumerate(("16x9", "4x5", "9x16")):
+            info = source.get(fmt)
+            if not isinstance(info, dict):
+                continue
+            recorded = str(info.get("path") or "").split("?", 1)[0].strip()
+            scene_url = str(scene.get(scene_keys[fmt]) or "")
+            scene_path = scene_url.split("?", 1)[0].strip()
+            if not recorded or scene_path != recorded or not master_on_disk(recorded, root):
+                continue
+            urls[index] = scene_url
+        if any(urls):
+            found[entry_id] = urls
+    return found
+
+
 def build_meta(scenes: list[dict], root: Path, tags: dict[str, list[str]]) -> dict[str, list[str]]:
     meta: dict[str, list[str]] = {}
     new_tags = False
@@ -651,7 +703,7 @@ def _insert_scene_alt(html: str) -> str:
     return html.replace(anchor, P1_SCENE_ALT + anchor, 1)
 
 
-def insert_phase1(html: str, meta: dict[str, list[str]]) -> str:
+def insert_phase1(html: str, meta: dict[str, list[str]], night: dict[str, list[str]]) -> str:
     html = _insert_scene_alt(html)
     html = _insert_css(html)
     html = re.sub(
@@ -668,12 +720,15 @@ def insert_phase1(html: str, meta: dict[str, list[str]]) -> str:
         after=False,
     )
     payload = json.dumps(meta, ensure_ascii=False, separators=(",", ":"))
+    night_payload = json.dumps(night, ensure_ascii=False, separators=(",", ":"))
     meta_script = (
         "<script>\n"
         "/* P1-META-START */\n"
         "/* Phase 1 France: [region, day|night, mood-tags, 16:9 thumb, name]. "
         "Empty thumb means the master is missing and must not be rendered. */\n"
         f"const FRANCE_META={payload};\n"
+        "/* FRANCE_NIGHT: [16:9, 4:5, 9:16] night-master URLs. Empty slot = no night master in that format. */\n"
+        f"const FRANCE_NIGHT={night_payload};\n"
         "/* P1-META-END */\n"
         "</script>\n"
     )
@@ -836,6 +891,136 @@ _NEW_COPY = """          var done = function(){ b.textContent = 'Copied \\u2713'
 """
 
 
+# Re-emitted on every publish. Night uses data-src-*-night only, never the daylight plate.
+NIGHT_CLICK = r"""    grid.addEventListener('click', (event) => {
+      const ntab = event.target.closest('.night-tab');
+      if (ntab) {
+        event.preventDefault();
+        const ncard = ntab.closest('.card');
+        if (!ncard) return;
+        ncard.querySelectorAll('.day-tab.is-active, .gday-tab.is-active, .pc-tab.is-active, .motion-tab.is-active').forEach((b) => {
+          b.classList.remove('is-active');
+          b.setAttribute('aria-pressed', 'false');
+          if (b.classList.contains('day-tab') || b.classList.contains('gday-tab')) b.setAttribute('data-daynight', 'night');
+          if (b.classList.contains('pc-tab')) b.setAttribute('data-postcard', 'off');
+        });
+        ntab.classList.add('is-active');
+        ntab.setAttribute('aria-pressed', 'true');
+        const nlink = ncard.querySelector('a.thumb');
+        const nimg = nlink && nlink.querySelector('img');
+        const nftab = ncard.querySelector('.fmt-tab.is-active');
+        const nfmt = nftab ? nftab.getAttribute('data-format') : '16x9';
+        const nkey = nfmt === '4x5' ? 'data-src-45-night' : nfmt === '9x16' ? 'data-src-916-night' : 'data-src-16-night';
+        const nnext = nimg && nimg.getAttribute(nkey);
+        if (nnext && nimg && nlink) { nimg.src = nnext; nlink.href = nnext; }
+        ncard.querySelectorAll('a.download').forEach((a) => {
+          const u = a.getAttribute('data-dl-night');
+          if (u) { a.href = u; a.setAttribute('download', fileName(u)); }
+        });
+        const nsc = ncard.querySelector('p.scenario');
+        if (nsc) nsc.textContent = 'Scenario: ' + (nsc.getAttribute('data-scenario') || '');
+        return;
+      }
+      const otherMode = event.target.closest('.pc-tab, .motion-tab, .gday-tab');
+      if (otherMode) {
+        const ocard = otherMode.closest('.card');
+        const nightOff = ocard && ocard.querySelector('.night-tab');
+        if (nightOff) {
+          nightOff.classList.remove('is-active');
+          nightOff.setAttribute('aria-pressed', 'false');
+        }
+      }
+      const dtab = event.target.closest('.day-tab');
+      if (dtab) {
+        event.preventDefault();
+        const dcard = dtab.closest('.card');
+        if (!dcard) return;
+        const isDay = !dtab.classList.contains('is-active');
+        dtab.classList.toggle('is-active', isDay);
+        dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
+        dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
+        const nightBtn = dcard.querySelector('.night-tab');
+        if (nightBtn) {
+          nightBtn.classList.remove('is-active');
+          nightBtn.setAttribute('aria-pressed', 'false');
+        }
+        const dlink = dcard.querySelector('a.thumb');
+        const dimg = dlink && dlink.querySelector('img');
+        const t916 = dcard.querySelector('.fmt-tab[data-format="9x16"]');
+        if (t916) {
+          const day916src = dimg && dimg.getAttribute('data-src-916-day');
+          const hide916 = isDay && !day916src;
+          t916.disabled = hide916;
+          t916.classList.toggle('is-disabled', hide916);
+          if (hide916 && t916.classList.contains('is-active')) {
+            const t16 = dcard.querySelector('.fmt-tab[data-format="16x9"]') || dcard.querySelector('.fmt-tab[data-format="4x5"]');
+            if (t16) t16.click();
+          }
+        }
+        const ftab = dcard.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        if (dimg && dlink) {
+          const dkey = dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
+          const dnext = dimg.getAttribute(dkey);
+          if (dnext) { dimg.src = dnext; dlink.href = dnext; }
+        }
+        dcard.querySelectorAll('a.download').forEach((a) => {
+          const f = a.getAttribute('data-dl');
+          const dk = f === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : f === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
+          const u = dimg && dimg.getAttribute(dk);
+          if (u) a.href = u;
+        });
+        const sc = dcard.querySelector('p.scenario');
+        if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+        return;
+      }
+      const tab = event.target.closest('.fmt-tab');
+      if (!tab || tab.disabled) return;
+      event.preventDefault();
+      const card = tab.closest('.card');
+      if (!card) return;
+      const fmt = tab.getAttribute('data-format');
+      card.querySelectorAll('.fmt-tab').forEach((item) => {
+        const on = item === tab;
+        item.classList.toggle('is-active', on);
+        item.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+      const link = card.querySelector('a.thumb');
+      const img = link && link.querySelector('img');
+      if (!img || !link) return;
+      const nightOn = card.querySelector('.night-tab.is-active');
+      const dayOn = card.querySelector('.day-tab.is-active');
+      const useDay = !nightOn && dayOn && dayOn.getAttribute('data-daynight') === 'day';
+      const next = nightOn
+        ? (fmt === '4x5' ? img.getAttribute('data-src-45-night') : fmt === '9x16' ? img.getAttribute('data-src-916-night') : img.getAttribute('data-src-16-night'))
+        : fmt === '4x5'
+        ? (useDay && img.getAttribute('data-src-45-day')) || img.getAttribute('data-src-45')
+        : fmt === '9x16'
+        ? (useDay && img.getAttribute('data-src-916-day')) || img.getAttribute('data-src-916')
+        : (useDay && img.getAttribute('data-src-16-day')) || img.getAttribute('data-src-16');
+      if (next) {
+        img.src = next;
+        link.href = next;
+      }
+      link.classList.toggle('tall', fmt === '4x5');
+      link.classList.toggle('tall916', fmt === '9x16');
+    });
+"""
+
+
+def _install_click_handler(html: str) -> str:
+    """Replace the gallery click listener so a rebuild keeps the Night wiring."""
+    start = "    grid.addEventListener('click', (event) => {\n"
+    end = "    q.addEventListener('input', render);\n"
+    i = html.find(start)
+    j = html.find(end)
+    if i < 0 or j < 0 or j < i:
+        raise SystemExit("gallery click listener anchor missing; refusing to publish")
+    if html.find(start, i + len(start)) >= 0 and html.find(start, i + len(start)) < j:
+        raise SystemExit("more than one gallery click listener; refusing to publish")
+    return html[:i] + NIGHT_CLICK + html[j:]
+
+
 def apply_a7(html: str) -> str:
     """Spain-look guards that survive a later publish. Does not touch SCENES."""
     if _OLD_NORWAY in html:
@@ -930,8 +1115,10 @@ def publish_html(html: str, root: Path | None = None, tags: dict[str, list[str]]
     html, scenes, _drops = drop_missing_scene_lines(html, scenes, root)
     html = strip_phase1(html)
     meta = build_meta(scenes, root, tags)
-    html = insert_phase1(html, meta)
+    night = load_night_masters(scenes, root)
+    html = insert_phase1(html, meta, night)
     html = apply_a7(html)
+    html = _install_click_handler(html)
     assert_phase1(html)
     assert_descriptions(parse_scenes(html), descriptions)
     return html
@@ -973,6 +1160,11 @@ def assert_phase1(html: str) -> None:
         "if (!o[3]) continue;",
         'const file16 = s.file_16x9 || "";',
         "(day16 || day45)",
+        'class="night-tab"',
+        "const FRANCE_NIGHT=",
+        "data-src-16-night",
+        "data-dl-night",
+        "closest('.night-tab')",
     )
     missing = [item for item in required if item not in html]
     if missing:
@@ -981,6 +1173,10 @@ def assert_phase1(html: str) -> None:
         raise SystemExit("day/night filter was duplicated")
     if html.count("const FRANCE_META=") != 1:
         raise SystemExit("FRANCE_META was duplicated")
+    if html.count("const FRANCE_NIGHT=") != 1:
+        raise SystemExit("FRANCE_NIGHT was duplicated or dropped")
+    if html.count('class="night-tab"') != 1:
+        raise SystemExit("night button template was duplicated or dropped")
     if _OLD_NORWAY in html:
         raise SystemExit("old Norway flag chip survived")
     ga_ids = set(re.findall(r"G-[A-Z0-9]+", html))
@@ -1026,6 +1222,29 @@ def prove(html: str | None = None) -> None:
         raise SystemExit("clobber rebuild dropped Phase-1")
 
     scenes = parse_scenes(published)
+    night_match = re.search(r"const FRANCE_NIGHT=(\{.*?\});", published)
+    if not night_match:
+        raise SystemExit("published page has no FRANCE_NIGHT")
+    night = json.loads(night_match.group(1))
+    if len(night) != 136:
+        raise SystemExit(f"expected 136 night-master cards, found {len(night)}")
+    for banned in ("FR-01-001", "FR-01-009", "FR-01-362"):
+        if banned in night:
+            raise SystemExit(f"{banned} is not a night-master card")
+    if "FR-01-125" not in night or not night["FR-01-125"][0].startswith("assets/fr-01-125-16x9.png"):
+        raise SystemExit("FR-01-125 night master was not wired")
+    if night["FR-01-125"][2]:
+        raise SystemExit("FR-01-125 has no 9:16 night master")
+    for entry_id, urls in night.items():
+        if len(urls) != 3:
+            raise SystemExit(f"{entry_id} night record is not [16:9, 4:5, 9:16]")
+        for url in urls:
+            if not url:
+                continue
+            if "daylight" in url or "postcard" in url:
+                raise SystemExit(f"{entry_id} night URL is not a night master: {url}")
+            if not master_on_disk(url, ROOT):
+                raise SystemExit(f"{entry_id} night master is not on disk: {url}")
     meta_match = re.search(r"const FRANCE_META=(\{.*?\});", published)
     if not meta_match:
         raise SystemExit("published page has no FRANCE_META")
