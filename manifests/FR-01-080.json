@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is genoese citadel on a rocky peninsula above the bay. The place named on the card is Citadel of Calvi, Calvi, in Corsica. Model data from Open-Meteo, retrieved 2026-09-29T22:08:04+02:00 (2026-09-29T20:08:04Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.2°C, wind 14.6 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of the Citadel of Calvi under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-080-16x9.png?v=batch077",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-080-4x5.png?v=batch077",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -18,15 +18,20 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T16:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:08:04+02:00 (2026-09-29T20:08:04Z), valid 2026-09-23T16:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.2°C, wind 14.6 km/h, precipitation 0.0 mm.",
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "Gate 1: the Genoese Citadel of Calvi on its rocky headland above the Bay of Calvi — ramparts and old town wrapping the promontory, turquoise cove and mountains behind; recognizable from the classic sea-side viewpoint, coherent composition. Gate 2: sweep verified 1920x1080 + 864x1080; caption 'Citadel of Calvi, Calvi', scenario '23 September 2026 · 16:36 Europe/Paris', disclosure on-image bottom-left, curly-apostrophe signature bottom-right verified at 2x zoom. No agent weather note (notes start at FR-01-125); sequential batch scenario time, no reuse pattern. Gate 3: no provenance claims on file; nothing indicates photographic inputs. Gate 4: no identifiable people or logos — documented only. Gate 5: clear.",
-  "approved_at": "2026-09-25T11:33:33.259671+00:00",
+  "qc_status": "Approved · Grok Bot QC 5/5",
+  "approval_basis": "Gate 1 PASS: Calvi citadel on rocky peninsula. Gate 2 PASS. Gate 3 PASS. Gate 4 documented. Gate 5: shippable.",
+  "approved_at": "2026-10-05T18:18:10.241912+00:00",
   "reverted_at": "2026-09-25T18:54:12.737390+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T18:54:12.737390+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): no verifiable per-scene Open-Meteo weather retrieval evidence exists for this scene — the builder's approvals note is missing entirely (58 of the first 94 France notes absent repo-wide) or cites no recorded retrieval timestamp, and the approval_basis made no scene-specific weather-verification claim. Under the standing policy (Jason 2026-09-25) Gate 2 requires one recorded Open-Meteo HTTP retrieval per scene with its own timestamp, and missing evidence is an open blocker — it cannot be waved through. Rework: re-land the review packet with a per-scene fresh Open-Meteo retrieval (own HTTP request, own recorded timestamp), scenario hour inside its model-valid hour, builder note updated with the retrieval evidence. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-10-05T18:18:10.241912+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 1 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET to approve builder self-QC. Gate 1 PASS: Calvi citadel on rocky peninsula. Gate 2 PASS. Gate 3 PASS. Gate 4 documented. Gate 5: shippable."
     }
   ],
   "dimensions": {

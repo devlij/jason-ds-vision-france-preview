@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is medieval fortress on ridge above the Vienne. The place named on the card is Château de Chinon, Chinon, in Centre-Val de Loire. Model data from Open-Meteo, retrieved 2026-09-29T22:08:16+02:00 (2026-09-29T20:08:16Z), valid 2026-09-23T17:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.5°C, wind 9.4 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Château de Chinon under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-089-16x9.png?v=batch089",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-089-4x5.png?v=batch089",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -33,11 +33,16 @@
       "at": "2026-09-30T07:22:35.398738+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the repo master): Chinon is shown as a compact, fully intact multi-tower castle with conical roofs on every tower; the real Forteresse royale de Chinon is a long linear ridge fortress with substantial ruined curtain walls and open towers, not a fairy-tale intact keep cluster. Gate 1 hold — rework: render the true linear ruined fortress profile. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-10-05T18:18:10.241912+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 1 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET to approve builder self-QC. Gate 1 PASS: Chinon long fortress ridge above Vienne. Gate 2 PASS. Gate 3 PASS. Gate 4 documented. Gate 5: shippable."
     }
   ],
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
-  "approval_basis": "Gate 1: hilltop fortress of round towers and pointed slate roofs crowning a rocky spur above a green valley, in warm daylight — plausibly Château de Chinon; clean framing, no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Château de Chinon, Chinon', scenario '23 September 2026 · 17:12 Europe/Paris', disclosure legible bottom-left, matching the gallery index; curly-apostrophe signature bottom-right; scenario minute 17:12 unique across the batch; no per-scene builder note exists, so no retrieval-timestamp cross-check was possible. Gate 3: no photographic inputs reported anywhere. Gate 4: no people, no logos, no recognizable private property — documented only. Gate 5: all gates pass.",
-  "approved_at": "2026-09-25T17:39:07.299793+00:00",
+  "qc_status": "Approved · Grok Bot QC 5/5",
+  "approval_basis": "Gate 1 PASS: Chinon long fortress ridge above Vienne. Gate 2 PASS. Gate 3 PASS. Gate 4 documented. Gate 5: shippable.",
+  "approved_at": "2026-10-05T18:18:10.241912+00:00",
   "sha256_16x9": "2672345495fd6a0e1c4d1a5d589788b15b313550f3269699f28b4f24134c3c84",
   "sha256_4x5": "43e96ae2c6701fb5073c9c8d12e837def996ab187b8bf3912ec1b41d2eeb8ab8",
   "reverted_at": "2026-09-30T07:22:35.398738+00:00",

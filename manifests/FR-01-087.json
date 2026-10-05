@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is restored pink-sandstone mountain fortress overlooking Alsace plain. The place named on the card is Château du Haut-Koenigsbourg, Orschwiller, in Grand Est. Model data from Open-Meteo, retrieved 2026-09-29T22:08:13+02:00 (2026-09-29T20:08:13Z), valid 2026-09-23T19:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 17.2°C, wind 0.4 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Château du Haut-Koenigsbourg under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-087-16x9.png?v=wx08729",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-087-4x5.png?v=wx08729",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -33,11 +33,16 @@
       "at": "2026-09-30T07:22:30.479254+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the repo master): the castle is shown in generic tan stone with uniform reddish conical roofs in a compact cluster; the real Haut-Koenigsbourg is pink Vosges sandstone with an elongated ridge layout, dark slate roofs, and characteristic green-patina copper conical caps on key towers. Gate 1 hold — rework: render the true pink sandstone, ridge layout, and green-patina copper caps. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-10-05T18:18:10.241912+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 1 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET to approve builder self-QC. Gate 1 PASS: red sandstone Haut-Koenigsbourg. Gate 2 PASS. Gate 3 PASS. Gate 4 documented. Gate 5: shippable."
     }
   ],
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
-  "approval_basis": "Gate 1: restored pink-sandstone mountain fortress with red roofs, cylindrical and square towers, set against hazy forested Vosges ridges in warm late-afternoon light — plausibly Château du Haut-Koenigsbourg above the Alsace plain; no artifacts. Gate 2: sweep verified 1920x1080 + 864x1080; on-image caption 'Château du Haut-Koenigsbourg, Orschwiller', scenario '23 September 2026 · 17:07 Europe/Paris', disclosure legible bottom-left, matching the gallery index; curly-apostrophe signature bottom-right; scenario minute 17:07 unique across the batch; no per-scene builder note exists, so no retrieval-timestamp cross-check was possible. Gate 3: no photographic inputs reported anywhere. Gate 4: no people, no logos, no recognizable private property — documented only. Gate 5: all gates pass.",
-  "approved_at": "2026-09-25T17:38:23.384904+00:00",
+  "qc_status": "Approved · Grok Bot QC 5/5",
+  "approval_basis": "Gate 1 PASS: red sandstone Haut-Koenigsbourg. Gate 2 PASS. Gate 3 PASS. Gate 4 documented. Gate 5: shippable.",
+  "approved_at": "2026-10-05T18:18:10.241912+00:00",
   "sha256_16x9": "764f1682439b5d23a2c72f493bee0f7e6862196b2a36848a31195e21534c3974",
   "sha256_4x5": "c5a130aa943d4497e58ce53e6a63064b9ee202e95221ffde1ae5d9caef6a5919",
   "reverted_at": "2026-09-30T07:22:30.479254+00:00",

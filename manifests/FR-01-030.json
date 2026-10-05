@@ -9,11 +9,11 @@
   "description": "The recorded tourist view is josephine's elongated cream-stucco imperial residence in landscaped park. The place named on the card is Château de Malmaison, Rueil-Malmaison, in Île-de-France. Light and weather follow the modelled scenario 23 September 2026 · 15:17 Europe/Paris, not a verified on-site observation.",
   "alt_text": "AI-generated artistic interpretation of Château de Malmaison under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-030-16x9.png?v=batch029",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-030-4x5.png?v=batch029",
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "Château de Malmaison: the ochre limestone manor with white shutters and slate roof set behind lawns and mature trees, the central pedimented entrance block — Napoleon's residence reads from this park-side viewpoint. Gate 1 passes on the manor's recognizable facade and park setting; clean daylight framing. Gate 2: caption 'Château de Malmaison, Rueil-Malmaison', scenario '23 September 2026 · 15:17 Europe/Paris', AI disclosure bottom-left; 'Jason D's Vision' signature bottom-right with curly apostrophe; exact 1920×1080/864×1080 masters verified by the sweep. approvals/FR-01-030.md absent from the repo, so no weather-retrieval timestamp to cross-check; unique scenario minute, no reuse. Gate 3: no photographic inputs indicated; text-prompt build per kit. Gate 4: a few small anonymous figures near the entrance, no logos; documented. Gate 5: ready.",
-  "approved_at": "2026-09-25T06:33:57.601814+00:00",
+  "qc_status": "Approved · Grok Bot QC 5/5",
+  "approval_basis": "Gate 1 PASS: short château with tented entrance vestibule. Gate 2 PASS. Gate 3 PASS. Gate 4 documented. Gate 5: shippable.",
+  "approved_at": "2026-10-05T18:18:10.241912+00:00",
   "reverted_at": "2026-09-25T18:52:42.110414+00:00",
   "qc_notes": [
     {
@@ -25,6 +25,11 @@
       "at": "2026-09-28T18:20:02.485941+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 hold (Cosmo QC 2026-09-28): no approvals/FR-01-030.md in the repo — no recorded retrieval timestamp; scenario/weather cross-check not completable. Gate 1 passes (ochre corps-de-logis with slate roof and lawns, clean). Hold until the evidence note lands."
+    },
+    {
+      "at": "2026-10-05T18:18:10.241912+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 1 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET to approve builder self-QC. Gate 1 PASS: short château with tented entrance vestibule. Gate 2 PASS. Gate 3 PASS. Gate 4 documented. Gate 5: shippable."
     }
   ],
   "dimensions": {

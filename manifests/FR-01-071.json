@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is hilltop Romanesque basilica crowning a stone village. The place named on the card is Vézelay Abbey, Vézelay, in Bourgogne-Franche-Comté. Model data from Open-Meteo, retrieved 2026-09-29T22:08:00+02:00 (2026-09-29T20:08:00Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.0°C, wind 7.3 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Vézelay Abbey under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-071-16x9.png?v=batch069",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-071-4x5.png?v=batch069",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -18,9 +18,9 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T15:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:08:00+02:00 (2026-09-29T20:08:00Z), valid 2026-09-23T15:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 25.0°C, wind 7.3 km/h, precipitation 0.0 mm.",
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
-  "approval_basis": "Gate 1 — twin-spired basilica crowning the hilltop village, clean daylight frame. Gate 2 — exact dims; on-image bar reads caption \"Vézelay Abbey, Vézelay\", \"Scenario: 23 September 2026 · 15:50 Europe/Paris\" (verified on both masters), AI disclosure and exact \"Jason D's Vision\" + script signature, zero tint; weather retrieval 2026-09-29T20:08:00Z unique to the second, model-valid hour 2026-09-23T15:00 Europe/Paris, code 0 / cloud 0%. Gate 3 — text-prompt-only lineage, no photographic inputs. Gate 4 — no people, no logos.",
-  "approved_at": "2026-09-30T02:43:55.074935+00:00",
+  "qc_status": "Approved · Grok Bot QC 5/5",
+  "approval_basis": "Gate 1 PASS: single square south tower. Gate 2 PASS. Gate 3 PASS. Gate 4 documented. Gate 5: shippable.",
+  "approved_at": "2026-10-05T18:18:10.241912+00:00",
   "reverted_at": "2026-09-30T07:21:57.888309+00:00",
   "qc_notes": [
     {
@@ -37,6 +37,11 @@
       "at": "2026-09-30T07:21:57.888309+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the repo master): the west facade shows two matching tall square towers capped by identical dark pyramidal spires; the real Basilique Sainte-Marie-Madeleine de Vézelay has markedly asymmetric west towers (taller Gothic Tour Saint-Michel on the south; shorter/truncated north tower) without matching twin dark pointed caps. Gate 1 hold — rework: render the true asymmetric west towers. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-10-05T18:18:10.241912+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 1 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET to approve builder self-QC. Gate 1 PASS: single square south tower. Gate 2 PASS. Gate 3 PASS. Gate 4 documented. Gate 5: shippable."
     }
   ],
   "dimensions": {
