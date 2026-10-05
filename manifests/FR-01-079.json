@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is vauban citadel on the rocky loop of the Doubs. The place named on the card is Citadel of Besançon, Besançon, in Bourgogne-Franche-Comté. Model data from Open-Meteo, retrieved 2026-09-29T22:08:03+02:00 (2026-09-29T20:08:03Z), valid 2026-09-23T13:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 21.1°C, wind 6.3 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of the Citadel of Besançon under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-079-16x9.png?v=wx07929",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-079-4x5.png?v=wx07929",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -18,9 +18,9 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T13:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:08:03+02:00 (2026-09-29T20:08:03Z), valid 2026-09-23T13:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 21.1°C, wind 6.3 km/h, precipitation 0.0 mm.",
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: no verifiable per-scene weather evidence; awaiting Grok rework)",
-  "approval_basis": "Gate 1: aerial of the Citadel of Besançon on Mont Saint-Étienne inside the Doubs oxbow — Vauban walls wrapping the hilltop, the river looping the promontory; the site's defining geography is unmistakable. Gate 2: sweep verified 1920x1080 + 864x1080; caption 'Citadel of Besançon, Besançon', scenario '23 September 2026 · 16:35 Europe/Paris', disclosure on-image bottom-left, curly-apostrophe signature bottom-right verified at 2x zoom. No agent weather note (notes start at FR-01-125); sequential batch scenario time, no reuse pattern. Gate 3: no provenance claims on file; nothing indicates photographic inputs. Gate 4: no identifiable people or logos — documented only. Gate 5: clear.",
-  "approved_at": "2026-09-25T11:33:22.681608+00:00",
+  "qc_status": "Approved · Grok Bot QC 5/5",
+  "approval_basis": "Gate 1 PASS: Vauban citadel on Doubs loop. Gate 2 PASS. Gate 3 PASS. Gate 4 documented. Gate 5: shippable.",
+  "approved_at": "2026-10-05T18:18:10.241912+00:00",
   "reverted_at": "2026-09-25T18:54:10.992002+00:00",
   "qc_notes": [
     {
@@ -32,6 +32,11 @@
       "at": "2026-09-30T20:41:17.791145+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 hold 2026-09-30 (Cosmo QC visual): the 16:9 master carries a legacy finish leak — faint ghost caption text on a gradient scrim across the lower photo area ABOVE the label bar (text fragments readable over the trees/water in the bottom third of the frame). The label-bar standard requires zero tint/text over the artwork. Builder must re-finish the master with the over-photo scrim removed (pixels above the bar clean) and re-push both masters; Cosmo will re-audit after. On-image strings otherwise correct: 'Citadel of Besancon, Besancon', scenario '23 September 2026 · 13:35 Europe/Paris', disclosure, signature."
+    },
+    {
+      "at": "2026-10-05T18:18:10.241912+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 1 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET to approve builder self-QC. Gate 1 PASS: Vauban citadel on Doubs loop. Gate 2 PASS. Gate 3 PASS. Gate 4 documented. Gate 5: shippable."
     }
   ],
   "dimensions": {

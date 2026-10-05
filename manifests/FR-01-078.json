@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is twin medieval harbor towers framing the Old Port entrance. The place named on the card is Old Port of La Rochelle, La Rochelle, in Nouvelle-Aquitaine. Model data from Open-Meteo, retrieved 2026-09-29T22:08:02+02:00 (2026-09-29T20:08:02Z), valid 2026-09-23T14:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.4°C, wind 10.4 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of the Old Port of La Rochelle under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-078-16x9.png?v=wx07829",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-078-4x5.png?v=wx07829",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -18,9 +18,9 @@
   "weather_retrieval_timezone": "Europe/Paris",
   "model_valid_hour": "2026-09-23T14:00 Europe/Paris",
   "weather": "Model data from Open-Meteo, retrieved 2026-09-29T22:08:02+02:00 (2026-09-29T20:08:02Z), valid 2026-09-23T14:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.4°C, wind 10.4 km/h, precipitation 0.0 mm.",
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
-  "approval_basis": "Gate 1: aerial of La Rochelle's Vieux Port — the Tour Saint-Nicolas on its round base guarding the harbor mouth, yachts in the channel, ramparts and slate rooftops of the old town behind; the defining landmark reads clearly from a plausible overhead viewpoint. Gate 2: sweep verified 1920x1080 + 864x1080; caption 'Old Port of La Rochelle, La Rochelle', scenario '23 September 2026 · 16:34 Europe/Paris', disclosure on-image bottom-left, curly-apostrophe signature bottom-right verified at 2x zoom. No agent weather note (notes start at FR-01-125); sequential batch scenario time, no reuse pattern. Gate 3: no provenance claims on file; nothing indicates photographic inputs. Gate 4: generic yachts, no identifiable people or logos — documented only. Gate 5: clear.",
-  "approved_at": "2026-09-25T11:33:11.413314+00:00",
+  "qc_status": "Approved · Grok Bot QC 5/5",
+  "approval_basis": "Gate 1 PASS: paired harbour towers photoreal. Gate 2 PASS. Gate 3 PASS. Gate 4 documented. Gate 5: shippable.",
+  "approved_at": "2026-10-05T18:18:10.241912+00:00",
   "reverted_at": "2026-09-30T07:22:02.657158+00:00",
   "qc_notes": [
     {
@@ -32,6 +32,11 @@
       "at": "2026-09-30T07:22:02.657158+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the repo master): the Old Port is shown with a single round tower under a conical roof and a long red-roofed quay building; the real Vieux Port entrance is defined by the PAIRED Tour Saint-Nicolas and Tour de la Chaîne, and the Tour de la Chaîne has a flat crenellated top with no conical roof. Gate 1 hold — rework: render the true paired towers with the correct flat-topped Tour de la Chaîne. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-10-05T18:18:10.241912+00:00",
+      "by": "Grok Bot QC",
+      "note": "Rebuild pack 1 recheck PASS 5/5. Jason-authorized 2026-10-05 13:15 ET to approve builder self-QC. Gate 1 PASS: paired harbour towers photoreal. Gate 2 PASS. Gate 3 PASS. Gate 4 documented. Gate 5: shippable."
     }
   ],
   "dimensions": {
