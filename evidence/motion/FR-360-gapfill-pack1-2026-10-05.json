@@ -1,0 +1,508 @@
+{
+  "work_order": "wo-france-360-gapfill-2026-10-05",
+  "pack": "gapfill-pack1",
+  "method": "static-ambient",
+  "i2v": "not used; Ken Burns pan-zoom on the daylight still",
+  "spec": {
+    "duration_s": 10.0,
+    "tolerance_s": 0.1,
+    "fps": 24,
+    "frames": 240,
+    "width": 864,
+    "height": 1080,
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "faststart": true,
+    "crop": "864:1080:0:0"
+  },
+  "approval_status": "Candidate",
+  "escalated": false,
+  "scenes": [
+    {
+      "entry_id": "FR-01-001",
+      "caption": "Eiffel Tower, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-001-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        70,
+        31,
+        520,
+        1020
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 166.72,
+      "top_v": 208.92,
+      "zoom_end": 1.05,
+      "travel_px": 31.55,
+      "window_end": [
+        29.62,
+        10.85
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "ba78b96f3f2834845860a5089fea7ab28d9f0f2b271ff26a58845a6e372a309f",
+        "bytes": 1689099
+      },
+      "ends_mae": 16.716,
+      "file": "assets/fr-01-001-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-002",
+      "caption": "Louvre Pyramid, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-002-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        250,
+        490,
+        620,
+        960
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 186.55,
+      "top_v": 229.12,
+      "zoom_end": 1.05,
+      "travel_px": 34.66,
+      "window_end": [
+        29.62,
+        18.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "14b402b5d91e7df860f8bc52ea743132bbc827c3880a116c60a22087b620c9bd",
+        "bytes": 1670426
+      },
+      "ends_mae": 16.593,
+      "file": "assets/fr-01-002-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-003",
+      "caption": "Notre-Dame Cathedral, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-003-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        36,
+        0,
+        828,
+        1020
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 134.51,
+      "top_v": 174.18,
+      "zoom_end": 1.04,
+      "travel_px": 23.93,
+      "window_end": [
+        23.93,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "732551ca0d3efccb1654638621e6ceb1c081f73a8e50e8604a9b154a9df7e3bb",
+        "bytes": 3483601
+      },
+      "ends_mae": 33.611,
+      "file": "assets/fr-01-003-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-004",
+      "caption": "Arc de Triomphe, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-004-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        160,
+        390,
+        700,
+        1000
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 157.57,
+      "top_v": 208.91,
+      "zoom_end": 1.05,
+      "travel_px": 34.66,
+      "window_end": [
+        29.62,
+        18.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "ab8df69deb6b6cd27db9452c0de8c29e926baefca3b8b70c88d9b65ffa41be48",
+        "bytes": 2037931
+      },
+      "ends_mae": 20.148,
+      "file": "assets/fr-01-004-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-005",
+      "caption": "Sacr\u00e9-C\u0153ur, Paris",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-005-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        180,
+        17,
+        800,
+        1000
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 173.28,
+      "top_v": 203.7,
+      "zoom_end": 1.045,
+      "travel_px": 27.44,
+      "window_end": [
+        26.79,
+        5.95
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "26e9ca4f0ef6609b62275032fd96b7aa9c29f970d4bcdbe991ae28d149de8255",
+        "bytes": 2470261
+      },
+      "ends_mae": 25.959,
+      "file": "assets/fr-01-005-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-006",
+      "caption": "Palace of Versailles, Versailles",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-006-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        70,
+        303,
+        800,
+        980
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 162.72,
+      "top_v": 217.9,
+      "zoom_end": 1.045,
+      "travel_px": 31.35,
+      "window_end": [
+        26.79,
+        16.28
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "b3a26ebf4d085f529a337ecb4f8ed0879efcb73a17dd4dcd0fbaa9ebcc2534a0",
+        "bytes": 2936210
+      },
+      "ends_mae": 22.207,
+      "file": "assets/fr-01-006-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-007",
+      "caption": "Mont Saint-Michel, Le Mont-Saint-Michel",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-007-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        180,
+        330,
+        780,
+        1000
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 163.79,
+      "top_v": 202.77,
+      "zoom_end": 1.05,
+      "travel_px": 34.66,
+      "window_end": [
+        29.62,
+        18.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "83ec98d5aaeca3acf8405997412ad81a12e9920f71b15bb9397fa4ce6fdc0ef3",
+        "bytes": 1817780
+      },
+      "ends_mae": 19.081,
+      "file": "assets/fr-01-007-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-008",
+      "caption": "Promenade des Anglais, Nice",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-008-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        30,
+        540,
+        830,
+        1040
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 190.09,
+      "top_v": 226.11,
+      "zoom_end": 1.04,
+      "travel_px": 26.61,
+      "window_end": [
+        21.6,
+        15.54
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "8e3bba71cadf7be6ac4b350f7b3cd6b165ba6800a0e43faa651051baea7e905f",
+        "bytes": 1799732
+      },
+      "ends_mae": 10.644,
+      "file": "assets/fr-01-008-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-009",
+      "caption": "Valensole lavender fields, Valensole",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-009-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        30,
+        262,
+        834,
+        1040
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 120.9,
+      "top_v": 222.92,
+      "zoom_end": 1.035,
+      "travel_px": 24.62,
+      "window_end": [
+        21.04,
+        12.78
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "8802144eb1334216ddfd81becdaaa3d0254b4a7d388d59e9c909ceb986addcce",
+        "bytes": 6984053
+      },
+      "ends_mae": 17.851,
+      "file": "assets/fr-01-009-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-010",
+      "caption": "Aiguille du Midi, Chamonix",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-010-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        0,
+        0,
+        620,
+        920
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 140.45,
+      "top_v": 177.81,
+      "zoom_end": 1.06,
+      "travel_px": 0.0,
+      "window_end": [
+        0.0,
+        0.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "c5b90450c1e4dea51e118c2cc7eb739cc171996a9ec17cd019f9a81e64adcf48",
+        "bytes": 2358991
+      },
+      "ends_mae": 29.457,
+      "file": "assets/fr-01-010-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-011",
+      "caption": "Carcassonne citadel, Carcassonne",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-011-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        60,
+        280,
+        800,
+        1000
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 147.74,
+      "top_v": 221.03,
+      "zoom_end": 1.045,
+      "travel_px": 31.35,
+      "window_end": [
+        26.79,
+        16.28
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "24854da19e312d36a501966a7cc425e1a218e2ecf4114f3cd4e9d9fb94a686d8",
+        "bytes": 2673435
+      },
+      "ends_mae": 24.35,
+      "file": "assets/fr-01-011-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "FR-01-012",
+      "caption": "Ch\u00e2teau de Chambord, Chambord",
+      "method": "static-ambient",
+      "variant": "ken-burns",
+      "anchor": "assets/fr-01-012-4x5.png",
+      "crop": "864:1080:0:0",
+      "subject": [
+        90,
+        400,
+        780,
+        1000
+      ],
+      "approval_status": "Candidate",
+      "attempts": 1,
+      "status": "shipped",
+      "mean_v": 162.86,
+      "top_v": 216.85,
+      "zoom_end": 1.05,
+      "travel_px": 34.66,
+      "window_end": [
+        29.62,
+        18.0
+      ],
+      "probe": {
+        "width": 864,
+        "height": 1080,
+        "codec": "h264",
+        "pix_fmt": "yuv420p",
+        "nb_frames": 240,
+        "avg_frame_rate": "24/1",
+        "duration": 10.0,
+        "faststart": true,
+        "sha256": "0cf418597ffb8e36e206e56d39ccdf484972b5d1b9fe9ad8ccd7ebe2ab7e6728",
+        "bytes": 2029751
+      },
+      "ends_mae": 20.488,
+      "file": "assets/fr-01-012-motion-10s-4x5.mp4"
+    }
+  ],
+  "holds": [],
+  "shipped": [
+    "FR-01-001",
+    "FR-01-002",
+    "FR-01-003",
+    "FR-01-004",
+    "FR-01-005",
+    "FR-01-006",
+    "FR-01-007",
+    "FR-01-008",
+    "FR-01-009",
+    "FR-01-010",
+    "FR-01-011",
+    "FR-01-012"
+  ],
+  "remaining_gap_count": 276,
+  "night_only_excluded": 17,
+  "note": "Daylight 4:5 plates only. Night-only scenes were not encoded. Approval status was not changed."
+}
