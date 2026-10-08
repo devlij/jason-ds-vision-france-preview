@@ -2486,7 +2486,7 @@
 <!-- P1-FILTERS-END -->
       <button type="button" id="clear">Clear all</button>
       <span id="result-count"></span>
-    ${hasPostcard ? `<button type="button" class="pc-tab" data-postcard="off" aria-pressed="false" title="Show the postcard version">\uD83D\uDCE9 Postcard</button>` : ""}</div>
+    </div>
     <div id="no-results">No scenes match that search.</div>
     <div class="grid" id="grid"></div>
   </main>
@@ -9415,6 +9415,7 @@ const FRANCE_POSTCARD = {"FR-01-001":["assets/fr-01-001-postcard-16x9.png","asse
               ${file45 ? `<button type="button" class="fmt-tab${file16 ? "" : " is-active"}" data-format="4x5" aria-pressed="${file16 ? "false" : "true"}">4:5</button>` : ""}
               ${file916 ? `<button type="button" class="fmt-tab${(!file16 && !file45) ? " is-active" : ""}" data-format="9x16" aria-pressed="${(!file16 && !file45) ? "true" : "false"}">9:16</button>` : ""}
               ${motion ? `<button type="button" class="motion-tab" data-motion="${esc(motion)}" title="Play the 360° daylight motion clip" aria-pressed="false">\u25B6 360\u00B0</button>` : ""}
+              ${hasPostcard ? `<button type="button" class="pc-tab" data-postcard="off" aria-pressed="false" title="Show the postcard version">\uD83D\uDCE9 Postcard</button>` : ""}
             </div>` : ""}
           ${(hasNight || day16 || day45) ? `<div class="day-row">${hasNight ? `<button type="button" class="night-tab" aria-pressed="false" title="Show the night image">\uD83C\uDF19 Night</button>` : ""}${(day16 || day45) ? `<button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button>` : ""}</div>` : ""}
           <div class="card-body">
