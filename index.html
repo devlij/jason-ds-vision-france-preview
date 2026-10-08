@@ -2486,7 +2486,7 @@
 <!-- P1-FILTERS-END -->
       <button type="button" id="clear">Clear all</button>
       <span id="result-count"></span>
-    </div>
+    ${hasPostcard ? `<button type="button" class="pc-tab" data-postcard="off" aria-pressed="false" title="Show the postcard version">\uD83D\uDCE9 Postcard</button>` : ""}</div>
     <div id="no-results">No scenes match that search.</div>
     <div class="grid" id="grid"></div>
   </main>
@@ -9432,7 +9432,7 @@ const FRANCE_POSTCARD = {"FR-01-001":["assets/fr-01-001-postcard-16x9.png","asse
               ${file45 ? `<a class="download" data-dl="4x5"${night45 ? ` data-dl-night="${esc(night45)}"` : ""} href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>` : ""}
               ${file916 ? `<a class="download" data-dl="9x16"${night916 ? ` data-dl-night="${esc(night916)}"` : ""} href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
               ${audioSrc ? `<button type="button" class="narrate" data-audio="${esc(audioSrc)}" aria-pressed="false" aria-label="Listen to the scene description">🔊 Listen</button>` : ""}
-              ${hasPostcard ? `<button type="button" class="pc-tab" data-postcard="off" aria-pressed="false" title="Show the postcard version">\uD83D\uDCE9 Postcard</button>` : ""}
+              
             </div>
           </div>`;
         grid.appendChild(card);
