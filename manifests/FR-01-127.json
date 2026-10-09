@@ -5,7 +5,7 @@
   "city": "Arras",
   "caption": "Belfry of Arras, Arras",
   "scenario_label": "23 September 2026 · 21:00 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-127-16x9.png",
   "file_4x5": "assets/fr-01-127-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,8 @@
       "sha256": "54ef379322cac59e0899f75053e591c375d88da8060b436137d2f774e383cfd9"
     }
   },
-  "sha256_4x5": "54ef379322cac59e0899f75053e591c375d88da8060b436137d2f774e383cfd9"
+  "sha256_4x5": "54ef379322cac59e0899f75053e591c375d88da8060b436137d2f774e383cfd9",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: night composition of the Belfry of Arras — floodlit Gothic belfry with crowned spire centered, symmetrical gabled guild-houses of the square flanking, cobblestone foreground; strongly recognizable. Gate 2 PASS: PNG masters 1920x1270 and 864x1270, exact caption 'Belfry of Arras, Arras', scenario '23 September 2026 · 21:00 Europe/Paris', disclosure and 'Jason D's Vision' signature with script Jason A. Devlin on the clean label bar — no ghost text over the photo (minor noise speckles in lower cobbles documented, non-blocking). Weather retrieval 2026-09-25T23:46:52Z (unique to the second, meteofrance_arome_france model, valid 21:00 Sept 23, code 2 partly cloudy 55%) night-consistent. Gate 3 PASS: text-prompt-only lineage, no photographic inputs. Gate 4 documented: empty square, no people, no logos. Gate 5 PASS: no open blockers.",
+  "approved_at": "2026-10-09T07:37:04.460700+00:00"
 }
