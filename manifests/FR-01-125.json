@@ -52,5 +52,12 @@
       "sha256": "b9c807adcd0249ccc845c68b2e90939800f1816ee72be09b4d347d97e6014bfa"
     }
   },
-  "sha256_4x5": "b9c807adcd0249ccc845c68b2e90939800f1816ee72be09b4d347d97e6014bfa"
+  "sha256_4x5": "b9c807adcd0249ccc845c68b2e90939800f1816ee72be09b4d347d97e6014bfa",
+  "qc_notes": [
+    {
+      "at": "2026-10-09T07:37:26.655221+00:00",
+      "by": "Cosmo QC",
+      "note": "Cosmo QC 2026-10-09 Gate 2 hold: residual ghost-scrim text baked over the photo area (native-resolution confirmed over the paving stones — the clearest case in this batch). Same 2026-09-29 refinish residue. Rework: clean finish, no text over the artwork."
+    }
+  ]
 }
