@@ -5,7 +5,7 @@
   "city": "Angers",
   "caption": "Château d'Angers, Angers",
   "scenario_label": "23 September 2026 · 21:00 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-126-16x9.png",
   "file_4x5": "assets/fr-01-126-4x5.png",
   "daylight_variant": {
@@ -53,7 +53,7 @@
     }
   },
   "sha256_4x5": "ed623ba93c0897eb84d64971faea6e82bfb5ac79dd1541fe390805e6d3e921f1",
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "reverted_at": "2026-09-30T07:35:20.741220+00:00",
   "qc_notes": [
     {
@@ -66,5 +66,7 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC re-audit 2026-10-09: 2026-09-30 Gate-1 hold resolved — the builder's 2026-10-06 masters rebuild verified against the current repo masters (flat-topped banded curtain towers, conical-roof defect fixed; 16:9 + 4:5 both rebuilt). The hold is cleared."
     }
-  ]
+  ],
+  "approval_basis": "Gate 1 PASS: the 2026-10-06 rebuilt masters show the Château d'Angers' true defining features — massive curtain towers with horizontal black-and-white stone banding, battered flaring bases, and flat artillery-terrace tops (the 2026-09-30 conical-roof finding is fixed), plus the twin-tower gatehouse, floodlit gardens in the ditch, and city glow on the horizon. Gate 2 PASS: PNG masters 1920x1270 and 864x1270 (1080p photo area + 190px label bar), exact caption 'Château d'Angers, Angers', scenario '23 September 2026 · 21:00 Europe/Paris', 'AI-generated artistic interpretation · Not a photograph' disclosure, and 'Jason D's Vision' signature with script Jason A. Devlin on the bar, legible and clean with no ghost scrim over the photo. Weather retrieval 2026-09-25T23:46:51Z (unique to the second, meteofrance_arome_france model, valid 21:00 Sept 23, code 3 overcast 100% cloud) consistent with the overcast night frame. Gate 3 PASS: approvals note records text-prompt-only lineage, no photographic inputs. Gate 4 documented: no people, no logos, national-monument curtain wall. Gate 5 PASS: no open blockers.",
+  "approved_at": "2026-10-09T07:36:49.000477+00:00"
 }
