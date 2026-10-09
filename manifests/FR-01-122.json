@@ -31,5 +31,12 @@
       "height": 1270,
       "sha256": "93275796f69fb9ab9f2aeffa800758eecc45e7d4784e1fad5829df5c1c6fd591"
     }
-  }
+  },
+  "qc_notes": [
+    {
+      "at": "2026-10-09T07:37:15.785693+00:00",
+      "by": "Cosmo QC",
+      "note": "Cosmo QC 2026-10-09 Gate 2 hold: residual ghost-scrim text baked over the photo area (native-resolution confirmed: old caption/scenario/disclosure fragments across the lower lawn). The 2026-09-29 label-bar refinish left the old on-image text behind. Rework: regenerate the finish from clean masters with no text over the artwork."
+    }
+  ]
 }
