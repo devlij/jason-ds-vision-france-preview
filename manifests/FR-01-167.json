@@ -5,7 +5,7 @@
   "city": "Saint-Paul",
   "caption": "Maïdo, Saint-Paul",
   "scenario_label": "24 September 2026 · 00:15 Indian/Reunion",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-167-16x9.png",
   "file_4x5": "assets/fr-01-167-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,8 @@
       "sha256": "6bcbc3a4e5df4dae80fadf8664e7225e391a2ea003a16e5676faab473880ea78"
     }
   },
-  "sha256_4x5": "6bcbc3a4e5df4dae80fadf8664e7225e391a2ea003a16e5676faab473880ea78"
+  "sha256_4x5": "6bcbc3a4e5df4dae80fadf8664e7225e391a2ea003a16e5676faab473880ea78",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Maïdo, Saint-Paul — 5/5 PASS. Midnight cloud whiteout at belvedere, guardrail + low wall, panorama honestly withheld per note. Scenario 24 Sep 2026 · 00:15 Indian/Reunion; retrieval 2026-09-25T23:50:47Z unique; text-prompt-only; no people/logos.",
+  "approved_at": "2026-10-09T19:51:24.603713+00:00"
 }
