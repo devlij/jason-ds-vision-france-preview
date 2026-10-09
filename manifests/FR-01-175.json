@@ -5,7 +5,7 @@
   "city": "Falaise",
   "caption": "Château de Falaise, Falaise",
   "scenario_label": "23 September 2026 · 22:15 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-175-16x9.png",
   "file_4x5": "assets/fr-01-175-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,8 @@
       "sha256": "c38e5b3de034b1acc5770a9732072ffae044cf0a5c96b7371d3097ff72fc41ec"
     }
   },
-  "sha256_4x5": "c38e5b3de034b1acc5770a9732072ffae044cf0a5c96b7371d3097ff72fc41ec"
+  "sha256_4x5": "c38e5b3de034b1acc5770a9732072ffae044cf0a5c96b7371d3097ff72fc41ec",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Château de Falaise, Falaise — 5/5 PASS. Square keep + round Talbot tower on rocky spur above town lights; castle unlit, honest. Scenario 23 Sep 2026 · 22:15 Europe/Paris; retrieval 2026-09-25T23:50:57Z unique; text-prompt-only; no people/logos.",
+  "approved_at": "2026-10-09T19:51:34.904973+00:00"
 }
