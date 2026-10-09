@@ -60,6 +60,11 @@
       "at": "2026-09-30T07:35:20.741220+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): all visible curtain towers are capped with tall steep conical slate roofs (night and daylight agree); the real Château d'Angers towers were truncated in the late 16th century and present as flat-topped artillery terraces. Gate 1 hold — rework: render the true flat-topped terraces. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-10-09T07:36:40.370554+00:00",
+      "by": "Cosmo QC",
+      "note": "Cosmo QC re-audit 2026-10-09: 2026-09-30 Gate-1 hold resolved — the builder's 2026-10-06 masters rebuild verified against the current repo masters (flat-topped banded curtain towers, conical-roof defect fixed; 16:9 + 4:5 both rebuilt). The hold is cleared."
     }
   ]
 }
