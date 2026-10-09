@@ -31,5 +31,12 @@
       "height": 1270,
       "sha256": "7dedfc5c16e3f22ca31457837874cdc8663afedae3b1f641cbbe17deb3a033d5"
     }
-  }
+  },
+  "qc_notes": [
+    {
+      "at": "2026-10-09T07:37:19.916138+00:00",
+      "by": "Cosmo QC",
+      "note": "Cosmo QC 2026-10-09 Gate 2 hold: residual ghost-scrim text baked over the photo area (native-resolution confirmed over the cobbles). Same 2026-09-29 refinish residue as FR-01-122. Rework: clean finish, no text over the artwork."
+    }
+  ]
 }
