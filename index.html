@@ -9520,6 +9520,8 @@ const FRANCE_POSTCARD = {"FR-01-001":["assets/fr-01-001-postcard-16x9.png","asse
         const isNight = !ntab.classList.contains('is-active');
         ntab.classList.toggle('is-active', isNight);
         ntab.setAttribute('aria-pressed', isNight ? 'true' : 'false');
+        ntab.innerHTML = isNight ? '☀ Daylight' : '🌙 Night';
+        ntab.setAttribute('title', isNight ? 'Show the daylight image' : 'Show the night image');
         const dayBtn = ncard.querySelector('.day-tab');
         if (dayBtn) {
           dayBtn.classList.remove('is-active');
