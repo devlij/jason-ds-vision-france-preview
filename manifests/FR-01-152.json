@@ -5,7 +5,7 @@
   "city": "Pamandzi",
   "caption": "Dziani Dzaha, Pamandzi",
   "scenario_label": "23 September 2026 · 23:00 Indian/Mayotte",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-152-16x9.png",
   "file_4x5": "assets/fr-01-152-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,8 @@
       "sha256": "3805f9c2dedd8cfcdac235af6779114cce1c24d205f8ad88a774cfaad590ad97"
     }
   },
-  "sha256_4x5": "3805f9c2dedd8cfcdac235af6779114cce1c24d205f8ad88a774cfaad590ad97"
+  "sha256_4x5": "3805f9c2dedd8cfcdac235af6779114cce1c24d205f8ad88a774cfaad590ad97",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Dziani Dzaha, Pamandzi — 5/5 PASS. Emerald sulfur crater lake in dark volcanic walls, starry night, rim viewpoint. Label bar exact; scenario 23 Sep 2026 · 23:00 Indian/Mayotte; retrieval 2026-09-25T23:50:29Z unique; text-prompt-only; no people/logos.",
+  "approved_at": "2026-10-09T19:50:49.443142+00:00"
 }
