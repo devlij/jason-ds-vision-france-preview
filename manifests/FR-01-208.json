@@ -3,8 +3,8 @@
   "country": "France",
   "region": "Grand Est",
   "city": "Sedan",
-  "caption": "Ch\u00e2teau de Sedan, Sedan",
-  "scenario_label": "23 September 2026 \u00b7 22:45 Europe/Paris",
+  "caption": "Château de Sedan, Sedan",
+  "scenario_label": "23 September 2026 · 22:45 Europe/Paris",
   "approval_status": "Approved",
   "file_16x9": "assets/fr-01-208-16x9.png",
   "file_4x5": "assets/fr-01-208-4x5.png",
@@ -32,10 +32,10 @@
       "4x5": "27948d09776d95aaa74d82af0a665899b84898b4f6b41b71aa050b75940da6f2"
     },
     "created_date": "2026-09-26",
-    "on_image_caption": "Ch\u00e2teau de Sedan, Sedan",
-    "on_image_signature": "Jason D\u2019s Vision",
-    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
-    "on_image_marking": "\u2600 Daylight variant \u00b7 derived from the night interpretation",
+    "on_image_caption": "Château de Sedan, Sedan",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
@@ -53,7 +53,10 @@
     }
   },
   "sha256_4x5": "ad0ac59e779a030c7bfff23d1923cff4147c6951c3605f4b537e1b1128e8751b",
-  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
-  "approved_at": "2026-10-10T08:08:17.729947+00:00",
-  "approval_basis": "Ch\u00e2teau de Sedan: honest unlit night silhouette, bastioned fortress with town lights. Label bar: Ch\u00e2teau de Sedan, Sedan, 23 September 2026 \u00b7 22:45 Europe/Paris. Weather 2026-09-25T23:51:36Z. Ghost remnants cosmetic. Text-prompt-only."
+  "qc_status": "Approved",
+  "approved_at": "2026-10-10T10:20:00-04:00",
+  "approval_basis": "France QC 2026-10-10: PASS. Bastioned fortress as near-black silhouette across the Meuse, town lamps at edges — honest unlit silhouette. Caption 'Château de Sedan, Sedan', scenario '23 September 2026 · 22:45 Europe/Paris' inside model hour 22:00 (retrieval 2026-09-25T23:51:36Z, is_day 0). 1920x1270/864x1270/1080x2110 verified. Text-prompt-only; no people/logos. Marginal legibility (very dark) but documented and honest — use-smart QC pass. Night.",
+  "sha256_file_16x9": "02aec985ee9a31a6de9c08fcef1c3701f0c74d72d460b2107417e0cb6ddeb336",
+  "sha256_file_4x5": "ad0ac59e779a030c7bfff23d1923cff4147c6951c3605f4b537e1b1128e8751b",
+  "sha256_file_9x16": "91877075705ca2b06b7b4eef367f0419e34aede423028cdd9e01cfab173b9ea7"
 }
