@@ -1,11 +1,11 @@
 {
   "entry_id": "FR-01-154",
   "country": "France",
-  "region": "Bourgogne-Franche-Comté",
+  "region": "Bourgogne-Franche-Comt\u00e9",
   "city": "Marmagne",
   "caption": "Abbaye de Fontenay, Marmagne",
-  "scenario_label": "23 September 2026 · 22:00 Europe/Paris",
-  "approval_status": "Candidate",
+  "scenario_label": "23 September 2026 \u00b7 22:00 Europe/Paris",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-154-16x9.png",
   "file_4x5": "assets/fr-01-154-4x5.png",
   "daylight_variant": {
@@ -33,9 +33,9 @@
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Abbaye de Fontenay, Marmagne",
-    "on_image_signature": "Jason D’s Vision",
-    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
-    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "on_image_signature": "Jason D\u2019s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
+    "on_image_marking": "\u2600 Daylight variant \u00b7 derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
@@ -53,13 +53,15 @@
     }
   },
   "sha256_4x5": "3aff4d919bfb70c30136a74cf1b5b0aeb515c9e7519f5bbb079316a42e9f9129",
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
   "reverted_at": "2026-09-30T07:39:33.032687+00:00",
   "qc_notes": [
     {
       "at": "2026-09-30T07:39:33.032687+00:00",
       "by": "Cosmo QC",
-      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): Abbey church shown with a prominent square bell tower and pyramidal stone roof at the crossing; the real Abbaye de Fontenay Cistercian church deliberately has no tower (Bernardine austerity / UNESCO description: transept devoid of a tower) — only a minor roof bell — so the square steeple is a fabrication. Gate 1 hold — rework: render the towerless crossing. Scene stays Candidate until Cosmo QC re-audits."
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): Abbey church shown with a prominent square bell tower and pyramidal stone roof at the crossing; the real Abbaye de Fontenay Cistercian church deliberately has no tower (Bernardine austerity / UNESCO description: transept devoid of a tower) \u2014 only a minor roof bell \u2014 so the square steeple is a fabrication. Gate 1 hold \u2014 rework: render the towerless crossing. Scene stays Candidate until Cosmo QC re-audits."
     }
-  ]
+  ],
+  "approved_at": "2026-10-10T08:08:17.729947+00:00",
+  "approval_basis": "Abbaye de Fontenay: towerless Cistercian church, minor roof bellcote only (2x zoom verified) \u2014 clears 2026-09-30 hold by re-audit. Label bar: Abbaye de Fontenay, Marmagne, 23 September 2026 \u00b7 22:00 Europe/Paris. Weather 2026-09-25T23:50:32Z. Faint ghost remnants cosmetic. Text-prompt-only."
 }
