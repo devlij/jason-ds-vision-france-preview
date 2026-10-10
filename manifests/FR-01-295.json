@@ -5,7 +5,7 @@
   "city": "Petite-Île",
   "caption": "Grande Anse, Petite-Île",
   "scenario_label": "24 September 2026 · 02:00 Indian/Reunion",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-295-16x9.png",
   "file_4x5": "assets/fr-01-295-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,9 @@
       "sha256": "175c2814b51574ca4573f542631c4ffcd901a2108b4f46bf0f5ea80248db21bd"
     }
   },
-  "sha256_4x5": "175c2814b51574ca4573f542631c4ffcd901a2108b4f46bf0f5ea80248db21bd"
+  "sha256_4x5": "175c2814b51574ca4573f542631c4ffcd901a2108b4f46bf0f5ea80248db21bd",
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10 batch2: PASS on all five gates. FR-01-295** (Grande Anse, Petite-Île, Réunion, night): Black-sand beach with surf breaking on volcanic rocks at 02:00, dark sky. Caption \"Grande Anse, Petite-Île\", scenario \"24 September 2026 · 02:00 Indian/Reunion\". 1920x1270 PNG verified. Weather retrieval 2026-09-25T23:54:32, per-scene own call. Text-prompt-only; no people/logos. Night.\n\n**FR-01-302** (Château de Serrant, Saint-Georges-sur-Loir",
+  "approved_at": "2026-10-10T11:44:00-04:00",
+  "sha256_file_16x9": "a6518958165f744eb791219ce1b38a0b6c81cc09bf65d2734d524698afde1436"
 }
