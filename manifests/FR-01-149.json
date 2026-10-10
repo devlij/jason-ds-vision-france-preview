@@ -3,9 +3,9 @@
   "country": "France",
   "region": "Martinique",
   "city": "Saint-Pierre",
-  "caption": "Théâtre de Saint-Pierre, Saint-Pierre",
-  "scenario_label": "23 September 2026 · 16:00 America/Martinique",
-  "approval_status": "Candidate",
+  "caption": "Th\u00e9\u00e2tre de Saint-Pierre, Saint-Pierre",
+  "scenario_label": "23 September 2026 \u00b7 16:00 America/Martinique",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-149-16x9.png",
   "file_4x5": "assets/fr-01-149-4x5.png",
   "sha256_16x9": "97a7f134c26f8ce349539839995c309028f182b41386712059ba2a9f571ad830",
@@ -21,5 +21,8 @@
       "sha256": "68de0ac1ac2d22296b3298f5bc1e5eeb04dd4205c8a770213a5818672cdd788d"
     }
   },
-  "sha256_4x5": "68de0ac1ac2d22296b3298f5bc1e5eeb04dd4205c8a770213a5818672cdd788d"
+  "sha256_4x5": "68de0ac1ac2d22296b3298f5bc1e5eeb04dd4205c8a770213a5818672cdd788d",
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Daylight",
+  "approved_at": "2026-10-10T08:08:17.729947+00:00",
+  "approval_basis": "Th\u00e9\u00e2tre de Saint-Pierre ruins: double curved staircase and arched pavilion as 1902-eruption ruins. Label bar: Th\u00e9\u00e2tre de Saint-Pierre, Saint-Pierre, 23 September 2026 \u00b7 16:00 America/Martinique. Weather 2026-09-25T23:49:38Z (valid 16:00). No ghost text. Text-prompt-only."
 }
