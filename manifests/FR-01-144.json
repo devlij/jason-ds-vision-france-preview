@@ -4,7 +4,7 @@
   "region": "Grand Est",
   "city": "Metz",
   "caption": "Metz Cathedral, Metz",
-  "scenario_label": "23 September 2026 \u00b7 21:30 Europe/Paris",
+  "scenario_label": "23 September 2026 · 21:30 Europe/Paris",
   "approval_status": "Approved",
   "file_16x9": "assets/fr-01-144-16x9.png",
   "file_4x5": "assets/fr-01-144-4x5.png",
@@ -33,9 +33,9 @@
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Metz Cathedral, Metz",
-    "on_image_signature": "Jason D\u2019s Vision",
-    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
-    "on_image_marking": "\u2600 Daylight variant \u00b7 derived from the night interpretation",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
@@ -53,7 +53,10 @@
     }
   },
   "sha256_4x5": "21fb5c7deab7a9aed0bdd7bd05419d85f82a5873dffa85e39138972b34a6377d",
-  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
-  "approved_at": "2026-10-10T08:08:17.729947+00:00",
-  "approval_basis": "Metz Cathedral floodlit at night: single Tour de Mutte spire, Gothic bays, lamplit plaza \u2014 plausible Metz. Label bar verified: Metz Cathedral, Metz, Scenario: 23 September 2026 \u00b7 21:30 Europe/Paris, AI disclosure, curly-apostrophe signature. Weather retrieval 2026-09-25T23:47:59Z (valid 21:00 hour). No ghost text; 2026-10-06 rework audited. Text-prompt-only, no people/logos."
+  "qc_status": "Approved",
+  "approved_at": "2026-10-10T10:20:00-04:00",
+  "approval_basis": "France QC 2026-10-10: PASS. Jaumont-limestone Gothic cathedral warmly floodlit from Place d'Armes — single Tour de Mutte, long nave with flying buttresses. Caption 'Metz Cathedral, Metz', scenario '23 September 2026 · 21:30 Europe/Paris' inside model hour 21:00 (retrieval 2026-09-25T23:47:59Z, is_day 0). Matches 2026-10-06 rework note (twin towers fixed). 1920x1270/864x1270/1080x2110 verified. Text-prompt-only; no people/logos. Night.",
+  "sha256_file_16x9": "a50ac167cd764e251c59b9f0a33aabeb8dc6bef723ee898bde1c33f8e5b6e633",
+  "sha256_file_4x5": "3ea8ba5c4ceb59ba1b3bdcd675080f35771efd375c8b68a917d79071001f48b5",
+  "sha256_file_9x16": "e147e4449a71b2a22e2e11faeafe07aef2abba668bf70c0fe9c6658da55a4131"
 }
