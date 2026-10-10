@@ -5,7 +5,7 @@
   "city": "Saint-Joseph",
   "caption": "Cascade de Grand Galet, Saint-Joseph",
   "scenario_label": "24 September 2026 · 01:45 Indian/Reunion",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-263-16x9.png",
   "file_4x5": "assets/fr-01-263-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,9 @@
       "sha256": "b8262c8449d233477475b2784359bb626c393d029aa02919b810c09c6917f89e"
     }
   },
-  "sha256_4x5": "b8262c8449d233477475b2784359bb626c393d029aa02919b810c09c6917f89e"
+  "sha256_4x5": "b8262c8449d233477475b2784359bb626c393d029aa02919b810c09c6917f89e",
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10 batch2: PASS on all five gates. FR-01-263** (Cascade de Grand Galet, Saint-Joseph, Réunion, night): Waterfall cascading through dense tropical forest gorge at 01:45, white water against dark foliage. Caption \"Cascade de Grand Galet, Saint-Joseph\", scenario \"24 September 2026 · 01:45 Indian/Reunion\". 1920x1270 PNG verified. Weather retrieval 2026-09-25T23:53:45, per-scene own call. Text-prompt-only; no people/logos. Night.\n\n**FR-",
+  "approved_at": "2026-10-10T11:44:00-04:00",
+  "sha256_file_16x9": "b46b706ab81b3c761b5a663805deba88332bfc1094ddbdc74877958b09a0e3fc"
 }
