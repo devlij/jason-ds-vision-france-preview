@@ -5,7 +5,7 @@
   "city": "Chaumont-sur-Loire",
   "caption": "Château de Chaumont, Chaumont-sur-Loire",
   "scenario_label": "23 September 2026 · 23:15 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-235-16x9.png",
   "file_4x5": "assets/fr-01-235-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,9 @@
       "sha256": "0b62ebceb97850d64358ef644a9a8defd62a77e083c1e03f85191ebee92f3719"
     }
   },
-  "sha256_4x5": "0b62ebceb97850d64358ef644a9a8defd62a77e083c1e03f85191ebee92f3719"
+  "sha256_4x5": "0b62ebceb97850d64358ef644a9a8defd62a77e083c1e03f85191ebee92f3719",
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10 batch2: PASS on all five gates. FR-01-235** (Château de Chaumont, Chaumont-sur-Loire, night): Château silhouette with round towers against moonlit cloudy sky at 23:15. Caption \"Château de Chaumont, Chaumont-sur-Loire\", scenario \"23 September 2026 · 23:15 Europe/Paris\". 1920x1270 PNG verified. Weather retrieval 2026-09-25T23:52:16, per-scene own call. Text-prompt-only; no people/logos. Marginal on legibility (very dark silhouette",
+  "approved_at": "2026-10-10T11:44:00-04:00",
+  "sha256_file_16x9": "fb1f70c92b8d02acbbe5eccdb91d5822f38098a9a219b3a088e03ce6654cd5ea"
 }
