@@ -5,7 +5,7 @@
   "city": "Douai",
   "caption": "Beffroi de Douai, Douai",
   "scenario_label": "24 September 2026 · 00:15 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-316-16x9.png",
   "file_4x5": "assets/fr-01-316-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,9 @@
       "sha256": "2d5aa5fb712f690ab2511b8f389160fbda91e1cc2afff501481b4c0c8f44d737"
     }
   },
-  "sha256_4x5": "2d5aa5fb712f690ab2511b8f389160fbda91e1cc2afff501481b4c0c8f44d737"
+  "sha256_4x5": "2d5aa5fb712f690ab2511b8f389160fbda91e1cc2afff501481b4c0c8f44d737",
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10 batch2: PASS on all five gates. FR-01-316** (Beffroi de Douai, Douai, night): Gothic belfry tower with openwork crown, moonlit, flanking town hall ranges. Caption \"Beffroi de Douai, Douai\", scenario \"24 September 2026 · 00:15 Europe/Paris\". 1920x1270 PNG verified. Weather retrieval 2026-09-25T23:55:04, per-scene own call. Text-prompt-only; no people/logos. Night.\n\n**FR-01-320** (Château de Bussy-Rabutin, Bussy-le-Grand, night): ",
+  "approved_at": "2026-10-10T11:44:00-04:00",
+  "sha256_file_16x9": "c2134bdb966449f6d272b17564ca2d7c02c0111c6c600780554b07030fa6ed68"
 }
