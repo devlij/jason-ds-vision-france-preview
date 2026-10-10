@@ -174,7 +174,7 @@
 .lb-play{width:44px;height:44px;min-width:44px;font-size:16px;margin-top:12px}
 .lb-play.playing{border-color:#d4a017;color:#ffd75e;box-shadow:0 0 12px rgba(212,160,23,.45)}
 .lb-narrate{width:44px;height:44px;min-width:44px;font-size:17px;margin-top:12px}
-.lb-narrate.playing{border-color:#d4a017;color:#ffd75e;box-shadow:0 0 12px rgba(212,160,23,.45)}
+.lb-narrate.playing{border-color:#d4a017;color:#ffd75e;box-shadow:0 0 12px rgba(212,160,23,.45)}.lb-tour{background:rgba(13,19,34,.85);color:#eef1f8;border:1px solid #2a3a5c;border-radius:999px;cursor:pointer;line-height:1;width:44px;height:44px;min-width:44px;font-size:17px;margin-top:12px}.lb-tour.active{border-color:#d4a017;color:#ffd75e;box-shadow:0 0 12px rgba(212,160,23,.45)}
 
 .wotd{border-top:1px solid rgba(255,255,255,.12);border-bottom:1px solid rgba(255,255,255,.12);background:#141419;padding:10px 24px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;font-size:14px;line-height:1.5}
 .wotd .kicker{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8f8a7d;font-weight:600;white-space:nowrap}
@@ -9717,7 +9717,7 @@ const FRANCE_POSTCARD = {"FR-01-001":["assets/fr-01-001-postcard-16x9.png","asse
   overlay.className='lb';overlay.setAttribute('aria-hidden','true');
   overlay.innerHTML='<button class="lb-close" aria-label="Close">&times;</button>'
     +'<div class="lb-nav"><button class="lb-prev" aria-label="Previous image">&#8249;</button><span class="lb-count"></span><button class="lb-next" aria-label="Next image">&#8250;</button></div>'
-    +'<figure><img><figcaption><span class="lb-cap"></span></figcaption><button class="lb-play" aria-label="Play slideshow">&#9654;</button><button class="lb-narrate" aria-label="Listen to the scene description" style="display:none">&#128266;</button></figure>';
+    +'<figure><img><figcaption><span class="lb-cap"></span></figcaption><button class="lb-play" aria-label="Play slideshow">&#9654;</button><button class="lb-narrate" aria-label="Listen to the scene description" style="display:none">&#128266;</button><button class="lb-tour" aria-label="Start the narrated tour from this scene" style="display:none">&#127911;</button></figure>';
   document.body.appendChild(overlay);
   var img=overlay.querySelector('img'),cap=overlay.querySelector('.lb-cap'),count=overlay.querySelector('.lb-count');
   (function seedAlt(){
@@ -9739,6 +9739,34 @@ const FRANCE_POSTCARD = {"FR-01-001":["assets/fr-01-001-postcard-16x9.png","asse
   function narrStop(){if(narrAudio){narrAudio.pause();narrAudio=null;}narrUrl=null;narrResetBtns();}
   function narrPlay(url,btn){narrStop();narrUrl=url;try{narrAudio=new Audio(url);narrAudio.onended=narrStop;narrAudio.onerror=narrStop;narrAudio.play();}catch(e){narrStop();return;}btn.classList.add('playing');btn.setAttribute('aria-pressed','true');if(btn.classList.contains('narrate')){btn.innerHTML='&#10074;&#10074; Pause';}}
   function narrHandle(btn){var url=btn.getAttribute('data-audio');if(!url)return;if(narrUrl===url&&narrAudio&&!narrAudio.paused){narrStop();}else{narrPlay(url,btn);}}
+  var tourBtn=overlay.querySelector('.lb-tour');
+  var tourMode=false;
+  var suppressTourStop=false;
+  window.__narrTourNext=null;
+  function setTourState(on){tourBtn.classList.toggle('active',on);tourBtn.setAttribute('aria-label',on?'Stop the narrated tour':'Start the narrated tour from this scene');}
+  function playNarrArmed(){
+    var cur=items[idx];var src=cur?cur.audio:'';
+    if(!src){tourAdvance();return;}
+    narrStop();
+    try{
+      narrAudio=new Audio(src);narrUrl=src;
+      window.__narrTourNext=tourAdvance;
+      narrAudio.onended=function(){var fn=window.__narrTourNext;window.__narrTourNext=null;if(fn)fn();else narrStop();};
+      narrAudio.onerror=function(){var fn=window.__narrTourNext;window.__narrTourNext=null;if(fn)fn();else narrStop();};
+      narrAudio.play().catch(function(){var fn=window.__narrTourNext;window.__narrTourNext=null;if(fn)fn();else narrStop();});
+      lbNarr.classList.add('playing');lbNarr.setAttribute('aria-pressed','true');
+    }catch(e){var fn=window.__narrTourNext;window.__narrTourNext=null;if(fn)fn();}
+  }
+  function tourAdvance(){
+    if(!tourMode)return;
+    suppressTourStop=true;
+    try{show(idx+1);}finally{suppressTourStop=false;}
+    setTimeout(function(){if(tourMode)playNarrArmed();},350);
+  }
+  function startTour(){tourMode=true;setTourState(true);playNarrArmed();}
+  function stopTour(){tourMode=false;window.__narrTourNext=null;setTourState(false);narrStop();}
+  function toggleTour(){if(tourMode){stopTour();}else{startTour();}}
+  window.__tourStop=stopTour;
   var items=[],idx=0;
   var lbFormat='16x9';/* lightbox-session format: seeded from the opening card's active tab; persists across prev/next + slideshow, never reset to 16:9 */
   var lbDay='night';/* lightbox-session day/night: seeded from the opening card's active day tab; persists across prev/next and slideshow navigation */
@@ -9767,15 +9795,16 @@ const FRANCE_POSTCARD = {"FR-01-001":["assets/fr-01-001-postcard-16x9.png","asse
     idx=(i+items.length)%items.length;
     img.src=items[idx].src;img.alt=items[idx].alt||items[idx].cap;cap.textContent=items[idx].cap;
     count.textContent=(idx+1)+' / '+items.length;
-    narrStop();var curAu=items[idx].audio||'';if(curAu){lbNarr.setAttribute('data-audio',curAu);lbNarr.style.display='';}else{lbNarr.removeAttribute('data-audio');lbNarr.style.display='none';}
+    if(tourMode&&!suppressTourStop)stopTour();narrStop();var curAu=items[idx].audio||'';if(curAu){lbNarr.setAttribute('data-audio',curAu);lbNarr.style.display='';tourBtn.style.display='';}else{lbNarr.removeAttribute('data-audio');lbNarr.style.display='none';tourBtn.style.display='none';}
     if(playing){if(timer)clearInterval(timer);timer=setInterval(function(){show(idx+1);},SLIDE_MS);}
     overlay.classList.add('open');overlay.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';
   }
-  function hide(){stopSlide();narrStop();overlay.classList.remove('open');overlay.setAttribute('aria-hidden','true');document.body.style.overflow='';}
+  function hide(){if(tourMode)stopTour();stopSlide();narrStop();overlay.classList.remove('open');overlay.setAttribute('aria-hidden','true');document.body.style.overflow='';}
   renderPlay();
   document.addEventListener('click',function(e){
     var nb=e.target.closest?e.target.closest('.narrate,.lb-narrate'):null;
-    if(nb){e.preventDefault();narrHandle(nb);return;}
+    if(nb){e.preventDefault();if(tourMode)stopTour();narrHandle(nb);return;}
+    else if(e.target.closest&&e.target.closest('.lb-tour')){e.preventDefault();toggleTour();tourBtn.blur();return;}
     if(e.target.closest&&e.target.closest('video.motion-clip'))return;
     var a=e.target.closest?e.target.closest('a.thumb'):null;
     if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active');lbFormat=(tab&&tab.getAttribute('data-format')==='9x16')?'9x16':(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';var dtab=card.querySelector('.day-tab.is-active');lbDay=(dtab&&dtab.getAttribute('data-daynight')==='day')?'day':'night';show(cards.indexOf(card));return;}
