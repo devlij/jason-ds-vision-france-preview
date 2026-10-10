@@ -5,7 +5,7 @@
   "city": "Troyes",
   "caption": "Cathédrale de Troyes, Troyes",
   "scenario_label": "23 September 2026 · 23:30 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-255-16x9.png",
   "file_4x5": "assets/fr-01-255-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,9 @@
       "sha256": "5d79dd3e42f38bb8cd99c245ba59298766ed7310e8a3eedb5dd96f6640e444f7"
     }
   },
-  "sha256_4x5": "5d79dd3e42f38bb8cd99c245ba59298766ed7310e8a3eedb5dd96f6640e444f7"
+  "sha256_4x5": "5d79dd3e42f38bb8cd99c245ba59298766ed7310e8a3eedb5dd96f6640e444f7",
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10 batch2: PASS on all five gates. FR-01-255** (Cathédrale de Troyes, Troyes, night): Gothic cathedral with tall openwork spire, moonlit limestone façade, town lamps below. Caption \"Cathédrale de Troyes, Troyes\", scenario \"23 September 2026 · 23:30 Europe/Paris\". 1920x1270 PNG verified. Weather retrieval 2026-09-25T23:52:47, per-scene own call. Text-prompt-only; no people/logos. Night.\n\n**FR-01-263** (Cascade de Grand Galet, Saint-",
+  "approved_at": "2026-10-10T11:44:00-04:00",
+  "sha256_file_16x9": "cdbd64ea101d5352a54da39b451900f1b448bb3b4f235de64c7372cda5c16847"
 }
