@@ -4,8 +4,8 @@
   "region": "Corsica",
   "city": "Bastia",
   "caption": "Vieux port, Bastia",
-  "scenario_label": "23 September 2026 · 22:45 Europe/Paris",
-  "approval_status": "Candidate",
+  "scenario_label": "23 September 2026 \u00b7 22:45 Europe/Paris",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-204-16x9.png",
   "file_4x5": "assets/fr-01-204-4x5.png",
   "daylight_variant": {
@@ -33,9 +33,9 @@
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Vieux port, Bastia",
-    "on_image_signature": "Jason D’s Vision",
-    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
-    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "on_image_signature": "Jason D\u2019s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
+    "on_image_marking": "\u2600 Daylight variant \u00b7 derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
@@ -52,5 +52,8 @@
       "sha256": "5ca006dd015c98a7cd2c6a1ad8f7fea8ae1e9820d12381a4aadefcb974a5e229"
     }
   },
-  "sha256_4x5": "5ca006dd015c98a7cd2c6a1ad8f7fea8ae1e9820d12381a4aadefcb974a5e229"
+  "sha256_4x5": "5ca006dd015c98a7cd2c6a1ad8f7fea8ae1e9820d12381a4aadefcb974a5e229",
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
+  "approved_at": "2026-10-10T08:08:17.729947+00:00",
+  "approval_basis": "Vieux port Bastia: moonlit harbor, fishing boats, lamp-lit hillside with citadel church. Label bar: Vieux port, Bastia, 23 September 2026 \u00b7 22:45 Europe/Paris. Weather 2026-09-25T23:51:31Z (code 0/0%). No ghost text. Text-prompt-only."
 }
