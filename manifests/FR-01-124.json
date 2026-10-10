@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is passage du Gois submersible tidal causeway across Baie de Bourgneuf salt-marsh flats. The place named on the card is Île de Noirmoutier / Passage du Gois or harbor, Noirmoutier-en-l'Île, in Pays de la Loire. Model data from Open-Meteo, retrieved 2026-09-29T22:11:50+02:00 (2026-09-29T20:11:50Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 13%, 23.6°C, wind 18.5 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Île de Noirmoutier / Passage du Gois under clear late-afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-124-16x9.png?v=wx12429",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-124-4x5.png?v=wx12429",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -38,5 +38,11 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC 2026-10-09 Gate 2 hold: residual ghost-scrim text baked over the photo area (native-resolution confirmed over the water). Same 2026-09-29 refinish residue. Rework: clean finish, no text over the artwork."
     }
-  ]
+  ],
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10: PASS. Elevated view of submersible tidal causeway as pale sand ribbon across Baie de Bourgneuf at low tide. Caption 'Île de Noirmoutier / Passage du Gois', scenario '23 September 2026 · 18:16 Europe/Paris' inside model hour 18:00 (retrieval 2026-09-29T22:11:50+02:00, code 0, cloud 13%). 1920x1270/864x1270/1080x2110 verified. Text-prompt-only; no people/logos. Daylight.",
+  "approved_at": "2026-10-10T10:20:00-04:00",
+  "sha256_file_16x9": "2f917207f0258ac45b54b99d1d546755606a74293e268fd678c1296951e838c6",
+  "sha256_file_4x5": "68194b12434c21d634866343344cc038a257d808caacd8bf0ab3badddacdf7cb",
+  "sha256_file_9x16": "eeda76fdf958b29611603663a0087dd2d8a1fdf63fd86255d6a5f9807e59c988"
 }
