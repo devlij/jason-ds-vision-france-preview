@@ -5,7 +5,7 @@
   "city": "Hautefort",
   "caption": "Château de Hautefort, Hautefort",
   "scenario_label": "23 September 2026 · 23:45 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-288-16x9.png",
   "file_4x5": "assets/fr-01-288-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,9 @@
       "sha256": "0dd1423f030867b995a3b2da23ce48faee263e11963a025758730f24986d958d"
     }
   },
-  "sha256_4x5": "0dd1423f030867b995a3b2da23ce48faee263e11963a025758730f24986d958d"
+  "sha256_4x5": "0dd1423f030867b995a3b2da23ce48faee263e11963a025758730f24986d958d",
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10 batch2: PASS on all five gates. FR-01-288** (Château de Hautefort, Hautefort, night): Long limestone château on fortified hilltop terrace, moonlit, forested slopes below. Caption \"Château de Hautefort, Hautefort\", scenario \"23 September 2026 · 23:45 Europe/Paris\". 1920x1270 PNG verified. Weather retrieval 2026-09-25T23:54:22, per-scene own call. Text-prompt-only; no people/logos. Night.\n\n**FR-01-289** (Sandy Ground, Saint-Martin",
+  "approved_at": "2026-10-10T11:44:00-04:00",
+  "sha256_file_16x9": "a7b249f5c1f6ccdfc7c1864ba2e90d6463866a53736de4cd05c9f0fe4269e7b1"
 }
