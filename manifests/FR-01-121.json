@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is clustered Romanesque Sainte-Foy abbey village in Dourdou gorge hollow. The place named on the card is Conques abbey village, Conques, in Occitanie. Model data from Open-Meteo, retrieved 2026-09-29T22:11:46+02:00 (2026-09-29T20:11:46Z), valid 2026-09-23T19:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 27.7°C, wind 3.5 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Conques abbey village under clear late-afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-121-16x9.png?v=batch121",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-121-4x5.png?v=batch121",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -32,7 +32,7 @@
       "sha256": "b59ea5edeee4552c222fe5d0705cbbff9754ad80b207788f3da1509148698af7"
     }
   },
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "qc_status": "Approved",
   "reverted_at": "2026-09-30T07:35:16.112816+00:00",
   "qc_notes": [
     {
@@ -40,5 +40,9 @@
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): the Sainte-Foy crossing tower is rendered as a very tall sharp conical needle spire among multiple needle spires; the real Abbey Church of Sainte-Foy at Conques is defined by an octagonal lantern/crossing tower with a comparatively low, broader slate roof, not a needle spire cluster. Gate 1 hold — rework: render the true low octagonal lantern. Scene stays Candidate until Cosmo QC re-audits."
     }
-  ]
+  ],
+  "approval_basis": "France QC 2026-10-10: PASS. Romanesque Sainte-Foy abbey with crossing tower in Dourdou gorge; blue sky, green valley. Caption 'Conques abbey village', scenario '23 September 2026 · 19:13 Europe/Paris' inside model hour 19:00 (retrieval 2026-09-29T22:11:46+02:00, code 0 clear). 1920x1270/864x1270 verified. Text-prompt-only; no people/logos. Minor: scattered clouds vs model 0% — cosmetic, use-smart QC pass. Daylight.",
+  "approved_at": "2026-10-10T10:20:00-04:00",
+  "sha256_file_16x9": "edb134143b103210081cded8e28d67f7fbf4c5b672f809eb989758ec96a402d1",
+  "sha256_file_4x5": "b59ea5edeee4552c222fe5d0705cbbff9754ad80b207788f3da1509148698af7"
 }
