@@ -5,7 +5,7 @@
   "city": "Ajaccio",
   "caption": "Phare des îles Sanguinaires, Ajaccio",
   "scenario_label": "24 September 2026 · 00:30 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-331-16x9.png",
   "file_4x5": "assets/fr-01-331-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,9 @@
       "sha256": "b55cbfb2cfec5d54d6857ac58099752be4da86fdbdb498e65b4599246db85ace"
     }
   },
-  "sha256_4x5": "b55cbfb2cfec5d54d6857ac58099752be4da86fdbdb498e65b4599246db85ace"
+  "sha256_4x5": "b55cbfb2cfec5d54d6857ac58099752be4da86fdbdb498e65b4599246db85ace",
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10 batch2: PASS on all five gates. FR-01-331** (Phare des îles Sanguinaires, Ajaccio, Corsica, night): Lighthouse with lit lamp on rocky islet, starry sky, moonlit sea. Caption \"Phare des îles Sanguinaires, Ajaccio\", scenario \"24 September 2026 · 00:30 Europe/Paris\". 1920x1270 PNG verified. Weather retrieval 2026-09-25T23:55:25, per-scene own call. Text-prompt-only; no people/logos. Night.\n",
+  "approved_at": "2026-10-10T11:44:00-04:00",
+  "sha256_file_16x9": "7505ee00dda98922e119cbeee3b813d4b6a6c7eaa767272ca8a297c5c14286a5"
 }
