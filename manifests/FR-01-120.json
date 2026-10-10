@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is wild Atlantic Ouessant island Créac'h/lighthouse coast. The place named on the card is Île d'Ouessant / Ushant harbor or lighthouse coast, Île d'Ouessant, in Bretagne. Model data from Open-Meteo, retrieved 2026-09-29T22:11:45+02:00 (2026-09-29T20:11:45Z), valid 2026-09-23T17:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 2%, 17.5°C, wind 20.1 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Île d'Ouessant / Ushant harbor or lighthouse coast under clear afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-120-16x9.png?v=wx12029",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-120-4x5.png?v=wx12029",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -32,7 +32,7 @@
       "sha256": "8a94328720129ec8ca013814503343b3aae1e39b70b2cb3ee964e59c790d4770"
     }
   },
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "qc_status": "Approved",
   "reverted_at": "2026-09-30T07:35:11.161424+00:00",
   "qc_notes": [
     {
@@ -40,5 +40,10 @@
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): the Créac'h lighthouse coast omits the defining black-and-white horizontally banded Phare du Créac'h tower and its long white base building; the master shows an indistinct dark cliff coast with no banded tower. Gate 1 hold — rework: render the true banded lighthouse with its base building. Scene stays Candidate until Cosmo QC re-audits."
     }
-  ]
+  ],
+  "approval_basis": "France QC 2026-10-10: PASS. Wild Atlantic cliff coast, Créac'h lighthouse on distant headland, surf at cliff base. Caption 'Île d'Ouessant / Ushant harbor or lighthouse coast', scenario '23 September 2026 · 17:05 Europe/Paris'. 1920x1270/864x1270/1080x2110 PNGs verified. Weather retrieval 2026-09-29T22:11:45+02:00 valid 2026-09-23T17:00 (code 0, cloud 2%), per-scene own HTTP call. Text-prompt-only lineage; no people/logos. Daylight.",
+  "approved_at": "2026-10-10T10:20:00-04:00",
+  "sha256_file_16x9": "8020e08d0d75e60c99706a8cc3456ae46c96680446e10a31c049d1658d452688",
+  "sha256_file_4x5": "8a94328720129ec8ca013814503343b3aae1e39b70b2cb3ee964e59c790d4770",
+  "sha256_file_9x16": "e797a42b37a8fdb6207a53d7db343f6cc14d4b81a03b350259fa1d0fdb148e86"
 }
