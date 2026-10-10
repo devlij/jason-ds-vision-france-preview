@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is plantagenet royal abbey cloister arcade / Grand Moûtier limestone complex. The place named on the card is Abbaye Royale de Fontevraud, Fontevraud-l'Abbaye, in Pays de la Loire. Model data from Open-Meteo, retrieved 2026-09-29T22:11:47+02:00 (2026-09-29T20:11:47Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 0%, 28.4°C, wind 8.3 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Abbaye Royale de Fontevraud under clear late-afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-122-16x9.png?v=wx12229",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-122-4x5.png?v=wx12229",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -38,5 +38,10 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC 2026-10-09 Gate 2 hold: residual ghost-scrim text baked over the photo area (native-resolution confirmed: old caption/scenario/disclosure fragments across the lower lawn). The 2026-09-29 label-bar refinish left the old on-image text behind. Rework: regenerate the finish from clean masters with no text over the artwork."
     }
-  ]
+  ],
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10: PASS. Pale limestone cloister arcade of Grand Moûtier, pointed arches, clear blue sky. Caption 'Abbaye Royale de Fontevraud', scenario '23 September 2026 · 18:14 Europe/Paris' inside model hour 18:00 (retrieval 2026-09-29T22:11:47+02:00, code 0). 1920x1270/864x1270 verified. Text-prompt-only; no people/logos. Daylight.",
+  "approved_at": "2026-10-10T10:20:00-04:00",
+  "sha256_file_16x9": "75fb72f83a849368810487a8f5c3c545caa05e2162728426ff88fe944852aac4",
+  "sha256_file_4x5": "761ca42b32c40d2d8aa2da53697ba0ec933a83b70f24d26273659bd1112290f5"
 }
