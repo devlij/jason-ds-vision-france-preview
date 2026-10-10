@@ -1,10 +1,10 @@
 {
   "entry_id": "FR-01-171",
   "country": "France",
-  "region": "Bourgogne-Franche-Comt\u00e9",
+  "region": "Bourgogne-Franche-Comté",
   "city": "Cluny",
   "caption": "Abbaye de Cluny, Cluny",
-  "scenario_label": "23 September 2026 \u00b7 22:15 Europe/Paris",
+  "scenario_label": "23 September 2026 · 22:15 Europe/Paris",
   "approval_status": "Approved",
   "file_16x9": "assets/fr-01-171-16x9.png",
   "file_4x5": "assets/fr-01-171-4x5.png",
@@ -33,9 +33,9 @@
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Abbaye de Cluny, Cluny",
-    "on_image_signature": "Jason D\u2019s Vision",
-    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
-    "on_image_marking": "\u2600 Daylight variant \u00b7 derived from the night interpretation",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
@@ -53,7 +53,10 @@
     }
   },
   "sha256_4x5": "2d8f4a61aae2638f7dd1cfc882380d4419afd36663dcb15cbd5cf76965ed05ad",
-  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
-  "approved_at": "2026-10-10T08:08:17.729947+00:00",
-  "approval_basis": "Abbaye de Cluny: south-transept octagonal tower with spire, domed Eau B\u00e9nite tower, lamp-lit ranges. Label bar: Abbaye de Cluny, Cluny, 23 September 2026 \u00b7 22:15 Europe/Paris. Weather 2026-09-25T23:50:52Z. No ghost text. Text-prompt-only."
+  "qc_status": "Approved",
+  "approved_at": "2026-10-10T10:20:00-04:00",
+  "approval_basis": "France QC 2026-10-10: PASS. Surviving octagonal Clocher de l'Eau Bénite with spire and transept wall at night, moonlit cloud — no invented nave. Caption 'Abbaye de Cluny, Cluny', scenario '23 September 2026 · 22:15 Europe/Paris' inside model hour 22:00 (retrieval 2026-09-25T23:50:52Z, is_day 0). 1920x1270/864x1270/1080x2110 verified. Text-prompt-only; no people/logos. Night.",
+  "sha256_file_16x9": "dca4968b4d09fb2c07b4effe3a853b70f099468ca20484f7d120d6f1340687c2",
+  "sha256_file_4x5": "c7920f75336322d508d1b91022b1a355d1ce199ce24441e938f0a5ff88fbe007",
+  "sha256_file_9x16": "1b551d8520aa38a85b6044a3c55411af6e1e095d53b2da08cf78b46e91dce72d"
 }
