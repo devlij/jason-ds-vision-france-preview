@@ -5,7 +5,7 @@
   "city": "Châteaudun",
   "caption": "Château de Châteaudun, Châteaudun",
   "scenario_label": "24 September 2026 · 00:00 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-304-16x9.png",
   "file_4x5": "assets/fr-01-304-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,9 @@
       "sha256": "b31858120ec5acd04f36b3485244aade07cf052b004c3fe96219ee1aa78b53a8"
     }
   },
-  "sha256_4x5": "b31858120ec5acd04f36b3485244aade07cf052b004c3fe96219ee1aa78b53a8"
+  "sha256_4x5": "b31858120ec5acd04f36b3485244aade07cf052b004c3fe96219ee1aa78b53a8",
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10 batch2: PASS on all five gates. FR-01-304** (Château de Châteaudun, Châteaudun, night): Medieval fortress with round keep on limestone cliff at midnight, town roofs below. Caption \"Château de Châteaudun, Châteaudun\", scenario \"24 September 2026 · 00:00 Europe/Paris\". 1920x1270 PNG verified. Weather retrieval 2026-09-25T23:54:46, per-scene own call. Text-prompt-only; no people/logos. Night.\n\n**FR-01-306** (Phare de Pointe-Plate, ",
+  "approved_at": "2026-10-10T11:44:00-04:00",
+  "sha256_file_16x9": "2103ee70252cf783011886c002fc8b239466153ea615c120f69c26033ce6ee35"
 }
