@@ -1,58 +1,56 @@
 {
- "entry_id": "FR-01-363",
- "country": "France",
- "region": "Île-de-France",
- "city": "Paris",
- "caption": "Centre Pompidou, Paris",
- "scenario_label": "24 September 2026 · 01:00 Europe/Paris",
- "approval_status": "Approved",
- "file_16x9": "assets/fr-01-363-16x9.png",
- "file_4x5": "assets/fr-01-363-4x5.png",
- "daylight_variant": {
-  "variant_of_entry_id": "FR-01-363",
-  "approval_status_of_source": "Candidate",
-  "derived_from": "Candidate night master assets/fr-01-363-16x9.png (16:9) and assets/fr-01-363-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
-  "source_night": {
-   "16x9": {
-    "path": "assets/fr-01-363-16x9.png",
-    "sha256": "7b833ce199047e0358d7b5cd0775ab4f9a5546201718472b2322f1145afc5821"
-   },
-   "4x5": {
-    "path": "assets/fr-01-363-4x5.png",
-    "sha256": "13ff688ca1810ab12439def4a9ecdf382a16d83236b5a94fa7893050f9296ecc"
-   },
-   "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
+  "entry_id": "FR-01-363",
+  "country": "France",
+  "region": "Île-de-France",
+  "city": "Paris",
+  "caption": "Centre Pompidou, Paris",
+  "scenario_label": "24 September 2026 · 01:00 Europe/Paris",
+  "approval_status": "Candidate",
+  "file_16x9": "assets/fr-01-363-16x9.png",
+  "file_4x5": "assets/fr-01-363-4x5.png",
+  "daylight_variant": {
+    "variant_of_entry_id": "FR-01-363",
+    "approval_status_of_source": "Candidate",
+    "derived_from": "Candidate night master assets/fr-01-363-16x9.png (16:9) and assets/fr-01-363-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "assets/fr-01-363-16x9.png",
+        "sha256": "7b833ce199047e0358d7b5cd0775ab4f9a5546201718472b2322f1145afc5821"
+      },
+      "4x5": {
+        "path": "assets/fr-01-363-4x5.png",
+        "sha256": "13ff688ca1810ab12439def4a9ecdf382a16d83236b5a94fa7893050f9296ecc"
+      },
+      "recorded": "SHA-256 of the night masters after the 190px label-bar re-finish."
+    },
+    "files": {
+      "16x9": "assets/fr-01-363-daylight-16x9.png",
+      "4x5": "assets/fr-01-363-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "399954c06552309b4988a2baab348464ea5233563fe6ff2fc20055b0995b471f",
+      "4x5": "ca998b8168fe599a58304446ad106753475e13ad748da23f5fb8f36a943c86a3"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Centre Pompidou, Paris",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
-  "files": {
-   "16x9": "assets/fr-01-363-daylight-16x9.png",
-   "4x5": "assets/fr-01-363-daylight-4x5.png"
+  "sha256_16x9": "7b833ce199047e0358d7b5cd0775ab4f9a5546201718472b2322f1145afc5821",
+  "dimensions": {
+    "16x9": {
+      "width": 1920,
+      "height": 1270,
+      "sha256": "7b833ce199047e0358d7b5cd0775ab4f9a5546201718472b2322f1145afc5821"
+    },
+    "4x5": {
+      "width": 864,
+      "height": 1270,
+      "sha256": "13ff688ca1810ab12439def4a9ecdf382a16d83236b5a94fa7893050f9296ecc"
+    }
   },
-  "sha256": {
-   "16x9": "399954c06552309b4988a2baab348464ea5233563fe6ff2fc20055b0995b471f",
-   "4x5": "ca998b8168fe599a58304446ad106753475e13ad748da23f5fb8f36a943c86a3"
-  },
-  "created_date": "2026-09-26",
-  "on_image_caption": "Centre Pompidou, Paris",
-  "on_image_signature": "Jason D’s Vision",
-  "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
-  "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-  "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-  "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
- },
- "sha256_16x9": "7b833ce199047e0358d7b5cd0775ab4f9a5546201718472b2322f1145afc5821",
- "dimensions": {
-  "16x9": {
-   "width": 1920,
-   "height": 1270,
-   "sha256": "7b833ce199047e0358d7b5cd0775ab4f9a5546201718472b2322f1145afc5821"
-  },
-  "4x5": {
-   "width": 864,
-   "height": 1270,
-   "sha256": "13ff688ca1810ab12439def4a9ecdf382a16d83236b5a94fa7893050f9296ecc"
-  }
- },
- "sha256_4x5": "13ff688ca1810ab12439def4a9ecdf382a16d83236b5a94fa7893050f9296ecc",
- "qc_notes": "QC batch 3 (2026-10-10): five-gate audit PASS. Gate 1 visual/location: PASS — master depicts the captioned site, plausible tourist viewpoint, correct night scenario handling, no artifacts. Gate 2 technical: PASS — 1920x1270 PNG, label bar with caption/scenario/AI-disclosure/Jason D's Vision + script signature, zero tint; Open-Meteo retrieval 2026-09-25T23:57:02Z per-scene own call. Gate 3 originality: PASS — text-prompt-only generation, no photographic input. Gate 4 IP: PASS — no identifiable people, no focal logos. Gate 5 publication: PASS — ready. 16x9 sha256 prefix d6d73e2bd012f316. Approved 2026-10-10.",
- "approved_at": "2026-10-10"
+  "sha256_4x5": "13ff688ca1810ab12439def4a9ecdf382a16d83236b5a94fa7893050f9296ecc"
 }
