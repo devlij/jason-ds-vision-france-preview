@@ -3,8 +3,8 @@
   "country": "France",
   "region": "Martinique",
   "city": "Saint-Pierre",
-  "caption": "Th\u00e9\u00e2tre de Saint-Pierre, Saint-Pierre",
-  "scenario_label": "23 September 2026 \u00b7 16:00 America/Martinique",
+  "caption": "Théâtre de Saint-Pierre, Saint-Pierre",
+  "scenario_label": "23 September 2026 · 16:00 America/Martinique",
   "approval_status": "Approved",
   "file_16x9": "assets/fr-01-149-16x9.png",
   "file_4x5": "assets/fr-01-149-4x5.png",
@@ -22,7 +22,10 @@
     }
   },
   "sha256_4x5": "68de0ac1ac2d22296b3298f5bc1e5eeb04dd4205c8a770213a5818672cdd788d",
-  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Daylight",
-  "approved_at": "2026-10-10T08:08:17.729947+00:00",
-  "approval_basis": "Th\u00e9\u00e2tre de Saint-Pierre ruins: double curved staircase and arched pavilion as 1902-eruption ruins. Label bar: Th\u00e9\u00e2tre de Saint-Pierre, Saint-Pierre, 23 September 2026 \u00b7 16:00 America/Martinique. Weather 2026-09-25T23:49:38Z (valid 16:00). No ghost text. Text-prompt-only."
+  "qc_status": "Approved",
+  "approved_at": "2026-10-10T10:20:00-04:00",
+  "approval_basis": "France QC 2026-10-10: PASS. Ruined 1902 theatre — broken stone staircases, orchestra pit, low ruined walls under tropical vegetation, overcast sky. Caption 'Théâtre de Saint-Pierre', scenario '23 September 2026 · 16:00 America/Martinique' (retrieval 2026-09-25T23:49:38Z, code 3 overcast, cloud 83% — consistent). 1920x1270/864x1270/1080x2110 verified. Text-prompt-only; no people/logos. Daylight.",
+  "sha256_file_16x9": "8db4b09a3399a6590003cd4e939dee25dc0fe62511b2454ce8e5cfe97ed171ed",
+  "sha256_file_4x5": "1e3db46f34a52863d9bfc9883e47947b18fae8c0c3aa0e485b4037eba5116d1d",
+  "sha256_file_9x16": "0d060e70a7e1207014f73c3f14358127f0a0a0d4ba921bfcccb5587d414255ad"
 }
