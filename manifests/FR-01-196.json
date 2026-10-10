@@ -1,11 +1,11 @@
 {
   "entry_id": "FR-01-196",
   "country": "France",
-  "region": "Nouvelle-Calédonie",
-  "city": "Hienghène",
-  "caption": "La Poule de Hienghène, Hienghène",
-  "scenario_label": "24 September 2026 · 07:45 Pacific/Noumea",
-  "approval_status": "Candidate",
+  "region": "Nouvelle-Cal\u00e9donie",
+  "city": "Hiengh\u00e8ne",
+  "caption": "La Poule de Hiengh\u00e8ne, Hiengh\u00e8ne",
+  "scenario_label": "24 September 2026 \u00b7 07:45 Pacific/Noumea",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-196-16x9.png",
   "file_4x5": "assets/fr-01-196-4x5.png",
   "sha256_16x9": "0b4632ad3a05366523b304a99ec43c9bdaf1447394152ce3f417f52387c49639",
@@ -21,5 +21,8 @@
       "sha256": "3cbcb1735ae08288e162b021aa79a71611d804a905cedcc7c8a339071109a54e"
     }
   },
-  "sha256_4x5": "3cbcb1735ae08288e162b021aa79a71611d804a905cedcc7c8a339071109a54e"
+  "sha256_4x5": "3cbcb1735ae08288e162b021aa79a71611d804a905cedcc7c8a339071109a54e",
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Daylight",
+  "approved_at": "2026-10-10T08:08:17.729947+00:00",
+  "approval_basis": "La Poule de Hiengh\u00e8ne: hen-shaped rock, tsingy islets, lagoon from belvedere. Label bar: La Poule de Hiengh\u00e8ne, Hiengh\u00e8ne, 24 September 2026 \u00b7 07:45 Pacific/Noumea. Weather 2026-09-23T20:52:40Z (is_day 1). No ghost text. Text-prompt-only."
 }
