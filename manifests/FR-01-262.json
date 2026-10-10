@@ -21,5 +21,13 @@
       "sha256": "d3cb7dce65d1251ce81041d5b3660939820a0d88275fb9472e3e3611f9ada387"
     }
   },
-  "sha256_4x5": "d3cb7dce65d1251ce81041d5b3660939820a0d88275fb9472e3e3611f9ada387"
+  "sha256_4x5": "d3cb7dce65d1251ce81041d5b3660939820a0d88275fb9472e3e3611f9ada387",
+  "qc_notes": [
+    {
+      "date": "2026-10-10T11:44:00-04:00",
+      "author": "Cosmo (France QC batch2)",
+      "note": "Gate 1 HOLD: Master shows only dark night sky with moon and black hill silhouette — no beach, no sand, no water, no shoreline. Does not depict Plage de Montabo at all. Needs regeneration showing the actual beach, then re-submit for Cosmo QC. Do NOT approve until reworked."
+    }
+  ],
+  "qc_status": "Candidate — Gate 1 hold 2026-10-10 (no beach visible)"
 }
