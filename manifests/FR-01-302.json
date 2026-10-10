@@ -5,7 +5,7 @@
   "city": "Saint-Georges-sur-Loire",
   "caption": "Château de Serrant, Saint-Georges-sur-Loire",
   "scenario_label": "24 September 2026 · 00:00 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-302-16x9.png",
   "file_4x5": "assets/fr-01-302-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,9 @@
       "sha256": "59729a0575c21395f8f66df680928a808da150f1ceebb2352593356779674215"
     }
   },
-  "sha256_4x5": "59729a0575c21395f8f66df680928a808da150f1ceebb2352593356779674215"
+  "sha256_4x5": "59729a0575c21395f8f66df680928a808da150f1ceebb2352593356779674215",
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10 batch2: PASS on all five gates. FR-01-302** (Château de Serrant, Saint-Georges-sur-Loire, night): Renaissance château with conical slate towers, moonlit, reflected in the moat. Caption \"Château de Serrant, Saint-Georges-sur-Loire\", scenario \"24 September 2026 · 00:00 Europe/Paris\". 1920x1270 PNG verified. Weather retrieval 2026-09-25T23:54:43, per-scene own call. Text-prompt-only; no people/logos. Night.\n\n**FR-01-304** (Château ",
+  "approved_at": "2026-10-10T11:44:00-04:00",
+  "sha256_file_16x9": "9954ee66ea440d20415c95622654bf73b8c373725fd31872159de1c44fef2926"
 }
