@@ -5,7 +5,7 @@
   "city": "Terres Basses",
   "caption": "Baie Nettlé, Terres Basses",
   "scenario_label": "23 September 2026 · 17:45 America/Marigot",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-273-16x9.png",
   "file_4x5": "assets/fr-01-273-4x5.png",
   "sha256_16x9": "54ae9db507b1ab38eedc9f341f11c64d5aa92697b0a3c1ff41543257d5ae86ce",
@@ -21,5 +21,9 @@
       "sha256": "fc5f749f965a13dabd59f933104666e637ecf440c9407f853eab5267c2564cb8"
     }
   },
-  "sha256_4x5": "fc5f749f965a13dabd59f933104666e637ecf440c9407f853eab5267c2564cb8"
+  "sha256_4x5": "fc5f749f965a13dabd59f933104666e637ecf440c9407f853eab5267c2564cb8",
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10 batch2: PASS on all five gates. FR-01-273** (Baie Nettlé, Terres Basses, Saint-Martin, daylight): Wide sandy beach under overcast sky, gentle surf, horizon line. Caption \"Baie Nettlé, Terres Basses\", scenario \"23 September 2026 · 17:45 America/Marigot\". 1920x1270 PNG verified. Weather retrieval 2026-09-25T23:53:59, per-scene own call. Text-prompt-only; no people/logos. Flat and washed-out but recognizable beach — use-smart QC pa",
+  "approved_at": "2026-10-10T11:44:00-04:00",
+  "sha256_file_16x9": "54ae9db507b1ab38eedc9f341f11c64d5aa92697b0a3c1ff41543257d5ae86ce"
 }
