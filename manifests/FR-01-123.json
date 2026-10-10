@@ -9,7 +9,7 @@
   "description": "The recorded tourist view is cobbled rue des Rondes / Place de la Halle stone medieval street inside ramparts. The place named on the card is Pérouges medieval hill town, Pérouges, in Auvergne-Rhône-Alpes. Model data from Open-Meteo, retrieved 2026-09-29T22:11:48+02:00 (2026-09-29T20:11:48Z), valid 2026-09-23T18:00 Europe/Paris — not a verified on-site observation. Weather code 0 (clear), cloud cover 11%, 26.8°C, wind 7.2 km/h, precipitation 0.0 mm.",
   "alt_text": "AI-generated artistic interpretation of Pérouges medieval hill town under clear late-afternoon light",
   "file_16x9": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-123-16x9.png?v=wx12329",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_4x5": "https://devlij.github.io/jason-ds-vision-france-preview/assets/fr-01-123-4x5.png?v=wx12329",
   "weather_provider": "Open-Meteo",
   "weather_model": "meteofrance_arome_france",
@@ -38,5 +38,11 @@
       "by": "Cosmo QC",
       "note": "Cosmo QC 2026-10-09 Gate 2 hold: residual ghost-scrim text baked over the photo area (native-resolution confirmed over the cobbles). Same 2026-09-29 refinish residue as FR-01-122. Rework: clean finish, no text over the artwork."
     }
-  ]
+  ],
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10: PASS. Cobbled medieval street between stone houses rising to hilltop within ramparts; warm late-day light. Caption 'Pérouges medieval hill town', scenario '23 September 2026 · 18:15 Europe/Paris' inside model hour 18:00 (retrieval 2026-09-29T22:11:48+02:00, code 0, cloud 11%). 1920x1270/864x1270/1080x2110 verified. Text-prompt-only; no people/logos. Daylight.",
+  "approved_at": "2026-10-10T10:20:00-04:00",
+  "sha256_file_16x9": "a8fdb79d29bf92842af0884bf2a059c9b05218d8d67a9ae47b7445ffcaff4456",
+  "sha256_file_4x5": "53c5e884b4a01e8c3b833ab7303266adfc1134ef95b4d5369b7d75ef0786e3e0",
+  "sha256_file_9x16": "e79031d9baf2ccdfd72a087cfbd42f704224c5355b66c84903f66a17d6120eb4"
 }
