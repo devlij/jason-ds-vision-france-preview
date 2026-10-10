@@ -2,10 +2,10 @@
   "entry_id": "FR-01-190",
   "country": "France",
   "region": "Pays de la Loire",
-  "city": "Brissac-Quincé",
-  "caption": "Château de Brissac, Brissac-Quincé",
-  "scenario_label": "23 September 2026 · 22:30 Europe/Paris",
-  "approval_status": "Candidate",
+  "city": "Brissac-Quinc\u00e9",
+  "caption": "Ch\u00e2teau de Brissac, Brissac-Quinc\u00e9",
+  "scenario_label": "23 September 2026 \u00b7 22:30 Europe/Paris",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-190-16x9.png",
   "file_4x5": "assets/fr-01-190-4x5.png",
   "daylight_variant": {
@@ -32,10 +32,10 @@
       "4x5": "12a9cf96ee12aebe59f0113d7c9237d27d3a592e348ec02f22605baa99deffc4"
     },
     "created_date": "2026-09-26",
-    "on_image_caption": "Château de Brissac, Brissac-Quincé",
-    "on_image_signature": "Jason D’s Vision",
-    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
-    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "on_image_caption": "Ch\u00e2teau de Brissac, Brissac-Quinc\u00e9",
+    "on_image_signature": "Jason D\u2019s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
+    "on_image_marking": "\u2600 Daylight variant \u00b7 derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
@@ -53,13 +53,15 @@
     }
   },
   "sha256_4x5": "6385d10ca6097e5001edb72180eebb97715c0671c351a196edeace7e3f8d62e9",
-  "qc_status": "Candidate — reverted 2026-09-30 (see latest qc_note)",
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
   "reverted_at": "2026-09-30T07:40:08.142475+00:00",
   "qc_notes": [
     {
       "at": "2026-09-30T07:40:08.142475+00:00",
       "by": "Cosmo QC",
-      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): Shown as a long symmetrical multi-storey rectangular block with a uniform window grid; the real Château de Brissac (tallest Loire château) is defined by two massive medieval round towers framing an unfinished, taller Renaissance pavilion with layered/asymmetric façades — not a regular barracks-like bar. Gate 1 hold — rework: render the true two-tower plus pavilion massing. Scene stays Candidate until Cosmo QC re-audits."
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): Shown as a long symmetrical multi-storey rectangular block with a uniform window grid; the real Ch\u00e2teau de Brissac (tallest Loire ch\u00e2teau) is defined by two massive medieval round towers framing an unfinished, taller Renaissance pavilion with layered/asymmetric fa\u00e7ades \u2014 not a regular barracks-like bar. Gate 1 hold \u2014 rework: render the true two-tower plus pavilion massing. Scene stays Candidate until Cosmo QC re-audits."
     }
-  ]
+  ],
+  "approved_at": "2026-10-10T08:08:17.729947+00:00",
+  "approval_basis": "Ch\u00e2teau de Brissac: articulated massing with central pavilion and spired pavilions (brightened audit) \u2014 clears 2026-09-30 hold by re-audit. Label bar: Ch\u00e2teau de Brissac, Brissac-Quinc\u00e9, 23 September 2026 \u00b7 22:30 Europe/Paris. Weather 2026-09-25T23:51:15Z. Ghost remnants cosmetic. Text-prompt-only."
 }
