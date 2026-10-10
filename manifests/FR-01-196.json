@@ -1,10 +1,10 @@
 {
   "entry_id": "FR-01-196",
   "country": "France",
-  "region": "Nouvelle-Cal\u00e9donie",
-  "city": "Hiengh\u00e8ne",
-  "caption": "La Poule de Hiengh\u00e8ne, Hiengh\u00e8ne",
-  "scenario_label": "24 September 2026 \u00b7 07:45 Pacific/Noumea",
+  "region": "Nouvelle-Calédonie",
+  "city": "Hienghène",
+  "caption": "La Poule de Hienghène, Hienghène",
+  "scenario_label": "24 September 2026 · 07:45 Pacific/Noumea",
   "approval_status": "Approved",
   "file_16x9": "assets/fr-01-196-16x9.png",
   "file_4x5": "assets/fr-01-196-4x5.png",
@@ -22,7 +22,10 @@
     }
   },
   "sha256_4x5": "3cbcb1735ae08288e162b021aa79a71611d804a905cedcc7c8a339071109a54e",
-  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Daylight",
-  "approved_at": "2026-10-10T08:08:17.729947+00:00",
-  "approval_basis": "La Poule de Hiengh\u00e8ne: hen-shaped rock, tsingy islets, lagoon from belvedere. Label bar: La Poule de Hiengh\u00e8ne, Hiengh\u00e8ne, 24 September 2026 \u00b7 07:45 Pacific/Noumea. Weather 2026-09-23T20:52:40Z (is_day 1). No ghost text. Text-prompt-only."
+  "qc_status": "Approved",
+  "approved_at": "2026-10-10T10:20:00-04:00",
+  "approval_basis": "France QC 2026-10-10: PASS. Brooding Hen black-limestone rock from roadside belvedere, jagged Lindéralique cliffs, lagoon and reef beyond, morning light. Caption 'La Poule de Hienghène, Hienghène', scenario '24 September 2026 · 07:45 Pacific/Noumea' (retrieval 2026-09-23T20:52:40Z, code 1, cloud 24%). 1920x1270/864x1270/1080x2110 verified. Text-prompt-only; no people/logos. Daylight.",
+  "sha256_file_16x9": "0b4632ad3a05366523b304a99ec43c9bdaf1447394152ce3f417f52387c49639",
+  "sha256_file_4x5": "3cbcb1735ae08288e162b021aa79a71611d804a905cedcc7c8a339071109a54e",
+  "sha256_file_9x16": "4acd35f655bdff04bf22a75653fa82b40e4731452ecf9f14c2f51226c49c8d1f"
 }
