@@ -5,7 +5,7 @@
   "city": "Saint-Leu",
   "caption": "Le Souffleur, Saint-Leu",
   "scenario_label": "24 September 2026 · 01:45 Indian/Reunion",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-279-16x9.png",
   "file_4x5": "assets/fr-01-279-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,9 @@
       "sha256": "b46c317ef9a2d7a74c8c35fb2716ffe2c8aa46b263d8189bdbc0211fd67d9bf5"
     }
   },
-  "sha256_4x5": "b46c317ef9a2d7a74c8c35fb2716ffe2c8aa46b263d8189bdbc0211fd67d9bf5"
+  "sha256_4x5": "b46c317ef9a2d7a74c8c35fb2716ffe2c8aa46b263d8189bdbc0211fd67d9bf5",
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10 batch2: PASS on all five gates. FR-01-279** (Le Souffleur, Saint-Leu, Réunion, night): Rocky volcanic coastline, dark basalt shore meeting the ocean under heavy cloud at 01:45. Caption \"Le Souffleur, Saint-Leu\", scenario \"24 September 2026 · 01:45 Indian/Reunion\". 1920x1270 PNG verified. Weather retrieval 2026-09-25T23:54:08, per-scene own call. Text-prompt-only; no people/logos. Night.\n\n**FR-01-288** (Château de Hautefort, Haut",
+  "approved_at": "2026-10-10T11:44:00-04:00",
+  "sha256_file_16x9": "59040c9f25d1ea72fd7cd5f9fad4c0fd0203c98b5f901934f8cb475198814bf8"
 }
