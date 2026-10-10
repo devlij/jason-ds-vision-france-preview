@@ -1,11 +1,11 @@
 {
   "entry_id": "FR-01-159",
   "country": "France",
-  "region": "Bourgogne-Franche-Comt\u00e9",
+  "region": "Bourgogne-Franche-Comté",
   "city": "Belfort",
   "caption": "Lion de Belfort, Belfort",
-  "scenario_label": "23 September 2026 \u00b7 22:00 Europe/Paris",
-  "approval_status": "Approved",
+  "scenario_label": "23 September 2026 · 22:00 Europe/Paris",
+  "approval_status": "Candidate",
   "file_16x9": "assets/fr-01-159-16x9.png",
   "file_4x5": "assets/fr-01-159-4x5.png",
   "daylight_variant": {
@@ -33,9 +33,9 @@
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Lion de Belfort, Belfort",
-    "on_image_signature": "Jason D\u2019s Vision",
-    "on_image_disclosure": "AI-generated artistic interpretation \u00b7 Not a photograph.",
-    "on_image_marking": "\u2600 Daylight variant \u00b7 derived from the night interpretation",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
@@ -53,15 +53,20 @@
     }
   },
   "sha256_4x5": "11d5b43cb795ee33dc3ba5d1845993511af8e1e68d5a27d69ca052dd8a49a0d7",
-  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Night",
+  "qc_status": "Candidate — Gate 1 hold 2026-10-10 (lion orientation)",
   "reverted_at": "2026-09-30T07:39:43.461062+00:00",
   "qc_notes": [
     {
       "at": "2026-09-30T07:39:43.461062+00:00",
       "by": "Cosmo QC",
-      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): Lion shown as a freestanding statue on a rectangular stone plinth set on a lawn in front of the cliff; the real Lion de Belfort is a colossal haut-relief of Vosges sandstone blocks assembled against the citadel cliff on a rockwork pedestal, tightly adossed to the rock face \u2014 not a freestanding lawn monument. Gate 1 hold \u2014 rework: render the true cliff-adossed haut-relief. Scene stays Candidate until Cosmo QC re-audits."
+      "note": "Approval withdrawn 2026-09-30 (Cosmo QC, independent architectural verification, Cosmo re-verified against the authoritative repo master via the git blob API): Lion shown as a freestanding statue on a rectangular stone plinth set on a lawn in front of the cliff; the real Lion de Belfort is a colossal haut-relief of Vosges sandstone blocks assembled against the citadel cliff on a rockwork pedestal, tightly adossed to the rock face — not a freestanding lawn monument. Gate 1 hold — rework: render the true cliff-adossed haut-relief. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "date": "2026-10-10T10:20:00-04:00",
+      "author": "Cosmo (France QC)",
+      "note": "Gate 1 HOLD: lion orientation mirrored — head at viewer's right vs documented west/head-left anchor (verified against Wikipedia and Belfort museums director; statue faces west with broken arrow under paw pointing toward German border). The 16:9 master contradicts the build agent's own geometry anchor. Identifiable deviation under 9.5 visual standard. ACTION: regenerate or mirror the frame to match the real monument (head west / viewer's left from below-cliff viewpoint), keep broken arrow under paw, then re-submit for Cosmo QC. Do NOT approve until reworked."
     }
   ],
   "approved_at": "2026-10-10T08:08:17.729947+00:00",
-  "approval_basis": "Lion de Belfort: 2026-10-06 rework fixed hold \u2014 colossal haut-relief adossed to cliff, not freestanding statue. Label bar: Lion de Belfort, Belfort, 23 September 2026 \u00b7 22:00 Europe/Paris. Weather 2026-09-25T23:50:37Z. No ghost text. Text-prompt-only."
+  "approval_basis": "Lion de Belfort: 2026-10-06 rework fixed hold — colossal haut-relief adossed to cliff, not freestanding statue. Label bar: Lion de Belfort, Belfort, 23 September 2026 · 22:00 Europe/Paris. Weather 2026-09-25T23:50:37Z. No ghost text. Text-prompt-only."
 }
