@@ -5,7 +5,7 @@
   "city": "Bussy-le-Grand",
   "caption": "Château de Bussy-Rabutin, Bussy-le-Grand",
   "scenario_label": "24 September 2026 · 00:15 Europe/Paris",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-320-16x9.png",
   "file_4x5": "assets/fr-01-320-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,9 @@
       "sha256": "55595007b12b7faed65361a8525e2a3141c0b175e77dde57e6ab2cb91ba25817"
     }
   },
-  "sha256_4x5": "55595007b12b7faed65361a8525e2a3141c0b175e77dde57e6ab2cb91ba25817"
+  "sha256_4x5": "55595007b12b7faed65361a8525e2a3141c0b175e77dde57e6ab2cb91ba25817",
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10 batch2: PASS on all five gates. FR-01-320** (Château de Bussy-Rabutin, Bussy-le-Grand, night): Brick-and-stone château with slate roofs, moonlit, mirrored in the moat. Caption \"Château de Bussy-Rabutin, Bussy-le-Grand\", scenario \"24 September 2026 · 00:15 Europe/Paris\". 1920x1270 PNG verified. Weather retrieval 2026-09-25T23:55:10, per-scene own call. Text-prompt-only; no people/logos. Night.\n\n**FR-01-331** (Phare des îles Sangu",
+  "approved_at": "2026-10-10T11:44:00-04:00",
+  "sha256_file_16x9": "a6edeae43cc9b10e2ae5ba70a15ea919a775f448232f4d233e1d002ce0a1dd7e"
 }
