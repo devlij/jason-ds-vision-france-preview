@@ -5,7 +5,7 @@
   "city": "Langlade",
   "caption": "Phare de Pointe-Plate, Langlade",
   "scenario_label": "23 September 2026 · 20:15 America/Miquelon",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "file_16x9": "assets/fr-01-306-16x9.png",
   "file_4x5": "assets/fr-01-306-4x5.png",
   "daylight_variant": {
@@ -52,5 +52,9 @@
       "sha256": "24d6d99f9c69ef322ff6a4039a08d7e532e71e4a5c43b08a51c2bdf199f0db32"
     }
   },
-  "sha256_4x5": "24d6d99f9c69ef322ff6a4039a08d7e532e71e4a5c43b08a51c2bdf199f0db32"
+  "sha256_4x5": "24d6d99f9c69ef322ff6a4039a08d7e532e71e4a5c43b08a51c2bdf199f0db32",
+  "qc_status": "Approved",
+  "approval_basis": "France QC 2026-10-10 batch2: PASS on all five gates. FR-01-306** (Phare de Pointe-Plate, Langlade, Saint-Pierre-et-Miquelon, night): White lighthouse with red lantern on rocky islet, rough moonlit sea. Caption \"Phare de Pointe-Plate, Langlade\", scenario \"23 September 2026 · 20:15 America/Miquelon\". 1920x1270 PNG verified. Weather retrieval 2026-09-25T23:54:49, per-scene own call. Text-prompt-only; no people/logos. Night.\n\n**FR-01-316** (Beffroi de D",
+  "approved_at": "2026-10-10T11:44:00-04:00",
+  "sha256_file_16x9": "49d44a32ce62efade81c5e21809b4769a97ede3fdf33e4c5838693a30952ed98"
 }
